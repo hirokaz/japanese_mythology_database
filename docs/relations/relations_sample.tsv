@@ -1,0 +1,19 @@
+relation_id	source_id	source_type	relation_type	target_id	target_type	confidence_level	hypothesis_layer	temporal_scope	valid_from	valid_until	source_reference	notes
+RLN-000001	DEI-001	deity	primary_deity_of	SHR-001	shrine	A	L0	document	-	-	出雲国風土記|延喜式神名帳|現代の出雲大社社誌	大国主の出雲大社主祭神化は古代から確実
+RLN-000002	DEI-013	deity	ancestor_deity_of	CLN-001	clan	B	L1	mythic	神代	-	古事記|日本書紀|出雲国造神賀詞	アメノホヒから出雲国造の系譜
+RLN-000003	CLN-005	clan	descended_from	DEI-013	deity	B	L1	mythic	神代	-	先代旧事本紀|古事記	土師氏=アメノホヒ系。CLN-006菅原氏・CLN-007大江氏も同祖
+RLN-000004	DEI-002	deity	syncretized_with	DEI-030	deity	B	L1	estimated	CE 1000	-	備後国風土記逸文|中世神道書	スサノオ=牛頭天王の習合は平安末以降
+RLN-000005	SHR-001	shrine	renamed_to	SHR-001	shrine	A	L0	document	CE 1871	-	太政官布告(明治4年)	canonical=出雲大社、old_name=杵築大社。同一エンティティの改称履歴
+RLN-000006	DEI-010	deity	opposed_to	DEI-011	deity	C	L0	mythic	神代	神代	古事記	国譲り神話で力競べに敗北
+RLN-000007	DEI-001	deity	married_to	DEI-022	deity	C	L0	mythic	神代	-	古事記	タケミナカタ(DEI-010)の母
+RLN-000008	HYP-004	hypothesis	supports	IZM-009	event	B	L2	estimated	CE 100-300	-	津田左右吉|岡田精司|瀧音能之の論考	国譲り政治史仮説が銅鐸祭祀終焉(IZM-009)を支持証拠とする
+RLN-000009	HYP-002	hypothesis	contradicts	IZM-094	event	A	L0	estimated	-	-	大澤正己等の考古学研究	製鉄民征服譚説が古代製鉄炉不在(IZM-094)と矛盾
+RLN-000010	DEI-009	deity	primary_deity_of	SHR-020	shrine	A	L0	document	-	-	出雲国風土記|美保神社社伝	コトシロヌシ=美保神社主祭神
+RLN-000011	RIT-001	ritual	reenacts	MYTH-001	myth_episode	B	L0	mythic	神代	-	美保神社社伝	青柴垣神事(コトシロヌシ服従の再演)
+RLN-000012	MYTH-001	myth_episode	mentioned_in	TXT-001	text	A	L0	document	CE 712	-	古事記	国譲り神話=古事記
+RLN-000013	MYTH-001	myth_episode	mentioned_in	TXT-002	text	A	L0	document	CE 720	-	日本書紀	国譲り神話=日本書紀(本文+異伝多数)
+RLN-000014	MYTH-001	myth_episode	mentioned_in	TXT-003	text	A	L0	document	CE 716以降	-	出雲国造神賀詞|続日本紀|延喜式	国譲り神話=神賀詞、出雲側視点での再構成
+RLN-000015	CLN-008	clan	renamed_to	CLN-008	clan	A	L0	document	CE 645	-	日本書紀	中臣→藤原(同一レコード内のaliases履歴)
+RLN-000016	HYP-006	hypothesis	supports	IZM-013	event	B	L3	estimated	BCE 3000-CE 100	-	寺村光晴|藤田富士夫	翡翠ロード仮説 → IZM-013 出雲翡翠出土
+RLN-000017	HYP-006	hypothesis	supports	IZM-072	event	B	L3	estimated	BCE 3000-CE 100	-	寺村光晴|藤田富士夫	翡翠ロード仮説 → IZM-072(諏訪縄文遺跡)と接続
+RLN-000018	DEI-001	deity	syncretized_with	DEI-014	deity	C	L2	mythic	神代	-	古事記(幸魂奇魂)|HYP-005	大国主と大物主の同体・別体論争
