@@ -524,3 +524,186 @@ S05-S10(relation 拡張)では各 PR で以下:
 | S02 node 拡張 第1群(神話文化層) | ✅ | 43 | 40 |
 | **S03 node 拡張 第2群(祭祀ネットワーク層)** | **✅(本 PR)** | **73** | 40 |
 | S04 node 拡張 第3群(政治・物的層) | 未着手 | 73 → 103 | 40 |
+
+---
+
+## 9. node 拡張 第3群: 政治・物的層 30 種(S04)
+
+政治史・経済史・物的ネットワークの **構造的事象** を独立 node 化する層。既存 `:Event` は **個別事件** を保持し、本層は **戦・盟約・移住・海路・陸路・工房・要害・交易品・政体** 等を独立化する。
+
+### 9.1 一覧表(30 種)
+
+| # | node_type | プレフィックス | Cypher ラベル | 用途 |
+|---|---|---|---|---|
+| N74 | battle | BTL | `:Battle` | 戦・乱(壬申の乱/丁未の乱/承平天慶の乱/元寇) |
+| N75 | rebellion | RBL | `:Rebellion` | 反乱(将門の乱/田村麻呂征討/磐井の乱) |
+| N76 | treaty | TRT | `:Treaty` | 盟約・条約(磐余の三輪盟約/出雲国造神賀詞奏上の儀礼条約) |
+| N77 | political_alliance | PAL | `:PoliticalAlliance` | 政治同盟(大和×物部/大和×蘇我/大和×藤原) |
+| N78 | migration | MGR | `:Migration` | 移住・遷都(神武東征/桓武遷都/応神朝渡来) |
+| N79 | colonization | CLN2 | `:Colonization` | 開拓・開発(屯倉/国府/開発領主) |
+| N80 | seafaring_route | SFR | `:SeafaringRoute` | 海路(玄界灘海北道/瀬戸内/日本海/太平洋) |
+| N81 | trade_route | TRR | `:TradeRoute` | 陸上交易路(東山道/北陸道/海道/古道/塩の道) |
+| N82 | metal_workshop | MWK | `:MetalWorkshop` | 製鉄・鍛冶遺跡(独立化:奥出雲たたら/吉備製鉄/筑紫遺跡) |
+| N83 | metal_object_class | MOC | `:MetalObjectClass` | 金属遺物類型(銅鐸/銅剣/銅鉾/鉄剣/鉄鏃/銅鏡) |
+| N84 | political_capital | PCP | `:PoliticalCapital` | 政治拠点(纒向/飛鳥/平城京/平安京) |
+| N85 | regional_office | ROF | `:RegionalOffice` | 国府・郡衙(国府/評/評督) |
+| N86 | shoen_estate | SEN | `:ShoenEstate` | 荘園(東大寺領/興福寺領/八条院領 等) |
+| N87 | court_position | CPS | `:CourtPosition` | 朝廷職(太政大臣/左右大臣/大納言/参議/中納言) |
+| N88 | military_post | MPT2 | `:MilitaryPost` | 軍事職(征夷大将軍/鎮守府将軍/防人/衛士) |
+| N89 | tax_system | TXS | `:TaxSystem` | 税制(調庸/雑徭/田租/年貢/段銭) |
+| N90 | land_system | LSY | `:LandSystem` | 土地制度(班田収授/三世一身/墾田永年/職田) |
+| N91 | sumptuary_law | SLW | `:SumptuaryLaw` | 律令(大宝律令/養老律令/延喜式/類聚三代格) |
+| N92 | political_reform | PRF | `:PoliticalReform` | 政治改革(大化改新/律令制/院政/武家政治) |
+| N93 | dynastic_period | DPD | `:DynasticPeriod` | 王朝期(古墳期/飛鳥期/奈良期/平安期/院政期/鎌倉期) |
+| N94 | regnal_era | RGE | `:RegnalEra` | 元号(大化/天武/和銅/延喜 等) |
+| N95 | calendar_system | CSY | `:CalendarSystem` | 暦法(元嘉暦/儀鳳暦/宣明暦) |
+| N96 | court_ceremony | CCR | `:CourtCeremony` | 宮中儀礼(即位礼/大嘗祭/朔旦冬至/朝賀) |
+| N97 | imperial_burial | IBR | `:ImperialBurial` | 陵墓(大仙陵/箸墓/天武持統合葬陵) |
+| N98 | mound_class | MCL | `:MoundClass` | 古墳類型(前方後円墳/円墳/方墳/上円下方墳/八角墳) |
+| N99 | sea_lane | SEL | `:SeaLane` | 海上交易レーン(対朝鮮/対唐/対宋/対渤海) |
+| N100 | port | PRT | `:Port` | 港湾(難波津/博多/敦賀/大輪田泊/平泉) |
+| N101 | road_station | RDS | `:RoadStation` | 駅・宿(東山道駅/伝馬/関所) |
+| N102 | tax_office | TOF | `:TaxOffice` | 税徴収拠点(大税官倉/正倉) |
+| N103 | political_event | PEV | `:PoliticalEvent` | 政治事件(摂関政治確立/院政成立/承久の乱) |
+
+→ **N74-N103 で 30 種**(累計 73 + 30 = **103 種** で目標達成)
+
+### 9.2 既存 node との重複・分離規程
+
+| 拡張 node | 重複の可能性 | 解決 |
+|---|---|---|
+| N74 battle / N75 rebellion / N103 political_event | `:Event` と概念重複 | event = 一般的事件、battle/rebellion/political_event は **特化サブクラス**。重複時は `:Event` を残し、特化 node を別途持つ |
+| N76 treaty / N77 political_alliance | `:Event` / 既存 allied_with 関係と重複 | treaty/alliance は **永続的構造**(関係の集合)。event はその発生時点 |
+| N78 migration / N79 colonization | `:Event` 内の事件として扱われがち | 特化 node 化(神武東征は migration、屯倉設置は colonization) |
+| N80 seafaring_route / N81 trade_route | `:Region` と異なる(地理的 path) | 始点/終点は region、path 自体を独立 node 化 |
+| N82 metal_workshop | `:Site`(archaeological_site)の特化 | site のサブセット。`:HAS_WORKSHOP_TYPE` で分類 |
+| N83 metal_object_class | `:Artifact` の **類型**(個体ではなく分類) | 銅鐸 1 個は :Artifact(ART-001)、銅鐸 *類型* は :MetalObjectClass(MOC-001) |
+| N84-N86 political_capital / regional_office / shoen_estate | `:Region` の特化 | 政治拠点は region のサブセット。`:LOCATED_AT_REGION` |
+| N87 court_position / N88 military_post | `:Title` と部分重複 | title = 神格カテゴリ・社格、court_position = 朝廷職。両者は別系統 |
+| N89-N91 tax/land/sumptuary | `:Text`(法文)と区別 | text は文献単位、これらは制度単位 |
+| N93 dynastic_period | `:Region.era`(プロパティ)と区別 | dynastic_period = 独立 node、政治史の時代区分 |
+| N94 regnal_era | `:Event.estimatedHistoricalTime` で記述可 | 元号は独立 node 化(複数年数年に渡るため node 化が便利) |
+| N97 imperial_burial | `:Site`(古墳)と部分重複 | imperial_burial は **皇族陵墓** の特定。一般古墳との区別 |
+| N98 mound_class | `:Artifact` ではなく `:Site` の類型 | 古墳 *類型* を独立 node 化 |
+| N99 sea_lane | seafaring_route と部分重複 | sea_lane = 国際路線(対朝鮮等)、seafaring_route = 国内航路 |
+| N100 port | `:Region` のサブセット | 港湾を独立 node 化(海路 path の端点) |
+
+### 9.3 主要 node の必須プロパティ詳細
+
+#### N74. battle(BTL — `:Battle`)
+
+- **必須**: `master_id`、`canonical_name`、`occurred_year`、`location_region_id`
+- **任意**: `participating_clan_ids` (List)、`outcome`、`source_text_ids`、`historicity_level`
+- **代表事例**: 壬申の乱(672)、丁未の乱(587)、承平天慶の乱(935-941)、平治の乱(1159)、源平合戦、元寇(1274/1281)、磐井の乱(527)、乙巳の変(645、political_event 寄り)
+
+#### N75. rebellion(RBL — `:Rebellion`)
+
+- battle のサブクラスとして「反乱」性格を強調
+- 代表事例: 平将門の乱、藤原純友の乱、田村麻呂による蝦夷征討(中央視点での反乱鎮圧)、阿弖流為の戦い(地方視点)、保元・平治の乱
+
+#### N76. treaty(TRT — `:Treaty`)
+
+- 盟約・条約・服属儀礼の独立 node 化
+- 代表事例: 出雲国造神賀詞奏上(永続化された服属儀礼)、磐余の三輪盟約、白村江後の対唐和議、日宋貿易協定
+
+#### N78. migration(MGR — `:Migration`)
+
+- 集団移動を独立 node 化
+- 代表事例: 神武東征(神話的 migration)、応神朝渡来(秦氏・東漢・西文の移住)、桓武遷都(平城→平安)、安曇族信濃移住、出雲族の出雲入植仮説
+
+#### N80-N81. seafaring_route / trade_route
+
+- 海路・陸路を **path 化**
+- seafaring 代表: 玄界灘海北道、瀬戸内海路、日本海(出雲→北陸→東北)、太平洋(房総→紀伊)、那智補陀落航路
+- trade 代表: 五畿七道(東海道/東山道/北陸道/山陰道/山陽道/南海道/西海道)、塩の道(信州)、能登街道、奥羽街道
+
+#### N82. metal_workshop(MWK — `:MetalWorkshop`)
+
+- 製鉄・鍛冶遺跡の独立 node 化
+- 代表事例: 奥出雲菅谷たたら、吉備古代製鉄遺跡群、筑紫鍛冶遺跡、北部九州渡来製鉄炉、桜井茶臼山古墳鍛冶遺構
+
+#### N83. metal_object_class(MOC — `:MetalObjectClass`)
+
+- 金属遺物の **類型**(個体ではなく分類)
+- 代表事例: 銅鐸(扁平鈕式/突線鈕式/見る銅鐸/聞く銅鐸)、銅剣(平形/中広形/中細形)、銅鉾、銅矛、神獣鏡、三角縁神獣鏡、画文帯神獣鏡、内行花文鏡、鉄剣、鉄鏃
+
+#### N84-N86. 政治空間 3 種
+
+- political_capital: 纒向、飛鳥京、藤原京、平城京、長岡京、平安京、福原京、鎌倉(武家)
+- regional_office: 出雲国府、伊勢国府、武蔵国府、各国府(国衙)、評(後の郡衙)
+- shoen_estate: 東大寺領(初期)、興福寺領、八条院領、平氏知行国、源氏知行国
+
+#### N87-N88. 朝廷職・軍事職
+
+- court_position: 太政大臣、左大臣、右大臣、内大臣、大納言、中納言、参議、八省卿、神祇官、太政官
+- military_post: 征夷大将軍、鎮守府将軍、防人、衛士、滝口、検非違使
+
+#### N89-N91. 制度系
+
+- tax_system: 調(布)/庸(米)/雑徭/田租/正税/年貢/段銭/棟別銭
+- land_system: 班田収授法、三世一身法、墾田永年私財法、口分田、職田、神田、寺田
+- sumptuary_law: 大宝律令(701)、養老律令(718制定/757施行)、延喜式(927)、類聚三代格
+
+#### N92. political_reform(PRF)
+
+- 政治改革・体制変革
+- 代表事例: 大化改新(645-)、律令制成立、班田制、墾田制移行、摂関政治確立(藤原良房 858)、院政開始(白河院 1086)、武家政治成立(源頼朝 1192)
+
+#### N93-N95. 時間制度 3 種
+
+- dynastic_period: 古墳期(3-7C)、飛鳥期(593-710)、奈良期(710-794)、平安期(794-1185)、院政期(1086-1192)、鎌倉期(1192-1333)
+- regnal_era: 大化(645-650)、白雉(650-)、朱鳥(686)、大宝(701-)、和銅(708-)、延喜(901-) 等
+- calendar_system: 元嘉暦、儀鳳暦、大衍暦、五紀暦、宣明暦(862-1684)
+
+#### N96. court_ceremony(CCR)
+
+- 宮中儀礼
+- 代表事例: 即位礼、大嘗祭、新嘗祭、神嘗祭(伊勢)、朔旦冬至、朝賀、節会、御神楽
+
+#### N97-N98. 古墳系
+
+- imperial_burial: 大仙陵(伝仁徳)、箸墓(伝倭迹迹日百襲姫)、天武持統合葬陵、桓武陵
+- mound_class: 前方後円墳、円墳、方墳、前方後方墳、上円下方墳、八角墳、双方中円墳
+
+#### N99-N101. 海陸交通
+
+- sea_lane: 対朝鮮(対馬経由)、対唐(東路/西路)、対宋(博多)、対渤海(能登/出羽経由)、対琉球
+- port: 難波津、博多、敦賀、大輪田泊(平氏)、平泉(陸奥)、那珂湊、住吉津、生駒津
+- road_station: 東山道駅、東海道駅、伝馬、関所(三関:逢坂・不破・鈴鹿)
+
+#### N102-N103.
+
+- tax_office: 大税官倉、正倉、国府正税倉
+- political_event: 摂関政治確立、院政成立、平治の乱、保元の乱、承久の乱、文永弘安の役
+
+### 9.4 主要追加 relation の予告(S05-S10 で詳細)
+
+- `:FOUGHT_AGAINST` (clan/emperor → battle)
+- `:OUTCOME_OF` (battle → political_reform)
+- `:SIGNED_TREATY` (clan/emperor → treaty)
+- `:MIGRATED_FROM_TO` (clan → migration → region)
+- `:CONNECTS_REGIONS` (seafaring_route/trade_route → region × 2)
+- `:WORKSHOP_PRODUCED` (metal_workshop → metal_object_class)
+- `:OBJECT_CLASS_OF` (artifact → metal_object_class)
+- `:CAPITAL_AT` (dynastic_period → political_capital)
+- `:HOLDS_COURT_POSITION` (clan → court_position)
+- `:GOVERNED_BY_TAX` (region → tax_system)
+- `:LAND_OWNED_BY` (shoen_estate → clan/temple)
+- `:DURING_ERA` (event/battle → regnal_era)
+- `:BURIED_AT` (emperor → imperial_burial)
+- `:MOUND_TYPE_OF` (imperial_burial → mound_class)
+- `:PORT_AT_REGION` (port → region)
+- `:CALENDAR_USED_IN` (calendar_system → dynastic_period)
+
+### 9.5 進捗更新
+
+| サブタスク | 状態 | 累計 node | 累計 relation |
+|---|---|---|---|
+| S01 章立て・整合表 | ✅ | 13 | 40 |
+| S02 node 拡張 第1群(神話文化層) | ✅ | 43 | 40 |
+| S03 node 拡張 第2群(祭祀ネットワーク層) | ✅ | 73 | 40 |
+| **S04 node 拡張 第3群(政治・物的層)** | **✅(本 PR)** | **103 ✓** | 40 |
+| S05 relation 拡張 第1群 | 未着手 | 103 | 40 → 90 |
+| S06-S10 relation 拡張 | 未着手 | 103 | 90 → 340 |
+
+→ **node 拡張完了**。100+ node 目標達成(13 既存 + 90 新規 = **103 種**)。
