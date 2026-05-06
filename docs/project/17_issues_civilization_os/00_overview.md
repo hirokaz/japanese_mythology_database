@@ -94,3 +94,8 @@ Phase 3:
    ├── #130 神話モチーフ(motif → relation の順)
    └── #132 relation 生成(35 type × 地域別)
 ```
+
+
+## 6. 関連(横断レビュー/討論)
+
+- `docs/project/19_docs_review_and_discussion_issues.md`: docs 改善 issue と Claude/Codex 討論 issue の起票草案。
