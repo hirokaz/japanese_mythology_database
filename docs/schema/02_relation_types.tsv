@@ -1,0 +1,41 @@
+relation_type	category	directed	source_node_type	target_node_type	意味	使用例	注意事項
+enshrined_at	神社祭祀	directed	deity	shrine	祭神として祀られる	DEI-001 大国主 → enshrined_at → SHR-001 出雲大社	主祭神/配祀神は primary_/secondary_ で区別
+primary_deity_of	神社祭祀	directed	deity	shrine	主祭神	DEI-001 → primary_deity_of → SHR-001	enshrined_at の特化
+secondary_deity_of	神社祭祀	directed	deity	shrine	配祀神	-	-
+has_subordinate_shrine	神社祭祀	directed	shrine	shrine	摂社・末社の関係	SHR-001 → has_subordinate_shrine → SHR-NN	-
+located_in	神社祭祀	directed	shrine|archaeological_site	region	地理的所在	SHR-001 → located_in → REG-NN(出雲)	-
+parent_of	系譜	directed	deity|emperor	deity|emperor	親子関係	DEI-002 スサノオ → parent_of → DEI-NN クシナダ系子孫	入力簡便のため child_of も許容
+child_of	系譜	directed	deity|emperor	deity|emperor	子(parent_of の逆)	-	parent_of との重複は採番時に統合
+sibling_of	系譜	undirected	deity|emperor	deity|emperor	兄弟姉妹	アマテラス ↔ スサノオ	片方向 1 行のみ記録
+married_to	系譜	undirected	deity|emperor	deity|emperor	婚姻	大国主 ↔ ヌナカワヒメ	片方向 1 行のみ記録
+descended_from	系譜	directed	clan	deity|clan	系譜上の祖	CLN-001 出雲国造 → descended_from → DEI-NN アメノホヒ	-
+ancestor_deity_of	系譜	directed	deity	clan	祖神	DEI-NN アメノホヒ → ancestor_deity_of → CLN-001 出雲国造	descended_from の逆視点
+syncretized_with	神格同体	undirected	deity	deity	神仏習合・同体視	スサノオ ↔ 牛頭天王	hypothesis_layer 必須
+same_as	神格同体	undirected	deity	deity	同一神確定(別名統合)	大国主 ↔ オオナムチ	確定したら merged_into で統合推奨
+has_alias	神格同体	directed	deity	deity	別名関係	-	merged_into 候補
+has_title	神格同体	directed	deity|shrine	title	神格カテゴリ・社格	大国主 → has_title → 国魂神	-
+regional_variant_of	神格同体	directed	deity	deity	地方変異名	-	-
+controlled_by	政治支配	directed	region|clan	clan|emperor	政治支配される	REG-NN 出雲 → controlled_by → CLN-NN ヤマト王権	-
+ruled	政治支配	directed	clan|emperor	region	支配した	-	-
+allied_with	政治支配	undirected	clan	clan	同盟	-	-
+opposed_to	政治支配	undirected	clan|deity	clan|deity	敵対	タケミナカタ ↔ タケミカヅチ	-
+served	政治支配	directed	clan|emperor	emperor	仕えた	-	-
+renamed_to	政治支配	directed	clan|shrine	clan|shrine	改称(時系列)	杵築大社 → renamed_to → 出雲大社	merged_into との使い分けに注意
+participated_in	神話事象	directed	deity|clan|emperor	myth_episode|event	登場・参加	大国主 → participated_in → MYTH-001 国譲り神話	-
+occurred_in	神話事象	directed	myth_episode|event	region	発生地	国譲り → occurred_in → 出雲(稲佐の浜)	-
+triggered	神話事象	directed	myth_episode|event	myth_episode|event	因果関係	アメノワカヒコ背信 → triggered → 雉鳴女派遣	-
+variant_of	神話事象	directed	myth_episode	myth_episode	異伝関係	古事記国譲り → variant_of → 神賀詞国譲り	-
+mentioned_in	文献出典	directed	任意	text	文献に言及される	国譲り → mentioned_in → 古事記	複数文献は別レコード
+primary_source_for	文献出典	directed	text	任意	一次出典	古事記 → primary_source_for → ヤマタノオロチ退治	-
+authored_by	文献出典	directed	text	emperor|clan	編纂・撰進	古事記 → authored_by → 太安万侶	-
+found_at	考古	directed	artifact	archaeological_site	出土地	銅鐸39口 → found_at → 加茂岩倉遺跡	-
+dated_to	考古	directed	artifact|archaeological_site	period(文字列)	時代帰属	-	period は当面文字列、将来 era_master 化検討
+archaeologically_linked	考古	directed	archaeological_site|artifact	myth_episode|deity	考古学的対応(仮説的)	銅鐸埋納 → archaeologically_linked → 国譲り神話	hypothesis_layer 必須
+performed_at	祭祀	directed	ritual	shrine	行われる場所	青柴垣神事 → performed_at → 美保神社	-
+reenacts	祭祀	directed	ritual	myth_episode	神話の再演	青柴垣神事 → reenacts → コトシロヌシ服従	-
+performed_by	祭祀	directed	ritual	clan|emperor	主催者	神賀詞奏上 → performed_by → 出雲国造	-
+supports	仮説	directed	hypothesis	任意	支持証拠	HYP-001 国譲り政治史仮説 → supports → SITE-001 荒神谷遺跡	-
+contradicts	仮説	directed	hypothesis	任意	反証	HYP-002 ヤマタノオロチ製鉄民説 → contradicts → 古代製鉄炉不在	-
+proposed_by	仮説	directed	hypothesis	text|clan|emperor	提唱者	HYP-NN → proposed_by → 津田左右吉	-
+merged_into	メタ	directed	任意	任意	同一視確定で統合	DEI-旧 → merged_into → DEI-新	旧IDを残しつつ統合
+supersedes	メタ	directed	任意	任意	改訂で旧版を置換	-	-
