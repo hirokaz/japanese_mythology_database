@@ -361,3 +361,166 @@ S05-S10(relation 拡張)では各 PR で以下:
 | **S02 node 拡張 第1群(神話文化層)** | **✅(本 PR)** | **43** | 40 |
 | S03 node 拡張 第2群(祭祀ネットワーク層) | 未着手 | 43 → 73 | 40 |
 | S04 node 拡張 第3群(政治・物的層) | 未着手 | 73 → 103 | 40 |
+
+---
+
+## 8. node 拡張 第2群: 祭祀ネットワーク層 30 種(S03)
+
+祭祀の **集合的・組織的・ネットワーク的** 側面を独立 node 化する層。既存 `:Ritual` は **個別祭祀** を保持し、本層は **巡礼路 / 祭礼 / 託宣 / 神社系統 / 神職役職 / 入門儀礼 / 講** を独立化する。
+
+### 8.1 一覧表(30 種)
+
+| # | node_type | プレフィックス | Cypher ラベル | 用途 |
+|---|---|---|---|---|
+| N44 | pilgrimage | PIL | `:Pilgrimage` | 巡礼路(熊野古道/伊勢参宮/西国三十三所) |
+| N45 | pilgrimage_station | PLS | `:PilgrimageStation` | 巡礼路の駅(王子社/札所/番所) |
+| N46 | festival | FES | `:Festival` | 大規模祭礼(神在祭/葵祭/祇園祭/御柱祭) |
+| N47 | matsuri_pattern | MPT | `:MatsuriPattern` | 祭の類型(渡御祭/湯立祭/お練り) |
+| N48 | oracle | ORC | `:Oracle` | 託宣事象(宇佐託宣/諏訪御渡託宣/出雲神在月) |
+| N49 | divination | DVN | `:Divination` | 占い(亀卜/太占/鹿卜/夢占) |
+| N50 | shrine_lineage | SLN | `:ShrineLineage` | 神社系統(熊野系/八幡系/春日系/稲荷系/天満宮系) |
+| N51 | shrine_network | SNW | `:ShrineNetwork` | 神社ネットワーク(東国三社/出雲三社/伊勢別宮) |
+| N52 | priest_role | PRR | `:PriestRole` | 神職役職(大祝/神長官/宮司/禰宜/権禰宜) |
+| N53 | priest_lineage | PRL | `:PriestLineage` | 神職家系(度会家/荒木田家/守矢家/千家家/北島家) |
+| N54 | initiation | INT | `:Initiation` | 入門・成人儀礼(物忌の元服/ノロ就任/聞得大君即位) |
+| N55 | shamanic_role | SHR2 | `:ShamanicRole` | 巫女・シャーマン役割(斎宮/聞得大君/ノロ/ユタ/イタコ) |
+| N56 | religious_school | RSK | `:ReligiousSchool` | 神道流派(吉田神道/伊勢神道/復古神道/教派神道) |
+| N57 | shugenja_school | SGS | `:ShugenjaSchool` | 修験道派(本山派/当山派/羽黒派/英彦山派) |
+| N58 | ritual_calendar | RCL | `:RitualCalendar` | 祭祀暦(節句/二十四節気/六輝) |
+| N59 | ritual_object_class | ROC | `:RitualObjectClass` | 祭具類(玉串/榊/注連縄/幣帛/三方) |
+| N60 | offering | OFR | `:Offering` | 神饌・奉納(初穂/酒/米/魚/絹) |
+| N61 | sacrifice | SCR | `:Sacrifice` | 供犠(動物供犠/人身御供伝/即身仏) |
+| N62 | taboo | TBO | `:Taboo` | 禁忌(物忌/血穢/死穢/女人禁制) |
+| N63 | purification_method | PFM | `:PurificationMethod` | 禊・祓の方法(水垢離/塩/塩湯/火渡り) |
+| N64 | sacred_dance | SDC | `:SacredDance` | 神楽・舞(岩戸神楽/巫女舞/獅子舞/田楽) |
+| N65 | sacred_music | SMS | `:SacredMusic` | 雅楽・神事音楽(雅楽/篳篥/太鼓/鈴) |
+| N66 | sacred_text_genre | STG | `:SacredTextGenre` | 祝詞・祭文類型(中臣祓/大祓詞/神賀詞) |
+| N67 | shrine_architecture | SAR | `:ShrineArchitecture` | 社殿様式(神明造/大社造/春日造/流造) |
+| N68 | sacred_garden | SGD | `:SacredGarden` | 神苑(伊勢神苑/出雲神苑) |
+| N69 | torii_class | TRI | `:ToriiClass` | 鳥居様式(神明/明神/三輪/両部) |
+| N70 | shimenawa_class | SMW | `:ShimenawaClass` | 注連縄様式(出雲式/伊勢式/大根締) |
+| N71 | divine_servant | DSV | `:DivineServant` | 神使(春日鹿/熊野八咫烏/稲荷狐/天満宮牛) |
+| N72 | confraternity | CFR | `:Confraternity` | 講(伊勢講/富士講/御嶽講/大師講) |
+| N73 | pilgrimage_circuit | PCC | `:PilgrimageCircuit` | 巡礼霊場群(西国33観音/坂東33/四国88) |
+
+→ **N44-N73 で 30 種**(累計 43 + 30 = 73 種)
+
+### 8.2 既存 node との重複・分離規程
+
+| 拡張 node | 重複の可能性 | 解決 |
+|---|---|---|
+| N46 festival | `:Ritual` と概念重複 | ritual = **個別祭祀の単位**(神嘗祭, 御柱祭 1 件)、festival = **大規模・集合祭礼イベント**(神在月全体)。重複時は両 node + `:RITUAL_PART_OF_FESTIVAL` |
+| N48 oracle | `:Event` と部分重複 | event は政治・歴史事象、oracle は宗教託宣事象。重複時は両 node |
+| N50 shrine_lineage | `:Title`(社格)と異なる | title=社格カテゴリ、shrine_lineage=系統(本社→末社の祭祀系譜) |
+| N52 priest_role | `:Title` と部分重複 | title は神格カテゴリ・社格、priest_role は人事役職。役職継承を `:HOLDS_ROLE` で記述 |
+| N53 priest_lineage | `:Clan` と部分重複 | clan = 政治氏族全体、priest_lineage = 神職継承家(社家)。一致しない場合あり(度会家は地方氏族の中の神職家) |
+| N56 religious_school | `:Hypothesis` / `:Text` と異なる | school=思想流派(度会神道は「学派」)。代表 text を持つ |
+| N57 shugenja_school | religious_school のサブ | religious_school の特殊化として並立 |
+| N67 shrine_architecture | `:Shrine.notes` で記述可 | 様式が文化財として独立認識される場合に node 化(類型化対象) |
+
+### 8.3 主要 node の必須プロパティ詳細
+
+#### N44. pilgrimage(PIL — `:Pilgrimage`)
+
+- **必須**: `master_id`、`canonical_name`、`route_type`(参詣/巡礼/廻国)、`primary_period`、`primary_text_ids`
+- **任意**: `start_region_id`、`end_region_id`、`distance_km`、`unesco_status`、`station_count`
+- **代表事例**: 熊野古道(中辺路/小辺路/大辺路/伊勢路/紀伊路)、伊勢参宮道、西国三十三所、坂東三十三観音、四国八十八ヶ所、出羽三山参詣、白山参詣
+
+#### N45. pilgrimage_station(PLS — `:PilgrimageStation`)
+
+- **必須**: `master_id`、`canonical_name`、`pilgrimage_id`(PIL master_id)、`shrine_or_temple_id`(SHR or 寺院 master_id)、`station_number`
+- **任意**: `coordinates`、`mythic_attribution`、`legend_summary`
+- **代表事例**: 熊野九十九王子(藤代王子/切目王子 等)、西国札所(青岸渡寺/紀三井寺 等)
+
+#### N46. festival(FES — `:Festival`)
+
+- **必須**: `master_id`、`canonical_name`、`host_shrine_ids`(List)、`schedule`(暦日 / 周期)、`scale`(全国/地方/集落)
+- **任意**: `participating_clan_ids`、`origin_myth_id`、`historical_origin_period`、`current_status`
+- **既存 ritual との関係**: festival は **集合的・大規模・神社横断**(神在祭は出雲三社で同時)、ritual は **単一神社の個別祭祀** という分担
+- **代表事例**: 神在祭(出雲)、葵祭(賀茂)、祇園祭(八坂)、御柱祭(諏訪四宮)、神田祭、天神祭、ねぶた祭、那智の火祭
+
+#### N48. oracle(ORC — `:Oracle`)
+
+- **必須**: `master_id`、`canonical_name`、`oracle_giver_deity_id`(DEI)、`oracle_recipient_id`(EMP/CLN/任意)、`occurred_at_year`
+- **任意**: `oracle_content`、`historical_consequence`、`source_text_ids`
+- **代表事例**: 宇佐託宣(道鏡事件、769)、八幡神東大寺顕現(749)、諏訪御渡託宣(年占)、出雲神在月集合
+
+#### N49. divination(DVN — `:Divination`)
+
+- 占い手法を独立 node 化
+- 代表事例: 亀卜(中臣)、太占(忌部)、鹿卜(諏訪御頭祭)、夢占、卜部の占い
+
+#### N50. shrine_lineage(SLN — `:ShrineLineage`)
+
+- **必須**: `master_id`、`canonical_name`、`origin_shrine_id`、`lineage_type`(本社→末社/分祀)
+- **代表事例**: 熊野系(熊野権現分祀)、八幡系(宇佐→石清水→鶴岡)、春日系、稲荷系、天満宮系、諏訪系、白山系、富士浅間系、出雲系
+
+#### N52-N53. priest_role / priest_lineage
+
+- 役職: 大祝 / 神長官 / 宮司 / 禰宜 / 権禰宜 / 国造神職 / 物忌 / 斎宮 / 童女
+- 系統: 度会家 / 荒木田家 / 守矢家 / 千家家 / 北島家 / 阿蘇家 / 卜部家 / 麻続部
+
+#### N55. shamanic_role(SHR2 — `:ShamanicRole`)
+
+- 巫女・シャーマン役割の類型化(役職の本人とは別)
+- 代表事例: 斎宮、ノロ、ユタ、イタコ、巫女(中世以降)、聞得大君、童女
+
+#### N56. religious_school(RSK — `:ReligiousSchool`)
+
+- 神道流派・思想体系
+- 代表事例: 吉田神道(卜部兼俱)、伊勢神道(度会神道)、復古神道(本居宣長/平田篤胤)、垂加神道(山崎闇斎)、両部神道(真言密教習合)、山王神道(天台習合)、教派神道13派(明治)
+
+#### N57. shugenja_school(SGS — `:ShugenjaSchool`)
+
+- 修験道派
+- 代表事例: 本山派(聖護院、天台系)、当山派(三宝院、真言系)、羽黒派(出羽)、英彦山派(豊前)、京都修験(愛宕/鞍馬)
+
+#### N62. taboo(TBO — `:Taboo`)
+
+- 禁忌の独立 node 化(地域/神社/事象別)
+- 代表事例: 物忌(伊勢)、血穢、死穢、女人禁制(高野山/大峰山/立山/沖ノ島)、産穢、火気の禁忌
+
+#### N67. shrine_architecture(SAR — `:ShrineArchitecture`)
+
+- 社殿様式
+- 代表事例: 神明造(伊勢)、大社造(出雲)、春日造、流造、八幡造、住吉造、日吉造、権現造
+
+#### N72. confraternity(CFR — `:Confraternity`)
+
+- 講(信仰共同体)の独立 node 化
+- 代表事例: 伊勢講、富士講、御嶽講、大師講、念仏講、地蔵講、弁天講、稲荷講、観音講
+
+#### N73. pilgrimage_circuit(PCC — `:PilgrimageCircuit`)
+
+- 巡礼霊場群(複数寺社をめぐる体系的巡礼)
+- pilgrimage(PIL) との違い: PIL は **路**、PCC は **霊場群**(順序付き札所体系)
+- 代表事例: 西国33観音、坂東33観音、秩父34観音、四国88、新四国八十八、伊予46
+
+### 8.4 主要追加 relation の予告(S05-S10 で詳細)
+
+- `:STATION_ON_PILGRIMAGE` (pilgrimage_station → pilgrimage)
+- `:RITUAL_PART_OF_FESTIVAL` (ritual → festival)
+- `:HOSTED_BY_SHRINE` (festival → shrine)
+- `:ORACLE_GIVEN_BY` (oracle → deity)
+- `:ORACLE_RECEIVED_BY` (oracle → emperor/clan/任意)
+- `:USES_DIVINATION` (ritual → divination)
+- `:LINEAGE_PARENT_OF` (shrine_lineage → shrine_lineage)
+- `:HOLDS_ROLE` (clan → priest_role)
+- `:ROLE_AT` (priest_role → shrine)
+- `:LINEAGE_OF_ROLE` (priest_lineage → priest_role)
+- `:SCHOOL_OF_THOUGHT_OF` (clan/emperor → religious_school)
+- `:SHUGENJA_SCHOOL_OF` (priest_lineage → shugenja_school)
+- `:HAS_ARCHITECTURE` (shrine → shrine_architecture)
+- `:DIVINE_SERVANT_OF` (divine_servant → deity)
+- `:DIVINE_SERVANT_AT` (divine_servant → shrine)
+- `:CONFRATERNITY_DEVOTED_TO` (confraternity → deity/shrine/sacred_mountain)
+- `:CIRCUIT_INCLUDES` (pilgrimage_circuit → shrine/pilgrimage_station)
+
+### 8.5 進捗更新
+
+| サブタスク | 状態 | 累計 node | 累計 relation |
+|---|---|---|---|
+| S01 章立て・整合表 | ✅ | 13 | 40 |
+| S02 node 拡張 第1群(神話文化層) | ✅ | 43 | 40 |
+| **S03 node 拡張 第2群(祭祀ネットワーク層)** | **✅(本 PR)** | **73** | 40 |
+| S04 node 拡張 第3群(政治・物的層) | 未着手 | 73 → 103 | 40 |
