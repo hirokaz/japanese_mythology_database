@@ -1,0 +1,15 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Excel temp
+~$*.xlsx
+~$*.xls
+
+# Genspark / scratch (調査素材は別途取り込み時にコミット)
+*.tmp
+scratch/
