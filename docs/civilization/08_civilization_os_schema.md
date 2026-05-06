@@ -859,3 +859,145 @@ mythologyLayer, historicalLayer, evidenceType
 | S10 relation 拡張 第6群(仮説・解釈) | 未着手 | 103 | 290 → 340 |
 | S11 strength/temporal/uncertainty | 未着手 | 103 | 340 |
 | S12 全体整合性 | 未着手 | 103 | 340 |
+
+---
+
+## 11. relation 拡張 第2群: 祭祀権力 50 種(S06)
+
+priest hierarchy / shrine network / pilgrimage / festival / oracle 等、**祭祀権力構造** を 50 種拡張。既存 `:PRIMARY_DEITY_OF` 等の神社祭祀 5 種を **継承** しつつ、神社系統・神職組織・祭祀継承・巡礼路を細分化。
+
+### 11.1 一覧表(50 種)
+
+| # | TSV relation_type | Cypher 写像 | source ラベル | target ラベル | directed |
+|---|---|---|---|---|---|
+| **11.1.1 priest hierarchy 10種** | | | | | |
+| R91 | holds_role | `:HOLDS_ROLE` | `:Clan` | `:PriestRole` | yes |
+| R92 | role_at | `:ROLE_AT` | `:PriestRole` | `:Shrine` | yes |
+| R93 | lineage_of_role | `:LINEAGE_OF_ROLE` | `:PriestLineage` | `:PriestRole` | yes |
+| R94 | inherits_role_from | `:INHERITS_ROLE_FROM` | `:Clan` | `:Clan` | yes(役職継承) |
+| R95 | subordinate_priest | `:SUBORDINATE_PRIEST` | `:PriestRole` | `:PriestRole` | yes(階層) |
+| R96 | delegates_ritual_to | `:DELEGATES_RITUAL_TO` | `:PriestRole` | `:PriestRole` | yes |
+| R97 | hereditary_priesthood | `:HEREDITARY_PRIESTHOOD` | `:PriestLineage` | `:Shrine` | yes |
+| R98 | appointed_by | `:APPOINTED_BY` | `:Clan` | `:Emperor`/`:Clan` | yes |
+| R99 | dismissed_from_role | `:DISMISSED_FROM_ROLE` | `:Clan` | `:PriestRole` | yes |
+| R100 | dual_priesthood | `:DUAL_PRIESTHOOD` | `:Shrine` | `:PriestLineage` | yes(諏訪の大祝+神長官のような二重制) |
+| **11.1.2 shrine network / lineage 10種** | | | | | |
+| R101 | branch_shrine_of | `:BRANCH_SHRINE_OF` | `:Shrine` | `:Shrine` | yes |
+| R102 | head_shrine_of_lineage | `:HEAD_SHRINE_OF_LINEAGE` | `:Shrine` | `:ShrineLineage` | yes |
+| R103 | lineage_member | `:LINEAGE_MEMBER` | `:Shrine` | `:ShrineLineage` | yes |
+| R104 | network_member | `:NETWORK_MEMBER` | `:Shrine` | `:ShrineNetwork` | yes |
+| R105 | parent_lineage_of | `:PARENT_LINEAGE_OF` | `:ShrineLineage` | `:ShrineLineage` | yes(熊野系→八幡熊野系 等) |
+| R106 | bunrei_to | `:BUNREI_TO` | `:Shrine` | `:Shrine` | yes(分霊) |
+| R107 | kanjo_from | `:KANJO_FROM` | `:Shrine` | `:Shrine` | yes(勧請) |
+| R108 | shared_deity_with | `:SHARED_DEITY_WITH` | `:Shrine` | `:Shrine` | undirected |
+| R109 | sister_shrine_of | `:SISTER_SHRINE_OF` | `:Shrine` | `:Shrine` | undirected |
+| R110 | rival_shrine_of | `:RIVAL_SHRINE_OF` | `:Shrine` | `:Shrine` | undirected(両宮論争 等) |
+| **11.1.3 festival / ritual 10種** | | | | | |
+| R111 | festival_hosted_by | `:FESTIVAL_HOSTED_BY` | `:Festival` | `:Shrine` | yes |
+| R112 | ritual_part_of_festival | `:RITUAL_PART_OF_FESTIVAL` | `:Ritual` | `:Festival` | yes |
+| R113 | festival_pattern_of | `:FESTIVAL_PATTERN_OF` | `:Festival` | `:MatsuriPattern` | yes |
+| R114 | festival_sponsor | `:FESTIVAL_SPONSOR` | `:Clan`/`:Emperor` | `:Festival` | yes |
+| R115 | festival_origin_myth | `:FESTIVAL_ORIGIN_MYTH` | `:Festival` | `:MythEpisode` | yes |
+| R116 | uses_offering | `:USES_OFFERING` | `:Ritual` | `:Offering` | yes |
+| R117 | uses_divination | `:USES_DIVINATION` | `:Ritual` | `:Divination` | yes |
+| R118 | involves_sacred_dance | `:INVOLVES_SACRED_DANCE` | `:Ritual`/`:Festival` | `:SacredDance` | yes |
+| R119 | involves_sacred_music | `:INVOLVES_SACRED_MUSIC` | `:Ritual`/`:Festival` | `:SacredMusic` | yes |
+| R120 | recites_text_genre | `:RECITES_TEXT_GENRE` | `:Ritual` | `:SacredTextGenre` | yes |
+| **11.1.4 pilgrimage / oracle 10種** | | | | | |
+| R121 | station_on_pilgrimage | `:STATION_ON_PILGRIMAGE` | `:PilgrimageStation` | `:Pilgrimage` | yes |
+| R122 | pilgrimage_includes_shrine | `:PILGRIMAGE_INCLUDES_SHRINE` | `:Pilgrimage` | `:Shrine` | yes |
+| R123 | circuit_includes | `:CIRCUIT_INCLUDES` | `:PilgrimageCircuit` | `:Shrine`/`:PilgrimageStation` | yes |
+| R124 | parent_pilgrimage_of | `:PARENT_PILGRIMAGE_OF` | `:Pilgrimage` | `:Pilgrimage` | yes(本ルート→分岐) |
+| R125 | pilgrimage_emperor_visit | `:PILGRIMAGE_EMPEROR_VISIT` | `:Emperor` | `:Pilgrimage` | yes(熊野詣) |
+| R126 | oracle_given_by | `:ORACLE_GIVEN_BY` | `:Oracle` | `:Deity` | yes |
+| R127 | oracle_received_by | `:ORACLE_RECEIVED_BY` | `:Oracle` | `:Emperor`/`:Clan`/任意 | yes |
+| R128 | oracle_at_shrine | `:ORACLE_AT_SHRINE` | `:Oracle` | `:Shrine` | yes |
+| R129 | oracle_outcome | `:ORACLE_OUTCOME` | `:Oracle` | `:Event`/`:PoliticalReform` | yes |
+| R130 | oracle_supports_clan | `:ORACLE_SUPPORTS_CLAN` | `:Oracle` | `:Clan` | yes |
+| **11.1.5 ritual property / sacred attribution 10種** | | | | | |
+| R131 | houses_sacred_object | `:HOUSES_SACRED_OBJECT` | `:Shrine` | `:SacredObject` | yes |
+| R132 | sacred_object_of_deity | `:SACRED_OBJECT_OF_DEITY` | `:SacredObject` | `:Deity` | yes |
+| R133 | worshipped_at_mountain | `:WORSHIPPED_AT_MOUNTAIN` | `:Deity` | `:SacredMountain` | yes |
+| R134 | worshipped_at_island | `:WORSHIPPED_AT_ISLAND` | `:Deity` | `:SacredIsland` | yes |
+| R135 | worshipped_at_water | `:WORSHIPPED_AT_WATER` | `:Deity` | `:SacredWater` | yes |
+| R136 | shrine_grove_of | `:SHRINE_GROVE_OF` | `:SacredGrove` | `:Shrine` | yes |
+| R137 | shrine_architecture_type | `:SHRINE_ARCHITECTURE_TYPE` | `:Shrine` | `:ShrineArchitecture` | yes |
+| R138 | torii_style_of | `:TORII_STYLE_OF` | `:Shrine` | `:ToriiClass` | yes |
+| R139 | shimenawa_style_of | `:SHIMENAWA_STYLE_OF` | `:Shrine` | `:ShimenawaClass` | yes |
+| R140 | divine_servant_of | `:DIVINE_SERVANT_OF` | `:DivineServant` | `:Deity`/`:Shrine` | yes |
+
+→ **R91-R140 で 50 種**(累計 90 + 50 = 140 種)
+
+### 11.2 既存 relation との整合
+
+| 既存 relation | 拡張 relation との関係 |
+|---|---|
+| `:HAS_SUBORDINATE_SHRINE`(shrine → shrine) | R101 `:BRANCH_SHRINE_OF` で **方向性反転版** + R106-R107 `:BUNREI_TO`/`:KANJO_FROM` で **分霊・勧請** を細分化 |
+| `:PERFORMED_AT`(ritual → shrine) | 既存。本書では追加せず |
+| `:PERFORMED_BY`(ritual → clan/emperor) | 既存。R114 `:FESTIVAL_SPONSOR` で festival 版を追加 |
+| `:REENACTS`(ritual → myth_episode) | 既存。R115 `:FESTIVAL_ORIGIN_MYTH` で festival 版を追加 |
+| `:HAS_TITLE`(deity/shrine → title) | 既存。priest_role/lineage は別 node なので独立 relation |
+
+### 11.3 主要利用シナリオ
+
+#### Scenario A. 諏訪の祭祀二重制(大祝+神長官)
+
+```
+(SHR-諏訪上社)-[:DUAL_PRIESTHOOD]->(PRL-諏訪氏=大祝)
+(SHR-諏訪上社)-[:DUAL_PRIESTHOOD]->(PRL-守矢氏=神長官)
+(PRL-諏訪氏)-[:LINEAGE_OF_ROLE]->(PRR-大祝)
+(PRL-守矢氏)-[:LINEAGE_OF_ROLE]->(PRR-神長官)
+(PRR-大祝)-[:ROLE_AT]->(SHR-諏訪上社)
+(PRR-神長官)-[:ROLE_AT]->(SHR-諏訪上社)
+```
+
+#### Scenario B. 八幡神社系統の拡散
+
+```
+(SHR-016 宇佐神宮)-[:HEAD_SHRINE_OF_LINEAGE]->(SLN-八幡系)
+(SHR-016 宇佐神宮)-[:BUNREI_TO]->(SHR-石清水八幡宮)
+(SHR-石清水八幡宮)-[:KANJO_FROM]->(SHR-016 宇佐神宮)
+(SHR-石清水八幡宮)-[:BUNREI_TO]->(SHR-鶴岡八幡宮)
+(SHR-石清水八幡宮)-[:BRANCH_SHRINE_OF]->(SHR-016 宇佐神宮)
+(SHR-鶴岡八幡宮)-[:LINEAGE_MEMBER]->(SLN-八幡系)
+```
+
+#### Scenario C. 神在祭(出雲)の構造
+
+```
+(FES-神在祭)-[:FESTIVAL_HOSTED_BY]->(SHR-001 出雲大社)
+(FES-神在祭)-[:FESTIVAL_HOSTED_BY]->(SHR-023 佐太神社)
+(FES-神在祭)-[:FESTIVAL_HOSTED_BY]->(SHR-028 万九千神社)
+(RIT-神迎祭)-[:RITUAL_PART_OF_FESTIVAL]->(FES-神在祭)
+(RIT-神迎祭)-[:USES_OFFERING]->(OFR-神饌)
+(FES-神在祭)-[:FESTIVAL_ORIGIN_MYTH]->(MYTH-国譲り)
+```
+
+#### Scenario D. 熊野詣の巡礼路
+
+```
+(PIL-熊野古道)-[:PILGRIMAGE_INCLUDES_SHRINE]->(SHR-005 本宮)
+(PIL-熊野古道)-[:PILGRIMAGE_INCLUDES_SHRINE]->(SHR-090 速玉)
+(PIL-熊野古道)-[:PILGRIMAGE_INCLUDES_SHRINE]->(SHR-091 那智)
+(PLS-藤代王子)-[:STATION_ON_PILGRIMAGE]->(PIL-熊野古道)
+(EMP-白河院)-[:PILGRIMAGE_EMPEROR_VISIT]->(PIL-熊野古道)
+```
+
+#### Scenario E. 宇佐託宣事件(769 道鏡)
+
+```
+(ORC-宇佐託宣)-[:ORACLE_GIVEN_BY]->(DEI-035 八幡神)
+(ORC-宇佐託宣)-[:ORACLE_RECEIVED_BY]->(EMP-称徳天皇)
+(ORC-宇佐託宣)-[:ORACLE_AT_SHRINE]->(SHR-016 宇佐神宮)
+(ORC-宇佐託宣)-[:ORACLE_OUTCOME]->(EVT-道鏡事件)
+```
+
+### 11.4 進捗更新
+
+| サブタスク | 状態 | 累計 node | 累計 relation |
+|---|---|---|---|
+| S01-S04 node 拡張 | ✅ | 103 | 40 |
+| S05 神話派生 | ✅ | 103 | 90 |
+| **S06 祭祀権力** | **✅(本 PR)** | 103 | **140** |
+| S07 政治・支配 | 未着手 | 103 | 140 → 190 |
+| S08-S10 残り 150 | 未着手 | 103 | 190 → 340 |
