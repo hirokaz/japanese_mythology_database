@@ -2423,13 +2423,13 @@ RLN-002421	SITE-makimuku	site	archaeologically_linked	MOTIF-006	motif_abstract	B
 RLN-002422	SITE-hashihaka	site	archaeologically_linked	MOTIF-302	motif_abstract	C	L2	archaeological	-	-	発掘|書紀	箸墓=百襲姫=卑弥呼? L2
 RLN-002423	SITE-okinoshima	site	archaeologically_linked	MOTIF-048	motif_abstract	A	L0	archaeological	-	-	発掘	沖ノ島祭祀
 RLN-002424	SITE-iwoji	site	archaeologically_linked	MOTIF-146	motif_abstract	D	L3	archaeological	-	-	発掘	井戸尻→ミシャグジ縄文起源 L3
-RLN-002425	HYP-001	hypothesis	supports	SITE-kojomiya	site	D	L4	archaeological	-	-	HYP-001	縄文海進記憶
-RLN-002426	HYP-002	hypothesis	supports	MOTIF-026	motif_abstract	D	L4	mythic	-	-	HYP-002	オロチ製鉄説
-RLN-002427	HYP-002	hypothesis	contradicts	SITE-iron-yayoi-absent	site	D	L4	archaeological	-	-	HYP-002	古代製鉄炉不在
+RLN-002425	HYP-001	hypothesis	supports	SITE-kojomiya	site	E	L4	archaeological	-	-	HYP-001	縄文海進記憶
+RLN-002426	HYP-002	hypothesis	supports	MOTIF-026	motif_abstract	E	L4	mythic	-	-	HYP-002	オロチ製鉄説
+RLN-002427	HYP-002	hypothesis	contradicts	SITE-iron-yayoi-absent	site	E	L4	archaeological	-	-	HYP-002	古代製鉄炉不在
 RLN-002428	HYP-004	hypothesis	supports	SITE-kamoiwakura	site	B	L2	archaeological	-	-	HYP-004	銅鐸祭祀終焉
 RLN-002429	HYP-005	hypothesis	supports	SITE-iwoji	site	C	L3	archaeological	-	-	HYP-005	ミシャグジ縄文
 RLN-002430	HYP-005	hypothesis	supports	MOTIF-233	motif_abstract	C	L3	ritual	-	-	HYP-005	御頭祭継承
-RLN-002431	HYP-006	hypothesis	supports	DEI-272	deity	D	L4	document	-	-	HYP-006	アラハバキ
+RLN-002431	HYP-006	hypothesis	supports	DEI-272	deity	E	L4	document	-	-	HYP-006	アラハバキ
 RLN-002432	HYP-010	hypothesis	supports	SITE-hashihaka	site	C	L2	archaeological	-	-	HYP-010	邪馬台国畿内
 RLN-002433	HYP-011	hypothesis	supports	SITE-yoshinogari	site	C	L2	archaeological	-	-	HYP-011	邪馬台国九州
 RLN-002434	REG-001	region	controlled_by	CLN-002	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
@@ -6092,7 +6092,6 @@ RLN-006090	DEI-181	deity	syncretized_with	DEI-182	deity	B	L1	document	-	-	宇佐
 RLN-006091	DEI-030	deity	syncretized_with	DEI-002	deity	B	L1	document	-	-	備後国風土記逸文	牛頭天王=スサノオ習合(中世)
 RLN-006092	DEI-201	deity	syncretized_with	DEI-200	deity	B	L1	document	-	-	山王神道書	山王権現=大山咋同体
 RLN-006093	DEI-032	deity	syncretized_with	DEI-261	deity	A	L0	document	-	-	稲荷大明神流記	宇迦之御魂神=伏見稲荷主神
-RLN-006094	DEI-184	deity	syncretized_with	DEI-184	deity	E	L4	document	-	-	卑弥呼=比売大神同体説(複数研究者)	L4 推測仮説、根拠は地理的接近のみ
 RLN-006095	DEI-191	deity	syncretized_with	DEI-212	deity	B	L1	document	-	-	金峯山秘伝	蔵王権現=吉野権現統合
 RLN-006096	DEI-202	deity	syncretized_with	DEI-008	deity	C	L2	document	-	-	出羽三山社伝	月山権現=月読命同体仮説
 RLN-006097	DEI-293	deity	syncretized_with	DEI-181	deity	B	L1	document	-	-	石清水若宮社伝	石清水若宮=八幡神分祀
