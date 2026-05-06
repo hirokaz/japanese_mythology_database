@@ -362,3 +362,233 @@
 | S04 extreme_speculation 分離規程 | 未着手 |
 | S05 時間軸 × 仮説レイヤーのマトリクス | 未着手 |
 | S06 既存資産の再分類監査基準 | 未着手 |
+
+---
+
+## 3. 仮説レイヤー L0-L5 厳密化(S03)
+
+`docs/schema/08_hypothesis_layer.md` を **継承+厳密化**。CLAUDE.md §3.5 と完全整合。
+
+### 3.1 L0-L5 定義(厳密版)
+
+| Layer | 名称 | 定義 | 表現規約 | 代表事例 |
+|---|---|---|---|---|
+| **L0** | source_fact | 史料原文・物的証拠の直接記載 | 「である」許容 | 古事記の本文記述 / 沖ノ島出土遺物 / 銅鐸の存在 |
+| **L1** | interpretation | 史料を素直に解釈した一般的読み | 「である」許容(史料根拠付与必須) | 大国主=出雲の主神 / 古事記成立は元明朝 |
+| **L2** | academic_hypothesis | 学術的に複数研究者が言及する推定 | 「とされる」「と考えられる」 | 邪馬台国畿内/九州説 / 銅鐸祭祀終焉と国譲り対応 / 高千穂比定論争 |
+| **L3** | folklore_hypothesis | 民俗学・地方伝承的解釈 | 「説がある」「伝承がある」 | ミシャグジ縄文残存説 / 御柱縄文起源 / アラハバキ客人神 |
+| **L4** | speculative_hypothesis | 大胆だが論証困難な仮説 | 「議論がある」「仮説が提示されている」 | ヤマタノオロチ製鉄民説 / アラハバキ縄文系神格説 / 卑弥呼=比売大神 |
+| **L5** | extreme_speculation | 検証困難な思想的・構造的仮説 | 「思考実験として」 | 縄文海進記憶仮説 / 縄文ユートピア論 / 国生み=縄文海進前地形 |
+
+### 3.2 各層の運用ルール
+
+#### L0 / L1 ルール
+- master TSV にデフォルト登録
+- relation の confidence_level: A-B
+- 断定形許容、ただし出典必須
+
+#### L2 ルール
+- master 登録は良いが、複数説併記が望ましい
+- relation の confidence_level: B-C
+- 「とされる」表現を必須化
+- 競合 L2 は `:HYPOTHESIS_COMPETES_WITH` で対立明示
+
+#### L3 ルール
+- 民俗学・地方伝承として独立記述
+- master 登録は **可**(地方氏族文書に基づくもの)
+- relation の confidence_level: C-D
+- 中央史観で矮小化しないこと
+
+#### L4 ルール
+- **独立 hypothesis ノード化必須**
+- 事実 master の notes 欄に書き込まない
+- relation の confidence_level: **D-E**
+- evidence_pro と evidence_con を **必ず併記**
+- 提唱者を `:HYPOTHESIS_PROPOSED_BY` で明示
+
+#### L5 ルール
+- L4 ルール + 「思考実験」と明示
+- relation の confidence_level: **E**
+- 学術的反証を併記必須
+- 偽書由来の場合は §4 偽書層へ移管
+
+### 3.3 hypothesis_layer 既存 17 件の再分類確認
+
+`docs/civilization/05_jomon_memory.md` §5.2 の 17 件を §3.1 厳密版で再分類:
+
+| HYP id | 仮説名 | 旧 layer | 新 layer | 確認 |
+|---|---|---|---|---|
+| HYP-001 | 縄文海進記憶仮説 | L5 | L5 | ✅ |
+| HYP-002 | ヤマタノオロチ製鉄民説 | L4 | L4 | ✅ |
+| HYP-003 | 土偶女神アマテラス系 | L4 | L4 | ✅ |
+| HYP-004 | 銅鐸祭祀終焉⇄国譲り | L2 | L2 | ✅ |
+| HYP-005 | ミシャグジ縄文中期 | L3 | L3 | ✅ |
+| HYP-006 | アラハバキ縄文系 | L4 | L4 | ✅ |
+| HYP-007 | 洩矢神=金属技術征服 | L3-L4 | **L4**(明示化) | 🔄 |
+| HYP-008 | 神賀詞地方視点保存 | L1 | L1 | ✅ |
+| HYP-009 | 高千穂峰比定論争 | L2 | L2 | ✅ |
+| HYP-010 | 邪馬台国畿内説 | L2 | L2 | ✅ |
+| HYP-011 | 邪馬台国九州説 | L2 | L2 | ✅ |
+| HYP-012 | 卑弥呼=比売大神 | L4 | L4 | ✅ |
+| HYP-013 | 出羽三山縄文山岳信仰 | L4 | L4 | ✅ |
+| HYP-014 | 安日彦長髄彦東北流 | L4 | L4 | ✅ |
+| HYP-015 | 補陀落渡海縄文継承 | L4 | L4 | ✅ |
+| HYP-016 | 国学⇄国家神道連続性 | L1 | L1 | ✅ |
+| HYP-017 | 御柱=縄文木柱列継承 | L3 | L3 | ✅ |
+
+→ **17/17 件で再分類整合**(HYP-007 のみ L3-L4 を L4 に明示化)
+
+---
+
+## 4. extreme_speculation(偽書層)分離規程(S04)
+
+L5 の **下** に **偽書層**(forgery layer)を独立化。
+
+### 4.1 偽書層 F0 定義
+
+| Layer | 名称 | 性質 | 扱い |
+|---|---|---|---|
+| **F0** | confirmed_forgery | 学術的に偽書と確定 | hypothesis 由来としてだけ参照、master 登録禁止 |
+
+### 4.2 F0 認定文献(代表)
+
+| 文献 | 認定理由 | 影響 |
+|---|---|---|
+| 東日流外三郡誌 | 1990s に偽作確定(秋田孝季の創作) | アラハバキ信仰の現代象徴化 |
+| 竹内文書 | 大正期偽作 | 超古代史(神武以前数百代の天皇) |
+| 上記以外 | 個別判定 | - |
+
+### 4.3 F0 と L5 の違い
+
+| 軸 | L5 | F0 |
+|---|---|---|
+| 学術的扱い | 思考実験(議論可能) | 史料価値なし(議論対象外) |
+| master 登録 | 可(独立 hypothesis) | 不可(forgery 関係でのみ参照) |
+| relation の confidence_level | E | F(forgery 専用、E より低) |
+| 民間影響の記録 | 注釈で記載 | 社会現象として独立記録(信仰実態) |
+
+### 4.4 F0 文献の Cypher 写像
+
+```cypher
+(t:Text {masterId:'TXT-XXX', textType:'forgery'})
+   -[:CONFIRMED_FORGERY {forgeryPeriod:'昭和', forgeryMotive:'地域アイデンティティ商業化'}]->
+(:ForgeryStatus {value:'L0立場で偽書認定'})
+
+(h:Hypothesis {masterId:'HYP-XXX', layer:'L4'})
+   -[:PSEUDOHISTORY_SUPPORTED_BY]->
+(t:Text {masterId:'TXT-東日流外三郡誌'})
+```
+
+→ 偽書由来の hypothesis は L4(大胆仮説)止まりにし、**F0 への直接 supports 関係は禁止**。
+
+---
+
+## 5. 時間軸 × 仮説レイヤーのマトリクス(S05)
+
+5 時間軸 × 7 層(L0-L5+F0)= 35 セル のマトリクス。
+
+| 時間軸\layer | L0 | L1 | L2 | L3 | L4 | L5 | F0 |
+|---|---|---|---|---|---|---|---|
+| **mythic** | 古事記本文 | 大国主=出雲主神 | 国譲り=政治神話化 | 諏訪洩矢戦争=金属征服 | 卑弥呼=アマテラス | 縄文ユートピア | 竹内文書神武前 |
+| **ritual** | 御頭祭鹿頭75 | 御頭祭=狩猟祭祀 | 御頭祭=縄文継承 | 御柱=縄文木柱列継承 | 出羽三山=縄文山岳信仰 | 縄文祭祀の千年継承 | 偽書由来祭祀 |
+| **political** | 大宝律令701 | 大化改新の意義 | 邪馬台国畿内説 | 安日彦長髄彦東北流 | 卑弥呼=比売大神 | 古代天皇陵超古代化 | 超古代日本史 |
+| **archaeological** | 銅鐸出土数 | 銅鐸=祭祀具 | 銅鐸祭祀終焉⇄国譲り | ミシャグジ縄文中期 | ヤマタノオロチ製鉄民説 | 縄文海進記憶 | 偽考古遺物 |
+| **literary** | 古事記成立712 | 古事記=皇統正統化 | 風土記=地方視点保存 | 中世神道書の縄文継承 | 偽書神道書の中世解釈 | 中世神道宇宙論 | 東日流外三郡誌 |
+
+### 5.1 マトリクスの利用
+
+- 各セルが **「その時間軸での、その仮説層に該当する事例」** を提示
+- 関係 master 化時、`temporalScope × hypothesisLayer` を 1 セルに対応させる
+- Gemini 監査時、各セルでの混入(例: archaeological L0 に L4 解釈の混入)を検出
+
+### 5.2 セル間の禁止遷移
+
+- archaeological L0 → literary L4 への直接昇格禁止(物的事実から大胆仮説への跳躍)
+- mythic L0 → political L0 への単純対応禁止(神話を史実と混同)
+- F0 → 他層への昇格禁止(偽書を信頼層に混入させない)
+
+---
+
+## 6. 既存資産の再分類監査基準(S06)
+
+### 6.1 既存 motif_db.tsv (245) の再分類
+
+| カラム | 現状 | 監査ポイント |
+|---|---|---|
+| motif_name | 文字列 | 表記ゆれ確認 |
+| category | 21 種 | 本書 §1 5 軸への対応 |
+| (notes) | 自由記述 | hypothesis_layer 明記の確認 |
+
+→ 各 motif に対し、`temporalScope × hypothesisLayer` を 5×7 マトリクスのいずれかに割り当てる監査が必要。
+
+### 6.2 既存 02_motif_relations.tsv (620) の再分類
+
+| カラム | 現状 | 監査ポイント |
+|---|---|---|
+| confidence_level | A-E | hypothesisLayer との整合(本書 §3.2)|
+| hypothesis_layer | L0-L5 | 5×7 マトリクス整合 |
+| temporal_scope | 任意 | 本書 §1.2 7 軸のいずれか |
+| source_reference | 必須 | 文献の literary time との整合 |
+
+### 6.3 監査チェックリスト(Gemini 用)
+
+- [ ] L4-L5 の relation で confidence_level = E になっているか
+- [ ] mythic 軸の relation で 文献(literary)出典が明示されているか
+- [ ] political 軸の relation で 元号・治世が明示されているか
+- [ ] archaeological 軸の relation で 遺跡・遺物・編年が明示されているか
+- [ ] F0(偽書)の引用関係が `:CONFIRMED_FORGERY` で明示されているか
+- [ ] 中央視点の解釈で地方仮説を矮小化していないか
+- [ ] L0(史料記載)から L4-L5(大胆仮説)への直接昇格がないか
+
+### 6.4 監査自動化のための Cypher
+
+```cypher
+// L4-L5 で confidence_level != E の検出
+MATCH ()-[r]->()
+WHERE r.hypothesisLayer IN ['L4','L5'] AND r.confidenceLevel <> 'E'
+RETURN r.relationId, r.hypothesisLayer, r.confidenceLevel;
+
+// F0 文献を直接 supports している仮説の検出
+MATCH (h:Hypothesis)-[:SUPPORTS]->(t:Text {textType:'forgery'})
+RETURN h.masterId, t.masterId;
+
+// archaeological 軸 + literary 軸の混在検出
+MATCH ()-[r {temporalScope:'archaeological'}]->()
+WHERE r.sourceReference CONTAINS '古事記' OR r.sourceReference CONTAINS '日本書紀'
+RETURN r.relationId, r.sourceReference;
+// → 古墳期遺物の出典が記紀のみの場合、archaeological 軸として弱い → 警告
+```
+
+---
+
+## 7. 結論
+
+### 7.1 達成
+
+| 項目 | 結果 |
+|---|---|
+| 5 時間軸の定義+重複領域 | ✅ S01 |
+| 各軸 30+ 事例 | ✅ S02(計 150+ 事例) |
+| L0-L5 厳密化 | ✅ S03(既存 17 仮説と整合) |
+| F0 偽書層の独立分離 | ✅ S04 |
+| 5×7 マトリクス | ✅ S05(35 セル) |
+| 既存資産再分類監査基準 | ✅ S06(Cypher 自動化含む) |
+
+### 7.2 後続 issue 引き継ぎ
+
+- **#125** Neo4j 拡張: 本書 §6.4 の Cypher を実装
+- **#137** relation 5000+: 本書 §3.2 各層ルールに従って分類
+- **#129** 監査群: 本書 §6.3 監査チェックリストを Gemini 用に整備
+
+### 7.3 進捗最終
+
+| サブタスク | 状態 |
+|---|---|
+| S01 5 時間軸の定義 | ✅ |
+| S02 各軸 30+ 事例 | ✅ |
+| **S03 L0-L5 厳密化** | **✅(本 PR)** |
+| **S04 F0 偽書層分離** | **✅(本 PR)** |
+| **S05 5×7 マトリクス** | **✅(本 PR)** |
+| **S06 既存資産再分類監査基準** | **✅(本 PR)** |
+
+→ **issue #124 完結**(全 6 サブタスク完了)
