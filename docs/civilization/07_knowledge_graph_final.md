@@ -279,3 +279,117 @@ Neo4j の relationship は **常に directed**(矢印方向あり)。undirected 
 ### 2.5 docs/schema/ との整合
 
 `docs/schema/02_relation_types.md` の 全 relation 種定義 と本書 §2.1 は **完全対応**。schema 側が正本。本書はその Cypher 写像。`docs/schema/02_relation_types.md` §4 の必須カラム(relation_id, source_id, source_type, relation_type, target_id, target_type, confidence_level, hypothesis_layer, source_reference)とも整合。
+
+---
+
+## 3. index / 制約設計
+
+### 3.1 ユニーク制約(13 ラベル)
+
+`masterId` は **全ラベルで一意**(プレフィックス分離されているため、ラベル横断ユニークも実現可能だが、ラベル別に管理する)。
+
+```cypher
+CREATE CONSTRAINT deity_id IF NOT EXISTS FOR (n:Deity) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT shrine_id IF NOT EXISTS FOR (n:Shrine) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT clan_id IF NOT EXISTS FOR (n:Clan) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT emperor_id IF NOT EXISTS FOR (n:Emperor) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT myth_id IF NOT EXISTS FOR (n:MythEpisode) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT event_id IF NOT EXISTS FOR (n:Event) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT site_id IF NOT EXISTS FOR (n:Site) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT artifact_id IF NOT EXISTS FOR (n:Artifact) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT ritual_id IF NOT EXISTS FOR (n:Ritual) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT region_id IF NOT EXISTS FOR (n:Region) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT text_id IF NOT EXISTS FOR (n:Text) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT hypothesis_id IF NOT EXISTS FOR (n:Hypothesis) REQUIRE n.masterId IS UNIQUE;
+CREATE CONSTRAINT title_id IF NOT EXISTS FOR (n:Title) REQUIRE n.masterId IS UNIQUE;
+```
+
+### 3.2 必須プロパティ制約(主要 node のみ)
+
+```cypher
+CREATE CONSTRAINT deity_name IF NOT EXISTS FOR (n:Deity) REQUIRE n.canonicalName IS NOT NULL;
+CREATE CONSTRAINT shrine_name IF NOT EXISTS FOR (n:Shrine) REQUIRE n.canonicalName IS NOT NULL;
+CREATE CONSTRAINT clan_name IF NOT EXISTS FOR (n:Clan) REQUIRE n.canonicalName IS NOT NULL;
+CREATE CONSTRAINT myth_name IF NOT EXISTS FOR (n:MythEpisode) REQUIRE n.canonicalName IS NOT NULL;
+CREATE CONSTRAINT hypothesis_layer IF NOT EXISTS FOR (n:Hypothesis) REQUIRE n.layer IS NOT NULL;
+```
+
+### 3.3 検索高速化インデックス
+
+```cypher
+// 名前検索
+CREATE INDEX deity_name_idx IF NOT EXISTS FOR (n:Deity) ON (n.canonicalName);
+CREATE INDEX shrine_name_idx IF NOT EXISTS FOR (n:Shrine) ON (n.canonicalName);
+CREATE INDEX clan_name_idx IF NOT EXISTS FOR (n:Clan) ON (n.canonicalName);
+CREATE INDEX emperor_name_idx IF NOT EXISTS FOR (n:Emperor) ON (n.canonicalName);
+CREATE INDEX myth_name_idx IF NOT EXISTS FOR (n:MythEpisode) ON (n.canonicalName);
+CREATE INDEX text_name_idx IF NOT EXISTS FOR (n:Text) ON (n.canonicalName);
+CREATE INDEX region_name_idx IF NOT EXISTS FOR (n:Region) ON (n.canonicalName);
+
+// 地理検索
+CREATE INDEX shrine_pref_idx IF NOT EXISTS FOR (n:Shrine) ON (n.prefecture);
+CREATE INDEX site_pref_idx IF NOT EXISTS FOR (n:Site) ON (n.prefecture);
+
+// 時代検索
+CREATE INDEX site_era_idx IF NOT EXISTS FOR (n:Site) ON (n.era);
+CREATE INDEX artifact_era_idx IF NOT EXISTS FOR (n:Artifact) ON (n.era);
+CREATE INDEX text_time_idx IF NOT EXISTS FOR (n:Text) ON (n.documentWrittenTime);
+
+// カテゴリ検索
+CREATE INDEX deity_category_idx IF NOT EXISTS FOR (n:Deity) ON (n.category);
+CREATE INDEX clan_type_idx IF NOT EXISTS FOR (n:Clan) ON (n.clanType);
+CREATE INDEX text_type_idx IF NOT EXISTS FOR (n:Text) ON (n.textType);
+CREATE INDEX hyp_layer_idx IF NOT EXISTS FOR (n:Hypothesis) ON (n.layer);
+```
+
+### 3.4 全文検索インデックス(横断検索)
+
+```cypher
+// 主要エンティティ横断の全文検索
+CREATE FULLTEXT INDEX entity_search IF NOT EXISTS
+FOR (n:Deity|Shrine|Clan|Emperor|MythEpisode|Event|Site|Artifact|Ritual|Region|Text|Title)
+ON EACH [n.canonicalName, n.canonicalReading, n.aliases];
+
+// 仮説検索
+CREATE FULLTEXT INDEX hypothesis_search IF NOT EXISTS
+FOR (n:Hypothesis)
+ON EACH [n.canonicalName, n.notes, n.proposer];
+
+// 文献検索(本文相当の notes 含む)
+CREATE FULLTEXT INDEX text_search IF NOT EXISTS
+FOR (n:Text)
+ON EACH [n.canonicalName, n.author, n.notes];
+```
+
+### 3.5 関係プロパティのインデックス
+
+```cypher
+// hypothesis_layer フィルタが多用されるため
+CREATE INDEX rel_layer_idx IF NOT EXISTS FOR ()-[r]-() ON (r.hypothesisLayer);
+
+// confidence_level フィルタ
+CREATE INDEX rel_conf_idx IF NOT EXISTS FOR ()-[r]-() ON (r.confidenceLevel);
+
+// 時系列検索
+CREATE INDEX rel_valid_from_idx IF NOT EXISTS FOR ()-[r]-() ON (r.validFrom);
+```
+
+### 3.6 地理空間インデックス(Phase 5+)
+
+```cypher
+// 緯度経度のある shrine / site
+CREATE POINT INDEX shrine_coord_idx IF NOT EXISTS FOR (n:Shrine) ON (n.coordinates);
+CREATE POINT INDEX site_coord_idx IF NOT EXISTS FOR (n:Site) ON (n.coordinates);
+CREATE POINT INDEX region_coord_idx IF NOT EXISTS FOR (n:Region) ON (n.coordinates);
+```
+
+### 3.7 制約・インデックス運用方針
+
+1. **制約 → インデックス → データロード** の順で実行(ロード時に高速化)
+2. **冪等性確保**: `IF NOT EXISTS` を全件付与
+3. **データロード後の検証**: count(*) で各ラベル件数確認、orphan node / dangling relation 検出
+4. **インデックス追加は将来必要に応じて**(初期は §3.3 だけで十分)
+
+### 3.8 docs/schema/ との整合
+
+`docs/schema/01_node_types.md`(必須カラム)と本書 §3.2 必須プロパティ制約は整合。`docs/schema/02_relation_types.md` §4 必須カラムと本書 §3.5 関係プロパティインデックスは整合。
