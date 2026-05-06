@@ -707,3 +707,155 @@ S05-S10(relation 拡張)では各 PR で以下:
 | S06-S10 relation 拡張 | 未着手 | 103 | 90 → 340 |
 
 → **node 拡張完了**。100+ node 目標達成(13 既存 + 90 新規 = **103 種**)。
+
+---
+
+## 10. relation 拡張 第1群: 神話派生 50 種(S05)
+
+motif evolution / migration / syncretism / localization / politicalization の 5 軸で **神話派生関係** を 50 種拡張。既存 `:EVOLVED_INTO` `:SYMBOLICALLY_RELATED` 等(`docs/schema/02_relation_types.md` 神話・出来事関係 4 種)を **継承** しつつ、より細粒度な派生機構を表現する。
+
+### 10.1 一覧表(50 種)
+
+| # | TSV relation_type | Cypher 写像 | source ラベル | target ラベル | directed |
+|---|---|---|---|---|---|
+| **10.1.1 motif evolution(派生・進化)10種** | | | | | |
+| R41 | embodied_by | `:EMBODIED_BY` | `:MotifAbstract` | `:Deity` | yes |
+| R42 | embodies_motif | `:EMBODIES_MOTIF` | `:Deity` | `:MotifAbstract` | yes |
+| R43 | derived_from_motif | `:DERIVED_FROM_MOTIF` | `:MotifAbstract` | `:MotifAbstract` | yes |
+| R44 | refines_motif | `:REFINES_MOTIF` | `:MotifAbstract` | `:MotifAbstract` | yes |
+| R45 | abstracts_motif | `:ABSTRACTS_MOTIF` | `:MotifAbstract` | `:FolkMotif` | yes |
+| R46 | exemplifies_motif | `:EXEMPLIFIES_MOTIF` | `:MythEpisode`/`:MythVariant` | `:MotifAbstract` | yes |
+| R47 | inverts_motif | `:INVERTS_MOTIF` | `:MotifAbstract` | `:MotifAbstract` | yes(視点反転) |
+| R48 | merges_motifs | `:MERGES_MOTIFS` | `:MotifAbstract` | `:MotifAbstract` | undirected(複数 motif の融合) |
+| R49 | splits_motif | `:SPLITS_MOTIF` | `:MotifAbstract` | `:MotifAbstract` | yes(1 motif → 複数 motif) |
+| R50 | parallel_motif | `:PARALLEL_MOTIF` | `:MotifAbstract` | `:ComparativeMotif` | undirected(比較神話学) |
+| **10.1.2 motif migration(移動・伝播)10種** | | | | | |
+| R51 | migrated_from_region | `:MIGRATED_FROM_REGION` | `:MotifAbstract` | `:Region` | yes |
+| R52 | transplanted_to | `:TRANSPLANTED_TO` | `:MotifAbstract` | `:Region` | yes |
+| R53 | spread_via_pilgrimage | `:SPREAD_VIA_PILGRIMAGE` | `:MotifAbstract` | `:Pilgrimage` | yes |
+| R54 | spread_via_lineage | `:SPREAD_VIA_LINEAGE` | `:MotifAbstract` | `:ShrineLineage` | yes |
+| R55 | imported_from_overseas | `:IMPORTED_FROM_OVERSEAS` | `:MotifAbstract` | `:Region`(外国) | yes |
+| R56 | foreign_origin_of | `:FOREIGN_ORIGIN_OF` | `:MotifAbstract` | `:MotifAbstract` | yes |
+| R57 | localized_in | `:LOCALIZED_IN` | `:MotifAbstract` | `:Region` | yes |
+| R58 | regional_variant_motif | `:REGIONAL_VARIANT_MOTIF` | `:MotifAbstract` | `:MotifAbstract` | yes |
+| R59 | diaspora_carried | `:DIASPORA_CARRIED` | `:Clan` | `:MotifAbstract` | yes(氏族の移住で運ぶ) |
+| R60 | preserved_in_region | `:PRESERVED_IN_REGION` | `:MotifAbstract` | `:Region` | yes(消滅地で残存) |
+| **10.1.3 motif syncretism(神仏・神神習合)10種** | | | | | |
+| R61 | honji_of | `:HONJI_OF` | `:Deity`(仏) | `:Deity`(神=垂迹) | yes(本地→垂迹) |
+| R62 | suijaku_of | `:SUIJAKU_OF` | `:Deity`(神=垂迹) | `:Deity`(仏=本地) | yes(垂迹→本地) |
+| R63 | gongen_of | `:GONGEN_OF` | `:Deity`(権現) | `:Deity`/`:Deity` | yes |
+| R64 | identified_with | `:IDENTIFIED_WITH` | `:Deity` | `:Deity` | undirected(同体視) |
+| R65 | shared_attribute_with | `:SHARED_ATTRIBUTE_WITH` | `:Deity` | `:Deity` | undirected(部分習合) |
+| R66 | absorbed_by | `:ABSORBED_BY` | `:Deity` | `:Deity` | yes(吸収神) |
+| R67 | partial_syncretism | `:PARTIAL_SYNCRETISM` | `:Deity` | `:Deity` | undirected |
+| R68 | seasonal_identification | `:SEASONAL_IDENTIFICATION` | `:Deity` | `:Deity` | yes(季節別の同体視) |
+| R69 | functional_overlap | `:FUNCTIONAL_OVERLAP` | `:Deity` | `:Deity` | undirected(機能重複) |
+| R70 | ritual_syncretism | `:RITUAL_SYNCRETISM` | `:Ritual` | `:Ritual` | undirected |
+| **10.1.4 motif localization(地域化)10種** | | | | | |
+| R71 | localized_as | `:LOCALIZED_AS` | `:MotifAbstract` | `:Deity`(地方版) | yes |
+| R72 | local_face_of | `:LOCAL_FACE_OF` | `:Deity`(地方) | `:Deity`(中央/総体) | yes |
+| R73 | regional_specialization | `:REGIONAL_SPECIALIZATION` | `:MotifAbstract`/`:Deity` | `:Region` | yes |
+| R74 | place_specific_variant | `:PLACE_SPECIFIC_VARIANT` | `:MythVariant` | `:Region` | yes |
+| R75 | localized_via_shrine | `:LOCALIZED_VIA_SHRINE` | `:Deity` | `:Shrine` | yes(地域社で固有化) |
+| R76 | locally_named | `:LOCALLY_NAMED` | `:Deity` | `:Deity`(別名) | yes(地方別名) |
+| R77 | adapted_to_terrain | `:ADAPTED_TO_TERRAIN` | `:MotifAbstract` | `:Region` | yes(地形に合わせて変容) |
+| R78 | local_offering_pattern | `:LOCAL_OFFERING_PATTERN` | `:Offering` | `:Region` | yes |
+| R79 | local_taboo | `:LOCAL_TABOO` | `:Taboo` | `:Region`/`:Shrine` | yes |
+| R80 | local_calendar_overlay | `:LOCAL_CALENDAR_OVERLAY` | `:RitualCalendar` | `:Region` | yes |
+| **10.1.5 motif politicalization(政治化)10種** | | | | | |
+| R81 | politicized_to_legitimize | `:POLITICIZED_TO_LEGITIMIZE` | `:MotifAbstract` | `:Emperor`/`:Clan`/`:DynasticPeriod` | yes |
+| R82 | edited_by_chronicler | `:EDITED_BY_CHRONICLER` | `:MythVariant` | `:Text` | yes |
+| R83 | suppressed_in_text | `:SUPPRESSED_IN_TEXT` | `:MotifAbstract` | `:Text` | yes(意図的削除) |
+| R84 | foregrounded_in_text | `:FOREGROUNDED_IN_TEXT` | `:MotifAbstract` | `:Text` | yes(意図的強調) |
+| R85 | central_legitimation | `:CENTRAL_LEGITIMATION` | `:MotifAbstract` | `:Emperor` | yes(皇統正統化) |
+| R86 | peripheral_resistance | `:PERIPHERAL_RESISTANCE` | `:MotifAbstract` | `:Region`/`:Clan` | yes(地方抵抗) |
+| R87 | inverted_for_local | `:INVERTED_FOR_LOCAL` | `:MotifAbstract` | `:MotifAbstract` | yes(地方視点反転、e.g. 国譲り→国引き) |
+| R88 | demonized_in | `:DEMONIZED_IN` | `:Deity` | `:Text` | yes(中央による悪役化) |
+| R89 | rehabilitated_in | `:REHABILITATED_IN` | `:Deity` | `:Text` | yes(中世神道書での再評価) |
+| R90 | propagated_via_decree | `:PROPAGATED_VIA_DECREE` | `:MotifAbstract` | `:SumptuaryLaw`/`:CourtCeremony` | yes |
+
+→ **R41-R90 で 50 種**(累計 40 + 50 = 90 種)
+
+### 10.2 既存 relation との整合
+
+| 既存 relation | 拡張 relation との関係 |
+|---|---|
+| `:VARIANT_OF`(myth_episode → myth_episode) | R74 `:PLACE_SPECIFIC_VARIANT` で **地理軸** を補完 |
+| `:SYNCRETIZED_WITH`(deity ↔ deity) | R61-R70 で **本地垂迹/権現/吸収神/機能重複** に細分化 |
+| `:HAS_ALIAS`(deity → deity) | R76 `:LOCALLY_NAMED` で **地方別名** を分離 |
+| `:REGIONAL_VARIANT_OF`(deity → deity) | R58 `:REGIONAL_VARIANT_MOTIF` (motif) と R72 `:LOCAL_FACE_OF` (deity) に分担 |
+| 既存 motif relation `MR-EV-*` (evolved_into) | R43 `:DERIVED_FROM_MOTIF` の特殊形として継承 |
+
+### 10.3 必須プロパティ(全 50 共通)
+
+`docs/civilization/07_knowledge_graph_final.md` §2.2 共通プロパティ準拠:
+
+```
+relationId, confidenceLevel (A-E), hypothesisLayer (L0-L5),
+temporalScope (mythic/estimated/document/ritual/political/archaeological/literary),
+validFrom, validUntil, sourceReference, notes,
+mythologyLayer, historicalLayer, evidenceType
+```
+
+→ `temporalScope` を **5 軸** に拡張(`#124` で詳細化)。
+
+### 10.4 R-番号予約と命名衝突回避
+
+- 既存 `docs/schema/02_relation_types.md` の relation には番号未付与 → 本書では拡張分のみ R41 から付番
+- TSV 列 `relation_type` は snake_case で、既存スキーマと一致
+- Cypher 写像は SCREAMING_SNAKE_CASE 規約を遵守
+- 既存 40 と本書 R41-R90 の名称重複なし(`:HAS_TITLE`、`:LOCATED_IN` 等は不変)
+
+### 10.5 主要利用シナリオ
+
+#### Scenario A. 国譲り神話の中央/地方視点を motif 派生で記述
+
+```
+(MTF-001 国譲り)-[:INVERTED_FOR_LOCAL {confidenceLevel:'B', hypothesisLayer:'L2'}]->(MTF-013 出雲国引き)
+(MTF-001 国譲り)-[:CENTRAL_LEGITIMATION]->(EMP-皇統)
+(MTF-013 出雲国引き)-[:PERIPHERAL_RESISTANCE]->(REG-出雲国)
+(MTF-001 国譲り)-[:EDITED_BY_CHRONICLER]->(TXT-古事記)
+(MTF-013 出雲国引き)-[:EDITED_BY_CHRONICLER]->(TXT-出雲国風土記)
+```
+
+#### Scenario B. 八幡神の本地垂迹
+
+```
+(DEI-八幡神)-[:SUIJAKU_OF]->(DEI-阿弥陀如来)
+(DEI-阿弥陀如来)-[:HONJI_OF]->(DEI-八幡神)
+(DEI-八幡神)-[:GONGEN_OF]->(DEI-応神天皇)
+(DEI-八幡神)-[:LOCALIZED_VIA_SHRINE]->(SHR-016 宇佐神宮)
+(DEI-八幡神)-[:LOCALIZED_AS {confidenceLevel:'A'}]->(DEI-応神天皇)
+```
+
+#### Scenario C. 蛇神 motif の地域化
+
+```
+(MTF-027 蛇神信仰)-[:LOCALIZED_AS]->(DEI-014 大物主)
+(DEI-014 大物主)-[:LOCAL_FACE_OF]->(DEI-001 大国主)
+(MTF-027 蛇神信仰)-[:LOCALIZED_AS]->(DEI-諏訪龍蛇神)
+(MTF-027 蛇神信仰)-[:PARALLEL_MOTIF]->(CMT-世界の蛇神)
+(MTF-027 蛇神信仰)-[:DIASPORA_CARRIED]->(CLN-海人族)
+```
+
+#### Scenario D. 大物主祟りの政治化
+
+```
+(MTF-128 大物主祟り)-[:POLITICIZED_TO_LEGITIMIZE]->(EMP-崇神天皇)
+(MTF-128 大物主祟り)-[:CENTRAL_LEGITIMATION]->(DPD-崇神朝)
+(MTF-128 大物主祟り)-[:FOREGROUNDED_IN_TEXT]->(TXT-日本書紀崇神紀)
+```
+
+### 10.6 進捗更新
+
+| サブタスク | 状態 | 累計 node | 累計 relation |
+|---|---|---|---|
+| S01-S04 node 拡張 | ✅ | 103 | 40 |
+| **S05 relation 拡張 第1群(神話派生)** | **✅(本 PR)** | 103 | **90** |
+| S06 relation 拡張 第2群(祭祀権力) | 未着手 | 103 | 90 → 140 |
+| S07 relation 拡張 第3群(政治・支配) | 未着手 | 103 | 140 → 190 |
+| S08 relation 拡張 第4群(考古・物質) | 未着手 | 103 | 190 → 240 |
+| S09 relation 拡張 第5群(時間・継承) | 未着手 | 103 | 240 → 290 |
+| S10 relation 拡張 第6群(仮説・解釈) | 未着手 | 103 | 290 → 340 |
+| S11 strength/temporal/uncertainty | 未着手 | 103 | 340 |
+| S12 全体整合性 | 未着手 | 103 | 340 |
