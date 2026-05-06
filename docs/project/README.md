@@ -32,6 +32,7 @@
 | `12_directory_layout.md` | リポジトリ構成 |
 | `13_claude_rules.md` | Claude 運用ルール(暴走防止) |
 | `14_scaling.md` | 数万 relation 規模での運用戦略 |
+| `15_workflow.md` | **進め方(実行ワークフロー)— Issue 1 件・サブタスク 1 つごとの PR/マージ手順** |
 
 ## 3. 全体の流れ(超高速サマリ)
 
