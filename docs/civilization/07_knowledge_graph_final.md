@@ -761,3 +761,165 @@ services:
 
 - `docs/project/10_graphdb_neo4j.md` GR-NE-01〜09:本書設計の実装フェーズ
 - 本書はその **設計仕様書**(GR-NE-01 ラベル写像表 + GR-NE-02 制約 の正本)
+
+---
+
+## 6. 出雲編サブセット投入想定の検証 + 全体 review
+
+### 6.1 出雲編サブセットでの投入想定
+
+出雲編 161 行(`docs/出雲編/`)+ 関連 master からなる **最小投入セット** で全パイプラインを検証する。
+
+#### 想定 node 数(出雲編サブセット)
+
+| ラベル | 推定数 | 内容 |
+|---|---|---|
+| `:Deity` | 約 30 | 大国主・スサノオ・アメノホヒ・コトシロヌシ・タケミナカタ等 |
+| `:Shrine` | 約 25 | 出雲大社・熊野大社・神魂神社・美保神社・佐太神社等 |
+| `:Clan` | 約 8 | 出雲国造・千家・北島・意宇・神門等 |
+| `:Emperor` | 約 5 | 神武・崇神・垂仁・明治等 |
+| `:MythEpisode` | 約 12 | 国譲り・ヤマタノオロチ・国引き・根の堅州国等 |
+| `:Event` | 約 15 | 神賀詞奏上(716)・寛文造営・明治改称等 |
+| `:Site` | 約 5 | 加茂岩倉・荒神谷・西谷墳墓群・出雲国府等 |
+| `:Artifact` | 約 8 | 銅鐸・銅剣・銅鉾・心御柱等 |
+| `:Ritual` | 約 8 | 神在祭・火継神事・青柴垣神事・諸手船神事等 |
+| `:Region` | 約 10 | 出雲国・意宇郡・神門郡・島根郡等 |
+| `:Text` | 約 8 | 古事記・書紀・出雲国風土記・続日本紀・延喜式・神賀詞等 |
+| `:Hypothesis` | 約 4 | HYP-002, HYP-004, HYP-008 等 |
+| `:Title` | 約 5 | 国魂神・式内大社・一宮等 |
+| **合計** | **約 143** | |
+
+#### 想定 relationship 数
+
+| relationship 群 | 推定数 |
+|---|---|
+| `:ENSHRINED_AT` / `:PRIMARY_DEITY_OF` / `:SECONDARY_DEITY_OF` | 約 50 |
+| `:MENTIONED_IN` | 約 200 |
+| `:PARTICIPATED_IN` | 約 30 |
+| `:DESCENDED_FROM` / `:ANCESTOR_DEITY_OF` | 約 12 |
+| `:LOCATED_IN` | 約 30 |
+| `:OCCURRED_IN` | 約 15 |
+| `:PERFORMED_AT` / `:REENACTS` | 約 15 |
+| `:ARCHAEOLOGICALLY_LINKED` | 約 8 |
+| `:SUPPORTS` / `:CONTRADICTS` | 約 12 |
+| `:SAME_AS` / `:HAS_ALIAS` | 約 10 |
+| `:SYNCRETIZED_WITH` | 約 5 |
+| その他 | 約 13 |
+| **合計** | **約 400** |
+
+→ 想定: node 約 143 / edge 約 400 のサブセット投入で **3-5 分以内** に完了見込み(Neo4j Community 標準)
+
+### 6.2 検証手順
+
+```cypher
+// 1. 全 node 件数確認
+MATCH (n)
+RETURN labels(n) AS label, count(n) AS count
+ORDER BY count DESC;
+
+// 2. 全 relationship 件数確認
+MATCH ()-[r]->()
+RETURN type(r) AS rel_type, count(r) AS count
+ORDER BY count DESC;
+
+// 3. masterId 重複検出(制約あれば 0 件保証)
+MATCH (n)
+WITH n.masterId AS mid, labels(n) AS lbl, count(*) AS c
+WHERE c > 1
+RETURN mid, lbl, c;
+
+// 4. dangling relation 検出(制約あれば 0 件保証だが念のため)
+MATCH ()-[r]->()
+WHERE r.relationId IS NULL
+RETURN type(r), count(r);
+
+// 5. 必須プロパティ欠損検出
+MATCH (n) WHERE n.canonicalName IS NULL
+RETURN labels(n), count(n);
+
+MATCH ()-[r]->() WHERE r.confidenceLevel IS NULL OR r.hypothesisLayer IS NULL
+RETURN type(r), count(r);
+
+// 6. KPI 確認
+MATCH ()-[r]->()
+WHERE r.hypothesisLayer IS NOT NULL
+WITH r.hypothesisLayer AS layer, count(r) AS c, count(*) AS total
+RETURN layer, c, round(100.0 * c / total, 2) AS percent;
+
+// 7. L4-L5 ↔ E 整合性
+MATCH ()-[r]->()
+WHERE r.hypothesisLayer IN ['L4','L5'] AND r.confidenceLevel <> 'E'
+RETURN r.relationId AS violation_id, r.hypothesisLayer, r.confidenceLevel;
+```
+
+### 6.3 受入基準(出雲編サブセット投入の合格条件)
+
+- [ ] 全制約・インデックスが `IF NOT EXISTS` で冪等にロード
+- [ ] node 投入で件数が想定の ±10% 以内
+- [ ] relationship 投入で件数が想定の ±10% 以内
+- [ ] masterId 重複: **0 件**
+- [ ] dangling relation: **0 件**
+- [ ] 必須プロパティ欠損: **0 件**
+- [ ] L4-L5 ↔ E 違反: **0 件**
+- [ ] Q01-Q20 のクエリ全件が動作(ないし合理的にデータ不足の場合のみ空結果)
+- [ ] 投入時間: **5 分以内**(出雲編サブセット規模で)
+
+### 6.4 全体 review
+
+#### 完成度
+
+| 章 | 内容 | 完成度 |
+|---|---|---|
+| §1 node 設計 | 13 ラベル + 共通+各プロパティ | ✅ 完成 |
+| §2 edge 設計 | 39 relationship type + 共通プロパティ | ✅ 完成 |
+| §3 制約・インデックス | 制約 18件 + インデックス 16件 + 全文 3件 + 関係 3件 + 地理 3件 | ✅ 完成 |
+| §4 Cypher クエリ | 代表 20 件 + 残候補 30 件 | ✅ 完成 |
+| §5 schema 整合 + LOAD CSV | schema 11文書整合 + 投入パイプライン | ✅ 完成 |
+| §6 検証 + review | 出雲編サブセット投入想定 + 受入基準 | ✅ 完成 |
+
+#### docs/schema/ との整合性
+
+`docs/schema/00〜10` の **全 11 文書** との対応を §5.1 で確認済。schema 側を正本とし、本書はその Cypher 写像。
+
+#### docs/project/10_graphdb_neo4j.md との分担
+
+- `docs/project/10_graphdb_neo4j.md`: **運用設計の概要**(GR-NE-01〜09 issue 群を含む)
+- 本書 `07_knowledge_graph_final.md`: **設計仕様の正本**(ラベル/edge/制約/インデックス/Cypher の確定版)
+
+→ 両者で重複箇所がある(写像表など)。schema 改訂時は両文書を更新する規約とする。
+
+#### 後続のフェーズ移行
+
+本書完成により、Phase 5(Neo4j 化・公開)の **設計フェーズが完了**。後続は GR-NE-01〜GR-VS-04 の実装フェーズ:
+
+```
+Phase 5 設計 (本書)        ──> 完成
+Phase 5 実装 (GR-NE-01-09)  ──> Phase 4 完了後に着手
+Phase 5 可視化 (GR-VS-01-04) ──> 投入後に着手
+Phase 5 公開 (GR-EX-01-03)   ──> 最後
+```
+
+### 6.5 Gemini 反射監査(推奨)
+
+本書全体について `docs/audit/gemini/` 形式で Gemini 監査を推奨:
+
+- 観点 1: schema との完全整合
+- 観点 2: 既存 docs/civilization/ (motif, saiken, networks, jomon, central/regional) との接続
+- 観点 3: KPI(L0 比率 60.5% 等)の維持可能性
+- 観点 4: 投入後の検索パフォーマンス想定
+- 観点 5: 中央偏重の不在(地方独立性の保持)
+
+監査は人間オペレータが Phase 5 実装前に実施し、結果を `docs/audit/gemini/AUD-GM-83_knowledge_graph.md` に記録する。
+
+### 6.6 結論
+
+本書は **issue #83 の最終成果物**として:
+
+1. **13 node ラベル** + **39 relationship type** の Neo4j 写像確定
+2. **35+ Cypher 制約・インデックス** で投入時 0 違反を保証
+3. **20 代表クエリ + 30 候補** で利用パターン網羅
+4. **LOAD CSV パイプライン** で TSV→Neo4j 投入を完全自動化可能
+5. **出雲編サブセット投入** で受入基準を確立(node ~143 / edge ~400 / 5 分以内)
+6. **docs/schema/ 全 11 文書と整合** + **docs/project/10_graphdb_neo4j.md と分担**
+
+→ Phase 5 実装フェーズへの **設計仕様書として確定**。
