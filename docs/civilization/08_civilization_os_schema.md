@@ -219,3 +219,145 @@ S05-S10(relation 拡張)では各 PR で以下:
 4. プレフィックス / 名称の **衝突回避** を §2.3-2.4 で先行予約
 5. 既存 schema/civilization/Cypher 写像は **完全継承**
 6. `#124`(時間構造・仮説層)、`#125`(Neo4j 拡張)と連携
+
+---
+
+## 7. node 拡張 第1群: 神話文化層 30 種(S02)
+
+神話・モチーフ・宇宙観・聖物・聖地などを **独立 node 化** し、relation 経由で記述する層。
+
+### 7.1 一覧表(30 種)
+
+| # | node_type | プレフィックス | Cypher ラベル | 用途 |
+|---|---|---|---|---|
+| N14 | motif_abstract | MTF | `:MotifAbstract` | 抽象モチーフ(蛇神/太陽神型 等)。既存 MOTIF-NNN を独立 node 化 |
+| N15 | mythic_episode_variant | MEV | `:MythVariant` | 神話エピソード異伝(古事記版/書紀版/風土記版 を別 node 化) |
+| N16 | cosmology | CSM | `:Cosmology` | 宇宙観・他界観モデル(高天原/中津国/根の堅州/常世) |
+| N17 | sacred_object | SOB | `:SacredObject` | 神宝・依代(草薙剣/八咫鏡/勾玉/七支刀 等) |
+| N18 | sacred_tree | STR | `:SacredTree` | 神木(諏訪御柱原木/伊勢御杖代 等) |
+| N19 | sacred_stone | SST | `:SacredStone` | 磐座・立石(三輪山磐座/那智の滝磐 等) |
+| N20 | sacred_mountain | SMT | `:SacredMountain` | 神体山(三輪山/富士/出羽三山 等)— region/site と区別 |
+| N21 | sacred_water | SWT | `:SacredWater` | 神聖な水(那智の滝/玉造温泉/井泉) |
+| N22 | sacred_island | SIS | `:SacredIsland` | 神聖な島(沖ノ島/厳島/竹生島/江ノ島) |
+| N23 | sacred_grove | SGV | `:SacredGrove` | 鎮守の杜(神社境内森) |
+| N24 | sacred_cave | SCV | `:SacredCave` | 神聖な洞窟(天岩戸/伊勢神宮元宮 等) |
+| N25 | sacred_fire | SFR2 | `:SacredFire` | 神聖な火(火継神事/大嘗祭斎火 等) |
+| N26 | divine_marriage | DMG | `:DivineMarriage` | 神婚事象(三輪山型/海宮婚 等) |
+| N27 | divine_birth | DBR | `:DivineBirth` | 神の誕生事象(誓約/禊/桃から) |
+| N28 | divine_death | DDT | `:DivineDeath` | 神の死(イザナミ黄泉/ヤマトタケル) |
+| N29 | divine_descent | DDS | `:DivineDescent` | 降臨(天孫降臨/神功皇后顕現) |
+| N30 | divine_quest | DQS | `:DivineQuest` | 異界訪問(海宮訪問/根の堅州訪問) |
+| N31 | divine_battle | DBT | `:DivineBattle` | 神戦(国譲り/神武東征/タケミカヅチ派遣) |
+| N32 | divine_transformation | DTR | `:DivineTransformation` | 変身(オオモノヌシ蛇身/コノハナ火中出産) |
+| N33 | divine_punishment | DPN | `:DivinePunishment` | 神罰(スサノオ追放/オロチ祟り) |
+| N34 | divine_purification | DPF | `:DivinePurification` | 禊・祓 |
+| N35 | curse | CRS | `:Curse` | 呪詛・祟り(大物主祟り/早良親王怨霊) |
+| N36 | omen | OMN | `:Omen` | 兆し・予兆(諏訪御渡/月読託宣) |
+| N37 | folk_motif | FMT | `:FolkMotif` | 民俗モチーフ(蛇婿入り/三人姉妹型) |
+| N38 | comparative_motif | CMT | `:ComparativeMotif` | 比較神話モチーフ(オルフェウス型/洪水型) |
+| N39 | symbol | SYM | `:Symbol` | 象徴(三本足烏/勾玉形/三巴) |
+| N40 | mythic_creature | MCR | `:MythicCreature` | 神獣・妖怪(八咫烏/狛犬/河童/天狗) |
+| N41 | mythic_food | MFD | `:MythicFood` | 神饌・神聖な食物(海幸山幸の獲物/桃) |
+| N42 | mythic_weapon | MWP | `:MythicWeapon` | 神器武器(草薙剣/天叢雲剣/布都御魂) |
+| N43 | mythic_garment | MGR2 | `:MythicGarment` | 神衣・装束(鳥装束/蓑笠) |
+
+→ **N14-N43 で 30 種**(累計 13 + 30 = 43 種)
+
+### 7.2 主要 node の必須プロパティ詳細
+
+#### N14. motif_abstract(MTF — `:MotifAbstract`)
+
+- **必須**: `master_id`(MTF-NNN)、`canonical_name`、`category`(王権神話/蛇神龍神/海洋海神 等の既存 motif_db カテゴリ継承)、`mythology_layer`(L0-L5)
+- **任意**: `description`、`related_motif_ids`(List)、`source_reference`
+- **既存との関係**: 既存 `MOTIF-001 〜 MOTIF-245` をそのまま `master_id` として継承可能(後方互換)
+- **関連可能 node**: deity / shrine / region / clan / archaeological_site / hypothesis(対応 motif として)
+- **代表 relation**: motif → deity(`:EMBODIED_BY`)、motif → motif(`:EVOLVED_FROM`、既存 MR-EV-* と整合)
+
+#### N15. mythic_episode_variant(MEV — `:MythVariant`)
+
+- **必須**: `master_id`、`canonical_name`、`parent_episode_id`(MYTH master_id への参照)、`source_text_id`(TXT master_id)
+- **任意**: `variant_type`(主要本文/一書/異伝/民間口承)、`differs_from_parent`(差異記述)
+- **設計判断**: 既存 `:MythEpisode` は神話エピソードの **抽象** を保持。本 node は各文献での **異伝** を独立化することで、古事記版/書紀第一段一書/書紀第七段六種 等の **対比** が可能になる
+- **関連可能 node**: myth_episode(parent)、text(source)、deity(participating)
+
+#### N16. cosmology(CSM — `:Cosmology`)
+
+- **必須**: `master_id`、`canonical_name`、`cosmology_type`(垂直三層/海洋他界/山岳他界/中世神道宇宙論)
+- **任意**: `layers`(高天原/葦原中津国/根の堅州 等のリスト)
+- **代表事例**: 古事記宇宙観、出雲宇宙観(根の国中心)、補陀落浄土観、両部神道宇宙論、平田篤胤幽冥論
+
+#### N17. sacred_object(SOB — `:SacredObject`)
+
+- **必須**: `master_id`、`canonical_name`、`object_type`(剣/鏡/玉/鉾/楯)
+- **任意**: `physical_existence`(現存/伝承のみ/失われた)、`current_location`(神社 master_id)、`material`、`discovery_year`
+- **既存 artifact との分離**: artifact は **考古資料**(出土品)、sacred_object は **祭祀的に神聖視される物**。重複する場合は両 node を持ち、`syncretized_with` で結ぶ
+- **代表事例**: 草薙剣(熱田)、八咫鏡(伊勢)、八尺瓊勾玉(皇都)、布都御魂(石上)、七支刀(石上、artifact でもある)
+
+#### N18-N25. sacred_tree / stone / mountain / water / island / grove / cave / fire
+
+- 共通必須: `master_id`、`canonical_name`、`region_id`(REG への参照)
+- 山岳 (`SMT`)、島 (`SIS`) は既存 region/shrine と重複しうるが、**祭祀対象としての独立 node** を確保(物理的同一視は relation で表現)
+
+#### N26-N34. divine_* 系(神事象 9 種)
+
+- 共通必須: `master_id`、`canonical_name`、`participating_deity_ids`(List)、`location_region_id`、`source_text_ids`(List)
+- 任意: `mythic_time`、`historicity_level`、`mythology_layer`
+- 設計判断: 既存 `:MythEpisode` は **物語単位**(国譲り全体)、divine_* は **事象単位**(タケミカヅチ派遣 / コトシロヌシ服従 / タケミナカタ敗走 等)。物語 → 事象群で zoom in できる構造
+
+#### N35. curse(CRS — `:Curse`)
+
+- 既存 motif `MOTIF-127 祟り神` / `MOTIF-128 大物主祟り` / `MOTIF-121 御霊信仰` を独立 node 化
+- 必須: `master_id`、`canonical_name`、`cursed_target`(任意 node)、`curse_source`(任意 node)、`historical_period`
+
+#### N36. omen(OMN — `:Omen`)
+
+- 諏訪御渡、彗星出現、地震 等の前兆現象
+- 必須: `master_id`、`canonical_name`、`omen_type`(自然現象/夢告/託宣)、`occurred_at_region_id`
+
+#### N37-N38. folk_motif / comparative_motif
+
+- folk_motif: 民俗学的モチーフ(柳田・折口・南方の体系)
+- comparative_motif: 比較神話学的モチーフ(オルフェウス型/洪水型/英雄旅型)
+- 設計判断: motif_abstract と区別する理由は **学問領域別の出典・確度**(folk は地方伝承中心、comparative は世界神話との対比)
+
+#### N39. symbol(SYM — `:Symbol`)
+
+- 三本足烏、三巴紋、神紋、八咫鏡形象
+- 必須: `master_id`、`canonical_name`、`symbol_type`(紋章/形象/数)、`representation_of`(任意 node、抽象/具体)
+
+#### N40-N43. mythic_creature / food / weapon / garment
+
+- creature: 八咫烏、河童、天狗、狛犬、麒麟、鳳凰
+- food: 桃、海幸山幸の獲物、神饌米、神酒
+- weapon: 既存神宝(剣・鉾)とは独立化(伝承上の武器全て)
+- garment: 鳥装束、蓑笠、冠、装束
+
+### 7.3 既存 13 node との重複チェック
+
+| 拡張 node | 重複の可能性 | 解決 |
+|---|---|---|
+| N14 motif_abstract | 既存 motif_db (245) と概念重複 | master_id を継承(MOTIF-NNN そのまま MTF として運用)。後方互換 |
+| N15 mythic_episode_variant | `:MythEpisode.variants`(プロパティ)と部分重複 | プロパティから node に **昇格**。既存 myth_episode はそのまま、variants 詳細を子 node 化 |
+| N17 sacred_object | `:Artifact` と部分重複 | 考古資料 vs 祭祀対象物として **分離**。同一物は両 node + relation |
+| N20 sacred_mountain | `:Region` / `:Shrine`(神体山祭祀社)と重複 | 祭祀対象としての山を独立 node。地理的山は region 側 |
+| N22 sacred_island | `:Region` / `:Shrine` と重複 | 同上 |
+
+### 7.4 主要追加 relation の予告(S05-S10 で詳細)
+
+- `:EMBODIED_BY` (motif_abstract → deity) 
+- `:VARIANT_OF_EPISODE` (mythic_episode_variant → myth_episode)
+- `:RECORDED_IN_TEXT` (mythic_episode_variant → text)
+- `:HOUSED_AT` (sacred_object → shrine)
+- `:WORSHIPPED_AT` (sacred_mountain/island/water → shrine)
+- `:CURSE_TARGETS` (curse → 任意 node)
+- `:OMEN_PRECEDES` (omen → event/myth_episode)
+- `:SYMBOLIZES` (symbol → 任意 node)
+
+### 7.5 進捗更新
+
+| サブタスク | 状態 | 累計 node | 累計 relation |
+|---|---|---|---|
+| S01 章立て・整合表 | ✅ | 13 | 40 |
+| **S02 node 拡張 第1群(神話文化層)** | **✅(本 PR)** | **43** | 40 |
+| S03 node 拡張 第2群(祭祀ネットワーク層) | 未着手 | 43 → 73 | 40 |
+| S04 node 拡張 第3群(政治・物的層) | 未着手 | 73 → 103 | 40 |
