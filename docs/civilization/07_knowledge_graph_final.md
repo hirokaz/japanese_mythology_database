@@ -609,3 +609,155 @@ ORDER BY count DESC;
 - L4-L5 仮説の提唱者ネットワーク(:PROPOSED_BY)
 
 → 実投入時(GR-NE-09)に追加実装予定。
+
+---
+
+## 5. docs/schema/ との整合表 + LOAD CSV パイプライン
+
+### 5.1 schema 文書群との対応
+
+| schema 文書 | 本書での対応章 | 状態 |
+|---|---|---|
+| `docs/schema/00_id_scheme.md` | §1.1 ラベル写像表 + プレフィックス | ✅ 整合 |
+| `docs/schema/01_node_types.md` | §1.2-1.3 共通+各 node プロパティ | ✅ 整合 |
+| `docs/schema/02_relation_types.md` | §2.1-2.2 relationship 写像 + 共通プロパティ | ✅ 整合 |
+| `docs/schema/03_deity_master_design.md` | §1.3 `:Deity` プロパティ | ✅ 整合 |
+| `docs/schema/04_shrine_master_design.md` | §1.3 `:Shrine` プロパティ | ✅ 整合 |
+| `docs/schema/05_clan_master_design.md` | §1.3 `:Clan` プロパティ | ✅ 整合 |
+| `docs/schema/06_time_axes.md` | §2.2 temporalScope/validFrom/validUntil | ✅ 整合 |
+| `docs/schema/07_source_reliability.md` | 共通プロパティ sourceReliability | ✅ 整合 |
+| `docs/schema/08_hypothesis_layer.md` | §1.3 `:Hypothesis.layer`、§3.5 hypothesisLayer インデックス | ✅ 整合 |
+| `docs/schema/09_relation_db.md` | §2 全体 | ✅ 整合 |
+| `docs/schema/10_future_architectures.md` | 本書全体(本書はその実装提案) | ✅ 整合 |
+
+→ **schema 側を正本として遵守**。本書は Cypher 写像のみ。schema 改訂時は本書も連動更新する規約とする(`docs/project/14_scaling.md` §10.1 の波及範囲対応)。
+
+### 5.2 LOAD CSV パイプライン全体像
+
+```
+[TSV(リポジトリ)] docs/master/*.tsv, docs/relations/*.tsv
+       │
+       │ (1) Python 前処理
+       ▼
+[CSV(staging)] staging/master/*.csv, staging/relations/*.csv
+       │
+       │ (2) Cypher 制約・インデックス作成
+       ▼
+[Neo4j 制約・インデックス] (§3 で定義)
+       │
+       │ (3) LOAD CSV(master 13 種)
+       ▼
+[node 投入] :Deity, :Shrine, ... 13 ラベル
+       │
+       │ (4) LOAD CSV(relations 39 種)
+       ▼
+[edge 投入] :ENSHRINED_AT, :MENTIONED_IN, ... 39 type
+       │
+       │ (5) 投入後検証
+       ▼
+[count確認・dangling検出・ KPI再計算]
+```
+
+### 5.3 TSV → CSV 変換規約
+
+| TSV 表記 | CSV 表記 |
+|---|---|
+| `parent_deity_ids = "DEI-005|DEI-006"` | `parentDeityIds = "DEI-005;DEI-006"`(セミコロン区切り) |
+| `aliases = "オオナムチ,大穴牟遅"` | `aliases = "オオナムチ;大穴牟遅"`(同) |
+| カラム名 snake_case | camelCase に変換 |
+| `-`(ハイフン)「該当なし」 | 空文字または NULL に変換 |
+| 改行 LF | LF 維持 |
+
+```python
+# pipeline/tsv2csv.py(概念実装)
+import csv
+import re
+
+def snake_to_camel(name):
+    parts = name.split('_')
+    return parts[0] + ''.join(p.capitalize() for p in parts[1:])
+
+def convert_value(value):
+    if value == '-' or value == '':
+        return ''
+    return value.replace('|', ';')
+
+# TSV を読み込み、ヘッダを camelCase に変換、値をクリーンアップして CSV 出力
+```
+
+### 5.4 master 投入 Cypher(典型例: deity)
+
+```cypher
+LOAD CSV WITH HEADERS FROM 'file:///deity_master.csv' AS row
+MERGE (d:Deity { masterId: row.masterId })
+SET d.canonicalName       = row.canonicalName,
+    d.canonicalReading    = row.canonicalReading,
+    d.category            = row.category,
+    d.gender              = row.gender,
+    d.mainTextAppearance  = row.mainTextAppearance,
+    d.aliases             = CASE WHEN row.aliases IS NULL OR row.aliases = ''
+                                 THEN [] ELSE split(row.aliases, ';') END,
+    d.aliasesReading      = CASE WHEN row.aliasesReading IS NULL OR row.aliasesReading = ''
+                                 THEN [] ELSE split(row.aliasesReading, ';') END,
+    d.parentDeityIds      = CASE WHEN row.parentDeityIds IS NULL OR row.parentDeityIds = ''
+                                 THEN [] ELSE split(row.parentDeityIds, ';') END,
+    d.consortDeityIds     = CASE WHEN row.consortDeityIds IS NULL OR row.consortDeityIds = ''
+                                 THEN [] ELSE split(row.consortDeityIds, ';') END,
+    d.syncretism          = row.syncretism,
+    d.regionalVariant     = row.regionalVariant,
+    d.mergedInto          = row.mergedInto,
+    d.notes               = row.notes;
+```
+
+→ 13 master 全てに対し同様の Cypher を生成(スクリプト自動化推奨)。
+
+### 5.5 relation 投入 Cypher(典型例: enshrined_at)
+
+```cypher
+LOAD CSV WITH HEADERS FROM 'file:///relations.csv' AS row
+WITH row WHERE row.relationType = 'enshrined_at'
+MATCH (s:Deity { masterId: row.sourceId })
+MATCH (t:Shrine { masterId: row.targetId })
+MERGE (s)-[r:ENSHRINED_AT]->(t)
+SET r.relationId       = row.relationId,
+    r.confidenceLevel  = row.confidenceLevel,
+    r.hypothesisLayer  = row.hypothesisLayer,
+    r.temporalScope    = row.temporalScope,
+    r.validFrom        = CASE WHEN row.validFrom = '' THEN NULL ELSE toInteger(row.validFrom) END,
+    r.validUntil       = CASE WHEN row.validUntil = '' THEN NULL ELSE toInteger(row.validUntil) END,
+    r.sourceReference  = row.sourceReference,
+    r.notes            = row.notes;
+```
+
+→ 39 relation type 全てに対し同様の Cypher。Python テンプレートで自動生成可。
+
+### 5.6 投入順序の依存関係
+
+1. **制約・インデックス**(§3)
+2. **master 投入**:相互依存なし、ラベル 13 種を並行投入可
+3. **relation 投入**:source/target master が必要 → master 投入後
+4. **検証**:
+   - 全 node の count(*)
+   - dangling relation の検出(`MATCH (s)-[r]->(t) WHERE s.masterId IS NULL OR t.masterId IS NULL RETURN count(r)`)
+   - 重複 relation の検出
+   - KPI 再計算(L0 比率等)
+
+### 5.7 docker-compose 構成案(将来)
+
+```yaml
+# docker-compose.yml(検討)
+services:
+  neo4j:
+    image: neo4j:5.18-community
+    ports: ["7474:7474", "7687:7687"]
+    volumes:
+      - ./staging:/var/lib/neo4j/import:ro
+      - ./neo4j-data:/data
+    environment:
+      - NEO4J_AUTH=neo4j/password
+```
+
+### 5.8 関連 Issue
+
+- `docs/project/10_graphdb_neo4j.md` GR-NE-01〜09:本書設計の実装フェーズ
+- 本書はその **設計仕様書**(GR-NE-01 ラベル写像表 + GR-NE-02 制約 の正本)
