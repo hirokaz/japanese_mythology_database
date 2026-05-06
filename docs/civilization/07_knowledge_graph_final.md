@@ -393,3 +393,219 @@ CREATE POINT INDEX region_coord_idx IF NOT EXISTS FOR (n:Region) ON (n.coordinat
 ### 3.8 docs/schema/ との整合
 
 `docs/schema/01_node_types.md`(必須カラム)と本書 §3.2 必須プロパティ制約は整合。`docs/schema/02_relation_types.md` §4 必須カラムと本書 §3.5 関係プロパティインデックスは整合。
+
+---
+
+## 4. Cypher クエリ例(代表 20 件)
+
+各クエリは想定結果と用途を併記。実投入後の動作確認用。
+
+### Q01. 神社の主祭神を取得
+
+```cypher
+MATCH (s:Shrine {canonicalName: '出雲大社'})<-[:PRIMARY_DEITY_OF]-(d:Deity)
+RETURN d.canonicalName AS deity, d.category AS category;
+```
+用途: 神社カードの基本情報表示。
+
+### Q02. 神の祀られる神社一覧
+
+```cypher
+MATCH (d:Deity {canonicalName: '大国主'})-[r:ENSHRINED_AT|PRIMARY_DEITY_OF|SECONDARY_DEITY_OF]->(s:Shrine)
+RETURN s.canonicalName AS shrine, s.prefecture AS prefecture, type(r) AS relation_type
+ORDER BY s.prefecture;
+```
+用途: 神格分布マップの基礎データ。
+
+### Q03. 神話エピソードの異伝(複数文献での記述差)
+
+```cypher
+MATCH (m:MythEpisode {canonicalName: '国譲り'})-[:MENTIONED_IN]->(t:Text)
+RETURN t.canonicalName AS text, t.documentWrittenTime AS year, t.textType AS type
+ORDER BY t.documentWrittenTime;
+```
+用途: 異伝対比、文献層別表示。
+
+### Q04. 氏族の祖神までの系譜(最大 5 ホップ)
+
+```cypher
+MATCH p = (c:Clan {canonicalName: '出雲国造'})-[:DESCENDED_FROM*1..5]->(d:Deity)
+RETURN p, length(p) AS depth;
+```
+用途: 系譜可視化(graph 描画)。
+
+### Q05. 中央視点 vs 地方異伝の比較
+
+```cypher
+MATCH (m:MythEpisode)-[:VARIANT_OF*0..1]-(v:MythEpisode)-[:MENTIONED_IN]->(t:Text)
+WHERE t.textType IN ['風土記','社伝','地方伝承']
+RETURN m.canonicalName AS central, v.canonicalName AS regional, t.canonicalName AS text;
+```
+用途: 中央⇄地方二項構造の可視化。
+
+### Q06. 仮説とその支持/反証事実
+
+```cypher
+MATCH (h:Hypothesis)
+OPTIONAL MATCH (h)-[s:SUPPORTS]->(supportNode)
+OPTIONAL MATCH (h)-[c:CONTRADICTS]->(contraNode)
+WHERE h.layer IN ['L4','L5']
+RETURN h.canonicalName AS hypothesis, h.layer AS layer,
+       collect(DISTINCT supportNode.canonicalName) AS supports,
+       collect(DISTINCT contraNode.canonicalName) AS contradicts;
+```
+用途: 大胆仮説のエビデンス可視化。
+
+### Q07. 神仏習合グラフ
+
+```cypher
+MATCH p = (d:Deity)-[:SYNCRETIZED_WITH*1..2]-(other:Deity)
+WHERE d.category IS NOT NULL
+RETURN p
+LIMIT 50;
+```
+用途: 神仏習合ネットワーク描画。
+
+### Q08. ある神社の祭祀 → 神話再演
+
+```cypher
+MATCH (s:Shrine {canonicalName: '諏訪大社上社本宮'})<-[:PERFORMED_AT]-(r:Ritual)-[:REENACTS]->(m:MythEpisode)
+RETURN r.canonicalName AS ritual, m.canonicalName AS myth, r.schedule AS schedule;
+```
+用途: 神社祭祀の神話的根拠表示。
+
+### Q09. 銅鐸出土遺跡 → 神話関連
+
+```cypher
+MATCH (a:Artifact {type:'銅鐸'})-[:FOUND_AT]->(s:Site)
+OPTIONAL MATCH (s)-[:ARCHAEOLOGICALLY_LINKED]->(m:MythEpisode)
+RETURN s.canonicalName AS site, count(a) AS bronze_bell_count, collect(m.canonicalName) AS linked_myths;
+```
+用途: 弥生祭祀文化圏の可視化。
+
+### Q10. 海人系祭神の地理分布
+
+```cypher
+MATCH (d:Deity {category:'海神'})-[:ENSHRINED_AT|PRIMARY_DEITY_OF|SECONDARY_DEITY_OF]->(s:Shrine)-[:LOCATED_IN]->(r:Region)
+RETURN r.canonicalName AS region, count(DISTINCT s) AS shrine_count, collect(DISTINCT d.canonicalName) AS deities
+ORDER BY shrine_count DESC;
+```
+用途: 海人ネットワーク可視化。
+
+### Q11. 天皇の関与する事象一覧
+
+```cypher
+MATCH (e:Emperor {canonicalName: '崇神天皇'})-[:PARTICIPATED_IN]->(target)
+RETURN labels(target) AS type, target.canonicalName AS name;
+```
+用途: 天皇別の関与事象タイムライン。
+
+### Q12. 同体視される神(syncretized_with の連結成分)
+
+```cypher
+MATCH p = (d1:Deity {canonicalName:'スサノオ'})-[:SYNCRETIZED_WITH*1..3]-(d2:Deity)
+RETURN d2.canonicalName AS syncretized, length(p) AS distance
+ORDER BY distance;
+```
+用途: 神仏習合経由の同体視ネットワーク。
+
+### Q13. 文献の編纂年順タイムライン
+
+```cypher
+MATCH (t:Text)
+WHERE t.documentWrittenTime IS NOT NULL
+RETURN t.canonicalName AS text, t.documentWrittenTime AS year, t.textType AS type, t.author AS author
+ORDER BY t.documentWrittenTime
+LIMIT 50;
+```
+用途: 文献の歴史的位置づけ可視化。
+
+### Q14. 国譲り神話の参加者全員
+
+```cypher
+MATCH (n)-[:PARTICIPATED_IN]->(m:MythEpisode {canonicalName:'国譲り'})
+RETURN labels(n) AS type, n.canonicalName AS name;
+```
+用途: 神話登場人物の総覧。
+
+### Q15. 地方の独立祭祀(中央史料に登場しない)
+
+```cypher
+MATCH (d:Deity)
+WHERE NOT EXISTS {
+  MATCH (d)-[:MENTIONED_IN]->(t:Text {canonicalName: '古事記'})
+} AND NOT EXISTS {
+  MATCH (d)-[:MENTIONED_IN]->(t:Text {canonicalName: '日本書紀'})
+}
+RETURN d.canonicalName AS deity, d.category AS category, d.regionalVariant AS region
+LIMIT 30;
+```
+用途: 地方軽視監査の補助(`docs/audit/08_regional_audit.md`)。
+
+### Q16. ある氏族が祭祀権を持つ全神社
+
+```cypher
+MATCH (c:Clan {canonicalName: '物部氏'})<-[:RELATED_CLAN_OF*0..1]-(s:Shrine)
+RETURN s.canonicalName AS shrine, s.prefecture AS prefecture;
+```
+
+> 注: `:RELATED_CLAN_OF` は本設計には未定義。実装時は `s.relatedClanIds` プロパティ経由で代用するか、edge を新設する。
+
+### Q17. 縄文〜古墳期の祭祀遺跡 → 神話モチーフ対応
+
+```cypher
+MATCH (s:Site)-[:ARCHAEOLOGICALLY_LINKED]->(m:MythEpisode)
+WHERE s.era IN ['縄文','弥生','古墳']
+RETURN s.era AS era, s.canonicalName AS site, m.canonicalName AS myth, m.mythicTime AS mythTime;
+```
+用途: 考古⇄神話対応表(L2-L4 仮説含)。
+
+### Q18. 9 地域祭祀圏のノード集計
+
+```cypher
+MATCH (s:Shrine)-[:LOCATED_IN]->(r:Region)
+WHERE r.canonicalName IN ['出雲国','伊勢国','信濃国諏訪郡','常陸国','下総国','筑前国','紀伊国','大和国式上郡','陸奥国','日向国']
+RETURN r.canonicalName AS saiken_region, count(s) AS shrine_count
+ORDER BY shrine_count DESC;
+```
+用途: 9 圏(`docs/civilization/03_saiken_analysis.md`)の規模可視化。
+
+### Q19. hypothesis_layer 別 relation 件数
+
+```cypher
+MATCH ()-[r]->()
+WHERE r.hypothesisLayer IS NOT NULL
+RETURN r.hypothesisLayer AS layer, count(r) AS count
+ORDER BY layer;
+```
+用途: KPI 監視(L0 比率等、`docs/project/14_scaling.md` §11)。
+
+### Q20. 全 node / relationship 件数
+
+```cypher
+MATCH (n)
+RETURN labels(n) AS label, count(n) AS count
+ORDER BY count DESC
+UNION
+MATCH ()-[r]->()
+RETURN ['__edge__:'+type(r)] AS label, count(r) AS count
+ORDER BY count DESC;
+```
+用途: ロード後の検証、ダッシュボード基礎統計。
+
+---
+
+### 4.X 残り 30 件のクエリ候補(後続実装)
+
+- 系譜深さ分析(parent_of の最大深さ)
+- 改称履歴の追跡(renamed_to の連鎖)
+- 婚姻同盟ネットワーク(married_to + allied_with)
+- 御霊信仰の地理拡散(MOTIF-121 派生 + LOCATED_IN)
+- 製鉄祭祀の系譜(MOTIF-082 ⇄ 鍛冶神)
+- 修験霊場の本地仏分布(SYNCRETIZED_WITH)
+- 祭祀年中行事のカレンダー(:Ritual.schedule)
+- 文献継承(authored_by + supersedes)
+- 客人神分布(MOTIF-148 アラハバキ + LOCATED_IN)
+- L4-L5 仮説の提唱者ネットワーク(:PROPOSED_BY)
+
+→ 実投入時(GR-NE-09)に追加実装予定。
