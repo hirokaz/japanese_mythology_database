@@ -178,3 +178,104 @@ mergedInto, notes
 ### 1.6 docs/schema/ との整合
 
 `docs/schema/01_node_types.md` の 13 node 種定義 と本書 §1.1-1.3 は **完全対応**。schema 側が正本。本書はその Cypher 写像。
+
+---
+
+## 2. edge 設計
+
+### 2.1 relation 35+ 種 → relationship type 写像表
+
+| TSV relation_type | Cypher relationship | source ラベル | target ラベル | directed |
+|---|---|---|---|---|
+| **2.1.1 神社・祭祀関係** | | | | |
+| enshrined_at | `:ENSHRINED_AT` | `:Deity` | `:Shrine` | yes |
+| primary_deity_of | `:PRIMARY_DEITY_OF` | `:Deity` | `:Shrine` | yes |
+| secondary_deity_of | `:SECONDARY_DEITY_OF` | `:Deity` | `:Shrine` | yes |
+| has_subordinate_shrine | `:HAS_SUBORDINATE_SHRINE` | `:Shrine` | `:Shrine` | yes |
+| located_in | `:LOCATED_IN` | `:Shrine`/`:Site` | `:Region` | yes |
+| **2.1.2 系譜関係** | | | | |
+| parent_of | `:PARENT_OF` | `:Deity`/`:Emperor` | `:Deity`/`:Emperor` | yes |
+| child_of | `:CHILD_OF` | `:Deity`/`:Emperor` | `:Deity`/`:Emperor` | yes |
+| sibling_of | `:SIBLING_OF` | (同上) | (同上) | undirected → 1行のみ |
+| married_to | `:MARRIED_TO` | (同上) | (同上) | undirected → 1行のみ |
+| descended_from | `:DESCENDED_FROM` | `:Clan` | `:Deity`/`:Clan` | yes |
+| ancestor_deity_of | `:ANCESTOR_DEITY_OF` | `:Deity` | `:Clan` | yes |
+| **2.1.3 神格・同体** | | | | |
+| syncretized_with | `:SYNCRETIZED_WITH` | `:Deity` | `:Deity` | undirected |
+| same_as | `:SAME_AS` | `:Deity` | `:Deity` | undirected |
+| has_alias | `:HAS_ALIAS` | `:Deity` | `:Deity` | yes |
+| has_title | `:HAS_TITLE` | `:Deity`/`:Shrine` | `:Title` | yes |
+| regional_variant_of | `:REGIONAL_VARIANT_OF` | `:Deity` | `:Deity` | yes |
+| **2.1.4 政治・支配** | | | | |
+| controlled_by | `:CONTROLLED_BY` | `:Region`/`:Clan` | `:Clan`/`:Emperor` | yes |
+| ruled | `:RULED` | `:Clan`/`:Emperor` | `:Region` | yes |
+| allied_with | `:ALLIED_WITH` | `:Clan` | `:Clan` | undirected |
+| opposed_to | `:OPPOSED_TO` | `:Clan`/`:Deity` | `:Clan`/`:Deity` | undirected |
+| served | `:SERVED` | `:Clan`/`:Emperor` | `:Emperor` | yes |
+| renamed_to | `:RENAMED_TO` | `:Clan`/`:Shrine` | `:Clan`/`:Shrine` | yes |
+| **2.1.5 神話・出来事** | | | | |
+| participated_in | `:PARTICIPATED_IN` | `:Deity`/`:Clan`/`:Emperor` | `:MythEpisode`/`:Event` | yes |
+| occurred_in | `:OCCURRED_IN` | `:MythEpisode`/`:Event` | `:Region` | yes |
+| triggered | `:TRIGGERED` | (因果) | (因果) | yes |
+| variant_of | `:VARIANT_OF` | `:MythEpisode` | `:MythEpisode` | yes |
+| **2.1.6 文献・出典** | | | | |
+| mentioned_in | `:MENTIONED_IN` | (任意 node) | `:Text` | yes |
+| primary_source_for | `:PRIMARY_SOURCE_FOR` | `:Text` | (任意 node) | yes |
+| authored_by | `:AUTHORED_BY` | `:Text` | `:Emperor`/`:Clan` | yes |
+| **2.1.7 考古関係** | | | | |
+| found_at | `:FOUND_AT` | `:Artifact` | `:Site` | yes |
+| dated_to | `:DATED_TO` | `:Artifact`/`:Site` | (period 文字列プロパティ) | yes |
+| archaeologically_linked | `:ARCHAEOLOGICALLY_LINKED` | `:Site`/`:Artifact` | `:MythEpisode`/`:Deity` | yes |
+| **2.1.8 祭祀** | | | | |
+| performed_at | `:PERFORMED_AT` | `:Ritual` | `:Shrine` | yes |
+| reenacts | `:REENACTS` | `:Ritual` | `:MythEpisode` | yes |
+| performed_by | `:PERFORMED_BY` | `:Ritual` | `:Clan`/`:Emperor` | yes |
+| **2.1.9 仮説関係** | | | | |
+| supports | `:SUPPORTS` | `:Hypothesis` | (任意 node) | yes |
+| contradicts | `:CONTRADICTS` | `:Hypothesis` | (任意 node) | yes |
+| proposed_by | `:PROPOSED_BY` | `:Hypothesis` | `:Text`/`:Clan`/`:Emperor` | yes |
+| **2.1.10 メタ関係** | | | | |
+| merged_into | `:MERGED_INTO` | (任意) | (任意) | yes |
+| supersedes | `:SUPERSEDES` | (任意) | (任意) | yes |
+
+→ **計 39 relationship type**(`docs/schema/02_relation_types.md` の 35+ 種を完全網羅)
+
+### 2.2 relationship 共通プロパティ
+
+| プロパティ | 型 | 必須 | 説明 |
+|---|---|---|---|
+| `relationId` | String | ○ | `RLN-NNNNNN` 形式、ユニーク |
+| `confidenceLevel` | String | ○ | A〜E |
+| `hypothesisLayer` | String | ○ | L0〜L5 |
+| `temporalScope` | String | △ | mythic / estimated / document |
+| `validFrom` | Integer | △ | 関係成立年(西暦) |
+| `validUntil` | Integer | △ | 関係終了年(西暦) |
+| `sourceReference` | String | ○ | 出典(text master_id or 自由記述) |
+| `notes` | String | △ | 備考 |
+
+### 2.3 命名規約
+
+- TSV 側 `enshrined_at`(snake_case)→ Cypher 側 `:ENSHRINED_AT`(SCREAMING_SNAKE_CASE)
+- ロード時に自動変換
+
+### 2.4 設計判断
+
+#### A. directed / undirected の表現
+
+Neo4j の relationship は **常に directed**(矢印方向あり)。undirected な意味の関係(`:SIBLING_OF`, `:MARRIED_TO`, `:SYNCRETIZED_WITH` 等)は **片方向 1 行のみ保存**(クエリで `MATCH (a)-[r:SIBLING_OF]-(b)` と無向検索)。
+
+#### B. mentioned_in の最大利用度
+
+`:MENTIONED_IN` は **全 node から `:Text` への接続** が可能(任意 source)。これが最も多い relation になる(目標数千〜数万)。
+
+#### C. supports / contradicts の任意 target
+
+`:SUPPORTS` / `:CONTRADICTS` も target が任意 node(主に :Site, :Artifact, :MythEpisode, :Deity)。これにより hypothesis を事実 node から完全分離できる。
+
+#### D. merged_into の意味
+
+`:MERGED_INTO` は **同一エンティティ確定時の統合** を表す。例: `(DEI-X)-[:MERGED_INTO]->(DEI-Y)` で DEI-X は DEI-Y に統合され、以降の検索は DEI-Y を主とする。
+
+### 2.5 docs/schema/ との整合
+
+`docs/schema/02_relation_types.md` の 全 relation 種定義 と本書 §2.1 は **完全対応**。schema 側が正本。本書はその Cypher 写像。`docs/schema/02_relation_types.md` §4 の必須カラム(relation_id, source_id, source_type, relation_type, target_id, target_type, confidence_level, hypothesis_layer, source_reference)とも整合。
