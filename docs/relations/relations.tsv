@@ -8391,3 +8391,124 @@ RLN-008390	SHR-927	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	S
 RLN-008391	SHR-930	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	唐招提寺 — 鑑真来日関連
 RLN-008392	SHR-934	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	法華寺 — 光明皇后関連
 RLN-008393	SHR-921	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	甲斐国分寺 — 国分寺建立諸記事
+RLN-008394	DEI-507	deity	parent_of	DEI-553	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008395	DEI-553	deity	parent_of	DEI-554	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008396	DEI-554	deity	parent_of	DEI-555	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008397	DEI-555	deity	parent_of	DEI-556	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008398	DEI-556	deity	parent_of	DEI-557	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008399	DEI-557	deity	parent_of	DEI-558	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008400	DEI-558	deity	parent_of	DEI-559	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008401	DEI-559	deity	parent_of	DEI-560	deity	B	L1	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008402	DEI-560	deity	parent_of	DEI-561	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008403	DEI-561	deity	parent_of	DEI-562	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008404	DEI-562	deity	parent_of	DEI-563	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008405	DEI-563	deity	parent_of	DEI-016	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008406	DEI-563	deity	parent_of	DEI-564	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008407	DEI-016	deity	parent_of	DEI-565	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008408	DEI-565	deity	parent_of	DEI-182	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008409	DEI-183	deity	parent_of	DEI-182	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008410	DEI-182	deity	parent_of	DEI-566	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008411	DEI-566	deity	parent_of	DEI-567	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008412	DEI-567	deity	parent_of	DEI-568	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008413	DEI-568	deity	parent_of	DEI-569	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008414	DEI-569	deity	parent_of	DEI-570	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008415	DEI-570	deity	parent_of	DEI-571	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008416	DEI-570	deity	parent_of	DEI-572	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008417	DEI-570	deity	parent_of	DEI-573	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008418	DEI-570	deity	parent_of	DEI-574	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008419	DEI-572	deity	parent_of	DEI-550	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008420	DEI-571	deity	parent_of	DEI-575	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008421	DEI-575	deity	parent_of	DEI-576	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008422	DEI-576	deity	parent_of	DEI-526	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008423	DEI-576	deity	parent_of	DEI-577	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008424	DEI-526	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008425	DEI-577	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008426	DEI-578	deity	parent_of	DEI-579	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008427	DEI-526	deity	parent_of	DEI-580	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008428	DEI-580	deity	parent_of	DEI-505	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008429	DEI-505	deity	parent_of	DEI-581	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008430	DEI-581	deity	parent_of	DEI-582	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of
+RLN-008431	DEI-565	deity	married_to	DEI-183	deity	A	L0	document	-	-	日本書紀	仲哀・神功皇后
+RLN-008432	DEI-577	deity	married_to	DEI-578	deity	A	L0	document	-	-	日本書紀	天武・持統
+RLN-008433	DEI-579	deity	married_to	DEI-552	deity	A	L0	document	-	-	日本書紀	聖武・光明皇后
+RLN-008434	DEI-571	deity	married_to	DEI-574	deity	A	L0	document	-	-	日本書紀	敏達・推古
+RLN-008435	DEI-570	deity	participated_in	EVENT-BukkyoKoden	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	仏教公伝(欽明 13 年=552 年)
+RLN-008436	DEI-577	deity	participated_in	EVENT-Jinshin	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	壬申の乱主役
+RLN-008437	DEI-526	deity	participated_in	EVENT-Jinshin	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	天智没後の継承戦争
+RLN-008438	DEI-578	deity	participated_in	EVENT-TaihoRitsuryo	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	大宝律令制定の準備期
+RLN-008439	DEI-579	deity	participated_in	EVENT-TodaijiDaibutsu	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	東大寺大仏建立 (749)
+RLN-008440	DEI-552	deity	participated_in	EVENT-TodaijiDaibutsu	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	光明皇后の支援
+RLN-008441	DEI-580	deity	participated_in	EVENT-HeianSento	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	光仁→桓武継承期
+RLN-008442	DEI-581	deity	participated_in	EVENT-HeianSento	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	嵯峨は遷都体制完成期
+RLN-008443	DEI-582	deity	participated_in	EVENT-Engishiki	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	延喜式編纂(927)
+RLN-008444	DEI-561	deity	participated_in	EVENT-MiwaOken	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	三輪王権の確立
+RLN-008445	DEI-568	deity	participated_in	EVENT-WaGoShu	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	倭の五王・雄略=武王(L0 推定)
+RLN-008446	DEI-569	deity	participated_in	EVENT-KeitaiOchoKotai	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	王朝交代説 L2(越前出身、応神 5 世孫を称す)
+RLN-008447	DEI-572	deity	participated_in	EVENT-AsukaJiBuilt	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	用明朝の四天王寺建立
+RLN-008448	DEI-573	deity	participated_in	EVENT-SuShunAnsatsu	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	崇峻天皇暗殺(蘇我馬子)
+RLN-008449	DEI-574	deity	participated_in	EVENT-Suiko	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	推古朝(初の女帝、聖徳太子摂政)
+RLN-008450	DEI-550	deity	participated_in	EVENT-Suiko	event	A	L0	document	-	-	古事記|日本書紀|続日本紀	聖徳太子摂政
+RLN-008451	DEI-553	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008452	DEI-553	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008453	DEI-554	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008454	DEI-554	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008455	DEI-555	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008456	DEI-555	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008457	DEI-556	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008458	DEI-556	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008459	DEI-557	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008460	DEI-557	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008461	DEI-558	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008462	DEI-558	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008463	DEI-559	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008464	DEI-559	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008465	DEI-560	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008466	DEI-560	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008467	DEI-561	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008468	DEI-561	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008469	DEI-562	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008470	DEI-562	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008471	DEI-563	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008472	DEI-563	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008473	DEI-564	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008474	DEI-564	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008475	DEI-565	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008476	DEI-565	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008477	DEI-566	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008478	DEI-566	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008479	DEI-567	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008480	DEI-567	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008481	DEI-568	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008482	DEI-568	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008483	DEI-569	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008484	DEI-569	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008485	DEI-570	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008486	DEI-570	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008487	DEI-571	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008488	DEI-571	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008489	DEI-572	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008490	DEI-572	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008491	DEI-573	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008492	DEI-573	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008493	DEI-574	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008494	DEI-574	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008495	DEI-575	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記	Sprint7 emperor 古事記
+RLN-008496	DEI-575	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008497	DEI-576	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008498	DEI-577	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008499	DEI-578	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀	Sprint7 emperor 日本書紀
+RLN-008500	DEI-579	deity	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	続日本紀	Sprint7 emperor 続日本紀
+RLN-008501	DEI-580	deity	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	続日本紀	Sprint7 emperor 続日本紀
+RLN-008502	SHR-927	shrine	burial_of	DEI-553	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008503	SHR-928	shrine	burial_of	DEI-561	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008504	SHR-929	shrine	burial_of	DEI-562	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008505	SHR-930	shrine	burial_of	DEI-563	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008506	SHR-931	shrine	burial_of	DEI-182	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008507	SHR-932	shrine	burial_of	DEI-566	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008508	SHR-933	shrine	burial_of	DEI-526	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008509	SHR-934	shrine	burial_of	DEI-577	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008510	SHR-935	shrine	burial_of	DEI-505	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008511	SHR-936	shrine	burial_of	DEI-522	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008512	SHR-937	shrine	burial_of	DEI-523	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008513	SHR-938	shrine	burial_of	DEI-524	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
+RLN-008514	SHR-939	shrine	burial_of	DEI-525	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
