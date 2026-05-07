@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本基盤について | 神話 OS</title>
+<link rel="stylesheet" href="../css/main.css">
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img src="../images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-name">神話 OS</span>
+      <span class="brand-tag">日本神話・神道史データベース</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">ホーム</a>
+      <a href="shrines.html">神社</a>
+      <a href="deities.html">神格</a>
+      <a href="clans.html">氏族</a>
+      <a href="relations.html">関係探索</a>
+      <a href="about.html" class="active">本基盤について</a>
+    </nav>
+  </div>
+</header>
+
+<main class="list-page">
+  <div class="container">
+    <h1 class="section-title">本基盤について</h1>
+
+    <div class="detail-section">
+      <h2>目的</h2>
+      <p>本「神話 OS」は、氷河期・旧石器・縄文時代から鎌倉時代までの日本列島に関する <strong>神話・神社・豪族・皇統・祭祀・地方伝承・考古学</strong> を統合する知識グラフです。</p>
+      <p>記紀・延喜式・諸風土記・中世神道書・近世史料を横断する 6 軸ネットワーク(神格 ↔ 神社 ↔ 氏族 ↔ 文献 ↔ 時代 ↔ 地域)を構築し、研究者・神職・教育者・地域実務者の活用を想定しています。</p>
+    </div>
+
+    <div class="detail-section">
+      <h2>収録規模(2026 年 5 月現在)</h2>
+      <ul>
+        <li><strong>神社</strong>: 1008 件(完全充填)</li>
+        <li><strong>神格</strong>: 582 件(神代から近代神格化された天皇・武将まで)</li>
+        <li><strong>氏族</strong>: 300 件</li>
+        <li><strong>モチーフ</strong>: 500 件</li>
+        <li><strong>文献</strong>: 20 件</li>
+        <li><strong>時代区分</strong>: 22 件 / <strong>社格</strong>: 15 件 / <strong>イベント</strong>: 24 件 / <strong>地域</strong>: 347 件</li>
+        <li><strong>関係(リレーション)</strong>: 19,932 件</li>
+      </ul>
+    </div>
+
+    <div class="detail-section">
+      <h2>確実性レベル(L0-L5)</h2>
+      <p>すべての記述・関係には確実性レベルが付与されています。</p>
+      <ul>
+        <li><span class="badge badge-l0">L0</span> 史料記載の整理(古事記・日本書紀・延喜式 等)</li>
+        <li><span class="badge badge-l1">L1</span> 一般的な研究上の解釈</li>
+        <li><span class="badge badge-l2">L2</span> 複数研究者が言及する推定</li>
+        <li><span class="badge badge-l3">L3</span> 民間伝承・地域伝承(縄文残存仮説 等)</li>
+        <li><span class="badge badge-l4">L4</span> 大胆な仮説(邪馬台国論争 等、両論対称的記録)</li>
+      </ul>
+      <p>L4-L5 仮説は全件の <strong>0.03%</strong> に厳格に絞っています。</p>
+    </div>
+
+    <div class="detail-section">
+      <h2>編集方針</h2>
+      <ul>
+        <li>不明点は「不明」と書き、無理に断定しません。</li>
+        <li>複数説は必ず併記します。</li>
+        <li>学術説と社伝・伝承を峻別します。</li>
+        <li>神話成立年代と、神話が描いている時代を分けて考えます(古事記成立 712 年 vs 描写は神代〜推古朝)。</li>
+        <li>中央史観と地方史観を並置し、出雲・諏訪・蝦夷・隼人・琉球の視点を独立記録します。</li>
+      </ul>
+    </div>
+
+    <div class="detail-section">
+      <h2>免責事項</h2>
+      <p>本基盤は <strong>学術整理</strong> であり、各神社の社伝は各社が正本です。L4-L5 仮説の引用時は両論並記をお願いします。教育用途では、社伝(神社の自伝)と歴史学的推定を区別してください。</p>
+      <p>L3-L4 仮説(縄文残存・邪馬台国論争 等)は <strong>未検証</strong> の解釈を含むため、断定的な引用は避けてください。</p>
+    </div>
+
+    <div class="detail-section">
+      <h2>技術構成</h2>
+      <ul>
+        <li>データ:すべて TSV 形式(Excel 互換、UTF-8 / LF)</li>
+        <li>静的 Web アプリ:HTML + CSS + JavaScript(vanilla)、ライブラリ不使用</li>
+        <li>監査:<code>scripts/audit_kpi.py</code>(Python 標準ライブラリのみ)</li>
+        <li>リポジトリ:<a href="https://github.com/hirokaz/japanese_mythology_database" target="_blank">GitHub</a></li>
+      </ul>
+      <p>このページは <code>web/</code> ディレクトリ配下から <code>docs/master/*.tsv</code> を直接 fetch して描画しています。</p>
+    </div>
+
+    <div class="detail-section">
+      <h2>ローカル実行</h2>
+      <p><code>file://</code> プロトコルだと CORS 制限により TSV を読めません。Python で簡易サーバを起動してください:</p>
+      <pre>cd /path/to/japanese_mythology_database
+python3 -m http.server 8000
+# → http://localhost:8000/web/ を開く</pre>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="container"><p>© 神話 OS / Civilization OS Database</p></div></footer>
+</body>
+</html>

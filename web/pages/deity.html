@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神格詳細 | 神話 OS</title>
+<link rel="stylesheet" href="../css/main.css">
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img src="../images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-name">神話 OS</span>
+      <span class="brand-tag">日本神話・神道史データベース</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">ホーム</a>
+      <a href="shrines.html">神社</a>
+      <a href="deities.html" class="active">神格</a>
+      <a href="clans.html">氏族</a>
+      <a href="relations.html">関係探索</a>
+      <a href="about.html">本基盤について</a>
+    </nav>
+  </div>
+</header>
+
+<main class="detail-page">
+  <div class="container">
+    <p style="margin: 0 0 16px;"><a href="deities.html">← 神格一覧へ</a></p>
+    <div id="loading" class="loading">読み込み中…</div>
+    <div id="content" hidden></div>
+  </div>
+</main>
+
+<footer class="site-footer"><div class="container"><p>© 神話 OS / Civilization OS Database</p></div></footer>
+
+<script src="../js/tsv_parser.js"></script>
+<script src="../js/data_loader.js"></script>
+<script src="../js/detail.js"></script>
+<script>window.detailType = 'deity';</script>
+<script>renderDetail();</script>
+</body>
+</html>

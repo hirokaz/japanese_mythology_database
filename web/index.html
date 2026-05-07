@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本神話・神道史 文明 OS データベース</title>
+<meta name="description" content="日本神話・神道史・古代史・考古学・豪族史・皇統史・祭祀史を統合する知識グラフ。神格 582 / 神社 1008 / 氏族 300 / モチーフ 500 / リレーション 19932。">
+<link rel="stylesheet" href="css/main.css">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-name">神話 OS</span>
+      <span class="brand-tag">日本神話・神道史データベース</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html" class="active">ホーム</a>
+      <a href="pages/shrines.html">神社</a>
+      <a href="pages/deities.html">神格</a>
+      <a href="pages/clans.html">氏族</a>
+      <a href="pages/relations.html">関係探索</a>
+      <a href="pages/about.html">本基盤について</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>日本神話・神道史 文明 OS</h1>
+      <p class="hero-lead">
+        氷河期・旧石器・縄文時代から鎌倉時代までの日本列島に関する
+        <strong>神話・神社・豪族・皇統・祭祀・地方伝承・考古学</strong>
+        を統合する知識グラフ。
+      </p>
+      <div class="hero-stats" id="heroStats">
+        <div class="stat"><span class="stat-num" id="statShrine">…</span><span class="stat-label">神社</span></div>
+        <div class="stat"><span class="stat-num" id="statDeity">…</span><span class="stat-label">神格</span></div>
+        <div class="stat"><span class="stat-num" id="statClan">…</span><span class="stat-label">氏族</span></div>
+        <div class="stat"><span class="stat-num" id="statMotif">…</span><span class="stat-label">モチーフ</span></div>
+        <div class="stat"><span class="stat-num" id="statRelation">…</span><span class="stat-label">関係</span></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="pages/shrines.html">神社を探す</a>
+        <a class="btn btn-secondary" href="pages/relations.html">関係を探索</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">6 軸ネットワーク</h2>
+      <p class="section-lead">本基盤は 6 つの軸で日本の宗教・神話・歴史を体系化します。</p>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-deity.svg" alt="" width="48" height="48"></div>
+          <h3>神格 ↔ 神社</h3>
+          <p>主祭神・配祀神(enshrined_at, primary_deity_of, secondary_deity_of)。全 1008 神社の祭神を体系化。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-genealogy.svg" alt="" width="48" height="48"></div>
+          <h3>神格 ↔ 神格</h3>
+          <p>系譜・婚姻・兄弟・習合(parent_of, married_to, syncretized_with)。神武〜醍醐の皇統 37 代を完全系譜化。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-shrine.svg" alt="" width="48" height="48"></div>
+          <h3>神社 ↔ 神社</h3>
+          <p>分祀ネットワーク・兄弟社・近接(descended_from, sibling_shrine_of, located_near)。八幡 5 層分祀網など。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-clan.svg" alt="" width="48" height="48"></div>
+          <h3>氏族 ↔ 神格 / 神社</h3>
+          <p>祖神関係・統制権・敵対(descended_from, controls, rivaled)。物部 vs 蘇我など。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-text.svg" alt="" width="48" height="48"></div>
+          <h3>文献 ↔ 神格 / 神社</h3>
+          <p>記紀・延喜式・諸風土記・中世神道書の参照ネットワーク。20 文献 × 1500+ 関係。</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><img src="images/icon-period.svg" alt="" width="48" height="48"></div>
+          <h3>時代・地域・社格 ↔ 神社</h3>
+          <p>19 時代区分・3 階層地理(都道府県/令制国/五畿七道)・15 社格。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">確実性の階層(L0–L5)</h2>
+      <p class="section-lead">史料記載と仮説を厳密に分離。L4-L5 仮説は 0.03% に厳格化。</p>
+      <div class="layer-bar">
+        <div class="layer layer-l0" data-tooltip="史料記載の整理">L0 <span>66.3%</span></div>
+        <div class="layer layer-l1" data-tooltip="一般的な研究上の解釈">L1 <span>26.1%</span></div>
+        <div class="layer layer-l2" data-tooltip="複数研究者が言及する推定">L2 <span>7.5%</span></div>
+        <div class="layer layer-l3" data-tooltip="民間伝承・地域伝承">L3 <span>0.1%</span></div>
+        <div class="layer layer-l4" data-tooltip="大胆な仮説">L4 <span>0.03%</span></div>
+      </div>
+      <ul class="layer-legend">
+        <li><span class="dot dot-l0"></span> L0:史料記載の整理(古事記・日本書紀・延喜式 等)</li>
+        <li><span class="dot dot-l1"></span> L1:一般的な研究上の解釈</li>
+        <li><span class="dot dot-l2"></span> L2:複数研究者が言及する推定</li>
+        <li><span class="dot dot-l3"></span> L3:民間伝承・地域伝承(縄文残存仮説 等)</li>
+        <li><span class="dot dot-l4"></span> L4:大胆な仮説(邪馬台国論争 等、両論対称的記録)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">注目体系</h2>
+      <div class="grid grid-2">
+        <article class="feature-card">
+          <h3>八幡 5 層分祀ネットワーク</h3>
+          <pre class="ascii-tree">SHR-016 宇佐神宮(総本社)
+  ├─ SHR-097 石清水(859)
+  │    ├─ SHR-098 鶴岡(由比若宮経由)
+  │    ├─ SHR-169 富岡(江戸期)
+  │    └─ SHR-171 大宮八幡(1063 源頼義)
+  ├─ SHR-235 柞原八幡(827)
+  └─ 国分八幡(三河・近江・紀伊・備中・周防 等 7 社)</pre>
+          <a href="pages/relations.html?from=SHR-016" class="card-link">この関係を探索</a>
+        </article>
+        <article class="feature-card">
+          <h3>諏訪 4 宮 + 縄文残存層(L3)</h3>
+          <pre class="ascii-tree">[古代層 L0]
+SHR-369 上社本宮 → タケミナカタ
+SHR-370 上社前宮 → ミシャグジ(縄文残存層 L3)
+SHR-371 下社春宮 → 八坂刀売
+
+[縄文残存仮説 L3]
+SHR-373 守矢神社 → 洩矢神
+CLN-038 守矢家 → 洩矢神(祖神)
+            + controls SHR-370</pre>
+          <a href="pages/relations.html?from=SHR-006" class="card-link">この関係を探索</a>
+        </article>
+        <article class="feature-card">
+          <h3>熊野 99 王子完全接続</h3>
+          <p>熊野古道沿の 99 王子(SHR-109〜168 全 60 社)を <code>descended_from SHR-004 熊野大社</code> で全接続。熊野御幸記の祭祀ネットワーク完全可視化。</p>
+          <a href="pages/shrines.html?q=王子" class="card-link">99 王子社を一覧</a>
+        </article>
+        <article class="feature-card">
+          <h3>物部 vs 蘇我(丁未の乱、587)</h3>
+          <pre class="ascii-tree">CLN-001 中臣 + CLN-004 蘇我 → allied_with
+CLN-002 物部 ↔ CLN-004 蘇我 → rivaled
+CLN-002 物部 → 蘇我に destroyed_by(587 丁未の乱)</pre>
+          <a href="pages/relations.html?from=CLN-002" class="card-link">この関係を探索</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      © 神話 OS / Civilization OS Database
+      <br>
+      <small>本基盤は学術整理であり、社伝は各社が正本です。L4-L5 仮説の引用時は両論並記をお願いします。</small>
+    </p>
+    <p class="footer-meta">
+      <a href="https://github.com/hirokaz/japanese_mythology_database">GitHub リポジトリ</a> ·
+      <a href="pages/about.html">本基盤について</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/tsv_parser.js"></script>
+<script src="js/data_loader.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
