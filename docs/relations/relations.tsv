@@ -6855,3 +6855,57 @@ RLN-006854	DEI-529	deity	primary_deity_of	SHR-1005	shrine	B	L0	document	-	-	shri
 RLN-006855	DEI-529	deity	primary_deity_of	SHR-1006	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
 RLN-006856	DEI-529	deity	primary_deity_of	SHR-1007	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
 RLN-006857	DEI-211	deity	primary_deity_of	SHR-1008	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
+RLN-006858	DEI-005	deity	married_to	DEI-006	deity	A	L0	document	-	-	古事記|日本書紀	イザナギ・イザナミ夫妻
+RLN-006859	DEI-005	deity	parent_of	DEI-003	deity	A	L0	document	-	-	古事記	イザナギ→アマテラス(禊で誕生)
+RLN-006860	DEI-005	deity	parent_of	DEI-004	deity	A	L0	document	-	-	古事記	イザナギ→ツクヨミ(禊で誕生)
+RLN-006861	DEI-005	deity	parent_of	DEI-002	deity	A	L0	document	-	-	古事記	イザナギ→スサノオ(禊で誕生)
+RLN-006862	DEI-003	deity	sibling_of	DEI-004	deity	A	L0	document	-	-	古事記	天照・月読 兄妹
+RLN-006863	DEI-003	deity	sibling_of	DEI-002	deity	A	L0	document	-	-	古事記	天照・スサノオ 姉弟
+RLN-006864	DEI-004	deity	sibling_of	DEI-002	deity	A	L0	document	-	-	古事記	月読・スサノオ 兄弟
+RLN-006865	DEI-002	deity	married_to	DEI-021	deity	A	L0	document	-	-	古事記	ヤマタノオロチ退治後の婚姻
+RLN-006866	DEI-002	deity	parent_of	DEI-031	deity	A	L0	document	-	-	古事記	スサノオ→大年神
+RLN-006867	DEI-002	deity	ancestor_of	DEI-001	deity	A	L0	document	-	-	古事記	スサノオ→大国主(6世孫の伝)
+RLN-006868	DEI-001	deity	married_to	DEI-023	deity	A	L0	document	-	-	古事記	大国主・須勢理毘売(スサノオ娘)
+RLN-006869	DEI-001	deity	parent_of	DEI-009	deity	A	L0	document	-	-	古事記	大国主→コトシロヌシ
+RLN-006870	DEI-001	deity	parent_of	DEI-010	deity	A	L0	document	-	-	古事記	大国主→タケミナカタ
+RLN-006871	DEI-009	deity	sibling_of	DEI-010	deity	A	L0	document	-	-	古事記	コトシロヌシ・タケミナカタ 兄弟
+RLN-006872	DEI-010	deity	married_to	DEI-029	deity	A	L0	document	-	-	諏訪大社社伝	タケミナカタ・八坂刀売
+RLN-006873	DEI-003	deity	ancestor_of	DEI-015	deity	A	L0	document	-	-	古事記	天照→ニニギ(孫、天孫降臨)
+RLN-006874	DEI-015	deity	married_to	DEI-083	deity	A	L0	document	-	-	古事記	ニニギ・コノハナサクヤ
+RLN-006875	DEI-015	deity	parent_of	DEI-088	deity	A	L0	document	-	-	古事記	ニニギ→ヒコホホデミ(海幸山幸)
+RLN-006876	DEI-015	deity	parent_of	DEI-087	deity	A	L0	document	-	-	古事記	ニニギ→ホスセリ
+RLN-006877	DEI-088	deity	ancestor_of	DEI-507	deity	A	L0	document	-	-	古事記|日本書紀	ヒコホホデミ→神武天皇(曾孫)
+RLN-006878	DEI-507	deity	married_to	DEI-508	deity	A	L0	document	-	-	日本書紀	神武・媛蹈韛五十鈴媛
+RLN-006879	DEI-009	deity	parent_of	DEI-508	deity	A	L0	document	-	-	日本書紀	コトシロヌシ→媛蹈韛五十鈴媛
+RLN-006880	DEI-003	deity	parent_of	DEI-013	deity	A	L0	document	-	-	古事記	天照→アメノホヒ(誓約)
+RLN-006881	DEI-002	deity	parent_of	DEI-019	deity	A	L0	document	-	-	古事記	スサノオ→宗像三女神(誓約)
+RLN-006882	DEI-017	deity	sibling_of	DEI-018	deity	A	L0	document	-	-	古事記	田心姫・湍津姫 姉妹
+RLN-006883	DEI-017	deity	sibling_of	DEI-019	deity	A	L0	document	-	-	古事記	田心姫・市杵島姫 姉妹
+RLN-006884	DEI-018	deity	sibling_of	DEI-019	deity	A	L0	document	-	-	古事記	湍津姫・市杵島姫 姉妹
+RLN-006885	DEI-011	deity	sibling_of	DEI-012	deity	B	L1	document	-	-	中世神道書	タケミカヅチ・フツヌシ並列(春日合祀)
+RLN-006886	DEI-526	deity	ancestor_of	DEI-505	deity	A	L0	document	-	-	続日本紀	天智→桓武(光仁天皇経由)
+RLN-006887	DEI-505	deity	ancestor_of	DEI-506	deity	A	L0	document	-	-	皇統譜	桓武→孝明(継承)
+RLN-006888	DEI-506	deity	parent_of	DEI-503	deity	A	L0	document	-	-	皇統譜	孝明→明治
+RLN-006889	DEI-503	deity	married_to	DEI-504	deity	A	L0	document	-	-	明治神宮鎮座記	明治・昭憲皇太后
+RLN-006890	DEI-522	deity	parent_of	DEI-527	deity	A	L0	document	-	-	南朝史料	後醍醐→護良親王
+RLN-006891	DEI-522	deity	parent_of	DEI-520	deity	A	L0	document	-	-	李花集	後醍醐→宗良親王
+RLN-006892	DEI-522	deity	parent_of	DEI-521	deity	A	L0	document	-	-	南朝史料	後醍醐→懐良親王
+RLN-006893	DEI-527	deity	sibling_of	DEI-520	deity	A	L0	document	-	-	南朝史料	護良・宗良 兄弟
+RLN-006894	DEI-527	deity	sibling_of	DEI-521	deity	A	L0	document	-	-	南朝史料	護良・懐良 兄弟
+RLN-006895	DEI-520	deity	sibling_of	DEI-521	deity	A	L0	document	-	-	南朝史料	宗良・懐良 兄弟
+RLN-006896	DEI-514	deity	parent_of	DEI-515	deity	A	L0	document	-	-	太平記	親房→顕家(長男)
+RLN-006897	DEI-514	deity	parent_of	DEI-519	deity	A	L0	document	-	-	南朝史料	親房→顕能(三男)
+RLN-006898	DEI-515	deity	sibling_of	DEI-519	deity	A	L0	document	-	-	南朝史料	顕家・顕能 兄弟
+RLN-006899	CLN-001	clan	descended_from	DEI-107	deity	A	L0	document	-	-	新撰姓氏録	藤原氏(中臣氏)→天児屋根
+RLN-006900	CLN-002	clan	descended_from	DEI-340	deity	A	L0	document	-	-	先代旧事本紀	物部氏→饒速日命
+RLN-006901	CLN-003	clan	descended_from	DEI-058	deity	B	L1	document	-	-	古語拾遺	斎部氏→天太玉命系
+RLN-006902	CLN-004	clan	descended_from	DEI-160	deity	A	L0	document	-	-	古事記|日本書紀	蘇我氏→武内宿禰系(L1)
+RLN-006903	CLN-022	clan	descended_from	DEI-013	deity	A	L0	document	-	-	出雲国造神賀詞	出雲国造→天穂日命
+RLN-006904	CLN-036	clan	descended_from	DEI-010	deity	A	L0	document	-	-	諏訪大明神画詞	諏訪氏(大祝)→建御名方
+RLN-006905	CLN-099	clan	descended_from	DEI-507	deity	A	L0	document	-	-	古事記	紀氏→天道根命/神武系
+RLN-006906	CLN-065	clan	descended_from	DEI-058	deity	B	L1	document	-	-	古語拾遺	忌部氏→天太玉系(阿波)
+RLN-006907	CLN-168	clan	descended_from	DEI-287	deity	B	L1	document	-	-	三嶋大社社伝	三嶋氏→三島溝杭
+RLN-006908	DEI-512	deity	syncretized_with	DEI-513	deity	C	L2	document	-	-	南朝史料	楠木正成・新田義貞 同列(南朝忠臣神)
+RLN-006909	DEI-512	deity	syncretized_with	DEI-518	deity	C	L2	document	-	-	太平記	楠木正成・菊池武時 同列(南朝忠臣)
+RLN-006910	DEI-100	deity	syncretized_with	DEI-091	deity	A	L0	document	-	-	皇大神宮儀式帳	倭姫宮神=倭姫命
+RLN-006911	DEI-004	deity	syncretized_with	DEI-202	deity	B	L1	document	-	-	出羽三山社伝	月読命=月山権現(中世習合)
