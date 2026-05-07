@@ -6909,3 +6909,46 @@ RLN-006908	DEI-512	deity	syncretized_with	DEI-513	deity	C	L2	document	-	-	南朝
 RLN-006909	DEI-512	deity	syncretized_with	DEI-518	deity	C	L2	document	-	-	太平記	楠木正成・菊池武時 同列(南朝忠臣)
 RLN-006910	DEI-100	deity	syncretized_with	DEI-091	deity	A	L0	document	-	-	皇大神宮儀式帳	倭姫宮神=倭姫命
 RLN-006911	DEI-004	deity	syncretized_with	DEI-202	deity	B	L1	document	-	-	出羽三山社伝	月読命=月山権現(中世習合)
+RLN-006912	DEI-541	deity	primary_deity_of	SHR-934	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006913	DEI-542	deity	primary_deity_of	SHR-935	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006914	DEI-533	deity	primary_deity_of	SHR-940	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006915	DEI-533	deity	primary_deity_of	SHR-941	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006916	DEI-533	deity	primary_deity_of	SHR-942	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006917	DEI-534	deity	primary_deity_of	SHR-943	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006918	DEI-535	deity	primary_deity_of	SHR-944	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006919	DEI-536	deity	primary_deity_of	SHR-945	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006920	DEI-537	deity	primary_deity_of	SHR-945	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006921	DEI-538	deity	primary_deity_of	SHR-946	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006922	DEI-539	deity	primary_deity_of	SHR-947	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006923	DEI-540	deity	primary_deity_of	SHR-948	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006924	DEI-543	deity	primary_deity_of	SHR-933	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006925	DEI-543	deity	primary_deity_of	SHR-846	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006926	DEI-543	deity	primary_deity_of	SHR-931	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006927	DEI-544	deity	primary_deity_of	SHR-932	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006928	DEI-544	deity	primary_deity_of	SHR-845	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006929	DEI-545	deity	primary_deity_of	SHR-841	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006930	DEI-545	deity	primary_deity_of	SHR-842	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006931	DEI-546	deity	primary_deity_of	SHR-838	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006932	DEI-546	deity	primary_deity_of	SHR-839	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006933	DEI-546	deity	primary_deity_of	SHR-840	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006934	DEI-547	deity	primary_deity_of	SHR-836	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006935	DEI-547	deity	primary_deity_of	SHR-837	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006936	DEI-548	deity	primary_deity_of	SHR-834	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006937	DEI-548	deity	primary_deity_of	SHR-835	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006938	DEI-549	deity	primary_deity_of	SHR-843	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006939	DEI-550	deity	primary_deity_of	SHR-928	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006940	DEI-550	deity	primary_deity_of	SHR-929	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006941	DEI-551	deity	primary_deity_of	SHR-930	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
+RLN-006942	SHR-846	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	高野山縁起	弘仁7年(816)空海開創
+RLN-006943	SHR-933	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	高野山奥之院縁起	空海入定地(承和2年835)
+RLN-006944	SHR-932	shrine	associated_with	DEI-544	deity	A	L0	document	-	-	最澄伝	最澄誕生地(神護景雲元年767)
+RLN-006945	SHR-836	shrine	founded_by	DEI-547	deity	A	L0	document	-	-	永平寺縁起	寛元2年(1244)道元開山
+RLN-006946	SHR-834	shrine	associated_with	DEI-548	deity	A	L0	document	-	-	建長寺縁起	蘭渓道隆開山(栄西系統)
+RLN-006947	SHR-838	shrine	founded_by	DEI-546	deity	A	L0	document	-	-	身延山縁起	建治元年(1275)日蓮入山
+RLN-006948	SHR-839	shrine	founded_by	DEI-546	deity	A	L0	document	-	-	池上本門寺縁起	弘安5年(1282)日蓮入滅地
+RLN-006949	SHR-841	shrine	founded_by	DEI-545	deity	B	L1	document	-	-	本願寺縁起	親鸞没後弟子による創建(教団化)
+RLN-006950	SHR-843	shrine	founded_by	DEI-549	deity	A	L0	document	-	-	遊行寺縁起	正中2年(1325)他阿により建立
+RLN-006951	SHR-928	shrine	founded_by	DEI-550	deity	A	L0	document	-	-	聖徳太子伝暦	推古15年(607)聖徳太子建立
+RLN-006952	SHR-929	shrine	founded_by	DEI-550	deity	A	L0	document	-	-	日本書紀	用明天皇2年(587)聖徳太子建立
+RLN-006953	SHR-930	shrine	founded_by	DEI-551	deity	A	L0	document	-	-	唐大和上東征伝	天平勝宝6年(754)鑑真来日後建立
+RLN-006954	SHR-926	shrine	burial_of	DEI-507	deity	A	L0	document	-	-	古事記|日本書紀	神武天皇陵(畝傍山東北陵)
