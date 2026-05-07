@@ -6516,3 +6516,78 @@ RLN-006515	SHR-688	shrine	descended_from	SHR-098	shrine	A	L0	document	-	-	各社
 RLN-006516	SHR-689	shrine	descended_from	SHR-015	shrine	A	L0	document	-	-	各社社伝	住吉大社→大海神社(境外摂社)
 RLN-006517	SHR-690	shrine	descended_from	SHR-009	shrine	A	L0	document	-	-	各社社伝	宗像大社辺津宮→中津宮(大島)
 RLN-006518	SHR-691	shrine	descended_from	SHR-009	shrine	A	L0	document	-	-	各社社伝	宗像大社辺津宮→沖津宮(沖ノ島)
+RLN-006519	DEI-107	deity	primary_deity_of	SHR-776	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006520	SHR-776	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006521	DEI-340	deity	primary_deity_of	SHR-777	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006522	SHR-777	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006523	DEI-058	deity	primary_deity_of	SHR-778	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006524	SHR-778	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006525	DEI-058	deity	primary_deity_of	SHR-779	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006526	SHR-779	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006527	DEI-058	deity	primary_deity_of	SHR-780	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006528	SHR-780	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006529	DEI-005	deity	primary_deity_of	SHR-781	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006530	DEI-005	deity	primary_deity_of	SHR-782	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006531	SHR-782	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006532	DEI-415	deity	primary_deity_of	SHR-783	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006533	DEI-211	deity	primary_deity_of	SHR-784	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006534	DEI-272	deity	primary_deity_of	SHR-785	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006535	DEI-013	deity	primary_deity_of	SHR-786	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006536	DEI-064	deity	primary_deity_of	SHR-787	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006537	DEI-237	deity	primary_deity_of	SHR-788	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006538	DEI-340	deity	primary_deity_of	SHR-789	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006539	DEI-160	deity	primary_deity_of	SHR-790	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006540	DEI-144	deity	primary_deity_of	SHR-791	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006541	DEI-132	deity	primary_deity_of	SHR-792	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006542	DEI-211	deity	primary_deity_of	SHR-793	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006543	DEI-058	deity	primary_deity_of	SHR-794	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006544	DEI-058	deity	primary_deity_of	SHR-795	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006545	DEI-110	deity	primary_deity_of	SHR-796	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006546	SHR-796	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006547	DEI-164	deity	primary_deity_of	SHR-797	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006548	DEI-165	deity	primary_deity_of	SHR-797	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006549	DEI-166	deity	primary_deity_of	SHR-797	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006550	SHR-797	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006551	DEI-110	deity	primary_deity_of	SHR-798	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006552	DEI-110	deity	primary_deity_of	SHR-799	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006553	DEI-088	deity	primary_deity_of	SHR-800	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006554	SHR-800	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
+RLN-006555	DEI-088	deity	primary_deity_of	SHR-801	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006556	DEI-269	deity	primary_deity_of	SHR-802	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006557	DEI-276	deity	primary_deity_of	SHR-803	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006558	DEI-110	deity	primary_deity_of	SHR-804	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006559	DEI-005	deity	primary_deity_of	SHR-805	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006560	DEI-110	deity	primary_deity_of	SHR-806	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006561	DEI-110	deity	primary_deity_of	SHR-807	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006562	DEI-110	deity	primary_deity_of	SHR-808	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006563	DEI-110	deity	primary_deity_of	SHR-809	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006564	DEI-110	deity	primary_deity_of	SHR-810	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006565	DEI-181	deity	primary_deity_of	SHR-811	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006566	DEI-509	deity	primary_deity_of	SHR-812	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006567	DEI-510	deity	primary_deity_of	SHR-812	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006568	DEI-511	deity	primary_deity_of	SHR-812	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006569	DEI-509	deity	primary_deity_of	SHR-813	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006570	DEI-510	deity	primary_deity_of	SHR-813	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006571	DEI-511	deity	primary_deity_of	SHR-813	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006572	DEI-509	deity	primary_deity_of	SHR-814	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006573	DEI-510	deity	primary_deity_of	SHR-814	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006574	DEI-511	deity	primary_deity_of	SHR-814	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006575	DEI-019	deity	primary_deity_of	SHR-815	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006576	DEI-001	deity	primary_deity_of	SHR-816	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006577	DEI-001	deity	primary_deity_of	SHR-817	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006578	DEI-001	deity	primary_deity_of	SHR-818	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006579	DEI-001	deity	primary_deity_of	SHR-819	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006580	DEI-211	deity	primary_deity_of	SHR-820	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006581	DEI-192	deity	primary_deity_of	SHR-821	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006582	DEI-193	deity	primary_deity_of	SHR-821	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006583	DEI-194	deity	primary_deity_of	SHR-821	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006584	DEI-192	deity	primary_deity_of	SHR-822	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006585	DEI-193	deity	primary_deity_of	SHR-822	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006586	DEI-194	deity	primary_deity_of	SHR-822	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006587	DEI-192	deity	primary_deity_of	SHR-823	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006588	DEI-193	deity	primary_deity_of	SHR-823	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006589	DEI-194	deity	primary_deity_of	SHR-823	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006590	DEI-192	deity	primary_deity_of	SHR-824	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006591	DEI-193	deity	primary_deity_of	SHR-824	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006592	DEI-194	deity	primary_deity_of	SHR-824	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
+RLN-006593	DEI-019	deity	primary_deity_of	SHR-825	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
