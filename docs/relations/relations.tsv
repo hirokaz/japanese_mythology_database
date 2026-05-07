@@ -8233,3 +8233,161 @@ RLN-008232	EVENT-HeianSento	event	occurred_at	SHR-630	shrine	A	L0	mythic	-	-	古
 RLN-008233	EVENT-TaikaKaishin	event	occurred_at	SHR-647	shrine	A	L0	mythic	-	-	古事記|日本書紀|平家物語|太平記	近江神宮=天智奉斎
 RLN-008234	EVENT-NanbokuchoDouran	event	occurred_at	SHR-643	shrine	A	L0	mythic	-	-	古事記|日本書紀|平家物語|太平記	吉野神宮=後醍醐
 RLN-008235	EVENT-NanbokuchoDouran	event	occurred_at	SHR-634	shrine	A	L0	mythic	-	-	古事記|日本書紀|平家物語|太平記	湊川神社=楠木正成最後の地
+RLN-008236	SHR-169	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008237	SHR-170	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008238	SHR-171	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008239	SHR-178	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008240	SHR-180	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008241	SHR-181	shrine	descended_from	SHR-097	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008242	SHR-235	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008243	SHR-189	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008244	SHR-190	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008245	SHR-200	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008246	SHR-211	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008247	SHR-216	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008248	SHR-220	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008249	SHR-224	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008250	SHR-227	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008251	SHR-232	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008252	SHR-233	shrine	descended_from	SHR-098	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
+RLN-008253	SHR-270	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008254	SHR-271	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008255	SHR-272	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008256	SHR-273	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008257	SHR-274	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008258	SHR-275	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008259	SHR-281	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008260	SHR-282	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008261	SHR-283	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008262	SHR-285	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008263	SHR-289	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
+RLN-008264	SHR-322	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008265	SHR-323	shrine	descended_from	SHR-320	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008266	SHR-329	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008267	SHR-334	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008268	SHR-339	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008269	SHR-345	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008270	SHR-348	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008271	SHR-355	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008272	SHR-360	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008273	SHR-368	shrine	descended_from	SHR-319	shrine	B	L1	document	-	-	北野天神縁起|大宰府縁起	天満宮分祀ネットワーク
+RLN-008274	SHR-383	shrine	descended_from	SHR-369	shrine	B	L1	document	-	-	諏訪大明神画詞	諏訪分祀ネットワーク
+RLN-008275	SHR-389	shrine	descended_from	SHR-369	shrine	B	L1	document	-	-	諏訪大明神画詞	諏訪分祀ネットワーク
+RLN-008276	SHR-415	shrine	descended_from	SHR-369	shrine	B	L1	document	-	-	諏訪大明神画詞	諏訪分祀ネットワーク
+RLN-008277	SHR-393	shrine	descended_from	SHR-369	shrine	B	L1	document	-	-	諏訪大明神画詞	諏訪分祀ネットワーク
+RLN-008278	SHR-410	shrine	descended_from	SHR-369	shrine	B	L1	document	-	-	諏訪大明神画詞	諏訪分祀ネットワーク
+RLN-008279	SHR-239	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008280	SHR-240	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008281	SHR-243	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008282	SHR-244	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008283	SHR-258	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008284	SHR-256	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	春日分祀ネットワーク
+RLN-008285	SHR-109	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008286	SHR-110	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008287	SHR-111	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008288	SHR-112	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008289	SHR-113	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008290	SHR-114	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008291	SHR-115	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008292	SHR-116	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008293	SHR-117	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008294	SHR-118	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008295	SHR-119	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008296	SHR-120	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008297	SHR-121	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008298	SHR-122	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008299	SHR-123	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008300	SHR-124	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008301	SHR-125	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008302	SHR-126	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008303	SHR-127	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008304	SHR-128	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008305	SHR-129	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008306	SHR-130	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008307	SHR-131	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008308	SHR-132	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008309	SHR-133	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008310	SHR-134	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008311	SHR-135	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008312	SHR-136	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008313	SHR-137	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008314	SHR-138	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008315	SHR-139	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008316	SHR-140	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008317	SHR-141	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008318	SHR-142	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008319	SHR-143	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008320	SHR-144	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008321	SHR-145	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008322	SHR-146	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008323	SHR-147	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008324	SHR-148	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008325	SHR-149	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008326	SHR-150	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008327	SHR-151	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008328	SHR-152	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008329	SHR-153	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008330	SHR-154	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008331	SHR-155	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008332	SHR-156	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008333	SHR-157	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008334	SHR-158	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008335	SHR-159	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008336	SHR-160	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008337	SHR-161	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008338	SHR-162	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008339	SHR-163	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008340	SHR-164	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008341	SHR-165	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008342	SHR-166	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008343	SHR-167	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008344	SHR-168	shrine	descended_from	SHR-004	shrine	B	L1	document	-	-	熊野御幸記	九十九王子社=熊野御幸祭祀地
+RLN-008345	SHR-450	shrine	descended_from	SHR-449	shrine	A	L0	document	-	-	浅間大社社伝	浅間分祀ネットワーク
+RLN-008346	SHR-451	shrine	descended_from	SHR-449	shrine	A	L0	document	-	-	浅間大社社伝	浅間分祀ネットワーク
+RLN-008347	SHR-452	shrine	descended_from	SHR-449	shrine	A	L0	document	-	-	浅間大社社伝	浅間分祀ネットワーク
+RLN-008348	SHR-453	shrine	descended_from	SHR-449	shrine	A	L0	document	-	-	浅間大社社伝	浅間分祀ネットワーク
+RLN-008349	SHR-454	shrine	descended_from	SHR-449	shrine	A	L0	document	-	-	浅間大社社伝	浅間分祀ネットワーク
+RLN-008350	SHR-420	shrine	descended_from	SHR-419	shrine	A	L0	document	-	-	白山比咩神社社伝	白山分祀ネットワーク
+RLN-008351	SHR-421	shrine	descended_from	SHR-419	shrine	A	L0	document	-	-	白山比咩神社社伝	白山分祀ネットワーク
+RLN-008352	SHR-422	shrine	descended_from	SHR-419	shrine	A	L0	document	-	-	白山比咩神社社伝	白山分祀ネットワーク
+RLN-008353	SHR-424	shrine	descended_from	SHR-419	shrine	A	L0	document	-	-	白山比咩神社社伝	白山分祀ネットワーク
+RLN-008354	SHR-480	shrine	descended_from	SHR-479	shrine	A	L0	document	-	-	出羽三山社伝	出羽三山ネットワーク
+RLN-008355	SHR-481	shrine	descended_from	SHR-479	shrine	A	L0	document	-	-	出羽三山社伝	出羽三山ネットワーク
+RLN-008356	SHR-487	shrine	descended_from	SHR-479	shrine	A	L0	document	-	-	出羽三山社伝	出羽三山ネットワーク
+RLN-008357	SHR-098	shrine	controlled_by	DEI-541	deity	A	L0	document	-	-	吾妻鏡	鎌倉幕府の鶴岡八幡宮保護
+RLN-008358	SHR-006	shrine	controlled_by	DEI-541	deity	B	L1	document	-	-	吾妻鏡	鎌倉幕府の諏訪大社保護
+RLN-008359	SHR-454	shrine	controlled_by	DEI-535	deity	A	L0	document	-	-	甲陽軍鑑	武田家の浅間神社(甲斐)保護
+RLN-008360	SHR-944	shrine	associated_with	DEI-535	deity	A	L0	document	-	-	武田神社縁起	武田家居館跡=武田神社
+RLN-008361	SHR-018	shrine	controlled_by	DEI-536	deity	B	L1	document	-	-	上杉家文書	上杉家の越後氷川崇敬
+RLN-008362	SHR-190	shrine	controlled_by	DEI-538	deity	A	L0	document	-	-	貞山公治家記録	伊達政宗の大崎八幡宮再造営(国宝)
+RLN-008363	SHR-074	shrine	controlled_by	DEI-539	deity	A	L0	document	-	-	毛利家文書	毛利家の厳島神社尊崇(平家政権由来継承)
+RLN-008364	SHR-093	shrine	controlled_by	DEI-540	deity	A	L0	document	-	-	島津家文書	島津家の鹿児島神宮(大隅一宮)
+RLN-008365	SHR-940	shrine	associated_with	DEI-533	deity	A	L0	document	-	-	徳川実紀	日光東照宮=家康神格化
+RLN-008366	SHR-098	shrine	controlled_by	DEI-533	deity	A	L0	document	-	-	徳川実紀	徳川幕府の鶴岡八幡宮保護
+RLN-008367	SHR-658	shrine	associated_with	DEI-530	deity	A	L0	document	-	-	太閤記	京都豊国神社=秀吉神格化
+RLN-008368	CLN-022	clan	controls	SHR-001	shrine	A	L0	document	-	-	出雲国造神賀詞	出雲国造による出雲大社祭祀
+RLN-008369	CLN-036	clan	controls	SHR-006	shrine	A	L0	document	-	-	諏訪大明神画詞	諏訪氏(大祝)による諏訪上社祭祀
+RLN-008370	CLN-001	clan	controls	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	藤原氏による春日大社祭祀
+RLN-008371	CLN-002	clan	controls	SHR-011	shrine	A	L0	document	-	-	先代旧事本紀	物部氏による石上神宮祭祀
+RLN-008372	CLN-001	clan	associated_with	SHR-007	shrine	A	L0	document	-	-	中臣氏家伝	中臣氏=鹿島出身説 (春日の元)
+RLN-008373	CLN-099	clan	controls	SHR-077	shrine	A	L0	document	-	-	紀氏家伝	紀氏による日前神宮祭祀
+RLN-008374	CLN-099	clan	controls	SHR-583	shrine	A	L0	document	-	-	紀氏家伝	紀氏による国懸神宮祭祀
+RLN-008375	CLN-065	clan	controls	SHR-778	shrine	A	L0	document	-	-	古語拾遺	阿波忌部氏による忌部神社祭祀
+RLN-008376	CLN-168	clan	controls	SHR-039	shrine	B	L1	document	-	-	三嶋大社社伝	三嶋氏による三嶋大社祭祀
+RLN-008377	SHR-845	shrine	founded_by	DEI-544	deity	A	L0	document	-	-	延暦寺縁起	比叡山延暦寺=最澄(延暦 7 年 788)
+RLN-008378	SHR-846	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	高野山縁起	高野山金剛峯寺=空海(弘仁 7 年 816)
+RLN-008379	SHR-847	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	東寺縁起	東寺=空海(弘仁 14 年 823 教王護国寺)
+RLN-008380	SHR-848	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	醍醐寺縁起	醍醐寺=聖宝(空海弟子)
+RLN-008381	SHR-934	shrine	founded_by	DEI-552	deity	A	L0	document	-	-	光明皇后伝	法華寺=光明皇后(天平 17 年 745)
+RLN-008382	SHR-928	shrine	founded_by	DEI-550	deity	A	L0	document	-	-	聖徳太子伝暦	法隆寺=聖徳太子(推古 15 年 607)
+RLN-008383	SHR-930	shrine	founded_by	DEI-551	deity	A	L0	document	-	-	唐大和上東征伝	唐招提寺=鑑真(天平勝宝 6 年 754)
+RLN-008384	SHR-088	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	宇佐神宮 — 続日本紀 神亀 4 年(727)記事
+RLN-008385	SHR-052	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	鹽竈神社 — 陸奥南進諸記事
+RLN-008386	SHR-007	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	鹿島神宮 — 神火・遷宮諸記事
+RLN-008387	SHR-008	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	香取神宮 — 同上
+RLN-008388	SHR-002	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	皇大神宮 — 諸記事
+RLN-008389	SHR-012	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	春日大社 — 神護景雲 2 年(768)創建記事
+RLN-008390	SHR-927	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	竈門神社 — 諸記事(宝満山)
+RLN-008391	SHR-930	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	唐招提寺 — 鑑真来日関連
+RLN-008392	SHR-934	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	法華寺 — 光明皇后関連
+RLN-008393	SHR-921	shrine	mentioned_in	TXT-ShokuNihongi	text	A	L0	document	-	-	ShokuNihongi	甲斐国分寺 — 国分寺建立諸記事
