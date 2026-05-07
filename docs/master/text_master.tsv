@@ -14,3 +14,8 @@ TXT-MotooriKojikiden	古事記伝	こじきでん	-	寛政10年-文政5年(1798-
 TXT-UsaTaku	宇佐宮御託宣集	うさぐうごたくせんしゅう	-	嘉元2年(1304)	鎌倉末期	神吽 等	shrine_origin	漢文	complete	八幡神格化|宇佐託宣|神仏習合	宇佐宮御託宣集写本	B	L0	八幡神=応神同体説の中世化を記録
 TXT-KitanoTenjinEngi	北野天神縁起	きたのてんじんえんぎ	天神絵巻	建保4年(1216)伝	鎌倉初期	不明(複数本系統)	shrine_origin	漢文+和文	complete	菅原道真|怨霊鎮魂|火雷天神	北野天神縁起絵巻	A	L0	天神信仰の中世化を記録
 TXT-SuwaDaimyojinGashi	諏訪大明神画詞	すわだいみょうじんえし	諏訪大明神絵詞	延文元年(1356)	南北朝期	諏訪円忠	shrine_origin	和文	complete	諏訪信仰|大祝|ミシャグジ|守矢家	諏訪大明神画詞写本	A	L0	諏訪上社祭祀の中世記録
+TXT-FudokiInbun	風土記逸文	ふどきいつぶん	-	奈良-平安	-	諸古文献	regional_record	漢文	fragment	風土記逸文(諸国)	風土記逸文集成	B	L1	現存五風土記以外の風土記断片
+TXT-AsumaKagami	吾妻鏡	あづまかがみ	東鑑	建長2-元亨3(1252-1323)頃	鎌倉中期-後期	幕府編纂	official_history	和漢混淆文	complete	鎌倉幕府|源平|武家政権	吾妻鏡諸本	A	L0	鎌倉幕府公式記録、源頼朝〜執権時代
+TXT-Heike	平家物語	へいけものがたり	治承物語	13世紀前期	鎌倉初期	信濃前司行長 等諸説	narrative	和文	complete	源平合戦|安徳天皇|諸行無常	平家物語諸本	B	L0	平家滅亡(1185)を中心とする軍記物語
+TXT-Taiheiki	太平記	たいへいき	-	14世紀後半	南北朝期	小島法師|諸僧説	narrative	和文	complete	南北朝動乱|楠木正成|新田義貞	太平記諸本	B	L0	後醍醐〜南北朝動乱の軍記物語
+TXT-NobunagaKoki	信長公記	しんちょうこうき	信長記	天正期-江戸初期	戦国-江戸初期	太田牛一	biography	和文	complete	織田信長|戦国|本能寺の変	信長公記諸本	A	L0	信長の生涯記録、戦国史の根本史料
