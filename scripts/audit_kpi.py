@@ -27,6 +27,11 @@ MASTERS = {
     "shrine": ROOT / "docs" / "master" / "shrine_master.tsv",
     "clan": ROOT / "docs" / "master" / "clan_master.tsv",
     "motif": ROOT / "docs" / "civilization" / "01_motif_db.tsv",
+    "text": ROOT / "docs" / "master" / "text_master.tsv",
+    "period": ROOT / "docs" / "master" / "period_master.tsv",
+    "rank": ROOT / "docs" / "master" / "rank_master.tsv",
+    "event": ROOT / "docs" / "master" / "event_master.tsv",
+    "region": ROOT / "docs" / "master" / "region_master.tsv",
 }
 RELATIONS = ROOT / "docs" / "relations" / "relations.tsv"
 
@@ -88,12 +93,18 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
         print(f"[DUP] relation_id duplicates: {len(rel_dup)} keys")
 
     # Dangling check: relation source/target referencing master
-    # NOTE: 'text', 'site', 'hypothesis', 'motif_abstract' は別 master 整備中のため除外
+    # NOTE: 'site', 'hypothesis' は別 master 整備中のため除外
     type_to_master = {
         "deity": master_sets.get("deity", set()),
         "shrine": master_sets.get("shrine", set()),
         "clan": master_sets.get("clan", set()),
         "motif": master_sets.get("motif", set()),
+        "motif_abstract": master_sets.get("motif", set()),
+        "text": master_sets.get("text", set()),
+        "period": master_sets.get("period", set()),
+        "rank": master_sets.get("rank", set()),
+        "event": master_sets.get("event", set()),
+        "region": master_sets.get("region", set()),
     }
     dangling = 0
     dangling_examples: list[str] = []
