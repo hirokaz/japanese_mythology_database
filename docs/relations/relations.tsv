@@ -6319,3 +6319,200 @@ RLN-006318	DEI-509	deity	primary_deity_of	SHR-668	shrine	A	L0	document	-	-	shrin
 RLN-006319	DEI-510	deity	primary_deity_of	SHR-668	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint4)	近代官幣社主祭神 deity_master 整備後の relation 接続
 RLN-006320	DEI-511	deity	primary_deity_of	SHR-668	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint4)	近代官幣社主祭神 deity_master 整備後の relation 接続
 RLN-006321	DEI-503	deity	primary_deity_of	SHR-668	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint4)	近代官幣社主祭神 deity_master 整備後の relation 接続
+RLN-006322	DEI-001	deity	primary_deity_of	SHR-676	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006323	DEI-002	deity	primary_deity_of	SHR-677	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006324	DEI-001	deity	primary_deity_of	SHR-678	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006325	DEI-216	deity	primary_deity_of	SHR-679	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006326	SHR-679	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006327	DEI-216	deity	primary_deity_of	SHR-680	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006328	SHR-680	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006329	DEI-064	deity	primary_deity_of	SHR-681	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006330	DEI-081	deity	primary_deity_of	SHR-682	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006331	SHR-682	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006332	DEI-192	deity	primary_deity_of	SHR-683	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006333	DEI-010	deity	primary_deity_of	SHR-684	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006334	DEI-153	deity	primary_deity_of	SHR-685	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006335	DEI-181	deity	primary_deity_of	SHR-686	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006336	DEI-032	deity	primary_deity_of	SHR-687	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006337	DEI-005	deity	primary_deity_of	SHR-688	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006338	SHR-688	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006339	DEI-019	deity	primary_deity_of	SHR-689	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006340	SHR-689	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006341	DEI-019	deity	primary_deity_of	SHR-690	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006342	SHR-690	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006343	DEI-181	deity	primary_deity_of	SHR-691	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006344	DEI-182	deity	primary_deity_of	SHR-691	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006345	DEI-183	deity	primary_deity_of	SHR-691	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006346	DEI-184	deity	primary_deity_of	SHR-691	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006347	DEI-181	deity	primary_deity_of	SHR-692	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006348	DEI-182	deity	primary_deity_of	SHR-692	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006349	DEI-183	deity	primary_deity_of	SHR-692	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006350	DEI-184	deity	primary_deity_of	SHR-692	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006351	DEI-181	deity	primary_deity_of	SHR-693	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006352	DEI-182	deity	primary_deity_of	SHR-693	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006353	DEI-183	deity	primary_deity_of	SHR-693	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006354	DEI-184	deity	primary_deity_of	SHR-693	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006355	DEI-181	deity	primary_deity_of	SHR-694	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006356	DEI-010	deity	primary_deity_of	SHR-694	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006357	DEI-181	deity	primary_deity_of	SHR-695	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006358	DEI-182	deity	primary_deity_of	SHR-695	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006359	DEI-183	deity	primary_deity_of	SHR-695	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006360	DEI-184	deity	primary_deity_of	SHR-695	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006361	DEI-181	deity	primary_deity_of	SHR-696	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006362	DEI-182	deity	primary_deity_of	SHR-696	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006363	DEI-183	deity	primary_deity_of	SHR-696	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006364	DEI-184	deity	primary_deity_of	SHR-696	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006365	DEI-181	deity	primary_deity_of	SHR-697	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006366	DEI-182	deity	primary_deity_of	SHR-697	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006367	DEI-183	deity	primary_deity_of	SHR-697	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006368	DEI-184	deity	primary_deity_of	SHR-697	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006369	DEI-181	deity	primary_deity_of	SHR-698	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006370	DEI-182	deity	primary_deity_of	SHR-698	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006371	DEI-183	deity	primary_deity_of	SHR-698	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006372	DEI-184	deity	primary_deity_of	SHR-698	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006373	DEI-181	deity	primary_deity_of	SHR-699	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006374	DEI-182	deity	primary_deity_of	SHR-699	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006375	DEI-183	deity	primary_deity_of	SHR-699	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006376	DEI-184	deity	primary_deity_of	SHR-699	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006377	DEI-181	deity	primary_deity_of	SHR-700	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006378	DEI-182	deity	primary_deity_of	SHR-700	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006379	DEI-183	deity	primary_deity_of	SHR-700	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006380	DEI-184	deity	primary_deity_of	SHR-700	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006381	DEI-181	deity	primary_deity_of	SHR-701	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006382	DEI-182	deity	primary_deity_of	SHR-701	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006383	DEI-183	deity	primary_deity_of	SHR-701	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006384	DEI-184	deity	primary_deity_of	SHR-701	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006385	DEI-181	deity	primary_deity_of	SHR-702	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006386	DEI-182	deity	primary_deity_of	SHR-702	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006387	DEI-183	deity	primary_deity_of	SHR-702	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006388	DEI-184	deity	primary_deity_of	SHR-702	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006389	DEI-181	deity	primary_deity_of	SHR-703	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006390	DEI-182	deity	primary_deity_of	SHR-703	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006391	DEI-183	deity	primary_deity_of	SHR-703	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006392	DEI-184	deity	primary_deity_of	SHR-703	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006393	DEI-181	deity	primary_deity_of	SHR-704	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006394	DEI-182	deity	primary_deity_of	SHR-704	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006395	DEI-183	deity	primary_deity_of	SHR-704	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006396	DEI-184	deity	primary_deity_of	SHR-704	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006397	DEI-006	deity	primary_deity_of	SHR-705	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006398	DEI-005	deity	primary_deity_of	SHR-705	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006399	DEI-032	deity	primary_deity_of	SHR-706	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006400	DEI-032	deity	primary_deity_of	SHR-707	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006401	DEI-032	deity	primary_deity_of	SHR-708	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006402	DEI-032	deity	primary_deity_of	SHR-709	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006403	DEI-032	deity	primary_deity_of	SHR-710	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006404	DEI-032	deity	primary_deity_of	SHR-711	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006405	DEI-032	deity	primary_deity_of	SHR-712	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006406	DEI-032	deity	primary_deity_of	SHR-713	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006407	DEI-032	deity	primary_deity_of	SHR-714	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006408	DEI-032	deity	primary_deity_of	SHR-715	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006409	DEI-032	deity	primary_deity_of	SHR-716	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006410	DEI-032	deity	primary_deity_of	SHR-717	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006411	DEI-181	deity	primary_deity_of	SHR-717	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006412	DEI-032	deity	primary_deity_of	SHR-718	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006413	DEI-032	deity	primary_deity_of	SHR-719	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006414	DEI-032	deity	primary_deity_of	SHR-720	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006415	DEI-501	deity	primary_deity_of	SHR-721	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006416	DEI-501	deity	primary_deity_of	SHR-722	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006417	DEI-501	deity	primary_deity_of	SHR-723	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006418	DEI-501	deity	primary_deity_of	SHR-724	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006419	DEI-501	deity	primary_deity_of	SHR-725	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006420	DEI-501	deity	primary_deity_of	SHR-726	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006421	DEI-501	deity	primary_deity_of	SHR-727	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006422	DEI-501	deity	primary_deity_of	SHR-728	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006423	DEI-501	deity	primary_deity_of	SHR-729	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006424	DEI-501	deity	primary_deity_of	SHR-730	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006425	DEI-011	deity	primary_deity_of	SHR-731	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006426	DEI-012	deity	primary_deity_of	SHR-731	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006427	DEI-107	deity	primary_deity_of	SHR-731	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006428	DEI-154	deity	primary_deity_of	SHR-731	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006429	DEI-011	deity	primary_deity_of	SHR-732	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006430	DEI-012	deity	primary_deity_of	SHR-732	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006431	DEI-107	deity	primary_deity_of	SHR-732	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006432	DEI-154	deity	primary_deity_of	SHR-732	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006433	DEI-011	deity	primary_deity_of	SHR-733	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006434	DEI-012	deity	primary_deity_of	SHR-733	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006435	DEI-107	deity	primary_deity_of	SHR-733	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006436	DEI-154	deity	primary_deity_of	SHR-733	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006437	DEI-011	deity	primary_deity_of	SHR-734	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006438	DEI-012	deity	primary_deity_of	SHR-734	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006439	DEI-107	deity	primary_deity_of	SHR-734	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006440	DEI-154	deity	primary_deity_of	SHR-734	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006441	DEI-011	deity	primary_deity_of	SHR-735	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006442	DEI-012	deity	primary_deity_of	SHR-735	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006443	DEI-107	deity	primary_deity_of	SHR-735	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006444	DEI-154	deity	primary_deity_of	SHR-735	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006445	DEI-011	deity	primary_deity_of	SHR-736	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006446	DEI-012	deity	primary_deity_of	SHR-736	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006447	DEI-107	deity	primary_deity_of	SHR-736	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006448	DEI-154	deity	primary_deity_of	SHR-736	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006449	DEI-011	deity	primary_deity_of	SHR-737	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006450	DEI-012	deity	primary_deity_of	SHR-737	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006451	DEI-107	deity	primary_deity_of	SHR-737	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006452	DEI-154	deity	primary_deity_of	SHR-737	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006453	DEI-011	deity	primary_deity_of	SHR-738	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006454	DEI-012	deity	primary_deity_of	SHR-738	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006455	DEI-107	deity	primary_deity_of	SHR-738	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006456	DEI-154	deity	primary_deity_of	SHR-738	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006457	DEI-011	deity	primary_deity_of	SHR-739	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006458	DEI-012	deity	primary_deity_of	SHR-739	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006459	DEI-107	deity	primary_deity_of	SHR-739	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006460	DEI-154	deity	primary_deity_of	SHR-739	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006461	DEI-011	deity	primary_deity_of	SHR-740	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006462	DEI-012	deity	primary_deity_of	SHR-740	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006463	DEI-107	deity	primary_deity_of	SHR-740	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006464	DEI-154	deity	primary_deity_of	SHR-740	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006465	DEI-064	deity	primary_deity_of	SHR-741	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006466	DEI-211	deity	primary_deity_of	SHR-742	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006467	DEI-211	deity	primary_deity_of	SHR-743	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006468	DEI-245	deity	primary_deity_of	SHR-744	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006469	DEI-211	deity	primary_deity_of	SHR-745	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006470	DEI-211	deity	primary_deity_of	SHR-746	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006471	DEI-211	deity	primary_deity_of	SHR-747	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006472	DEI-203	deity	primary_deity_of	SHR-748	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006473	DEI-202	deity	primary_deity_of	SHR-749	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006474	DEI-211	deity	primary_deity_of	SHR-750	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006475	DEI-001	deity	primary_deity_of	SHR-751	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006476	DEI-001	deity	primary_deity_of	SHR-752	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006477	SHR-752	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006478	DEI-001	deity	primary_deity_of	SHR-753	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006479	DEI-211	deity	primary_deity_of	SHR-754	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006480	DEI-001	deity	primary_deity_of	SHR-755	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006481	DEI-005	deity	primary_deity_of	SHR-755	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006482	SHR-755	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006483	DEI-001	deity	primary_deity_of	SHR-756	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006484	SHR-756	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006485	DEI-064	deity	primary_deity_of	SHR-757	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006486	SHR-757	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006487	DEI-211	deity	primary_deity_of	SHR-758	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006488	DEI-088	deity	primary_deity_of	SHR-759	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006489	SHR-759	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006490	DEI-088	deity	primary_deity_of	SHR-760	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006491	DEI-005	deity	primary_deity_of	SHR-761	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006492	SHR-761	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006493	DEI-236	deity	primary_deity_of	SHR-762	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006494	DEI-164	deity	primary_deity_of	SHR-763	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006495	DEI-165	deity	primary_deity_of	SHR-763	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006496	DEI-166	deity	primary_deity_of	SHR-763	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006497	SHR-763	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載(Sprint4 追加)
+RLN-006498	DEI-525	deity	primary_deity_of	SHR-764	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006499	DEI-010	deity	primary_deity_of	SHR-765	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006500	DEI-211	deity	primary_deity_of	SHR-766	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006501	DEI-031	deity	primary_deity_of	SHR-767	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006502	DEI-005	deity	primary_deity_of	SHR-768	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006503	DEI-064	deity	primary_deity_of	SHR-769	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006504	DEI-211	deity	primary_deity_of	SHR-770	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006505	DEI-211	deity	primary_deity_of	SHR-771	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006506	DEI-211	deity	primary_deity_of	SHR-772	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006507	DEI-211	deity	primary_deity_of	SHR-773	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006508	DEI-211	deity	primary_deity_of	SHR-774	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006509	DEI-211	deity	primary_deity_of	SHR-775	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
+RLN-006510	SHR-678	shrine	descended_from	SHR-001	shrine	A	L0	document	-	-	各社社伝	出雲大社→北島国造館(国造分立)
+RLN-006511	SHR-684	shrine	descended_from	SHR-005	shrine	A	L0	document	-	-	各社社伝	熊野速玉→神倉神社(熊野原初鎮座)
+RLN-006512	SHR-685	shrine	descended_from	SHR-006	shrine	A	L0	document	-	-	各社社伝	諏訪上社→御射山社
+RLN-006513	SHR-686	shrine	descended_from	SHR-012	shrine	A	L0	document	-	-	各社社伝	春日大社→若宮
+RLN-006514	SHR-687	shrine	descended_from	SHR-097	shrine	A	L0	document	-	-	各社社伝	石清水→高良神社(摂社)
+RLN-006515	SHR-688	shrine	descended_from	SHR-098	shrine	A	L0	document	-	-	各社社伝	鶴岡八幡→丸山稲荷
+RLN-006516	SHR-689	shrine	descended_from	SHR-015	shrine	A	L0	document	-	-	各社社伝	住吉大社→大海神社(境外摂社)
+RLN-006517	SHR-690	shrine	descended_from	SHR-009	shrine	A	L0	document	-	-	各社社伝	宗像大社辺津宮→中津宮(大島)
+RLN-006518	SHR-691	shrine	descended_from	SHR-009	shrine	A	L0	document	-	-	各社社伝	宗像大社辺津宮→沖津宮(沖ノ島)
