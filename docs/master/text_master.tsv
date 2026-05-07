@@ -1,0 +1,16 @@
+text_id	canonical_title	canonical_reading	alternative_titles	compilation_year	compilation_period	compiler	text_type	language	extant_status	primary_themes	source_reference	confidence_level	hypothesis_layer	notes
+TXT-Kojiki	古事記	こじき	古事記	和銅5年(712)	奈良時代初期	太安万侶|稗田阿礼	official_history	上代日本語|漢文体	complete	神代|皇統|出雲|英雄譚	古事記原本(写本のみ現存)	A	L0	現存最古の歴史書、稗田阿礼の暗誦を太安万侶が筆録
+TXT-Nihonshoki	日本書紀	にほんしょき	日本紀	養老4年(720)	奈良時代初期	舎人親王|複数編纂者	official_history	漢文	complete	神代|皇統|外交|諸氏族系譜	日本書紀写本	A	L0	六国史の最初、官撰正史
+TXT-ShokuNihongi	続日本紀	しょくにほんぎ	-	延暦16年(797)	奈良末期-平安初期	菅野真道|藤原継縄|秋篠安人 等	official_history	漢文	complete	持統-桓武朝政治|律令制|寺社建立	続日本紀写本	A	L0	六国史第二、文武朝-桓武朝記録
+TXT-EngiShiki	延喜式	えんぎしき	延喜式神名帳(神祇官式)	延長5年(927)	平安中期	藤原時平|藤原忠平 等	law_code	漢文	complete	神社制度|式内社|律令補完	延喜式写本	A	L0	全 50 巻、巻 9-10 の神名帳に式内 2861 社
+TXT-IzumoFudoki	出雲国風土記	いずものくにふどき	-	天平5年(733)	奈良時代	出雲臣広島(国造)|神宅臣金太理 等	regional_record	漢文+万葉仮名	complete	出雲地域|神話|地名起源	出雲国風土記写本	A	L0	現存五風土記の中で唯一完本
+TXT-HitachiFudoki	常陸国風土記	ひたちのくにふどき	-	和銅6年(713)以降	奈良時代	藤原宇合 等	regional_record	漢文	fragment	常陸地域|神話|地名起源	常陸国風土記写本(逸文多数)	A	L0	現存五風土記、断片的
+TXT-HarimaFudoki	播磨国風土記	はりまのくにふどき	-	和銅6年(713)以降	奈良時代	不明	regional_record	漢文	fragment	播磨地域|神話|地名起源	播磨国風土記写本	A	L0	現存五風土記、頭尾欠損
+TXT-BungoFudoki	豊後国風土記	ぶんごのくにふどき	-	和銅6年(713)以降	奈良時代	不明	regional_record	漢文	fragment	豊後地域|神話|地名起源	豊後国風土記写本	A	L0	現存五風土記
+TXT-HizenFudoki	肥前国風土記	ひぜんのくにふどき	-	和銅6年(713)以降	奈良時代	不明	regional_record	漢文	fragment	肥前地域|神話|地名起源	肥前国風土記写本	A	L0	現存五風土記
+TXT-Kogoshui	古語拾遺	こごしゅうい	-	大同2年(807)	平安初期	斎部広成	ritual_history	漢文	complete	神祇祭祀|斎部氏家伝|忌部祖神	古語拾遺写本	B	L0	斎部氏(忌部)の家伝、平城天皇への上奏
+TXT-ShinsenShojiroku	新撰姓氏録	しんせんしょうじろく	姓氏録	弘仁6年(815)	平安初期	万多親王|藤原園人 等	genealogy	漢文	complete	氏族系譜|皇別|神別|諸蕃	新撰姓氏録写本	A	L0	1182 氏族の系譜整理
+TXT-MotooriKojikiden	古事記伝	こじきでん	-	寛政10年-文政5年(1798-1822)	近世後期	本居宣長	scholar_commentary	漢文+和文	complete	古事記注釈|国学	古事記伝刊本	A	L0	全 44 巻、35 年の注釈大著
+TXT-UsaTaku	宇佐宮御託宣集	うさぐうごたくせんしゅう	-	嘉元2年(1304)	鎌倉末期	神吽 等	shrine_origin	漢文	complete	八幡神格化|宇佐託宣|神仏習合	宇佐宮御託宣集写本	B	L0	八幡神=応神同体説の中世化を記録
+TXT-KitanoTenjinEngi	北野天神縁起	きたのてんじんえんぎ	天神絵巻	建保4年(1216)伝	鎌倉初期	不明(複数本系統)	shrine_origin	漢文+和文	complete	菅原道真|怨霊鎮魂|火雷天神	北野天神縁起絵巻	A	L0	天神信仰の中世化を記録
+TXT-SuwaDaimyojinGashi	諏訪大明神画詞	すわだいみょうじんえし	諏訪大明神絵詞	延文元年(1356)	南北朝期	諏訪円忠	shrine_origin	和文	complete	諏訪信仰|大祝|ミシャグジ|守矢家	諏訪大明神画詞写本	A	L0	諏訪上社祭祀の中世記録
