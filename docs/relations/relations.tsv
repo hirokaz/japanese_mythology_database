@@ -19931,3 +19931,81 @@ RLN-020097	PERIOD-Mythic	period	succeeded_by	PERIOD-Ancient	period	A	L0	document
 RLN-020098	PERIOD-Ancient	period	succeeded_by	PERIOD-Medieval	period	A	L0	document	-	-	歴史年表	時代区分連続
 RLN-020099	PERIOD-Medieval	period	succeeded_by	PERIOD-EarlyModernEdo	period	A	L0	document	-	-	歴史年表	時代区分連続
 RLN-020100	PERIOD-EarlyModernEdo	period	succeeded_by	PERIOD-Modern	period	A	L0	document	-	-	歴史年表	時代区分連続
+RLN-020101	DEI-168	deity	parent_of	DEI-583	deity	A	L0	document	-	-	古事記|新撰姓氏録	綿津見神 → 穂高見命(阿曇祖)
+RLN-020102	DEI-583	deity	enshrined_at	SHR-1010	shrine	A	L0	document	-	-	穂高神社社伝	穂高見命 → 穂高神社
+RLN-020103	DEI-167	deity	enshrined_at	SHR-1017	shrine	B	L1	document	-	-	志賀海神社社伝	阿曇磯良 → 志賀海摂社
+RLN-020104	DEI-167	deity	secondary_deity_of	SHR-796	shrine	B	L1	document	-	-	志賀海神社社伝	阿曇磯良 → 志賀海神社(配祀)
+RLN-020105	DEI-585	deity	participated_in	EVENT-JinmuTosei	event	A	L0	document	-	-	古事記|日本書紀	椎根津彦 → 神武東征(海路案内)
+RLN-020106	DEI-585	deity	enshrined_at	SHR-1020	shrine	B	L1	document	-	-	船玉神社社伝	椎根津彦 → 船玉神社
+RLN-020107	DEI-585	deity	enshrined_at	SHR-1016	shrine	C	L2	document	-	-	青海神社社伝	椎根津彦系青海首 → 青海神社
+RLN-020108	DEI-005	deity	parent_of	DEI-587	deity	A	L0	document	-	-	古事記|日本書紀	イザナギ → 蛭子(最初の子)
+RLN-020109	DEI-587	deity	syncretized_with	DEI-588	deity	B	L1	document	-	-	西宮神社社伝	蛭子 = 恵比寿(中世習合)
+RLN-020110	DEI-009	deity	syncretized_with	DEI-588	deity	B	L1	document	-	-	美保神社社伝	事代主 = 恵比寿(美保系)
+RLN-020111	DEI-587	deity	enshrined_at	SHR-1013	shrine	A	L0	document	-	-	西宮神社社伝	蛭子命 → 西宮神社
+RLN-020112	DEI-009	deity	enshrined_at	SHR-1014	shrine	A	L0	document	-	-	美保神社社伝	事代主 → 美保神社(恵比寿)
+RLN-020113	DEI-587	deity	enshrined_at	SHR-1024	shrine	B	L1	document	-	-	石津太神社社伝	蛭子命 → 石津太神社
+RLN-020114	DEI-589	deity	syncretized_with	DEI-168	deity	A	L0	document	-	-	日本書紀	豊玉彦 = 大綿津見神(海宮主)
+RLN-020115	DEI-589	deity	parent_of	DEI-088	deity	A	L0	document	-	-	古事記|日本書紀	豊玉彦 → 豊玉姫
+RLN-020116	DEI-589	deity	parent_of	DEI-089	deity	A	L0	document	-	-	古事記|日本書紀	豊玉彦 → 玉依姫
+RLN-020117	DEI-589	deity	enshrined_at	SHR-1009	shrine	B	L1	document	-	-	和多都美神社社伝	豊玉彦 → 和多都美神社
+RLN-020118	DEI-088	deity	enshrined_at	SHR-1009	shrine	B	L1	document	-	-	和多都美神社社伝	豊玉姫 → 和多都美神社
+RLN-020119	DEI-586	deity	enshrined_at	SHR-1015	shrine	B	L1	document	-	-	若狭彦神社社伝	御食津神(若狭) → 若狭彦神社
+RLN-020120	DEI-591	deity	syncretized_with	DEI-164	deity	A	L0	document	-	-	住吉大社神代記	住吉大神 = 底筒男
+RLN-020121	DEI-591	deity	enshrined_at	SHR-015	shrine	A	L0	document	-	-	住吉大社神代記	住吉大神 → 住吉大社
+RLN-020122	DEI-591	deity	enshrined_at	SHR-1012	shrine	A	L0	document	-	-	大依羅神社社伝	住吉三神 → 大依羅神社
+RLN-020123	DEI-020	deity	enshrined_at	SHR-1019	shrine	B	L1	document	-	-	淡嶋神社社伝	少彦名 → 粟嶋神社(淡島)
+RLN-020124	DEI-595	deity	enshrined_at	SHR-1020	shrine	B	L1	document	-	-	船玉神社社伝	船霊神 → 船玉神社
+RLN-020125	DEI-598	deity	participated_in	EVENT-Hakusukinoe	event	A	L0	document	-	-	日本書紀	阿曇比羅夫 → 白村江の戦い(663)
+RLN-020126	DEI-597	deity	participated_in	EVENT-Hakusukinoe	event	B	L1	document	-	-	日本書紀	阿曇百足 → 白村江の戦い
+RLN-020127	DEI-167	deity	ancestor_of	DEI-598	deity	B	L1	document	-	-	新撰姓氏録	阿曇磯良 → 阿曇比羅夫(阿曇族)
+RLN-020128	CLN-301	clan	descended_from	DEI-591	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-301 → 祖神 DEI-591
+RLN-020129	CLN-301	clan	controls	SHR-015	shrine	B	L1	document	-	-	諸社伝	CLN-301 → 奉斎 SHR-015
+RLN-020130	CLN-301	clan	located_in_country	REGION-摂津国	region	A	L0	document	-	-	新撰姓氏録	CLN-301 → 本拠 REGION-摂津国
+RLN-020131	CLN-302	clan	descended_from	DEI-168	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-302 → 祖神 DEI-168
+RLN-020132	CLN-303	clan	descended_from	DEI-583	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-303 → 祖神 DEI-583
+RLN-020133	CLN-303	clan	controls	SHR-1010	shrine	B	L1	document	-	-	諸社伝	CLN-303 → 奉斎 SHR-1010
+RLN-020134	CLN-303	clan	located_in_country	REGION-信濃国	region	A	L0	document	-	-	新撰姓氏録	CLN-303 → 本拠 REGION-信濃国
+RLN-020135	CLN-304	clan	descended_from	DEI-586	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-304 → 祖神 DEI-586
+RLN-020136	CLN-304	clan	controls	SHR-651	shrine	B	L1	document	-	-	諸社伝	CLN-304 → 奉斎 SHR-651
+RLN-020137	CLN-304	clan	located_in_country	REGION-志摩国	region	A	L0	document	-	-	新撰姓氏録	CLN-304 → 本拠 REGION-志摩国
+RLN-020138	CLN-305	clan	descended_from	DEI-586	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-305 → 祖神 DEI-586
+RLN-020139	CLN-305	clan	controls	SHR-1015	shrine	B	L1	document	-	-	諸社伝	CLN-305 → 奉斎 SHR-1015
+RLN-020140	CLN-305	clan	located_in_country	REGION-若狭国	region	A	L0	document	-	-	新撰姓氏録	CLN-305 → 本拠 REGION-若狭国
+RLN-020141	CLN-306	clan	descended_from	DEI-586	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-306 → 祖神 DEI-586
+RLN-020142	CLN-306	clan	controls	SHR-080	shrine	B	L1	document	-	-	諸社伝	CLN-306 → 奉斎 SHR-080
+RLN-020143	CLN-306	clan	located_in_country	REGION-淡路国	region	A	L0	document	-	-	新撰姓氏録	CLN-306 → 本拠 REGION-淡路国
+RLN-020144	CLN-307	clan	descended_from	DEI-168	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-307 → 祖神 DEI-168
+RLN-020145	CLN-307	clan	controls	SHR-1023	shrine	B	L1	document	-	-	諸社伝	CLN-307 → 奉斎 SHR-1023
+RLN-020146	CLN-307	clan	located_in_country	REGION-三河国	region	A	L0	document	-	-	新撰姓氏録	CLN-307 → 本拠 REGION-三河国
+RLN-020147	CLN-308	clan	descended_from	DEI-168	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-308 → 祖神 DEI-168
+RLN-020148	CLN-308	clan	controls	SHR-1022	shrine	B	L1	document	-	-	諸社伝	CLN-308 → 奉斎 SHR-1022
+RLN-020149	CLN-308	clan	located_in_country	REGION-尾張国	region	A	L0	document	-	-	新撰姓氏録	CLN-308 → 本拠 REGION-尾張国
+RLN-020150	CLN-309	clan	descended_from	DEI-192	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-309 → 祖神 DEI-192
+RLN-020151	CLN-309	clan	controls	SHR-005	shrine	B	L1	document	-	-	諸社伝	CLN-309 → 奉斎 SHR-005
+RLN-020152	CLN-309	clan	located_in_country	REGION-紀伊国	region	A	L0	document	-	-	新撰姓氏録	CLN-309 → 本拠 REGION-紀伊国
+RLN-020153	CLN-310	clan	descended_from	DEI-019	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-310 → 祖神 DEI-019
+RLN-020154	CLN-310	clan	controls	SHR-074	shrine	B	L1	document	-	-	諸社伝	CLN-310 → 奉斎 SHR-074
+RLN-020155	CLN-310	clan	located_in_country	REGION-安芸国	region	A	L0	document	-	-	新撰姓氏録	CLN-310 → 本拠 REGION-安芸国
+RLN-020156	CLN-311	clan	descended_from	DEI-589	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-311 → 祖神 DEI-589
+RLN-020157	CLN-311	clan	controls	SHR-1009	shrine	B	L1	document	-	-	諸社伝	CLN-311 → 奉斎 SHR-1009
+RLN-020158	CLN-311	clan	located_in_country	REGION-対馬国	region	A	L0	document	-	-	新撰姓氏録	CLN-311 → 本拠 REGION-対馬国
+RLN-020159	CLN-312	clan	descended_from	DEI-004	deity	B	L1	document	-	-	新撰姓氏録|諸社伝	CLN-312 → 祖神 DEI-004
+RLN-020160	CLN-312	clan	controls	SHR-797	shrine	B	L1	document	-	-	諸社伝	CLN-312 → 奉斎 SHR-797
+RLN-020161	CLN-312	clan	located_in_country	REGION-壱岐国	region	A	L0	document	-	-	新撰姓氏録	CLN-312 → 本拠 REGION-壱岐国
+RLN-020162	SHR-015	shrine	located_near	SHR-076	shrine	B	L1	document	-	-	古代対外航路	住吉・宗像航路 SHR-015→SHR-076
+RLN-020163	SHR-076	shrine	located_near	SHR-085	shrine	B	L1	document	-	-	古代対外航路	住吉・宗像航路 SHR-076→SHR-085
+RLN-020164	SHR-085	shrine	located_near	SHR-763	shrine	B	L1	document	-	-	古代対外航路	住吉・宗像航路 SHR-085→SHR-763
+RLN-020165	SHR-763	shrine	located_near	SHR-797	shrine	B	L1	document	-	-	古代対外航路	住吉・宗像航路 SHR-763→SHR-797
+RLN-020166	SHR-797	shrine	located_near	SHR-009	shrine	B	L1	document	-	-	古代対外航路	住吉・宗像航路 SHR-797→SHR-009
+RLN-020167	SHR-796	shrine	located_near	SHR-1010	shrine	C	L3	document	-	-	阿曇地名分布研究	阿曇内陸展開 SHR-796→SHR-1010
+RLN-020168	SHR-1010	shrine	located_near	SHR-1023	shrine	C	L3	document	-	-	阿曇地名分布研究	阿曇内陸展開 SHR-1010→SHR-1023
+RLN-020169	SHR-1023	shrine	located_near	SHR-1025	shrine	C	L3	document	-	-	阿曇地名分布研究	阿曇内陸展開 SHR-1023→SHR-1025
+RLN-020170	SHR-1015	shrine	associated_with	EVENT-MiketsukuniKonyu	event	C	L2	document	-	-	延喜式|御食国研究	御食国の贄貢納
+RLN-020171	SHR-080	shrine	associated_with	EVENT-MiketsukuniKonyu	event	C	L2	document	-	-	延喜式|御食国研究	御食国の贄貢納
+RLN-020172	SHR-651	shrine	associated_with	EVENT-MiketsukuniKonyu	event	C	L2	document	-	-	延喜式|御食国研究	御食国の贄貢納
+RLN-020173	DEI-086	deity	ancestor_of	DEI-242	deity	B	L1	document	-	-	日本書紀	火照命(海幸) → 火闌降命(隼人祖)
+RLN-020174	MOTIF-008	motif_abstract	associated_with	SHR-1009	shrine	C	L2	document	-	-	海宮神話研究	海幸山幸 → 和多都美神社(海宮)
+RLN-020175	MOTIF-008	motif_abstract	associated_with	DEI-589	deity	B	L1	document	-	-	古事記	海幸山幸 → 豊玉彦(海宮主)
+RLN-020176	SHR-690	shrine	associated_with	CLN-016	clan	A	L0	document	-	-	沖ノ島祭祀遺跡	沖津宮(沖ノ島) → 宗像氏祭祀
+RLN-020177	CLN-035	clan	married_into	DEI-577	deity	A	L0	document	-	-	日本書紀	宗像君徳善娘尼子娘 → 天武天皇妃(高市皇子母)
+RLN-020178	DEI-589	deity	syncretized_with	DEI-442	deity	E	L3	document	-	-	海洋他界観比較研究	海宮 ↔ 縄文海洋他界観(ニライカナイ類縁 L3)
