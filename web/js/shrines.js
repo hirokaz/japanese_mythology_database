@@ -2,6 +2,7 @@
 (async function () {
   const tableBody = document.querySelector('#shrineTable tbody');
   const table = document.getElementById('shrineTable');
+  const tableWrap = document.getElementById('shrineTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
   const searchInput = document.getElementById('searchInput');
@@ -47,7 +48,7 @@
 
     listIntro.textContent = `全 ${shrines.length.toLocaleString()} 件の神社・寺院・祭祀地を収録。検索やフィルタで絞り込めます。`;
     loading.hidden = true;
-    table.hidden = false;
+    if (tableWrap) tableWrap.hidden = false;
     render();
   } catch (err) {
     loading.textContent = 'データの読み込みに失敗しました: ' + err.message;
@@ -94,14 +95,14 @@
       const ranks = [s.shrine_rank_ancient, s.shrine_rank_modern].filter(x => x && x !== '-').join(' / ');
       return `
         <tr>
-          <td class="col-id">${escapeHtml(s.master_id)}</td>
-          <td class="col-name">
+          <td class="col-id" data-label="ID">${escapeHtml(s.master_id)}</td>
+          <td class="col-name" data-label="名称">
             <a href="shrine.html?id=${encodeURIComponent(s.master_id)}">${escapeHtml(s.canonical_name)}</a>
             <div style="color:#8b7560; font-size:0.85em;">${escapeHtml(s.canonical_reading || '')}</div>
           </td>
-          <td>${escapeHtml(s.prefecture || '')}<div style="color:#8b7560; font-size:0.85em;">${escapeHtml(s.address || '')}</div></td>
-          <td class="col-meta">${deityName}</td>
-          <td class="col-meta">${escapeHtml(ranks)}</td>
+          <td data-label="所在地">${escapeHtml(s.prefecture || '')}<div style="color:#8b7560; font-size:0.85em;">${escapeHtml(s.address || '')}</div></td>
+          <td class="col-meta" data-label="主祭神">${deityName}</td>
+          <td class="col-meta" data-label="社格">${escapeHtml(ranks)}</td>
         </tr>
       `;
     }).join('');

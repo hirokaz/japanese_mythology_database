@@ -95,9 +95,16 @@
   function detailUrl(id) {
     if (!id) return '#';
     const prefix = inPagesDir ? '' : 'pages/';
-    if (id.startsWith('DEI-')) return `${prefix}deity.html?id=${id}`;
-    if (id.startsWith('SHR-')) return `${prefix}shrine.html?id=${id}`;
-    if (id.startsWith('CLN-')) return `${prefix}clan.html?id=${id}`;
+    if (id.startsWith('DEI-'))    return `${prefix}deity.html?id=${id}`;
+    if (id.startsWith('SHR-'))    return `${prefix}shrine.html?id=${id}`;
+    if (id.startsWith('CLN-'))    return `${prefix}clan.html?id=${id}`;
+    if (id.startsWith('MOTIF-'))  return `${prefix}entity.html?type=motif&id=${id}`;
+    if (id.startsWith('TXT-'))    return `${prefix}entity.html?type=text&id=${id}`;
+    if (id.startsWith('PERIOD-')) return `${prefix}entity.html?type=period&id=${id}`;
+    if (id.startsWith('RANK-'))   return `${prefix}entity.html?type=rank&id=${id}`;
+    if (id.startsWith('EVENT-'))  return `${prefix}entity.html?type=event&id=${id}`;
+    if (id.startsWith('REGION-') || id.startsWith('REG-'))
+                                  return `${prefix}entity.html?type=region&id=${id}`;
     return '#';
   }
 

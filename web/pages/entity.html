@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>氏族一覧 | 神話 OS</title>
+<title>詳細 | 神話 OS</title>
 <link rel="stylesheet" href="../css/main.css">
 <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 </head>
@@ -19,36 +19,18 @@
       <a href="../index.html">ホーム</a>
       <a href="shrines.html">神社</a>
       <a href="deities.html">神格</a>
-      <a href="clans.html" class="active">氏族</a>
+      <a href="clans.html">氏族</a>
       <a href="relations.html">関係探索</a>
       <a href="about.html">本基盤について</a>
     </nav>
   </div>
 </header>
 
-<main class="list-page">
+<main class="detail-page">
   <div class="container">
-    <h1 class="section-title">氏族一覧</h1>
-    <p class="section-lead" id="listIntro">読み込み中…</p>
-
-    <div class="list-controls">
-      <input type="search" id="searchInput" placeholder="氏族名・読み・別名で検索…">
-      <span class="list-stats" id="listStats">—</span>
-    </div>
-
-    <div id="loading" class="loading">データを読み込んでいます</div>
-    <div class="table-wrap" id="clanTableWrap" hidden>
-      <table class="list-table" id="clanTable">
-        <thead><tr>
-          <th class="col-id">ID</th>
-          <th>名称 / 読み</th>
-          <th class="col-meta">カテゴリ</th>
-          <th class="col-meta">notes</th>
-        </tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p id="empty" class="empty" hidden>該当する氏族が見つかりませんでした。</p>
+    <p style="margin: 0 0 16px;"><a href="../index.html">← ホームへ</a></p>
+    <div id="loading" class="loading">読み込み中…</div>
+    <div id="content" hidden></div>
   </div>
 </main>
 
@@ -56,6 +38,6 @@
 
 <script src="../js/tsv_parser.js"></script>
 <script src="../js/data_loader.js"></script>
-<script src="../js/clans.js"></script>
+<script src="../js/entity.js"></script>
 </body>
 </html>
