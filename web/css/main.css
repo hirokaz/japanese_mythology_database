@@ -223,12 +223,21 @@ pre {
 .list-controls select { min-width: 160px; }
 .list-stats { color: #6a5a45; font-size: 0.92em; padding: 4px 8px; align-self: center; }
 
+/* table を横スクロール可能なラッパー内に置く */
+.table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #e8ddc8;
+  border-radius: 8px;
+  background: #fff;
+}
+
 .list-table {
   width: 100%; border-collapse: collapse;
   background: #fff;
-  border: 1px solid #e8ddc8;
-  border-radius: 8px;
-  overflow: hidden;
+  /* border / radius は table-wrap 側に移動 */
 }
 .list-table th, .list-table td {
   padding: 10px 14px;
@@ -241,11 +250,11 @@ pre {
   background: #f4efe8;
   font-weight: 600;
   color: #4a3520;
-  position: sticky; top: 64px;
+  /* sticky を解除(サイトヘッダーとの干渉を避ける、横スクロールも安定) */
 }
 .list-table tbody tr:hover { background: #fdf7ef; }
 .list-table tbody tr:last-child td { border-bottom: none; }
-.list-table .col-id { width: 90px; color: #8b7560; font-family: "SFMono-Regular", "Consolas", monospace; font-size: 0.85em; }
+.list-table .col-id { width: 90px; color: #8b7560; font-family: "SFMono-Regular", "Consolas", monospace; font-size: 0.85em; white-space: nowrap; }
 .list-table .col-name { font-weight: 600; }
 .list-table .col-name a { color: #4a3520; }
 .list-table .col-meta { color: #6a5a45; font-size: 0.88em; }
@@ -332,17 +341,71 @@ pre {
 
 /* ===== Responsive ===== */
 @media (max-width: 760px) {
-  .header-inner { flex-direction: column; gap: 12px; }
-  .main-nav { gap: 14px; }
+  .container { padding: 0 14px; }
+  .site-header { position: static; }  /* モバイルではヘッダーを固定しない(縦領域確保) */
+  .header-inner { flex-direction: column; gap: 8px; padding: 12px 14px; }
+  .main-nav { gap: 14px; flex-wrap: wrap; justify-content: center; }
   .brand-tag { display: none; }
-  .hero { padding: 40px 0 32px; }
-  .hero-stats { gap: 14px; }
-  .stat { padding: 12px 18px; min-width: 90px; }
-  .stat-num { font-size: 1.5em; }
-  .list-controls { flex-direction: column; }
+  .hero { padding: 36px 0 28px; }
+  .hero h1 { font-size: 1.5em; }
+  .hero-lead { font-size: 0.95em; margin-bottom: 24px; }
+  .hero-stats { gap: 10px; }
+  .stat { padding: 10px 14px; min-width: 84px; }
+  .stat-num { font-size: 1.4em; }
+  .section { padding: 36px 0; }
+  .section-title { font-size: 1.3em; }
+
+  /* リストコントロール:縦並び */
+  .list-controls { flex-direction: column; padding: 12px; }
   .list-controls input, .list-controls select { width: 100%; }
-  .list-table { font-size: 0.85em; }
-  .list-table .col-meta { display: none; }
+  .list-stats { padding: 0; }
+
+  /* テーブル → モバイルではカード型 */
+  .table-wrap { border: none; background: transparent; overflow: visible; }
+  .list-table { display: block; background: transparent; }
+  .list-table thead { display: none; }
+  .list-table tbody { display: block; }
+  .list-table tbody tr {
+    display: block;
+    background: #fff;
+    border: 1px solid #e8ddc8;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+  }
+  .list-table tbody tr:hover { background: #fdf7ef; }
+  .list-table td {
+    display: block;
+    padding: 4px 0;
+    border: none;
+    font-size: 0.92em;
+  }
+  /* data-label でラベル表示(カード型時) */
+  .list-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.7em;
+    color: #8b7560;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 2px;
+  }
+  .list-table .col-id { width: auto; padding-bottom: 6px; }
+  .list-table .col-name { font-size: 1.05em; padding-bottom: 4px; }
+  .list-table .col-meta { display: block; color: #6a5a45; }
+  .list-table td:empty { display: none; }
+  /* 行内アンカーをタップしやすく */
+  .list-table tbody tr a { display: inline-block; min-height: 24px; }
+
+  /* 詳細ページ */
   .kv-list { grid-template-columns: 1fr; gap: 4px 0; }
   .kv-list dt { margin-top: 8px; }
+  .detail-header { padding: 18px; }
+  .detail-section { padding: 16px; }
+  .ascii-tree { font-size: 0.72em; padding: 12px; }
+
+  /* layer-bar 多少縮小 */
+  .layer-bar { height: 44px; }
+  .layer { font-size: 0.82em; }
 }

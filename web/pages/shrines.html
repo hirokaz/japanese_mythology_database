@@ -41,18 +41,20 @@
 
     <div id="loading" class="loading">データを読み込んでいます</div>
 
-    <table class="list-table" id="shrineTable" hidden>
-      <thead>
-        <tr>
-          <th class="col-id">ID</th>
-          <th>名称 / 読み</th>
-          <th>所在地</th>
-          <th class="col-meta">主祭神</th>
-          <th class="col-meta">社格</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <div class="table-wrap" id="shrineTableWrap" hidden>
+      <table class="list-table" id="shrineTable">
+        <thead>
+          <tr>
+            <th class="col-id">ID</th>
+            <th>名称 / 読み</th>
+            <th>所在地</th>
+            <th class="col-meta">主祭神</th>
+            <th class="col-meta">社格</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
     <p id="empty" class="empty" hidden>該当する神社が見つかりませんでした。</p>
   </div>
 </main>

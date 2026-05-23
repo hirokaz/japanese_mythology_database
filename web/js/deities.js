@@ -2,6 +2,7 @@
 (async function () {
   const tableBody = document.querySelector('#deityTable tbody');
   const table = document.getElementById('deityTable');
+  const tableWrap = document.getElementById('deityTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
   const searchInput = document.getElementById('searchInput');
@@ -37,7 +38,7 @@
 
     listIntro.textContent = `全 ${deities.length.toLocaleString()} 神格を収録(神代の神々から近代神格化された天皇・武将まで)。`;
     loading.hidden = true;
-    table.hidden = false;
+    if (tableWrap) tableWrap.hidden = false;
     render();
   } catch (err) {
     loading.textContent = 'データの読み込みに失敗しました: ' + err.message;
@@ -76,14 +77,14 @@
 
     const html = display.map(d => `
       <tr>
-        <td class="col-id">${escapeHtml(d.master_id)}</td>
-        <td class="col-name">
+        <td class="col-id" data-label="ID">${escapeHtml(d.master_id)}</td>
+        <td class="col-name" data-label="名称">
           <a href="deity.html?id=${encodeURIComponent(d.master_id)}">${escapeHtml(d.canonical_name)}</a>
           <div style="color:#8b7560; font-size:0.85em;">${escapeHtml(d.canonical_reading || '')}</div>
         </td>
-        <td>${escapeHtml(d.category || '')} ${d.gender ? `<span style="color:#8b7560; font-size:0.85em;">(${escapeHtml(d.gender)})</span>` : ''}</td>
-        <td class="col-meta">${escapeHtml(d.main_text_appearance || '')}</td>
-        <td class="col-meta" style="max-width:380px;">${escapeHtml((d.notes || '').slice(0, 80))}${(d.notes || '').length > 80 ? '…' : ''}</td>
+        <td data-label="カテゴリ">${escapeHtml(d.category || '')} ${d.gender ? `<span style="color:#8b7560; font-size:0.85em;">(${escapeHtml(d.gender)})</span>` : ''}</td>
+        <td class="col-meta" data-label="主要文献">${escapeHtml(d.main_text_appearance || '')}</td>
+        <td class="col-meta" data-label="備考" style="max-width:380px;">${escapeHtml((d.notes || '').slice(0, 80))}${(d.notes || '').length > 80 ? '…' : ''}</td>
       </tr>
     `).join('');
     tableBody.innerHTML = html + note;

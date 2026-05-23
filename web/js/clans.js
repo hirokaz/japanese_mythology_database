@@ -2,6 +2,7 @@
 (async function () {
   const tableBody = document.querySelector('#clanTable tbody');
   const table = document.getElementById('clanTable');
+  const tableWrap = document.getElementById('clanTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
   const searchInput = document.getElementById('searchInput');
@@ -17,7 +18,7 @@
     clans = await DataLoader.load('clan');
     listIntro.textContent = `全 ${clans.length.toLocaleString()} 氏族を収録(中央豪族・地方国造・祭祀氏族・技術氏族・渡来氏族)。`;
     loading.hidden = true;
-    table.hidden = false;
+    if (tableWrap) tableWrap.hidden = false;
     render();
   } catch (err) {
     loading.textContent = 'データの読み込みに失敗しました: ' + err.message;
@@ -47,13 +48,13 @@
 
     const html = display.map(c => `
       <tr>
-        <td class="col-id">${escapeHtml(c.master_id)}</td>
-        <td class="col-name">
+        <td class="col-id" data-label="ID">${escapeHtml(c.master_id)}</td>
+        <td class="col-name" data-label="名称">
           <a href="clan.html?id=${encodeURIComponent(c.master_id)}">${escapeHtml(c.canonical_name)}</a>
           <div style="color:#8b7560; font-size:0.85em;">${escapeHtml(c.canonical_reading || '')}</div>
         </td>
-        <td class="col-meta">${escapeHtml(c.category || c.clan_category || '')}</td>
-        <td class="col-meta" style="max-width:380px;">${escapeHtml((c.notes || '').slice(0, 100))}${(c.notes || '').length > 100 ? '…' : ''}</td>
+        <td class="col-meta" data-label="カテゴリ">${escapeHtml(c.clan_type || c.category || '')}</td>
+        <td class="col-meta" data-label="備考" style="max-width:380px;">${escapeHtml((c.notes || '').slice(0, 100))}${(c.notes || '').length > 100 ? '…' : ''}</td>
       </tr>
     `).join('');
     tableBody.innerHTML = html + note;

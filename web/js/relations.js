@@ -2,6 +2,7 @@
 (async function () {
   const tableBody = document.querySelector('#relTable tbody');
   const table = document.getElementById('relTable');
+  const tableWrap = document.getElementById('relTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
   const idInput = document.getElementById('idInput');
@@ -57,7 +58,7 @@
 
     listIntro.textContent = `全 ${relations.length.toLocaleString()} 件のリレーションから探索。ID・関係タイプ・確実性層で絞り込めます。`;
     loading.hidden = true;
-    table.hidden = false;
+    if (tableWrap) tableWrap.hidden = false;
     render();
   } catch (err) {
     loading.textContent = 'データの読み込みに失敗しました: ' + err.message;
@@ -99,12 +100,12 @@
       const tgtLink = tgtUrl !== '#' ? `<a href="${tgtUrl}">${escapeHtml(tgtName)}</a>` : escapeHtml(tgtName);
       return `
         <tr>
-          <td class="col-id">${escapeHtml(r.relation_id)}</td>
-          <td>${srcLink}<div style="color:#8b7560; font-size:0.78em;"><code>${escapeHtml(r.source_id)}</code></div></td>
-          <td><span class="relation-type">${escapeHtml(r.relation_type)}</span></td>
-          <td>${tgtLink}<div style="color:#8b7560; font-size:0.78em;"><code>${escapeHtml(r.target_id)}</code></div></td>
-          <td class="col-meta">${layerBadge}<span style="color:#8b7560; font-size:0.85em;">conf=${escapeHtml(r.confidence_level || '')}</span></td>
-          <td class="col-meta" style="max-width:200px; font-size:0.85em;">${escapeHtml((r.source_reference || '').slice(0, 40))}</td>
+          <td class="col-id" data-label="RLN ID">${escapeHtml(r.relation_id)}</td>
+          <td data-label="ソース">${srcLink}<div style="color:#8b7560; font-size:0.78em;"><code>${escapeHtml(r.source_id)}</code></div></td>
+          <td data-label="関係"><span class="relation-type">${escapeHtml(r.relation_type)}</span></td>
+          <td data-label="ターゲット">${tgtLink}<div style="color:#8b7560; font-size:0.78em;"><code>${escapeHtml(r.target_id)}</code></div></td>
+          <td class="col-meta" data-label="層">${layerBadge}<span style="color:#8b7560; font-size:0.85em;">conf=${escapeHtml(r.confidence_level || '')}</span></td>
+          <td class="col-meta" data-label="出典" style="max-width:200px; font-size:0.85em;">${escapeHtml((r.source_reference || '').slice(0, 40))}</td>
         </tr>
       `;
     }).join('');
