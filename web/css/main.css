@@ -307,6 +307,86 @@ pre {
 .kv-list dt { color: #8b7560; }
 .kv-list dd { margin: 0; color: #2a2622; }
 
+/* ===== Enshrined Deities Section ===== */
+.enshrined-label {
+  font-size: 0.95em;
+  color: #5a4a35;
+  margin: 16px 0 8px;
+  font-weight: 600;
+}
+.role-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 3px;
+  font-size: 0.82em;
+  margin-right: 6px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.role-main { background: #8b3a3a; color: #fff; }
+.role-secondary { background: #c9a878; color: #2c1810; }
+
+.deity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 6px 0 10px;
+}
+.deity-card {
+  display: block;
+  background: #fdf7ef;
+  border: 1px solid #e8ddc8;
+  border-radius: 6px;
+  padding: 12px 14px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.deity-card:hover {
+  background: #fff;
+  border-color: #c9a878;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(74,53,32,0.08);
+  text-decoration: none;
+}
+.deity-card-main { border-left: 4px solid #8b3a3a; }
+.deity-card-secondary { border-left: 4px solid #c9a878; background: #faf5ec; }
+
+.deity-name {
+  display: block;
+  font-weight: 700;
+  color: #4a3520;
+  font-size: 1.05em;
+  line-height: 1.3;
+}
+.deity-reading {
+  display: block;
+  color: #8b7560;
+  font-size: 0.82em;
+  margin-top: 2px;
+}
+.deity-id {
+  display: block;
+  font-size: 0.78em;
+  color: #8b7560;
+  margin-top: 4px;
+}
+.deity-cat {
+  display: inline-block;
+  font-size: 0.76em;
+  background: #f4efe8;
+  color: #4a3520;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-top: 6px;
+}
+.deity-notes {
+  display: block;
+  font-size: 0.82em;
+  color: #6a5a45;
+  margin-top: 6px;
+  line-height: 1.45;
+}
+
 /* ===== Map embed ===== */
 .map-embed {
   position: relative;

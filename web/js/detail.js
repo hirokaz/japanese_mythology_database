@@ -56,6 +56,7 @@ async function renderDetail() {
       <div class="detail-grid">
         <div>
           ${renderBasic(record, type)}
+          ${type === 'shrine' ? await renderEnshrinedDeities(record) : ''}
           ${type === 'shrine' ? renderMap(record) : ''}
           ${await renderRelations(outGrouped, 'out', record)}
           ${await renderRelations(inGrouped, 'in', record)}
@@ -74,6 +75,51 @@ async function renderDetail() {
 
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
+}
+
+/** 主祭神 / 配祀神 セクション(shrine 用) */
+async function renderEnshrinedDeities(record) {
+  const main = (record.main_deity_ids || '').split('|').map(s => s.trim()).filter(s => s && s !== '-');
+  const sec = (record.secondary_deity_ids || '').split('|').map(s => s.trim()).filter(s => s && s !== '-');
+  if (main.length === 0 && sec.length === 0) return '';
+
+  const deities = await DataLoader.load('deity');
+  const idx = {};
+  deities.forEach(d => { idx[d.master_id] = d; });
+
+  function card(id, role) {
+    const d = idx[id];
+    const url = DataLoader.detailUrl(id);
+    const roleClass = role === 'main' ? 'deity-card-main' : 'deity-card-secondary';
+    if (!d) {
+      return `<a href="${url}" class="deity-card ${roleClass}">
+        <span class="deity-name">${escapeHtml(id)}</span>
+        <span class="deity-id">(deity_master 未登録)</span>
+      </a>`;
+    }
+    const reading = d.canonical_reading && d.canonical_reading !== '-' ? d.canonical_reading : '';
+    const cat = d.category && d.category !== '-' ? d.category : '';
+    const notes = d.notes && d.notes !== '-' ? d.notes.slice(0, 60) + (d.notes.length > 60 ? '…' : '') : '';
+    return `<a href="${url}" class="deity-card ${roleClass}">
+      <span class="deity-name">${escapeHtml(d.canonical_name)}</span>
+      ${reading ? `<span class="deity-reading">${escapeHtml(reading)}</span>` : ''}
+      <span class="deity-id"><code>${escapeHtml(id)}</code></span>
+      ${cat ? `<span class="deity-cat">${escapeHtml(cat)}</span>` : ''}
+      ${notes ? `<span class="deity-notes">${escapeHtml(notes)}</span>` : ''}
+    </a>`;
+  }
+
+  let html = `<div class="detail-section"><h2>主祭神 / 配祀神</h2>`;
+  if (main.length) {
+    html += `<h3 class="enshrined-label"><span class="role-badge role-main">主祭神</span> ${main.length} 柱</h3>`;
+    html += `<div class="deity-grid">${main.map(id => card(id, 'main')).join('')}</div>`;
+  }
+  if (sec.length) {
+    html += `<h3 class="enshrined-label"><span class="role-badge role-secondary">配祀神</span> ${sec.length} 柱</h3>`;
+    html += `<div class="deity-grid">${sec.map(id => card(id, 'secondary')).join('')}</div>`;
+  }
+  html += `</div>`;
+  return html;
 }
 
 /** Google Map 埋め込みセクション(shrine 用) */
