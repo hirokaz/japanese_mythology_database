@@ -56,6 +56,7 @@ async function renderDetail() {
       <div class="detail-grid">
         <div>
           ${renderBasic(record, type)}
+          ${type === 'shrine' ? renderMap(record) : ''}
           ${await renderRelations(outGrouped, 'out', record)}
           ${await renderRelations(inGrouped, 'in', record)}
         </div>
@@ -73,6 +74,53 @@ async function renderDetail() {
 
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
+}
+
+/** Google Map 埋め込みセクション(shrine 用) */
+function renderMap(record) {
+  const coords = (record.coordinates || '').trim();
+  const validCoords = /^-?\d+(\.\d+)?,-?\d+(\.\d+)?$/.test(coords);
+  const queryParts = [record.canonical_name, record.address, record.prefecture]
+    .filter(x => x && x !== '-');
+  const fallbackQuery = queryParts.join(' ');
+
+  let embedQ, openQ, source;
+  if (validCoords) {
+    embedQ = coords;
+    openQ = coords;
+    source = `座標: ${coords}`;
+  } else if (fallbackQuery) {
+    embedQ = fallbackQuery;
+    openQ = fallbackQuery;
+    source = `住所検索: ${queryParts.join(' / ')}`;
+  } else {
+    // 表示する地理情報なし
+    return '';
+  }
+
+  const embedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(embedQ)}&z=${validCoords ? 15 : 13}&output=embed`;
+  const openUrl = validCoords
+    ? `https://www.google.com/maps?q=${encodeURIComponent(openQ)}`
+    : `https://www.google.com/maps/search/${encodeURIComponent(openQ)}`;
+
+  return `
+    <div class="detail-section">
+      <h2>所在地マップ</h2>
+      <div class="map-embed">
+        <iframe
+          src="${escapeHtml(embedUrl)}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          title="${escapeHtml(record.canonical_name || '所在地')} の地図"></iframe>
+      </div>
+      <p class="map-meta">
+        ${escapeHtml(source)} ·
+        <a href="${escapeHtml(openUrl)}" target="_blank" rel="noopener">Google マップで開く ↗</a>
+      </p>
+      ${!validCoords ? `<p class="map-note">※ 正確な座標は未収録のため、住所・社名で検索した結果を表示しています。実際の位置と異なる場合があります。</p>` : ''}
+    </div>
+  `;
 }
 
 function renderBasic(record, type) {

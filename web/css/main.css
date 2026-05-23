@@ -307,6 +307,43 @@ pre {
 .kv-list dt { color: #8b7560; }
 .kv-list dd { margin: 0; color: #2a2622; }
 
+/* ===== Map embed ===== */
+.map-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  overflow: hidden;
+  border-radius: 6px;
+  background: #f4efe8;
+  border: 1px solid #e8ddc8;
+}
+.map-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+.map-meta {
+  margin: 10px 0 0;
+  font-size: 0.9em;
+  color: #6a5a45;
+}
+.map-meta a {
+  font-weight: 600;
+  margin-left: 4px;
+}
+.map-note {
+  margin: 6px 0 0;
+  padding: 8px 12px;
+  background: #fdf3e0;
+  border-left: 3px solid #d68a3a;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: #6a5a45;
+}
+
 .relation-list { list-style: none; padding: 0; margin: 0; }
 .relation-list li {
   padding: 8px 0; border-bottom: 1px solid #f4efe8;
