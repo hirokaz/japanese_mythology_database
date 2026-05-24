@@ -6416,7 +6416,6 @@ RLN-006538	DEI-340	deity	primary_deity_of	SHR-789	shrine	B	L0	document	-	-	shrin
 RLN-006539	DEI-160	deity	primary_deity_of	SHR-790	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006540	DEI-144	deity	primary_deity_of	SHR-791	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006541	DEI-132	deity	primary_deity_of	SHR-792	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
-RLN-006543	DEI-058	deity	primary_deity_of	SHR-794	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006544	DEI-058	deity	primary_deity_of	SHR-795	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006545	DEI-110	deity	primary_deity_of	SHR-796	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006546	SHR-796	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	-	-	延喜式神名帳	延喜式記載
@@ -6467,7 +6466,6 @@ RLN-006591	DEI-193	deity	primary_deity_of	SHR-824	shrine	B	L0	document	-	-	shrin
 RLN-006592	DEI-194	deity	primary_deity_of	SHR-824	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006593	DEI-019	deity	primary_deity_of	SHR-825	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4 final)	Sprint4 豪族祖神/海人/北方/琉球
 RLN-006602	DEI-211	deity	primary_deity_of	SHR-834	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shugen
-RLN-006603	DEI-211	deity	primary_deity_of	SHR-835	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shugen
 RLN-006604	DEI-211	deity	primary_deity_of	SHR-836	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shugen
 RLN-006605	DEI-211	deity	primary_deity_of	SHR-837	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shugen
 RLN-006614	DEI-211	deity	primary_deity_of	SHR-846	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shugen
@@ -6597,14 +6595,9 @@ RLN-006766	DEI-001	deity	primary_deity_of	SHR-923	shrine	B	L0	document	-	-	shrin
 RLN-006767	DEI-001	deity	primary_deity_of	SHR-924	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shikinai_add
 RLN-006768	DEI-001	deity	primary_deity_of	SHR-925	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5)	Sprint5-A shikinai_add
 RLN-006769	DEI-507	deity	primary_deity_of	SHR-926	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
-RLN-006770	DEI-058	deity	primary_deity_of	SHR-927	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
-RLN-006771	DEI-058	deity	primary_deity_of	SHR-928	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
-RLN-006772	DEI-058	deity	primary_deity_of	SHR-929	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
-RLN-006773	DEI-058	deity	primary_deity_of	SHR-930	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006774	DEI-182	deity	primary_deity_of	SHR-931	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006775	DEI-088	deity	primary_deity_of	SHR-932	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006776	DEI-526	deity	primary_deity_of	SHR-933	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
-RLN-006777	DEI-058	deity	primary_deity_of	SHR-934	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006778	DEI-505	deity	primary_deity_of	SHR-935	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006779	DEI-522	deity	primary_deity_of	SHR-936	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
 RLN-006780	DEI-523	deity	primary_deity_of	SHR-937	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B mausoleum
@@ -6650,29 +6643,9 @@ RLN-006823	DEI-165	deity	primary_deity_of	SHR-975	shrine	B	L0	document	-	-	shrin
 RLN-006824	DEI-166	deity	primary_deity_of	SHR-975	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B folk_special
 RLN-006825	DEI-002	deity	primary_deity_of	SHR-976	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B folk_special
 RLN-006827	DEI-009	deity	primary_deity_of	SHR-978	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B folk_special
-RLN-006828	DEI-442	deity	primary_deity_of	SHR-979	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006829	DEI-442	deity	primary_deity_of	SHR-980	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006830	DEI-442	deity	primary_deity_of	SHR-981	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006831	DEI-442	deity	primary_deity_of	SHR-982	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006832	DEI-442	deity	primary_deity_of	SHR-983	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006833	DEI-442	deity	primary_deity_of	SHR-984	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006834	DEI-442	deity	primary_deity_of	SHR-985	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006835	DEI-442	deity	primary_deity_of	SHR-986	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006836	DEI-442	deity	primary_deity_of	SHR-987	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006837	DEI-442	deity	primary_deity_of	SHR-988	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006838	DEI-442	deity	primary_deity_of	SHR-989	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006839	DEI-442	deity	primary_deity_of	SHR-990	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006840	DEI-442	deity	primary_deity_of	SHR-991	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006841	DEI-442	deity	primary_deity_of	SHR-992	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
-RLN-006842	DEI-442	deity	primary_deity_of	SHR-993	shrine	E	L3	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B prehistoric
 RLN-006843	DEI-064	deity	primary_deity_of	SHR-994	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
 RLN-006847	DEI-181	deity	primary_deity_of	SHR-998	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
 RLN-006848	DEI-181	deity	primary_deity_of	SHR-999	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
-RLN-006852	DEI-529	deity	primary_deity_of	SHR-1003	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
-RLN-006853	DEI-529	deity	primary_deity_of	SHR-1004	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
-RLN-006854	DEI-529	deity	primary_deity_of	SHR-1005	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
-RLN-006855	DEI-529	deity	primary_deity_of	SHR-1006	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
-RLN-006856	DEI-529	deity	primary_deity_of	SHR-1007	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint5-B)	Sprint5-B final_misc
 RLN-006862	DEI-003	deity	sibling_of	DEI-004	deity	A	L0	document	-	-	古事記	天照・月読 兄妹
 RLN-006863	DEI-003	deity	sibling_of	DEI-002	deity	A	L0	document	-	-	古事記	天照・スサノオ 姉弟
 RLN-006864	DEI-004	deity	sibling_of	DEI-002	deity	A	L0	document	-	-	古事記	月読・スサノオ 兄弟
@@ -6717,28 +6690,10 @@ RLN-006908	DEI-512	deity	syncretized_with	DEI-513	deity	C	L2	document	-	-	南朝
 RLN-006909	DEI-512	deity	syncretized_with	DEI-518	deity	C	L2	document	-	-	太平記	楠木正成・菊池武時 同列(南朝忠臣)
 RLN-006910	DEI-100	deity	syncretized_with	DEI-091	deity	A	L0	document	-	-	皇大神宮儀式帳	倭姫宮神=倭姫命
 RLN-006911	DEI-004	deity	syncretized_with	DEI-202	deity	B	L1	document	-	-	出羽三山社伝	月読命=月山権現(中世習合)
-RLN-006912	DEI-541	deity	primary_deity_of	SHR-934	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006913	DEI-542	deity	primary_deity_of	SHR-935	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006914	DEI-533	deity	primary_deity_of	SHR-940	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006915	DEI-533	deity	primary_deity_of	SHR-941	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006916	DEI-533	deity	primary_deity_of	SHR-942	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006917	DEI-534	deity	primary_deity_of	SHR-943	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006918	DEI-535	deity	primary_deity_of	SHR-944	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006919	DEI-536	deity	primary_deity_of	SHR-945	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006920	DEI-537	deity	primary_deity_of	SHR-945	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006921	DEI-538	deity	primary_deity_of	SHR-946	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006922	DEI-539	deity	primary_deity_of	SHR-947	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006923	DEI-540	deity	primary_deity_of	SHR-948	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006924	DEI-543	deity	primary_deity_of	SHR-933	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
 RLN-006925	DEI-543	deity	primary_deity_of	SHR-846	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006926	DEI-543	deity	primary_deity_of	SHR-931	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
 RLN-006934	DEI-547	deity	primary_deity_of	SHR-836	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
 RLN-006935	DEI-547	deity	primary_deity_of	SHR-837	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
 RLN-006936	DEI-548	deity	primary_deity_of	SHR-834	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006937	DEI-548	deity	primary_deity_of	SHR-835	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006939	DEI-550	deity	primary_deity_of	SHR-928	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006940	DEI-550	deity	primary_deity_of	SHR-929	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
-RLN-006941	DEI-551	deity	primary_deity_of	SHR-930	shrine	A	L0	document	-	-	shrine_master.tsv (Sprint6)	Sprint6 戦国・偉人 deity 接続
 RLN-006942	SHR-846	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	高野山縁起	弘仁7年(816)空海開創
 RLN-006943	SHR-933	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	高野山奥之院縁起	空海入定地(承和2年835)
 RLN-006944	SHR-932	shrine	associated_with	DEI-544	deity	A	L0	document	-	-	最澄伝	最澄誕生地(神護景雲元年767)
@@ -19531,3 +19486,33 @@ R-AUTO-FIX-SHR-997-DEI-543	DEI-543	primary_deity_of	SHR-997	-	-	A	L0	-	-	-	-	主
 R-AUTO-FIX-SHR-1000-DEI-533	DEI-533	primary_deity_of	SHR-1000	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
 R-AUTO-FIX-SHR-1001-DEI-533	DEI-533	primary_deity_of	SHR-1001	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
 R-AUTO-FIX-SHR-1002-DEI-533	DEI-533	primary_deity_of	SHR-1002	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX2-SHR-015-DEI-164	DEI-164	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-165	DEI-165	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-166	DEI-166	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-183	DEI-183	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-058-DEI-001	DEI-001	primary_deity_of	SHR-058	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-082-DEI-337	DEI-337	primary_deity_of	SHR-082	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-927-DEI-553	DEI-553	primary_deity_of	SHR-927	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-928-DEI-561	DEI-561	primary_deity_of	SHR-928	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-929-DEI-562	DEI-562	primary_deity_of	SHR-929	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-930-DEI-563	DEI-563	primary_deity_of	SHR-930	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-932-DEI-566	DEI-566	primary_deity_of	SHR-932	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-934-DEI-577	DEI-577	primary_deity_of	SHR-934	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-934-DEI-578	DEI-578	primary_deity_of	SHR-934	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-941-DEI-089	DEI-089	primary_deity_of	SHR-941	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1003-DEI-534	DEI-534	primary_deity_of	SHR-1003	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1004-DEI-535	DEI-535	primary_deity_of	SHR-1004	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1005-DEI-536	DEI-536	primary_deity_of	SHR-1005	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1006-DEI-538	DEI-538	primary_deity_of	SHR-1006	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1007-DEI-539	DEI-539	primary_deity_of	SHR-1007	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-998-DEI-541	DEI-541	primary_deity_of	SHR-998	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-999-DEI-542	DEI-542	primary_deity_of	SHR-999	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-585-DEI-014	DEI-014	primary_deity_of	SHR-585	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-816-DEI-014	DEI-014	primary_deity_of	SHR-816	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-578-DEI-014	DEI-014	primary_deity_of	SHR-578	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-579-DEI-474	DEI-474	primary_deity_of	SHR-579	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-787-DEI-474	DEI-474	primary_deity_of	SHR-787	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-794-DEI-108	DEI-108	primary_deity_of	SHR-794	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-994-DEI-474	DEI-474	primary_deity_of	SHR-994	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-835-DEI-191	DEI-191	primary_deity_of	SHR-835	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-969-DEI-215	DEI-215	primary_deity_of	SHR-969	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
