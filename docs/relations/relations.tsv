@@ -1255,29 +1255,21 @@ RLN-001265	SHR-196	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	�
 RLN-001266	SHR-197	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001267	SHR-198	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001268	SHR-199	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001269	SHR-200	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001271	SHR-202	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001272	SHR-203	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001273	SHR-204	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001274	SHR-205	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001275	SHR-206	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001277	SHR-208	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001278	SHR-209	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001279	SHR-210	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001281	SHR-212	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001282	SHR-213	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001283	SHR-214	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001285	SHR-216	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001287	SHR-218	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001289	SHR-220	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001290	SHR-221	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001291	SHR-222	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001293	SHR-224	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001294	SHR-225	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001295	SHR-226	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001297	SHR-228	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001298	SHR-229	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
-RLN-001299	SHR-230	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001301	SHR-232	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001302	SHR-233	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
 RLN-001303	SHR-234	shrine	mentioned_in	TXT-EngiShiki	text	A	L0	document	927	-	延喜式神名帳	式内社
@@ -1345,63 +1337,6 @@ RLN-001371	CLN-053	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815
 RLN-001372	CLN-054	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001373	CLN-055	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001374	CLN-056	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001375	CLN-057	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001376	CLN-058	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001377	CLN-059	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001378	CLN-060	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001379	CLN-061	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001380	CLN-062	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001381	CLN-063	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001382	CLN-064	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001383	CLN-065	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001384	CLN-066	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001385	CLN-067	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001386	CLN-068	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001387	CLN-069	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001388	CLN-070	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001389	CLN-071	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001390	CLN-072	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001391	CLN-073	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001392	CLN-074	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001393	CLN-075	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001394	CLN-076	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001395	CLN-077	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001396	CLN-078	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001397	CLN-079	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001398	CLN-080	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001399	CLN-081	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001400	CLN-082	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001401	CLN-083	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001402	CLN-084	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001403	CLN-085	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001404	CLN-086	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001405	CLN-087	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001406	CLN-088	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001407	CLN-089	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001408	CLN-090	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001409	CLN-091	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001410	CLN-092	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001411	CLN-093	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001412	CLN-094	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001413	CLN-095	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001414	CLN-096	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001415	CLN-097	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001416	CLN-098	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001417	CLN-099	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001418	CLN-100	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001419	CLN-101	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001420	CLN-102	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001421	CLN-103	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001422	CLN-104	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001423	CLN-105	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001424	CLN-106	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001425	CLN-107	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001426	CLN-108	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001427	CLN-109	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001428	CLN-110	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001429	CLN-111	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001430	CLN-112	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001431	CLN-113	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001432	CLN-114	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001433	CLN-115	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001434	CLN-116	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
@@ -1500,7 +1435,6 @@ RLN-001526	CLN-208	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815
 RLN-001527	CLN-209	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001528	CLN-210	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001529	CLN-211	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
-RLN-001530	CLN-212	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001531	CLN-213	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001532	CLN-214	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
 RLN-001533	CLN-215	clan	mentioned_in	TXT-ShinsenShojiroku	text	A	L0	document	815	-	新撰姓氏録	氏族系譜
@@ -1765,29 +1699,21 @@ RLN-001803	SHR-196	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜�
 RLN-001804	SHR-197	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001805	SHR-198	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001806	SHR-199	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001807	SHR-200	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001809	SHR-202	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001810	SHR-203	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001811	SHR-204	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001812	SHR-205	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001813	SHR-206	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001815	SHR-208	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001816	SHR-209	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001817	SHR-210	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001819	SHR-212	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001820	SHR-213	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001821	SHR-214	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001823	SHR-216	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001825	SHR-218	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001827	SHR-220	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001828	SHR-221	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001829	SHR-222	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001831	SHR-224	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001832	SHR-225	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001833	SHR-226	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001835	SHR-228	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001836	SHR-229	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
-RLN-001837	SHR-230	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001839	SHR-232	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001840	SHR-233	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
 RLN-001841	SHR-234	shrine	located_in	REG-japan	region	A	L0	document	-	-	延喜式	所在国
@@ -2431,50 +2357,6 @@ RLN-002485	REG-052	region	controlled_by	CLN-053	clan	B	L1	political	-	-	続日�
 RLN-002486	REG-053	region	controlled_by	CLN-054	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
 RLN-002487	REG-054	region	controlled_by	CLN-055	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
 RLN-002488	REG-055	region	controlled_by	CLN-056	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002489	REG-056	region	controlled_by	CLN-057	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002490	REG-057	region	controlled_by	CLN-058	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002491	REG-058	region	controlled_by	CLN-059	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002492	REG-059	region	controlled_by	CLN-060	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002493	REG-060	region	controlled_by	CLN-061	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002494	REG-061	region	controlled_by	CLN-062	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002495	REG-062	region	controlled_by	CLN-063	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002496	REG-063	region	controlled_by	CLN-064	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002497	REG-064	region	controlled_by	CLN-065	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002498	REG-065	region	controlled_by	CLN-066	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002499	REG-066	region	controlled_by	CLN-067	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002500	REG-067	region	controlled_by	CLN-068	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002501	REG-068	region	controlled_by	CLN-069	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002502	REG-069	region	controlled_by	CLN-070	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002503	REG-070	region	controlled_by	CLN-071	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002504	REG-071	region	controlled_by	CLN-072	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002505	REG-072	region	controlled_by	CLN-073	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002506	REG-073	region	controlled_by	CLN-074	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002507	REG-074	region	controlled_by	CLN-075	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002508	REG-075	region	controlled_by	CLN-076	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002509	REG-076	region	controlled_by	CLN-077	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002510	REG-077	region	controlled_by	CLN-078	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002511	REG-078	region	controlled_by	CLN-079	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002512	REG-079	region	controlled_by	CLN-080	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002513	REG-080	region	controlled_by	CLN-081	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002514	REG-081	region	controlled_by	CLN-082	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002515	REG-082	region	controlled_by	CLN-083	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002516	REG-083	region	controlled_by	CLN-084	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002517	REG-084	region	controlled_by	CLN-085	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002518	REG-085	region	controlled_by	CLN-086	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002519	REG-086	region	controlled_by	CLN-087	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002520	REG-087	region	controlled_by	CLN-088	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002521	REG-088	region	controlled_by	CLN-089	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002522	REG-089	region	controlled_by	CLN-090	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002523	REG-090	region	controlled_by	CLN-091	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002524	REG-091	region	controlled_by	CLN-092	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002525	REG-092	region	controlled_by	CLN-093	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002526	REG-093	region	controlled_by	CLN-094	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002527	REG-094	region	controlled_by	CLN-095	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002528	REG-095	region	controlled_by	CLN-096	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002529	REG-096	region	controlled_by	CLN-097	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002530	REG-097	region	controlled_by	CLN-098	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002531	REG-098	region	controlled_by	CLN-099	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
-RLN-002532	REG-099	region	controlled_by	CLN-100	clan	B	L1	political	-	-	続日本紀|諸記録	古代国造支配
 RLN-002533	EMP-001	emperor	ruled	REG-035	region	B	L1	political	-	-	書紀|続日本紀	-
 RLN-002534	EMP-001	emperor	ruled	REG-008	region	B	L1	political	-	-	書紀|続日本紀	-
 RLN-002535	EMP-002	emperor	ruled	REG-028	region	B	L1	political	-	-	書紀|続日本紀	-
@@ -2984,7 +2866,6 @@ RLN-003040	MOTIF-195	motif_abstract	localized_via_shrine	SHR-196	shrine	C	L2	doc
 RLN-003041	MOTIF-196	motif_abstract	localized_via_shrine	SHR-197	shrine	C	L2	document	-	-	諸社伝	motif地域化
 RLN-003042	MOTIF-197	motif_abstract	localized_via_shrine	SHR-198	shrine	C	L2	document	-	-	諸社伝	motif地域化
 RLN-003043	MOTIF-198	motif_abstract	localized_via_shrine	SHR-199	shrine	C	L2	document	-	-	諸社伝	motif地域化
-RLN-003044	MOTIF-199	motif_abstract	localized_via_shrine	SHR-200	shrine	C	L2	document	-	-	諸社伝	motif地域化
 RLN-003045	CLN-001	clan	controls_shrine	SHR-002	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
 RLN-003046	CLN-002	clan	controls_shrine	SHR-003	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
 RLN-003047	CLN-003	clan	controls_shrine	SHR-004	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
@@ -3041,49 +2922,6 @@ RLN-003097	CLN-053	clan	controls_shrine	SHR-1015	shrine	B	L1	document	-	-	延喜
 RLN-003098	CLN-054	clan	controls_shrine	SHR-055	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
 RLN-003099	CLN-055	clan	controls_shrine	SHR-419	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
 RLN-003100	CLN-056	clan	controls_shrine	SHR-057	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003101	CLN-057	clan	controls_shrine	SHR-058	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003102	CLN-058	clan	controls_shrine	SHR-059	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003103	CLN-059	clan	controls_shrine	SHR-060	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003104	CLN-060	clan	controls_shrine	SHR-061	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003105	CLN-061	clan	controls_shrine	SHR-062	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003106	CLN-062	clan	controls_shrine	SHR-063	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003107	CLN-063	clan	controls_shrine	SHR-064	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003108	CLN-064	clan	controls_shrine	SHR-065	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003109	CLN-065	clan	controls_shrine	SHR-004	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003110	CLN-066	clan	controls_shrine	SHR-067	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003111	CLN-067	clan	controls_shrine	SHR-068	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003112	CLN-068	clan	controls_shrine	SHR-069	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003113	CLN-069	clan	controls_shrine	SHR-578	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003114	CLN-070	clan	controls_shrine	SHR-579	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003115	CLN-071	clan	controls_shrine	SHR-072	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003116	CLN-072	clan	controls_shrine	SHR-073	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003117	CLN-073	clan	controls_shrine	SHR-074	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003118	CLN-074	clan	controls_shrine	SHR-075	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003119	CLN-075	clan	controls_shrine	SHR-076	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003120	CLN-076	clan	controls_shrine	SHR-077	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003121	CLN-077	clan	controls_shrine	SHR-078	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003122	CLN-078	clan	controls_shrine	SHR-079	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003123	CLN-079	clan	controls_shrine	SHR-080	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003124	CLN-080	clan	controls_shrine	SHR-081	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003125	CLN-081	clan	controls_shrine	SHR-082	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003126	CLN-082	clan	controls_shrine	SHR-083	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003127	CLN-083	clan	controls_shrine	SHR-084	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003128	CLN-084	clan	controls_shrine	SHR-085	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003129	CLN-085	clan	controls_shrine	SHR-086	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003130	CLN-086	clan	controls_shrine	SHR-087	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003131	CLN-087	clan	controls_shrine	SHR-016	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003132	CLN-088	clan	controls_shrine	SHR-089	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003133	CLN-089	clan	controls_shrine	SHR-090	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003134	CLN-090	clan	controls_shrine	SHR-091	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003135	CLN-091	clan	controls_shrine	SHR-092	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003136	CLN-092	clan	controls_shrine	SHR-093	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003137	CLN-093	clan	controls_shrine	SHR-094	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003138	CLN-094	clan	controls_shrine	SHR-095	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003139	CLN-095	clan	controls_shrine	SHR-096	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003140	CLN-096	clan	controls_shrine	SHR-649	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003141	CLN-097	clan	controls_shrine	SHR-098	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003142	CLN-098	clan	controls_shrine	SHR-086	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
-RLN-003143	CLN-099	clan	controls_shrine	SHR-083	shrine	B	L1	document	-	-	延喜式|諸社伝	祭祀権
 RLN-003144	DEI-100	deity	participated_in	MOTIF-101	motif_abstract	C	L2	mythic	-	-	古事記|書紀	拡張接続
 RLN-003145	DEI-100	deity	participated_in	MOTIF-151	motif_abstract	C	L2	mythic	-	-	古事記|書紀	拡張接続
 RLN-003146	DEI-100	deity	participated_in	MOTIF-201	motif_abstract	C	L2	mythic	-	-	古事記|書紀	拡張接続
@@ -4140,72 +3978,21 @@ RLN-004196	CLN-053	clan	served	EMP-004	emperor	B	L1	political	-	-	続日本紀	�
 RLN-004197	CLN-054	clan	served	EMP-005	emperor	B	L1	political	-	-	続日本紀	古代官僚層
 RLN-004198	CLN-055	clan	served	EMP-006	emperor	B	L1	political	-	-	続日本紀	古代官僚層
 RLN-004199	CLN-056	clan	served	EMP-007	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004200	CLN-057	clan	served	EMP-008	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004201	CLN-058	clan	served	EMP-009	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004202	CLN-059	clan	served	EMP-010	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004203	CLN-060	clan	served	EMP-011	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004204	CLN-061	clan	served	EMP-012	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004205	CLN-062	clan	served	EMP-013	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004206	CLN-063	clan	served	EMP-014	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004207	CLN-064	clan	served	EMP-015	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004208	CLN-065	clan	served	EMP-016	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004209	CLN-066	clan	served	EMP-017	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004210	CLN-067	clan	served	EMP-018	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004211	CLN-068	clan	served	EMP-019	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004212	CLN-069	clan	served	EMP-020	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004213	CLN-070	clan	served	EMP-021	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004214	CLN-071	clan	served	EMP-022	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004215	CLN-072	clan	served	EMP-023	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004216	CLN-073	clan	served	EMP-024	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004217	CLN-074	clan	served	EMP-025	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004218	CLN-075	clan	served	EMP-026	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004219	CLN-076	clan	served	EMP-027	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004220	CLN-077	clan	served	EMP-028	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004221	CLN-078	clan	served	EMP-029	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004222	CLN-079	clan	served	EMP-030	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004223	CLN-080	clan	served	EMP-031	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004224	CLN-081	clan	served	EMP-032	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004225	CLN-082	clan	served	EMP-033	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004226	CLN-083	clan	served	EMP-034	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004227	CLN-084	clan	served	EMP-035	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004228	CLN-085	clan	served	EMP-036	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004229	CLN-086	clan	served	EMP-037	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004230	CLN-087	clan	served	EMP-038	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004231	CLN-088	clan	served	EMP-039	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004232	CLN-089	clan	served	EMP-040	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004233	CLN-090	clan	served	EMP-041	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004234	CLN-091	clan	served	EMP-042	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004235	CLN-092	clan	served	EMP-043	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004236	CLN-093	clan	served	EMP-044	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004237	CLN-094	clan	served	EMP-045	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004238	CLN-095	clan	served	EMP-046	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004239	CLN-096	clan	served	EMP-047	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004240	CLN-097	clan	served	EMP-048	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004241	CLN-098	clan	served	EMP-049	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004242	CLN-099	clan	served	EMP-050	emperor	B	L1	political	-	-	続日本紀	古代官僚層
-RLN-004243	SHR-200	shrine	located_in	REG-province-065	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004245	SHR-202	shrine	located_in	REG-province-067	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004246	SHR-203	shrine	located_in	REG-province-068	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004247	SHR-204	shrine	located_in	REG-province-001	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004248	SHR-205	shrine	located_in	REG-province-002	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004249	SHR-206	shrine	located_in	REG-province-003	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004251	SHR-208	shrine	located_in	REG-province-005	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004252	SHR-209	shrine	located_in	REG-province-006	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004253	SHR-210	shrine	located_in	REG-province-007	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004255	SHR-212	shrine	located_in	REG-province-009	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004256	SHR-213	shrine	located_in	REG-province-010	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004257	SHR-214	shrine	located_in	REG-province-011	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004259	SHR-216	shrine	located_in	REG-province-013	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004261	SHR-218	shrine	located_in	REG-province-015	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004263	SHR-220	shrine	located_in	REG-province-017	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004264	SHR-221	shrine	located_in	REG-province-018	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004265	SHR-222	shrine	located_in	REG-province-019	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004267	SHR-224	shrine	located_in	REG-province-021	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004268	SHR-225	shrine	located_in	REG-province-022	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004269	SHR-226	shrine	located_in	REG-province-023	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004271	SHR-228	shrine	located_in	REG-province-025	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004272	SHR-229	shrine	located_in	REG-province-026	region	A	L0	document	-	-	延喜式	式内社所在
-RLN-004273	SHR-230	shrine	located_in	REG-province-027	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004275	SHR-232	shrine	located_in	REG-province-029	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004276	SHR-233	shrine	located_in	REG-province-030	region	A	L0	document	-	-	延喜式	式内社所在
 RLN-004277	SHR-234	shrine	located_in	REG-province-031	region	A	L0	document	-	-	延喜式	式内社所在
@@ -5247,18 +5034,10 @@ RLN-005357	DEI-181	deity	primary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrin
 RLN-005358	DEI-182	deity	primary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005359	DEI-183	deity	primary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005360	DEI-184	deity	primary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005361	DEI-181	deity	primary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005362	DEI-182	deity	primary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005363	DEI-183	deity	primary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005364	DEI-184	deity	primary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005369	DEI-181	deity	primary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005370	DEI-182	deity	primary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005371	DEI-183	deity	primary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005372	DEI-184	deity	primary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005373	DEI-181	deity	primary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005374	DEI-182	deity	primary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005375	DEI-183	deity	primary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005376	DEI-184	deity	primary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005377	DEI-181	deity	primary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005378	DEI-182	deity	primary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005379	DEI-183	deity	primary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5279,10 +5058,6 @@ RLN-005401	DEI-181	deity	primary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrin
 RLN-005402	DEI-182	deity	primary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005403	DEI-183	deity	primary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005404	DEI-184	deity	primary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005409	DEI-181	deity	primary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005410	DEI-182	deity	primary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005411	DEI-183	deity	primary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005412	DEI-184	deity	primary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005413	DEI-181	deity	primary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005414	DEI-182	deity	primary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005415	DEI-183	deity	primary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5291,10 +5066,6 @@ RLN-005417	DEI-181	deity	primary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrin
 RLN-005418	DEI-182	deity	primary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005419	DEI-183	deity	primary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005420	DEI-184	deity	primary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005425	DEI-181	deity	primary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005426	DEI-182	deity	primary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005427	DEI-183	deity	primary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005428	DEI-184	deity	primary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005433	DEI-181	deity	primary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005434	DEI-182	deity	primary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005435	DEI-183	deity	primary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5303,18 +5074,10 @@ RLN-005441	DEI-181	deity	primary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrin
 RLN-005442	DEI-182	deity	primary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005443	DEI-183	deity	primary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005444	DEI-184	deity	primary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005445	DEI-181	deity	primary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005446	DEI-182	deity	primary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005447	DEI-183	deity	primary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005448	DEI-184	deity	primary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005449	DEI-181	deity	primary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005450	DEI-182	deity	primary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005451	DEI-183	deity	primary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005452	DEI-184	deity	primary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005457	DEI-181	deity	primary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005458	DEI-182	deity	primary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005459	DEI-183	deity	primary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005460	DEI-184	deity	primary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005461	DEI-181	deity	primary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005462	DEI-182	deity	primary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005463	DEI-183	deity	primary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5323,18 +5086,10 @@ RLN-005465	DEI-181	deity	primary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrin
 RLN-005466	DEI-182	deity	primary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005467	DEI-183	deity	primary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005468	DEI-184	deity	primary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005473	DEI-181	deity	primary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005474	DEI-182	deity	primary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005475	DEI-183	deity	primary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005476	DEI-184	deity	primary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005477	DEI-181	deity	primary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005478	DEI-182	deity	primary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005479	DEI-183	deity	primary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005480	DEI-184	deity	primary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005481	DEI-181	deity	primary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005482	DEI-182	deity	primary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005483	DEI-183	deity	primary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005484	DEI-184	deity	primary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005489	DEI-181	deity	primary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005490	DEI-182	deity	primary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005491	DEI-183	deity	primary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5456,15 +5211,10 @@ RLN-005785	DEI-010	deity	primary_deity_of	SHR-393	shrine	B	L0	document	-	-	shrin
 RLN-005786	DEI-029	deity	primary_deity_of	SHR-393	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005831	DEI-010	deity	primary_deity_of	SHR-416	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005832	DEI-029	deity	primary_deity_of	SHR-416	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005833	DEI-010	deity	primary_deity_of	SHR-417	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005834	DEI-029	deity	primary_deity_of	SHR-417	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005835	DEI-010	deity	primary_deity_of	SHR-418	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005836	DEI-029	deity	primary_deity_of	SHR-418	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005837	DEI-195	deity	primary_deity_of	SHR-419	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005838	DEI-195	deity	primary_deity_of	SHR-420	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005839	DEI-195	deity	primary_deity_of	SHR-421	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005840	DEI-195	deity	primary_deity_of	SHR-422	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005841	DEI-195	deity	primary_deity_of	SHR-423	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005842	DEI-195	deity	primary_deity_of	SHR-424	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005865	DEI-195	deity	primary_deity_of	SHR-447	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005867	DEI-083	deity	primary_deity_of	SHR-449	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -5756,7 +5506,6 @@ RLN-006254	SHR-674	shrine	founded_by	DEI-272	deity	C	L3	document	-	-	氷川社�
 RLN-006255	SHR-675	shrine	founded_by	DEI-211	deity	A	L0	document	-	-	金峯山秘伝	役小角の修行地
 RLN-006256	SHR-672	shrine	founded_by	DEI-026	deity	A	L0	document	-	-	高鴨神社社伝	アヂスキタカヒコネ本宮(葛城鴨氏祖神)
 RLN-006257	SHR-673	shrine	founded_by	DEI-216	deity	A	L0	document	-	-	龍田大社社伝	崇神朝の風神祭起源
-RLN-006258	SHR-228	shrine	descended_from	SHR-016	shrine	C	L2	document	-	-	国分寺八幡縁起	大宰府国分八幡 ← 宇佐
 RLN-006259	SHR-235	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	柞原八幡宮社伝	柞原八幡宮 ← 宇佐(天長 4 年勧請)
 RLN-006260	SHR-649	shrine	descended_from	SHR-016	shrine	A	L0	document	-	-	石清水八幡宮縁起	石清水 ← 宇佐(貞観元年勧請)
 RLN-006261	SHR-098	shrine	descended_from	SHR-649	shrine	A	L0	document	-	-	吾妻鏡	鶴岡 ← 石清水(由比若宮経由)
@@ -5855,12 +5604,8 @@ RLN-006397	DEI-006	deity	primary_deity_of	SHR-705	shrine	B	L0	document	-	-	shrin
 RLN-006398	DEI-005	deity	primary_deity_of	SHR-705	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006405	DEI-032	deity	primary_deity_of	SHR-712	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006406	DEI-032	deity	primary_deity_of	SHR-713	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
-RLN-006407	DEI-032	deity	primary_deity_of	SHR-714	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
-RLN-006408	DEI-032	deity	primary_deity_of	SHR-715	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006410	DEI-032	deity	primary_deity_of	SHR-717	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006411	DEI-181	deity	primary_deity_of	SHR-717	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
-RLN-006412	DEI-032	deity	primary_deity_of	SHR-718	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
-RLN-006413	DEI-032	deity	primary_deity_of	SHR-719	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006414	DEI-032	deity	primary_deity_of	SHR-720	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006421	DEI-501	deity	primary_deity_of	SHR-727	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
 RLN-006433	DEI-011	deity	primary_deity_of	SHR-733	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint4)	Sprint4 摂末社・地方分布主祭神
@@ -6194,8 +5939,6 @@ RLN-006901	CLN-003	clan	descended_from	DEI-058	deity	B	L1	document	-	-	古語拾
 RLN-006902	CLN-004	clan	descended_from	DEI-160	deity	A	L0	document	-	-	古事記|日本書紀	蘇我氏→武内宿禰系(L1)
 RLN-006903	CLN-022	clan	descended_from	DEI-013	deity	A	L0	document	-	-	出雲国造神賀詞	出雲国造→天穂日命
 RLN-006904	CLN-036	clan	descended_from	DEI-010	deity	A	L0	document	-	-	諏訪大明神画詞	諏訪氏(大祝)→建御名方
-RLN-006905	CLN-099	clan	descended_from	DEI-507	deity	A	L0	document	-	-	古事記	紀氏→天道根命/神武系
-RLN-006906	CLN-065	clan	descended_from	DEI-058	deity	B	L1	document	-	-	古語拾遺	忌部氏→天太玉系(阿波)
 RLN-006907	CLN-168	clan	descended_from	DEI-287	deity	B	L1	document	-	-	三嶋大社社伝	三嶋氏→三島溝杭
 RLN-006908	DEI-512	deity	syncretized_with	DEI-513	deity	C	L2	document	-	-	南朝史料	楠木正成・新田義貞 同列(南朝忠臣神)
 RLN-006909	DEI-512	deity	syncretized_with	DEI-518	deity	C	L2	document	-	-	太平記	楠木正成・菊池武時 同列(南朝忠臣)
@@ -6523,8 +6266,6 @@ RLN-007616	SHR-384	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事�
 RLN-007621	SHR-389	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-010 の TXT-Kojiki 登場による shrine 関連
 RLN-007625	SHR-393	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-010 の TXT-Kojiki 登場による shrine 関連
 RLN-007648	SHR-416	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-010 の TXT-Kojiki 登場による shrine 関連
-RLN-007649	SHR-417	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-010 の TXT-Kojiki 登場による shrine 関連
-RLN-007650	SHR-418	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-010 の TXT-Kojiki 登場による shrine 関連
 RLN-007651	SHR-449	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-083 の TXT-Nihonshoki 登場による shrine 関連
 RLN-007652	SHR-450	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-083 の TXT-Kojiki 登場による shrine 関連
 RLN-007655	SHR-452	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-083 の TXT-Kojiki 登場による shrine 関連
@@ -6674,16 +6415,8 @@ RLN-007858	SHR-712	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事�
 RLN-007859	SHR-712	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
 RLN-007860	SHR-713	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
 RLN-007861	SHR-713	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
-RLN-007862	SHR-714	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
-RLN-007863	SHR-714	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
-RLN-007864	SHR-715	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
-RLN-007865	SHR-715	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
 RLN-007868	SHR-717	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
 RLN-007869	SHR-717	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
-RLN-007870	SHR-718	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
-RLN-007871	SHR-718	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
-RLN-007872	SHR-719	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
-RLN-007873	SHR-719	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
 RLN-007874	SHR-720	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-032 の TXT-Kojiki 登場による shrine 関連
 RLN-007875	SHR-720	shrine	mentioned_in	TXT-Nihonshoki	text	B	L1	document	-	-	日本書紀	Sprint6 mass: 主祭神 DEI-032 の TXT-Nihonshoki 登場による shrine 関連
 RLN-007880	SHR-733	shrine	mentioned_in	TXT-Kojiki	text	B	L1	document	-	-	古事記	Sprint6 mass: 主祭神 DEI-011 の TXT-Kojiki 登場による shrine 関連
@@ -7003,10 +6736,7 @@ RLN-008240	SHR-180	shrine	descended_from	SHR-649	shrine	B	L1	document	-	-	各社
 RLN-008241	SHR-181	shrine	descended_from	SHR-649	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008243	SHR-189	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008244	SHR-190	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
-RLN-008245	SHR-200	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
-RLN-008247	SHR-216	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008248	SHR-220	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
-RLN-008249	SHR-224	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008251	SHR-232	shrine	descended_from	SHR-016	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008252	SHR-233	shrine	descended_from	SHR-098	shrine	B	L1	document	-	-	各社社伝	八幡分祀ネットワーク(中世)
 RLN-008253	SHR-270	shrine	descended_from	SHR-269	shrine	B	L1	document	-	-	稲荷大明神流記	稲荷分祀ネットワーク(伏見系)
@@ -7118,9 +6848,6 @@ RLN-008369	CLN-036	clan	controls	SHR-006	shrine	A	L0	document	-	-	諏訪大明�
 RLN-008370	CLN-001	clan	controls	SHR-012	shrine	A	L0	document	-	-	春日大社社伝	藤原氏による春日大社祭祀
 RLN-008371	CLN-002	clan	controls	SHR-011	shrine	A	L0	document	-	-	先代旧事本紀	物部氏による石上神宮祭祀
 RLN-008372	CLN-001	clan	associated_with	SHR-007	shrine	A	L0	document	-	-	中臣氏家伝	中臣氏=鹿島出身説 (春日の元)
-RLN-008373	CLN-099	clan	controls	SHR-077	shrine	A	L0	document	-	-	紀氏家伝	紀氏による日前神宮祭祀
-RLN-008374	CLN-099	clan	controls	SHR-583	shrine	A	L0	document	-	-	紀氏家伝	紀氏による国懸神宮祭祀
-RLN-008375	CLN-065	clan	controls	SHR-778	shrine	A	L0	document	-	-	古語拾遺	阿波忌部氏による忌部神社祭祀
 RLN-008376	CLN-168	clan	controls	SHR-039	shrine	B	L1	document	-	-	三嶋大社社伝	三嶋氏による三嶋大社祭祀
 RLN-008377	SHR-845	shrine	founded_by	DEI-544	deity	A	L0	document	-	-	延暦寺縁起	比叡山延暦寺=最澄(延暦 7 年 788)
 RLN-008379	SHR-847	shrine	founded_by	DEI-543	deity	A	L0	document	-	-	東寺縁起	東寺=空海(弘仁 14 年 823 教王護国寺)
@@ -7259,10 +6986,6 @@ RLN-008513	SHR-938	shrine	burial_of	DEI-524	deity	A	L0	document	-	-	宮内庁治
 RLN-008514	SHR-939	shrine	burial_of	DEI-525	deity	A	L0	document	-	-	宮内庁治定陵|古事記|日本書紀	古代天皇陵 burial_of(治定)
 RLN-008515	SHR-108	shrine	descended_from	SHR-016	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
 RLN-008516	SHR-713	shrine	descended_from	SHR-269	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
-RLN-008517	SHR-714	shrine	descended_from	SHR-269	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
-RLN-008518	SHR-715	shrine	descended_from	SHR-269	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
-RLN-008519	SHR-718	shrine	descended_from	SHR-269	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
-RLN-008520	SHR-719	shrine	descended_from	SHR-269	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
 RLN-008521	SHR-803	shrine	descended_from	SHR-052	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
 RLN-008522	SHR-804	shrine	descended_from	SHR-009	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
 RLN-008523	SHR-806	shrine	descended_from	SHR-110	shrine	C	L2	document	-	-	民俗信仰研究|各社社伝	全国分祀集合枠 → 親社
@@ -7395,28 +7118,20 @@ RLN-008653	DEI-181	deity	enshrined_at	SHR-196	shrine	A	L0	document	-	-	shrine_ma
 RLN-008654	DEI-181	deity	enshrined_at	SHR-197	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008655	DEI-181	deity	enshrined_at	SHR-198	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008656	DEI-181	deity	enshrined_at	SHR-199	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008657	DEI-181	deity	enshrined_at	SHR-200	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008659	DEI-181	deity	enshrined_at	SHR-202	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008660	DEI-181	deity	enshrined_at	SHR-203	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008661	DEI-181	deity	enshrined_at	SHR-204	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008662	DEI-181	deity	enshrined_at	SHR-205	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008663	DEI-181	deity	enshrined_at	SHR-206	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008666	DEI-181	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008667	DEI-181	deity	enshrined_at	SHR-210	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008669	DEI-181	deity	enshrined_at	SHR-212	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008670	DEI-181	deity	enshrined_at	SHR-213	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008671	DEI-181	deity	enshrined_at	SHR-214	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008673	DEI-181	deity	enshrined_at	SHR-216	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008675	DEI-181	deity	enshrined_at	SHR-218	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008677	DEI-181	deity	enshrined_at	SHR-220	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008678	DEI-181	deity	enshrined_at	SHR-221	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008679	DEI-181	deity	enshrined_at	SHR-222	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008681	DEI-181	deity	enshrined_at	SHR-224	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008682	DEI-181	deity	enshrined_at	SHR-225	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008683	DEI-181	deity	enshrined_at	SHR-226	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008685	DEI-181	deity	enshrined_at	SHR-228	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008686	DEI-181	deity	enshrined_at	SHR-229	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008687	DEI-181	deity	enshrined_at	SHR-230	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008689	DEI-181	deity	enshrined_at	SHR-232	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008690	DEI-181	deity	enshrined_at	SHR-233	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008691	DEI-181	deity	enshrined_at	SHR-234	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
@@ -7487,15 +7202,10 @@ RLN-008844	DEI-010	deity	enshrined_at	SHR-393	shrine	A	L0	document	-	-	shrine_ma
 RLN-008845	DEI-029	deity	enshrined_at	SHR-393	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 八坂刀売 enshrined_at 諏訪系全国
 RLN-008890	DEI-010	deity	enshrined_at	SHR-416	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 タケミナカタ enshrined_at 諏訪系全国
 RLN-008891	DEI-029	deity	enshrined_at	SHR-416	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 八坂刀売 enshrined_at 諏訪系全国
-RLN-008892	DEI-010	deity	enshrined_at	SHR-417	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 タケミナカタ enshrined_at 諏訪系全国
-RLN-008893	DEI-029	deity	enshrined_at	SHR-417	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 八坂刀売 enshrined_at 諏訪系全国
-RLN-008894	DEI-010	deity	enshrined_at	SHR-418	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 タケミナカタ enshrined_at 諏訪系全国
-RLN-008895	DEI-029	deity	enshrined_at	SHR-418	shrine	A	L0	document	-	-	shrine_master 諏訪	Sprint7 八坂刀売 enshrined_at 諏訪系全国
 RLN-008896	DEI-195	deity	enshrined_at	SHR-419	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008897	DEI-195	deity	enshrined_at	SHR-420	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008898	DEI-195	deity	enshrined_at	SHR-421	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008899	DEI-195	deity	enshrined_at	SHR-422	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
-RLN-008900	DEI-195	deity	enshrined_at	SHR-423	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008901	DEI-195	deity	enshrined_at	SHR-424	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008924	DEI-195	deity	enshrined_at	SHR-447	shrine	A	L0	document	-	-	shrine_master 白山	Sprint7 白山妙理 enshrined_at
 RLN-008926	DEI-083	deity	enshrined_at	SHR-449	shrine	A	L0	document	-	-	shrine_master 浅間	Sprint7 コノハナサクヤ enshrined_at
@@ -7819,15 +7529,9 @@ RLN-009267	DEI-184	deity	secondary_deity_of	SHR-198	shrine	B	L0	document	-	-	shr
 RLN-009268	DEI-182	deity	secondary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009269	DEI-183	deity	secondary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009270	DEI-184	deity	secondary_deity_of	SHR-199	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009271	DEI-182	deity	secondary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009272	DEI-183	deity	secondary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009273	DEI-184	deity	secondary_deity_of	SHR-200	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009277	DEI-182	deity	secondary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009278	DEI-183	deity	secondary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009279	DEI-184	deity	secondary_deity_of	SHR-202	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009280	DEI-182	deity	secondary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009281	DEI-183	deity	secondary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009282	DEI-184	deity	secondary_deity_of	SHR-203	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009283	DEI-182	deity	secondary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009284	DEI-183	deity	secondary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009285	DEI-184	deity	secondary_deity_of	SHR-204	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
@@ -7843,48 +7547,30 @@ RLN-009300	DEI-184	deity	secondary_deity_of	SHR-209	shrine	B	L0	document	-	-	shr
 RLN-009301	DEI-182	deity	secondary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009302	DEI-183	deity	secondary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009303	DEI-184	deity	secondary_deity_of	SHR-210	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009307	DEI-182	deity	secondary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009308	DEI-183	deity	secondary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009309	DEI-184	deity	secondary_deity_of	SHR-212	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009310	DEI-182	deity	secondary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009311	DEI-183	deity	secondary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009312	DEI-184	deity	secondary_deity_of	SHR-213	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009313	DEI-182	deity	secondary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009314	DEI-183	deity	secondary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009315	DEI-184	deity	secondary_deity_of	SHR-214	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009319	DEI-182	deity	secondary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009320	DEI-183	deity	secondary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009321	DEI-184	deity	secondary_deity_of	SHR-216	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009325	DEI-182	deity	secondary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009326	DEI-183	deity	secondary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009327	DEI-184	deity	secondary_deity_of	SHR-218	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009331	DEI-182	deity	secondary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009332	DEI-183	deity	secondary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009333	DEI-184	deity	secondary_deity_of	SHR-220	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009334	DEI-182	deity	secondary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009335	DEI-183	deity	secondary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009336	DEI-184	deity	secondary_deity_of	SHR-221	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009337	DEI-182	deity	secondary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009338	DEI-183	deity	secondary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009339	DEI-184	deity	secondary_deity_of	SHR-222	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009343	DEI-182	deity	secondary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009344	DEI-183	deity	secondary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009345	DEI-184	deity	secondary_deity_of	SHR-224	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009346	DEI-182	deity	secondary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009347	DEI-183	deity	secondary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009348	DEI-184	deity	secondary_deity_of	SHR-225	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009349	DEI-182	deity	secondary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009350	DEI-183	deity	secondary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009351	DEI-184	deity	secondary_deity_of	SHR-226	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009355	DEI-182	deity	secondary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009356	DEI-183	deity	secondary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009357	DEI-184	deity	secondary_deity_of	SHR-228	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009358	DEI-182	deity	secondary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009359	DEI-183	deity	secondary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009360	DEI-184	deity	secondary_deity_of	SHR-229	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009361	DEI-182	deity	secondary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009362	DEI-183	deity	secondary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009363	DEI-184	deity	secondary_deity_of	SHR-230	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009367	DEI-182	deity	secondary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009368	DEI-183	deity	secondary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009369	DEI-184	deity	secondary_deity_of	SHR-232	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
@@ -7939,8 +7625,6 @@ RLN-009493	DEI-029	deity	secondary_deity_of	SHR-384	shrine	B	L0	document	-	-	shr
 RLN-009498	DEI-029	deity	secondary_deity_of	SHR-389	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009502	DEI-029	deity	secondary_deity_of	SHR-393	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009525	DEI-029	deity	secondary_deity_of	SHR-416	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009526	DEI-029	deity	secondary_deity_of	SHR-417	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009527	DEI-029	deity	secondary_deity_of	SHR-418	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009528	DEI-203	deity	secondary_deity_of	SHR-479	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009529	DEI-204	deity	secondary_deity_of	SHR-479	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009530	DEI-203	deity	secondary_deity_of	SHR-480	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
@@ -8331,29 +8015,21 @@ RLN-009983	SHR-196	shrine	located_in	REGION-岐阜県	region	A	L0	document	-	-	s
 RLN-009984	SHR-197	shrine	located_in	REGION-静岡県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009985	SHR-198	shrine	located_in	REGION-愛知県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009986	SHR-199	shrine	located_in	REGION-愛知県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-009987	SHR-200	shrine	located_in	REGION-愛知県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009989	SHR-202	shrine	located_in	REGION-滋賀県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-009990	SHR-203	shrine	located_in	REGION-滋賀県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009991	SHR-204	shrine	located_in	REGION-京都府	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009992	SHR-205	shrine	located_in	REGION-京都府	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009993	SHR-206	shrine	located_in	REGION-大阪府	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009995	SHR-208	shrine	located_in	REGION-兵庫県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009996	SHR-209	shrine	located_in	REGION-兵庫県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-009997	SHR-210	shrine	located_in	REGION-奈良県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-009999	SHR-212	shrine	located_in	REGION-和歌山県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010000	SHR-213	shrine	located_in	REGION-鳥取県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010001	SHR-214	shrine	located_in	REGION-島根県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010003	SHR-216	shrine	located_in	REGION-岡山県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010005	SHR-218	shrine	located_in	REGION-広島県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010007	SHR-220	shrine	located_in	REGION-山口県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010008	SHR-221	shrine	located_in	REGION-山口県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010009	SHR-222	shrine	located_in	REGION-徳島県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010011	SHR-224	shrine	located_in	REGION-愛媛県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010012	SHR-225	shrine	located_in	REGION-高知県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010013	SHR-226	shrine	located_in	REGION-福岡県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010015	SHR-228	shrine	located_in	REGION-福岡県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010016	SHR-229	shrine	located_in	REGION-福岡県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010017	SHR-230	shrine	located_in	REGION-佐賀県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010019	SHR-232	shrine	located_in	REGION-長崎県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010020	SHR-233	shrine	located_in	REGION-長崎県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010021	SHR-234	shrine	located_in	REGION-熊本県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
@@ -8421,12 +8097,9 @@ RLN-010171	SHR-384	shrine	located_in	REGION-埼玉県	region	A	L0	document	-	-	s
 RLN-010176	SHR-389	shrine	located_in	REGION-新潟県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010180	SHR-393	shrine	located_in	REGION-長野県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010203	SHR-416	shrine	located_in	REGION-長崎県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010204	SHR-417	shrine	located_in	REGION-熊本県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010205	SHR-418	shrine	located_in	REGION-青森県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010207	SHR-420	shrine	located_in	REGION-岐阜県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010208	SHR-421	shrine	located_in	REGION-福井県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010209	SHR-422	shrine	located_in	REGION-岐阜県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010210	SHR-423	shrine	located_in	REGION-岐阜県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010211	SHR-424	shrine	located_in	REGION-東京都	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010234	SHR-447	shrine	located_in	REGION-新潟県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010237	SHR-450	shrine	located_in	REGION-山梨県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
@@ -8642,11 +8315,7 @@ RLN-010481	SHR-699	shrine	located_in	REGION-滋賀県	region	A	L0	document	-	-	s
 RLN-010487	SHR-705	shrine	located_in	REGION-沖縄県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010494	SHR-712	shrine	located_in	REGION-東京都	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010495	SHR-713	shrine	located_in	REGION-茨城県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010496	SHR-714	shrine	located_in	REGION-宮城県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010497	SHR-715	shrine	located_in	REGION-岩手県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010499	SHR-717	shrine	located_in	REGION-青森県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010500	SHR-718	shrine	located_in	REGION-石川県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
-RLN-010501	SHR-719	shrine	located_in	REGION-広島県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010502	SHR-720	shrine	located_in	REGION-島根県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010509	SHR-727	shrine	located_in	REGION-大阪府	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
 RLN-010515	SHR-733	shrine	located_in	REGION-長野県	region	A	L0	document	-	-	shrine_master.tsv prefecture	Sprint8 shrine 都道府県 located_in
@@ -8922,10 +8591,6 @@ RLN-010793	CLN-038	clan	descended_from	DEI-132	deity	B	L1	document	-	-	守矢家
 RLN-010794	CLN-039	clan	descended_from	DEI-260	deity	B	L1	document	-	-	新撰姓氏録	秦造 → 秦氏祖神
 RLN-010795	CLN-040	clan	descended_from	DEI-264	deity	B	L1	document	-	-	新撰姓氏録	倭漢氏 → 阿知使主
 RLN-010796	CLN-041	clan	descended_from	DEI-269	deity	B	L1	document	-	-	出石神社社伝	新羅出石氏 → 天日矛
-RLN-010797	CLN-100	clan	descended_from	DEI-507	deity	B	L1	document	-	-	新撰姓氏録	皇別 → 神武
-RLN-010798	CLN-101	clan	descended_from	DEI-561	deity	C	L2	document	-	-	新撰姓氏録	三輪別 → 崇神朝
-RLN-010799	CLN-102	clan	descended_from	DEI-562	deity	C	L2	document	-	-	新撰姓氏録	丹波別 → 垂仁朝
-RLN-010800	CLN-103	clan	descended_from	DEI-563	deity	C	L2	document	-	-	新撰姓氏録	息長氏 → 景行系
 RLN-010801	CLN-002	clan	parent_clan_of	CLN-013	clan	A	L0	document	-	-	先代旧事本紀	物部 → 穂積分家
 RLN-010802	CLN-002	clan	parent_clan_of	CLN-027	clan	B	L1	document	-	-	先代旧事本紀	物部 → 尾張同族
 RLN-010803	CLN-027	clan	parent_clan_of	CLN-028	clan	B	L1	document	-	-	先代旧事本紀	尾張 → 津守
@@ -8965,8 +8630,6 @@ RLN-010837	CLN-038	clan	controls	SHR-370	shrine	A	L0	document	-	-	諏訪大社�
 RLN-010838	CLN-037	clan	controls	SHR-371	shrine	A	L0	document	-	-	諏訪下社社伝	金刺氏 ↔ 諏訪下社春宮
 RLN-010839	CLN-037	clan	controls	SHR-372	shrine	A	L0	document	-	-	諏訪下社社伝	金刺氏 ↔ 諏訪下社秋宮
 RLN-010840	CLN-018	clan	associated_with	SHR-021	shrine	B	L1	document	-	-	古語拾遺	大伴氏 ↔ 高千穂神社(天孫降臨記憶)
-RLN-010841	CLN-100	clan	associated_with	SHR-631	shrine	A	L0	document	-	-	古事記	皇別氏族 ↔ 橿原神宮
-RLN-010842	CLN-100	clan	associated_with	SHR-002	shrine	A	L0	document	-	-	皇大神宮儀式帳	皇別氏族 ↔ 皇大神宮
 RLN-010843	CLN-160	clan	associated_with	SHR-085	shrine	B	L1	document	-	-	武内宿禰社伝	武内宿禰系 ↔ 住吉神社(筑前)
 RLN-010845	CLN-001	clan	associated_with	SHR-013	shrine	B	L1	document	-	-	賀茂社伝	藤原氏 ↔ 賀茂別雷神社
 RLN-010847	DEI-008	deity	syncretized_with	DEI-001	deity	B	L1	document	-	-	古事記|三輪氏家伝	大物主 ↔ 大国主同体(三輪山神話)
@@ -9120,26 +8783,18 @@ RLN-010995	SHR-194	shrine	located_in_period	PERIOD-SengokuMomoyama	period	B	L1	d
 RLN-010996	SHR-196	shrine	located_in_period	PERIOD-SengokuMomoyama	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-010997	SHR-197	shrine	located_in_period	PERIOD-Kofun	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-010998	SHR-198	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-010999	SHR-200	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011001	SHR-202	shrine	located_in_period	PERIOD-Kofun	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011002	SHR-203	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011003	SHR-204	shrine	located_in_period	PERIOD-Heian	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011004	SHR-206	shrine	located_in_period	PERIOD-Asuka	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011006	SHR-208	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011007	SHR-209	shrine	located_in_period	PERIOD-Asuka	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011008	SHR-210	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011010	SHR-212	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011011	SHR-213	shrine	located_in_period	PERIOD-Kamakura	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011012	SHR-214	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011014	SHR-216	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011016	SHR-218	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011018	SHR-221	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011019	SHR-222	shrine	located_in_period	PERIOD-SengokuMomoyama	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011021	SHR-224	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011022	SHR-225	shrine	located_in_period	PERIOD-Kamakura	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011024	SHR-228	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011025	SHR-229	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011026	SHR-230	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011028	SHR-232	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011029	SHR-233	shrine	located_in_period	PERIOD-EarlyModernEdo	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011032	SHR-239	shrine	located_in_period	PERIOD-Heian	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
@@ -9178,10 +8833,7 @@ RLN-011144	SHR-374	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document
 RLN-011152	SHR-382	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011153	SHR-384	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011161	SHR-393	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011184	SHR-417	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011185	SHR-418	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011186	SHR-419	shrine	located_in_period	PERIOD-Kofun	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011187	SHR-423	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011211	SHR-449	shrine	located_in_period	PERIOD-Kofun	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011212	SHR-450	shrine	located_in_period	PERIOD-Kofun	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011214	SHR-453	shrine	located_in_period	PERIOD-Nara	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
@@ -9377,11 +9029,7 @@ RLN-011431	SHR-699	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document
 RLN-011437	SHR-705	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011444	SHR-712	shrine	located_in_period	PERIOD-EarlyModernEdo	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011445	SHR-713	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011446	SHR-714	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011447	SHR-715	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011449	SHR-717	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011450	SHR-718	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
-RLN-011451	SHR-719	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011452	SHR-720	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011459	SHR-727	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
 RLN-011465	SHR-733	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint9 時代区分(自動派生)
@@ -9779,29 +9427,21 @@ RLN-011875	SHR-196	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_mas
 RLN-011876	SHR-197	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011877	SHR-198	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011878	SHR-199	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011879	SHR-200	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011881	SHR-202	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011882	SHR-203	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011883	SHR-204	shrine	has_rank	RANK-Fusha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011884	SHR-205	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011885	SHR-206	shrine	has_rank	RANK-Fusha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011887	SHR-208	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011888	SHR-209	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011889	SHR-210	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011891	SHR-212	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011892	SHR-213	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011893	SHR-214	shrine	has_rank	RANK-Gosha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011895	SHR-216	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011897	SHR-218	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011899	SHR-220	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011900	SHR-221	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011901	SHR-222	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011903	SHR-224	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011904	SHR-225	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011905	SHR-226	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011907	SHR-228	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011908	SHR-229	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-011909	SHR-230	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011911	SHR-232	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011912	SHR-233	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-011913	SHR-234	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
@@ -9880,14 +9520,11 @@ RLN-012064	SHR-384	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_mas
 RLN-012069	SHR-389	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012095	SHR-416	shrine	has_rank	RANK-Beppyo	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012096	SHR-416	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012097	SHR-417	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012098	SHR-418	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012099	SHR-419	shrine	has_rank	RANK-KokuheiChusha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012101	SHR-419	shrine	has_rank	RANK-Beppyo	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012102	SHR-420	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012103	SHR-421	shrine	has_rank	RANK-BekkakuKanpeisha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012104	SHR-422	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012105	SHR-423	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012106	SHR-424	shrine	has_rank	RANK-Fusha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012129	SHR-447	shrine	has_rank	RANK-Kensha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012131	SHR-449	shrine	has_rank	RANK-KanpeiTaisha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
@@ -10151,10 +9788,6 @@ RLN-012420	SHR-699	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_mas
 RLN-012426	SHR-705	shrine	has_rank	RANK-KanpeiShosha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012427	SHR-705	shrine	has_rank	RANK-Beppyo	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012430	SHR-712	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012431	SHR-714	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012432	SHR-715	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012434	SHR-718	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
-RLN-012435	SHR-719	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012436	SHR-720	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012442	SHR-727	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
 RLN-012448	SHR-733	shrine	has_rank	RANK-Sonsha	rank	A	L0	document	-	-	shrine_master.tsv shrine_rank	Sprint9 神社社格(自動派生)
@@ -11384,29 +11017,21 @@ RLN-013910	SHR-196	shrine	located_in_country	REGION-美濃国	region	B	L1	docume
 RLN-013911	SHR-197	shrine	located_in_country	REGION-駿河国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(駿河国)
 RLN-013912	SHR-198	shrine	located_in_country	REGION-尾張国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(尾張国)
 RLN-013913	SHR-199	shrine	located_in_country	REGION-尾張国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(尾張国)
-RLN-013914	SHR-200	shrine	located_in_country	REGION-尾張国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(尾張国)
 RLN-013916	SHR-202	shrine	located_in_country	REGION-近江国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(近江国)
-RLN-013917	SHR-203	shrine	located_in_country	REGION-近江国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(近江国)
 RLN-013918	SHR-204	shrine	located_in_country	REGION-山城国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(山城国)
 RLN-013919	SHR-205	shrine	located_in_country	REGION-山城国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(山城国)
 RLN-013920	SHR-206	shrine	located_in_country	REGION-摂津国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(摂津国)
 RLN-013922	SHR-208	shrine	located_in_country	REGION-摂津国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(摂津国)
 RLN-013923	SHR-209	shrine	located_in_country	REGION-摂津国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(摂津国)
 RLN-013924	SHR-210	shrine	located_in_country	REGION-大和国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(大和国)
-RLN-013926	SHR-212	shrine	located_in_country	REGION-紀伊国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(紀伊国)
 RLN-013927	SHR-213	shrine	located_in_country	REGION-因幡国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(因幡国)
 RLN-013928	SHR-214	shrine	located_in_country	REGION-出雲国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(出雲国)
-RLN-013930	SHR-216	shrine	located_in_country	REGION-備前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(備前国)
 RLN-013932	SHR-218	shrine	located_in_country	REGION-安芸国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(安芸国)
 RLN-013934	SHR-220	shrine	located_in_country	REGION-周防国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(周防国)
-RLN-013935	SHR-221	shrine	located_in_country	REGION-周防国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(周防国)
 RLN-013936	SHR-222	shrine	located_in_country	REGION-阿波国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(阿波国)
-RLN-013938	SHR-224	shrine	located_in_country	REGION-伊予国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(伊予国)
 RLN-013939	SHR-225	shrine	located_in_country	REGION-土佐国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(土佐国)
 RLN-013940	SHR-226	shrine	located_in_country	REGION-筑前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(筑前国)
-RLN-013942	SHR-228	shrine	located_in_country	REGION-筑前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(筑前国)
 RLN-013943	SHR-229	shrine	located_in_country	REGION-筑前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(筑前国)
-RLN-013944	SHR-230	shrine	located_in_country	REGION-肥前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥前国)
 RLN-013946	SHR-232	shrine	located_in_country	REGION-肥前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥前国)
 RLN-013947	SHR-233	shrine	located_in_country	REGION-肥前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥前国)
 RLN-013948	SHR-234	shrine	located_in_country	REGION-肥後国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥後国)
@@ -11474,12 +11099,9 @@ RLN-014098	SHR-384	shrine	located_in_country	REGION-武蔵国	region	B	L1	docume
 RLN-014103	SHR-389	shrine	located_in_country	REGION-越後国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(越後国)
 RLN-014107	SHR-393	shrine	located_in_country	REGION-信濃国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(信濃国)
 RLN-014130	SHR-416	shrine	located_in_country	REGION-肥前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥前国)
-RLN-014131	SHR-417	shrine	located_in_country	REGION-肥後国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(肥後国)
-RLN-014132	SHR-418	shrine	located_in_country	REGION-陸奥国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(陸奥国)
 RLN-014134	SHR-420	shrine	located_in_country	REGION-美濃国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(美濃国)
 RLN-014135	SHR-421	shrine	located_in_country	REGION-越前国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(越前国)
 RLN-014136	SHR-422	shrine	located_in_country	REGION-美濃国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(美濃国)
-RLN-014137	SHR-423	shrine	located_in_country	REGION-美濃国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(美濃国)
 RLN-014138	SHR-424	shrine	located_in_country	REGION-武蔵国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(武蔵国)
 RLN-014161	SHR-447	shrine	located_in_country	REGION-越後国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(越後国)
 RLN-014164	SHR-450	shrine	located_in_country	REGION-甲斐国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(甲斐国)
@@ -11695,11 +11317,7 @@ RLN-014408	SHR-699	shrine	located_in_country	REGION-近江国	region	B	L1	docume
 RLN-014414	SHR-705	shrine	located_in_country	REGION-琉球国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(琉球国)
 RLN-014421	SHR-712	shrine	located_in_country	REGION-武蔵国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(武蔵国)
 RLN-014422	SHR-713	shrine	located_in_country	REGION-常陸国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(常陸国)
-RLN-014423	SHR-714	shrine	located_in_country	REGION-陸奥国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(陸奥国)
-RLN-014424	SHR-715	shrine	located_in_country	REGION-陸奥国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(陸奥国)
 RLN-014426	SHR-717	shrine	located_in_country	REGION-陸奥国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(陸奥国)
-RLN-014427	SHR-718	shrine	located_in_country	REGION-加賀国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(加賀国)
-RLN-014428	SHR-719	shrine	located_in_country	REGION-安芸国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(安芸国)
 RLN-014429	SHR-720	shrine	located_in_country	REGION-出雲国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(出雲国)
 RLN-014436	SHR-727	shrine	located_in_country	REGION-摂津国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(摂津国)
 RLN-014442	SHR-733	shrine	located_in_country	REGION-信濃国	region	B	L1	document	-	-	shrine_master.tsv prefecture	古代国名 located_in(信濃国)
@@ -12088,8 +11706,6 @@ RLN-014834	CLN-033	clan	located_in_country	REGION-筑前国	region	A	L0	document
 RLN-014835	CLN-034	clan	located_in_country	REGION-肥後国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	阿蘇氏 → 肥後国
 RLN-014836	CLN-037	clan	located_in_country	REGION-信濃国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	金刺氏 → 信濃国
 RLN-014837	CLN-038	clan	located_in_country	REGION-信濃国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	守矢家 → 信濃国(諏訪)
-RLN-014838	CLN-065	clan	located_in_country	REGION-阿波国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	阿波忌部氏 → 阿波国
-RLN-014839	CLN-099	clan	located_in_country	REGION-紀伊国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	紀氏 → 紀伊国
 RLN-014840	CLN-168	clan	located_in_country	REGION-伊豆国	region	A	L0	document	-	-	新撰姓氏録|諸氏家伝	三嶋氏 → 伊豆国
 RLN-014841	SHR-002	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014842	SHR-003	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
@@ -12181,24 +11797,16 @@ RLN-014927	SHR-194	shrine	located_in_period	PERIOD-EarlyModernEdo	period	B	L1	do
 RLN-014928	SHR-196	shrine	located_in_period	PERIOD-EarlyModernEdo	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014929	SHR-197	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014930	SHR-199	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014931	SHR-200	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014932	SHR-202	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014933	SHR-203	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014934	SHR-204	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014935	SHR-206	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014936	SHR-209	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014937	SHR-210	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014938	SHR-212	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014939	SHR-213	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014940	SHR-216	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014941	SHR-220	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014942	SHR-221	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014943	SHR-222	shrine	located_in_period	PERIOD-EarlyModernEdo	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014944	SHR-224	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014945	SHR-225	shrine	located_in_period	PERIOD-Medieval	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014946	SHR-226	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014947	SHR-228	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
-RLN-014948	SHR-230	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014949	SHR-239	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014950	SHR-240	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
 RLN-014951	SHR-241	shrine	located_in_period	PERIOD-Ancient	period	B	L1	document	-	-	shrine_master.tsv founding_year	Sprint11 broad period 派生
@@ -12783,15 +12391,9 @@ RLN-015543	DEI-184	deity	enshrined_at	SHR-198	shrine	A	L0	document	-	-	shrine_ma
 RLN-015544	DEI-182	deity	enshrined_at	SHR-199	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015545	DEI-183	deity	enshrined_at	SHR-199	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015546	DEI-184	deity	enshrined_at	SHR-199	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015547	DEI-182	deity	enshrined_at	SHR-200	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015548	DEI-183	deity	enshrined_at	SHR-200	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015549	DEI-184	deity	enshrined_at	SHR-200	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015553	DEI-182	deity	enshrined_at	SHR-202	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015554	DEI-183	deity	enshrined_at	SHR-202	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015555	DEI-184	deity	enshrined_at	SHR-202	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015556	DEI-182	deity	enshrined_at	SHR-203	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015557	DEI-183	deity	enshrined_at	SHR-203	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015558	DEI-184	deity	enshrined_at	SHR-203	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015559	DEI-182	deity	enshrined_at	SHR-204	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015560	DEI-183	deity	enshrined_at	SHR-204	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015561	DEI-184	deity	enshrined_at	SHR-204	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
@@ -12807,48 +12409,30 @@ RLN-015576	DEI-184	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_ma
 RLN-015577	DEI-182	deity	enshrined_at	SHR-210	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015578	DEI-183	deity	enshrined_at	SHR-210	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015579	DEI-184	deity	enshrined_at	SHR-210	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015583	DEI-182	deity	enshrined_at	SHR-212	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015584	DEI-183	deity	enshrined_at	SHR-212	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015585	DEI-184	deity	enshrined_at	SHR-212	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015586	DEI-182	deity	enshrined_at	SHR-213	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015587	DEI-183	deity	enshrined_at	SHR-213	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015588	DEI-184	deity	enshrined_at	SHR-213	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015589	DEI-182	deity	enshrined_at	SHR-214	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015590	DEI-183	deity	enshrined_at	SHR-214	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015591	DEI-184	deity	enshrined_at	SHR-214	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015595	DEI-182	deity	enshrined_at	SHR-216	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015596	DEI-183	deity	enshrined_at	SHR-216	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015597	DEI-184	deity	enshrined_at	SHR-216	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015601	DEI-182	deity	enshrined_at	SHR-218	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015602	DEI-183	deity	enshrined_at	SHR-218	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015603	DEI-184	deity	enshrined_at	SHR-218	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015607	DEI-182	deity	enshrined_at	SHR-220	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015608	DEI-183	deity	enshrined_at	SHR-220	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015609	DEI-184	deity	enshrined_at	SHR-220	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015610	DEI-182	deity	enshrined_at	SHR-221	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015611	DEI-183	deity	enshrined_at	SHR-221	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015612	DEI-184	deity	enshrined_at	SHR-221	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015613	DEI-182	deity	enshrined_at	SHR-222	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015614	DEI-183	deity	enshrined_at	SHR-222	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015615	DEI-184	deity	enshrined_at	SHR-222	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015619	DEI-182	deity	enshrined_at	SHR-224	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015620	DEI-183	deity	enshrined_at	SHR-224	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015621	DEI-184	deity	enshrined_at	SHR-224	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015622	DEI-182	deity	enshrined_at	SHR-225	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015623	DEI-183	deity	enshrined_at	SHR-225	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015624	DEI-184	deity	enshrined_at	SHR-225	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015625	DEI-182	deity	enshrined_at	SHR-226	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015626	DEI-183	deity	enshrined_at	SHR-226	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015627	DEI-184	deity	enshrined_at	SHR-226	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015631	DEI-182	deity	enshrined_at	SHR-228	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015632	DEI-183	deity	enshrined_at	SHR-228	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015633	DEI-184	deity	enshrined_at	SHR-228	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015634	DEI-182	deity	enshrined_at	SHR-229	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015635	DEI-183	deity	enshrined_at	SHR-229	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015636	DEI-184	deity	enshrined_at	SHR-229	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015637	DEI-182	deity	enshrined_at	SHR-230	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015638	DEI-183	deity	enshrined_at	SHR-230	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015639	DEI-184	deity	enshrined_at	SHR-230	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015643	DEI-182	deity	enshrined_at	SHR-232	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015644	DEI-183	deity	enshrined_at	SHR-232	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015645	DEI-184	deity	enshrined_at	SHR-232	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
@@ -13107,12 +12691,8 @@ RLN-016034	DEI-006	deity	enshrined_at	SHR-705	shrine	A	L0	document	-	-	shrine_ma
 RLN-016035	DEI-005	deity	enshrined_at	SHR-705	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016042	DEI-032	deity	enshrined_at	SHR-712	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016043	DEI-032	deity	enshrined_at	SHR-713	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-016044	DEI-032	deity	enshrined_at	SHR-714	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-016045	DEI-032	deity	enshrined_at	SHR-715	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016047	DEI-032	deity	enshrined_at	SHR-717	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016048	DEI-181	deity	enshrined_at	SHR-717	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-016049	DEI-032	deity	enshrined_at	SHR-718	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-016050	DEI-032	deity	enshrined_at	SHR-719	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016051	DEI-032	deity	enshrined_at	SHR-720	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016058	DEI-501	deity	enshrined_at	SHR-727	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-016070	DEI-011	deity	enshrined_at	SHR-733	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
@@ -13815,21 +13395,18 @@ RLN-016988	SHR-009	shrine	located_near	SHR-101	shrine	B	L0	document	-	-	shrine_m
 RLN-016989	SHR-009	shrine	located_near	SHR-102	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016990	SHR-009	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016991	SHR-009	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-016993	SHR-009	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016994	SHR-009	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016995	SHR-009	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016998	SHR-085	shrine	located_near	SHR-101	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-016999	SHR-085	shrine	located_near	SHR-102	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017000	SHR-085	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017001	SHR-085	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017003	SHR-085	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017004	SHR-085	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017005	SHR-085	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017008	SHR-086	shrine	located_near	SHR-101	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017009	SHR-086	shrine	located_near	SHR-102	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017010	SHR-086	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017011	SHR-086	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017013	SHR-086	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017014	SHR-086	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017015	SHR-086	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017017	SHR-087	shrine	located_near	SHR-086	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
@@ -13837,34 +13414,26 @@ RLN-017018	SHR-087	shrine	located_near	SHR-101	shrine	B	L0	document	-	-	shrine_m
 RLN-017019	SHR-087	shrine	located_near	SHR-102	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017020	SHR-087	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017021	SHR-087	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017023	SHR-087	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017024	SHR-087	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017025	SHR-087	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017037	SHR-101	shrine	located_near	SHR-102	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017038	SHR-101	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017039	SHR-101	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017041	SHR-101	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017042	SHR-101	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017043	SHR-101	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017045	SHR-101	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017046	SHR-102	shrine	located_near	SHR-103	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017047	SHR-102	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017049	SHR-102	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017050	SHR-102	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017051	SHR-102	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017053	SHR-102	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017054	SHR-103	shrine	located_near	SHR-226	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017056	SHR-103	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017057	SHR-103	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017058	SHR-103	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017060	SHR-103	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017062	SHR-226	shrine	located_near	SHR-228	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017063	SHR-226	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017064	SHR-226	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017066	SHR-226	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017072	SHR-228	shrine	located_near	SHR-229	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017073	SHR-228	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
-RLN-017075	SHR-228	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017076	SHR-229	shrine	located_near	SHR-255	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017078	SHR-229	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
 RLN-017080	SHR-255	shrine	located_near	SHR-320	shrine	B	L0	document	-	-	shrine_master pref=福岡県	Sprint11 同県内拡張(top15)
@@ -14142,28 +13711,21 @@ RLN-017561	SHR-282	shrine	located_near	SHR-322	shrine	B	L0	document	-	-	shrine_m
 RLN-017572	SHR-034	shrine	located_near	SHR-035	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017573	SHR-034	shrine	located_near	SHR-198	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017574	SHR-034	shrine	located_near	SHR-199	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017575	SHR-034	shrine	located_near	SHR-200	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017577	SHR-034	shrine	located_near	SHR-271	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017578	SHR-034	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017585	SHR-034	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017586	SHR-035	shrine	located_near	SHR-198	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017587	SHR-035	shrine	located_near	SHR-199	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017588	SHR-035	shrine	located_near	SHR-200	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017590	SHR-035	shrine	located_near	SHR-271	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017591	SHR-035	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017598	SHR-035	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017599	SHR-198	shrine	located_near	SHR-199	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017600	SHR-198	shrine	located_near	SHR-200	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017602	SHR-198	shrine	located_near	SHR-271	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017603	SHR-198	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017610	SHR-198	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017611	SHR-199	shrine	located_near	SHR-200	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017613	SHR-199	shrine	located_near	SHR-271	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017614	SHR-199	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017621	SHR-199	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017623	SHR-200	shrine	located_near	SHR-271	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017624	SHR-200	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
-RLN-017631	SHR-200	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017641	SHR-271	shrine	located_near	SHR-289	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017648	SHR-271	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
 RLN-017655	SHR-289	shrine	located_near	SHR-593	shrine	B	L0	document	-	-	shrine_master pref=愛知県	Sprint11 同県内拡張(top15)
@@ -14300,14 +13862,12 @@ RLN-017952	SHR-650	shrine	located_near	SHR-687	shrine	B	L0	document	-	-	shrine_m
 RLN-017953	SHR-650	shrine	located_near	SHR-741	shrine	B	L0	document	-	-	shrine_master pref=神奈川県	Sprint11 同県内拡張(top15)
 RLN-017954	SHR-687	shrine	located_near	SHR-741	shrine	B	L0	document	-	-	shrine_master pref=神奈川県	Sprint11 同県内拡張(top15)
 RLN-017955	SHR-046	shrine	located_near	SHR-202	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017956	SHR-046	shrine	located_near	SHR-203	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017961	SHR-046	shrine	located_near	SHR-527	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017962	SHR-046	shrine	located_near	SHR-528	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017963	SHR-046	shrine	located_near	SHR-614	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017964	SHR-046	shrine	located_near	SHR-699	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017965	SHR-046	shrine	located_near	SHR-870	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017966	SHR-046	shrine	located_near	SHR-921	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017967	SHR-202	shrine	located_near	SHR-203	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017972	SHR-202	shrine	located_near	SHR-524	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017973	SHR-202	shrine	located_near	SHR-527	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017974	SHR-202	shrine	located_near	SHR-528	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
@@ -14316,14 +13876,6 @@ RLN-017976	SHR-202	shrine	located_near	SHR-647	shrine	B	L0	document	-	-	shrine_m
 RLN-017977	SHR-202	shrine	located_near	SHR-699	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017978	SHR-202	shrine	located_near	SHR-870	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-017979	SHR-202	shrine	located_near	SHR-921	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017984	SHR-203	shrine	located_near	SHR-524	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017985	SHR-203	shrine	located_near	SHR-527	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017986	SHR-203	shrine	located_near	SHR-528	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017987	SHR-203	shrine	located_near	SHR-614	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017988	SHR-203	shrine	located_near	SHR-647	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017989	SHR-203	shrine	located_near	SHR-699	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017990	SHR-203	shrine	located_near	SHR-870	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
-RLN-017991	SHR-203	shrine	located_near	SHR-921	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-018030	SHR-524	shrine	located_near	SHR-527	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-018031	SHR-524	shrine	located_near	SHR-528	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
 RLN-018032	SHR-524	shrine	located_near	SHR-614	shrine	B	L0	document	-	-	shrine_master pref=滋賀県	Sprint11 同県内拡張(top15)
@@ -14356,36 +13908,28 @@ RLN-018058	SHR-047	shrine	located_near	SHR-195	shrine	B	L0	document	-	-	shrine_m
 RLN-018059	SHR-047	shrine	located_near	SHR-196	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018064	SHR-047	shrine	located_near	SHR-420	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018065	SHR-047	shrine	located_near	SHR-422	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018066	SHR-047	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018067	SHR-047	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018070	SHR-047	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018071	SHR-048	shrine	located_near	SHR-195	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018072	SHR-048	shrine	located_near	SHR-196	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018077	SHR-048	shrine	located_near	SHR-420	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018078	SHR-048	shrine	located_near	SHR-422	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018079	SHR-048	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018080	SHR-048	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018083	SHR-048	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018084	SHR-195	shrine	located_near	SHR-196	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018089	SHR-195	shrine	located_near	SHR-420	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018090	SHR-195	shrine	located_near	SHR-422	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018091	SHR-195	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018092	SHR-195	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018095	SHR-195	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018100	SHR-196	shrine	located_near	SHR-420	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018101	SHR-196	shrine	located_near	SHR-422	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018102	SHR-196	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018103	SHR-196	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018106	SHR-196	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018141	SHR-420	shrine	located_near	SHR-422	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018142	SHR-420	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018143	SHR-420	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018146	SHR-420	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018147	SHR-422	shrine	located_near	SHR-423	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018148	SHR-422	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018151	SHR-422	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018152	SHR-423	shrine	located_near	SHR-600	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
-RLN-018155	SHR-423	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018158	SHR-600	shrine	located_near	SHR-854	shrine	B	L0	document	-	-	shrine_master pref=岐阜県	Sprint11 同県内拡張(top15)
 RLN-018162	SHR-050	shrine	located_near	SHR-177	shrine	B	L0	document	-	-	shrine_master pref=群馬県	Sprint11 同県内拡張(top15)
 RLN-018163	SHR-050	shrine	located_near	SHR-178	shrine	B	L0	document	-	-	shrine_master pref=群馬県	Sprint11 同県内拡張(top15)
@@ -14428,18 +13972,13 @@ RLN-018229	SHR-671	shrine	located_near	SHR-879	shrine	B	L0	document	-	-	shrine_m
 RLN-018230	SHR-879	shrine	located_near	SHR-1000	shrine	B	L0	document	-	-	shrine_master pref=栃木県	Sprint11 同県内拡張(top15)
 RLN-018231	SHR-052	shrine	located_near	SHR-183	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018233	SHR-052	shrine	located_near	SHR-274	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
-RLN-018238	SHR-052	shrine	located_near	SHR-714	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018239	SHR-052	shrine	located_near	SHR-751	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018240	SHR-052	shrine	located_near	SHR-1006	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018242	SHR-183	shrine	located_near	SHR-274	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
-RLN-018247	SHR-183	shrine	located_near	SHR-714	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018248	SHR-183	shrine	located_near	SHR-751	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018249	SHR-183	shrine	located_near	SHR-1006	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
-RLN-018262	SHR-274	shrine	located_near	SHR-714	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018263	SHR-274	shrine	located_near	SHR-751	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018264	SHR-274	shrine	located_near	SHR-1006	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
-RLN-018283	SHR-714	shrine	located_near	SHR-751	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
-RLN-018284	SHR-714	shrine	located_near	SHR-1006	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018285	SHR-751	shrine	located_near	SHR-1006	shrine	B	L0	document	-	-	shrine_master pref=宮城県	Sprint11 同県内拡張(top15)
 RLN-018286	SHR-493	shrine	located_near	SHR-185	shrine	B	L0	document	-	-	shrine_master pref=山形県	Sprint11 同県内拡張(top15)
 RLN-018290	SHR-493	shrine	located_near	SHR-482	shrine	B	L0	document	-	-	shrine_master pref=山形県	Sprint11 同県内拡張(top15)
@@ -14533,34 +14072,26 @@ RLN-018446	SHR-639	shrine	located_near	SHR-866	shrine	B	L0	document	-	-	shrine_m
 RLN-018447	SHR-855	shrine	located_near	SHR-866	shrine	B	L0	document	-	-	shrine_master pref=福井県	Sprint11 同県内拡張(top15)
 RLN-018448	SHR-419	shrine	located_near	SHR-189	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018454	SHR-419	shrine	located_near	SHR-611	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018455	SHR-419	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018456	SHR-419	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018457	SHR-419	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018458	SHR-057	shrine	located_near	SHR-189	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018464	SHR-057	shrine	located_near	SHR-611	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018465	SHR-057	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018466	SHR-057	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018467	SHR-057	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018472	SHR-189	shrine	located_near	SHR-419	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018474	SHR-189	shrine	located_near	SHR-570	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018475	SHR-189	shrine	located_near	SHR-611	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018476	SHR-189	shrine	located_near	SHR-657	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018477	SHR-189	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018478	SHR-189	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018479	SHR-189	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018529	SHR-570	shrine	located_near	SHR-611	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018530	SHR-570	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018531	SHR-570	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018532	SHR-570	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018533	SHR-611	shrine	located_near	SHR-657	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018534	SHR-611	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018535	SHR-611	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018536	SHR-611	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018537	SHR-657	shrine	located_near	SHR-718	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018538	SHR-657	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018539	SHR-657	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018540	SHR-718	shrine	located_near	SHR-809	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
-RLN-018541	SHR-718	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018542	SHR-809	shrine	located_near	SHR-838	shrine	B	L0	document	-	-	shrine_master pref=石川県	Sprint11 同県内拡張(top15)
 RLN-018543	SHR-058	shrine	located_near	SHR-188	shrine	B	L0	document	-	-	shrine_master pref=富山県	Sprint11 同県内拡張(top15)
 RLN-018548	SHR-058	shrine	located_near	SHR-516	shrine	B	L0	document	-	-	shrine_master pref=富山県	Sprint11 同県内拡張(top15)
@@ -14701,22 +14232,13 @@ RLN-018793	SHR-637	shrine	located_near	SHR-889	shrine	B	L0	document	-	-	shrine_m
 RLN-018794	SHR-795	shrine	located_near	SHR-888	shrine	B	L0	document	-	-	shrine_master pref=鳥取県	Sprint11 同県内拡張(top15)
 RLN-018795	SHR-795	shrine	located_near	SHR-889	shrine	B	L0	document	-	-	shrine_master pref=鳥取県	Sprint11 同県内拡張(top15)
 RLN-018796	SHR-888	shrine	located_near	SHR-889	shrine	B	L0	document	-	-	shrine_master pref=鳥取県	Sprint11 同県内拡張(top15)
-RLN-018798	SHR-578	shrine	located_near	SHR-216	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018801	SHR-578	shrine	located_near	SHR-273	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018805	SHR-578	shrine	located_near	SHR-583	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018807	SHR-579	shrine	located_near	SHR-216	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018810	SHR-579	shrine	located_near	SHR-273	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018814	SHR-579	shrine	located_near	SHR-578	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018817	SHR-579	shrine	located_near	SHR-583	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018819	SHR-072	shrine	located_near	SHR-216	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018822	SHR-072	shrine	located_near	SHR-273	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018826	SHR-072	shrine	located_near	SHR-583	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018829	SHR-216	shrine	located_near	SHR-273	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018833	SHR-216	shrine	located_near	SHR-578	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018834	SHR-216	shrine	located_near	SHR-579	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018835	SHR-216	shrine	located_near	SHR-072	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018836	SHR-216	shrine	located_near	SHR-583	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
-RLN-018837	SHR-216	shrine	located_near	SHR-586	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018860	SHR-273	shrine	located_near	SHR-578	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018861	SHR-273	shrine	located_near	SHR-579	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
 RLN-018862	SHR-273	shrine	located_near	SHR-072	shrine	B	L0	document	-	-	shrine_master pref=岡山県	Sprint11 同県内拡張(top15)
@@ -14729,32 +14251,24 @@ RLN-018890	SHR-073	shrine	located_near	SHR-275	shrine	B	L0	document	-	-	shrine_m
 RLN-018895	SHR-073	shrine	located_near	SHR-581	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018897	SHR-073	shrine	located_near	SHR-620	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018898	SHR-073	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018899	SHR-073	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018900	SHR-074	shrine	located_near	SHR-218	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018902	SHR-074	shrine	located_near	SHR-275	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018907	SHR-074	shrine	located_near	SHR-620	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018908	SHR-074	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018909	SHR-074	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018911	SHR-218	shrine	located_near	SHR-275	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018916	SHR-218	shrine	located_near	SHR-581	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018917	SHR-218	shrine	located_near	SHR-073	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018918	SHR-218	shrine	located_near	SHR-620	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018919	SHR-218	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018920	SHR-218	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018935	SHR-275	shrine	located_near	SHR-581	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018936	SHR-275	shrine	located_near	SHR-073	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018937	SHR-275	shrine	located_near	SHR-620	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018938	SHR-275	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018939	SHR-275	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018966	SHR-581	shrine	located_near	SHR-620	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018967	SHR-581	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018968	SHR-581	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018972	SHR-620	shrine	located_near	SHR-621	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018973	SHR-620	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
-RLN-018974	SHR-621	shrine	located_near	SHR-719	shrine	B	L0	document	-	-	shrine_master pref=広島県	Sprint11 同県内拡張(top15)
 RLN-018975	SHR-075	shrine	located_near	SHR-076	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018976	SHR-075	shrine	located_near	SHR-220	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-018977	SHR-075	shrine	located_near	SHR-221	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018979	SHR-075	shrine	located_near	SHR-321	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018981	SHR-075	shrine	located_near	SHR-584	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018982	SHR-075	shrine	located_near	SHR-622	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
@@ -14763,12 +14277,10 @@ RLN-018984	SHR-075	shrine	located_near	SHR-908	shrine	B	L0	document	-	-	shrine_m
 RLN-018985	SHR-075	shrine	located_near	SHR-939	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018986	SHR-075	shrine	located_near	SHR-1007	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018987	SHR-076	shrine	located_near	SHR-220	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-018988	SHR-076	shrine	located_near	SHR-221	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018991	SHR-076	shrine	located_near	SHR-584	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018992	SHR-076	shrine	located_near	SHR-622	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018993	SHR-076	shrine	located_near	SHR-908	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018994	SHR-076	shrine	located_near	SHR-939	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-018995	SHR-220	shrine	located_near	SHR-221	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018997	SHR-220	shrine	located_near	SHR-321	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-018999	SHR-220	shrine	located_near	SHR-584	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019000	SHR-220	shrine	located_near	SHR-622	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
@@ -14776,13 +14288,6 @@ RLN-019001	SHR-220	shrine	located_near	SHR-646	shrine	B	L0	document	-	-	shrine_m
 RLN-019002	SHR-220	shrine	located_near	SHR-908	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019003	SHR-220	shrine	located_near	SHR-939	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019004	SHR-220	shrine	located_near	SHR-1007	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019006	SHR-221	shrine	located_near	SHR-321	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019008	SHR-221	shrine	located_near	SHR-584	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019009	SHR-221	shrine	located_near	SHR-622	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019010	SHR-221	shrine	located_near	SHR-646	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019011	SHR-221	shrine	located_near	SHR-908	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019012	SHR-221	shrine	located_near	SHR-939	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
-RLN-019013	SHR-221	shrine	located_near	SHR-1007	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019023	SHR-321	shrine	located_near	SHR-584	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019024	SHR-321	shrine	located_near	SHR-622	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
 RLN-019025	SHR-321	shrine	located_near	SHR-908	shrine	B	L0	document	-	-	shrine_master pref=山口県	Sprint11 同県内拡張(top15)
@@ -14872,7 +14377,6 @@ RLN-019224	SHR-891	shrine	located_near	SHR-995	shrine	B	L0	document	-	-	shrine_m
 RLN-019225	SHR-917	shrine	located_near	SHR-938	shrine	B	L0	document	-	-	shrine_master pref=香川県	Sprint11 同県内拡張(top15)
 RLN-019226	SHR-917	shrine	located_near	SHR-995	shrine	B	L0	document	-	-	shrine_master pref=香川県	Sprint11 同県内拡張(top15)
 RLN-019227	SHR-938	shrine	located_near	SHR-995	shrine	B	L0	document	-	-	shrine_master pref=香川県	Sprint11 同県内拡張(top15)
-RLN-019229	SHR-083	shrine	located_near	SHR-224	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019233	SHR-083	shrine	located_near	SHR-520	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019234	SHR-083	shrine	located_near	SHR-550	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019235	SHR-083	shrine	located_near	SHR-551	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
@@ -14880,14 +14384,6 @@ RLN-019236	SHR-083	shrine	located_near	SHR-567	shrine	B	L0	document	-	-	shrine_m
 RLN-019238	SHR-083	shrine	located_near	SHR-625	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019239	SHR-083	shrine	located_near	SHR-742	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019240	SHR-083	shrine	located_near	SHR-901	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019257	SHR-224	shrine	located_near	SHR-520	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019258	SHR-224	shrine	located_near	SHR-549	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019259	SHR-224	shrine	located_near	SHR-550	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019260	SHR-224	shrine	located_near	SHR-551	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019261	SHR-224	shrine	located_near	SHR-567	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019263	SHR-224	shrine	located_near	SHR-625	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019264	SHR-224	shrine	located_near	SHR-742	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
-RLN-019265	SHR-224	shrine	located_near	SHR-901	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019296	SHR-520	shrine	located_near	SHR-549	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019297	SHR-520	shrine	located_near	SHR-550	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
 RLN-019298	SHR-520	shrine	located_near	SHR-551	shrine	B	L0	document	-	-	shrine_master pref=愛媛県	Sprint11 同県内拡張(top15)
@@ -14926,15 +14422,10 @@ RLN-019348	SHR-225	shrine	located_near	SHR-893	shrine	B	L0	document	-	-	shrine_m
 RLN-019359	SHR-305	shrine	located_near	SHR-626	shrine	B	L0	document	-	-	shrine_master pref=高知県	Sprint11 同県内拡張(top15)
 RLN-019361	SHR-305	shrine	located_near	SHR-893	shrine	B	L0	document	-	-	shrine_master pref=高知県	Sprint11 同県内拡張(top15)
 RLN-019375	SHR-626	shrine	located_near	SHR-893	shrine	B	L0	document	-	-	shrine_master pref=高知県	Sprint11 同県内拡張(top15)
-RLN-019377	SHR-090	shrine	located_near	SHR-230	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019379	SHR-090	shrine	located_near	SHR-272	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019381	SHR-090	shrine	located_near	SHR-627	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019383	SHR-090	shrine	located_near	SHR-949	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019384	SHR-090	shrine	located_near	SHR-986	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
-RLN-019386	SHR-230	shrine	located_near	SHR-272	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
-RLN-019388	SHR-230	shrine	located_near	SHR-627	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
-RLN-019390	SHR-230	shrine	located_near	SHR-949	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
-RLN-019391	SHR-230	shrine	located_near	SHR-986	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019399	SHR-272	shrine	located_near	SHR-627	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019401	SHR-272	shrine	located_near	SHR-949	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019402	SHR-272	shrine	located_near	SHR-986	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
@@ -14942,22 +14433,15 @@ RLN-019408	SHR-627	shrine	located_near	SHR-949	shrine	B	L0	document	-	-	shrine_m
 RLN-019409	SHR-627	shrine	located_near	SHR-986	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019412	SHR-949	shrine	located_near	SHR-986	shrine	B	L0	document	-	-	shrine_master pref=佐賀県	Sprint11 同県内拡張(top15)
 RLN-019413	SHR-091	shrine	located_near	SHR-234	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019416	SHR-091	shrine	located_near	SHR-417	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019418	SHR-091	shrine	located_near	SHR-542	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019419	SHR-091	shrine	located_near	SHR-543	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019420	SHR-091	shrine	located_near	SHR-642	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019422	SHR-091	shrine	located_near	SHR-788	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019425	SHR-234	shrine	located_near	SHR-417	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019427	SHR-234	shrine	located_near	SHR-542	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019428	SHR-234	shrine	located_near	SHR-543	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019429	SHR-234	shrine	located_near	SHR-638	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019430	SHR-234	shrine	located_near	SHR-642	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019432	SHR-234	shrine	located_near	SHR-788	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019451	SHR-417	shrine	located_near	SHR-542	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019452	SHR-417	shrine	located_near	SHR-543	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019453	SHR-417	shrine	located_near	SHR-638	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019454	SHR-417	shrine	located_near	SHR-642	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
-RLN-019456	SHR-417	shrine	located_near	SHR-788	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019463	SHR-542	shrine	located_near	SHR-543	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019464	SHR-542	shrine	located_near	SHR-638	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
 RLN-019465	SHR-542	shrine	located_near	SHR-642	shrine	B	L0	document	-	-	shrine_master pref=熊本県	Sprint11 同県内拡張(top15)
@@ -15077,26 +14561,18 @@ RLN-019679	SHR-898	shrine	located_near	SHR-950	shrine	B	L0	document	-	-	shrine_m
 RLN-019680	SHR-899	shrine	located_near	SHR-950	shrine	B	L0	document	-	-	shrine_master pref=長崎県	Sprint11 同県内拡張(top15)
 RLN-019681	SHR-106	shrine	located_near	SHR-108	shrine	B	L0	document	-	-	shrine_master pref=不明	Sprint11 同県内拡張(top15)
 RLN-019682	SHR-181	shrine	located_near	SHR-283	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019684	SHR-181	shrine	located_near	SHR-418	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019685	SHR-181	shrine	located_near	SHR-564	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019686	SHR-181	shrine	located_near	SHR-670	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019688	SHR-181	shrine	located_near	SHR-717	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019689	SHR-181	shrine	located_near	SHR-979	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019690	SHR-181	shrine	located_near	SHR-982	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019691	SHR-181	shrine	located_near	SHR-983	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019693	SHR-283	shrine	located_near	SHR-418	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019694	SHR-283	shrine	located_near	SHR-564	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019695	SHR-283	shrine	located_near	SHR-670	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019697	SHR-283	shrine	located_near	SHR-717	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019698	SHR-283	shrine	located_near	SHR-979	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019699	SHR-283	shrine	located_near	SHR-982	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019700	SHR-283	shrine	located_near	SHR-983	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019709	SHR-418	shrine	located_near	SHR-564	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019710	SHR-418	shrine	located_near	SHR-670	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019712	SHR-418	shrine	located_near	SHR-717	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019713	SHR-418	shrine	located_near	SHR-979	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019714	SHR-418	shrine	located_near	SHR-982	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
-RLN-019715	SHR-418	shrine	located_near	SHR-983	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019716	SHR-564	shrine	located_near	SHR-670	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019718	SHR-564	shrine	located_near	SHR-717	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
 RLN-019719	SHR-564	shrine	located_near	SHR-979	shrine	B	L0	document	-	-	shrine_master pref=青森県	Sprint11 同県内拡張(top15)
@@ -15116,29 +14592,22 @@ RLN-019737	SHR-182	shrine	located_near	SHR-284	shrine	B	L0	document	-	-	shrine_m
 RLN-019739	SHR-182	shrine	located_near	SHR-490	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019740	SHR-182	shrine	located_near	SHR-491	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019741	SHR-182	shrine	located_near	SHR-492	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019742	SHR-182	shrine	located_near	SHR-715	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019743	SHR-182	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019744	SHR-182	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019746	SHR-284	shrine	located_near	SHR-490	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019747	SHR-284	shrine	located_near	SHR-491	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019748	SHR-284	shrine	located_near	SHR-492	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019749	SHR-284	shrine	located_near	SHR-715	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019750	SHR-284	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019751	SHR-284	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019758	SHR-490	shrine	located_near	SHR-491	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019759	SHR-490	shrine	located_near	SHR-492	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019760	SHR-490	shrine	located_near	SHR-715	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019761	SHR-490	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019762	SHR-490	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019763	SHR-491	shrine	located_near	SHR-492	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019764	SHR-491	shrine	located_near	SHR-715	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019765	SHR-491	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019766	SHR-491	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019767	SHR-492	shrine	located_near	SHR-715	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019768	SHR-492	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019769	SHR-492	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019770	SHR-715	shrine	located_near	SHR-785	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
-RLN-019771	SHR-715	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019772	SHR-785	shrine	located_near	SHR-999	shrine	B	L0	document	-	-	shrine_master pref=岩手県	Sprint11 同県内拡張(top15)
 RLN-019775	SHR-184	shrine	located_near	SHR-494	shrine	B	L0	document	-	-	shrine_master pref=秋田県	Sprint11 同県内拡張(top15)
 RLN-019776	SHR-184	shrine	located_near	SHR-495	shrine	B	L0	document	-	-	shrine_master pref=秋田県	Sprint11 同県内拡張(top15)
