@@ -198,6 +198,7 @@
       <div class="detail-grid">
         <div>
           ${renderFields(record, def)}
+          ${type === 'motif' ? await renderMotifExtended(record) : ''}
           ${await renderRelations(outGrouped, 'out')}
           ${await renderRelations(inGrouped, 'in')}
         </div>
@@ -211,6 +212,40 @@
   } catch (err) {
     loading.textContent = '読み込み失敗: ' + err.message;
     console.error(err);
+  }
+
+  async function renderMotifExtended(record) {
+    let extended = [];
+    try { extended = await DataLoader.load('motif_extended'); } catch (e) { return ''; }
+    const entry = extended.find(e => e.motif_id === record.motif_id);
+    if (!entry) return '';
+    let html = `<div class="detail-section"><h2>詳細解説・典拠</h2>`;
+    if (entry.extended_summary && entry.extended_summary !== '-') {
+      html += `<p class="extended-summary">${escapeHtml(entry.extended_summary)}</p>`;
+    }
+    if (entry.primary_sources && entry.primary_sources !== '-') {
+      html += `<div class="primary-sources"><strong>一次資料・典拠:</strong> `;
+      html += entry.primary_sources.split('|').map(s =>
+        `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
+      html += `</div>`;
+    }
+    if (entry.external_links && entry.external_links !== '-') {
+      html += `<div class="external-links"><strong>外部リンク:</strong><ul class="external-link-list">`;
+      entry.external_links.split(' / ').forEach(item => {
+        const trimmed = item.trim();
+        const m = trimmed.match(/(https?:\/\/[^\s]+)/);
+        if (m) {
+          const url = m[1];
+          const label = trimmed.replace(url, '').trim() || url;
+          html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
+        } else if (trimmed) {
+          html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
+        }
+      });
+      html += `</ul></div>`;
+    }
+    html += `</div>`;
+    return html;
   }
 
   function renderFields(record, def) {

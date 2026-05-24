@@ -21,6 +21,7 @@
     deity_extended: WEB_DATA + 'deity_extended.tsv',
     shrine_extended: WEB_DATA + 'shrine_extended.tsv',
     clan_extended: WEB_DATA + 'clan_extended.tsv',
+    motif_extended: WEB_DATA + 'motif_extended.tsv',
   };
 
   const cache = {};
