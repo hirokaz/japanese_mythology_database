@@ -60,8 +60,10 @@ async function renderDetail() {
           ${type === 'deity' ? await renderDeityExtended(record) : ''}
           ${type === 'shrine' ? await renderEnshrinedDeities(record) : ''}
           ${type === 'shrine' ? await renderShrineProfile(record, outgoing, incoming) : ''}
+          ${type === 'shrine' ? await renderShrineExtended(record) : ''}
           ${type === 'shrine' ? renderMap(record) : ''}
           ${type === 'clan' ? await renderClanProfile(record, outgoing, incoming) : ''}
+          ${type === 'clan' ? await renderClanExtended(record) : ''}
           ${await renderRelations(outGrouped, 'out', record)}
           ${await renderRelations(inGrouped, 'in', record)}
         </div>
@@ -92,6 +94,90 @@ async function renderDeityExtended(record) {
   let html = `<div class="detail-section"><h2>詳細解説・典拠</h2>`;
   if (entry.extended_summary && entry.extended_summary !== '-') {
     html += `<p class="extended-summary">${escapeHtml(entry.extended_summary)}</p>`;
+  }
+  if (entry.primary_sources && entry.primary_sources !== '-') {
+    html += `<div class="primary-sources"><strong>一次資料・典拠:</strong> `;
+    html += entry.primary_sources.split('|').map(s =>
+      `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
+    html += `</div>`;
+  }
+  if (entry.external_links && entry.external_links !== '-') {
+    html += `<div class="external-links"><strong>外部リンク・原文:</strong><ul class="external-link-list">`;
+    entry.external_links.split(' / ').forEach(item => {
+      const trimmed = item.trim();
+      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
+      if (m) {
+        const url = m[1];
+        const label = trimmed.replace(url, '').trim() || url;
+        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
+      } else {
+        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
+      }
+    });
+    html += `</ul></div>`;
+  }
+  html += `</div>`;
+  return html;
+}
+
+/** 神社の詳細解説・由緒・祭事・典拠(shrine_extended.tsv から) */
+async function renderShrineExtended(record) {
+  let extended = [];
+  try { extended = await DataLoader.load('shrine_extended'); } catch (e) { return ''; }
+  const entry = extended.find(e => e.shrine_id === record.master_id);
+  if (!entry) return '';
+
+  let html = `<div class="detail-section"><h2>詳細解説・由緒</h2>`;
+  if (entry.extended_summary && entry.extended_summary !== '-') {
+    html += `<p class="extended-summary">${escapeHtml(entry.extended_summary)}</p>`;
+  }
+  if (entry.history && entry.history !== '-') {
+    html += `<div class="aux-section"><h3>歴史</h3><p>${escapeHtml(entry.history)}</p></div>`;
+  }
+  if (entry.rituals_culture && entry.rituals_culture !== '-') {
+    html += `<div class="aux-section"><h3>祭事・文化</h3><p>${escapeHtml(entry.rituals_culture)}</p></div>`;
+  }
+  if (entry.primary_sources && entry.primary_sources !== '-') {
+    html += `<div class="primary-sources"><strong>一次資料・典拠:</strong> `;
+    html += entry.primary_sources.split('|').map(s =>
+      `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
+    html += `</div>`;
+  }
+  if (entry.external_links && entry.external_links !== '-') {
+    html += `<div class="external-links"><strong>外部リンク・公式:</strong><ul class="external-link-list">`;
+    entry.external_links.split(' / ').forEach(item => {
+      const trimmed = item.trim();
+      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
+      if (m) {
+        const url = m[1];
+        const label = trimmed.replace(url, '').trim() || url;
+        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
+      } else {
+        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
+      }
+    });
+    html += `</ul></div>`;
+  }
+  html += `</div>`;
+  return html;
+}
+
+/** 氏族の詳細解説・歴史・主要子孫・典拠(clan_extended.tsv から) */
+async function renderClanExtended(record) {
+  let extended = [];
+  try { extended = await DataLoader.load('clan_extended'); } catch (e) { return ''; }
+  const entry = extended.find(e => e.clan_id === record.master_id);
+  if (!entry) return '';
+
+  let html = `<div class="detail-section"><h2>詳細解説・典拠</h2>`;
+  if (entry.extended_summary && entry.extended_summary !== '-') {
+    html += `<p class="extended-summary">${escapeHtml(entry.extended_summary)}</p>`;
+  }
+  if (entry.history && entry.history !== '-') {
+    html += `<div class="aux-section"><h3>歴史</h3><p>${escapeHtml(entry.history)}</p></div>`;
+  }
+  if (entry.notable_descendants && entry.notable_descendants !== '-') {
+    html += `<div class="aux-section"><h3>主要な人物・子孫</h3><p>${escapeHtml(entry.notable_descendants)}</p></div>`;
   }
   if (entry.primary_sources && entry.primary_sources !== '-') {
     html += `<div class="primary-sources"><strong>一次資料・典拠:</strong> `;
