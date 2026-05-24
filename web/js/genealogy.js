@@ -110,7 +110,7 @@
       </defs>
     `;
 
-    // 親子線(L 字)
+    // 親子線(L 字)— SVG 属性で直接指定(CSS が SVG <a> 内で効かない iOS Safari 対策)
     for (const child in parents) {
       const parent = parents[child];
       const cp = positions[child], pp = positions[parent];
@@ -118,7 +118,7 @@
       const x1 = pp.x + NODE_W / 2, y1 = pp.y + NODE_H;
       const x2 = cp.x + NODE_W / 2, y2 = cp.y;
       const midY = (y1 + y2) / 2;
-      svgInner += `<path class="edge edge-parent" d="M${x1},${y1} V${midY} H${x2} V${y2}"></path>`;
+      svgInner += `<path d="M${x1},${y1} V${midY} H${x2} V${y2}" fill="none" stroke="#8b3a3a" stroke-width="1.5"></path>`;
     }
 
     // 婚姻線(横、破線)
@@ -135,12 +135,12 @@
         const x1 = Math.min(pa.x, pb.x) + NODE_W;
         const x2 = Math.max(pa.x, pb.x);
         if (x1 < x2) {
-          svgInner += `<path class="edge edge-marriage" d="M${x1},${y} H${x2}"></path>`;
+          svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
         }
       });
     }
 
-    // ノード
+    // ノード(SVG 属性で fill/stroke/font を直接指定 — CSS 依存を排除)
     Array.from(imperialIdSet).forEach(id => {
       const p = positions[id];
       if (!p) return;
@@ -150,18 +150,33 @@
       const cat = d ? (d.category || '') : '';
       const isAncestor = NEAR_ANCESTORS.includes(id);
       const isKesshi = cat.includes('欠史八代');
-      let cls = 'node';
-      if (isAncestor) cls += ' node-ancestor';
-      else if (isKesshi) cls += ' node-kesshi';
-      else if (cat.includes('女')) cls += ' node-empress';
-      const url = `deity.html?id=${encodeURIComponent(id)}`;
+      const isEmpress = !isAncestor && !isKesshi && (d && d.gender === '女');
 
-      // ノード本体
-      svgInner += `<a href="${url}" class="${cls}">
-        <rect x="${p.x}" y="${p.y}" width="${NODE_W}" height="${NODE_H}" rx="6"></rect>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 22}" class="node-name" text-anchor="middle">${escapeXml(name.slice(0, 8))}${name.length > 8 ? '…' : ''}</text>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 38}" class="node-reading" text-anchor="middle">${escapeXml(reading.slice(0, 12))}</text>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 50}" class="node-id" text-anchor="middle">${escapeXml(id)}</text>
+      // 色決定
+      let fillBg, strokeColor;
+      if (isAncestor)      { fillBg = '#f4efe8'; strokeColor = '#5a8a5a'; }
+      else if (isKesshi)   { fillBg = '#ffffff'; strokeColor = '#c9a878'; }
+      else if (isEmpress)  { fillBg = '#fcf6e8'; strokeColor = '#8b3a3a'; }
+      else                 { fillBg = '#ffffff'; strokeColor = '#4a3520'; }
+      const dashAttr = isKesshi ? ' stroke-dasharray="4 3"' : '';
+
+      const url = `deity.html?id=${encodeURIComponent(id)}`;
+      const shortName = name.length > 8 ? name.slice(0, 8) + '…' : name;
+      const shortReading = reading.length > 12 ? reading.slice(0, 12) : reading;
+
+      // <a> の中に <g> を入れて全要素に直接スタイル属性
+      svgInner += `<a href="${url}" target="_self">
+        <rect x="${p.x}" y="${p.y}" width="${NODE_W}" height="${NODE_H}" rx="6" ry="6"
+              fill="${fillBg}" stroke="${strokeColor}" stroke-width="1.5"${dashAttr}></rect>
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 22}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="13" font-weight="700" fill="#4a3520">${escapeXml(shortName)}</text>
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 38}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="10" fill="#8b7560">${escapeXml(shortReading)}</text>
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 50}" text-anchor="middle"
+              font-family="SFMono-Regular, Consolas, Menlo, monospace"
+              font-size="9" fill="#b09878">${escapeXml(id)}</text>
       </a>`;
     });
 
