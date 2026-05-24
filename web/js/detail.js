@@ -57,6 +57,7 @@ async function renderDetail() {
         <div>
           ${renderBasic(record, type)}
           ${type === 'deity' ? renderEmperorReign(record) : ''}
+          ${type === 'deity' ? await renderDeityExtended(record) : ''}
           ${type === 'shrine' ? await renderEnshrinedDeities(record) : ''}
           ${type === 'shrine' ? await renderShrineProfile(record, outgoing, incoming) : ''}
           ${type === 'shrine' ? renderMap(record) : ''}
@@ -79,6 +80,42 @@ async function renderDetail() {
 
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
+}
+
+/** deity の詳細解説・一次資料・典拠リンク(deity_extended.tsv から) */
+async function renderDeityExtended(record) {
+  let extended = [];
+  try { extended = await DataLoader.load('deity_extended'); } catch (e) { return ''; }
+  const entry = extended.find(e => e.deity_id === record.master_id);
+  if (!entry) return '';
+
+  let html = `<div class="detail-section"><h2>詳細解説・典拠</h2>`;
+  if (entry.extended_summary && entry.extended_summary !== '-') {
+    html += `<p class="extended-summary">${escapeHtml(entry.extended_summary)}</p>`;
+  }
+  if (entry.primary_sources && entry.primary_sources !== '-') {
+    html += `<div class="primary-sources"><strong>一次資料・典拠:</strong> `;
+    html += entry.primary_sources.split('|').map(s =>
+      `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
+    html += `</div>`;
+  }
+  if (entry.external_links && entry.external_links !== '-') {
+    html += `<div class="external-links"><strong>外部リンク・原文:</strong><ul class="external-link-list">`;
+    entry.external_links.split(' / ').forEach(item => {
+      const trimmed = item.trim();
+      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
+      if (m) {
+        const url = m[1];
+        const label = trimmed.replace(url, '').trim() || url;
+        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
+      } else {
+        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
+      }
+    });
+    html += `</ul></div>`;
+  }
+  html += `</div>`;
+  return html;
 }
 
 /** 皇統 deity に在位・代数情報を表示(emperor_reign.js が読まれていればのみ) */
