@@ -183,6 +183,7 @@
       </div>
     `;
     content.innerHTML = html;
+    if (window.Era) Era.applyEraConversion(content);
   } catch (err) {
     loading.textContent = '読み込み失敗: ' + err.message;
     console.error(err);

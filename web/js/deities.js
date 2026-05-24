@@ -88,6 +88,7 @@
       </tr>
     `).join('');
     tableBody.innerHTML = html + note;
+    if (window.Era) Era.applyEraConversion(tableBody);
   }
 
   let renderTimer;

@@ -68,6 +68,7 @@ async function renderDetail() {
       </div>
     `;
     content.innerHTML = html;
+    if (window.Era) Era.applyEraConversion(content);
   } catch (err) {
     loading.textContent = '読み込みに失敗しました: ' + err.message;
     console.error(err);
