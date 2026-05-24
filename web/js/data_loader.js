@@ -19,6 +19,8 @@
     festival: BASE + 'master/festival_master.tsv',
     relations: BASE + 'relations/relations.tsv',
     deity_extended: WEB_DATA + 'deity_extended.tsv',
+    shrine_extended: WEB_DATA + 'shrine_extended.tsv',
+    clan_extended: WEB_DATA + 'clan_extended.tsv',
   };
 
   const cache = {};
