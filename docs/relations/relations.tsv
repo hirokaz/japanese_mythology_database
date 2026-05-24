@@ -5368,10 +5368,6 @@ RLN-005389	DEI-181	deity	primary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrin
 RLN-005390	DEI-182	deity	primary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005391	DEI-183	deity	primary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005392	DEI-184	deity	primary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005393	DEI-181	deity	primary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005394	DEI-182	deity	primary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005395	DEI-183	deity	primary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
-RLN-005396	DEI-184	deity	primary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005397	DEI-181	deity	primary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005398	DEI-182	deity	primary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
 RLN-005399	DEI-183	deity	primary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv (Sprint2)	Sprint2 master 整合(主祭神)
@@ -8154,7 +8150,6 @@ RLN-008661	DEI-181	deity	enshrined_at	SHR-204	shrine	A	L0	document	-	-	shrine_ma
 RLN-008662	DEI-181	deity	enshrined_at	SHR-205	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008663	DEI-181	deity	enshrined_at	SHR-206	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008664	DEI-181	deity	enshrined_at	SHR-207	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
-RLN-008665	DEI-181	deity	enshrined_at	SHR-208	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008666	DEI-181	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008667	DEI-181	deity	enshrined_at	SHR-210	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
 RLN-008668	DEI-181	deity	enshrined_at	SHR-211	shrine	A	L0	document	-	-	shrine_master 八幡四神	Sprint7 八幡神 enshrined_at 八幡系全国
@@ -8784,9 +8779,6 @@ RLN-009291	DEI-184	deity	secondary_deity_of	SHR-206	shrine	B	L0	document	-	-	shr
 RLN-009292	DEI-182	deity	secondary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009293	DEI-183	deity	secondary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009294	DEI-184	deity	secondary_deity_of	SHR-207	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009295	DEI-182	deity	secondary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009296	DEI-183	deity	secondary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
-RLN-009297	DEI-184	deity	secondary_deity_of	SHR-208	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009298	DEI-182	deity	secondary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009299	DEI-183	deity	secondary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
 RLN-009300	DEI-184	deity	secondary_deity_of	SHR-209	shrine	B	L0	document	-	-	shrine_master.tsv main_deity_ids	Sprint8 配祀神 secondary
@@ -14769,9 +14761,6 @@ RLN-015567	DEI-184	deity	enshrined_at	SHR-206	shrine	A	L0	document	-	-	shrine_ma
 RLN-015568	DEI-182	deity	enshrined_at	SHR-207	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015569	DEI-183	deity	enshrined_at	SHR-207	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015570	DEI-184	deity	enshrined_at	SHR-207	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015571	DEI-182	deity	enshrined_at	SHR-208	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015572	DEI-183	deity	enshrined_at	SHR-208	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
-RLN-015573	DEI-184	deity	enshrined_at	SHR-208	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015574	DEI-182	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015575	DEI-183	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
 RLN-015576	DEI-184	deity	enshrined_at	SHR-209	shrine	A	L0	document	-	-	shrine_master.tsv	Sprint11 enshrined_at 全神格 → 全 shrine
@@ -19516,3 +19505,4 @@ R-AUTO-FIX2-SHR-794-DEI-108	DEI-108	primary_deity_of	SHR-794	-	-	A	L0	-	-	-	-	�
 R-AUTO-FIX2-SHR-994-DEI-474	DEI-474	primary_deity_of	SHR-994	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
 R-AUTO-FIX2-SHR-835-DEI-191	DEI-191	primary_deity_of	SHR-835	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
 R-AUTO-FIX2-SHR-969-DEI-215	DEI-215	primary_deity_of	SHR-969	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-SHR208-FIX-DEI001-PRIMARY	DEI-001	primary_deity_of	SHR-208	-	-	A	L0	-	-	-	-	SHR-208 廣田八幡神社→七宮神社置換 主祭神修正
