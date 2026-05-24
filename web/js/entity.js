@@ -122,6 +122,30 @@
         ['notes', '備考'],
       ],
     },
+    festival: {
+      idKey: 'festival_id',
+      nameKey: 'canonical_name',
+      readingKey: 'canonical_reading',
+      typeLabel: '祭事・行事',
+      fields: [
+        ['canonical_name', '名称'],
+        ['canonical_reading', '読み'],
+        ['alternative_names', '別名'],
+        ['category', 'カテゴリ'],
+        ['date_pattern', '時期・日付'],
+        ['founded_period', '起源時期'],
+        ['summary', '要約'],
+        ['history', '歴史的経緯'],
+        ['ritual_content', '祭事の内容'],
+        ['host_shrine_id', '主催神社 ID'],
+        ['secondary_shrine_ids', '関連神社 ID'],
+        ['related_deity_ids', '関連神格 ID'],
+        ['related_motif_ids', '関連モチーフ ID'],
+        ['source_reference', '出典'],
+        ['hypothesis_layer', '確実性層'],
+        ['notes', '備考'],
+      ],
+    },
   };
 
   const def = FIELD_DEFS[type];
@@ -196,7 +220,9 @@
       if (!v || v === '-') continue;
       // related_deities / related_shrines / related_clans は ID リンク化
       let valueHtml;
-      if (k === 'related_deities' || k === 'related_shrines' || k === 'related_clans') {
+      if (k === 'related_deities' || k === 'related_shrines' || k === 'related_clans' ||
+          k === 'related_deity_ids' || k === 'related_motif_ids' ||
+          k === 'host_shrine_id' || k === 'secondary_shrine_ids') {
         valueHtml = v.split('|').map(x => {
           const t = x.trim();
           const url = DataLoader.detailUrl(t);

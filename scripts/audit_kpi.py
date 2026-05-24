@@ -32,6 +32,7 @@ MASTERS = {
     "rank": ROOT / "docs" / "master" / "rank_master.tsv",
     "event": ROOT / "docs" / "master" / "event_master.tsv",
     "region": ROOT / "docs" / "master" / "region_master.tsv",
+    "festival": ROOT / "docs" / "master" / "festival_master.tsv",
 }
 RELATIONS = ROOT / "docs" / "relations" / "relations.tsv"
 
@@ -105,6 +106,7 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
         "rank": master_sets.get("rank", set()),
         "event": master_sets.get("event", set()),
         "region": master_sets.get("region", set()),
+        "festival": master_sets.get("festival", set()),
     }
     dangling = 0
     dangling_examples: list[str] = []
