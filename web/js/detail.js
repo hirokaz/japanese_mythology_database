@@ -596,17 +596,66 @@ async function renderShrineProfile(record, outRels, inRels) {
     html += `</dl></div>`;
   }
 
-  // ===== 8. 祭事(performed_at) =====
+  // ===== 8. 祭事・行事(festival_master ベースの詳細表示) =====
   const ritualRels = inRels.filter(r => r.relation_type === 'performed_at');
   if (ritualRels.length) {
-    html += `<div class="detail-section"><h2>祭事 (${ritualRels.length})</h2><ul class="relation-list">`;
-    ritualRels.slice(0, 20).forEach(r => {
-      const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
-      const note = r.notes ? ` — ${r.notes.slice(0, 80)}` : '';
-      html += `<li>${layer} <code>${escapeHtml(r.source_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
-    });
-    if (ritualRels.length > 20) html += `<li style="color:#8b7560; font-style:italic;">…他 ${ritualRels.length - 20} 件</li>`;
-    html += `</ul></div>`;
+    // festival_master を別途ロード(他で読まれていないので)
+    let festivals = [];
+    try { festivals = await DataLoader.load('festival'); } catch (e) { /* no festival master */ }
+    const fi = {};
+    festivals.forEach(f => { fi[f.festival_id] = f; });
+
+    // FES- 始まりの祭事(詳細カード表示)とその他(レガシー RIT- 等、リスト表示)を分離
+    const festRels = ritualRels.filter(r => r.source_id.startsWith('FES-'));
+    const otherRels = ritualRels.filter(r => !r.source_id.startsWith('FES-'));
+
+    if (festRels.length || otherRels.length) {
+      html += `<div class="detail-section"><h2>祭事・行事 (${ritualRels.length})</h2>`;
+
+      // 詳細カード(FES-)
+      festRels.forEach(r => {
+        const f = fi[r.source_id];
+        if (!f) {
+          html += `<div class="festival-card"><a href="${DataLoader.detailUrl(r.source_id)}"><strong>${escapeHtml(r.source_id)}</strong></a></div>`;
+          return;
+        }
+        const url = DataLoader.detailUrl(r.source_id);
+        const layer = f.hypothesis_layer ? `<span class="badge badge-${f.hypothesis_layer.toLowerCase()}">${escapeHtml(f.hypothesis_layer)}</span>` : '';
+        const cat = f.category && f.category !== '-' ? `<span class="badge badge-cat">${escapeHtml(f.category)}</span>` : '';
+        const period = f.founded_period && f.founded_period !== '-' ? `<span class="festival-period">起源:${escapeHtml(f.founded_period)}</span>` : '';
+        html += `<div class="festival-card">
+          <div class="festival-head">
+            <a href="${url}" class="festival-name">${escapeHtml(f.canonical_name)}</a>
+            ${f.canonical_reading && f.canonical_reading !== '-' ? `<span class="festival-reading">${escapeHtml(f.canonical_reading)}</span>` : ''}
+            ${layer} ${cat}
+          </div>
+          ${f.date_pattern && f.date_pattern !== '-' ? `<div class="festival-meta"><strong>時期:</strong> ${escapeHtml(f.date_pattern)} ${period}</div>` : period ? `<div class="festival-meta">${period}</div>` : ''}
+          ${f.summary && f.summary !== '-' ? `<p class="festival-summary">${escapeHtml(f.summary)}</p>` : ''}
+          ${f.ritual_content && f.ritual_content !== '-' ? `<p class="festival-detail"><strong>内容:</strong> ${escapeHtml(f.ritual_content)}</p>` : ''}
+          ${f.history && f.history !== '-' ? `<p class="festival-detail"><strong>経緯:</strong> ${escapeHtml(f.history)}</p>` : ''}
+          ${f.notes && f.notes !== '-' ? `<p class="festival-note">${escapeHtml(f.notes)}</p>` : ''}
+          <div class="festival-foot">
+            <code>${escapeHtml(f.festival_id)}</code>
+            ${f.source_reference && f.source_reference !== '-' ? `<span class="festival-source">出典:${escapeHtml(f.source_reference)}</span>` : ''}
+          </div>
+        </div>`;
+      });
+
+      // レガシー RIT- 等の簡易リスト
+      if (otherRels.length) {
+        html += `<h3 class="enshrined-label">その他の祭事関連レコード (${otherRels.length})</h3>`;
+        html += `<ul class="relation-list">`;
+        otherRels.slice(0, 20).forEach(r => {
+          const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+          const note = r.notes ? ` — ${r.notes.slice(0, 80)}` : '';
+          html += `<li>${layer} <code>${escapeHtml(r.source_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+        });
+        if (otherRels.length > 20) html += `<li style="color:#8b7560; font-style:italic;">…他 ${otherRels.length - 20} 件</li>`;
+        html += `</ul>`;
+      }
+
+      html += `</div>`;
+    }
   }
 
   // ===== 9. 近接神社(located_near) =====

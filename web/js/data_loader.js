@@ -15,6 +15,7 @@
     event:   BASE + 'master/event_master.tsv',
     region:  BASE + 'master/region_master.tsv',
     motif:   BASE + 'civilization/01_motif_db.tsv',
+    festival: BASE + 'master/festival_master.tsv',
     relations: BASE + 'relations/relations.tsv',
   };
 
@@ -83,6 +84,11 @@
       const r = data.find(x => x.event_id === id);
       return r ? r.canonical_name : id;
     }
+    if (id.startsWith('FES-')) {
+      const data = await load('festival');
+      const r = data.find(x => x.festival_id === id);
+      return r ? r.canonical_name : id;
+    }
     if (id.startsWith('REGION-') || id.startsWith('REG-')) {
       const data = await load('region');
       const r = data.find(x => x.region_id === id);
@@ -103,6 +109,7 @@
     if (id.startsWith('PERIOD-')) return `${prefix}entity.html?type=period&id=${id}`;
     if (id.startsWith('RANK-'))   return `${prefix}entity.html?type=rank&id=${id}`;
     if (id.startsWith('EVENT-'))  return `${prefix}entity.html?type=event&id=${id}`;
+    if (id.startsWith('FES-'))    return `${prefix}entity.html?type=festival&id=${id}`;
     if (id.startsWith('REGION-') || id.startsWith('REG-'))
                                   return `${prefix}entity.html?type=region&id=${id}`;
     return '#';

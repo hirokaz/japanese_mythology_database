@@ -527,6 +527,71 @@ pre {
   .genealogy-wrap { max-height: 65vh; }
 }
 
+/* ===== Festival Card ===== */
+.festival-card {
+  background: #fdf7ef;
+  border-left: 4px solid #8b3a3a;
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin: 10px 0;
+  font-size: 0.95em;
+}
+.festival-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
+  margin-bottom: 6px;
+}
+.festival-name {
+  font-weight: 700;
+  font-size: 1.08em;
+  color: #4a3520;
+}
+.festival-reading {
+  color: #8b7560;
+  font-size: 0.85em;
+}
+.festival-meta {
+  font-size: 0.88em;
+  color: #5a4a35;
+  margin: 4px 0 8px;
+}
+.festival-period {
+  display: inline-block;
+  margin-left: 10px;
+  color: #8b7560;
+  font-size: 0.85em;
+}
+.festival-summary {
+  margin: 6px 0;
+  color: #2a2622;
+  line-height: 1.6;
+}
+.festival-detail {
+  margin: 6px 0;
+  color: #5a4a35;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+.festival-detail strong {
+  color: #8b3a3a;
+}
+.festival-note {
+  margin: 6px 0 0;
+  color: #6a5a45;
+  font-size: 0.85em;
+  font-style: italic;
+}
+.festival-foot {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #d9c9a8;
+  font-size: 0.78em;
+  color: #8b7560;
+  display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+}
+.festival-source {
+  flex: 1;
+}
+
 /* ===== Map embed ===== */
 .map-embed {
   position: relative;
