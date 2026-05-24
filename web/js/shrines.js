@@ -27,10 +27,39 @@
     shrines = shrineData;
     deityIndex = DataLoader.indexBy(deityData, 'master_id');
 
-    // Populate prefecture filter
+    // Populate prefecture filter (北から南順、外地・特殊は末尾)
+    const PREF_ORDER = [
+      '北海道',
+      '青森県','岩手県','宮城県','秋田県','山形県','福島県',
+      '茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県',
+      '新潟県','富山県','石川県','福井県','山梨県','長野県',
+      '岐阜県','静岡県','愛知県','三重県',
+      '滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県',
+      '鳥取県','島根県','岡山県','広島県','山口県',
+      '徳島県','香川県','愛媛県','高知県',
+      '福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県',
+      // 旧外地・歴史地域
+      'サハリン','樺太','千島',
+      'ソウル(歴史)','京畿道(歴史)','朝鮮','韓国',
+      '台湾','台北(歴史)','旅順(歴史)','満州','南洋',
+      // 集合・広域
+      '東北','関東','東北・関東','全国',
+      '不明',
+    ];
     const prefs = new Set();
     shrines.forEach(s => { if (s.prefecture && s.prefecture !== '-') prefs.add(s.prefecture); });
-    Array.from(prefs).sort((a, b) => a.localeCompare(b, 'ja')).forEach(p => {
+    const sortedPrefs = Array.from(prefs).sort((a, b) => {
+      const ia = PREF_ORDER.indexOf(a);
+      const ib = PREF_ORDER.indexOf(b);
+      // 両方リストに存在する場合はリスト順
+      if (ia >= 0 && ib >= 0) return ia - ib;
+      // 片方のみリスト存在: リストにあるものを優先 (リスト外は末尾)
+      if (ia >= 0) return -1;
+      if (ib >= 0) return 1;
+      // 両方リスト外: 五十音順
+      return a.localeCompare(b, 'ja');
+    });
+    sortedPrefs.forEach(p => {
       const opt = document.createElement('option');
       opt.value = p;
       opt.textContent = p;
