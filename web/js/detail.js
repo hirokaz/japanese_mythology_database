@@ -56,6 +56,7 @@ async function renderDetail() {
       <div class="detail-grid">
         <div>
           ${renderBasic(record, type)}
+          ${type === 'deity' ? renderEmperorReign(record) : ''}
           ${type === 'shrine' ? await renderEnshrinedDeities(record) : ''}
           ${type === 'shrine' ? await renderShrineProfile(record, outgoing, incoming) : ''}
           ${type === 'shrine' ? renderMap(record) : ''}
@@ -78,6 +79,21 @@ async function renderDetail() {
 
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
+}
+
+/** 皇統 deity に在位・代数情報を表示(emperor_reign.js が読まれていればのみ) */
+function renderEmperorReign(record) {
+  if (!window.EmperorReign) return '';
+  const info = window.EmperorReign[record.master_id];
+  if (!info) return '';
+  return `<div class="detail-section">
+    <h2>在位・代数</h2>
+    <dl class="kv-list">
+      ${info.dai ? `<dt>代数</dt><dd>第${info.dai}代</dd>` : ''}
+      ${info.reign ? `<dt>在位</dt><dd>${escapeHtml(info.reign)}</dd>` : ''}
+      ${info.note ? `<dt>備考</dt><dd>${escapeHtml(info.note)}</dd>` : ''}
+    </dl>
+  </div>`;
 }
 
 /** 氏族の詳細プロファイル(clan 用):来歴・系譜・神社・地域・天皇・歴史・祭事・氏族関係 */

@@ -5,11 +5,11 @@
   const svg = document.getElementById('genealogySvg');
   const intro = document.getElementById('genealogyIntro');
 
-  // 寸法定数
-  const NODE_W = 140;
-  const NODE_H = 56;
+  // 寸法定数(在位行追加でノード高さを拡張)
+  const NODE_W = 150;
+  const NODE_H = 72;
   const GAP_X = 18;
-  const GAP_Y = 96;
+  const GAP_Y = 112;
   const MARGIN = 30;
 
   let zoom = 1.0;
@@ -161,22 +161,32 @@
       const dashAttr = isKesshi ? ' stroke-dasharray="4 3"' : '';
 
       const url = `deity.html?id=${encodeURIComponent(id)}`;
-      const shortName = name.length > 8 ? name.slice(0, 8) + '…' : name;
-      const shortReading = reading.length > 12 ? reading.slice(0, 12) : reading;
+      const shortName = name.length > 9 ? name.slice(0, 9) + '…' : name;
+      const shortReading = reading.length > 13 ? reading.slice(0, 13) : reading;
 
-      // <a> の中に <g> を入れて全要素に直接スタイル属性
+      // 在位情報(emperor_reign.js から)
+      const reignInfo = (window.EmperorReign && window.EmperorReign[id]) || null;
+      const daiText = reignInfo && reignInfo.dai ? `第${reignInfo.dai}代` : '';
+      const reignText = reignInfo ? reignInfo.reign : '';
+
       svgInner += `<a href="${url}" target="_self">
         <rect x="${p.x}" y="${p.y}" width="${NODE_W}" height="${NODE_H}" rx="6" ry="6"
               fill="${fillBg}" stroke="${strokeColor}" stroke-width="1.5"${dashAttr}></rect>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 22}" text-anchor="middle"
+        ${daiText ? `<text x="${p.x + NODE_W / 2}" y="${p.y + 14}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="9" font-weight="700" fill="#8b3a3a">${escapeXml(daiText)}</text>` : ''}
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 30}" text-anchor="middle"
               font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
               font-size="13" font-weight="700" fill="#4a3520">${escapeXml(shortName)}</text>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 38}" text-anchor="middle"
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 44}" text-anchor="middle"
               font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
-              font-size="10" fill="#8b7560">${escapeXml(shortReading)}</text>
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 50}" text-anchor="middle"
+              font-size="9" fill="#8b7560">${escapeXml(shortReading)}</text>
+        ${reignText ? `<text x="${p.x + NODE_W / 2}" y="${p.y + 57}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="9" font-weight="600" fill="#5a4a35">${escapeXml(reignText.length > 18 ? reignText.slice(0, 18) + '…' : reignText)}</text>` : ''}
+        <text x="${p.x + NODE_W / 2}" y="${p.y + 67}" text-anchor="middle"
               font-family="SFMono-Regular, Consolas, Menlo, monospace"
-              font-size="9" fill="#b09878">${escapeXml(id)}</text>
+              font-size="8" fill="#b09878">${escapeXml(id)}</text>
       </a>`;
     });
 
