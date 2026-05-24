@@ -55,6 +55,14 @@
     "DEI-527": { dai: null, reign: "皇族",    note: "護良親王、後醍醐皇子、鎌倉幽閉" },
     "DEI-520": { dai: null, reign: "皇族",    note: "宗良親王、後醍醐皇子" },
     "DEI-521": { dai: null, reign: "皇族",    note: "懐良親王、後醍醐皇子、九州征西" },
+    // 神話祖系(皇統に直接連なる母系・父系)
+    "DEI-015": { dai: null, reign: "神話祖系", note: "ニニギ(天孫降臨、神武の曾祖父)" },
+    "DEI-083": { dai: null, reign: "神話祖系", note: "コノハナサクヤ(ニニギ妃、神武の曾祖母)" },
+    "DEI-085": { dai: null, reign: "神話祖系", note: "ヒコホホデミ=山幸彦(神武の祖父)" },
+    "DEI-088": { dai: null, reign: "神話祖系", note: "豊玉姫(海宮姫、神武の祖母)" },
+    "DEI-090": { dai: null, reign: "神話祖系", note: "ウガヤフキアエズ(神武の父)" },
+    "DEI-089": { dai: null, reign: "神話祖系", note: "玉依姫(神武の母、海宮の姫)" },
+    "DEI-016": { dai: null, reign: "皇族",    note: "ヤマトタケル(景行皇子、仲哀の父)" },
   };
 
   window.EmperorReign = REIGN;
