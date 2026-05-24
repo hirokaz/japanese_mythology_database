@@ -4,6 +4,7 @@
   // Detect base path: web/ or web/pages/
   const inPagesDir = window.location.pathname.includes('/pages/');
   const BASE = inPagesDir ? '../../docs/' : '../docs/';
+  const WEB_DATA = inPagesDir ? '../data/' : 'data/';
 
   const PATHS = {
     deity:   BASE + 'master/deity_master.tsv',
@@ -17,6 +18,7 @@
     motif:   BASE + 'civilization/01_motif_db.tsv',
     festival: BASE + 'master/festival_master.tsv',
     relations: BASE + 'relations/relations.tsv',
+    deity_extended: WEB_DATA + 'deity_extended.tsv',
   };
 
   const cache = {};

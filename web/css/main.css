@@ -527,6 +527,49 @@ pre {
   .genealogy-wrap { max-height: 65vh; }
 }
 
+/* ===== Deity Extended (詳細解説・典拠) ===== */
+.extended-summary {
+  line-height: 1.7;
+  margin: 8px 0 14px;
+  color: #2a2622;
+  font-size: 0.95em;
+}
+.primary-sources {
+  margin: 10px 0;
+  font-size: 0.92em;
+  color: #5a4a35;
+}
+.primary-sources strong { color: #4a3520; margin-right: 4px; }
+.source-pill {
+  display: inline-block;
+  background: #f4efe8;
+  color: #4a3520;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.82em;
+  margin: 2px 4px 2px 0;
+}
+.external-links {
+  margin: 12px 0 0;
+  font-size: 0.92em;
+}
+.external-links strong { color: #4a3520; }
+.external-link-list {
+  list-style: none; padding: 0; margin: 6px 0 0;
+}
+.external-link-list li {
+  padding: 4px 0;
+  font-size: 0.88em;
+  border-bottom: 1px dotted #e8ddc8;
+}
+.external-link-list li:last-child { border-bottom: none; }
+.external-link-list a {
+  color: #8b3a3a;
+  word-break: break-word;
+}
+.ext-arrow { font-size: 0.85em; opacity: 0.7; }
+.ext-note { color: #6a5a45; font-style: italic; }
+
 /* ===== Aux Section (genealogy 追加セクション) ===== */
 .aux-section {
   margin: 36px 0 0;
