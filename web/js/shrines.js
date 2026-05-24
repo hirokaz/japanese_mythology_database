@@ -107,6 +107,7 @@
       `;
     }).join('');
     tableBody.innerHTML = html + note;
+    if (window.Era) Era.applyEraConversion(tableBody);
   }
 
   function renderDeities(idsField) {
