@@ -26,8 +26,16 @@
     deities.forEach(d => {
       if ((d.category || '').includes('皇統')) imperialIdSet.add(d.master_id);
     });
-    // 神話系で皇統に直結する祖先(神武の祖父・曾祖父まで)を追加
-    const NEAR_ANCESTORS = ['DEI-015', 'DEI-083', 'DEI-085', 'DEI-088', 'DEI-090', 'DEI-016'];
+    // 神話系で皇統に直結する祖先(神武の祖父・曾祖父まで)+ 母系 玉依姫
+    const NEAR_ANCESTORS = [
+      'DEI-015',  // ニニギ(曾祖父)
+      'DEI-083',  // コノハナサクヤ(曾祖母)
+      'DEI-085',  // ヒコホホデミ=山幸彦(祖父)
+      'DEI-088',  // 豊玉姫(祖母)
+      'DEI-090',  // ウガヤフキアエズ(父)
+      'DEI-089',  // 玉依姫(母)★ 追加
+      'DEI-016',  // ヤマトタケル(景行皇子)
+    ];
     NEAR_ANCESTORS.forEach(id => imperialIdSet.add(id));
 
     const deityIdx = {};
@@ -199,6 +207,10 @@
     loading.hidden = true;
     wrap.hidden = false;
 
+    // ===== 追加セクション:皇族・皇后/外戚氏族 =====
+    await renderRoyalsAndAffines(deities, deityIdx, relations, imperialIdSet);
+    if (window.Era) Era.applyEraConversion(document.querySelector('main'));
+
     // ズーム
     document.getElementById('zoomIn').addEventListener('click', () => setZoom(zoom * 1.2));
     document.getElementById('zoomOut').addEventListener('click', () => setZoom(zoom / 1.2));
@@ -219,5 +231,145 @@
     return String(s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+  }
+  function escapeHtml(s) {
+    if (s == null) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  /** 皇統に連なる皇族・皇后 と 外戚氏族 を別カード群として表示 */
+  async function renderRoyalsAndAffines(deities, deityIdx, relations, imperialIdSet) {
+    const main = document.querySelector('main .container');
+    if (!main) return;
+
+    // ----- 1. 皇族・皇后(皇統 deity と婚姻関係 or 子関係にある女神 / 親王) -----
+    // category に「皇族」「皇后」「皇統」を含むが、imperialIdSet にもう含まれているものは除外しない
+    // (皇統本系の人物 = imperialIdSet。本系外の皇族・皇后 = 別出し)
+    const royalConsorts = new Set();
+    relations.forEach(r => {
+      if (r.source_type !== 'deity' || r.target_type !== 'deity') return;
+      if (r.relation_type !== 'married_to') return;
+      // 皇統 deity と婚姻関係にある相手
+      if (imperialIdSet.has(r.source_id) && !imperialIdSet.has(r.target_id)) {
+        royalConsorts.add(r.target_id);
+      }
+      if (imperialIdSet.has(r.target_id) && !imperialIdSet.has(r.source_id)) {
+        royalConsorts.add(r.source_id);
+      }
+    });
+    // 既知の皇族(EmperorReign に登録された reign:'皇族' のもの)
+    if (window.EmperorReign) {
+      Object.entries(window.EmperorReign).forEach(([id, info]) => {
+        if (info.reign === '皇族' && !imperialIdSet.has(id) && deityIdx[id]) {
+          royalConsorts.add(id);
+        }
+      });
+    }
+
+    if (royalConsorts.size > 0) {
+      let h = `<section class="aux-section">
+        <h2 class="aux-title">皇族・皇后(系譜に連なる人物)</h2>
+        <p class="aux-lead">皇統本系と婚姻・配偶関係にある皇族・皇后・親王。各カードで詳細へ。</p>
+        <div class="deity-grid">`;
+      Array.from(royalConsorts).forEach(id => {
+        const d = deityIdx[id];
+        const url = `deity.html?id=${encodeURIComponent(id)}`;
+        const info = window.EmperorReign && window.EmperorReign[id];
+        const name = d ? d.canonical_name : id;
+        const reading = d ? (d.canonical_reading || '') : '';
+        const cat = d ? (d.category || '') : '';
+        const role = info && info.note ? info.note : (info && info.reign ? info.reign : cat);
+        h += `<a href="${url}" class="deity-card deity-card-${(d && d.gender === '女') ? 'secondary' : 'main'}">
+          <span class="deity-name">${escapeHtml(name)}</span>
+          ${reading && reading !== '-' ? `<span class="deity-reading">${escapeHtml(reading)}</span>` : ''}
+          <span class="deity-id"><code>${escapeHtml(id)}</code></span>
+          ${cat ? `<span class="deity-cat">${escapeHtml(cat)}</span>` : ''}
+          ${role && role !== cat ? `<span class="deity-notes">${escapeHtml(role)}</span>` : ''}
+        </a>`;
+      });
+      h += `</div></section>`;
+      main.insertAdjacentHTML('beforeend', h);
+    }
+
+    // ----- 2. 外戚氏族(皇統 deity と婚姻 or 仕えた氏族、関係種別ごと) -----
+    // clan → 皇統 deity の関係を集める
+    const clanRelations = {};  // clan_id → { roles: Set, deities: Set }
+    relations.forEach(r => {
+      if (r.source_type !== 'clan' || r.target_type !== 'deity') return;
+      if (!imperialIdSet.has(r.target_id)) return;
+      const okType = ['married_into', 'served', 'descended_from', 'associated_with'].includes(r.relation_type);
+      if (!okType) return;
+      const cid = r.source_id;
+      if (!clanRelations[cid]) clanRelations[cid] = { roles: new Set(), deities: new Set(), notes: [] };
+      clanRelations[cid].roles.add(r.relation_type);
+      clanRelations[cid].deities.add(r.target_id);
+      if (r.notes && r.notes !== '-') clanRelations[cid].notes.push(r.notes);
+    });
+
+    if (Object.keys(clanRelations).length > 0) {
+      const clans = await DataLoader.load('clan');
+      const clanIdx = {};
+      clans.forEach(c => { clanIdx[c.master_id] = c; });
+
+      const roleLabels = {
+        married_into: '外戚(婚姻)',
+        served: '仕官',
+        descended_from: '皇別氏族(皇統由来)',
+        associated_with: '関連',
+      };
+
+      // ロール優先度でグループ分け
+      const grouped = { married_into: [], descended_from: [], served: [], associated_with: [] };
+      Object.entries(clanRelations).forEach(([cid, info]) => {
+        // 最も重要なロールを優先
+        for (const role of ['married_into', 'descended_from', 'served', 'associated_with']) {
+          if (info.roles.has(role)) {
+            grouped[role].push({ cid, info });
+            break;
+          }
+        }
+      });
+
+      let h = `<section class="aux-section">
+        <h2 class="aux-title">外戚・氏族の連なり</h2>
+        <p class="aux-lead">天皇家と婚姻・出自・奉仕の関係を持った主要氏族。藤原・蘇我・宗像・葛城・出雲国造 等。</p>`;
+      let hasAny = false;
+      for (const role of ['married_into', 'descended_from', 'served', 'associated_with']) {
+        const items = grouped[role];
+        if (!items.length) continue;
+        hasAny = true;
+        h += `<h3 class="aux-subtitle"><span class="relation-type">${escapeHtml(role)}</span>
+          <span style="color:#8b7560; font-weight:400; font-size:0.85em;">${escapeHtml(roleLabels[role])} · ${items.length} 件</span></h3>`;
+        h += `<div class="deity-grid">`;
+        items.forEach(({ cid, info }) => {
+          const c = clanIdx[cid];
+          const url = `clan.html?id=${encodeURIComponent(cid)}`;
+          const name = c ? c.canonical_name : cid;
+          const reading = c ? (c.canonical_reading || '') : '';
+          const clanType = c ? (c.clan_type || '') : '';
+          const peak = c && c.peak_period && c.peak_period !== '-' ? c.peak_period : '';
+
+          // 関連天皇名
+          const relatedNames = Array.from(info.deities).slice(0, 3).map(did => {
+            const d = deityIdx[did];
+            return d ? d.canonical_name : did;
+          }).join('・');
+          const moreCount = info.deities.size - 3;
+
+          h += `<a href="${url}" class="deity-card">
+            <span class="deity-name">${escapeHtml(name)}</span>
+            ${reading && reading !== '-' ? `<span class="deity-reading">${escapeHtml(reading)}</span>` : ''}
+            <span class="deity-id"><code>${escapeHtml(cid)}</code></span>
+            ${clanType ? `<span class="deity-cat">${escapeHtml(clanType)}</span>` : ''}
+            ${peak ? `<span class="deity-notes">最盛期:${escapeHtml(peak)}</span>` : ''}
+            <span class="deity-notes">天皇:${escapeHtml(relatedNames)}${moreCount > 0 ? ` 他${moreCount}` : ''}</span>
+          </a>`;
+        });
+        h += `</div>`;
+      }
+      h += `</section>`;
+      if (hasAny) main.insertAdjacentHTML('beforeend', h);
+    }
   }
 })();
