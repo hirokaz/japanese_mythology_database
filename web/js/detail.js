@@ -245,6 +245,108 @@ async function renderClanProfile(record, outRels, inRels) {
     html += `</ul></div>`;
   }
 
+  // ===== 7.5 氏族系譜(親→自分→子・兄弟・婚姻先 を階層表示) =====
+  {
+    // 親氏族(自分が descended_from / parent_clan_of の target)
+    const parentClans = new Set();
+    outRels.filter(r => r.target_type === 'clan' && r.relation_type === 'descended_from')
+      .forEach(r => parentClans.add(r.target_id));
+    inRels.filter(r => r.source_type === 'clan' && r.relation_type === 'parent_clan_of')
+      .forEach(r => parentClans.add(r.source_id));
+
+    // 子氏族(自分が parent_clan_of の source)
+    const childClans = new Set();
+    outRels.filter(r => r.target_type === 'clan' && r.relation_type === 'parent_clan_of')
+      .forEach(r => childClans.add(r.target_id));
+    inRels.filter(r => r.source_type === 'clan' && r.relation_type === 'descended_from')
+      .forEach(r => childClans.add(r.source_id));
+
+    // 兄弟氏族(同じ親氏族を共有):全 relations から探索
+    const siblingClans = new Set();
+    if (parentClans.size > 0) {
+      const allRels = await DataLoader.load('relations');
+      parentClans.forEach(pid => {
+        allRels.forEach(r => {
+          if (r.relation_type === 'parent_clan_of' && r.source_id === pid &&
+              r.target_type === 'clan' && r.target_id !== record.master_id) {
+            siblingClans.add(r.target_id);
+          }
+          if (r.relation_type === 'descended_from' && r.target_id === pid &&
+              r.source_type === 'clan' && r.source_id !== record.master_id) {
+            siblingClans.add(r.source_id);
+          }
+        });
+      });
+    }
+
+    // 婚姻先
+    const marryClans = new Set();
+    outRels.filter(r => r.target_type === 'clan' && r.relation_type === 'married_into')
+      .forEach(r => marryClans.add(r.target_id));
+    inRels.filter(r => r.source_type === 'clan' && r.relation_type === 'married_into')
+      .forEach(r => marryClans.add(r.source_id));
+
+    const hasLineage = parentClans.size + childClans.size + siblingClans.size + marryClans.size > 0;
+    if (hasLineage) {
+      function pill(cid, isSelf) {
+        const c = ci[cid];
+        const url = DataLoader.detailUrl(cid);
+        const name = c ? c.canonical_name : cid;
+        const reading = c && c.canonical_reading && c.canonical_reading !== '-' ? c.canonical_reading : '';
+        if (isSelf) {
+          return `<span class="lineage-pill lineage-self">
+            <span class="pill-name">${escapeHtml(name)}</span>
+            <span class="pill-id">${escapeHtml(cid)}(本記録)</span>
+          </span>`;
+        }
+        return `<a href="${url}" class="lineage-pill">
+          <span class="pill-name">${escapeHtml(name)}</span>
+          ${reading ? `<span class="pill-note">${escapeHtml(reading)}</span>` : ''}
+          <span class="pill-id">${escapeHtml(cid)}</span>
+        </a>`;
+      }
+
+      html += `<div class="detail-section"><h2>氏族系譜(階層)</h2><div class="lineage-tree">`;
+
+      if (parentClans.size) {
+        html += `<div class="lineage-tier">
+          <span class="lineage-tier-label">親氏族(${parentClans.size})</span>
+          <div class="lineage-row">${Array.from(parentClans).map(id => pill(id)).join('')}</div>
+        </div>`;
+        html += `<div class="lineage-conn">↓</div>`;
+      }
+
+      html += `<div class="lineage-tier">
+        <span class="lineage-tier-label">自身</span>
+        <div class="lineage-row">${pill(record.master_id, true)}`;
+      if (marryClans.size) {
+        html += `<span style="align-self:center; color:#c9a878; font-weight:700; font-size:1.1em; margin:0 4px;">‒‒</span>`;
+        Array.from(marryClans).forEach(id => {
+          html += pill(id);
+        });
+        html += `<span style="align-self:center; color:#8b7560; font-size:0.8em; margin-left:6px;">(婚姻)</span>`;
+      }
+      html += `</div></div>`;
+
+      if (siblingClans.size) {
+        html += `<div class="lineage-tier">
+          <span class="lineage-tier-label">兄弟氏族(同じ親氏族から、${siblingClans.size})</span>
+          <div class="lineage-row">${Array.from(siblingClans).slice(0, 20).map(id => pill(id)).join('')}</div>
+        </div>`;
+      }
+
+      if (childClans.size) {
+        html += `<div class="lineage-conn">↓</div>`;
+        html += `<div class="lineage-tier">
+          <span class="lineage-tier-label">子氏族・分家(${childClans.size})</span>
+          <div class="lineage-row">${Array.from(childClans).slice(0, 30).map(id => pill(id)).join('')}</div>
+        </div>`;
+      }
+
+      html += `</div></div>`;
+    }
+  }
+
   // ===== 8. 氏族関係(子氏族・婚姻・対立・滅亡) =====
   const CLAN_REL_LABELS = {
     parent_clan_of: '子氏族(分家)',

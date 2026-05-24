@@ -387,6 +387,146 @@ pre {
   line-height: 1.45;
 }
 
+/* ===== Genealogy Tree (SVG) ===== */
+.genealogy-controls {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin: 16px 0 12px;
+  background: #fff; padding: 10px 14px;
+  border: 1px solid #e8ddc8; border-radius: 8px;
+}
+.gen-btn {
+  width: 38px; height: 32px;
+  border: 1px solid #d9c9a8;
+  background: #fdf7ef;
+  color: #4a3520;
+  border-radius: 4px;
+  font-weight: 700; font-size: 1em;
+  cursor: pointer;
+}
+.gen-btn:hover { background: #f4efe8; }
+#zoomReset { width: 60px; font-size: 0.85em; }
+.gen-legend { margin-left: auto; font-size: 0.85em; color: #6a5a45; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.legend-dot {
+  display: inline-flex; align-items: center;
+}
+.legend-dot::before {
+  content: "";
+  display: inline-block; width: 20px; height: 2px;
+  margin-right: 6px; vertical-align: middle;
+}
+.legend-parent::before { background: #8b3a3a; }
+.legend-marriage::before { background: #c9a878; border-top: 2px dashed #c9a878; height: 0; background: transparent; }
+.legend-ancestor::before { background: #5a8a5a; }
+
+.genealogy-wrap {
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #e8ddc8;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #fdf7ef 0%, #ffffff 100%);
+  padding: 6px;
+  max-height: 75vh;
+}
+#genealogySvg {
+  display: block;
+  transition: width 0.15s, height 0.15s;
+}
+
+/* SVG node */
+.node rect {
+  fill: #fff;
+  stroke: #4a3520;
+  stroke-width: 1.5;
+  transition: fill 0.15s;
+}
+.node:hover rect { fill: #fdf7ef; }
+.node text { pointer-events: none; }
+.node .node-name { font-size: 13px; font-weight: 700; fill: #4a3520; font-family: "Hiragino Sans", "Yu Gothic", sans-serif; }
+.node .node-reading { font-size: 9.5px; fill: #8b7560; font-family: "Hiragino Sans", "Yu Gothic", sans-serif; }
+.node .node-id { font-size: 9px; fill: #b09878; font-family: "SFMono-Regular", "Consolas", monospace; }
+
+.node-ancestor rect { fill: #f4efe8; stroke: #5a8a5a; }
+.node-kesshi rect { fill: #fff; stroke: #c9a878; stroke-dasharray: 4 3; }
+.node-empress rect { fill: #fcf6e8; stroke: #8b3a3a; }
+
+/* SVG edges */
+.edge { fill: none; }
+.edge-parent { stroke: #8b3a3a; stroke-width: 1.5; marker-end: none; }
+.edge-marriage { stroke: #c9a878; stroke-width: 1.5; stroke-dasharray: 4 3; }
+
+.genealogy-note {
+  margin-top: 14px;
+  font-size: 0.85em;
+  color: #6a5a45;
+  padding: 10px 14px;
+  background: #fdf3e0;
+  border-left: 3px solid #d68a3a;
+  border-radius: 4px;
+}
+
+/* ===== Clan Lineage Tree ===== */
+.lineage-tree {
+  background: linear-gradient(0deg, #fdf7ef 0%, #ffffff 100%);
+  border: 1px solid #e8ddc8;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0 0;
+}
+.lineage-tier {
+  margin-bottom: 14px;
+}
+.lineage-tier:last-child { margin-bottom: 0; }
+.lineage-tier-label {
+  display: inline-block;
+  font-size: 0.78em;
+  color: #8b7560;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: #f4efe8;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+.lineage-row {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.lineage-pill {
+  display: inline-flex; flex-direction: column;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid #e8ddc8;
+  border-radius: 6px;
+  text-decoration: none;
+  min-width: 120px;
+  transition: all 0.15s;
+}
+.lineage-pill:hover {
+  background: #fdf7ef;
+  border-color: #c9a878;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+.lineage-pill .pill-name { font-weight: 700; color: #4a3520; font-size: 0.95em; }
+.lineage-pill .pill-id { font-family: "SFMono-Regular", "Consolas", monospace; font-size: 0.75em; color: #8b7560; margin-top: 2px; }
+.lineage-pill .pill-note { color: #6a5a45; font-size: 0.78em; margin-top: 2px; }
+.lineage-self { background: #2c1810; }
+.lineage-self .pill-name { color: #f0c674; }
+.lineage-self .pill-id { color: #c9a878; }
+.lineage-conn {
+  text-align: center;
+  color: #c9a878;
+  font-size: 1.4em;
+  line-height: 0.6;
+  margin: -2px 0 6px;
+  letter-spacing: 0.4em;
+}
+
+@media (max-width: 760px) {
+  .gen-legend { width: 100%; margin-left: 0; }
+  .genealogy-wrap { max-height: 65vh; }
+}
+
 /* ===== Map embed ===== */
 .map-embed {
   position: relative;
