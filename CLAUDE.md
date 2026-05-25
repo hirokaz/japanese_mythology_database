@@ -193,6 +193,37 @@ speculation  (検証困難な仮説、L4-L5) ← 最下位、要警告
 - `source_backed` を捏造することは厳禁 (一次史料への遡及を必ず行う)
 - 詳細は `docs/civilization/12_terminology_glossary.md` 用語集を参照
 
+### 4.4 epistemology layer 原則 (DISC-006 採択)
+
+`verified_status` は単なる UI flag ではなく、本 DB の **epistemology layer (認識論の基盤)** そのもの。
+
+- `verified_status = institutional verifiability` (制度・史料・現存組織により確認可能)
+- `verified_status ≠ historical truth` (歴史的真実性そのものではない)
+- `verification_dimension = entity-specific epistemology` (entity 別に検証対象の意味が異なる)
+- `verified_at` / `verified_by` / `verification_source` = knowledge provenance (将来更新追跡)
+
+詳細は `docs/discussions/DISC-006_resolution.md` および `docs/civilization/12_terminology_glossary.md` 参照。
+
+### 4.5 mythologem layer 原則 (DISC-007 採択)
+
+mythologem (Level 2: motif と政治構造の中間層) を扱う際の規律:
+
+- mythologem は研究者の抽象 = `inference_type=symbolic` 必須
+- 単一理論固定は避け、`theoretical_framework` multi-tag を許容 (structuralist / archetypal / ritual-functional / political-legitimacy)
+- 世界神話比較は慎重 (false equivalence / Indo-European bias / archetype overgeneralization のリスク)
+- 「全神話を抽象構造へ還元できる」幻想を排し、**multi-layered structural overlays** として扱う
+- 日本神話の地方差・時代差・編集層・習合を尊重
+
+### 4.6 sacred topology 原則 (DISC-008 採択)
+
+GIS 統合時の規律:
+
+- **「地図でロマンを演出するではなく、構造を検証可能にする」** (Codex 規律)
+- `coordinates_accuracy` (exact/approximate/inferred/unknown) で精度の幻想を排する
+- `visualization_confidence` (archaeological/textual/inferred/speculative) で layer 根拠強度を明示
+- Narrative intoxication 警告: 線が引ける・近くにある・分布が似ているだけで歴史的因果を断定しない
+- 実線 (source-backed) / 点線 (inferred) / グレー (speculative) で関係性の質を視覚化
+
 ---
 
 ## 5. ディレクトリ構成

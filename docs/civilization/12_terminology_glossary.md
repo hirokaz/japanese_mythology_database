@@ -190,6 +190,98 @@ speculation (検証困難な仮説、L4-L5)
 
 ---
 
+## DISC-006 由来 (verified_status epistemology)
+
+### Institutionally Verifiable
+**「制度・史料・現存組織により存在確認可能」**な状態。`historically_true` (歴史的真実そのもの) とは区別する。
+
+例:
+- 式内社・名神大社 → institutionally_verifiable (古代制度に記載)
+- 一宮 → institutionally_verifiable (中世以降の制度的確立)
+- 神社庁公式に登録 → institutionally_verifiable (現代組織で実在確認)
+
+→ `verified_status = verified` は institutional verifiability を意味し、歴史的真実性は別問題。
+
+### Verification Dimension (Codex 提案、entity 別意味)
+entity ごとに「検証対象」の意味が異なる:
+
+| Entity | Dimension | 検証対象 |
+|---|---|---|
+| shrine | `existence` | 実在性 (神社庁・公式サイト・現地確認) |
+| deity | `textual` | 文献・伝統 attestation (記紀・延喜式) |
+| motif | `interpretive` | 解釈の安定性 (研究者間で確立) |
+| clan | `genealogical` | 系譜証拠の質 (公卿補任・尊卑分脈) |
+| ritual / festival | `ritual` | 祭祀継承の実証 (文化財指定・代々継承) |
+
+### Knowledge Provenance
+**verification の出所 + 時刻 + 検証者を記録**することで、将来の再検証や情報更新を可能にする原則。
+
+- `verified_at`: ISO8601
+- `verified_by`: agent | reviewer | claude | codex | human
+- `verification_source`: URL or 出典
+
+---
+
+## DISC-007 由来 (mythologem layer)
+
+### Mythologem (神話素)
+個別神話を超えた**抽象パターン**。motif (Level 1) の上位、政治構造 (Level 3) の下位の Level 2。
+
+例: boundary_traversal / legitimacy_transfer / concealment_revelation / marriage_integration / exchange_gift / death_rebirth / center_periphery_integration / periodic_renewal / divine_descent / succession_dispute
+
+### Multi-Framework Coexistence (Codex 提案)
+複数の神話理論を**並存タグ付与**する。単一理論固定回避。
+
+theoretical_framework 候補:
+- `structuralist` (レヴィ=ストロース型)
+- `archetypal` (ユング・キャンベル型)
+- `ritual-functional` (フレイザー・マリノフスキー型)
+- `political-legitimacy` (実用主義型、本 DB の中核)
+
+### Multi-Layered Structural Overlays (Codex 規律)
+**「全神話を抽象構造へ還元できる」幻想を排する**原則。日本神話は地方差・時代差・編集層・習合が大きく、single canonical interpretation ではなく multi-layered overlays として扱う。
+
+→ 1 つの motif が複数 mythologem に属する**多対多接続**を採用 (Codex 推奨)。
+
+---
+
+## DISC-008 由来 (sacred topology)
+
+### Sacred Topology (Codex 概念)
+神社・祭祀地が形成する**地理的構造**。単なる地点配置ではなく、network として意味を持つ topology:
+
+- maritime_corridors: 海上守護神社網 (住吉系・宗像・志賀海・気比・若狭彦)
+- mountain_worship_chains: 山岳信仰連環 (出羽三山・吉野・高野・伯耆大山)
+- river_basin_ritual: 河川流域祭祀
+- fault_line_alignments: 断層と神社 (中央構造線・諏訪・大神・剣山)
+- pilgrimage_paths: 巡礼路 (熊野古道・西国 33・四国 88)
+
+### Evolving Ritual Topology (Codex 概念)
+**時間軸を持つ神社ネットワーク変化**。static atlas ではなく temporal graph:
+
+- 勧請 event (宇佐 → 石清水 859 → 鶴岡 1063)
+- 分祀 event (八幡 4 万社の段階的展開)
+- 遷宮 event (伊勢式年遷宮 62 回)
+- 神階授与 event (三代実録数千件)
+- 一宮化 event (8 世紀後半)
+
+### Visualization Confidence (Codex 提案)
+GIS layer ごとの**根拠強度**を明示:
+- archaeological (考古学根拠)
+- textual (文献根拠)
+- inferred (妥当な推論)
+- speculative (検証困難仮説)
+
+### Narrative Intoxication 警告 (Codex 規律)
+GIS が引き起こす**因果誤認のリスク**。「線が引ける・近くにある・分布が似ている」だけで歴史的因果を断定しない。
+
+UI 表示:
+- 実線 = source-backed relation
+- 点線 = inferred relation
+- グレー = speculative correlation
+
+---
+
 ## 関連
 
 - DISC-005 (#238) 解決報告: `docs/discussions/DISC-005_resolution.md`
