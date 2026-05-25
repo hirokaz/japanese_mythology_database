@@ -29,3 +29,21 @@ MOTIF-026	NL-027	中世 武家神話化	1185	1573	倭建命東征と接続、武
 MOTIF-026	NL-028	近世 復古解釈	17C	19C	本居宣長等の国学的解釈、神話の純粋化	overlay	古事記伝|国学著作	source_backed	近世復古、近代国家神道の前駆
 MOTIF-026	NL-029	近代 国家神話化	1868	1945	国家神道下で英雄神話の中核、武勇神格化	overwrite	国民教育記録|戦前教科書	source_backed	近代政治的利用
 MOTIF-026	NL-030	現代 比較神話学	1945	present	Indo-European dragon-slayer motif との比較、植民地期言説への警戒	overlay	戦後比較神話学|本 DB	source_backed	multi-framework 解釈、archetypal 還元への注意
+SHR-012	NL-031	古代 (768 創建)	768	850	神護景雲 2 年(768) 創建、藤原氏祖神祭祀の中心化	overlay	春日大社縁起|続日本紀	source_backed	藤原氏祭祀権確立期
+SHR-012	NL-032	律令-平安期	850	1185	850 春日祭勅祭化、摂関期で氏神祭祀全盛、興福寺との一体運営	overlay	延喜式|春日大社縁起|長秋記	source_backed	神仏習合の確立
+SHR-012	NL-033	中世	1185	1573	武家による崇敬、若宮おん祭 (1003-) 庶民化、藤原氏支配後継承	overlay	春日大社旧記	source_backed	武家保護下
+SHR-012	NL-034	近世	1573	1868	徳川幕府庇護、奈良奉行所管轄、神仏習合継続	overlay	春日大社旧記|地誌	source_backed	徳川氏神社の影響軽微
+SHR-012	NL-035	近代 国家神道	1868	1945	興福寺との分離、官幣大社、純粋神道化	overwrite	太政官布告|官報	source_backed	神仏分離で空間意味変容
+SHR-012	NL-036	現代 文化財化	1945	present	1998 古都奈良の文化財として世界遺産、観光化	overlay	UNESCO 申請書|神社本庁記録	source_backed	世界遺産物語
+SHR-015	NL-037	古代 (神功皇后伝)	神功期	794	神功皇后三韓征討伝での祭祀起源、海上守護神の祖型	overlay	日本書紀|住吉縁起	inferential	海人族祭祀の伝承
+SHR-015	NL-038	律令-平安期	794	1185	名神大社、22 社、住吉三神祭祀の体系化、和歌の神格化	overlay	延喜式|住吉大社神代記|貫之等和歌	source_backed	国家祭祀+文芸守護
+SHR-015	NL-039	中世	1185	1573	海上交通守護神化、本地仏接続、漁民・海商信仰拡大	overlay	住吉大社旧記	source_backed	習合期
+SHR-015	NL-040	近世	1573	1868	住吉踊り等の民間信仰拡散、商業神格化	overlay	住吉大社旧記|地誌	source_backed	庶民信仰化
+SHR-015	NL-041	近代 国家神道	1868	1945	神仏分離で習合層消失、官幣大社、海軍守護神化	overwrite	太政官布告|官報	source_backed	近代軍国主義との接続注意
+SHR-015	NL-042	現代	1945	present	初詣 200 万人規模、海上守護網 (住吉系) の中核として商業繁栄	overlay	神社本庁記録	source_backed	商業神格化
+MOTIF-009	NL-043	古代 (8C 顕現)	720	794	宇佐神宮での八幡神顕現、応神天皇神格同体説の形成	overlay	八幡宇佐宮御託宣集|続日本紀	source_backed	八幡神話の祖型
+MOTIF-009	NL-044	律令-平安期	794	1185	道鏡事件 (769) で皇統守護神化、859 石清水勧請で京都展開、本地仏 (阿弥陀) 確立	overlay	続日本紀|八幡縁起	source_backed	国家八幡 + 仏教習合
+MOTIF-009	NL-045	中世 武家神格	1185	1573	源氏氏神 (1063 鶴岡)、放生会の地方展開、八幡 5 層分祀網 4 万社規模	overlay	吾妻鏡|太平記	source_backed	武家信仰の中核
+MOTIF-009	NL-046	近世	1573	1868	幕府庇護下、本地垂迹体系完成 (八幡 = 阿弥陀如来)	overlay	宇佐神宮旧記|寺社奉行記録	source_backed	習合期完成
+MOTIF-009	NL-047	近代 国家神道	1868	1945	弥勒寺廃絶 (1868、BRK-023)、八幡神 = 応神天皇純粋同体説 (DEI-182) 確立	overwrite	太政官布告|国学者著作	source_backed	本地垂迹完全消失
+MOTIF-009	NL-048	現代	1945	present	戦後初詣文化、八幡神社 4 万社の地方継承、放生会保存	overlay	神社本庁記録	source_backed	祭祀継承

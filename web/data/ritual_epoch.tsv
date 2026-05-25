@@ -29,3 +29,13 @@ RTE-027	FES-040	那智三山滝祭	古代	present	1	year	不明	continuous	ritua
 RTE-028	FES-033	新嘗祭	古代	present	1	year	不明	continuous	ritual|seasonal|architecture	civilizational	agricultural|political	mythic_time	mythic	日本書紀|延喜式	source_backed	宮中・全国神社で11月23日 (旧暦11月卯日) に執行。明治改暦以降 civilizational sync
 RTE-029	FES-011	鎮魂祭	古代	present	1	year	不明	continuous	ritual|lineage	civilizational	political	mythic_time	mythic	延喜式|神祇令義解	source_backed	宮中、新嘗祭前夜。天皇魂の周期更新
 RTE-030	FES-028	月次祭	古代	present	1	month	不明	continuous	ritual|seasonal	civilizational	seasonal	approximate	absolute	延喜式|令義解	source_backed	伊勢神宮を中心とした月毎の祭儀。最短周期の civilizational sync
+RTE-031	FES-022	長崎くんち	1634	present	1	year	391	active	ritual|architecture	local	political	exact	absolute	寛永11年記|諏訪神社縁起	source_backed	諏訪神社 (長崎)、寛永 11 年 (1634) 以来。海外貿易期の長崎独自
+RTE-032	FES-017	先帝祭	1185	present	1	year	840	active	ritual|architecture	regional	political	exact	absolute	平家物語|赤間神宮旧記	source_backed	元暦 2 年 (1185) 安徳天皇崩御以来、赤間神宮 (下関)
+RTE-033	FES-037	男鹿のナマハゲ	伝古代	present	1	year	不明	continuous	ritual|oral|seasonal	local	seasonal	mythic_time	mythic	男鹿地方民俗誌	inferential	古代以前 L3。ユネスコ無形文化遺産 (2018)
+RTE-034	FES-027	斎場御嶽聞得大君儀礼	1469	1879	即位毎	reign	15	terminated	ritual|architecture|lineage	regional	political	exact	absolute	中山世鑑|聞得大君関連文書	source_backed	琉球第二尚氏期。1879 琉球処分で消滅
+RTE-035	FES-036	厳島神社管絃祭	平安末期	present	1	year	不明	continuous	ritual|architecture|maritime	regional	political|cosmic	approximate	absolute	厳島神社旧記|平家納経関連	source_backed	平清盛厳島参詣後継承、厳島神社 (世界遺産)
+RTE-036	FES-035	安房国祭礼	古代	present	1	year	不明	continuous	ritual|architecture	regional	political	approximate	relative	安房国造神社縁起|延喜式	inferential	安房国一宮の祭礼、海人系祭祀
+RTE-037	FES-038	諏訪御射山祭	古代以前	present	1	year	不明	continuous	ritual|geography|oral	local	agricultural|seasonal	mythic_time	mythic	諏訪大明神画詞	inferential	L1-L2、古代狩猟祭祀の残存仮説
+RTE-038	FES-010	鎮花祭	古代	present	1	year	不明	continuous	ritual|seasonal	civilizational	agricultural|seasonal	mythic_time	mythic	延喜式|大神神社縁起	source_backed	大神神社・狭井神社、花鎮めの古代祭祀
+RTE-039	FES-030	節分祭(吉田神社)	平安期	present	1	year	不明	continuous	ritual|seasonal	regional	seasonal	approximate	absolute	吉田神社旧記	source_backed	吉田神社、平安期から継承。吉田神道復古期に強化
+RTE-040	FES-032	大祭礼(出雲)	古代	present	1	year	不明	continuous	ritual|architecture|lineage	regional	political|cosmic	mythic_time	mythic	出雲国造神賀詞|出雲大社縁起	source_backed	出雲大社の大祭礼、神在祭と並ぶ重要祭祀

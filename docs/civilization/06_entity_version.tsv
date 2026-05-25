@@ -29,3 +29,33 @@ SHR-016	V03	中世	1185	1573	maintained	maintained	warrior_godhead(源氏氏神)
 SHR-016	V04	近世	1573	1868	maintained	maintained	traditional+pilgrimage	syncretic	exact	low	maintained	low	宇佐神宮旧記	source_backed	宇佐神宮神宮寺 (弥勒寺) 全盛期、本地垂迹体系完成
 SHR-016	V05	近代	1868	1945	rebuilt(神宮寺廃絶)	maintained	national_shinto(官幣大社)	state_canonical	exact	high	reconstructed	low	太政官布告|官報	source_backed	BRK-023 1868 弥勒寺廃絶、神仏分離で本地仏体系消失
 SHR-016	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+heritage	exact	low	maintained	low	神社本庁記録	source_backed	八幡網総本社、放生会継続。神仏習合期の物理痕跡は失われたが祭祀継承
+SHR-012	V01	古代	8C	768	inferred	inferred	official(神祇官)	mythic	exact	low	low	original	春日大社縁起|延喜式	inferential	神護景雲 2 年(768) 創建伝、藤原氏祖神祭祀の中心化
+SHR-012	V02	律令-平安期	768	1185	maintained	maintained	official(春日祭 850 勅祭)	state_canonical+clan_centric	exact	low	low	original	延喜式|続日本後紀|春日大社縁起	source_backed	850 春日祭勅祭化、藤原摂関期で氏神祭祀全盛
+SHR-012	V03	中世	1185	1573	maintained	maintained	partial(摂関家+武家)	syncretic(神仏習合)	exact	low	low	original	春日大社縁起|興福寺記録	source_backed	興福寺との一体運営、若宮おん祭継承 (1003-)
+SHR-012	V04	近世	1573	1868	maintained	maintained	traditional	syncretic	exact	low	low	maintained	春日大社旧記|地誌	source_backed	徳川幕府庇護下、神仏習合継続
+SHR-012	V05	近代	1868	1945	rebuilt(神宮寺廃絶)	maintained	national_shinto(官幣大社)	state_canonical	exact	high	medium	reconstructed	太政官布告|官報	source_backed	興福寺との分離、神仏分離で本地仏体系消失
+SHR-012	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+world_heritage	exact	low	low	maintained	UNESCO 申請書|神社本庁記録	source_backed	1998 古都奈良の文化財として世界遺産
+SHR-013	V01	古代	欽明朝(伝)	794	inferred	inferred	mythic	mythic	exact	low	high	original	賀茂縁起|延喜式	inferential	欽明天皇治世(540頃)創祀伝、丹塗矢神婚伝説
+SHR-013	V02	律令-平安期	794	1185	maintained	maintained	official(山城国一宮)	state_canonical+imperial	exact	low	low	original	延喜式|新撰姓氏録	source_backed	名神大社、22 社、葵祭 (勅祭三社)、賀茂競馬 1093-
+SHR-013	V03	中世	1185	1573	maintained	maintained	partial(摂関家+武家)	syncretic	exact	low	low	original	吾妻鏡|諸記録	source_backed	式年遷宮継承、神仏習合下で本地仏接続
+SHR-013	V04	近世	1573	1868	maintained	maintained	traditional	syncretic	exact	low	low	maintained	賀茂縁起|地誌	source_backed	幕府庇護下、葵祭継承
+SHR-013	V05	近代	1868	1945	rebuilt(神宮寺廃絶)	maintained	national_shinto(官幣大社)	state_canonical	exact	medium	medium	reconstructed	太政官布告|官報	source_backed	神仏分離で習合層消失、純粋神道化
+SHR-013	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+world_heritage	exact	low	low	maintained	UNESCO 申請書|神社本庁記録	source_backed	1994 古都京都の文化財として世界遺産
+SHR-015	V01	古代-上代	神功皇后期(伝)	794	inferred	inferred	mythic+海上守護	mythic	exact	low	high	original	住吉縁起|日本書紀	inferential	神功皇后三韓征討伝での祭祀起源、海上交通要衝
+SHR-015	V02	律令-平安期	794	1185	maintained	maintained	official(摂津国一宮)	state_canonical	exact	low	low	original	延喜式|住吉大社神代記	source_backed	名神大社、22 社、住吉三神祭祀の体系化
+SHR-015	V03	中世	1185	1573	maintained	maintained	partial(武家+漁民)	syncretic+maritime	exact	low	low	original	住吉大社旧記	source_backed	海上交通守護、本地仏接続
+SHR-015	V04	近世	1573	1868	maintained	maintained	traditional	syncretic+popular	exact	low	low	maintained	住吉大社旧記|地誌	source_backed	住吉踊り等の民間信仰拡散
+SHR-015	V05	近代	1868	1945	rebuilt(神宮寺廃絶)	maintained	national_shinto(官幣大社)	state_canonical	exact	medium	medium	reconstructed	太政官布告|官報	source_backed	神仏分離で習合層消失
+SHR-015	V06	現代	1945	present	maintained	maintained	shrine_association	cultural	exact	low	low	maintained	神社本庁記録	source_backed	海上守護網 (住吉系) の中核、初詣 200 万人規模
+SHR-014	V01	古代	欽明朝(伝)	794	inferred	inferred	mythic	mythic	exact	low	high	original	賀茂縁起	inferential	上賀茂と対の創祀伝、賀茂氏祭祀
+SHR-014	V02	律令-平安期	794	1185	maintained	maintained	official(山城国一宮)	state_canonical	exact	low	low	original	延喜式|新撰姓氏録	source_backed	名神大社、22 社、葵祭 (上賀茂と一体)
+SHR-014	V03	中世	1185	1573	maintained	maintained	partial	syncretic	exact	medium	low	original	中世記録	source_backed	御阿礼神事から御蔭祭へ変容開始
+SHR-014	V04	近世	1573	1868	maintained	maintained	traditional	syncretic	exact	low	low	maintained	賀茂縁起|地誌	source_backed	幕府庇護下、伝統継承
+SHR-014	V05	近代	1868	1945	rebuilt	maintained	national_shinto(官幣大社)	state_canonical	exact	medium	medium	reconstructed	太政官布告|官報	source_backed	神仏分離で習合層消失、御阿礼から御蔭祭が国家祭祀化 (BRK-019)
+SHR-014	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+world_heritage	exact	low	low	maintained	UNESCO 申請書|神社本庁記録	source_backed	1994 古都京都の文化財として世界遺産
+SHR-011	V01	古代-上代	崇神朝(伝)	8C	inferred	inferred	mythic+物部氏	mythic	exact	low	high	original	日本書紀|石上神宮旧記	inferential	崇神朝の神剣奉斎伝、物部氏祭祀の中心
+SHR-011	V02	律令期	8C	587	maintained	maintained	official+物部氏	state_canonical+clan_centric	exact	low	low	original	日本書紀|先代旧事本紀	source_backed	物部守屋まで物部氏祭祀権
+SHR-011	V03	中世	587	1573	inferred	broken→partial	partial(物部氏滅亡後)	reduced	exact	high	low	partial_revival	日本書紀|諸記録	source_backed	丁未の乱 (587) で物部氏滅亡、祭祀権縮小
+SHR-011	V04	近世	1573	1868	maintained	maintained	traditional	reduced	exact	low	low	maintained	石上神宮旧記	source_backed	徳川幕府庇護下、伝統継承
+SHR-011	V05	近代	1868	1945	rebuilt	maintained	national_shinto	state_canonical	exact	low	low	maintained	官報|石上神宮旧記	source_backed	神仏分離影響限定、神宮として再評価
+SHR-011	V06	現代	1945	present	maintained	maintained	shrine_association	cultural	exact	low	low	maintained	神社本庁記録	source_backed	布留遺跡 (考古学) と接続、古層継承
