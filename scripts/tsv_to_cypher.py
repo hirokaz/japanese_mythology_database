@@ -49,6 +49,10 @@ MASTERS = [
     ('docs/civilization/01_motif_db.tsv', 'Motif',   'motif_id'),
     ('docs/civilization/02_mythologem_master.tsv', 'Mythologem', 'mythologem_id'),
     ('docs/master/emperor_master.tsv', 'Emperor', 'emperor_id'),
+    # DISC-012 採択 — 第 8 軸 (時間)
+    ('docs/civilization/03_ritual_epoch.tsv', 'RitualEpoch', 'epoch_id'),
+    ('docs/civilization/04_continuity_break.tsv', 'ContinuityBreak', 'break_id'),
+    ('docs/civilization/05_persistence_medium.tsv', 'PersistenceMedium', 'entry_id'),
 ]
 
 # --- Relation ontology (DISC-010 採択、6 category) ---
@@ -108,6 +112,14 @@ RELATION_ONTOLOGY = {
     'contemporaneous_with':   'SYNCHRONIZATION',
     'kanjo_from':             'SYNCHRONIZATION',  # DISC-008 採用予定
     'shinkai_to':             'SYNCHRONIZATION',  # DISC-008 採用予定
+    # civilizational_sync: 文明同期 (DISC-012 採択、第 7 category)
+    'synchronizes':                'CIVILIZATIONAL_SYNC',
+    'refreshes':                   'CIVILIZATIONAL_SYNC',
+    'reaffirms':                   'CIVILIZATIONAL_SYNC',
+    'reinterpreted_in':            'CIVILIZATIONAL_SYNC',
+    'reactivated_after':           'CIVILIZATIONAL_SYNC',
+    'mutated_into':                'CIVILIZATIONAL_SYNC',
+    'persists_via':                'CIVILIZATIONAL_SYNC',
 }
 
 # source_type / target_type → Neo4j label

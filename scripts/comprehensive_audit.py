@@ -67,6 +67,9 @@ def check_id_format() -> dict:
         'docs/master/emperor_master.tsv': ('emperor_id', r'^EMP-\d{3}$'),
         'docs/civilization/01_motif_db.tsv': ('motif_id', r'^MOTIF-\d{3,4}$'),
         'docs/civilization/02_mythologem_master.tsv': ('mythologem_id', r'^MTGM-\d{3}$'),
+        'docs/civilization/03_ritual_epoch.tsv': ('epoch_id', r'^RTE-\d{3}$'),
+        'docs/civilization/04_continuity_break.tsv': ('break_id', r'^(BRK|RTR)-\d{3}$'),
+        'docs/civilization/05_persistence_medium.tsv': ('entry_id', r'^PM-\d{3}$'),
     }
     bad = {}
     for path_str, (field, pattern) in expected.items():
