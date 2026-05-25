@@ -1,0 +1,31 @@
+entity_id	layer_id	epoch	epoch_start	epoch_end	interpretation_text	is_overlay_or_overwrite	source_reference	inference_type	notes
+SHR-009	NL-001	祭祀古層 (海人族)	4C	9C	沖津宮祭祀遺跡を中心とした海人族の海上交通祭祀。考古学的祭祀層 (古墳期)	overlay	沖津宮祭祀遺跡|考古学報告	source_backed	律令祭祀以前の古層、考古学から再構成
+SHR-009	NL-002	律令期国家祭祀	8C	12C	延喜式神名帳での名神大社認定。三女神祭祀の制度化	overlay	延喜式神名帳|宗像大社旧記	source_backed	古代海人系祭祀が国家祭祀へ統合
+SHR-009	NL-003	中世神仏習合	12C	16C	神宮寺併設、本地仏接続 (三女神 = 観音菩薩等)。武家保護	overlay	宗像縁起|諸記録	inferential	習合期独自の解釈、近世継承
+SHR-009	NL-004	近世宗像三女神確立	17C	19C	宗像三女神 (田心姫・湍津姫・市杵島姫) 三宮配置の体系完成	overlay	神社略縁起|地誌	inferential	近世神学による解釈整理
+SHR-009	NL-005	近代国家神道再編	1871	1945	官幣大社、辺津宮中心の祭祀統一	overwrite	官報|明治政府記録	source_backed	BRK-005 神社合祀影響、祭祀規模変化
+SHR-009	NL-006	現代世界遺産化	2017	present	UNESCO 世界遺産「神宿る島」物語化	overlay	UNESCO 申請書	source_backed	国際的物語、L01-L02 の考古/制度的事実を上書きしない注意必要
+SHR-016	NL-007	祖型期 八幡神原始	古代	8C	宇佐地方の在地信仰、海人族祭祀の影響。仏教伝来後に統合	overlay	続日本紀|八幡縁起	inferential	八幡神の原始層、明確な祖型は不明
+SHR-016	NL-008	律令期 国家八幡	720	1185	続日本紀での八幡神認定、769 道鏡事件で皇統守護神化	overlay	続日本紀|八幡宇佐宮御託宣集	source_backed	国家祭祀化、本地仏 (阿弥陀如来) 接続
+SHR-016	NL-009	中世 武家氏神	1185	1573	源氏氏神化、特に源頼義 (1063 鶴岡勧請)。八幡 5 層分祀網確立	overlay	吾妻鏡|太平記	source_backed	武家神格化、放生会の地方拡散
+SHR-016	NL-010	近世 神仏習合完成	17C	1868	弥勒寺との一体運営、本地垂迹体系完成	overlay	宇佐神宮旧記|寺社奉行記録	inferential	習合期の体系完成、近代で物理的痕跡消失
+SHR-016	NL-011	近代 純粋神道化	1868	1945	BRK-023 弥勒寺廃絶、八幡神 = 応神天皇 (DEI-182) 同体説確立	overwrite	太政官布告|国学者著作	source_backed	本地垂迹体系完全消失、皇統神格化
+SHR-016	NL-012	現代 文化財化	1945	present	放生会継承、観光化・文化財化進行	overlay	神社本庁記録|地誌	source_backed	祭祀継承と観光化の並存
+MOTIF-001	NL-013	古事記成立期 (神話の編纂)	712	720	国譲り神話の文献化。出雲祭祀権の朝廷化を神話的に正統化	overlay	古事記|日本書紀	source_backed	編纂期の政治的読解 (上田正昭・井上光貞)
+MOTIF-001	NL-014	延喜式期 (国造神賀詞)	927	平安	出雲国造神賀詞の制度化 (霊亀 2-寛弘 2 で 26 例)	overlay	延喜式|神賀詞記録	source_backed	国譲り神話の儀礼的体現
+MOTIF-001	NL-015	中世 神道化	13C	16C	伊勢神道・両部神道で再解釈、出雲神話の宇宙論化	overlay	伊勢神道書|両部神道書	inferential	中世独自の解釈、近代と異なる
+MOTIF-001	NL-016	近世 国学解釈	17C	19C	本居宣長「古事記伝」(1798) で国学的再解釈、神道復古運動の中核	overlay	古事記伝|平田篤胤著作	source_backed	国学による近世再構築、明治国家神道の前駆
+MOTIF-001	NL-017	近代 国家神道神話	1868	1945	国家神道下で皇統正統化神話として再編、出雲服属の象徴	overwrite	国民教育記録|戦前教科書	source_backed	近代政治的利用、戦後批判の対象
+MOTIF-001	NL-018	現代 学術解釈	1945	present	学術的批判検討 (上田正昭・井上光貞・松前健等)、political-legitimacy 読解確立	overlay	戦後神話学|本 DB	source_backed	multi-framework 解釈の並存
+MOTIF-002	NL-019	古事記成立期 (天孫降臨)	712	720	ニニギの高千穂降臨、皇統の天上起源を確立	overlay	古事記|日本書紀	source_backed	皇統正統化神話の中核
+MOTIF-002	NL-020	律令期 国家祭祀	794	1185	伊勢神宮祭祀との連動、皇祖神信仰の体系化	overlay	延喜式|皇大神宮儀式帳	source_backed	国家祭祀化
+MOTIF-002	NL-021	中世 神仏習合	12C	16C	本地仏との接続、天孫降臨の宇宙論的解釈	overlay	中世神道書	inferential	習合期独自解釈
+MOTIF-002	NL-022	近世 国学復興	17C	19C	高千穂比定論争 (日向 vs 霧島) の活発化	overlay	古事記伝|国学論争	source_backed	地理的投影が L2-L4 領域へ
+MOTIF-002	NL-023	近代 国家神道	1868	1945	皇紀神武紀元の制度化、神武創業神話と接続	overwrite	国民教育記録	source_backed	近代政治的利用、戦後批判
+MOTIF-002	NL-024	現代 学術検討	1945	present	multi-framework 解釈、Indo-European 比較への警戒	overlay	戦後神話学|本 DB	source_backed	大林太良「天界系神話」等の多角検討
+MOTIF-026	NL-025	古事記成立期 (ヤマタノオロチ)	712	720	素戔嗚の大蛇退治、草薙剣顕現	overlay	古事記|日本書紀	source_backed	monster_subjugation mythologem の典型 (MTGM-018)
+MOTIF-026	NL-026	律令期 神剣信仰	794	1185	熱田神宮の草薙剣奉斎、皇位継承神器化	overlay	延喜式|熱田神宮縁起	source_backed	sword_revelation mythologem 接続 (MTGM-012)
+MOTIF-026	NL-027	中世 武家神話化	1185	1573	倭建命東征と接続、武家英雄譚化	overlay	平家物語|太平記	inferential	武家神格化、英雄譚の地方化
+MOTIF-026	NL-028	近世 復古解釈	17C	19C	本居宣長等の国学的解釈、神話の純粋化	overlay	古事記伝|国学著作	source_backed	近世復古、近代国家神道の前駆
+MOTIF-026	NL-029	近代 国家神話化	1868	1945	国家神道下で英雄神話の中核、武勇神格化	overwrite	国民教育記録|戦前教科書	source_backed	近代政治的利用
+MOTIF-026	NL-030	現代 比較神話学	1945	present	Indo-European dragon-slayer motif との比較、植民地期言説への警戒	overlay	戦後比較神話学|本 DB	source_backed	multi-framework 解釈、archetypal 還元への注意

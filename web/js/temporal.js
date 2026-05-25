@@ -265,4 +265,53 @@
 
   document.getElementById('entityFilter').addEventListener('change', renderVersions);
   document.getElementById('epochFilterVer').addEventListener('change', renderVersions);
+
+  // === Narrative Layer (Phase 3) ===
+  let narratives = [];
+  fetch('../data/narrative_layer.tsv')
+    .then(r => r.text())
+    .then(text => {
+      const parsed = parseTsv(text);
+      narratives = parsed.rows;
+      renderNarratives();
+    })
+    .catch(e => {
+      document.getElementById('narrativeList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function renderNarratives() {
+    const ef = document.getElementById('narrativeEntityFilter').value;
+    const of = document.getElementById('overlayFilter').value;
+    const filtered = narratives.filter(n => {
+      if (ef && n.entity_id !== ef) return false;
+      if (of && n.is_overlay_or_overwrite !== of) return false;
+      return true;
+    });
+    document.getElementById('narrativeStats').textContent =
+      `${filtered.length} / ${narratives.length} 件`;
+
+    const html = filtered.map(n => {
+      const overwriteBadge = n.is_overlay_or_overwrite === 'overwrite' ?
+        '<span class="badge-rewrite">overwrite</span>' :
+        '<span class="badge-medium medium-strong">overlay</span>';
+      return `
+        <div class="timeline-item ${n.is_overlay_or_overwrite === 'overwrite' ? 'rewrite' : ''}">
+          <h3>${escapeHtml(n.entity_id)} ${escapeHtml(n.layer_id)} — ${escapeHtml(n.epoch)}</h3>
+          <div class="ti-meta">
+            <span class="ti-period">${escapeHtml(n.epoch_start)} → ${escapeHtml(n.epoch_end)}</span>
+            ${overwriteBadge}
+          </div>
+          <div class="ti-meta" style="margin-top: 6px; line-height: 1.55;">${escapeHtml(n.interpretation_text)}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(n.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(n.source_reference || '?')} · inference: ${escapeHtml(n.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('narrativeList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('narrativeEntityFilter').addEventListener('change', renderNarratives);
+  document.getElementById('overlayFilter').addEventListener('change', renderNarratives);
 })();

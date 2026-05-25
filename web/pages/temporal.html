@@ -102,6 +102,7 @@
     <div class="temporal-tab" data-tab="break">Continuity Break (32)</div>
     <div class="temporal-tab" data-tab="medium">Persistence Medium (50)</div>
     <div class="temporal-tab" data-tab="version">Entity Version (30)</div>
+    <div class="temporal-tab" data-tab="narrative">Narrative Layer (30)</div>
   </div>
 
   <!-- Ritual Epoch -->
@@ -212,6 +213,33 @@
       <span id="versionStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
     </div>
     <div id="versionList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Narrative Layer -->
+  <section class="temporal-section" id="section-narrative">
+    <h2 class="section-title">Narrative Layer (神話・物語の積層)</h2>
+    <p class="section-lead">5 entity × 6 epoch = 30 件。神話・縁起・解釈の <strong>multi-layered overlays</strong> (DISC-007 + DISC-012 整合)。神仏習合/廃仏毀釈/国家神道による上書きと積層を区別。</p>
+    <div class="filter-row">
+      <label>entity:
+        <select id="narrativeEntityFilter">
+          <option value="">全て</option>
+          <option value="SHR-009">宗像大社 (SHR-009)</option>
+          <option value="SHR-016">宇佐神宮/八幡神 (SHR-016)</option>
+          <option value="MOTIF-001">国譲り神話 (MOTIF-001)</option>
+          <option value="MOTIF-002">天孫降臨 (MOTIF-002)</option>
+          <option value="MOTIF-026">ヤマタノオロチ (MOTIF-026)</option>
+        </select>
+      </label>
+      <label>is_overlay_or_overwrite:
+        <select id="overlayFilter">
+          <option value="">全て</option>
+          <option value="overlay">overlay (積層)</option>
+          <option value="overwrite">overwrite (上書き)</option>
+        </select>
+      </label>
+      <span id="narrativeStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="narrativeList" class="timeline-list">読み込み中…</div>
   </section>
 </main>
 

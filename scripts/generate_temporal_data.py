@@ -21,6 +21,7 @@ SOURCES = [
     ('docs/civilization/04_continuity_break.tsv', 'continuity_break.tsv'),
     ('docs/civilization/05_persistence_medium.tsv', 'persistence_medium.tsv'),
     ('docs/civilization/06_entity_version.tsv', 'entity_version.tsv'),
+    ('docs/civilization/07_narrative_layer.tsv', 'narrative_layer.tsv'),
 ]
 
 
