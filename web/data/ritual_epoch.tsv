@@ -1,0 +1,31 @@
+epoch_id	ritual_id	canonical_name	start_year	end_year	cycle_length	cycle_unit	repetition_count	status	persistence_medium	sync_scope	sync_type	time_confidence	chronology_mode	source_reference	inference_type	notes
+RTE-001	FES-002	式年遷宮	690	present	20	year	62	active	architecture|ritual	network	cosmic	exact	absolute	続日本紀|神宮儀式帳	source_backed	伊勢神宮、第1回 持統4年(690)。戦国期 1462-1585 (123 年中絶) は continuity_break 対象 (Phase 4)
+RTE-002	FES-001	神嘗祭	古代	present	1	year	不明	continuous	ritual|seasonal|architecture	civilizational	agricultural	approximate	absolute	延喜式|皇大神宮儀式帳	source_backed	伊勢神宮、新穀感謝祭。宮中新嘗祭と連動した civilizational sync
+RTE-003	FES-005	御柱祭	伝古代	present	7	year	不明	continuous	ritual|architecture|geography	regional	cosmic	approximate	relative	諏訪大明神画詞|延喜式	inferential	諏訪大社、寅・申年。山中から樹齢 150 年級モミ巨木を伐り出し四宮に建立
+RTE-004	FES-004	古伝新嘗祭	古代	present	1	year	不明	continuous	ritual|seasonal	civilizational	agricultural	mythic_time	mythic	延喜式|大嘗祭次第	source_backed	大嘗祭の前身。新穀感謝の civilizational sync の祖型
+RTE-005	FES-006	御頭祭	古代以前	present	1	year	不明	continuous	ritual|oral	local	seasonal	mythic_time	mythic	諏訪大明神画詞|諏訪上社神事次第	inferential	諏訪上社、鹿頭奉献。狩猟祭祀の古層残存 L2-L3
+RTE-006	FES-003	神在祭	古代	present	1	year	不明	continuous	ritual|oral|seasonal	regional	cosmic	approximate	relative	出雲国風土記|出雲大社縁起	source_backed	出雲、神在月。八百万神が縁結び神議
+RTE-007	FES-007	御神渡神事	古代	present	1	year	不明	conditional	ritual|seasonal|geography	local	cosmic	approximate	relative	諏訪大明神画詞	inferential	諏訪湖結氷条件下の祭祀。現代は温暖化で結氷不足、近年明け待ち中止年あり
+RTE-008	FES-008	春日若宮おん祭	1003	present	1	year	1024	active	ritual|lineage	regional	political	exact	absolute	春日大社縁起|長秋記	source_backed	春日大社、長保5年(1003)以来。藤原氏の若宮祭祀
+RTE-009	FES-009	春日祭	850	present	1	year	1177	active	ritual|lineage	civilizational	political	exact	absolute	続日本後紀|春日大社縁起	source_backed	春日大社、嘉祥3年(850)勅祭化
+RTE-010	FES-012	葵祭	540	present	1	year	1487	active	ritual|architecture|lineage	civilizational	agricultural|political	approximate	absolute	日本書紀|延喜式|賀茂縁起	source_backed	賀茂神社、欽明天皇治世(540頃)伝。勅祭三社の一
+RTE-011	FES-013	祇園祭	869	present	1	year	1158	active	ritual|architecture|seasonal	regional	cosmic	exact	absolute	日本三代実録|祇園社旧記	source_backed	八坂神社、貞観11年(869)御霊会起源。山鉾巡行
+RTE-012	FES-020	北野祭(梅花祭)	947	present	1	year	1080	active	ritual|architecture|seasonal	regional	political	exact	absolute	日本紀略|北野文叢	source_backed	北野天満宮、天暦元年(947)以来。菅原道真鎮魂
+RTE-013	FES-024	石清水祭	863	present	1	year	1164	active	ritual|architecture	civilizational	political	exact	absolute	日本三代実録|石清水縁起	source_backed	石清水八幡宮、貞観5年(863)勅祭化。三勅祭の一
+RTE-014	FES-021	大宰府天神祭	919	present	1	year	1108	active	ritual|architecture|geography	regional	political	exact	absolute	太宰府縁起|延喜19年記	source_backed	太宰府天満宮、延喜19年(919)以来
+RTE-015	FES-023	初午祭	711	present	1	year	1316	active	ritual|seasonal|geography	civilizational	agricultural	exact	absolute	山城国風土記逸文|伏見稲荷縁起	source_backed	伏見稲荷大社、和銅4年(711)伊奈利山創祀以来
+RTE-016	FES-025	賀茂競馬	1093	present	1	year	934	active	ritual|seasonal	regional	political|cosmic	exact	absolute	中右記|賀茂縁起	source_backed	賀茂別雷神社、寛治7年(1093)以来
+RTE-017	FES-026	藤崎八旛宮例大祭	935	present	1	year	1092	active	ritual|architecture	regional	political	exact	absolute	承平5年記	source_backed	藤崎八旛宮、承平5年(935)以来 (放生会の地方拡散例)
+RTE-018	FES-039	鞍馬の火祭	940	present	1	year	1087	active	ritual|seasonal|geography	local	cosmic	exact	absolute	由岐神社縁起|鞍馬寺記	source_backed	由岐神社、天慶3年(940)由岐明神勧請以来
+RTE-019	FES-031	宇佐神宮御神幸祭	古代	present	1	year	不明	continuous	ritual|architecture|lineage	civilizational	political	approximate	relative	八幡宇佐宮御託宣集|延喜式	source_backed	宇佐神宮、八幡神祭祀の祖型
+RTE-020	FES-015	みあれ祭	古代	present	1	year	不明	continuous	ritual|architecture|geography	regional	political	approximate	relative	宗像大社旧記|延喜式	source_backed	宗像大社、三女神の宗像三宮 (辺津/中津/沖津) 巡幸
+RTE-021	FES-034	香取神宮例祭	古代	present	1	year	不明	continuous	ritual|architecture	regional	political	approximate	relative	香取神宮御鎮座本紀|延喜式	source_backed	香取神宮、神幸祭。鹿島香取祭祀網の一
+RTE-022	FES-016	熱田まつり	古代	present	1	year	不明	continuous	ritual|architecture	regional	political	approximate	relative	熱田神宮縁起|延喜式	source_backed	熱田神宮、草薙剣奉斎社の祭儀
+RTE-023	FES-014	御田植神事	古代	present	1	year	不明	continuous	ritual|seasonal|agricultural	civilizational	agricultural	mythic_time	mythic	延喜式|風土記類	source_backed	全国神社の御田植祭の総称。稲作 civilizational sync
+RTE-024	FES-029	霧島神宮御田植祭	古代	present	1	year	不明	continuous	ritual|seasonal|geography	regional	agricultural	approximate	relative	霧島六社縁起|延喜式	inferential	霧島神宮、天孫降臨伝説地での御田植
+RTE-025	FES-019	御燈祭	古代	present	1	year	不明	continuous	ritual|seasonal|architecture	local	cosmic|seasonal	mythic_time	mythic	熊野年代記|神倉神社縁起	inferential	神倉神社 (熊野速玉大社摂社)、奇祭。1700 年継承伝
+RTE-026	FES-018	那智の扇祭	古代	present	1	year	不明	continuous	ritual|architecture|geography	regional	cosmic|seasonal	approximate	relative	熊野年代記|那智神社縁起	source_backed	熊野那智大社、扇神輿と大瀧
+RTE-027	FES-040	那智三山滝祭	古代	present	1	year	不明	continuous	ritual|geography	local	cosmic	mythic_time	mythic	熊野年代記|那智神社縁起	inferential	那智大滝への古層祭祀
+RTE-028	FES-033	新嘗祭	古代	present	1	year	不明	continuous	ritual|seasonal|architecture	civilizational	agricultural|political	mythic_time	mythic	日本書紀|延喜式	source_backed	宮中・全国神社で11月23日 (旧暦11月卯日) に執行。明治改暦以降 civilizational sync
+RTE-029	FES-011	鎮魂祭	古代	present	1	year	不明	continuous	ritual|lineage	civilizational	political	mythic_time	mythic	延喜式|神祇令義解	source_backed	宮中、新嘗祭前夜。天皇魂の周期更新
+RTE-030	FES-028	月次祭	古代	present	1	month	不明	continuous	ritual|seasonal	civilizational	seasonal	approximate	absolute	延喜式|令義解	source_backed	伊勢神宮を中心とした月毎の祭儀。最短周期の civilizational sync

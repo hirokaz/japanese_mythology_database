@@ -1,0 +1,51 @@
+entry_id	entity_id	canonical_name	medium_type	strength	continuity_window	source_reference	inference_type	notes
+PM-001	SHR-001	出雲大社	architecture	strong	古代-現代	延喜式|出雲国造家文書	source_backed	古代高層神殿伝承、現本殿は 1744 年。重要文化財・国宝指定
+PM-002	SHR-001	出雲大社	ritual	strong	古代-現代	出雲国造神賀詞|延喜式	source_backed	神在祭・古伝新嘗祭が継承。神在月の civilizational sync
+PM-003	SHR-001	出雲大社	lineage	strong	古代-現代	出雲国造家文書|新撰姓氏録	source_backed	千家・北島両家による国造祭祀権 84 代継承 (天穂日命後裔)
+PM-004	SHR-001	出雲大社	text	strong	古代-現代	古事記|日本書紀|出雲国風土記	source_backed	国譲り神話の中核文献継承
+PM-005	SHR-001	出雲大社	geography	strong	古代-現代	出雲国風土記|考古学	source_backed	杵築の地は古代から不変。神奈備山 (八雲山) 信仰
+PM-006	SHR-002	皇大神宮 (伊勢内宮)	architecture	medium	古代-現代	続日本紀|神宮儀式帳	source_backed	式年遷宮 20 年周期で更新、physical persistence ではなく ritual persistence
+PM-007	SHR-002	皇大神宮 (伊勢内宮)	ritual	strong	古代-現代	続日本紀|神宮儀式帳	source_backed	式年遷宮 (690-、62 回)、神嘗祭、月次祭。最高度の civilizational sync
+PM-008	SHR-002	皇大神宮 (伊勢内宮)	pilgrimage	strong	近世-現代	お蔭参り記録|江戸庶民史	source_backed	伊勢御師制度 (江戸期、明治廃止) → 戦後ツーリズム化
+PM-009	SHR-002	皇大神宮 (伊勢内宮)	text	strong	古代-現代	古事記|日本書紀|延喜式	source_backed	倭姫命御杖代巡幸の文献的根拠
+PM-010	SHR-002	皇大神宮 (伊勢内宮)	geography	strong	古代-現代	倭姫命世記|考古学	source_backed	内宮地は不変、隣接古墳群と古層接続
+PM-011	SHR-006	諏訪大社	architecture	medium	古代-現代	諏訪大明神画詞|神社旧記	source_backed	御柱建立 7 年周期で更新。建築 persistence は cyclic
+PM-012	SHR-006	諏訪大社	ritual	strong	古代-現代	諏訪大明神画詞|延喜式	source_backed	御柱祭・御頭祭・御神渡神事。縄文期祭祀の残存仮説 L2-L3
+PM-013	SHR-006	諏訪大社	lineage	strong	古代-1871	諏訪大社旧記|諏訪家系図	source_backed	守矢神長官 78 代継承、明治祭政分離まで継続 (現代 BRK-013)
+PM-014	SHR-006	諏訪大社	geography	strong	古代-現代	諏訪大明神画詞|考古学	source_backed	諏訪湖周辺の上社・下社配置。守屋山 (神奈備) 信仰
+PM-015	SHR-006	諏訪大社	oral	strong	古代-現代	諏訪大明神画詞|地方伝承	inferential	タケミナカタ伝承、御柱祭の口承継承
+PM-016	SHR-005	熊野本宮大社	architecture	medium	古代-現代	熊野年代記|和歌山県史	source_backed	1889 大水害で旧社地流失、1891 現本宮地遷座 (BRK-008)
+PM-017	SHR-005	熊野本宮大社	ritual	strong	古代-現代	熊野年代記|那智神社縁起	source_backed	那智の扇祭・御燈祭等の周辺ritual ネットワーク
+PM-018	SHR-005	熊野本宮大社	pilgrimage	strong	平安-現代	熊野御幸記|平安貴族日記	source_backed	熊野古道 (世界遺産)、平安期から続く巡礼路
+PM-019	SHR-005	熊野本宮大社	text	strong	古代-現代	熊野年代記|諸縁起	source_backed	熊野権現信仰、本地仏 (阿弥陀如来) 説体系
+PM-020	SHR-005	熊野本宮大社	geography	medium	古代-現代	熊野年代記	source_backed	山岳信仰連環 (熊野三山・大峰山・吉野)
+PM-021	SHR-016	宇佐神宮	ritual	strong	古代-現代	八幡宇佐宮御託宣集|延喜式	source_backed	放生会・御神幸祭。八幡神祭祀の祖型 (859 石清水勧請の起点)
+PM-022	SHR-016	宇佐神宮	architecture	medium	古代-現代	宇佐神宮旧記	source_backed	弥勒寺廃絶 (1868、BRK-023)、本殿のみ存続
+PM-023	SHR-016	宇佐神宮	text	strong	古代-現代	続日本紀|延喜式|託宣集	source_backed	道鏡事件 (769)、八幡神託宣の文献継承
+PM-024	SHR-016	宇佐神宮	lineage	medium	古代-中世	宇佐家系図	inferential	宇佐氏祭祀権、中世以降に形骸化
+PM-025	SHR-009	宗像大社	geography	strong	4C-現代	沖津宮祭祀遺跡|考古学	source_backed	辺津/中津/沖津 3 宮配置、海上交通祭祀。世界遺産 (2017)
+PM-026	SHR-009	宗像大社	ritual	strong	4C-現代	宗像大社旧記|延喜式	source_backed	みあれ祭で 3 宮巡幸。海人族祭祀の継承
+PM-027	SHR-009	宗像大社	architecture	medium	古代-現代	考古学|沖津宮祭祀遺跡	source_backed	沖津宮祭祀遺跡 (4C-9C 露天祭祀) の考古学的証拠
+PM-028	SHR-007	鹿島神宮	geography	strong	古代-現代	香取神宮御鎮座本紀|常陸国風土記	source_backed	常陸国一宮、東国守護の地理的要衝
+PM-029	SHR-007	鹿島神宮	ritual	strong	古代-現代	香取神宮御鎮座本紀|延喜式	source_backed	神幸祭、武神祭祀の継承
+PM-030	SHR-007	鹿島神宮	lineage	medium	古代-現代	大中臣氏系図|新撰姓氏録	inferential	大中臣氏 (中臣氏支族) 祭祀権
+PM-031	SHR-008	香取神宮	geography	strong	古代-現代	香取神宮御鎮座本紀	source_backed	下総国一宮、鹿島神宮と対の配置
+PM-032	SHR-008	香取神宮	ritual	strong	古代-現代	延喜式|諸祭祀記録	source_backed	鹿島神宮との対の神幸祭、東国祭祀網
+PM-033	SHR-010	大神神社	geography	strong	古代-現代	古事記|日本書紀|大神神社縁起	source_backed	三輪山禁足地、古層磐座信仰の継承
+PM-034	SHR-010	大神神社	architecture	strong	古代-現代	大神神社縁起	source_backed	本殿なし、三輪山自体を神体とする古層形式
+PM-035	SHR-010	大神神社	text	strong	古代-現代	古事記 (崇神紀)|日本書紀	source_backed	崇神朝祭祀整備の文献的中核
+PM-036	SHR-011	石上神宮	architecture	medium	古代-現代	日本書紀|石上神宮旧記	source_backed	布留遺跡 (考古学的継承)。物部氏祭祀の中心
+PM-037	SHR-011	石上神宮	lineage	medium	古代-中世	物部氏系図|先代旧事本紀	inferential	物部氏祭祀権、6C 後半丁未の乱で衰退
+PM-038	SHR-012	春日大社	ritual	strong	平安-現代	春日大社縁起|長秋記	source_backed	春日祭 (850-)、若宮おん祭 (1003-) の継続
+PM-039	SHR-012	春日大社	lineage	strong	平安-現代	藤原氏系図|尊卑分脈	source_backed	藤原氏氏神、氏族祭祀権継承の典型
+PM-040	SHR-013	賀茂別雷神社 (上賀茂)	ritual	strong	古代-現代	賀茂縁起|延喜式	source_backed	葵祭 (540頃伝、勅祭)、賀茂競馬 (1093-)
+PM-041	SHR-014	賀茂御祖神社 (下鴨)	ritual	strong	古代-現代	賀茂縁起|延喜式	source_backed	葵祭、御蔭祭 (古代形態は BRK-019 で変容)
+PM-042	SHR-015	住吉大社	geography	strong	古代-現代	住吉縁起|延喜式	source_backed	海上守護神社網 (maritime corridor) の中核
+PM-043	SHR-017	八坂神社	ritual	strong	869-現代	日本三代実録|祇園社旧記	source_backed	祇園祭 (869-)。神仏分離 (1868) で祇園感神院 → 八坂神社改称 (BRK-015)
+PM-044	SHR-018	氷川神社	architecture	medium	古代-現代	氷川神社旧記	inferential	武蔵一宮、神宮寺廃絶 (1868、BRK-028)
+PM-045	SHR-020	美保神社	ritual	medium	古代-現代	出雲国風土記|延喜式	source_backed	諸手船神事・青柴垣神事。事代主神祭祀
+PM-046	multi	延喜式神名帳	text	strong	907-現代	延喜式|諸研究	source_backed	2861 社の一覧 interface。律令制崩壊後も文献として継承、近代復活
+PM-047	multi	古事記	text	strong	712-現代	古事記|本居宣長 古事記伝	source_backed	「古事記伝」(1798) で近世復古、現代まで継承
+PM-048	multi	日本書紀	text	strong	720-現代	日本書紀|諸注釈書	source_backed	六国史第一、官撰正史として継承
+PM-049	multi	式年遷宮儀礼継承	architecture	strong	690-現代	続日本紀|神宮儀式帳	source_backed	伊勢神宮の architecture + ritual の hybrid persistence
+PM-050	multi	伊勢御師組織	pilgrimage	terminated	近世-1871	伊勢御師家文書	source_backed	近世のお蔭参り組織、明治改革で消滅 (BRK-027)。観光化は別形式

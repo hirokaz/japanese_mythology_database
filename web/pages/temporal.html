@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temporal Persistence — 日本神話・神道史データベース</title>
+<meta name="description" content="文明時間層 (DISC-012 採択 第 8 軸)。儀礼周期・断絶・継続媒体を可視化。">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+<style>
+  .temporal-tabs { display: flex; gap: 4px; border-bottom: 2px solid #d9c9a8; margin: 16px 0; }
+  .temporal-tab {
+    padding: 10px 18px; cursor: pointer; background: #faf4e8;
+    border: 1px solid #d9c9a8; border-bottom: none; border-radius: 6px 6px 0 0;
+    font-size: 0.95em; color: #5a4a35;
+  }
+  .temporal-tab.active { background: #fff; font-weight: 600; color: #8b3a3a; }
+  .temporal-section { display: none; }
+  .temporal-section.active { display: block; }
+  .temporal-stats {
+    background: #fffaf0; border: 1px solid #d9c9a8; border-radius: 6px;
+    padding: 12px 16px; margin: 12px 0; font-size: 0.88em;
+  }
+  .temporal-stats strong { color: #8b3a3a; }
+  .timeline-list {
+    display: grid; gap: 8px;
+    grid-template-columns: 1fr;
+  }
+  .timeline-item {
+    background: #fff; border: 1px solid #e8ddc8;
+    border-left: 4px solid #8b3a3a;
+    padding: 12px 14px; border-radius: 4px;
+  }
+  .timeline-item.rewrite { border-left-color: #c44; background: #fff5f5; }
+  .timeline-item.invented { border-left-color: #a070a0; background: #f9f0f9; }
+  .timeline-item h3 { margin: 0 0 6px; font-size: 1em; color: #4a3520; }
+  .timeline-item .ti-meta { font-size: 0.85em; color: #6e5a3a; margin-bottom: 4px; }
+  .timeline-item .ti-period {
+    display: inline-block; padding: 2px 8px; background: #4a3520; color: #fff;
+    border-radius: 3px; font-size: 0.82em; margin-right: 6px;
+  }
+  .timeline-item .ti-cycle {
+    display: inline-block; padding: 2px 8px; background: #f0c674; color: #2c1810;
+    border-radius: 3px; font-size: 0.82em; margin-right: 6px;
+  }
+  .badge-rewrite { background: #c44; color: #fff; padding: 2px 6px; border-radius: 3px; font-size: 0.78em; }
+  .badge-invented { background: #a070a0; color: #fff; padding: 2px 6px; border-radius: 3px; font-size: 0.78em; }
+  .badge-medium { background: #d4a017; color: #fff; padding: 1px 6px; border-radius: 3px; font-size: 0.78em; margin-right: 4px; }
+  .medium-strong { background: #2c5e3f; }
+  .medium-medium { background: #d4a017; }
+  .medium-terminated { background: #888; }
+  .filter-row { display: flex; gap: 12px; margin: 12px 0; flex-wrap: wrap; align-items: center; }
+  .filter-row label { font-size: 0.9em; color: #5a4a35; display: flex; gap: 4px; align-items: center; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img src="../images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-name">神話 OS</span>
+      <span class="brand-tag">日本神話・神道史データベース</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">ホーム</a>
+      <a href="shrines.html">神社</a>
+      <a href="deities.html">神格</a>
+      <a href="clans.html">氏族</a>
+      <a href="genealogy.html">皇統系譜</a>
+      <a href="relations.html">関係探索</a>
+      <a href="atlas.html">Atlas</a>
+      <a href="temporal.html" class="active">Temporal</a>
+      <a href="about.html">本基盤について</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding: 24px 0;">
+  <h1>Temporal Persistence (文明時間層)</h1>
+  <p class="section-lead">
+    DISC-012 採択 <strong>第 8 軸 (時間)</strong>。儀礼周期・civilization rewrite events・persistence medium を可視化。
+  </p>
+
+  <!-- continuity illusion 警告 (DISC-012 Codex 強調) -->
+  <details class="epistemic-disclaimer" open>
+    <summary>⚠ continuity illusion 警告</summary>
+    <div class="disclaimer-body">
+      <p><strong>「古代から変わらない」「連綿と続く」「本質は不変」</strong> の錯覚を回避してください (DISC-012 Codex 強調):</p>
+      <ul>
+        <li>表示される ritual epoch は <strong>反復による継続 (ritual persistence)</strong> であり、西洋的 archive persistence ではありません</li>
+        <li><strong>civilization rewrite events</strong> (神仏習合/廃仏毀釈/国家神道/戦後再編) を独立カテゴリで可視化しています</li>
+        <li><strong>invented continuity</strong> (Hobsbawm) を独立カテゴリで明示しています (吉田神道復古/明治国家神道/観光化された伝統)</li>
+        <li>continuity を単一スコアで判定せず、5 軸 (物理/儀礼/制度/物語/位置) と三重 metric (continuity/rupture/reinterpretation/revival) で多面評価する原則</li>
+      </ul>
+      <p>詳細: <a href="../../docs/discussions/DISC-012_resolution.md">DISC-012 解決報告</a></p>
+    </div>
+  </details>
+
+  <div class="temporal-tabs">
+    <div class="temporal-tab active" data-tab="epoch">Ritual Epoch (30)</div>
+    <div class="temporal-tab" data-tab="break">Continuity Break (32)</div>
+    <div class="temporal-tab" data-tab="medium">Persistence Medium (50)</div>
+  </div>
+
+  <!-- Ritual Epoch -->
+  <section class="temporal-section active" id="section-epoch">
+    <h2 class="section-title">Ritual Epoch (儀礼周期)</h2>
+    <p class="section-lead">日本文明の <strong>ritual persistence</strong>。年中祭祀・周期祭祀の継続。</p>
+    <div class="filter-row">
+      <label>cycle:
+        <select id="cycleFilter">
+          <option value="">全て</option>
+          <option value="1">1 年 (年中祭祀)</option>
+          <option value="7">7 年 (御柱祭)</option>
+          <option value="20">20 年 (式年遷宮)</option>
+          <option value="-">非数値 (continuous/conditional)</option>
+        </select>
+      </label>
+      <label>sync_scope:
+        <select id="scopeFilter">
+          <option value="">全て</option>
+          <option value="civilizational">civilizational</option>
+          <option value="network">network</option>
+          <option value="regional">regional</option>
+          <option value="local">local</option>
+        </select>
+      </label>
+      <span id="epochStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="epochList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Continuity Break -->
+  <section class="temporal-section" id="section-break">
+    <h2 class="section-title">Continuity Break (断絶)</h2>
+    <p class="section-lead"><strong>civilization rewrite events</strong> と個別断絶を可視化。invented continuity を独立カテゴリで強調。</p>
+    <div class="filter-row">
+      <label>カテゴリ:
+        <select id="breakCategoryFilter">
+          <option value="">全て</option>
+          <option value="rewrite">civilization rewrite のみ (赤)</option>
+          <option value="invented">invented continuity のみ (紫)</option>
+          <option value="individual">個別断絶のみ</option>
+        </select>
+      </label>
+      <span id="breakStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="breakList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Persistence Medium -->
+  <section class="temporal-section" id="section-medium">
+    <h2 class="section-title">Persistence Medium (継続媒体)</h2>
+    <p class="section-lead">8 種 medium による文明継続。各 entity がどの medium で persist しているかを記録。</p>
+    <div class="filter-row">
+      <label>medium:
+        <select id="mediumFilter">
+          <option value="">全て</option>
+          <option value="ritual">ritual</option>
+          <option value="text">text</option>
+          <option value="architecture">architecture</option>
+          <option value="lineage">lineage</option>
+          <option value="pilgrimage">pilgrimage</option>
+          <option value="oral">oral</option>
+          <option value="geography">geography</option>
+          <option value="seasonal">seasonal</option>
+        </select>
+      </label>
+      <label>strength:
+        <select id="strengthFilter">
+          <option value="">全て</option>
+          <option value="strong">strong</option>
+          <option value="medium">medium</option>
+          <option value="weak">weak</option>
+          <option value="terminated">terminated</option>
+        </select>
+      </label>
+      <span id="mediumStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="mediumList" class="timeline-list">読み込み中…</div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      © 神話 OS / Civilization OS Database
+      <br>
+      <small>DISC-012 採択 第 8 軸 (時間)。continuity illusion 警告: 反復と断絶を同時可視化する原則。</small>
+    </p>
+    <p class="footer-meta">
+      <a href="../../">GitHub リポジトリ</a> ·
+      <a href="about.html">本基盤について</a> ·
+      <a href="../../LICENSE-DATA">Data: CC BY-SA 4.0</a>
+    </p>
+  </div>
+</footer>
+
+<script src="../js/temporal.js"></script>
+</body>
+</html>
