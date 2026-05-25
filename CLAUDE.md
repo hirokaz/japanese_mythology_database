@@ -216,6 +216,8 @@ mythologem (Level 2: motif と政治構造の中間層) を扱う際の規律:
 
 Phase 1 (2026-05-25 実装済): `docs/civilization/02_mythologem_master.tsv` (10 件、boundary_traversal / legitimacy_transfer / concealment_revelation / marriage_integration / exchange_gift / death_rebirth / center_periphery_integration / periodic_renewal / divine_descent / succession_dispute) + `motif_belongs_to_mythologem` relation 14 件 (多対多接続)。
 
+Phase 2 (2026-05-25 実装済): MTGM-011 ~ 020 を追加 (sacrifice_substitution / sword_revelation / naming_authority / pillar_axis_mundi / oath_ritual / water_origin / sibling_rivalry_resolution / monster_subjugation / tabuized_visibility / collective_memory_preservation)、合計 **20 件**。motif_belongs_to_mythologem relation +10 件 (累計 24 件)。
+
 ### 4.6 sacred topology 原則 (DISC-008 採択)
 
 GIS 統合時の規律:
