@@ -223,6 +223,62 @@ pre {
 .list-controls select { min-width: 160px; }
 .list-stats { color: #6a5a45; font-size: 0.92em; padding: 4px 8px; align-self: center; }
 
+/* ページネーション */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0;
+  padding: 12px;
+  background: #faf6ef;
+  border: 1px solid #e2d6c0;
+  border-radius: 6px;
+  flex-wrap: wrap;
+}
+.pagination .page-btn {
+  background: #fff;
+  border: 1px solid #c4a574;
+  color: #6b4f2c;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.pagination .page-btn:hover:not(:disabled) {
+  background: #f1e6cf;
+}
+.pagination .page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.pagination .page-info {
+  color: #6a5a45;
+  font-size: 0.92em;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: center;
+}
+.pagination .page-size-label {
+  color: #6a5a45;
+  font-size: 0.88em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.pagination .page-size-label select {
+  padding: 4px 8px;
+  border: 1px solid #c4a574;
+  border-radius: 4px;
+  background: #fff;
+}
+@media (max-width: 600px) {
+  .pagination { gap: 8px; padding: 10px 6px; }
+  .pagination .page-btn { padding: 6px 10px; font-size: 0.85em; }
+}
+
 /* table を横スクロール可能なラッパー内に置く */
 .table-wrap {
   width: 100%;

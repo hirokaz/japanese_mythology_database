@@ -11,12 +11,23 @@
   const listStats = document.getElementById('listStats');
   const listIntro = document.getElementById('listIntro');
 
+  const pagination = document.getElementById('pagination');
+  const pagePrev = document.getElementById('pagePrev');
+  const pageNext = document.getElementById('pageNext');
+  const pageInfo = document.getElementById('pageInfo');
+  const pageSizeSel = document.getElementById('pageSize');
+
   const params = new URLSearchParams(window.location.search);
   if (params.get('from')) idInput.value = params.get('from');
   if (params.get('type')) typeFilter.value = params.get('type');
 
   let relations = [];
   let nameMap = {};
+  let currentPage = 0;
+  let pageSize = 100;
+  // インデックス (関係探索高速化用): id -> [relation,...], type -> [relation,...]
+  let idIndex = null;
+  let typeIndex = null;
 
   try {
     const [rels, deity, shrine, clan, motif, text, period, rank, event, region] = await Promise.all([
@@ -56,6 +67,15 @@
         typeFilter.appendChild(opt);
       });
 
+    // インデックス構築 (ID で絞り込む頻度が高いので O(1) lookup を可能に)
+    idIndex = {};
+    typeIndex = {};
+    relations.forEach(r => {
+      (idIndex[r.source_id] = idIndex[r.source_id] || []).push(r);
+      (idIndex[r.target_id] = idIndex[r.target_id] || []).push(r);
+      (typeIndex[r.relation_type] = typeIndex[r.relation_type] || []).push(r);
+    });
+
     listIntro.textContent = `全 ${relations.length.toLocaleString()} 件のリレーションから探索。ID・関係タイプ・確実性層で絞り込めます。`;
     loading.hidden = true;
     if (tableWrap) tableWrap.hidden = false;
@@ -65,30 +85,64 @@
     console.error(err);
   }
 
-  function render() {
+  function render(resetPage) {
+    if (resetPage !== false) currentPage = 0;
     const id = (idInput.value || '').trim();
     const t = typeFilter.value;
     const l = layerFilter.value;
 
-    const filtered = relations.filter(r => {
+    // インデックスを使った高速絞り込み
+    let candidates;
+    if (id && idIndex && idIndex[id]) {
+      // ID 指定があればその ID を含む relation だけから開始 (重複除去)
+      const seen = new Set();
+      candidates = idIndex[id].filter(r => {
+        if (seen.has(r.relation_id)) return false;
+        seen.add(r.relation_id);
+        return true;
+      });
+    } else if (t && typeIndex && typeIndex[t]) {
+      candidates = typeIndex[t];
+    } else {
+      candidates = relations;
+    }
+
+    const filtered = candidates.filter(r => {
       if (id && r.source_id !== id && r.target_id !== id) return false;
       if (t && r.relation_type !== t) return false;
       if (l && r.hypothesis_layer !== l) return false;
       return true;
     });
 
-    listStats.textContent = `${filtered.length.toLocaleString()} 件 / 全 ${relations.length.toLocaleString()} 件`;
+    const total = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / pageSize));
+    if (currentPage >= totalPages) currentPage = totalPages - 1;
+    if (currentPage < 0) currentPage = 0;
+
+    const start = currentPage * pageSize;
+    const end = Math.min(start + pageSize, total);
+
+    listStats.textContent = total > 0
+      ? `${total.toLocaleString()} 件 (${(start + 1).toLocaleString()}–${end.toLocaleString()} を表示) / 全 ${relations.length.toLocaleString()} 件`
+      : `0 件 / 全 ${relations.length.toLocaleString()} 件`;
 
     if (filtered.length === 0) {
       tableBody.innerHTML = '';
       empty.hidden = false;
+      if (pagination) pagination.hidden = true;
       return;
     }
     empty.hidden = true;
 
-    const cap = 500;
-    const display = filtered.slice(0, cap);
-    const note = filtered.length > cap ? `<tr><td colspan="6" style="text-align:center; padding:14px; color:#8b7560;">表示は ${cap.toLocaleString()} 件までです。さらに絞り込んでください。</td></tr>` : '';
+    // ページネーション更新
+    if (pagination) {
+      pagination.hidden = false;
+      pageInfo.textContent = `${currentPage + 1} / ${totalPages} ページ`;
+      pagePrev.disabled = currentPage === 0;
+      pageNext.disabled = currentPage >= totalPages - 1;
+    }
+
+    const display = filtered.slice(start, end);
 
     const html = display.map(r => {
       const srcName = nameMap[r.source_id] || r.source_id;
@@ -109,7 +163,7 @@
         </tr>
       `;
     }).join('');
-    tableBody.innerHTML = html + note;
+    tableBody.innerHTML = html;
     if (window.Era) Era.applyEraConversion(tableBody);
   }
 
@@ -119,8 +173,18 @@
     renderTimer = setTimeout(render, 120);
   }
   idInput.addEventListener('input', debouncedRender);
-  typeFilter.addEventListener('change', render);
-  layerFilter.addEventListener('change', render);
+  typeFilter.addEventListener('change', () => render(true));
+  layerFilter.addEventListener('change', () => render(true));
+  if (pageSizeSel) pageSizeSel.addEventListener('change', e => {
+    pageSize = parseInt(e.target.value, 10) || 100;
+    render(true);
+  });
+  if (pagePrev) pagePrev.addEventListener('click', () => {
+    if (currentPage > 0) { currentPage -= 1; render(false); }
+  });
+  if (pageNext) pageNext.addEventListener('click', () => {
+    currentPage += 1; render(false);
+  });
 
   function escapeHtml(s) {
     if (s == null) return '';
