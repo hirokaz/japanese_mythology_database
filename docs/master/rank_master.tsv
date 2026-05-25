@@ -1,16 +1,16 @@
 rank_id	canonical_name	canonical_reading	alternative_names	era	governing_body	source_reference	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
-RANK-MyojinTaisha	名神大社	みょうじんたいしゃ	名神社|大社	古代	朝廷	延喜式神名帳	国家祭祀の最高位、224 社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Shikinaisha	式内社	しきないしゃ	式内|官社|延喜式社	古代	朝廷	延喜式神名帳	延喜式神名帳記載社、2861 社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-22sha	二十二社	にじゅうにしゃ	二十二社制	中世	朝廷	中世神道書	中世朝廷の神社制度、伊勢〜日吉等	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KanpeiTaisha	官幣大社	かんぺいたいしゃ	官大	近代	神祇官	明治神社制度	近代社格制度の最高位	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KanpeiChusha	官幣中社	かんぺいちゅうしゃ	官中	近代	神祇官	明治神社制度	近代社格制度	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KanpeiShosha	官幣小社	かんぺいしょうしゃ	官小	近代	神祇官	明治神社制度	近代社格制度	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KokuheiTaisha	国幣大社	こくへいたいしゃ	国大	近代	国家	明治神社制度	近代社格制度、地方有力社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KokuheiChusha	国幣中社	こくへいちゅうしゃ	国中	近代	国家	明治神社制度	近代社格制度	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-KokuheiShosha	国幣小社	こくへいしょうしゃ	国小	近代	国家	明治神社制度	近代社格制度	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-BekkakuKanpeisha	別格官幣社	べっかくかんぺいしゃ	別格	近代	神祇官	明治神社制度	南朝忠臣・武将奉斎社の格	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Beppyo	別表神社	べっぴょうじんじゃ	別表	戦後	神社本庁	神社本庁規程	戦後神社本庁の役職員任免対象社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Fusha	府社	ふしゃ	東京府社等	近代	府	明治神社制度	近代社格制度の府社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Kensha	県社	けんしゃ	-	近代	県	明治神社制度	近代社格制度の県社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Gosha	郷社	ごうしゃ	-	近代	郡	明治神社制度	近代社格制度の郷社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-RANK-Sonsha	村社	そんしゃ	-	近代	村	明治神社制度	近代社格制度の村社	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+RANK-MyojinTaisha	名神大社	みょうじんたいしゃ	名神社|大社	古代	朝廷	延喜式神名帳	国家祭祀の最高位、224 社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Shikinaisha	式内社	しきないしゃ	式内|官社|延喜式社	古代	朝廷	延喜式神名帳	延喜式神名帳記載社、2861 社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-22sha	二十二社	にじゅうにしゃ	二十二社制	中世	朝廷	中世神道書	中世朝廷の神社制度、伊勢〜日吉等	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KanpeiTaisha	官幣大社	かんぺいたいしゃ	官大	近代	神祇官	明治神社制度	近代社格制度の最高位	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KanpeiChusha	官幣中社	かんぺいちゅうしゃ	官中	近代	神祇官	明治神社制度	近代社格制度	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KanpeiShosha	官幣小社	かんぺいしょうしゃ	官小	近代	神祇官	明治神社制度	近代社格制度	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KokuheiTaisha	国幣大社	こくへいたいしゃ	国大	近代	国家	明治神社制度	近代社格制度、地方有力社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KokuheiChusha	国幣中社	こくへいちゅうしゃ	国中	近代	国家	明治神社制度	近代社格制度	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-KokuheiShosha	国幣小社	こくへいしょうしゃ	国小	近代	国家	明治神社制度	近代社格制度	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-BekkakuKanpeisha	別格官幣社	べっかくかんぺいしゃ	別格	近代	神祇官	明治神社制度	南朝忠臣・武将奉斎社の格	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Beppyo	別表神社	べっぴょうじんじゃ	別表	戦後	神社本庁	神社本庁規程	戦後神社本庁の役職員任免対象社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Fusha	府社	ふしゃ	東京府社等	近代	府	明治神社制度	近代社格制度の府社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Kensha	県社	けんしゃ	-	近代	県	明治神社制度	近代社格制度の県社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Gosha	郷社	ごうしゃ	-	近代	郡	明治神社制度	近代社格制度の郷社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記
+RANK-Sonsha	村社	そんしゃ	-	近代	村	明治神社制度	近代社格制度の村社	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 神階制度は延喜式・三代実録に明記

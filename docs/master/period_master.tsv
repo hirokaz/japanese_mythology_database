@@ -1,23 +1,23 @@
 period_id	canonical_name	canonical_reading	era_start_year	era_end_year	alternative_names	era_type	source_reference	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
-PERIOD-Mythic	神代	じんだい	-	-	神話時代	mythic	古事記|日本書紀	天地開闢〜神武即位前	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Jomon	縄文時代	じょうもんじだい	-14000	-300	Jomon	archaeological	考古学年表	土器文化、定住採集	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Yayoi	弥生時代	やよいじだい	-300	300	Yayoi	archaeological	考古学年表	稲作伝来、金属器使用	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Kofun	古墳時代	こふんじだい	300	538	Kofun	archaeological	考古学年表	前方後円墳築造、ヤマト王権	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Asuka	飛鳥時代	あすかじだい	538	710	Asuka	historical	日本書紀	仏教伝来〜平城遷都	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Hakuho	白鳳時代	はくほうじだい	645	710	Hakuho	historical	美術史	大化改新〜平城遷都(美術史)	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Nara	奈良時代	ならじだい	710	794	Nara|天平	historical	続日本紀	平城京、律令体制、大仏建立	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Heian	平安時代	へいあんじだい	794	1185	Heian|延暦|延喜|貞観	historical	六国史	平安京、藤原摂関政治	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Kamakura	鎌倉時代	かまくらじだい	1185	1333	Kamakura	historical	吾妻鏡	鎌倉幕府、武家政権開始	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Nanbokucho	南北朝時代	なんぼくちょうじだい	1336	1392	Nanbokucho	historical	太平記	南朝/北朝分裂	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Muromachi	室町時代	むろまちじだい	1336	1573	Muromachi	historical	応仁の乱記	足利幕府、応仁の乱	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-SengokuMomoyama	戦国安土桃山時代	せんごくあづちももやまじだい	1467	1603	Sengoku|Momoyama	historical	信長公記|太閤記	戦国大名、信長/秀吉	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-EarlyEdo	江戸初期	えどしょき	1603	1700	EarlyEdo|慶長|元和|寛永	historical	徳川実紀	江戸開幕、家康/家光	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-MidEdo	江戸中期	えどちゅうき	1700	1789	MidEdo|元禄|享保	historical	徳川実紀	享保改革、田沼政治	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-LateEdo	江戸後期	えどこうき	1789	1868	LateEdo|寛政|天保	historical	徳川実紀	寛政改革〜幕末	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-EarlyModernEdo	近世	きんせい	1467	1868	EarlyModern	historical	近世史料	戦国〜江戸期総称	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Meiji	明治時代	めいじじだい	1868	1912	Meiji	historical	明治期史料	明治維新、近代国家形成	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Taisho	大正時代	たいしょうじだい	1912	1926	Taisho	historical	大正期史料	大正デモクラシー	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Showa	昭和時代	しょうわじだい	1926	1989	Showa	historical	昭和期史料	戦中〜戦後復興	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Modern	近代	きんだい	1868	-	Modern	historical	近代史料	明治〜現代総称	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Ancient	古代	こだい	-	1185	Ancient	historical	古代史料	古代総称(奈良〜平安)	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
-PERIOD-Medieval	中世	ちゅうせい	1185	1467	Medieval	historical	中世史料	中世総称(鎌倉〜戦国前)	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+PERIOD-Mythic	神代	じんだい	-	-	神話時代	mythic	古事記|日本書紀	天地開闢〜神武即位前	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Jomon	縄文時代	じょうもんじだい	-14000	-300	Jomon	archaeological	考古学年表	土器文化、定住採集	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Yayoi	弥生時代	やよいじだい	-300	300	Yayoi	archaeological	考古学年表	稲作伝来、金属器使用	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Kofun	古墳時代	こふんじだい	300	538	Kofun	archaeological	考古学年表	前方後円墳築造、ヤマト王権	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Asuka	飛鳥時代	あすかじだい	538	710	Asuka	historical	日本書紀	仏教伝来〜平城遷都	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Hakuho	白鳳時代	はくほうじだい	645	710	Hakuho	historical	美術史	大化改新〜平城遷都(美術史)	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Nara	奈良時代	ならじだい	710	794	Nara|天平	historical	続日本紀	平城京、律令体制、大仏建立	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Heian	平安時代	へいあんじだい	794	1185	Heian|延暦|延喜|貞観	historical	六国史	平安京、藤原摂関政治	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Kamakura	鎌倉時代	かまくらじだい	1185	1333	Kamakura	historical	吾妻鏡	鎌倉幕府、武家政権開始	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Nanbokucho	南北朝時代	なんぼくちょうじだい	1336	1392	Nanbokucho	historical	太平記	南朝/北朝分裂	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Muromachi	室町時代	むろまちじだい	1336	1573	Muromachi	historical	応仁の乱記	足利幕府、応仁の乱	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-SengokuMomoyama	戦国安土桃山時代	せんごくあづちももやまじだい	1467	1603	Sengoku|Momoyama	historical	信長公記|太閤記	戦国大名、信長/秀吉	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-EarlyEdo	江戸初期	えどしょき	1603	1700	EarlyEdo|慶長|元和|寛永	historical	徳川実紀	江戸開幕、家康/家光	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-MidEdo	江戸中期	えどちゅうき	1700	1789	MidEdo|元禄|享保	historical	徳川実紀	享保改革、田沼政治	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-LateEdo	江戸後期	えどこうき	1789	1868	LateEdo|寛政|天保	historical	徳川実紀	寛政改革〜幕末	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-EarlyModernEdo	近世	きんせい	1467	1868	EarlyModern	historical	近世史料	戦国〜江戸期総称	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Meiji	明治時代	めいじじだい	1868	1912	Meiji	historical	明治期史料	明治維新、近代国家形成	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Taisho	大正時代	たいしょうじだい	1912	1926	Taisho	historical	大正期史料	大正デモクラシー	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Showa	昭和時代	しょうわじだい	1926	1989	Showa	historical	昭和期史料	戦中〜戦後復興	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Modern	近代	きんだい	1868	-	Modern	historical	近代史料	明治〜現代総称	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Ancient	古代	こだい	-	1185	Ancient	historical	古代史料	古代総称(奈良〜平安)	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established
+PERIOD-Medieval	中世	ちゅうせい	1185	1467	Medieval	historical	中世史料	中世総称(鎌倉〜戦国前)	verified	textual	2026-05-25T00:00:00	claude	auto-expand Phase 4: 歴史区分は institutionally established

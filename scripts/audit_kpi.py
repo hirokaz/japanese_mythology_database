@@ -156,6 +156,14 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
         "docs/master/shrine_master.tsv",
         "docs/master/deity_master.tsv",
         "docs/master/clan_master.tsv",
+        "docs/master/text_master.tsv",
+        "docs/master/period_master.tsv",
+        "docs/master/rank_master.tsv",
+        "docs/master/event_master.tsv",
+        "docs/master/region_master.tsv",
+        "docs/master/festival_master.tsv",
+        "docs/civilization/01_motif_db.tsv",
+        "docs/civilization/02_mythologem_master.tsv",
     ]
     overall = _Counter()
     for path in verified_targets:
