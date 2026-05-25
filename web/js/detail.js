@@ -99,6 +99,26 @@ function renderVerifiedBadge(record) {
   return ` <span class="badge ${lbl.cls}" title="${escapeHtml(lbl.tip)}">${escapeHtml(lbl.text)}</span>`;
 }
 
+/** DISC-005 inference_type バッジ (Phase 2 採択、Phase 4 UI 実装)。 */
+function renderInferenceTypeBadge(r) {
+  const itype = r.inference_type;
+  if (!itype || itype === 'source_backed') return '';
+  const labels = {
+    'inferential':  { text: '推', cls: 'badge-warn', tip: 'inference_type=inferential: 史料からの妥当な推論 (DISC-005)' },
+    'speculative':  { text: '仮', cls: 'badge-speculative', tip: 'inference_type=speculative: 検証困難な仮説 (DISC-005、L4-L5 該当)' },
+    'symbolic':     { text: '象', cls: 'badge-symbolic', tip: 'inference_type=symbolic: 象徴的・神話的解釈 (DISC-005、motif/mythologem 系)' },
+  };
+  const lbl = labels[itype];
+  if (!lbl) return '';
+  return ` <span class="badge ${lbl.cls}" title="${escapeHtml(lbl.tip)}">${escapeHtml(lbl.text)}</span>`;
+}
+
+/** L4-L5 仮説の警告強調 (DISC-011 採択 Phase 2)。 */
+function renderL45WarnBadge(r) {
+  if (r.hypothesis_layer !== 'L4' && r.hypothesis_layer !== 'L5') return '';
+  return ` <span class="badge-l4-5-warn" title="L4-L5 仮説: 大胆仮説または検証困難な思想的記載。引用時は両論並記必須 (CLAUDE.md §4.1)">⚠ L4-L5</span>`;
+}
+
 /** deity の詳細解説・一次資料・典拠リンク(deity_extended.tsv から) */
 async function renderDeityExtended(record) {
   let extended = [];
@@ -376,13 +396,15 @@ async function renderClanProfile(record, outRels, inRels) {
       const e = ei[r.target_id];
       const url = DataLoader.detailUrl(r.target_id);
       const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
       const name = e ? e.canonical_name : r.target_id;
       let yr = '';
       if (e && e.year_start && e.year_start !== '-') {
         yr = ` (${e.year_start}${e.year_end && e.year_end !== '-' && e.year_end !== e.year_start ? '-' + e.year_end : ''})`;
       }
       const note = r.notes ? ` — ${r.notes.slice(0, 80)}${r.notes.length > 80 ? '…' : ''}` : '';
-      html += `<li>${layer} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name + yr)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+      html += `<li>${layer}${itypeBadge}${l45Badge} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name + yr)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
     });
     html += `</ul></div>`;
   }
@@ -393,8 +415,10 @@ async function renderClanProfile(record, outRels, inRels) {
     html += `<div class="detail-section"><h2>祭事 (${ritualRels.length})</h2><ul class="relation-list">`;
     ritualRels.forEach(r => {
       const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
       const note = r.notes ? ` — ${r.notes.slice(0, 80)}` : '';
-      html += `<li>${layer} <code>${escapeHtml(r.target_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+      html += `<li>${layer}${itypeBadge}${l45Badge} <code>${escapeHtml(r.target_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
     });
     html += `</ul></div>`;
   }
@@ -530,7 +554,9 @@ async function renderClanProfile(record, outRels, inRels) {
         const arrow = r.dir === 'out' ? '→' : '←';
         const note = r.notes ? ` — ${r.notes.slice(0, 80)}` : '';
         const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
-        html += `<li>${layer} ${arrow} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''} <code style="font-size:0.78em; color:#8b7560;">${escapeHtml(otherId)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
+        html += `<li>${layer}${itypeBadge}${l45Badge} ${arrow} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''} <code style="font-size:0.78em; color:#8b7560;">${escapeHtml(otherId)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
       });
       html += `</ul>`;
     });
@@ -544,7 +570,9 @@ async function renderClanProfile(record, outRels, inRels) {
     textRels.slice(0, 20).forEach(r => {
       const url = DataLoader.detailUrl(r.target_id);
       const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
-      html += `<li>${layer} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(r.target_id)}${url !== '#' ? `</a>` : ''}</li>`;
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
+      html += `<li>${layer}${itypeBadge}${l45Badge} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(r.target_id)}${url !== '#' ? `</a>` : ''}</li>`;
     });
     if (textRels.length > 20) html += `<li style="color:#8b7560; font-style:italic;">…他 ${textRels.length - 20} 件</li>`;
     html += `</ul></div>`;
@@ -616,13 +644,15 @@ async function renderShrineProfile(record, outRels, inRels) {
       const url = DataLoader.detailUrl(eid);
       const name = e ? e.canonical_name : eid;
       const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
       let yr = '';
       if (e && e.year_start && e.year_start !== '-') {
         yr = ` (${e.year_start}${e.year_end && e.year_end !== '-' && e.year_end !== e.year_start ? '-' + e.year_end : ''})`;
       }
       const dirLabel = r._dir === 'in' ? '当社で発生' : '関与';
       const note = r.notes ? ` — ${r.notes.slice(0, 80)}${r.notes.length > 80 ? '…' : ''}` : '';
-      html += `<li>${layer} <span class="relation-type">${dirLabel}</span> ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name + yr)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+      html += `<li>${layer}${itypeBadge}${l45Badge} <span class="relation-type">${dirLabel}</span> ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name + yr)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
     });
     html += `</ul></div>`;
   }
@@ -636,8 +666,10 @@ async function renderShrineProfile(record, outRels, inRels) {
       const url = DataLoader.detailUrl(r.target_id);
       const name = t ? t.canonical_title : r.target_id;
       const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
       const note = r.notes ? ` — ${r.notes.slice(0, 60)}` : '';
-      html += `<li>${layer} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+      html += `<li>${layer}${itypeBadge}${l45Badge} ${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''}<span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
     });
     if (textRels.length > 20) html += `<li style="color:#8b7560; font-style:italic;">…他 ${textRels.length - 20} 件</li>`;
     html += `</ul></div>`;
@@ -781,7 +813,7 @@ async function renderShrineProfile(record, outRels, inRels) {
           <div class="festival-head">
             <a href="${url}" class="festival-name">${escapeHtml(f.canonical_name)}</a>
             ${f.canonical_reading && f.canonical_reading !== '-' ? `<span class="festival-reading">${escapeHtml(f.canonical_reading)}</span>` : ''}
-            ${layer} ${cat}
+            ${layer}${itypeBadge}${l45Badge} ${cat}
           </div>
           ${f.date_pattern && f.date_pattern !== '-' ? `<div class="festival-meta"><strong>時期:</strong> ${escapeHtml(f.date_pattern)} ${period}</div>` : period ? `<div class="festival-meta">${period}</div>` : ''}
           ${f.summary && f.summary !== '-' ? `<p class="festival-summary">${escapeHtml(f.summary)}</p>` : ''}
@@ -801,8 +833,10 @@ async function renderShrineProfile(record, outRels, inRels) {
         html += `<ul class="relation-list">`;
         otherRels.slice(0, 20).forEach(r => {
           const layer = r.hypothesis_layer ? `<span class="badge badge-${r.hypothesis_layer.toLowerCase()}">${escapeHtml(r.hypothesis_layer)}</span>` : '';
+      const itypeBadge = renderInferenceTypeBadge(r);
+      const l45Badge = renderL45WarnBadge(r);
           const note = r.notes ? ` — ${r.notes.slice(0, 80)}` : '';
-          html += `<li>${layer} <code>${escapeHtml(r.source_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
+          html += `<li>${layer}${itypeBadge}${l45Badge} <code>${escapeHtml(r.source_id)}</code><span style="color:#8b7560; font-size:0.88em;">${escapeHtml(note)}</span></li>`;
         });
         if (otherRels.length > 20) html += `<li style="color:#8b7560; font-style:italic;">…他 ${otherRels.length - 20} 件</li>`;
         html += `</ul>`;
