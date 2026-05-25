@@ -214,6 +214,8 @@ mythologem (Level 2: motif と政治構造の中間層) を扱う際の規律:
 - 「全神話を抽象構造へ還元できる」幻想を排し、**multi-layered structural overlays** として扱う
 - 日本神話の地方差・時代差・編集層・習合を尊重
 
+Phase 1 (2026-05-25 実装済): `docs/civilization/02_mythologem_master.tsv` (10 件、boundary_traversal / legitimacy_transfer / concealment_revelation / marriage_integration / exchange_gift / death_rebirth / center_periphery_integration / periodic_renewal / divine_descent / succession_dispute) + `motif_belongs_to_mythologem` relation 14 件 (多対多接続)。
+
 ### 4.6 sacred topology 原則 (DISC-008 採択)
 
 GIS 統合時の規律:
