@@ -373,6 +373,13 @@ pre {
 .badge-warn { background: #fde6c0; color: #6b4f2c; border: 1px solid #c4a574; cursor: help; }
 .badge-warn-strong { background: #fbb054; color: #2c1810; border: 1px solid #a07020; cursor: help; }
 .badge-err { background: #c44; color: #fff; border: 1px solid #822; cursor: help; }
+/* DISC-011 Phase 2: symbolic / L4-L5 / speculative の追加バッジ */
+.badge-symbolic { background: #e8d5e8; color: #5a2a5a; border: 1px solid #a070a0; cursor: help; }
+.badge-speculative { background: #ffd9d9; color: #7a2020; border: 1px solid #c44; cursor: help; }
+.badge-l4-5-warn {
+  background: #fff0f0; color: #7a2020; border: 1px dashed #c44; padding: 1px 6px; border-radius: 3px;
+  font-size: 0.82em; font-weight: 600; cursor: help;
+}
 
 /* ===== Detail Page ===== */
 .detail-page { padding: 32px 0 64px; }
