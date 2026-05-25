@@ -304,6 +304,70 @@ ORDER BY s.canonical_name;
 
 ---
 
+## Mythologem-Aware Query (DISC-007 連動、Level 2 抽象層)
+
+mythologem (Level 2) は研究者の象徴的抽象 = `inference_type=symbolic` 必須。query default で除外しているが、研究用途には積極的に使う。
+
+### M-1: 特定 mythologem に属する全 motif と接続 entity
+
+```cypher
+MATCH (m:Mythologem {mythologem_id: 'MTGM-002'})  // legitimacy_transfer
+MATCH (motif:Motif)-[r:SYMBOLIC {relation_type: 'motif_belongs_to_mythologem'}]->(m)
+OPTIONAL MATCH (motif)-[r2:SYMBOLIC|RITUAL]-(target)
+RETURN m.japanese_name AS mythologem,
+       motif.motif_name AS motif,
+       collect(DISTINCT target.canonical_name)[..5] AS 関連 entities;
+```
+
+### M-2: theoretical_framework 別 mythologem 一覧
+
+```cypher
+MATCH (m:Mythologem)
+WHERE m.theoretical_framework CONTAINS 'political-legitimacy'
+RETURN m.mythologem_id, m.japanese_name, m.theoretical_framework,
+       m.proposer_or_school AS 提唱者
+ORDER BY m.mythologem_id;
+```
+
+### M-3: 1 motif が複数 mythologem に属する多対多接続検出
+
+```cypher
+MATCH (motif:Motif)-[r:SYMBOLIC {relation_type: 'motif_belongs_to_mythologem'}]->(m:Mythologem)
+WITH motif, collect(m.japanese_name) AS mythologems, count(m) AS n
+WHERE n > 1
+RETURN motif.motif_name AS motif, mythologems, n AS 帰属数
+ORDER BY n DESC;
+```
+
+→ DISC-007 採用「**1 つの motif が複数 mythologem に属する多対多接続**」(Codex 推奨) の確認。
+
+### M-4: counterargument を持つ mythologem (両論並記対象)
+
+```cypher
+MATCH (m:Mythologem)
+WHERE m.counterargument IS NOT NULL AND m.counterargument <> '-'
+RETURN m.japanese_name AS mythologem,
+       m.proposer_or_school AS 提唱,
+       m.counterargument AS 反対説;
+```
+
+### M-5: comparative_caveats (Indo-European bias 警告) チェック
+
+```cypher
+MATCH (m:Mythologem)
+WHERE m.comparative_caveats IS NOT NULL
+  AND (m.comparative_caveats CONTAINS 'bias'
+       OR m.comparative_caveats CONTAINS '警戒'
+       OR m.comparative_caveats CONTAINS '禁忌')
+RETURN m.japanese_name AS mythologem,
+       m.world_parallels AS 世界比較,
+       m.comparative_caveats AS 警告;
+```
+
+→ DISC-007 採択「**世界神話比較は慎重 (false equivalence / Indo-European bias)**」の運用 query。
+
+---
+
 ## Anti-Hallucination Aware Query (DISC-009 連動)
 
 ### AH-1: source_backed のみの厳密 graph

@@ -47,6 +47,7 @@ MASTERS = [
     ('docs/master/region_master.tsv',   'Region',    'region_id'),
     ('docs/master/festival_master.tsv', 'Festival',  'festival_id'),
     ('docs/civilization/01_motif_db.tsv', 'Motif',   'motif_id'),
+    ('docs/civilization/02_mythologem_master.tsv', 'Mythologem', 'mythologem_id'),
 ]
 
 # --- Relation ontology (DISC-010 採択、6 category) ---
@@ -99,6 +100,7 @@ RELATION_ONTOLOGY = {
     'mentioned_in':           'SYMBOLIC',
     'localized_via_shrine':   'SYMBOLIC',
     'participated_in':        'SYMBOLIC',
+    'motif_belongs_to_mythologem': 'SYMBOLIC',  # DISC-007 Level 2 抽象化
     # synchronization: 時間軸 (temporal graph / evolving civilization graph)
     'located_in_period':      'SYNCHRONIZATION',
     'preceded_by':            'SYNCHRONIZATION',
@@ -112,6 +114,7 @@ TYPE_TO_LABEL = {
     'shrine': 'Shrine', 'deity': 'Deity', 'clan': 'Clan', 'text': 'Text',
     'period': 'Period', 'rank': 'Rank', 'event': 'Event', 'region': 'Region',
     'festival': 'Festival', 'motif': 'Motif', 'motif_abstract': 'Motif',
+    'mythologem': 'Mythologem',  # DISC-007 Level 2
     'emperor': 'Deity',  # 古事記/書紀の天皇は Deity master 側で管理
     'country': 'Region',
 }
