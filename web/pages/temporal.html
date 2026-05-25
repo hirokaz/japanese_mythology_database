@@ -101,6 +101,7 @@
     <div class="temporal-tab active" data-tab="epoch">Ritual Epoch (30)</div>
     <div class="temporal-tab" data-tab="break">Continuity Break (32)</div>
     <div class="temporal-tab" data-tab="medium">Persistence Medium (50)</div>
+    <div class="temporal-tab" data-tab="version">Entity Version (30)</div>
   </div>
 
   <!-- Ritual Epoch -->
@@ -179,6 +180,38 @@
       <span id="mediumStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
     </div>
     <div id="mediumList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Entity Version (Phase 2 part) -->
+  <section class="temporal-section" id="section-version">
+    <h2 class="section-title">Entity Version (5 軸 continuity)</h2>
+    <p class="section-lead">主要 5 hub shrine × 6 epoch = 30 件。<strong>物理 / 儀礼 / 制度 / 物語 / 位置</strong> の 5 軸 continuity を独立評価 (単一スコア化禁忌、DISC-012 採択原則 3)。</p>
+    <div class="filter-row">
+      <label>entity:
+        <select id="entityFilter">
+          <option value="">全て</option>
+          <option value="SHR-002">伊勢神宮 (SHR-002)</option>
+          <option value="SHR-001">出雲大社 (SHR-001)</option>
+          <option value="SHR-006">諏訪大社 (SHR-006)</option>
+          <option value="SHR-005">熊野本宮大社 (SHR-005)</option>
+          <option value="SHR-016">宇佐神宮 (SHR-016)</option>
+        </select>
+      </label>
+      <label>epoch:
+        <select id="epochFilterVer">
+          <option value="">全て</option>
+          <option value="古代">古代</option>
+          <option value="律令">律令期</option>
+          <option value="平安">平安期</option>
+          <option value="中世">中世</option>
+          <option value="近世">近世</option>
+          <option value="近代">近代</option>
+          <option value="現代">現代</option>
+        </select>
+      </label>
+      <span id="versionStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="versionList" class="timeline-list">読み込み中…</div>
   </section>
 </main>
 

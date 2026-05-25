@@ -1,0 +1,31 @@
+entity_id	version_id	epoch	epoch_start	epoch_end	physical_continuity	ritual_continuity	institutional_continuity	narrative_continuity	location_continuity	rupture_score	reinterpretation_intensity	revival_status	source_reference	inference_type	notes
+SHR-002	V01	古代-上代	BCE 5(伝)	7C	inferred	inferred	mythic	mythic	exact	low	low	original	倭姫命世記|考古学	inferential	倭姫命御杖代巡幸の伝承期。考古学的に内宮地は不変
+SHR-002	V02	律令期	7C	1185	maintained	maintained	official(神祇官・延喜式)	official_canon	exact	low	low	original	延喜式|続日本紀|神宮儀式帳	source_backed	式年遷宮第1回 690、神宮制度確立。22 社制度下で本宗
+SHR-002	V03	中世	1185	1573	partial_rebuild	broken→reconstructed	partial(武家庇護)	syncretic(神仏習合)	exact	high	medium	reconstructed	続史愚抄|神宮儀式帳	source_backed	BRK-006 1462-1585 式年遷宮 123 年中絶。神仏習合下で内宮寺併設
+SHR-002	V04	近世	1573	1868	rebuilt(信長後援)	restored	traditional(寺社奉行)	pilgrimage_centric	exact	medium	revived	low	続史愚抄|お蔭参り記録	source_backed	1585 式年遷宮復活。お蔭参り (江戸庶民) で国民化、伊勢御師組織発達
+SHR-002	V05	近代	1868	1945	rebuilt	maintained	national_shinto(官幣大社)	state_canonical	exact	medium	reconstructed	low	官報|明治政府記録	source_backed	BRK-017 神宮寺廃止、純粋神道化。BRK-027 伊勢御師組織消滅 (1871)。神宮 (本宗) 制度
+SHR-002	V06	現代	1945	present	maintained	maintained	shrine_association(神社本庁)	cultural+heritage	exact	low	maintained	low	GHQ 神道指令|神社本庁記録	source_backed	BRK-004 神道指令で国家神道解体。神社本庁傘下、ツーリズム化
+SHR-001	V01	古代-上代	BCE	8C	inferred	inferred	legendary	mythic	exact	medium	high	original	古事記|出雲国造神賀詞|考古学	inferential	国譲り神話の中核。古代高層神殿伝承 (48m 級)、IZM-119/125 出土
+SHR-001	V02	律令期	8C	1185	inferred	maintained	official(出雲国造神賀詞)	state_canonical	exact	low	low	original	延喜式|続日本紀|神賀詞記録	source_backed	神賀詞奏上 26 例 (霊亀 2-寛弘 2)、名神大社、出雲国造祭祀権制度化
+SHR-001	V03	中世	1185	1573	rebuilt(度重なる倒壊)	maintained	partial(武家庇護)	syncretic	exact	high	reconstructed	low	出雲国造家文書	source_backed	BRK-007 中世本殿倒壊・再建反復。1248 年大規模再建
+SHR-001	V04	近世	1573	1868	rebuilt(1744 現本殿)	maintained	traditional(寺社奉行+国造家)	traditional	exact	low	revived	low	出雲国造家文書	source_backed	1744 年現本殿造営、千家・北島両家分割管理体制確立
+SHR-001	V05	近代	1868	1945	maintained	maintained	national_shinto(官幣大社)	state_canonical	exact	low	maintained	low	官報|出雲大社旧記	source_backed	1871 改称、官幣大社。神宮寺は元来なし、神仏分離影響軽微
+SHR-001	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+international	exact	low	maintained	low	神社本庁記録	source_backed	出雲大社教 (戦後)、千家・北島祭祀継承 84 代、国宝指定
+SHR-006	V01	縄文-弥生(L3 仮説)	先史	古代	inferred	inferred	prehistoric	mythic	exact	medium	high	original	諏訪大明神画詞|考古学	speculative	守矢氏 (洩矢神) 在地祭祀の縄文残存仮説 L3。タケミナカタ進入以前
+SHR-006	V02	古代	古代	1185	inferred	maintained	prehistoric+official	syncretic	exact	low	medium	original	諏訪大明神画詞|延喜式	inferential	タケミナカタ祭祀導入 (国譲り神話接続)、守矢氏との重層構造。式内社
+SHR-006	V03	中世	1185	1573	rebuilt(御柱周期)	maintained	chusei(諏訪大祝制度)	warrior_god	exact	low	low	low	諏訪大明神画詞|武家文書	source_backed	諏訪大祝 = 現人神制度確立、武田信玄等武将信仰。御柱祭継承
+SHR-006	V04	近世	1573	1868	rebuilt(御柱周期)	maintained	traditional	traditional	exact	low	maintained	low	諏訪大社旧記	source_backed	諏訪藩庇護下、御柱祭継承。守矢神長官家 78 代継承
+SHR-006	V05	近代	1868	1945	maintained	maintained	national_shinto	state_canonical	exact	high	reconstructed	low	官報|諏訪大社旧記	source_backed	BRK-013 大祝制度廃止 (1871)、守矢神長官家解任。現人神制度終焉
+SHR-006	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+heritage	exact	low	maintained	low	神社本庁記録	source_backed	御柱祭 (7 年周期) 継続、観光化と神事の並存
+SHR-005	V01	古代	古代	1185	inferred	inferred	mythic	mythic	exact	medium	high	original	熊野年代記|諸縁起	inferential	熊野権現信仰の祖型期。本地仏 (阿弥陀如来) 接続前
+SHR-005	V02	平安期	794	1185	maintained	maintained	imperial_pilgrimage	syncretic(本地垂迹)	exact	low	low	low	熊野御幸記|貴族日記	source_backed	平安貴族熊野御幸 (院政期最盛)、熊野古道祭祀網形成
+SHR-005	V03	中世	1185	1573	maintained	maintained	武家信仰	syncretic+popular	exact	low	low	low	平家物語|太平記	source_backed	武家・庶民まで信仰拡大。「アリの熊野詣」、熊野信仰の全国展開
+SHR-005	V04	近世	1573	1868	maintained	maintained	traditional	syncretic	exact	low	maintained	low	熊野年代記|地方記録	source_backed	紀州藩庇護、本地垂迹継承、熊野比丘尼の唱導活動
+SHR-005	V05	近代	1868	1945	rebuilt(1891 遷座)	maintained	national_shinto	state_canonical	relocated	high	reconstructed	low	和歌山県史|官報	source_backed	BRK-008 1889 大水害で旧社地 (大斎原) 流失、1891 現社地遷座。神仏分離で純化
+SHR-005	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+world_heritage	exact	low	maintained	low	UNESCO 申請書|神社本庁記録	source_backed	2004 紀伊山地世界遺産。熊野古道ツーリズム化
+SHR-016	V01	古代	720	1185	inferred	maintained	imperial_oracle	mythic+political	exact	low	high	low	八幡宇佐宮御託宣集|続日本紀	source_backed	八幡神祭祀の祖型、道鏡事件 (769) で皇統守護託宣。八幡信仰の中心
+SHR-016	V02	平安期	794	1185	maintained	maintained	state_official(859 石清水分祀起点)	imperial+warrior	exact	low	low	low	続日本紀|八幡縁起	source_backed	859 石清水勧請、八幡神格の全国展開起点。本地仏 = 阿弥陀如来確立
+SHR-016	V03	中世	1185	1573	maintained	maintained	warrior_godhead(源氏氏神)	warrior+syncretic	exact	low	low	low	吾妻鏡|太平記	source_backed	武家氏神化、特に源氏との結合 (1063 鶴岡勧請)。中世八幡 5 層分祀網
+SHR-016	V04	近世	1573	1868	maintained	maintained	traditional+pilgrimage	syncretic	exact	low	maintained	low	宇佐神宮旧記	source_backed	宇佐神宮神宮寺 (弥勒寺) 全盛期、本地垂迹体系完成
+SHR-016	V05	近代	1868	1945	rebuilt(神宮寺廃絶)	maintained	national_shinto(官幣大社)	state_canonical	exact	high	reconstructed	low	太政官布告|官報	source_backed	BRK-023 1868 弥勒寺廃絶、神仏分離で本地仏体系消失
+SHR-016	V06	現代	1945	present	maintained	maintained	shrine_association	cultural+heritage	exact	low	maintained	low	神社本庁記録	source_backed	八幡網総本社、放生会継続。神仏習合期の物理痕跡は失われたが祭祀継承

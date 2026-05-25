@@ -70,6 +70,7 @@ def check_id_format() -> dict:
         'docs/civilization/03_ritual_epoch.tsv': ('epoch_id', r'^RTE-\d{3}$'),
         'docs/civilization/04_continuity_break.tsv': ('break_id', r'^(BRK|RTR)-\d{3}$'),
         'docs/civilization/05_persistence_medium.tsv': ('entry_id', r'^PM-\d{3}$'),
+        'docs/civilization/06_entity_version.tsv': ('version_id', r'^V\d{2}$'),
     }
     bad = {}
     for path_str, (field, pattern) in expected.items():
