@@ -50,7 +50,7 @@ async function renderDetail() {
       <div class="detail-header">
         <h1>${escapeHtml(record.canonical_name || record.canonical_title || '')}</h1>
         <p class="subtitle">${escapeHtml(record.canonical_reading || '')}</p>
-        <p class="meta"><code>${escapeHtml(id)}</code> · ${escapeHtml(getTypeLabel(type))} · 関係数: ${(incoming.length + outgoing.length).toLocaleString()}</p>
+        <p class="meta"><code>${escapeHtml(id)}</code> · ${escapeHtml(getTypeLabel(type))} · 関係数: ${(incoming.length + outgoing.length).toLocaleString()}${renderVerifiedBadge(record)}</p>
       </div>
 
       <div class="detail-grid">
@@ -82,6 +82,21 @@ async function renderDetail() {
 
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
+}
+
+/** DISC-006 verified_status バッジ。Phase 1 = warning のみ表示。 */
+function renderVerifiedBadge(record) {
+  const status = record.verified_status;
+  if (!status || status === 'verified') return '';
+  // under_review / unverified / known_fabrication の場合のみ表示
+  const labels = {
+    'under_review': { text: '⚠ 検証中', cls: 'badge-warn', tip: 'このエントリは個別実在検証が未完了です (DISC-006 採用)。一次史料・公式情報による確認を推奨します。' },
+    'unverified':   { text: '⚠ 未検証',  cls: 'badge-warn-strong', tip: 'このエントリは外部参照による実在性検証が行われていません。' },
+    'known_fabrication': { text: '✗ 架空判明', cls: 'badge-err', tip: 'このエントリは架空と判明済です (内部参照のみ表示)。' },
+  };
+  const lbl = labels[status];
+  if (!lbl) return '';
+  return ` <span class="badge ${lbl.cls}" title="${escapeHtml(lbl.tip)}">${escapeHtml(lbl.text)}</span>`;
 }
 
 /** deity の詳細解説・一次資料・典拠リンク(deity_extended.tsv から) */

@@ -1,27 +1,27 @@
-event_id	canonical_name	canonical_reading	year_start	year_end	era	category	location	source_reference	hypothesis_layer	notes
-EVENT-Kuniyuzuri	国譲り	くにゆずり	-	-	神代	神話	出雲	古事記|日本書紀	L0	出雲が地上の支配を皇統に譲る
-EVENT-TensonKorin	天孫降臨	てんそんこうりん	-	-	神代	神話	高千穂	古事記|日本書紀	L0	ニニギの高千穂降臨
-EVENT-JinmuTosei	神武東征	じんむとうせい	-	-	神代-古墳	神話/伝承	九州→大和	古事記|日本書紀	L0	神武天皇の東征(初国知らす)
-EVENT-YamatotakeruTosei	ヤマトタケル東征	やまとたけるとうせい	-	-	古墳	伝承/史実	東国	古事記|日本書紀	L0	ヤマトタケルの東国平定
-EVENT-SankokuSeito	三韓征討	さんかんせいとう	200	200	古墳	伝承	朝鮮半島	日本書紀|宇佐宮御託宣集	L1	神功皇后の三韓征討
-EVENT-MiwaOken	三輪王権	みわおうけん	300	400	古墳	歴史	大和三輪	考古学|崇神紀	L0	崇神朝の三輪山祭祀権力
-EVENT-WaGoShu	倭の五王	わのごおう	421	478	古墳	歴史	倭	宋書|日本書紀	L0	讃珍済興武 5 代の中国朝貢、武=雄略
-EVENT-KeitaiOchoKotai	継体王朝交代	けいたいおうちょうこうたい	507	507	古墳	歴史/仮説	越前→大和	日本書紀|上宮記	L2	応神 5 世孫を称した継体天皇即位
-EVENT-BukkyoKoden	仏教公伝	ぶっきょうこうでん	552	552	飛鳥	宗教/政治	百済→大和	日本書紀|上宮聖徳法王帝説	L0	欽明朝、百済聖明王より仏像経典伝来
-EVENT-AsukaJiBuilt	飛鳥寺建立	あすかでらこんりゅう	596	596	飛鳥	宗教/建築	飛鳥	日本書紀	L0	蘇我馬子による日本最初の本格的寺院
-EVENT-SuShunAnsatsu	崇峻天皇暗殺	すしゅんてんのうあんさつ	592	592	飛鳥	政治	飛鳥	日本書紀	L0	蘇我馬子による暗殺(史上唯一)
-EVENT-Suiko	推古朝	すいこちょう	593	628	飛鳥	政治	飛鳥	日本書紀	L0	推古天皇即位、聖徳太子摂政
-EVENT-TaikaKaishin	大化改新	たいかかいしん	645	645	飛鳥	政治	飛鳥	日本書紀	L0	中大兄皇子と中臣鎌足による政変
-EVENT-Jinshin	壬申の乱	じんしんのらん	672	672	飛鳥	政治/戦争	近江→飛鳥	日本書紀	L0	天智没後の継承戦争、天武勝利
-EVENT-TaihoRitsuryo	大宝律令	たいほうりつりょう	701	701	飛鳥-奈良	政治/法令	藤原京	続日本紀	L0	律令制度の本格成立
-EVENT-TodaijiDaibutsu	東大寺大仏	とうだいじだいぶつ	743	752	奈良	宗教/政治	平城京	続日本紀|東大寺要録	L0	聖武天皇発願、廬舎那仏開眼
-EVENT-HeianSento	平安遷都	へいあんせんと	794	794	平安	政治	平安京	続日本紀|日本後紀	L0	桓武天皇による遷都
-EVENT-Engishiki	延喜式編纂	えんぎしきへんさん	905	927	平安	法令/宗教	平安京	延喜式|日本紀略	L0	醍醐朝、藤原時平・忠平編纂
-EVENT-HougenNoRan	保元の乱	ほうげんのらん	1156	1156	平安末	政治/戦争	京	保元物語	L0	崇徳上皇 vs 後白河天皇、武家台頭
-EVENT-DannoUra	壇ノ浦の戦い	だんのうらのたたかい	1185	1185	平安末	戦争	長門	平家物語|吾妻鏡	L0	平家滅亡、安徳天皇入水
-EVENT-JoukyuNoRan	承久の乱	じょうきゅうのらん	1221	1221	鎌倉	政治/戦争	京	吾妻鏡|承久記	L0	後鳥羽上皇 vs 北条義時、後鳥羽流配
-EVENT-NanbokuchoDouran	南北朝動乱	なんぼくちょうどうらん	1336	1392	南北朝	政治/戦争	全国	太平記|神皇正統記	L0	北朝(京)・南朝(吉野)分裂
-EVENT-Sengoku	戦国時代	せんごくじだい	1467	1603	戦国安土桃山	政治/戦争	全国	信長公記|太閤記	L0	応仁の乱〜江戸開幕
-EVENT-ShinbutsuBunri	神仏分離令	しんぶつぶんりれい	1868	1872	明治	宗教/政治	全国	明治政府史料	L0	明治政府による神仏分離
-EVENT-Hakusukinoe	白村江の戦い	はくすきのえのたたかい	663	663	飛鳥	戦争/外交	朝鮮半島(白村江)	日本書紀	L0	倭・百済連合 vs 唐・新羅。阿曇比羅夫ら海人水軍が出征し大敗。律令国家形成の契機
-EVENT-MiketsukuniKonyu	御食国貢納	みけつくにこうのう	-	-	古代	祭祀/経済	志摩・若狭・淡路	延喜式|諸社伝	L1	御食国の海人が皇室・朝廷へ海産物(贄)を貢納する律令期の制度
+event_id	canonical_name	canonical_reading	year_start	year_end	era	category	location	source_reference	hypothesis_layer	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
+EVENT-Kuniyuzuri	国譲り	くにゆずり	-	-	神代	神話	出雲	古事記|日本書紀	L0	出雲が地上の支配を皇統に譲る	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-TensonKorin	天孫降臨	てんそんこうりん	-	-	神代	神話	高千穂	古事記|日本書紀	L0	ニニギの高千穂降臨	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-JinmuTosei	神武東征	じんむとうせい	-	-	神代-古墳	神話/伝承	九州→大和	古事記|日本書紀	L0	神武天皇の東征(初国知らす)	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-YamatotakeruTosei	ヤマトタケル東征	やまとたけるとうせい	-	-	古墳	伝承/史実	東国	古事記|日本書紀	L0	ヤマトタケルの東国平定	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-SankokuSeito	三韓征討	さんかんせいとう	200	200	古墳	伝承	朝鮮半島	日本書紀|宇佐宮御託宣集	L1	神功皇后の三韓征討	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-MiwaOken	三輪王権	みわおうけん	300	400	古墳	歴史	大和三輪	考古学|崇神紀	L0	崇神朝の三輪山祭祀権力	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-WaGoShu	倭の五王	わのごおう	421	478	古墳	歴史	倭	宋書|日本書紀	L0	讃珍済興武 5 代の中国朝貢、武=雄略	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-KeitaiOchoKotai	継体王朝交代	けいたいおうちょうこうたい	507	507	古墳	歴史/仮説	越前→大和	日本書紀|上宮記	L2	応神 5 世孫を称した継体天皇即位	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-BukkyoKoden	仏教公伝	ぶっきょうこうでん	552	552	飛鳥	宗教/政治	百済→大和	日本書紀|上宮聖徳法王帝説	L0	欽明朝、百済聖明王より仏像経典伝来	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-AsukaJiBuilt	飛鳥寺建立	あすかでらこんりゅう	596	596	飛鳥	宗教/建築	飛鳥	日本書紀	L0	蘇我馬子による日本最初の本格的寺院	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-SuShunAnsatsu	崇峻天皇暗殺	すしゅんてんのうあんさつ	592	592	飛鳥	政治	飛鳥	日本書紀	L0	蘇我馬子による暗殺(史上唯一)	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-Suiko	推古朝	すいこちょう	593	628	飛鳥	政治	飛鳥	日本書紀	L0	推古天皇即位、聖徳太子摂政	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-TaikaKaishin	大化改新	たいかかいしん	645	645	飛鳥	政治	飛鳥	日本書紀	L0	中大兄皇子と中臣鎌足による政変	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-Jinshin	壬申の乱	じんしんのらん	672	672	飛鳥	政治/戦争	近江→飛鳥	日本書紀	L0	天智没後の継承戦争、天武勝利	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-TaihoRitsuryo	大宝律令	たいほうりつりょう	701	701	飛鳥-奈良	政治/法令	藤原京	続日本紀	L0	律令制度の本格成立	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-TodaijiDaibutsu	東大寺大仏	とうだいじだいぶつ	743	752	奈良	宗教/政治	平城京	続日本紀|東大寺要録	L0	聖武天皇発願、廬舎那仏開眼	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-HeianSento	平安遷都	へいあんせんと	794	794	平安	政治	平安京	続日本紀|日本後紀	L0	桓武天皇による遷都	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-Engishiki	延喜式編纂	えんぎしきへんさん	905	927	平安	法令/宗教	平安京	延喜式|日本紀略	L0	醍醐朝、藤原時平・忠平編纂	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-HougenNoRan	保元の乱	ほうげんのらん	1156	1156	平安末	政治/戦争	京	保元物語	L0	崇徳上皇 vs 後白河天皇、武家台頭	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-DannoUra	壇ノ浦の戦い	だんのうらのたたかい	1185	1185	平安末	戦争	長門	平家物語|吾妻鏡	L0	平家滅亡、安徳天皇入水	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-JoukyuNoRan	承久の乱	じょうきゅうのらん	1221	1221	鎌倉	政治/戦争	京	吾妻鏡|承久記	L0	後鳥羽上皇 vs 北条義時、後鳥羽流配	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-NanbokuchoDouran	南北朝動乱	なんぼくちょうどうらん	1336	1392	南北朝	政治/戦争	全国	太平記|神皇正統記	L0	北朝(京)・南朝(吉野)分裂	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-Sengoku	戦国時代	せんごくじだい	1467	1603	戦国安土桃山	政治/戦争	全国	信長公記|太閤記	L0	応仁の乱〜江戸開幕	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-ShinbutsuBunri	神仏分離令	しんぶつぶんりれい	1868	1872	明治	宗教/政治	全国	明治政府史料	L0	明治政府による神仏分離	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-Hakusukinoe	白村江の戦い	はくすきのえのたたかい	663	663	飛鳥	戦争/外交	朝鮮半島(白村江)	日本書紀	L0	倭・百済連合 vs 唐・新羅。阿曇比羅夫ら海人水軍が出征し大敗。律令国家形成の契機	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
+EVENT-MiketsukuniKonyu	御食国貢納	みけつくにこうのう	-	-	古代	祭祀/経済	志摩・若狭・淡路	延喜式|諸社伝	L1	御食国の海人が皇室・朝廷へ海産物(贄)を貢納する律令期の制度	under_review	textual	2026-05-25T00:00:00	claude	auto-init: 初期値
