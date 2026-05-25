@@ -294,6 +294,25 @@ LICENSE 構成:
 
 Neo4j に `CIVILIZATIONAL_SYNC` category 追加済 (DISC-010 6 → 7 category)、relation_type に synchronizes / refreshes / reaffirms / reinterpreted_in / reactivated_after / mutated_into / persists_via を登録。詳細は `docs/discussions/DISC-012_resolution.md` 参照。
 
+### 4.11 spatial ontology 原則 (DISC-013 採択)
+
+第 9 軸 (空間内部構造) としての祭祀空間モデルの規律 — DISC-008 sacred topology (網) の補完層:
+
+- **boundary structure を entity 化** — torii / bridge / gate / axial_pillar / perimeter / threshold / path / stone_marker / slope / coastline の 10 種
+- **landscape は type (形態) + role (機能) の 2 軸独立評価** — 同一形態でも epoch により role 変化 (Codex 提案)
+- **ritual_space は geometry + visualization_confidence で記述** — point / polygon / network_path / axis / radius / boundary_line
+- **spatial_interpretation は DISC-012 narrative_layer と並行構造** — overlay (積層) / overwrite (上書き)
+- **evidence_type 3 値** (direct / inferred / interpretive) で空間解釈の overread 防止 (Codex 強調)
+- **mythologem との横断接続** — MTGM-001 boundary_traversal / MTGM-014 pillar_axis_mundi / MTGM-019 tabuized_visibility が物理具現
+
+4 種 schema を Phase 段階実装:
+- `docs/civilization/08_boundary_structure.tsv` (Phase 1 実装済、30 件)
+- `sacred_landscape.tsv` (Phase 2、後続)
+- `ritual_space.tsv` (Phase 3、後続)
+- `spatial_interpretation.tsv` (Phase 4、後続、DISC-012 連動)
+
+Neo4j に `SPATIAL_STRUCTURE` category (7 → 8 category 拡張) は Phase 5 で検討。詳細は `docs/discussions/DISC-013_resolution.md` 参照。
+
 ---
 
 ## 5. ディレクトリ構成

@@ -2,7 +2,7 @@
 
 本データベースで使用する**抽象概念**の定義集。DISC-005 で Codex から指摘された「OS 比喩の過剰一般化」を防ぐため、概念を細分化して用語を厳格化する。
 
-最終更新: 2026-05-25 (DISC-005〜012 確定)
+最終更新: 2026-05-25 (DISC-005〜013 確定)
 
 ---
 
@@ -450,6 +450,46 @@ UI 必須対策:
 | `chronology_mode` (別 field) | `absolute` / `relative` / `mythic` / `unknown` |
 
 `mythic_time` を `historical_time` と混同しない discipline が必須。
+
+---
+
+## DISC-013 由来 (spatial ontology)
+
+### Sacred Boundary
+**俗→聖境界を構成する物理・概念構造** (鳥居・橋・川・坂・禁足境等)。`boundary_type` 10 種で分類:
+- `torii` (鳥居) / `bridge` (橋) / `gate` (門) / `slope` (坂) / `coastline` (海岸)
+- `path` (山道・巡礼路) / `axial_pillar` (御柱・心御柱) / `perimeter` (禁足境)
+- `threshold` (禊場・橋詰) / `stone_marker` (要石等)
+
+### Landscape Type
+**神社の地理的形態類型** (山岳/海岸/水源/峠等)。DISC-008 sacred_topology の 5 GeoJSON layer と整合。
+
+### Landscape Role (Codex 新概念)
+**同一形態でも epoch・文脈により変化する機能的役割**。`landscape_type` (形態) と独立 2 軸で評価することで、epoch 別 role 変化を表現可能。DISC-012 temporal persistence と直接接続。
+
+### Ritual Space Geometry
+**祭祀空間の幾何学的範囲**。`geometry_type` 6 値:
+- `point` / `polygon` / `network_path` / `axis` / `radius` / `boundary_line`
+
+将来 atlas.html での **point + polygon overlay** 描画に利用。
+
+### Spatial Layer Overlay
+**同一空間の時代別意味重畳**。DISC-012 `narrative_layer.tsv` の空間版。`is_overlay_or_overwrite` で積層 (overlay) と上書き (overwrite) を区別。
+
+例:
+- SHR-002 伊勢神宮: 中世神仏習合 (overlay) → 近代純化空間 (overwrite、BRK-017 神宮寺廃絶)
+- SHR-016 宇佐神宮: 中世弥勒寺一体 (overlay) → 近代純粋神道空間 (overwrite、BRK-023 弥勒寺廃絶)
+
+### Axial Pillar
+**axis mundi の物理具現** — 御柱 (諏訪)・心御柱 (伊勢)・出雲心御柱等。DISC-007 MTGM-014 pillar_axis_mundi mythologem の物理化。
+
+### Evidence Type (Codex 提案、最重要)
+**direct / inferred / interpretive の 3 値分離**で空間解釈の **overread** (pattern 読み込みすぎ) を防止:
+- `direct` — 一次史料に空間記述あり (神宮儀式帳の境内図等)
+- `inferred` — 妥当な推論 (考古学的範囲推定等)
+- `interpretive` — 解釈層 (要石を axis mundi とする等)
+
+DISC-005 `inference_type` (source_backed/inferential/speculative/symbolic) と**両軸独立評価**。
 
 ---
 

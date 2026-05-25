@@ -103,6 +103,7 @@
     <div class="temporal-tab" data-tab="medium">Persistence Medium (65)</div>
     <div class="temporal-tab" data-tab="version">Entity Version (60)</div>
     <div class="temporal-tab" data-tab="narrative">Narrative Layer (48)</div>
+    <div class="temporal-tab" data-tab="boundary">Sacred Boundary (30)</div>
   </div>
 
   <!-- Ritual Epoch -->
@@ -240,6 +241,36 @@
       <span id="narrativeStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
     </div>
     <div id="narrativeList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Sacred Boundary (DISC-013 Phase 1) -->
+  <section class="temporal-section" id="section-boundary">
+    <h2 class="section-title">Sacred Boundary (聖境界、DISC-013 Phase 1)</h2>
+    <p class="section-lead">主要 30 件の境界構造。<strong>boundary_type</strong> 10 種で分類、mythologem との横断接続 (boundary_traversal / pillar_axis_mundi / tabuized_visibility) を可視化。</p>
+    <div class="filter-row">
+      <label>boundary_type:
+        <select id="boundaryTypeFilter">
+          <option value="">全て</option>
+          <option value="torii">torii (鳥居)</option>
+          <option value="bridge">bridge (橋)</option>
+          <option value="axial_pillar">axial_pillar (御柱・心御柱)</option>
+          <option value="perimeter">perimeter (禁足境)</option>
+          <option value="threshold">threshold (禊場)</option>
+          <option value="path">path (山道・古道)</option>
+          <option value="stone_marker">stone_marker (要石等)</option>
+        </select>
+      </label>
+      <label>evidence_type:
+        <select id="evidenceTypeFilter">
+          <option value="">全て</option>
+          <option value="direct">direct (一次史料)</option>
+          <option value="inferred">inferred (推論)</option>
+          <option value="interpretive">interpretive (解釈層)</option>
+        </select>
+      </label>
+      <span id="boundaryStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="boundaryList" class="timeline-list">読み込み中…</div>
   </section>
 </main>
 
