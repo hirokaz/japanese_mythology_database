@@ -2,7 +2,7 @@
 
 本データベースで使用する**抽象概念**の定義集。DISC-005 で Codex から指摘された「OS 比喩の過剰一般化」を防ぐため、概念を細分化して用語を厳格化する。
 
-最終更新: 2026-05-25 (DISC-005 確定)
+最終更新: 2026-05-25 (DISC-005〜011 確定)
 
 ---
 
@@ -282,9 +282,100 @@ UI 表示:
 
 ---
 
+## DISC-009 由来 (anti-hallucination architecture)
+
+### Pattern Completion Hallucination
+AI が旧国名・神格・地名・社格等の **pattern から plausible but nonexistent entity を生成する現象**。本 DB の最大データ品質リスク (PR #229/#231 で 284 件削除済)。
+
+### Plausibility ≠ Evidence (Codex 強調)
+「**ありそう**」を **evidence とみなさない** 原則。AI generic synthesis を抑制するために generic plausibility を意図的に reject する。
+
+### Fingerprint Detection (escalation review)
+主祭神 + rank + founded + notes の hash 衝突で大量類似を検出。ただし**八幡・稲荷・天神は実際に高類似 network が存在**するため、hard reject ではなく escalation review を採用 (Codex 推奨)。
+
+### Too Systematic = Suspicious
+AI は網羅・対称性・均一性を過剰生成するが、実世界の神社分布は **非対称・欠損・偏在・歴史的断絶** を含む。systematic completeness 自体が suspicious signal。
+
+### Relation Hallucination
+entity 同士を「**意味ありげに繋いでしまう**」現象。graph visualization と結合で persuasive power が極めて強い。Codex 指摘の通り **entity hallucination より将来的に危険**。
+
+### Epistemic Anomaly Detection
+sudden dense clusters / symmetric expansion / identical note structures / unusual relation fan-out / ontology drift 等の **graph-level 異常**を検出する手法 (Codex 提案、Phase 3+)。
+
+### Provenance Entropy
+entity / relation が **多様な independent source に依存**しているか、単一 AI inference か、repeated copy chain かを定量化する **trust analysis** (Codex 提案)。
+
+### Anti-Hallucination Architecture
+単一 CI チェックではなく、**PR 時点予防 + relation provenance + graph anomaly + provenance entropy** を統合した**多層防御**。詳細は `docs/discussions/DISC-009_resolution.md`。
+
+---
+
+## DISC-010 由来 (graph epistemics)
+
+### Label-Based Node (Codex 強推奨)
+Neo4j の **`(:Shrine)`, `(:Deity)` 等の label-based 設計**。「Entity + type property」方式は ontology 崩壊リスク (Cypher query readability / typo risk / ontology clarity の観点)。multi-label `(:Entity:Shrine)` も有効。
+
+### Relation Ontology (6 Category)
+relation_type の増加に伴い、relation 自体を ontology 化:
+- `ritual_relation` (祭祀関係)
+- `lineage_relation` (系譜関係)
+- `authority_relation` (権威関係)
+- `geographic_relation` (地理関係)
+- `symbolic_relation` (象徴関係、default query 除外候補)
+- `synchronization_relation` (同期関係、temporal graph 用)
+
+### Hypothesis-Aware Query
+`r.hypothesis_layer IN ['L0','L1']` や `r.inference_type <> 'symbolic'` 等、4 軸 (hypothesis_layer / confidence_level / verified_status / inference_type) でフィルタする **本 DB 独自の graph query 様式**。Codex 評価「普通の graph DB ではあまりない、かなり強い」。
+
+### Evolving Civilization Graph
+勧請・分祀・遷宮・神階授与・一宮化等を **graph mutation event** として時間軸で記録する temporal graph。static atlas からの脱却 (Codex 強調)。
+
+### False Coherence (Codex 警告)
+graph visualization により「**繋がって見える**」だけで**因果・歴史的継承・実在関係を錯覚**する現象。特に symbolic relation / mythologem relation / inferred topology で危険。visualization 必須対策: relation confidence / source visibility / symbolic warning / layer filtering。
+
+### Pedagogically Safe Graph
+Persona C 教育者向けに **`verified_status='verified' AND hypothesis_layer='L0' AND inference_type<>'symbolic'`** でフィルタした graph view。no speculative clustering。
+
+### Contradiction-Rich Query
+Persona A 研究者向けに **反対説・併記説・competing interpretations** を含む query。Codex 提案。
+
+---
+
+## DISC-011 由来 (public epistemology)
+
+### Authority Illusion (Codex 最重要警告)
+公開された graph / map / ontology / badge が「**公式見解**」「**学術 consensus**」「**神社認定**」のように見えてしまう錯覚。本 DB の公開設計で最大リスク。
+
+### Interpretation Disclaimer
+「本記述は編纂者解釈を含み、公式見解ではない」旨を **UI 各エントリ画面に明示**する標準警告。authority illusion 対策の中核。
+
+### Curated Relational Interpretation
+本 DB が含む**知的編集性** (relation selection / ontology design / mythologem abstraction / verification layer)。単純 raw data ではない。**CC0 ではなく CC BY-SA を選ぶ根拠**。
+
+### Epistemic Neutrality
+**どの政治立場・宗教立場・学術派閥にも回収されない知識的中立性**。本 DB の公開規律。国家神道復活運動・排外主義・神話 literalism・pseudo-history 等への悪用に対する積極的防御。
+
+### Provenance-Preserving Publication
+attribution / source / inference_type を**維持したまま公開**する原則。CC0 ではなく CC BY-SA 4.0 を選ぶ根拠 (Codex 採用)。
+
+### AI Contributor Governance
+「**誰が書いたか**」より「**どう生成されたか**」を重視する寄稿者規律:
+- AI-generated PR disclosure 必須
+- provenance required (一次史料への遡及)
+- no unsourced mass addition
+- symbolic relation review mandatory
+
+---
+
 ## 関連
 
 - DISC-005 (#238) 解決報告: `docs/discussions/DISC-005_resolution.md`
+- DISC-006 (#242) 解決報告: `docs/discussions/DISC-006_resolution.md`
+- DISC-007 (#243) 解決報告: `docs/discussions/DISC-007_resolution.md`
+- DISC-008 (#244) 解決報告: `docs/discussions/DISC-008_resolution.md`
+- DISC-009 (#246) 解決報告: `docs/discussions/DISC-009_resolution.md`
+- DISC-010 (#247) 解決報告: `docs/discussions/DISC-010_resolution.md`
+- DISC-011 (#248) 解決報告: `docs/discussions/DISC-011_resolution.md`
 - DISC-002 (#178) RISK-31 (AI 生成プレースホルダー混入)
 - DISC-003 (#179) verified_status 公開レイヤ
 - CLAUDE.md §4 編集ルール

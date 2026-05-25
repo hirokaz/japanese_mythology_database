@@ -224,6 +224,49 @@ GIS 統合時の規律:
 - Narrative intoxication 警告: 線が引ける・近くにある・分布が似ているだけで歴史的因果を断定しない
 - 実線 (source-backed) / 点線 (inferred) / グレー (speculative) で関係性の質を視覚化
 
+### 4.7 anti-hallucination architecture 原則 (DISC-009 採択)
+
+AI hallucination は「ミス」ではなく**構造的に増殖する圧力**として扱う:
+
+- **plausibility ≠ evidence** — 「ありそう」を reject する (Codex 強調)
+- **fingerprint detection は escalation review** — hard reject は八幡・稲荷・天神等の高類似 network を誤検出
+- **too systematic = suspicious** — 非対称性・欠損・偏在を期待値とする (実世界神社分布は対称的でない)
+- **feature provenance > feature quantity** — distinctive feature の数より出所明示
+- **relation hallucination > entity hallucination** — 意味ありげな繋ぎは graph visualization と結合で persuasive、将来的により危険
+- **CI Phase 1 = warning only** — false positive 懸念のため suspiciousness scoring 蓄積から
+- **epistemic anomaly detection** — graph-level hallucination 検出 (Phase 3+、Neo4j 連動)
+
+→ 単一 CI チェックではなく **PR 時点予防 + relation provenance + graph anomaly + provenance entropy** の多層防御。詳細は `docs/discussions/DISC-009_resolution.md` 参照。
+
+### 4.8 graph epistemics 原則 (DISC-010 採択)
+
+Neo4j / Cypher 投入時の規律:
+
+- **label-based node + multi-label** — `(:Entity:Shrine)` 等、ontology clarity 最優先 (Entity+type property 方式は ontology 崩壊リスク)
+- **relation ontology 化** — 6 大 category (ritual / lineage / authority / geographic / symbolic / synchronization)
+- **symbolic ↔ source-backed の query-layer 分離** — `inference_type=symbolic` は query default 除外
+- **hypothesis-aware query** — `r.hypothesis_layer IN ['L0','L1']` 等は本 DB の独自性、全 persona query の標準フィルタに
+- **temporal graph = evolving civilization graph** — 勧請・分祀・遷宮・神階授与・一宮化は graph mutation event
+- **graph visualization の false coherence 警告** — relation confidence / source visibility / symbolic warning / layer filtering を必須要件
+
+→ 「読む DB → 探索・推論する DB」への phase transition。詳細は `docs/discussions/DISC-010_resolution.md` 参照。
+
+### 4.9 epistemic neutrality / public epistemology 原則 (DISC-011 採択)
+
+公開設計の規律:
+
+- **編纂的解釈に attribution 必須** → CC BY-SA 4.0 (CC0 不採用、curated relational interpretation の attribution 消失リスク)
+- **「公開 = 真実認定」ではない** → authority illusion 回避が公開設計の中核
+- **interpretation disclaimer を UI レベルで強く可視化** (公式見解/神社認定/学術 consensus に見える錯覚回避)
+- **competing interpretations / source visibility / uncertainty indicators / contradiction overlays** を積極表示
+- **AI contributor governance = 「誰が」ではなく「どう生成されたか」** — AI-generated PR disclosure 必須
+- **どの政治立場にも回収されない epistemic discipline 維持** — 国家神道復活運動・排外主義・神話 literalism・pseudo-history への悪用警戒
+
+LICENSE 構成:
+- code (MIT) / structured data (CC BY-SA 4.0) / interpretation (CC BY-SA 4.0)
+
+詳細は `docs/discussions/DISC-011_resolution.md` 参照。
+
 ---
 
 ## 5. ディレクトリ構成
