@@ -1,348 +1,348 @@
-region_id	canonical_name	canonical_reading	region_type	parent_region_id	alternative_names	source_reference	notes
-REGION-三河国	三河国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-三重県	三重県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-上総国	上総国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-上野国	上野国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-下総国	下総国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-下野国	下野国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-不明	不明	-	unknown	-	-	律令制度|現代行政	不明・未分類
-REGION-丹後国	丹後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-丹波国	丹波国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-京都府	京都府	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-伊予国	伊予国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-伊予国(別)	伊予国(別)	-	other	-	-	律令制度|現代行政	その他(派生・別名)
-REGION-伊勢国	伊勢国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-伊豆国	伊豆国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-伊賀国	伊賀国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-伯耆国	伯耆国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-但馬国	但馬国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-佐渡国	佐渡国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-佐賀県	佐賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-信濃国	信濃国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-備中国	備中国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-備前国	備前国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-備後国	備後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-兵庫県	兵庫県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-出羽国	出羽国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-出雲国	出雲国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-加賀国	加賀国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-北海道	北海道	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-北陸道	北陸道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-千葉県	千葉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-南海道	南海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-周防国	周防国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-和歌山県	和歌山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-和泉国	和泉国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-因幡国	因幡国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-土佐国	土佐国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-埼玉県	埼玉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-壱岐国	壱岐国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-大分県	大分県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-大和国	大和国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-大阪府	大阪府	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-大隅国	大隅国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-奈良県	奈良県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-安房国	安房国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-安芸国	安芸国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-宮城県	宮城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-宮崎県	宮崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-富山県	富山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-対馬国	対馬国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-尾張国	尾張国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-山口県	山口県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-山城国	山城国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-山形県	山形県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-山梨県	山梨県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-山陰道	山陰道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-山陽道	山陽道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-岐阜県	岐阜県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-岡山県	岡山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-岩手県	岩手県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-島根県	島根県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-常陸国	常陸国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-広島県	広島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-徳島県	徳島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-志摩国	志摩国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-愛媛県	愛媛県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-愛知県	愛知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-摂津国	摂津国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-播磨国	播磨国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-新潟県	新潟県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-日向国	日向国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-東京都	東京都	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-東山道	東山道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-東海道	東海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-栃木県	栃木県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-武蔵国	武蔵国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-沖縄県	沖縄県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-河内国	河内国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-淡路国	淡路国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-滋賀県	滋賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-熊本県	熊本県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-琉球	琉球	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-琉球国	琉球国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-甲斐国	甲斐国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-畿内	畿内	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-相模国	相模国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-石川県	石川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-石見国	石見国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-神奈川県	神奈川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-福井県	福井県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-福岡県	福岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-福島県	福島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-秋田県	秋田県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-筑前国	筑前国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-筑後国	筑後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-紀伊国	紀伊国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-美作国	美作国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-美濃国	美濃国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-群馬県	群馬県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-肥前国	肥前国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-肥後国	肥後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-能登国	能登国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-若狭国	若狭国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-茨城県	茨城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-薩摩国	薩摩国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-蝦夷地	蝦夷地	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-西海道	西海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)
-REGION-讃岐国	讃岐国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-豊前国	豊前国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-豊後国	豊後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-越中国	越中国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-越中国(古)	越中国(古)	-	other	-	-	律令制度|現代行政	その他(派生・別名)
-REGION-越前国	越前国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-越後国	越後国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-近江国	近江国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-遠江国	遠江国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-長崎県	長崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-長野県	長野県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-長門国	長門国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-阿波国	阿波国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-陸奥国	陸奥国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-隠岐国	隠岐国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-青森県	青森県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-静岡県	静岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-飛騨国	飛騨国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-香川県	香川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-駿河国	駿河国	-	ancient_country	-	-	律令制度|現代行政	令制国
-REGION-高知県	高知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-鳥取県	鳥取県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REGION-鹿児島県	鹿児島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県
-REG-001	legacy_region_001	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-002	legacy_region_002	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-003	legacy_region_003	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-004	legacy_region_004	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-005	legacy_region_005	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-006	legacy_region_006	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-007	legacy_region_007	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-008	legacy_region_008	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-009	legacy_region_009	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-010	legacy_region_010	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-011	legacy_region_011	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-012	legacy_region_012	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-013	legacy_region_013	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-014	legacy_region_014	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-015	legacy_region_015	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-016	legacy_region_016	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-017	legacy_region_017	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-018	legacy_region_018	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-019	legacy_region_019	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-020	legacy_region_020	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-021	legacy_region_021	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-022	legacy_region_022	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-023	legacy_region_023	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-024	legacy_region_024	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-025	legacy_region_025	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-026	legacy_region_026	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-027	legacy_region_027	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-028	legacy_region_028	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-029	legacy_region_029	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-030	legacy_region_030	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-031	legacy_region_031	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-032	legacy_region_032	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-033	legacy_region_033	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-034	legacy_region_034	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-035	legacy_region_035	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-036	legacy_region_036	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-037	legacy_region_037	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-038	legacy_region_038	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-039	legacy_region_039	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-040	legacy_region_040	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-041	legacy_region_041	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-042	legacy_region_042	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-043	legacy_region_043	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-044	legacy_region_044	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-045	legacy_region_045	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-046	legacy_region_046	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-047	legacy_region_047	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-048	legacy_region_048	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-049	legacy_region_049	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-050	legacy_region_050	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-051	legacy_region_051	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-052	legacy_region_052	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-053	legacy_region_053	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-054	legacy_region_054	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-055	legacy_region_055	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-056	legacy_region_056	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-057	legacy_region_057	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-058	legacy_region_058	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-059	legacy_region_059	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-060	legacy_region_060	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-061	legacy_region_061	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-062	legacy_region_062	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-063	legacy_region_063	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-064	legacy_region_064	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-065	legacy_region_065	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-066	legacy_region_066	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-067	legacy_region_067	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-068	legacy_region_068	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-069	legacy_region_069	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-070	legacy_region_070	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-071	legacy_region_071	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-072	legacy_region_072	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-073	legacy_region_073	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-074	legacy_region_074	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-075	legacy_region_075	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-076	legacy_region_076	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-077	legacy_region_077	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-078	legacy_region_078	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-079	legacy_region_079	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-080	legacy_region_080	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-081	legacy_region_081	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-082	legacy_region_082	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-083	legacy_region_083	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-084	legacy_region_084	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-085	legacy_region_085	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-086	legacy_region_086	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-087	legacy_region_087	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-088	legacy_region_088	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-089	legacy_region_089	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-090	legacy_region_090	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-091	legacy_region_091	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-092	legacy_region_092	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-093	legacy_region_093	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-094	legacy_region_094	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-095	legacy_region_095	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-096	legacy_region_096	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-097	legacy_region_097	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-098	legacy_region_098	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-099	legacy_region_099	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-100	legacy_region_100	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-101	legacy_region_101	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-102	legacy_region_102	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-103	legacy_region_103	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-104	legacy_region_104	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-105	legacy_region_105	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-106	legacy_region_106	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-107	legacy_region_107	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-108	legacy_region_108	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-109	legacy_region_109	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-110	legacy_region_110	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-111	legacy_region_111	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-112	legacy_region_112	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-113	legacy_region_113	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-114	legacy_region_114	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-115	legacy_region_115	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-116	legacy_region_116	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-117	legacy_region_117	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-118	legacy_region_118	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-119	legacy_region_119	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-120	legacy_region_120	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-121	legacy_region_121	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-122	legacy_region_122	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-123	legacy_region_123	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-124	legacy_region_124	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-125	legacy_region_125	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-126	legacy_region_126	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-127	legacy_region_127	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-128	legacy_region_128	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-129	legacy_region_129	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-130	legacy_region_130	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-131	legacy_region_131	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-132	legacy_region_132	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-133	legacy_region_133	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-134	legacy_region_134	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-135	legacy_region_135	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-136	legacy_region_136	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-137	legacy_region_137	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-138	legacy_region_138	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-139	legacy_region_139	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-140	legacy_region_140	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-141	legacy_region_141	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-142	legacy_region_142	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-143	legacy_region_143	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-144	legacy_region_144	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-145	legacy_region_145	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-146	legacy_region_146	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-147	legacy_region_147	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-148	legacy_region_148	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-149	legacy_region_149	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-japan	legacy_region_japan	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-001	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-002	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-003	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-004	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-005	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-006	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-007	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-008	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-009	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-010	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-011	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-012	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-013	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-014	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-015	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-016	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-017	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-018	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-019	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-020	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-021	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-022	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-023	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-024	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-025	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-026	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-027	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-028	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-029	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-030	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-031	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-032	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-033	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-034	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-035	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-036	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-037	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-038	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-039	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-040	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-041	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-042	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-043	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-044	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-045	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-046	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-047	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-048	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-049	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-050	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-051	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-052	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-053	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-054	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-055	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-056	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-057	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-058	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-059	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-060	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-061	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-062	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-063	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-064	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-065	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-066	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-067	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
-REG-province-068	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID
+region_id	canonical_name	canonical_reading	region_type	parent_region_id	alternative_names	source_reference	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
+REGION-三河国	三河国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-三重県	三重県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-上総国	上総国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-上野国	上野国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-下総国	下総国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-下野国	下野国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-不明	不明	-	unknown	-	-	律令制度|現代行政	不明・未分類	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-丹後国	丹後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-丹波国	丹波国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-京都府	京都府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊予国	伊予国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊予国(別)	伊予国(別)	-	other	-	-	律令制度|現代行政	その他(派生・別名)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊勢国	伊勢国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊豆国	伊豆国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊賀国	伊賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伯耆国	伯耆国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-但馬国	但馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-佐渡国	佐渡国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-佐賀県	佐賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-信濃国	信濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-備中国	備中国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-備前国	備前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-備後国	備後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-兵庫県	兵庫県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-出羽国	出羽国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-出雲国	出雲国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-加賀国	加賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-北海道	北海道	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-北陸道	北陸道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-千葉県	千葉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-南海道	南海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-周防国	周防国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-和歌山県	和歌山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-和泉国	和泉国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-因幡国	因幡国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-土佐国	土佐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-埼玉県	埼玉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-壱岐国	壱岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-大分県	大分県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-大和国	大和国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-大阪府	大阪府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-大隅国	大隅国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-奈良県	奈良県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-安房国	安房国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-安芸国	安芸国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-宮城県	宮城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-宮崎県	宮崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-富山県	富山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-対馬国	対馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-尾張国	尾張国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山口県	山口県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山城国	山城国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山形県	山形県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山梨県	山梨県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山陰道	山陰道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-山陽道	山陽道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-岐阜県	岐阜県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-岡山県	岡山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-岩手県	岩手県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-島根県	島根県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-常陸国	常陸国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-広島県	広島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-徳島県	徳島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-志摩国	志摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-愛媛県	愛媛県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-愛知県	愛知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-摂津国	摂津国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-播磨国	播磨国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-新潟県	新潟県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-日向国	日向国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-東京都	東京都	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-東山道	東山道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-東海道	東海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-栃木県	栃木県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-武蔵国	武蔵国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-沖縄県	沖縄県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-河内国	河内国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-淡路国	淡路国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-滋賀県	滋賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-熊本県	熊本県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-琉球	琉球	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-琉球国	琉球国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-甲斐国	甲斐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-畿内	畿内	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-相模国	相模国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-石川県	石川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-石見国	石見国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-神奈川県	神奈川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-福井県	福井県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-福岡県	福岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-福島県	福島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-秋田県	秋田県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-筑前国	筑前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-筑後国	筑後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-紀伊国	紀伊国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-美作国	美作国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-美濃国	美濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-群馬県	群馬県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-肥前国	肥前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-肥後国	肥後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-能登国	能登国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-若狭国	若狭国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-茨城県	茨城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-薩摩国	薩摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-蝦夷地	蝦夷地	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-西海道	西海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-讃岐国	讃岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-豊前国	豊前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-豊後国	豊後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-越中国	越中国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-越中国(古)	越中国(古)	-	other	-	-	律令制度|現代行政	その他(派生・別名)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-越前国	越前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-越後国	越後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-近江国	近江国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-遠江国	遠江国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-長崎県	長崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-長野県	長野県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-長門国	長門国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-阿波国	阿波国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-陸奥国	陸奥国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-隠岐国	隠岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-青森県	青森県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-静岡県	静岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-飛騨国	飛騨国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-香川県	香川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-駿河国	駿河国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-高知県	高知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-鳥取県	鳥取県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-鹿児島県	鹿児島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-001	legacy_region_001	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-002	legacy_region_002	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-003	legacy_region_003	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-004	legacy_region_004	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-005	legacy_region_005	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-006	legacy_region_006	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-007	legacy_region_007	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-008	legacy_region_008	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-009	legacy_region_009	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-010	legacy_region_010	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-011	legacy_region_011	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-012	legacy_region_012	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-013	legacy_region_013	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-014	legacy_region_014	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-015	legacy_region_015	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-016	legacy_region_016	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-017	legacy_region_017	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-018	legacy_region_018	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-019	legacy_region_019	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-020	legacy_region_020	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-021	legacy_region_021	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-022	legacy_region_022	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-023	legacy_region_023	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-024	legacy_region_024	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-025	legacy_region_025	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-026	legacy_region_026	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-027	legacy_region_027	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-028	legacy_region_028	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-029	legacy_region_029	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-030	legacy_region_030	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-031	legacy_region_031	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-032	legacy_region_032	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-033	legacy_region_033	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-034	legacy_region_034	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-035	legacy_region_035	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-036	legacy_region_036	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-037	legacy_region_037	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-038	legacy_region_038	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-039	legacy_region_039	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-040	legacy_region_040	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-041	legacy_region_041	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-042	legacy_region_042	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-043	legacy_region_043	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-044	legacy_region_044	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-045	legacy_region_045	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-046	legacy_region_046	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-047	legacy_region_047	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-048	legacy_region_048	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-049	legacy_region_049	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-050	legacy_region_050	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-051	legacy_region_051	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-052	legacy_region_052	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-053	legacy_region_053	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-054	legacy_region_054	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-055	legacy_region_055	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-056	legacy_region_056	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-057	legacy_region_057	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-058	legacy_region_058	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-059	legacy_region_059	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-060	legacy_region_060	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-061	legacy_region_061	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-062	legacy_region_062	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-063	legacy_region_063	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-064	legacy_region_064	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-065	legacy_region_065	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-066	legacy_region_066	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-067	legacy_region_067	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-068	legacy_region_068	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-069	legacy_region_069	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-070	legacy_region_070	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-071	legacy_region_071	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-072	legacy_region_072	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-073	legacy_region_073	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-074	legacy_region_074	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-075	legacy_region_075	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-076	legacy_region_076	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-077	legacy_region_077	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-078	legacy_region_078	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-079	legacy_region_079	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-080	legacy_region_080	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-081	legacy_region_081	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-082	legacy_region_082	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-083	legacy_region_083	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-084	legacy_region_084	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-085	legacy_region_085	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-086	legacy_region_086	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-087	legacy_region_087	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-088	legacy_region_088	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-089	legacy_region_089	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-090	legacy_region_090	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-091	legacy_region_091	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-092	legacy_region_092	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-093	legacy_region_093	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-094	legacy_region_094	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-095	legacy_region_095	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-096	legacy_region_096	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-097	legacy_region_097	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-098	legacy_region_098	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-099	legacy_region_099	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-100	legacy_region_100	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-101	legacy_region_101	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-102	legacy_region_102	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-103	legacy_region_103	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-104	legacy_region_104	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-105	legacy_region_105	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-106	legacy_region_106	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-107	legacy_region_107	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-108	legacy_region_108	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-109	legacy_region_109	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-110	legacy_region_110	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-111	legacy_region_111	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-112	legacy_region_112	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-113	legacy_region_113	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-114	legacy_region_114	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-115	legacy_region_115	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-116	legacy_region_116	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-117	legacy_region_117	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-118	legacy_region_118	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-119	legacy_region_119	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-120	legacy_region_120	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-121	legacy_region_121	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-122	legacy_region_122	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-123	legacy_region_123	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-124	legacy_region_124	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-125	legacy_region_125	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-126	legacy_region_126	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-127	legacy_region_127	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-128	legacy_region_128	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-129	legacy_region_129	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-130	legacy_region_130	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-131	legacy_region_131	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-132	legacy_region_132	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-133	legacy_region_133	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-134	legacy_region_134	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-135	legacy_region_135	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-136	legacy_region_136	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-137	legacy_region_137	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-138	legacy_region_138	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-139	legacy_region_139	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-140	legacy_region_140	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-141	legacy_region_141	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-142	legacy_region_142	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-143	legacy_region_143	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-144	legacy_region_144	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-145	legacy_region_145	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-146	legacy_region_146	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-147	legacy_region_147	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-148	legacy_region_148	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-149	legacy_region_149	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-japan	legacy_region_japan	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-001	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-002	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-003	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-004	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-005	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-006	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-007	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-008	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-009	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-010	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-011	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-012	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-013	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-014	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-015	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-016	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-017	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-018	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-019	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-020	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-021	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-022	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-023	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-024	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-025	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-026	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-027	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-028	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-029	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-030	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-031	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-032	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-033	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-034	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-035	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-036	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-037	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-038	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-039	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-040	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-041	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-042	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-043	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-044	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-045	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-046	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-047	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-048	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-049	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-050	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-051	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-052	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-053	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-054	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-055	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-056	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-057	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-058	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-059	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-060	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-061	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-062	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-063	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-064	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-065	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-066	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-067	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REG-province-068	legacy_region_province	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値

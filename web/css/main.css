@@ -328,6 +328,10 @@ pre {
 .badge-l4 { background: #8b3a3a; color: #fff; }
 .badge-rank { background: #4a3520; color: #fdf7ef; }
 .badge-cat { background: #f0c674; color: #2c1810; }
+/* DISC-006 verified_status バッジ (Phase 1 warning) */
+.badge-warn { background: #fde6c0; color: #6b4f2c; border: 1px solid #c4a574; cursor: help; }
+.badge-warn-strong { background: #fbb054; color: #2c1810; border: 1px solid #a07020; cursor: help; }
+.badge-err { background: #c44; color: #fff; border: 1px solid #822; cursor: help; }
 
 /* ===== Detail Page ===== */
 .detail-page { padding: 32px 0 64px; }

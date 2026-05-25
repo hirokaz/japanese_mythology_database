@@ -149,6 +149,38 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
     else:
         print(f"  L4-L5↔E integrity  : PASS")
 
+    # verified_status KPI (DISC-006 採用)
+    print(f"\n=== verified_status KPI (DISC-006) ===")
+    from collections import Counter as _Counter
+    verified_targets = [
+        "docs/master/shrine_master.tsv",
+        "docs/master/deity_master.tsv",
+        "docs/master/clan_master.tsv",
+    ]
+    overall = _Counter()
+    for path in verified_targets:
+        full = ROOT / path
+        if not full.exists():
+            continue
+        with open(full, encoding="utf-8") as f:
+            rdr = list(csv.DictReader(f, delimiter="\t"))
+        if not rdr or "verified_status" not in rdr[0]:
+            continue
+        c = _Counter(r.get("verified_status", "") for r in rdr)
+        v = c.get("verified", 0)
+        ur = c.get("under_review", 0)
+        kf = c.get("known_fabrication", 0)
+        n = len(rdr)
+        v_pct = (v / n * 100) if n else 0
+        print(f"  {path.split('/')[-1]}: verified={v} ({v_pct:.1f}%) / under_review={ur} / known_fabrication={kf} / total={n}")
+        for k, vv in c.items():
+            overall[k] += vv
+    total_all = sum(overall.values())
+    if total_all:
+        v_pct_all = overall.get("verified", 0) / total_all * 100
+        print(f"  合計: verified={overall.get('verified', 0)} ({v_pct_all:.1f}%) / under_review={overall.get('under_review', 0)} / known_fabrication={overall.get('known_fabrication', 0)} / total={total_all}")
+        print(f"  verified 比率: {v_pct_all:.1f}% (KPI 参考値、初期段階は 25-35% 想定)")
+
     return {
         "total": total,
         "l0_pct": l0_pct,
