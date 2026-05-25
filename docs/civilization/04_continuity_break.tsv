@@ -1,0 +1,33 @@
+break_id	entity_id	canonical_name	start_year	end_year	cause	reactivation_year	reactivation_type	is_civilization_rewrite	time_confidence	source_reference	inference_type	notes
+BRK-001	multi	神仏習合 (本地垂迹確立期)	8C	19C	仏教伝来後の習合進展	-	-	true	approximate	日本書紀|本朝神社考	source_backed	神仏習合は civilization rewrite event。多くの神社が本地仏を持ち、神宮寺併設。8C 後半に体系化、19C 廃仏毀釈で破壊
+BRK-002	multi	廃仏毀釈	1868	1872	明治新政府の神仏分離令 (慶応4年3月)	-	partial_revival	true	exact	太政官布告|明治政府記録	source_backed	全国で神宮寺・仏像・梵鐘破壊。一部地域 (内子・薩摩) は徹底、京都奈良は被害限定。神仏分離は restored ではなく invented continuity の典型
+BRK-003	multi	国家神道再編	1871	1945	明治 4 年神社制度改革 (官国幣社制)	-	-	true	exact	官報|神社制度令	source_backed	民間信仰 → 国家祭祀へ統制。神道指令 (1945-12) で終焉
+BRK-004	multi	GHQ 神道指令	1945	-	1945-12 連合国最高司令官神道指令	-	reconstructed	true	exact	GHQ 神道指令原本	source_backed	国家神道完全解体。戦後祭祀規模縮小、政教分離体制へ
+BRK-005	multi	神社合祀 (明治政府)	1906	1929	明治 39 年 8 月内務省通牒	-	partial_revival	true	exact	内務省記録|地方行政文書	source_backed	一村一社政策、全国 19 万社 → 12 万社 (約 7 万社統廃合)。和歌山等で南方熊楠が抵抗
+BRK-006	SHR-002	伊勢神宮 (戦国期式年遷宮中絶)	1462	1585	応仁の乱後、室町幕府衰退	1585	reconstructed	false	exact	続史愚抄|神宮儀式帳	source_backed	123 年中絶後、織田信長後援で復活。式年遷宮の重要な discontinuity
+BRK-007	SHR-001	出雲大社 (本殿倒壊・再建反復)	8C	近世	地震・落雷による倒壊	-	partial_revival	false	approximate	出雲国造家文書|延喜式	inferential	古代高層神殿の度重なる倒壊・再建。1248 年大規模再建、現本殿は 1744 年
+BRK-008	SHR-005	熊野本宮大社 (大水害遷座)	1889	1891	明治 22 年大水害	1891	rebuilt	false	exact	和歌山県史|熊野那智大社記録	source_backed	旧社地 (大斎原) 流失、現社地 (現本宮地) へ遷座
+BRK-009	multi	寺請制度 (檀家制度) 強制	1640	1872	江戸幕府宗門改	-	-	false	approximate	寛永宗門改御触書|徳川実紀	source_backed	全国民の寺檀化、神社側の自立性低下。神仏習合の制度化
+BRK-010	multi	式内社制の終焉	967	近世	延喜式制定後の律令制度崩壊	近代	partial_revival	false	approximate	延喜式|新撰姓氏録	source_backed	古代社格制度は中世以降形骸化。近代に式内社研究で再評価
+BRK-011	multi	22 社制度の確立と崩壊	平安	近世	皇室・摂関家祭祀の集約	近代	reconstructed	false	approximate	22 社注式|新抄格勅符抄	source_backed	山城・大和・近江を中心に皇室祭祀統合。明治以降は別表神社制に置換
+BRK-012	multi	一宮制度の確立	8C	中世	国司・武家の地域祭祀統合	-	-	false	approximate	延喜式|諸国一宮巡詣記	inferential	律令制度下で各国の代表社。中世以降は武家祭祀化、近世は地域文化化
+BRK-013	SHR-006	諏訪大社上社大祝制度廃止	1871	-	明治祭政分離	-	-	true	exact	明治政府公文書|諏訪大社旧記	source_backed	諏訪上社大祝 (現人神制度) 廃止、78 代守矢神長官家解任。pre-modern living god の終焉
+RTR-001	multi	延喜式神名帳の再発見	近世	-	国学者による研究復活	近代	restored	false	approximate	本居宣長|平田篤胤	inferential	式内社の近代再特定運動。invented continuity を含む可能性
+RTR-002	multi	国学・復古神道	近世	近代	本居宣長・平田篤胤による古代復活運動	-	invented	true	exact	古事記伝|霊能真柱	source_backed	古代神道への遡及は近世の解釈的構築、Hobsbawm 的 invented tradition
+BRK-014	SHR-009	宗像大社 (沖津宮沖ノ島祭祀の変質)	近代	-	国家神道下での祭祀整理	-	-	true	approximate	宗像大社旧記	inferential	古代海人族祭祀 (4C-9C) と近代国家祭祀の連続性は再検討必要
+BRK-015	multi	祇園社・八坂神社の改称	1868	-	神仏分離令	-	-	true	exact	太政官布告|八坂神社旧記	source_backed	祇園感神院 → 八坂神社へ。神仏習合期の意味喪失
+BRK-016	multi	権現号の廃止	1868	-	神仏分離令	-	-	true	exact	太政官布告|神道事典	source_backed	「大権現」「明神」など仏教的神号廃止、純粋神道化
+BRK-017	multi	神宮寺・別当寺の廃止	1868	1872	神仏分離令	-	-	true	exact	太政官布告|寺院記録	source_backed	伊勢・宇佐・熊野等の神宮寺廃止。神仏習合期の物理的痕跡が大量に消失
+BRK-018	SHR-007	鹿島神宮 (神宮寺廃止)	1868	-	神仏分離令	-	-	true	exact	鹿島神宮旧記|太政官布告	source_backed	常陸鹿島寺廃絶。古代海人系祭祀の仏教層消失
+BRK-019	SHR-014	下鴨神社 (御蔭祭の変容)	古代	近代	国家祭祀統制	-	-	false	approximate	賀茂縁起|延喜式	inferential	古代の御阿礼神事から国家祭祀の御蔭祭へ
+BRK-020	multi	大祓 (天皇主催) の制度的中断	南北朝	近代	南北朝乱の後	近代	restored	false	approximate	日本書紀|延喜式	source_backed	天武朝以来の宮中大祓、南北朝期断絶後、近代復活
+BRK-021	multi	相殿神の整理	1868	-	神仏分離・国家神道整備	-	-	true	exact	太政官布告	source_backed	習合期に相殿祀られた仏教神格を整理、純粋神道化
+BRK-022	multi	地方御霊会の廃絶	近代	-	国家祭祀統制下での地方祭祀整理	-	-	true	approximate	地方行政文書	inferential	貞観 11 年 (869) 御霊会以来の地方御霊信仰、近代統制下で多数廃絶
+BRK-023	SHR-016	宇佐神宮 (神宮寺・弥勒寺廃絶)	1868	1872	神仏分離令	-	-	true	exact	宇佐神宮旧記|太政官布告	source_backed	八幡宇佐宮神宮寺の弥勒寺廃絶。八幡神の本地 = 阿弥陀如来説体系消失
+BRK-024	multi	歳神信仰 (民間祭祀) の変質	近代	-	新暦移行 (1872 太陽暦)	-	partial_revival	true	exact	太政官布告|民俗誌	inferential	旧暦祭祀から新暦祭祀へ。多くの年中行事が日付ズレで再構築
+BRK-025	multi	田の神 (山の神) 信仰の縮小	昭和	-	農業近代化・農村過疎	部分復活	partial_revival	false	approximate	民俗学資料	inferential	田の神祭祀の地方継承縮小。観光化された地域での復活もあり
+BRK-026	SHR-010	三輪山 (禁足地化変動)	古代	現代	時代毎の禁足度合変化	-	maintained	false	mythic_time	大神神社縁起	inferential	三輪山禁足地は古代から継承だが、登拝制度の確立は近世以降
+BRK-027	multi	伊勢御師の組織消滅	1871	-	明治神道改革	-	-	true	exact	明治政府記録|伊勢御師家文書	source_backed	近世伊勢参詣を支えた御師組織、近代神社制度改革で解体
+BRK-028	SHR-018	氷川神社 (神宮寺廃絶)	1868	-	神仏分離令	-	-	true	exact	氷川神社旧記	source_backed	武蔵一宮、神仏習合期の仏教層消失
+BRK-029	multi	祝部 (はふりべ) 制度の消滅	古代	近代	律令制度崩壊	-	-	false	approximate	延喜式|令義解	inferential	古代神祇官管轄下の祝部、中世以降形骸化、明治改革で消滅
+BRK-030	multi	観光化による「伝統」再構築	1990s	present	地方創生・観光振興政策	-	invented	true	exact	観光庁資料|地方創生記録	source_backed	「伝統行事」が観光化される現象。invented continuity の現代型 (DISC-012 警戒対象)

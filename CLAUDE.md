@@ -286,13 +286,13 @@ LICENSE 構成:
 - **civilization rewrite events** (神仏習合 / 廃仏毀釈 / 国家神道 / 戦後再編) を `is_civilization_rewrite=true` で赤色強調
 
 5 種 schema を Phase 段階実装:
-- `ritual_epoch.tsv` (Phase 1)
-- `entity_version.tsv` (Phase 2)
-- `narrative_layer.tsv` (Phase 3)
-- `continuity_break.tsv` (Phase 4)
-- `persistence_medium.tsv` (Phase 5)
+- `docs/civilization/03_ritual_epoch.tsv` (Phase 1 実装済、30 件)
+- `entity_version.tsv` (Phase 2、後続)
+- `narrative_layer.tsv` (Phase 3、後続)
+- `docs/civilization/04_continuity_break.tsv` (Phase 4 実装済、32 件)
+- `docs/civilization/05_persistence_medium.tsv` (Phase 5 実装済、50 件)
 
-Neo4j に `CIVILIZATIONAL_SYNC` category 追加 (DISC-010 6 → 7 category)。詳細は `docs/discussions/DISC-012_resolution.md` 参照。
+Neo4j に `CIVILIZATIONAL_SYNC` category 追加済 (DISC-010 6 → 7 category)、relation_type に synchronizes / refreshes / reaffirms / reinterpreted_in / reactivated_after / mutated_into / persists_via を登録。詳細は `docs/discussions/DISC-012_resolution.md` 参照。
 
 ---
 
