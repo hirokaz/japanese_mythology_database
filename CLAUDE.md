@@ -271,6 +271,29 @@ LICENSE 構成:
 
 詳細は `docs/discussions/DISC-011_resolution.md` 参照。
 
+### 4.10 temporal persistence 原則 (DISC-012 採択)
+
+第 8 軸 (時間) としての文明時間層の規律:
+
+- **ritual persistence > archive persistence** — 西洋的 archive 投影を回避。日本文明は反復による継続が中核
+- **process ontology** — entity = process not substance (Ship of Theseus 問題に対応)
+- **5 軸 continuity** (物理 / 儀礼 / 制度 / 物語 / 位置) — 単一スコア化禁忌
+- **三重 metric** (continuity / rupture_score / reinterpretation_intensity / revival_status) で同時可視化
+- **persistence medium 8 種** (text / ritual / architecture / lineage / pilgrimage / oral / geography / seasonal) で継続媒体を分類
+- **temporal topology** — 時間を network として扱う (cycles / lag / asynchrony / reactivation waves)
+- **continuity illusion 警告** — 「古代から変わらない」「連綿と続く」「本質は不変」の錯覚を UI で常時警告 (DISC-011 authority illusion の時間版)
+- **invented continuity** (Hobsbawm) — 後世創造の「伝統」を独立カテゴリで可視化 (吉田神道復古 / 明治国家神道 / 観光化された伝統等)
+- **civilization rewrite events** (神仏習合 / 廃仏毀釈 / 国家神道 / 戦後再編) を `is_civilization_rewrite=true` で赤色強調
+
+5 種 schema を Phase 段階実装:
+- `ritual_epoch.tsv` (Phase 1)
+- `entity_version.tsv` (Phase 2)
+- `narrative_layer.tsv` (Phase 3)
+- `continuity_break.tsv` (Phase 4)
+- `persistence_medium.tsv` (Phase 5)
+
+Neo4j に `CIVILIZATIONAL_SYNC` category 追加 (DISC-010 6 → 7 category)。詳細は `docs/discussions/DISC-012_resolution.md` 参照。
+
 ---
 
 ## 5. ディレクトリ構成
