@@ -1,0 +1,21 @@
+landscape_id	entity_id	canonical_name	landscape_type	landscape_role	geographic_feature	ritual_focus	founding_legend	evidence_type	source_reference	inference_type	notes
+SL-001	SHR-002	伊勢神宮 (内宮神域)	mountain_worship	cosmic_pillar	神路山+宇治川	式年遷宮+月次祭+神嘗祭	倭姫命御杖代	direct	皇大神宮儀式帳|神宮儀式帳	source_backed	神路山を神奈備とする山岳信仰、5500ha
+SL-002	SHR-006	諏訪大社 (上社+下社)	mountain_worship	axis_mundi	守屋山+諏訪湖	御柱祭+御頭祭+御神渡	タケミナカタ進入+守矢氏在地祭祀	direct	諏訪大明神画詞|延喜式	source_backed	山岳信仰連環の中核、湖辺+山岳の複合
+SL-003	SHR-009	宗像大社 (3 宮)	maritime_corridor	network_node	辺津宮+大島中津宮+沖ノ島沖津宮	みあれ祭+海上守護	宗像三女神|海人族祭祀	direct	沖津宮祭祀遺跡|宗像大社旧記	source_backed	海上守護神社網の中核、DISC-008 maritime_corridors layer
+SL-004	SHR-005	熊野本宮大社+熊野古道	mountain_worship+pilgrimage_path	sacred_threshold	大斎原+熊野三山+熊野古道	熊野権現信仰	熊野年代記	direct	熊野御幸記|平安貴族日記	source_backed	600km の巡礼路、世界遺産。山岳信仰連環+巡礼路 hybrid
+SL-005	SHR-010	大神神社 (三輪山)	mountain_worship+megalith	tabu_zone	三輪山禁足地+磐座群	禁足地祭祀+三輪山祭祀	大物主大神|崇神朝祭祀整備	direct	大神神社縁起|延喜式	source_backed	全山禁足、本殿なし、神奈備信仰の典型
+SL-006	SHR-018	氷川神社+荒川流域	river_basin_ritual	purification	荒川流域+見沼	武蔵国総鎮守	氷川縁起	direct	氷川神社旧記	source_backed	武蔵国一宮、河川流域祭祀
+SL-007	SHR-016	宇佐神宮+八幡湯	spring_water_ritual+mountain_worship	axis_mundi	弥勒寺旧地+八幡湯+菱形池	放生会+御神幸祭	八幡神顕現	direct	宇佐神宮旧記|八幡縁起	source_backed	習合期は霊泉+神域+寺院の複合
+SL-008	SHR-001	出雲大社 (北山)	mountain_worship+megalith	cosmic_pillar	北山山系+八雲山	神在祭+古伝新嘗祭	国譲り神話	direct	出雲国造神賀詞|出雲国風土記	source_backed	八雲山を神奈備、北山系全体が神域
+SL-009	SHR-015	住吉大社+大阪湾	coastal_ritual+maritime_corridor	network_node	大阪湾岸+古代海岸線	住吉神事+海上守護	神功皇后三韓征討伝	direct	住吉縁起|住吉大社神代記	source_backed	海上守護網 (住吉系) の中核、古代航海祭祀
+SL-010	SHR-007	鹿島神宮+鹿島灘	coastal_ritual	boundary_marker	鹿島灘+要石	東国守護+地震鎮め	タケミカヅチ降臨	direct	鹿島神宮旧記|常陸国風土記	source_backed	東国海岸線守護、要石信仰
+SL-011	SHR-008	香取神宮+利根川下流	river_basin_ritual	boundary_marker	利根川下流+要石	東国守護	経津主神降臨	direct	香取神宮旧記	source_backed	鹿島神宮と対の祭祀、河口部祭祀
+SL-012	SHR-012	春日大社+春日山	mountain_worship	sacred_threshold	春日山+若草山	春日祭+若宮おん祭	タケミカヅチ勧請	direct	春日大社縁起	source_backed	春日山原始林 (世界遺産)、藤原氏氏神山岳信仰
+SL-013	SHR-011	石上神宮+布留遺跡	mountain_worship+megalith	axis_mundi	布留山+布留遺跡	物部氏祭祀+神剣奉斎	崇神朝の神剣奉斎	direct	日本書紀|布留遺跡考古学	source_backed	物部氏祭祀の中心、考古学的接続
+SL-014	SHR-013	上賀茂神社+賀茂川	river_basin_ritual	purification	賀茂川源流+神山	葵祭+賀茂競馬	賀茂縁起 (丹塗矢神婚)	direct	賀茂縁起|延喜式	source_backed	賀茂川源流の神奈備山 + 河川流域祭祀
+SL-015	SHR-014	下鴨神社+糺の森	river_basin_ritual+megalith	purification	賀茂川下鴨デルタ+糺の森	葵祭+御蔭祭	賀茂縁起	direct	賀茂縁起|延喜式	source_backed	賀茂川下鴨の原始境界、社叢
+SL-016	SHR-017	八坂神社 (旧祇園社)	mountain_worship	sacred_threshold	円山+東山	祇園祭+御霊会	貞観 11 年 (869) 御霊会起源	direct	祇園社旧記|日本三代実録	source_backed	東山山系の境界、御霊信仰
+SL-017	SHR-020	美保神社+美保関	coastal_ritual	network_node	美保関+島根半島	諸手船神事+青柴垣神事	事代主神祭祀	direct	出雲国風土記|延喜式	source_backed	事代主神祭祀、海岸祭祀
+SL-018	SHR-022	日御碕神社+日御碕	coastal_ritual	boundary_marker	日御碕+日本海	日没祭祀+海上守護	日御碕縁起	direct	日御碕神社旧記	source_backed	出雲西端、日没神事の独自性
+SL-019	multi	熊野古道 (中辺路・小辺路・大辺路)	pilgrimage_path	sacred_threshold	紀伊半島山地	熊野詣	熊野御幸記	direct	熊野御幸記|UNESCO 申請書	source_backed	600km 規模の巡礼路、世界遺産
+SL-020	multi	中央構造線神社配置	fault_line	cosmic_pillar	中央構造線沿い	諏訪・分杭峠・伊勢・剣山	推測的接続	interpretive	近現代仮説書	speculative	L3-L4 仮説、神社配置論への警戒対象 (DISC-013 evidence_type=interpretive)

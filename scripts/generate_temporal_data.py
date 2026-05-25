@@ -23,6 +23,9 @@ SOURCES = [
     ('docs/civilization/06_entity_version.tsv', 'entity_version.tsv'),
     ('docs/civilization/07_narrative_layer.tsv', 'narrative_layer.tsv'),
     ('docs/civilization/08_boundary_structure.tsv', 'boundary_structure.tsv'),
+    ('docs/civilization/09_sacred_landscape.tsv', 'sacred_landscape.tsv'),
+    ('docs/civilization/10_ritual_space.tsv', 'ritual_space.tsv'),
+    ('docs/civilization/11_spatial_interpretation.tsv', 'spatial_interpretation.tsv'),
 ]
 
 

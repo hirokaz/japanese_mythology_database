@@ -365,4 +365,154 @@
 
   document.getElementById('boundaryTypeFilter').addEventListener('change', renderBoundaries);
   document.getElementById('evidenceTypeFilter').addEventListener('change', renderBoundaries);
+
+  // === Sacred Landscape (DISC-013 Phase 2) ===
+  let landscapes = [];
+  fetch('../data/sacred_landscape.tsv')
+    .then(r => r.text())
+    .then(text => {
+      landscapes = parseTsv(text).rows;
+      renderLandscapes();
+    })
+    .catch(e => {
+      document.getElementById('landscapeList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function renderLandscapes() {
+    const lt = document.getElementById('landscapeTypeFilter').value;
+    const lr = document.getElementById('landscapeRoleFilter').value;
+    const filtered = landscapes.filter(l => {
+      if (lt && !(l.landscape_type || '').includes(lt)) return false;
+      if (lr && !(l.landscape_role || '').includes(lr)) return false;
+      return true;
+    });
+    document.getElementById('landscapeStats').textContent =
+      `${filtered.length} / ${landscapes.length} 件`;
+
+    const html = filtered.map(l => {
+      const typeBadges = (l.landscape_type || '').split('+').map(t =>
+        `<span class="badge-medium medium-strong">${escapeHtml(t)}</span>`).join(' ');
+      const roleBadge = `<span class="badge-medium medium-medium">role: ${escapeHtml(l.landscape_role)}</span>`;
+      const evCls = l.evidence_type === 'direct' ? 'medium-strong' :
+                    l.evidence_type === 'interpretive' ? 'badge-rewrite' : 'medium-medium';
+      return `
+        <div class="timeline-item ${l.evidence_type === 'interpretive' ? 'rewrite' : ''}">
+          <h3>${escapeHtml(l.canonical_name)} (${escapeHtml(l.landscape_id)})</h3>
+          <div class="ti-meta">
+            <code style="font-size: 0.82em;">${escapeHtml(l.entity_id)}</code>
+            ${typeBadges} ${roleBadge}
+            <span class="badge-medium ${evCls}">evidence: ${escapeHtml(l.evidence_type)}</span>
+          </div>
+          <div class="ti-meta"><strong>geographic:</strong> ${escapeHtml(l.geographic_feature)}</div>
+          <div class="ti-meta"><strong>ritual_focus:</strong> ${escapeHtml(l.ritual_focus)}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(l.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(l.source_reference || '?')} · inference: ${escapeHtml(l.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('landscapeList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('landscapeTypeFilter').addEventListener('change', renderLandscapes);
+  document.getElementById('landscapeRoleFilter').addEventListener('change', renderLandscapes);
+
+  // === Ritual Space (DISC-013 Phase 3) ===
+  let spaces = [];
+  fetch('../data/ritual_space.tsv')
+    .then(r => r.text())
+    .then(text => {
+      spaces = parseTsv(text).rows;
+      renderSpaces();
+    })
+    .catch(e => {
+      document.getElementById('spaceList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function renderSpaces() {
+    const gf = document.getElementById('geometryFilter').value;
+    const vf = document.getElementById('vizConfFilter').value;
+    const filtered = spaces.filter(s => {
+      if (gf && s.geometry_type !== gf) return false;
+      if (vf && s.visualization_confidence !== vf) return false;
+      return true;
+    });
+    document.getElementById('spaceStats').textContent =
+      `${filtered.length} / ${spaces.length} 件`;
+
+    const html = filtered.map(s => {
+      const vCls = s.visualization_confidence === 'archaeological' ? 'medium-strong' :
+                   s.visualization_confidence === 'speculative' ? 'badge-rewrite' :
+                   s.visualization_confidence === 'textual' ? 'medium-strong' : 'medium-medium';
+      return `
+        <div class="timeline-item ${s.visualization_confidence === 'speculative' ? 'rewrite' : ''}">
+          <h3>${escapeHtml(s.canonical_name)} (${escapeHtml(s.space_id)})</h3>
+          <div class="ti-meta">
+            <code style="font-size: 0.82em;">${escapeHtml(s.entity_id)}</code>
+            <span class="ti-cycle">${escapeHtml(s.space_type)}</span>
+            <span class="ti-period">geometry: ${escapeHtml(s.geometry_type)}</span>
+            <span class="badge-medium ${vCls}">viz: ${escapeHtml(s.visualization_confidence)}</span>
+          </div>
+          <div class="ti-meta"><strong>area:</strong> ${escapeHtml(s.area_estimate || '?')}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(s.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(s.source_reference || '?')} · inference: ${escapeHtml(s.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('spaceList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('geometryFilter').addEventListener('change', renderSpaces);
+  document.getElementById('vizConfFilter').addEventListener('change', renderSpaces);
+
+  // === Spatial Interpretation (DISC-013 Phase 4, DISC-012 連動) ===
+  let spatials = [];
+  fetch('../data/spatial_interpretation.tsv')
+    .then(r => r.text())
+    .then(text => {
+      spatials = parseTsv(text).rows;
+      renderSpatials();
+    })
+    .catch(e => {
+      document.getElementById('spatialList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function renderSpatials() {
+    const of = document.getElementById('spatialOverlayFilter').value;
+    const ef = document.getElementById('spatialEntityFilter').value;
+    const filtered = spatials.filter(s => {
+      if (of && s.is_overlay_or_overwrite !== of) return false;
+      if (ef && s.entity_id !== ef) return false;
+      return true;
+    });
+    document.getElementById('spatialStats').textContent =
+      `${filtered.length} / ${spatials.length} 件`;
+
+    const html = filtered.map(s => {
+      const overwriteBadge = s.is_overlay_or_overwrite === 'overwrite' ?
+        '<span class="badge-rewrite">overwrite (空間意味上書き)</span>' :
+        '<span class="badge-medium medium-strong">overlay (積層)</span>';
+      return `
+        <div class="timeline-item ${s.is_overlay_or_overwrite === 'overwrite' ? 'rewrite' : ''}">
+          <h3>${escapeHtml(s.entity_id)} — ${escapeHtml(s.epoch)} (${escapeHtml(s.interp_id)})</h3>
+          <div class="ti-meta">
+            <span class="ti-period">${escapeHtml(s.epoch_start)} → ${escapeHtml(s.epoch_end)}</span>
+            ${overwriteBadge}
+          </div>
+          <div class="ti-meta" style="margin-top: 6px; line-height: 1.55;">${escapeHtml(s.spatial_meaning)}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(s.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(s.source_reference || '?')} · evidence: ${escapeHtml(s.evidence_type || '?')} · inference: ${escapeHtml(s.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('spatialList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('spatialOverlayFilter').addEventListener('change', renderSpatials);
+  document.getElementById('spatialEntityFilter').addEventListener('change', renderSpatials);
 })();
