@@ -15050,151 +15050,151 @@ RLN-020307	FES-039	festival	performed_at	SHR-852	shrine	A	L0	document	-	-	諸記
 RLN-020308	FES-039	festival	associated_with	DEI-001	deity	B	L0	document	-	-	諸記録|由岐神社社伝	鞍馬の火祭関連神格
 RLN-020309	FES-040	festival	performed_at	SHR-005	shrine	A	L0	document	-	-	熊野山略記	那智三山滝祭(主催)
 RLN-020310	FES-040	festival	associated_with	DEI-193	deity	B	L0	document	-	-	熊野山略記	那智三山滝祭関連神格
-R-AUTO-FIX-SHR-061-DEI-001	DEI-001	primary_deity_of	SHR-061	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-382-DEI-181	DEI-181	primary_deity_of	SHR-382	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-500-DEI-181	DEI-181	primary_deity_of	SHR-500	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-500-DEI-183	DEI-183	primary_deity_of	SHR-500	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-500-DEI-184	DEI-184	primary_deity_of	SHR-500	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-509-DEI-191	DEI-191	primary_deity_of	SHR-509	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-510-DEI-064	DEI-064	primary_deity_of	SHR-510	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-511-DEI-191	DEI-191	primary_deity_of	SHR-511	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-512-DEI-191	DEI-191	primary_deity_of	SHR-512	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-513-DEI-019	DEI-019	primary_deity_of	SHR-513	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-513-DEI-325	DEI-325	primary_deity_of	SHR-513	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-514-DEI-191	DEI-191	primary_deity_of	SHR-514	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-516-DEI-005	DEI-005	primary_deity_of	SHR-516	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-517-DEI-207	DEI-207	primary_deity_of	SHR-517	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-518-DEI-110	DEI-110	primary_deity_of	SHR-518	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-519-DEI-207	DEI-207	primary_deity_of	SHR-519	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-520-DEI-064	DEI-064	primary_deity_of	SHR-520	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-521-DEI-064	DEI-064	primary_deity_of	SHR-521	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-522-DEI-064	DEI-064	primary_deity_of	SHR-522	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-523-DEI-064	DEI-064	primary_deity_of	SHR-523	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-524-DEI-200	DEI-200	primary_deity_of	SHR-524	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-524-DEI-001	DEI-001	primary_deity_of	SHR-524	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-525-DEI-200	DEI-200	primary_deity_of	SHR-525	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-528-DEI-200	DEI-200	primary_deity_of	SHR-528	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-529-DEI-066	DEI-066	primary_deity_of	SHR-529	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-530-DEI-066	DEI-066	primary_deity_of	SHR-530	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-531-DEI-066	DEI-066	primary_deity_of	SHR-531	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-532-DEI-066	DEI-066	primary_deity_of	SHR-532	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-533-DEI-066	DEI-066	primary_deity_of	SHR-533	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-534-DEI-066	DEI-066	primary_deity_of	SHR-534	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-535-DEI-066	DEI-066	primary_deity_of	SHR-535	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-536-DEI-066	DEI-066	primary_deity_of	SHR-536	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-537-DEI-191	DEI-191	primary_deity_of	SHR-537	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-538-DEI-191	DEI-191	primary_deity_of	SHR-538	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-540-DEI-194	DEI-194	primary_deity_of	SHR-540	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-541-DEI-191	DEI-191	primary_deity_of	SHR-541	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-542-DEI-235	DEI-235	primary_deity_of	SHR-542	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-543-DEI-233	DEI-233	primary_deity_of	SHR-543	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-544-DEI-015	DEI-015	primary_deity_of	SHR-544	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-545-DEI-015	DEI-015	primary_deity_of	SHR-545	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-546-DEI-507	DEI-507	primary_deity_of	SHR-546	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-547-DEI-015	DEI-015	primary_deity_of	SHR-547	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-548-DEI-191	DEI-191	primary_deity_of	SHR-548	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-549-DEI-191	DEI-191	primary_deity_of	SHR-549	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-550-DEI-191	DEI-191	primary_deity_of	SHR-550	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-551-DEI-191	DEI-191	primary_deity_of	SHR-551	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-552-DEI-204	DEI-204	primary_deity_of	SHR-552	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-553-DEI-203	DEI-203	primary_deity_of	SHR-553	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-554-DEI-083	DEI-083	primary_deity_of	SHR-554	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-555-DEI-083	DEI-083	primary_deity_of	SHR-555	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-556-DEI-005	DEI-005	primary_deity_of	SHR-556	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-557-DEI-005	DEI-005	primary_deity_of	SHR-557	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-558-DEI-191	DEI-191	primary_deity_of	SHR-558	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-559-DEI-014	DEI-014	primary_deity_of	SHR-559	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-560-DEI-009	DEI-009	primary_deity_of	SHR-560	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-561-DEI-415	DEI-415	primary_deity_of	SHR-561	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-562-DEI-191	DEI-191	primary_deity_of	SHR-562	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-563-DEI-064	DEI-064	primary_deity_of	SHR-563	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-564-DEI-191	DEI-191	primary_deity_of	SHR-564	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-565-DEI-191	DEI-191	primary_deity_of	SHR-565	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-566-DEI-014	DEI-014	primary_deity_of	SHR-566	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-567-DEI-064	DEI-064	primary_deity_of	SHR-567	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-568-DEI-191	DEI-191	primary_deity_of	SHR-568	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-679-DEI-101	DEI-101	primary_deity_of	SHR-679	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-679-DEI-102	DEI-102	primary_deity_of	SHR-679	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-680-DEI-101	DEI-101	primary_deity_of	SHR-680	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-680-DEI-102	DEI-102	primary_deity_of	SHR-680	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-688-DEI-589	DEI-589	primary_deity_of	SHR-688	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-742-DEI-191	DEI-191	primary_deity_of	SHR-742	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-743-DEI-191	DEI-191	primary_deity_of	SHR-743	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-745-DEI-410	DEI-410	primary_deity_of	SHR-745	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-746-DEI-005	DEI-005	primary_deity_of	SHR-746	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-746-DEI-510	DEI-510	primary_deity_of	SHR-746	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-746-DEI-001	DEI-001	primary_deity_of	SHR-746	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-747-DEI-191	DEI-191	primary_deity_of	SHR-747	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-750-DEI-191	DEI-191	primary_deity_of	SHR-750	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-754-DEI-005	DEI-005	primary_deity_of	SHR-754	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-758-DEI-103	DEI-103	primary_deity_of	SHR-758	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-766-DEI-337	DEI-337	primary_deity_of	SHR-766	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-788-DEI-235	DEI-235	primary_deity_of	SHR-788	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-826-DEI-191	DEI-191	primary_deity_of	SHR-826	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-827-DEI-191	DEI-191	primary_deity_of	SHR-827	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-828-DEI-191	DEI-191	primary_deity_of	SHR-828	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-829-DEI-193	DEI-193	primary_deity_of	SHR-829	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-830-DEI-192	DEI-192	primary_deity_of	SHR-830	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-831-DEI-194	DEI-194	primary_deity_of	SHR-831	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-832-DEI-191	DEI-191	primary_deity_of	SHR-832	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-833-DEI-191	DEI-191	primary_deity_of	SHR-833	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-838-DEI-195	DEI-195	primary_deity_of	SHR-838	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-839-DEI-195	DEI-195	primary_deity_of	SHR-839	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-840-DEI-001	DEI-001	primary_deity_of	SHR-840	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-841-DEI-204	DEI-204	primary_deity_of	SHR-841	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-842-DEI-202	DEI-202	primary_deity_of	SHR-842	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-843-DEI-204	DEI-204	primary_deity_of	SHR-843	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-844-DEI-203	DEI-203	primary_deity_of	SHR-844	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-845-DEI-195	DEI-195	primary_deity_of	SHR-845	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-847-DEI-191	DEI-191	primary_deity_of	SHR-847	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-848-DEI-191	DEI-191	primary_deity_of	SHR-848	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-849-DEI-191	DEI-191	primary_deity_of	SHR-849	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-850-DEI-191	DEI-191	primary_deity_of	SHR-850	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-851-DEI-191	DEI-191	primary_deity_of	SHR-851	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-852-DEI-211	DEI-211	primary_deity_of	SHR-852	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-853-DEI-211	DEI-211	primary_deity_of	SHR-853	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-854-DEI-191	DEI-191	primary_deity_of	SHR-854	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-855-DEI-191	DEI-191	primary_deity_of	SHR-855	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-856-DEI-410	DEI-410	primary_deity_of	SHR-856	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-911-DEI-215	DEI-215	primary_deity_of	SHR-911	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-913-DEI-181	DEI-181	primary_deity_of	SHR-913	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-995-DEI-543	DEI-543	primary_deity_of	SHR-995	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-996-DEI-544	DEI-544	primary_deity_of	SHR-996	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-997-DEI-543	DEI-543	primary_deity_of	SHR-997	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-1000-DEI-533	DEI-533	primary_deity_of	SHR-1000	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-1001-DEI-533	DEI-533	primary_deity_of	SHR-1001	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX-SHR-1002-DEI-533	DEI-533	primary_deity_of	SHR-1002	-	-	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
-R-AUTO-FIX2-SHR-015-DEI-164	DEI-164	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-015-DEI-165	DEI-165	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-015-DEI-166	DEI-166	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-015-DEI-183	DEI-183	primary_deity_of	SHR-015	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-058-DEI-001	DEI-001	primary_deity_of	SHR-058	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-082-DEI-337	DEI-337	primary_deity_of	SHR-082	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-927-DEI-553	DEI-553	primary_deity_of	SHR-927	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-928-DEI-561	DEI-561	primary_deity_of	SHR-928	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-929-DEI-562	DEI-562	primary_deity_of	SHR-929	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-930-DEI-563	DEI-563	primary_deity_of	SHR-930	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-932-DEI-566	DEI-566	primary_deity_of	SHR-932	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-934-DEI-577	DEI-577	primary_deity_of	SHR-934	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-934-DEI-578	DEI-578	primary_deity_of	SHR-934	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-941-DEI-089	DEI-089	primary_deity_of	SHR-941	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-1003-DEI-534	DEI-534	primary_deity_of	SHR-1003	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-1004-DEI-535	DEI-535	primary_deity_of	SHR-1004	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-1005-DEI-536	DEI-536	primary_deity_of	SHR-1005	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-1006-DEI-538	DEI-538	primary_deity_of	SHR-1006	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-1007-DEI-539	DEI-539	primary_deity_of	SHR-1007	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-998-DEI-541	DEI-541	primary_deity_of	SHR-998	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-999-DEI-542	DEI-542	primary_deity_of	SHR-999	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-585-DEI-014	DEI-014	primary_deity_of	SHR-585	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-816-DEI-014	DEI-014	primary_deity_of	SHR-816	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-578-DEI-014	DEI-014	primary_deity_of	SHR-578	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-579-DEI-474	DEI-474	primary_deity_of	SHR-579	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-787-DEI-474	DEI-474	primary_deity_of	SHR-787	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-794-DEI-108	DEI-108	primary_deity_of	SHR-794	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-994-DEI-474	DEI-474	primary_deity_of	SHR-994	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-835-DEI-191	DEI-191	primary_deity_of	SHR-835	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-AUTO-FIX2-SHR-969-DEI-215	DEI-215	primary_deity_of	SHR-969	-	-	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
-R-SHR208-FIX-DEI001-PRIMARY	DEI-001	primary_deity_of	SHR-208	-	-	A	L0	-	-	-	-	SHR-208 廣田八幡神社→七宮神社置換 主祭神修正
+R-AUTO-FIX-SHR-061-DEI-001	DEI-001	deity	primary_deity_of	SHR-061	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-382-DEI-181	DEI-181	deity	primary_deity_of	SHR-382	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-500-DEI-181	DEI-181	deity	primary_deity_of	SHR-500	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-500-DEI-183	DEI-183	deity	primary_deity_of	SHR-500	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-500-DEI-184	DEI-184	deity	primary_deity_of	SHR-500	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-509-DEI-191	DEI-191	deity	primary_deity_of	SHR-509	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-510-DEI-064	DEI-064	deity	primary_deity_of	SHR-510	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-511-DEI-191	DEI-191	deity	primary_deity_of	SHR-511	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-512-DEI-191	DEI-191	deity	primary_deity_of	SHR-512	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-513-DEI-019	DEI-019	deity	primary_deity_of	SHR-513	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-513-DEI-325	DEI-325	deity	primary_deity_of	SHR-513	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-514-DEI-191	DEI-191	deity	primary_deity_of	SHR-514	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-516-DEI-005	DEI-005	deity	primary_deity_of	SHR-516	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-517-DEI-207	DEI-207	deity	primary_deity_of	SHR-517	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-518-DEI-110	DEI-110	deity	primary_deity_of	SHR-518	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-519-DEI-207	DEI-207	deity	primary_deity_of	SHR-519	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-520-DEI-064	DEI-064	deity	primary_deity_of	SHR-520	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-521-DEI-064	DEI-064	deity	primary_deity_of	SHR-521	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-522-DEI-064	DEI-064	deity	primary_deity_of	SHR-522	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-523-DEI-064	DEI-064	deity	primary_deity_of	SHR-523	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-524-DEI-200	DEI-200	deity	primary_deity_of	SHR-524	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-524-DEI-001	DEI-001	deity	primary_deity_of	SHR-524	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-525-DEI-200	DEI-200	deity	primary_deity_of	SHR-525	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-528-DEI-200	DEI-200	deity	primary_deity_of	SHR-528	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-529-DEI-066	DEI-066	deity	primary_deity_of	SHR-529	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-530-DEI-066	DEI-066	deity	primary_deity_of	SHR-530	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-531-DEI-066	DEI-066	deity	primary_deity_of	SHR-531	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-532-DEI-066	DEI-066	deity	primary_deity_of	SHR-532	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-533-DEI-066	DEI-066	deity	primary_deity_of	SHR-533	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-534-DEI-066	DEI-066	deity	primary_deity_of	SHR-534	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-535-DEI-066	DEI-066	deity	primary_deity_of	SHR-535	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-536-DEI-066	DEI-066	deity	primary_deity_of	SHR-536	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-537-DEI-191	DEI-191	deity	primary_deity_of	SHR-537	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-538-DEI-191	DEI-191	deity	primary_deity_of	SHR-538	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-540-DEI-194	DEI-194	deity	primary_deity_of	SHR-540	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-541-DEI-191	DEI-191	deity	primary_deity_of	SHR-541	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-542-DEI-235	DEI-235	deity	primary_deity_of	SHR-542	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-543-DEI-233	DEI-233	deity	primary_deity_of	SHR-543	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-544-DEI-015	DEI-015	deity	primary_deity_of	SHR-544	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-545-DEI-015	DEI-015	deity	primary_deity_of	SHR-545	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-546-DEI-507	DEI-507	deity	primary_deity_of	SHR-546	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-547-DEI-015	DEI-015	deity	primary_deity_of	SHR-547	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-548-DEI-191	DEI-191	deity	primary_deity_of	SHR-548	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-549-DEI-191	DEI-191	deity	primary_deity_of	SHR-549	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-550-DEI-191	DEI-191	deity	primary_deity_of	SHR-550	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-551-DEI-191	DEI-191	deity	primary_deity_of	SHR-551	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-552-DEI-204	DEI-204	deity	primary_deity_of	SHR-552	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-553-DEI-203	DEI-203	deity	primary_deity_of	SHR-553	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-554-DEI-083	DEI-083	deity	primary_deity_of	SHR-554	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-555-DEI-083	DEI-083	deity	primary_deity_of	SHR-555	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-556-DEI-005	DEI-005	deity	primary_deity_of	SHR-556	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-557-DEI-005	DEI-005	deity	primary_deity_of	SHR-557	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-558-DEI-191	DEI-191	deity	primary_deity_of	SHR-558	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-559-DEI-014	DEI-014	deity	primary_deity_of	SHR-559	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-560-DEI-009	DEI-009	deity	primary_deity_of	SHR-560	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-561-DEI-415	DEI-415	deity	primary_deity_of	SHR-561	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-562-DEI-191	DEI-191	deity	primary_deity_of	SHR-562	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-563-DEI-064	DEI-064	deity	primary_deity_of	SHR-563	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-564-DEI-191	DEI-191	deity	primary_deity_of	SHR-564	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-565-DEI-191	DEI-191	deity	primary_deity_of	SHR-565	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-566-DEI-014	DEI-014	deity	primary_deity_of	SHR-566	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-567-DEI-064	DEI-064	deity	primary_deity_of	SHR-567	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-568-DEI-191	DEI-191	deity	primary_deity_of	SHR-568	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-679-DEI-101	DEI-101	deity	primary_deity_of	SHR-679	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-679-DEI-102	DEI-102	deity	primary_deity_of	SHR-679	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-680-DEI-101	DEI-101	deity	primary_deity_of	SHR-680	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-680-DEI-102	DEI-102	deity	primary_deity_of	SHR-680	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-688-DEI-589	DEI-589	deity	primary_deity_of	SHR-688	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-742-DEI-191	DEI-191	deity	primary_deity_of	SHR-742	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-743-DEI-191	DEI-191	deity	primary_deity_of	SHR-743	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-745-DEI-410	DEI-410	deity	primary_deity_of	SHR-745	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-746-DEI-005	DEI-005	deity	primary_deity_of	SHR-746	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-746-DEI-510	DEI-510	deity	primary_deity_of	SHR-746	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-746-DEI-001	DEI-001	deity	primary_deity_of	SHR-746	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-747-DEI-191	DEI-191	deity	primary_deity_of	SHR-747	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-750-DEI-191	DEI-191	deity	primary_deity_of	SHR-750	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-754-DEI-005	DEI-005	deity	primary_deity_of	SHR-754	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-758-DEI-103	DEI-103	deity	primary_deity_of	SHR-758	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-766-DEI-337	DEI-337	deity	primary_deity_of	SHR-766	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-788-DEI-235	DEI-235	deity	primary_deity_of	SHR-788	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-826-DEI-191	DEI-191	deity	primary_deity_of	SHR-826	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-827-DEI-191	DEI-191	deity	primary_deity_of	SHR-827	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-828-DEI-191	DEI-191	deity	primary_deity_of	SHR-828	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-829-DEI-193	DEI-193	deity	primary_deity_of	SHR-829	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-830-DEI-192	DEI-192	deity	primary_deity_of	SHR-830	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-831-DEI-194	DEI-194	deity	primary_deity_of	SHR-831	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-832-DEI-191	DEI-191	deity	primary_deity_of	SHR-832	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-833-DEI-191	DEI-191	deity	primary_deity_of	SHR-833	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-838-DEI-195	DEI-195	deity	primary_deity_of	SHR-838	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-839-DEI-195	DEI-195	deity	primary_deity_of	SHR-839	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-840-DEI-001	DEI-001	deity	primary_deity_of	SHR-840	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-841-DEI-204	DEI-204	deity	primary_deity_of	SHR-841	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-842-DEI-202	DEI-202	deity	primary_deity_of	SHR-842	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-843-DEI-204	DEI-204	deity	primary_deity_of	SHR-843	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-844-DEI-203	DEI-203	deity	primary_deity_of	SHR-844	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-845-DEI-195	DEI-195	deity	primary_deity_of	SHR-845	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-847-DEI-191	DEI-191	deity	primary_deity_of	SHR-847	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-848-DEI-191	DEI-191	deity	primary_deity_of	SHR-848	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-849-DEI-191	DEI-191	deity	primary_deity_of	SHR-849	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-850-DEI-191	DEI-191	deity	primary_deity_of	SHR-850	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-851-DEI-191	DEI-191	deity	primary_deity_of	SHR-851	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-852-DEI-211	DEI-211	deity	primary_deity_of	SHR-852	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-853-DEI-211	DEI-211	deity	primary_deity_of	SHR-853	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-854-DEI-191	DEI-191	deity	primary_deity_of	SHR-854	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-855-DEI-191	DEI-191	deity	primary_deity_of	SHR-855	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-856-DEI-410	DEI-410	deity	primary_deity_of	SHR-856	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-911-DEI-215	DEI-215	deity	primary_deity_of	SHR-911	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-913-DEI-181	DEI-181	deity	primary_deity_of	SHR-913	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-995-DEI-543	DEI-543	deity	primary_deity_of	SHR-995	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-996-DEI-544	DEI-544	deity	primary_deity_of	SHR-996	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-997-DEI-543	DEI-543	deity	primary_deity_of	SHR-997	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-1000-DEI-533	DEI-533	deity	primary_deity_of	SHR-1000	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-1001-DEI-533	DEI-533	deity	primary_deity_of	SHR-1001	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX-SHR-1002-DEI-533	DEI-533	deity	primary_deity_of	SHR-1002	shrine	A	L0	-	-	-	-	主祭神誤登録一括修正(役小角等)
+R-AUTO-FIX2-SHR-015-DEI-164	DEI-164	deity	primary_deity_of	SHR-015	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-165	DEI-165	deity	primary_deity_of	SHR-015	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-166	DEI-166	deity	primary_deity_of	SHR-015	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-015-DEI-183	DEI-183	deity	primary_deity_of	SHR-015	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-058-DEI-001	DEI-001	deity	primary_deity_of	SHR-058	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-082-DEI-337	DEI-337	deity	primary_deity_of	SHR-082	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-927-DEI-553	DEI-553	deity	primary_deity_of	SHR-927	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-928-DEI-561	DEI-561	deity	primary_deity_of	SHR-928	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-929-DEI-562	DEI-562	deity	primary_deity_of	SHR-929	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-930-DEI-563	DEI-563	deity	primary_deity_of	SHR-930	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-932-DEI-566	DEI-566	deity	primary_deity_of	SHR-932	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-934-DEI-577	DEI-577	deity	primary_deity_of	SHR-934	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-934-DEI-578	DEI-578	deity	primary_deity_of	SHR-934	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-941-DEI-089	DEI-089	deity	primary_deity_of	SHR-941	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1003-DEI-534	DEI-534	deity	primary_deity_of	SHR-1003	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1004-DEI-535	DEI-535	deity	primary_deity_of	SHR-1004	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1005-DEI-536	DEI-536	deity	primary_deity_of	SHR-1005	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1006-DEI-538	DEI-538	deity	primary_deity_of	SHR-1006	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-1007-DEI-539	DEI-539	deity	primary_deity_of	SHR-1007	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-998-DEI-541	DEI-541	deity	primary_deity_of	SHR-998	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-999-DEI-542	DEI-542	deity	primary_deity_of	SHR-999	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-585-DEI-014	DEI-014	deity	primary_deity_of	SHR-585	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-816-DEI-014	DEI-014	deity	primary_deity_of	SHR-816	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-578-DEI-014	DEI-014	deity	primary_deity_of	SHR-578	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-579-DEI-474	DEI-474	deity	primary_deity_of	SHR-579	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-787-DEI-474	DEI-474	deity	primary_deity_of	SHR-787	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-794-DEI-108	DEI-108	deity	primary_deity_of	SHR-794	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-994-DEI-474	DEI-474	deity	primary_deity_of	SHR-994	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-835-DEI-191	DEI-191	deity	primary_deity_of	SHR-835	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-AUTO-FIX2-SHR-969-DEI-215	DEI-215	deity	primary_deity_of	SHR-969	shrine	A	L0	-	-	-	-	主祭神誤登録 Round2 修正
+R-SHR208-FIX-DEI001-PRIMARY	DEI-001	deity	primary_deity_of	SHR-208	shrine	A	L0	-	-	-	-	SHR-208 廣田八幡神社→七宮神社置換 主祭神修正
 R-MTGM-001	MOTIF-014	motif	motif_belongs_to_mythologem	MTGM-001	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer 採択	inference_type=symbolic 必須 (CLAUDE.md §4.5)
 R-MTGM-002	MOTIF-024	motif	motif_belongs_to_mythologem	MTGM-001	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer 採択	inference_type=symbolic 必須 (CLAUDE.md §4.5)
 R-MTGM-003	MOTIF-001	motif	motif_belongs_to_mythologem	MTGM-002	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer 採択	inference_type=symbolic 必須 (CLAUDE.md §4.5)
