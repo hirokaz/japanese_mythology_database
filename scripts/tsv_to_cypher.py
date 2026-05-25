@@ -54,6 +54,11 @@ MASTERS = [
     ('docs/civilization/04_continuity_break.tsv', 'ContinuityBreak', 'break_id'),
     ('docs/civilization/05_persistence_medium.tsv', 'PersistenceMedium', 'entry_id'),
     ('docs/civilization/08_boundary_structure.tsv', 'Boundary', 'boundary_id'),
+    ('docs/civilization/09_sacred_landscape.tsv', 'Landscape', 'landscape_id'),
+    ('docs/civilization/10_ritual_space.tsv', 'RitualSpace', 'space_id'),
+    # NOTE: 11_spatial_interpretation.tsv は SI-XXX が単独 ID として
+    # Neo4j 投入可能だが、entity と多対多関係なので Phase 5+ で relation 化検討。
+    ('docs/civilization/11_spatial_interpretation.tsv', 'SpatialInterpretation', 'interp_id'),
     # NOTE: 06_entity_version.tsv は version_id (V01-V06) が entity_id 横断で重複するため、
     # MASTERS の単純 ETL では Neo4j で node 衝突を起こす。Phase 6+ で
     # (:Entity)-[:HAS_VERSION {version_id, epoch, continuity}]->(:EntityVersion) のように
@@ -125,6 +130,12 @@ RELATION_ONTOLOGY = {
     'reactivated_after':           'CIVILIZATIONAL_SYNC',
     'mutated_into':                'CIVILIZATIONAL_SYNC',
     'persists_via':                'CIVILIZATIONAL_SYNC',
+    # spatial_structure: 空間構造 (DISC-013 採択、第 8 category)
+    'has_boundary':                'SPATIAL_STRUCTURE',
+    'landscape_type':              'SPATIAL_STRUCTURE',
+    'landscape_role':              'SPATIAL_STRUCTURE',
+    'occupies':                    'SPATIAL_STRUCTURE',
+    'spatially_interpreted_in':    'SPATIAL_STRUCTURE',
 }
 
 # source_type / target_type → Neo4j label

@@ -1,0 +1,31 @@
+interp_id	entity_id	epoch	epoch_start	epoch_end	spatial_meaning	is_overlay_or_overwrite	evidence_type	source_reference	inference_type	notes
+SI-001	SHR-002	古代-律令	7C	1185	倭姫命御杖代の終着地としての聖域確立、皇祖神祭祀地	overlay	direct	倭姫命世記|延喜式	source_backed	律令期に国家祭祀空間化
+SI-002	SHR-002	中世	1185	1573	神宮寺併設の神仏習合空間、内宮寺の存在	overlay	direct	続史愚抄|神宮儀式帳	source_backed	習合期、物理的に寺院併存
+SI-003	SHR-002	近世	1573	1868	伊勢御師組織下の参詣空間、お蔭参り起点	overlay	direct	御師家文書|お蔭参り記録	source_backed	江戸庶民の伊勢参り、200 万人規模
+SI-004	SHR-002	近代	1868	1945	BRK-017 神宮寺廃絶で純化、官幣大社の国家神道空間	overwrite	direct	太政官布告|官報	source_backed	空間意味が上書き、習合層消失
+SI-005	SHR-002	現代	1945	present	式年遷宮ツーリズム化、UNESCO 関連検討	overlay	direct	神社本庁記録	source_backed	祭祀継承 + 観光化
+SI-006	SHR-016	古代-律令	720	1185	八幡神顕現地、道鏡事件 (769) の皇統守護空間	overlay	direct	続日本紀|託宣集	source_backed	国家祭祀空間化
+SI-007	SHR-016	中世	1185	1573	弥勒寺+本殿の一体空間 (本地垂迹空間)	overlay	direct	宇佐神宮旧記|寺社奉行記録	source_backed	習合期の空間体系完成
+SI-008	SHR-016	近代	1868	1945	BRK-023 弥勒寺廃絶で純粋神道空間化	overwrite	direct	太政官布告|官報	source_backed	空間意味の物理的上書き
+SI-009	SHR-016	現代	1945	present	放生会継承、神仏習合期の物理痕跡消失	overlay	direct	神社本庁記録	source_backed	祭祀継承のみ
+SI-010	SHR-006	縄文-古代	先史	1185	守矢氏在地祭祀の空間 (縄文残存仮説 L3)	overlay	direct	諏訪大明神画詞|考古学	inferential	古層空間
+SI-011	SHR-006	中世	1185	1871	大祝制度下の現人神空間、武家信仰の聖域	overlay	direct	諏訪大明神画詞|武家文書	source_backed	pre-modern living god 空間
+SI-012	SHR-006	近代	1871	1945	BRK-013 大祝制度廃止で空間意味変容	overwrite	direct	明治政府公文書	source_backed	現人神制度の終焉、空間機能上書き
+SI-013	SHR-006	現代	1945	present	御柱祭 (7 年周期) 継続 + 観光化	overlay	direct	神社本庁記録	source_backed	祭祀継承 + 観光化
+SI-014	SHR-005	古代-平安	古代	1185	熊野権現信仰の祖型空間	overlay	direct	熊野年代記|諸縁起	inferential	古層空間
+SI-015	SHR-005	平安院政期	1086	1185	熊野御幸の聖域、巡礼路の完成	overlay	direct	熊野御幸記|貴族日記	source_backed	院政期最盛
+SI-016	SHR-005	近代	1889	1945	BRK-008 大水害遷座、新社地への移動	overwrite	direct	和歌山県史	source_backed	物理的場所の上書き、location_continuity=relocated
+SI-017	SHR-005	現代	1945	present	2004 紀伊山地世界遺産、ツーリズム化	overlay	direct	UNESCO 申請書	source_backed	世界遺産物語層
+SI-018	SHR-001	古代-上代	先史	8C	古代高層神殿空間 (48m 級伝承、IZM-119/125)	overlay	direct	古事記|考古学	inferential	国譲り神話の物理化
+SI-019	SHR-001	中世	1185	1573	度重なる倒壊・再建、1248 年大規模再建	overlay	direct	出雲国造家文書	source_backed	BRK-007、reconstruction repetition
+SI-020	SHR-001	近世	1744	1868	現本殿造営、千家・北島両家管理	overlay	direct	出雲国造家文書	source_backed	近世空間の確立
+SI-021	SHR-001	現代	1945	present	国宝指定、千家・北島 84 代継承	overlay	direct	神社本庁記録	source_backed	祭祀継承
+SI-022	SHR-009	古代	4C	9C	沖ノ島露天祭祀の聖域 (考古学的範囲)	overlay	direct	沖津宮祭祀遺跡	source_backed	海人族祭祀の物理層
+SI-023	SHR-009	律令期	8C	12C	三宮配置の体系確立 (辺津+中津+沖津)	overlay	direct	延喜式|宗像大社旧記	source_backed	国家祭祀空間化
+SI-024	SHR-009	近代	1871	1945	BRK-014 国家神道下の祭祀整理	overwrite	direct	官報|宗像大社旧記	source_backed	空間意味の上書き
+SI-025	SHR-009	現代	2017	present	UNESCO「神宿る島」物語化	overlay	direct	UNESCO 申請書	source_backed	国際的物語層、L01-L02 上書き警告
+SI-026	SHR-010	古代-律令	古代	1185	三輪山禁足地の確立 (磐座信仰)	overlay	direct	古事記|大神神社縁起	source_backed	古層空間
+SI-027	SHR-010	近世	1573	1868	登拝制度の確立	overlay	direct	大神神社旧記	source_backed	BRK-026、禁足度合変動
+SI-028	SHR-012	律令-平安	768	1185	藤原氏氏神空間+興福寺一体運営	overlay	direct	春日大社縁起|興福寺記録	source_backed	習合期の一体空間
+SI-029	SHR-012	近代	1868	1945	興福寺との分離、神仏分離で空間意味上書き	overwrite	direct	太政官布告	source_backed	習合層消失
+SI-030	SHR-015	近代	1868	1945	海軍守護神化、軍国主義との接続	overwrite	direct	太政官布告|官報	source_backed	近代軍国主義の空間意味重畳、戦後解体

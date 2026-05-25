@@ -1,0 +1,16 @@
+space_id	entity_id	canonical_name	space_type	geometry_type	area_estimate	visualization_confidence	evidence_type	source_reference	inference_type	notes
+RS-001	SHR-002	伊勢神宮神域全体	main_compound	polygon	5500ha	textual	direct	神宮儀式帳	source_backed	内宮+外宮+125 摂末社、宮域林含む
+RS-002	SHR-002	内宮御神体安置殿	inner_sanctum	point	-	textual	direct	皇大神宮儀式帳	source_backed	心御柱を中心とする最内陣
+RS-003	SHR-005	熊野古道網全体	pilgrimage_network	network_path	600km	textual	direct	熊野御幸記|UNESCO 申請書	source_backed	世界遺産範囲、中辺路+小辺路+大辺路+伊勢路
+RS-004	SHR-005	大斎原 (旧本宮地)	historic_sacred_site	polygon	-	archaeological	direct	和歌山県史|考古学報告	source_backed	1889 大水害前の旧社地、現在は巨大鳥居のみ
+RS-005	SHR-006	諏訪上社御射山祭場	ritual_field	polygon	estimated	inferred	inferred	諏訪大明神画詞	inferential	古代狩猟祭祀場、範囲は推定
+RS-006	SHR-006	諏訪四宮配置	multi_center_network	network_path	湖周 40km	textual	direct	諏訪大明神画詞	source_backed	上社本宮/前宮 + 下社春宮/秋宮、湖を挟む対称
+RS-007	SHR-010	三輪山禁足地	tabu_zone	polygon	462ha	archaeological	direct	大神神社縁起|文化財記録	source_backed	全山禁足、近世以降登拝制度
+RS-008	SHR-009	沖ノ島禁足地	tabu_zone	polygon	97ha	archaeological	direct	沖津宮祭祀遺跡|UNESCO 申請書	source_backed	女人禁制継承、上陸制限、世界遺産核心
+RS-009	SHR-009	宗像三宮網	multi_center_network	network_path	~60km	textual	direct	宗像大社旧記	source_backed	辺津宮 (本土) → 大島 (中津宮) → 沖ノ島 (沖津宮) の海上線
+RS-010	SHR-001	出雲大社神域	main_compound	polygon	~20ha	textual	direct	出雲国造家文書	source_backed	本殿+摂社+境外摂社
+RS-011	SHR-016	宇佐神宮神域	main_compound	polygon	~50ha	textual	direct	宇佐神宮旧記	source_backed	本殿+弥勒寺旧地 (1868 廃絶)
+RS-012	SHR-012	春日大社神域	main_compound	polygon	春日山原始林含	textual	direct	春日大社縁起|UNESCO 申請書	source_backed	世界遺産、春日山原始林 250ha 含
+RS-013	SHR-007	鹿島神宮神域+要石	main_compound	polygon	~70ha	textual	direct	鹿島神宮旧記	source_backed	本殿+奥宮+要石。要石は要石信仰の axis mundi
+RS-014	multi	八幡 5 層分祀網	multi_center_network	network_path	全国	inferred	inferred	八幡縁起|諸社記録	inferential	宇佐 → 石清水 (859) → 鶴岡 (1063) → 国分八幡 → 4 万社規模
+RS-015	multi	中央構造線神社配置	speculative_alignment	axis	~1000km	speculative	interpretive	近現代仮説書	speculative	諏訪→分杭峠→伊勢→剣山。DISC-013 evidence_type=interpretive、過剰解釈警戒

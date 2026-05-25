@@ -104,6 +104,9 @@
     <div class="temporal-tab" data-tab="version">Entity Version (60)</div>
     <div class="temporal-tab" data-tab="narrative">Narrative Layer (48)</div>
     <div class="temporal-tab" data-tab="boundary">Sacred Boundary (30)</div>
+    <div class="temporal-tab" data-tab="landscape">Sacred Landscape (20)</div>
+    <div class="temporal-tab" data-tab="space">Ritual Space (15)</div>
+    <div class="temporal-tab" data-tab="spatial">Spatial Interp (30)</div>
   </div>
 
   <!-- Ritual Epoch -->
@@ -271,6 +274,100 @@
       <span id="boundaryStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
     </div>
     <div id="boundaryList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Sacred Landscape (DISC-013 Phase 2) -->
+  <section class="temporal-section" id="section-landscape">
+    <h2 class="section-title">Sacred Landscape (聖景観、DISC-013 Phase 2)</h2>
+    <p class="section-lead">20 件。<strong>landscape_type (形態) + landscape_role (機能)</strong> の 2 軸独立評価 (Codex 提案)。</p>
+    <div class="filter-row">
+      <label>type:
+        <select id="landscapeTypeFilter">
+          <option value="">全て</option>
+          <option value="mountain_worship">mountain_worship (山岳信仰)</option>
+          <option value="maritime_corridor">maritime_corridor (海上守護網)</option>
+          <option value="river_basin_ritual">river_basin_ritual (河川流域)</option>
+          <option value="spring_water_ritual">spring_water_ritual (水源祭祀)</option>
+          <option value="coastal_ritual">coastal_ritual (海岸祭祀)</option>
+          <option value="megalith">megalith (磐座)</option>
+          <option value="pilgrimage_path">pilgrimage_path (巡礼路)</option>
+          <option value="fault_line">fault_line (断層 — interpretive)</option>
+        </select>
+      </label>
+      <label>role:
+        <select id="landscapeRoleFilter">
+          <option value="">全て</option>
+          <option value="axis_mundi">axis_mundi (世界軸)</option>
+          <option value="cosmic_pillar">cosmic_pillar (宇宙柱)</option>
+          <option value="boundary_marker">boundary_marker</option>
+          <option value="purification">purification (浄化)</option>
+          <option value="sacred_threshold">sacred_threshold (聖閾)</option>
+          <option value="tabu_zone">tabu_zone (禁足)</option>
+          <option value="network_node">network_node (網結節)</option>
+        </select>
+      </label>
+      <span id="landscapeStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="landscapeList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Ritual Space (DISC-013 Phase 3) -->
+  <section class="temporal-section" id="section-space">
+    <h2 class="section-title">Ritual Space (祭祀空間、DISC-013 Phase 3)</h2>
+    <p class="section-lead">15 件。<strong>geometry_type</strong> (point/polygon/network_path/axis 等) と <strong>visualization_confidence</strong> で空間範囲を記述。</p>
+    <div class="filter-row">
+      <label>geometry:
+        <select id="geometryFilter">
+          <option value="">全て</option>
+          <option value="point">point</option>
+          <option value="polygon">polygon</option>
+          <option value="network_path">network_path</option>
+          <option value="axis">axis</option>
+        </select>
+      </label>
+      <label>visualization_confidence:
+        <select id="vizConfFilter">
+          <option value="">全て</option>
+          <option value="archaeological">archaeological</option>
+          <option value="textual">textual</option>
+          <option value="inferred">inferred</option>
+          <option value="speculative">speculative</option>
+        </select>
+      </label>
+      <span id="spaceStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="spaceList" class="timeline-list">読み込み中…</div>
+  </section>
+
+  <!-- Spatial Interpretation (DISC-013 Phase 4 + DISC-012 連動) -->
+  <section class="temporal-section" id="section-spatial">
+    <h2 class="section-title">Spatial Interpretation (空間意味の時代別重畳、DISC-013 Phase 4)</h2>
+    <p class="section-lead">30 件。同一空間の epoch 別 spatial_meaning を <strong>overlay (積層)</strong> と <strong>overwrite (上書き)</strong> で区別 — DISC-012 narrative_layer の空間版。</p>
+    <div class="filter-row">
+      <label>overlay/overwrite:
+        <select id="spatialOverlayFilter">
+          <option value="">全て</option>
+          <option value="overlay">overlay (積層)</option>
+          <option value="overwrite">overwrite (上書き)</option>
+        </select>
+      </label>
+      <label>entity:
+        <select id="spatialEntityFilter">
+          <option value="">全て</option>
+          <option value="SHR-002">伊勢神宮 (SHR-002)</option>
+          <option value="SHR-001">出雲大社 (SHR-001)</option>
+          <option value="SHR-006">諏訪大社 (SHR-006)</option>
+          <option value="SHR-005">熊野本宮大社 (SHR-005)</option>
+          <option value="SHR-016">宇佐神宮 (SHR-016)</option>
+          <option value="SHR-009">宗像大社 (SHR-009)</option>
+          <option value="SHR-010">大神神社 (SHR-010)</option>
+          <option value="SHR-012">春日大社 (SHR-012)</option>
+          <option value="SHR-015">住吉大社 (SHR-015)</option>
+        </select>
+      </label>
+      <span id="spatialStats" style="margin-left: auto; color: #6e5a3a; font-size: 0.88em;"></span>
+    </div>
+    <div id="spatialList" class="timeline-list">読み込み中…</div>
   </section>
 </main>
 
