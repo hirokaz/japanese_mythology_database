@@ -1,133 +1,133 @@
 region_id	canonical_name	canonical_reading	region_type	parent_region_id	alternative_names	source_reference	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
-REGION-三河国	三河国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-三重県	三重県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-上総国	上総国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-上野国	上野国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-下総国	下総国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-下野国	下野国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-三河国	三河国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-三重県	三重県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-上総国	上総国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-上野国	上野国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-下総国	下総国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-下野国	下野国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
 REGION-不明	不明	-	unknown	-	-	律令制度|現代行政	不明・未分類	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-丹後国	丹後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-丹波国	丹波国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-京都府	京都府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-伊予国	伊予国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-丹後国	丹後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-丹波国	丹波国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-京都府	京都府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-伊予国	伊予国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
 REGION-伊予国(別)	伊予国(別)	-	other	-	-	律令制度|現代行政	その他(派生・別名)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-伊勢国	伊勢国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-伊豆国	伊豆国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-伊賀国	伊賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-伯耆国	伯耆国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-但馬国	但馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-佐渡国	佐渡国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-佐賀県	佐賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-信濃国	信濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-備中国	備中国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-備前国	備前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-備後国	備後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-兵庫県	兵庫県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-出羽国	出羽国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-出雲国	出雲国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-加賀国	加賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-北海道	北海道	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-北陸道	北陸道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-千葉県	千葉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-南海道	南海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-周防国	周防国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-和歌山県	和歌山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-和泉国	和泉国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-因幡国	因幡国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-土佐国	土佐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-埼玉県	埼玉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-壱岐国	壱岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-大分県	大分県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-大和国	大和国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-大阪府	大阪府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-大隅国	大隅国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-奈良県	奈良県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-安房国	安房国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-安芸国	安芸国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-宮城県	宮城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-宮崎県	宮崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-富山県	富山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-対馬国	対馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-尾張国	尾張国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山口県	山口県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山城国	山城国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山形県	山形県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山梨県	山梨県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山陰道	山陰道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-山陽道	山陽道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-岐阜県	岐阜県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-岡山県	岡山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-岩手県	岩手県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-島根県	島根県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-常陸国	常陸国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-広島県	広島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-徳島県	徳島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-志摩国	志摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-愛媛県	愛媛県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-愛知県	愛知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-摂津国	摂津国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-播磨国	播磨国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-新潟県	新潟県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-日向国	日向国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-東京都	東京都	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-東山道	東山道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-東海道	東海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-栃木県	栃木県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-武蔵国	武蔵国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-沖縄県	沖縄県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-河内国	河内国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-淡路国	淡路国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-滋賀県	滋賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-熊本県	熊本県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-琉球	琉球	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-琉球国	琉球国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-甲斐国	甲斐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-畿内	畿内	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-相模国	相模国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-石川県	石川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-石見国	石見国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-神奈川県	神奈川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-福井県	福井県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-福岡県	福岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-福島県	福島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-秋田県	秋田県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-筑前国	筑前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-筑後国	筑後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-紀伊国	紀伊国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-美作国	美作国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-美濃国	美濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-群馬県	群馬県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-肥前国	肥前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-肥後国	肥後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-能登国	能登国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-若狭国	若狭国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-茨城県	茨城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-薩摩国	薩摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-蝦夷地	蝦夷地	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-西海道	西海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-讃岐国	讃岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-豊前国	豊前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-豊後国	豊後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-越中国	越中国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-伊勢国	伊勢国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-伊豆国	伊豆国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-伊賀国	伊賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-伯耆国	伯耆国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-但馬国	但馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-佐渡国	佐渡国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-佐賀県	佐賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-信濃国	信濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-備中国	備中国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-備前国	備前国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-備後国	備後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-兵庫県	兵庫県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-出羽国	出羽国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-出雲国	出雲国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-加賀国	加賀国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-北海道	北海道	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-北陸道	北陸道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-千葉県	千葉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-南海道	南海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-周防国	周防国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-和歌山県	和歌山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-和泉国	和泉国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-因幡国	因幡国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-土佐国	土佐国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-埼玉県	埼玉県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-壱岐国	壱岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-大分県	大分県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-大和国	大和国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-大阪府	大阪府	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-大隅国	大隅国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-奈良県	奈良県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-安房国	安房国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-安芸国	安芸国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-宮城県	宮城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-宮崎県	宮崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-富山県	富山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-対馬国	対馬国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-尾張国	尾張国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-山口県	山口県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-山城国	山城国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-山形県	山形県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-山梨県	山梨県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-山陰道	山陰道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-山陽道	山陽道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-岐阜県	岐阜県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-岡山県	岡山県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-岩手県	岩手県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-島根県	島根県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-常陸国	常陸国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-広島県	広島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-徳島県	徳島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-志摩国	志摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-愛媛県	愛媛県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-愛知県	愛知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-摂津国	摂津国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-播磨国	播磨国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-新潟県	新潟県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-日向国	日向国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-東京都	東京都	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-東山道	東山道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-東海道	東海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-栃木県	栃木県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-武蔵国	武蔵国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-沖縄県	沖縄県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-河内国	河内国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-淡路国	淡路国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-滋賀県	滋賀県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-熊本県	熊本県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-琉球	琉球	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-琉球国	琉球国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-甲斐国	甲斐国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-畿内	畿内	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-相模国	相模国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-石川県	石川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-石見国	石見国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-神奈川県	神奈川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-福井県	福井県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-福岡県	福岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-福島県	福島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-秋田県	秋田県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-筑前国	筑前国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-筑後国	筑後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-紀伊国	紀伊国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-美作国	美作国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-美濃国	美濃国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-群馬県	群馬県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-肥前国	肥前国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-肥後国	肥後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-能登国	能登国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-若狭国	若狭国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-茨城県	茨城県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-薩摩国	薩摩国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-蝦夷地	蝦夷地	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-西海道	西海道	-	dou	-	-	律令制度|現代行政	五畿七道(律令体制)	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=dou (institutionally established)
+REGION-讃岐国	讃岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-豊前国	豊前国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-豊後国	豊後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-越中国	越中国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
 REGION-越中国(古)	越中国(古)	-	other	-	-	律令制度|現代行政	その他(派生・別名)	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-越前国	越前国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-越後国	越後国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-近江国	近江国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-遠江国	遠江国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-長崎県	長崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-長野県	長野県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-長門国	長門国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-阿波国	阿波国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-陸奥国	陸奥国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-隠岐国	隠岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-青森県	青森県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-静岡県	静岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-飛騨国	飛騨国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-香川県	香川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-駿河国	駿河国	-	ancient_country	-	-	律令制度|現代行政	令制国	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-高知県	高知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-鳥取県	鳥取県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
-REGION-鹿児島県	鹿児島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
+REGION-越前国	越前国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-越後国	越後国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-近江国	近江国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-遠江国	遠江国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-長崎県	長崎県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-長野県	長野県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-長門国	長門国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-阿波国	阿波国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-陸奥国	陸奥国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-隠岐国	隠岐国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-青森県	青森県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-静岡県	静岡県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-飛騨国	飛騨国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-香川県	香川県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-駿河国	駿河国	-	ancient_country	-	-	律令制度|現代行政	令制国	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=ancient_country (institutionally established)
+REGION-高知県	高知県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-鳥取県	鳥取県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
+REGION-鹿児島県	鹿児島県	-	prefecture	-	-	律令制度|現代行政	現代都道府県	verified	existence	2026-05-25T00:00:00	claude	auto-expand Phase 4: region_type=prefecture (institutionally established)
 REG-001	legacy_region_001	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
 REG-002	legacy_region_002	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
 REG-003	legacy_region_003	-	legacy_cluster	-	-	Sprint0 暫定 ID(将来正式 region 統合)	Sprint0 期の地域クラスタ ID	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値
