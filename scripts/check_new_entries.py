@@ -229,6 +229,125 @@ def check_verification_provenance(row: dict) -> tuple[int, list[str]]:
     return 3 * len(issues), issues
 
 
+# --- Phase 2 (DISC-009) — relation hallucination / column shift / symbolic 警戒 ---
+
+ID_PREFIXES = ('SHR-', 'DEI-', 'CLN-', 'TXT-', 'EVE-', 'PRD-', 'REG-', 'RNK-',
+               'FES-', 'MOTIF-', 'MTGM-', 'HYP-')
+
+ENTITY_TYPES = {'shrine', 'deity', 'clan', 'text', 'event', 'period', 'rank',
+                'region', 'festival', 'motif', 'motif_abstract', 'mythologem',
+                'emperor', 'country'}
+
+
+def check_relation_column_shift(rel_row: dict) -> tuple[int, list[str]]:
+    """relation 行の列ズレ検出 (R-AUTO-FIX 系の再発防止)。
+
+    DISC-009 採択 Phase 2: column shift は人為的編集ミスでも起こる構造的リスク。
+    source_type が ID 形式や relation_type 名なら警告。
+    """
+    issues: list[str] = []
+    stype = (rel_row.get('source_type') or '').strip()
+    ttype = (rel_row.get('target_type') or '').strip()
+    rtype = (rel_row.get('relation_type') or '').strip()
+    tid = (rel_row.get('target_id') or '').strip()
+
+    if stype and stype not in ENTITY_TYPES:
+        # source_type に relation_type 名が入っている疑い
+        if '_' in stype and any(stype == rt for rt in (
+            'primary_deity_of', 'secondary_deity_of', 'enshrined_at',
+            'located_near', 'descended_from', 'parent_of', 'mentioned_in',
+        )):
+            issues.append(f'source_type に relation_type 名 ({stype}) — 列ズレ疑い')
+        else:
+            issues.append(f'source_type が ENTITY_TYPES に不在: {stype}')
+    if ttype and ttype != '-' and ttype not in ENTITY_TYPES:
+        issues.append(f'target_type が ENTITY_TYPES に不在: {ttype}')
+    if rtype.startswith(ID_PREFIXES):
+        issues.append(f'relation_type が ID 形式 ({rtype}) — 列ズレ疑い')
+    if not tid or tid == '-':
+        # 列ズレで target_id が空になる典型
+        issues.append('target_id 空または "-" — 列ズレ疑い')
+    return 5 * len(issues), issues
+
+
+def check_relation_inference_type(rel_row: dict) -> tuple[int, list[str]]:
+    """新規 relation に inference_type 入力があるか (DISC-009 原則 5 連動)。
+
+    relation hallucination は entity hallucination より将来的に危険 (Codex)。
+    """
+    itype = (rel_row.get('inference_type') or '').strip()
+    issues: list[str] = []
+    if not itype:
+        issues.append('inference_type 未入力 (DISC-009 原則 5: relation hallucination 警戒)')
+        return 5, issues
+    if itype not in ('source_backed', 'inferential', 'speculative', 'symbolic'):
+        issues.append(f'inference_type 不正値: {itype}')
+        return 5, issues
+    return 0, issues
+
+
+def check_relation_symbolic_review(rel_row: dict) -> tuple[int, list[str]]:
+    """symbolic relation は人間レビュー必須 (DISC-011 採択)。"""
+    itype = (rel_row.get('inference_type') or '').strip()
+    if itype == 'symbolic':
+        return 2, ['symbolic relation — 人間レビュー必須 (DISC-011 governance)']
+    return 0, []
+
+
+def scan_relations(rel_path: Path) -> int:
+    """relations.tsv の diff から新規行をスキャン (Phase 2)。"""
+    try:
+        diff = subprocess.run(
+            ['git', 'diff', 'origin/main', '--', str(rel_path.relative_to(ROOT))],
+            capture_output=True, text=True, cwd=ROOT, check=True,
+        ).stdout
+    except subprocess.CalledProcessError:
+        return 0
+
+    if not rel_path.exists():
+        return 0
+    with open(rel_path, encoding='utf-8') as f:
+        header = next(csv.reader(f, delimiter='\t'))
+
+    new_rows: list[dict] = []
+    for line in diff.splitlines():
+        if not line.startswith('+') or line.startswith('+++'):
+            continue
+        body = line[1:]
+        if not body or body.startswith('relation_id'):
+            continue
+        cells = body.split('\t')
+        if len(cells) < 6:
+            continue
+        new_rows.append(dict(zip(header, cells)))
+
+    if not new_rows:
+        info(f'{rel_path.name} (diff): 対象 relation なし')
+        return 0
+
+    info(f'{rel_path.name} (diff): scan 対象 {len(new_rows)} relations')
+    total = 0
+    warns: list[str] = []
+    for r in new_rows:
+        rid = r.get('relation_id', '?')
+        s1, i1 = check_relation_column_shift(r)
+        s2, i2 = check_relation_inference_type(r)
+        s3, i3 = check_relation_symbolic_review(r)
+        sc = s1 + s2 + s3
+        issues = i1 + i2 + i3
+        if issues:
+            warns.append(f'  - {rid} (score={sc}): {" / ".join(issues)}')
+        total += sc
+    if warns:
+        warn(f'[relation] suspicious relation: {len(warns)} 件')
+        for w in warns[:20]:
+            warn(w)
+        if len(warns) > 20:
+            warn(f'  ... 他 {len(warns)-20} 件 (詳細省略)')
+    info(f'{rel_path.name} (diff): 累積 score = {total}')
+    return total
+
+
 # --- メイン ---
 
 def scan(rows: list[dict], label: str = '') -> int:
@@ -303,6 +422,9 @@ def main() -> int:
                 continue
             rows = get_diff_new_rows(m)
             total += scan(rows, label=f'{m.name} (diff)')
+
+        # Phase 2 (DISC-009): relation 層 hallucination 警戒
+        total += scan_relations(ROOT / 'docs/relations/relations.tsv')
 
     print(f'\n=== 合計 suspiciousness score = {total} ===')
     if args.strict and total > args.threshold:
