@@ -1,0 +1,40 @@
+name: Anti-Hallucination Check (Phase 1 — warning only)
+
+# DISC-009 採択。新規 master エントリの suspiciousness scoring を実施。
+# Phase 1 = warning only (merge gate にはしない、false positive 懸念のため)。
+
+on:
+  pull_request:
+    paths:
+      - 'docs/master/**.tsv'
+      - 'docs/civilization/*_master*.tsv'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }}
+
+      - name: Run anti-hallucination checker
+        run: |
+          # base ref を origin/main 相当として扱う
+          git branch -f origin/main origin/${{ github.base_ref }} || true
+          python3 scripts/check_new_entries.py
+          # Phase 1: 終了コード 0 固定 (warning only)。
+          # Phase 2 以降で --strict 化を検討。
+
+      - name: Run KPI audit (整合性チェック)
+        run: python3 scripts/audit_kpi.py || true
+        # 既存 audit_kpi.py は L0 比率 / dangling 等を見る。Phase 1 は失敗しても block しない。
