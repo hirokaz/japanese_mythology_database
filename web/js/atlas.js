@@ -82,11 +82,17 @@
           fillOpacity: 0.85,
         });
 
+        const accuracy = cells[col('coordinates_accuracy')] || '';
+        const coordsSource = cells[col('coordinates_source')] || '';
+        const vizConf = cells[col('visualization_confidence')] || '';
+
         const popup = `
           <h3>${escapeHtml(name)}</h3>
           <div class="pop-meta">${escapeHtml(reading || '')} / ${escapeHtml(pref || '')}</div>
           ${rank ? `<div class="pop-meta">社格: ${escapeHtml(rank)}</div>` : ''}
           ${verified ? `<div class="pop-meta">verified_status: ${escapeHtml(verified)}</div>` : ''}
+          ${accuracy ? `<div class="pop-meta">coordinates_accuracy: ${escapeHtml(accuracy)} (source: ${escapeHtml(coordsSource)})</div>` : ''}
+          ${vizConf ? `<div class="pop-meta">visualization_confidence: <strong>${escapeHtml(vizConf)}</strong></div>` : ''}
           <a class="pop-link" href="shrine.html?id=${encodeURIComponent(id)}">詳細を見る</a>
         `;
         marker.bindPopup(popup);
