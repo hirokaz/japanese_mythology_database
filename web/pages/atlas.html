@@ -97,18 +97,22 @@
   <div id="map"></div>
 
   <section class="section" style="padding: 24px 0;">
-    <h2 class="section-title">visualization confidence (DISC-008 採択)</h2>
-    <p>各 layer の根拠強度を将来明示予定:</p>
+    <h2 class="section-title">visualization confidence (DISC-008 採択、Phase 2 実装済)</h2>
+    <p>各 marker の <code>visualization_confidence</code> field で根拠強度を明示しています (popup に表示):</p>
     <ul>
-      <li><code>archaeological</code>: 考古学根拠 (出土品・遺構との対応)</li>
-      <li><code>textual</code>: 文献根拠 (記紀・延喜式・社伝)</li>
-      <li><code>inferred</code>: 妥当な推論 (古代海運ルート推定等)</li>
-      <li><code>speculative</code>: 検証困難仮説 (中央構造線神社配置論等)</li>
+      <li><code>archaeological</code>: 考古学根拠 (出土品・遺構との対応) — Phase 3 で適用</li>
+      <li><code>textual</code>: 文献根拠 (記紀・延喜式・社伝) — 古代社格保持社 25 件に適用</li>
+      <li><code>inferred</code>: 妥当な推論 (古代海運ルート推定等) — 著名社 3 件に適用</li>
+      <li><code>speculative</code>: 検証困難仮説 (中央構造線神社配置論等) — Phase 3 で適用</li>
     </ul>
+    <p style="font-size: 0.88em; color: #6e5a3a;">
+      <strong>Narrative intoxication 警告再掲</strong>: visualization_confidence が <code>textual</code> でも、
+      個別の地理的相関は因果関係を意味しません。
+    </p>
 
     <h2 class="section-title">後続 Phase</h2>
     <ul>
-      <li><strong>Phase 2</strong>: 一宮 + 式内大社 + 二十二社 + 別表神社 (250 件) + <code>coordinates_accuracy</code> field 追加</li>
+      <li><strong>Phase 2 (本セッション一部実装)</strong>: ✅ <code>coordinates_accuracy</code> / <code>coordinates_source</code> / <code>visualization_confidence</code> field 追加。一宮+式内大社+二十二社+別表神社 (250 件) の座標補完は後続 (要・神社庁公開データ等の検証)</li>
       <li><strong>Phase 3</strong>: 全 verified shrine 表示 + sacred topology GeoJSON layer (海上守護網・山岳信仰連環・河川流域祭祀・断層 alignment・巡礼路)</li>
       <li><strong>Phase 4</strong>: evolving ritual topology (時間軸スライダー、勧請・分祀・遷宮・神階授与・一宮化 event)</li>
     </ul>

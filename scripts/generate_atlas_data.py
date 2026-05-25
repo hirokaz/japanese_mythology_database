@@ -27,6 +27,7 @@ OUT_COLS = [
     'prefecture', 'address', 'coordinates',
     'shrine_rank_ancient', 'shrine_rank_modern',
     'main_deity_ids', 'verified_status',
+    'coordinates_accuracy', 'coordinates_source', 'visualization_confidence',
 ]
 
 COORD_RE = re.compile(r'^\d+\.\d+,\d+\.\d+$')
