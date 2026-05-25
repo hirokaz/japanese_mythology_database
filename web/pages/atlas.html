@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sacred Topology Atlas — 日本神話・神道史データベース</title>
+<meta name="description" content="名神大社・一宮を中心とする神社ネットワークの地理可視化 (DISC-008 Phase 1)。">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+<style>
+  #map { height: 600px; width: 100%; border: 1px solid #d9c9a8; border-radius: 8px; }
+  .map-controls {
+    background: #fff; padding: 12px 16px; margin: 16px 0;
+    border: 1px solid #e8ddc8; border-radius: 8px;
+    display: flex; gap: 16px; align-items: center; flex-wrap: wrap;
+  }
+  .map-controls label { display: flex; gap: 6px; align-items: center; font-size: 0.92em; }
+  .map-legend {
+    background: rgba(255,255,255,0.92); padding: 10px 14px;
+    border: 1px solid #d9c9a8; border-radius: 6px;
+    font-size: 0.85em; line-height: 1.6;
+  }
+  .map-legend .legend-row { display: flex; gap: 6px; align-items: center; }
+  .map-legend .legend-dot {
+    display: inline-block; width: 14px; height: 14px; border-radius: 50%;
+    border: 2px solid #2c1810;
+  }
+  .legend-dot-myojin { background: #c83232; }
+  .legend-dot-ichinomiya { background: #d4a017; }
+  .legend-dot-other { background: #6a8caf; }
+  .leaflet-popup-content { font-size: 0.95em; }
+  .leaflet-popup-content h3 { margin: 0 0 4px; font-size: 1em; }
+  .leaflet-popup-content .pop-meta { color: #6e5a3a; font-size: 0.85em; margin-bottom: 6px; }
+  .leaflet-popup-content .pop-link { display: inline-block; margin-top: 4px; color: #8b5a00; text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img src="../images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-name">神話 OS</span>
+      <span class="brand-tag">日本神話・神道史データベース</span>
+    </a>
+    <nav class="main-nav">
+      <a href="../index.html">ホーム</a>
+      <a href="shrines.html">神社</a>
+      <a href="deities.html">神格</a>
+      <a href="clans.html">氏族</a>
+      <a href="genealogy.html">皇統系譜</a>
+      <a href="relations.html">関係探索</a>
+      <a href="atlas.html" class="active">Atlas</a>
+      <a href="about.html">本基盤について</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container" style="padding: 24px 0;">
+  <h1>Sacred Topology Atlas (Phase 1)</h1>
+  <p class="section-lead">
+    名神大社・一宮を中心とする <strong>network hub 神社</strong> を地理可視化。DISC-008 採択 Phase 1 = 30 件 demonstration。
+  </p>
+
+  <!-- Narrative Intoxication 警告 (DISC-008 採択、Codex 最重要) -->
+  <details class="epistemic-disclaimer" open>
+    <summary>🗺️ 本地図は地理的相関を示しますが、因果関係を意味しません</summary>
+    <div class="disclaimer-body">
+      <p><strong>Narrative Intoxication 警告</strong> (DISC-008 採択):</p>
+      <ul>
+        <li>「<strong>線が引ける</strong>」「<strong>近くにある</strong>」「<strong>分布が似ている</strong>」だけで歴史的因果を断定しないでください</li>
+        <li>地図は探索の手がかりであり、解釈の検証は <a href="../../docs/civilization/13_cypher_queries.md">graph query</a> + 一次史料への遡及で行ってください</li>
+        <li>Phase 1 は 28 件 (名神大社・一宮中心)、座標は <code>verified_status=verified</code> 神社のみ表示</li>
+        <li>本地図は <code>coordinates_accuracy</code> field 未実装段階 (Phase 2 で <code>exact / approximate / inferred / unknown</code> 表示予定)</li>
+      </ul>
+      <p>詳細: <a href="../../docs/discussions/DISC-008_resolution.md">DISC-008 sacred topology 解決報告</a></p>
+    </div>
+  </details>
+
+  <div class="map-controls">
+    <label>
+      <input type="checkbox" id="filterMyojin" checked> 名神大社
+    </label>
+    <label>
+      <input type="checkbox" id="filterIchinomiya" checked> 一宮
+    </label>
+    <label>
+      <input type="checkbox" id="filterOther" checked> その他 verified
+    </label>
+    <span style="margin-left: auto; font-size: 0.88em; color: #6e5a3a;">
+      表示中: <strong id="visibleCount">…</strong> 件 / 全 <strong id="totalCount">…</strong> 件
+    </span>
+  </div>
+
+  <div id="map"></div>
+
+  <section class="section" style="padding: 24px 0;">
+    <h2 class="section-title">visualization confidence (DISC-008 採択)</h2>
+    <p>各 layer の根拠強度を将来明示予定:</p>
+    <ul>
+      <li><code>archaeological</code>: 考古学根拠 (出土品・遺構との対応)</li>
+      <li><code>textual</code>: 文献根拠 (記紀・延喜式・社伝)</li>
+      <li><code>inferred</code>: 妥当な推論 (古代海運ルート推定等)</li>
+      <li><code>speculative</code>: 検証困難仮説 (中央構造線神社配置論等)</li>
+    </ul>
+
+    <h2 class="section-title">後続 Phase</h2>
+    <ul>
+      <li><strong>Phase 2</strong>: 一宮 + 式内大社 + 二十二社 + 別表神社 (250 件) + <code>coordinates_accuracy</code> field 追加</li>
+      <li><strong>Phase 3</strong>: 全 verified shrine 表示 + sacred topology GeoJSON layer (海上守護網・山岳信仰連環・河川流域祭祀・断層 alignment・巡礼路)</li>
+      <li><strong>Phase 4</strong>: evolving ritual topology (時間軸スライダー、勧請・分祀・遷宮・神階授与・一宮化 event)</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      © 神話 OS / Civilization OS Database
+      <br>
+      <small>本基盤は学術整理であり、社伝は各社が正本です。地図上の関係は地理的相関であり因果関係ではありません。</small>
+    </p>
+    <p class="footer-meta">
+      <a href="../../">GitHub リポジトリ</a> ·
+      <a href="about.html">本基盤について</a> ·
+      <a href="../../LICENSE-DATA">Data: CC BY-SA 4.0</a>
+    </p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script src="../js/atlas.js"></script>
+</body>
+</html>
