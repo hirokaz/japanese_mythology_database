@@ -31,3 +31,13 @@ BRK-027	multi	伊勢御師の組織消滅	1871	-	明治神道改革	-	-	true	exa
 BRK-028	SHR-018	氷川神社 (神宮寺廃絶)	1868	-	神仏分離令	-	-	true	exact	氷川神社旧記	source_backed	武蔵一宮、神仏習合期の仏教層消失
 BRK-029	multi	祝部 (はふりべ) 制度の消滅	古代	近代	律令制度崩壊	-	-	false	approximate	延喜式|令義解	inferential	古代神祇官管轄下の祝部、中世以降形骸化、明治改革で消滅
 BRK-030	multi	観光化による「伝統」再構築	1990s	present	地方創生・観光振興政策	-	invented	true	exact	観光庁資料|地方創生記録	source_backed	「伝統行事」が観光化される現象。invented continuity の現代型 (DISC-012 警戒対象)
+BRK-031	multi	神祇官の廃止	1871	-	明治祭政分離・太政官制導入	-	-	true	exact	太政官布告|官制改革記録	source_backed	律令制以来の神祇官制度終了、神祇省→教部省→内務省神社局へ
+BRK-032	multi	修験道の禁止	1872	1945	神仏分離令付随政策	1945	reconstructed	true	exact	太政官布告|修験道関連記録	source_backed	修験道廃止令 (明治 5)。羽黒山伏・吉野修験道等が断絶
+BRK-033	multi	武家神道の終焉	1868	-	幕藩体制崩壊	-	-	false	exact	明治政府記録	source_backed	徳川氏神社等の武家系祭祀権が消滅
+BRK-034	SHR-017	八坂神社境内祇園感神院廃絶	1868	-	神仏分離令	-	-	true	exact	太政官布告|八坂神社旧記	source_backed	BRK-015 詳細。観慶寺・薬師如来等の仏教施設廃絶
+BRK-035	multi	陰陽寮の廃止	1870	-	律令制度終了	-	-	true	exact	太政官布告	source_backed	陰陽道国家機関の消滅。土御門家の祭祀権縮小
+BRK-036	multi	神武紀元採用と廃止	1872	1945	明治改暦・国体明徴	-	-	true	exact	太政官布告|戦後神道指令	source_backed	神武紀元 (皇紀) 採用、戦後 GHQ により公式廃止
+BRK-037	multi	宮中三殿の改編	1871	1945	明治新祭祀制度	-	-	true	exact	宮中祭祀制度	source_backed	明治皇室祭祀の体系化、戦後簡素化
+BRK-038	multi	神宮教の解散	1899	-	神社非宗教化政策	-	-	true	exact	神宮教関連記録	source_backed	伊勢神宮の宗教団体としての側面分離
+BRK-039	multi	皇典講究所の再編	1882	1945	神道国教化	-	-	true	exact	明治神道制度	source_backed	神官養成機関、戦後國學院大學・皇學館大學に再編
+BRK-040	multi	靖国神社の創建と再定義	1869	present	戊辰戦争戦没者祭祀	-	invented	true	exact	靖国神社関連記録	source_backed	招魂社 (1869) → 靖国神社 (1879) → 戦後分離問題。invented continuity の典型
