@@ -1,0 +1,101 @@
+emperor_id	canonical_name	canonical_reading	dai	era_short	reign_period	related_deity_id	source_reference	hypothesis_layer	confidence_level	notes	verified_status	verification_dimension	verified_at	verified_by	verification_source
+EMP-001	神武天皇	じんむてんのう	1	神代	伝 BCE 660-585	DEI-507	古事記|日本書紀	L1	C	初代、神武東征伝	verified	genealogical	2026-05-25T00:00:00	claude	皇統譜・古事記・日本書紀
+EMP-002	綏靖天皇	すいぜいてんのう	2	神代	伝 BCE 581-549	DEI-553	古事記|日本書紀	L1	C	欠史八代 第2代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-003	安寧天皇	あんねいてんのう	3	神代	伝 BCE 549-511	DEI-554	古事記|日本書紀	L1	C	欠史八代 第3代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-004	懿徳天皇	いとくてんのう	4	神代	伝 BCE 510-477	DEI-555	古事記|日本書紀	L1	C	欠史八代 第4代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-005	孝昭天皇	こうしょうてんのう	5	神代	伝 BCE 475-393	DEI-556	古事記|日本書紀	L1	C	欠史八代 第5代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-006	孝安天皇	こうあんてんのう	6	神代	伝 BCE 392-291	DEI-557	古事記|日本書紀	L1	C	欠史八代 第6代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-007	孝霊天皇	こうれいてんのう	7	神代	伝 BCE 290-215	DEI-558	古事記|日本書紀	L1	C	欠史八代 第7代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-008	孝元天皇	こうげんてんのう	8	神代	伝 BCE 214-158	DEI-559	古事記|日本書紀	L1	C	欠史八代 第8代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-009	開化天皇	かいかてんのう	9	神代	伝 BCE 158-98	DEI-560	古事記|日本書紀	L1	C	欠史八代 第9代	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-010	崇神天皇	すじんてんのう	10	古墳	3-4C 推定	DEI-561	古事記|日本書紀	L2	B	三輪王権の祖、纒向遺跡対応	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・考古学
+EMP-011	垂仁天皇	すいにんてんのう	11	古墳	3-4C 推定	DEI-562	古事記|日本書紀	L2	B	伊勢遷座	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-012	景行天皇	けいこうてんのう	12	古墳	4C 前半推定	DEI-563	古事記|日本書紀	L2	B	ヤマトタケル父	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-013	成務天皇	せいむてんのう	13	古墳	4C 中推定	DEI-564	古事記|日本書紀	L2	C	国造制整備伝	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-014	仲哀天皇	ちゅうあいてんのう	14	古墳	4C 後半伝	DEI-565	古事記|日本書紀	L2	C	神功皇后夫	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-015	応神天皇	おうじんてんのう	15	古墳	4C 末-5C 初推定	DEI-182	古事記|日本書紀	L2	B	八幡神同体説、宇佐神宮祭神	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・宇佐神宮社伝
+EMP-016	仁徳天皇	にんとくてんのう	16	古墳	5C 前半伝 313-399	DEI-566	古事記|日本書紀	L2	B	大仙陵古墳被葬伝	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・考古学
+EMP-017	履中天皇	りちゅうてんのう	17	古墳	5C 前半伝	DEI-567	古事記|日本書紀	L2	C	倭五王の讃に比定説	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・宋書
+EMP-018	反正天皇	はんぜいてんのう	18	古墳	5C 中伝	-	古事記|日本書紀	L2	C	倭五王の珍に比定説	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・宋書
+EMP-019	允恭天皇	いんぎょうてんのう	19	古墳	5C 中伝	-	古事記|日本書紀	L2	C	倭五王の済に比定説	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・宋書
+EMP-020	安康天皇	あんこうてんのう	20	古墳	5C 後半伝	-	古事記|日本書紀	L2	C	倭五王の興に比定説	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・宋書
+EMP-021	雄略天皇	ゆうりゃくてんのう	21	古墳	456-479 推定	DEI-568	古事記|日本書紀|稲荷山鉄剣銘	L0	A	ワカタケル大王、稲荷山鉄剣銘で L0 確証	verified	genealogical	2026-05-25T00:00:00	claude	稲荷山鉄剣銘 (考古 L0)
+EMP-022	清寧天皇	せいねいてんのう	22	古墳	5C 後半伝	-	古事記|日本書紀	L2	C	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-023	顕宗天皇	けんぞうてんのう	23	古墳	5C 後半伝	-	古事記|日本書紀	L2	C	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-024	仁賢天皇	にんけんてんのう	24	古墳	5C 末伝	-	古事記|日本書紀	L2	C	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-025	武烈天皇	ぶれつてんのう	25	古墳	5C 末-6C 初伝	-	古事記|日本書紀	L2	C	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-026	継体天皇	けいたいてんのう	26	古墳	507-531	DEI-569	古事記|日本書紀	L0	A	王朝交代説 L2、越前出自伝	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-027	安閑天皇	あんかんてんのう	27	古墳	531-535	-	古事記|日本書紀	L1	B	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-028	宣化天皇	せんかてんのう	28	古墳	535-539	-	古事記|日本書紀	L1	B	-	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-029	欽明天皇	きんめいてんのう	29	古墳	539-571	DEI-570	古事記|日本書紀	L0	A	仏教公伝 552	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀・上宮聖徳法王帝説
+EMP-030	敏達天皇	びだつてんのう	30	飛鳥	572-585	DEI-571	古事記|日本書紀	L0	A	推古夫	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-031	用明天皇	ようめいてんのう	31	飛鳥	585-587	-	古事記|日本書紀	L0	A	聖徳太子父	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-032	崇峻天皇	すしゅんてんのう	32	飛鳥	587-592	-	古事記|日本書紀	L0	A	蘇我馬子に弑殺	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-033	推古天皇	すいこてんのう	33	飛鳥	592-628	-	古事記|日本書紀	L0	A	最初の女帝、聖徳太子摂政	verified	genealogical	2026-05-25T00:00:00	claude	古事記・日本書紀
+EMP-034	舒明天皇	じょめいてんのう	34	飛鳥	629-641	-	日本書紀	L0	A	遣唐使派遣	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-035	皇極天皇	こうぎょくてんのう	35	飛鳥	642-645	-	日本書紀	L0	A	乙巳の変	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-036	孝徳天皇	こうとくてんのう	36	飛鳥	645-654	-	日本書紀	L0	A	大化改新	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-037	斉明天皇	さいめいてんのう	37	飛鳥	655-661	-	日本書紀	L0	A	皇極重祚	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-038	天智天皇	てんじてんのう	38	飛鳥	661-672	-	日本書紀	L0	A	白村江・近江令	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-039	弘文天皇	こうぶんてんのう	39	飛鳥	672	-	日本書紀	L0	B	壬申の乱で敗北	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-040	天武天皇	てんむてんのう	40	飛鳥	672-686	-	日本書紀	L0	A	壬申の乱勝利・八色姓・古事記編纂開始	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀
+EMP-041	持統天皇	じとうてんのう	41	飛鳥	686-697	-	日本書紀|続日本紀	L0	A	藤原京遷都・第1回式年遷宮 690	verified	genealogical	2026-05-25T00:00:00	claude	日本書紀・続日本紀
+EMP-042	文武天皇	もんむてんのう	42	飛鳥	697-707	-	続日本紀	L0	A	大宝律令制定	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-043	元明天皇	げんめいてんのう	43	奈良	707-715	-	続日本紀	L0	A	平城京遷都 710	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-044	元正天皇	げんしょうてんのう	44	奈良	715-724	-	続日本紀	L0	A	養老律令編纂	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-045	聖武天皇	しょうむてんのう	45	奈良	724-749	-	続日本紀	L0	A	東大寺大仏造立	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-046	孝謙天皇	こうけんてんのう	46	奈良	749-758	-	続日本紀	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-047	淳仁天皇	じゅんにんてんのう	47	奈良	758-764	-	続日本紀	L0	A	藤原仲麻呂の乱	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-048	称徳天皇	しょうとくてんのう	48	奈良	764-770	-	続日本紀	L0	A	孝謙重祚・道鏡事件 769	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-049	光仁天皇	こうにんてんのう	49	奈良	770-781	-	続日本紀	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀
+EMP-050	桓武天皇	かんむてんのう	50	平安	781-806	-	続日本紀|日本後紀	L0	A	平安京遷都 794	verified	genealogical	2026-05-25T00:00:00	claude	続日本紀・日本後紀
+EMP-051	平城天皇	へいぜいてんのう	51	平安	806-809	-	日本後紀	L0	A	薬子の変	verified	genealogical	2026-05-25T00:00:00	claude	日本後紀
+EMP-052	嵯峨天皇	さがてんのう	52	平安	809-823	-	日本後紀	L0	A	弘仁格式	verified	genealogical	2026-05-25T00:00:00	claude	日本後紀
+EMP-053	淳和天皇	じゅんなてんのう	53	平安	823-833	-	続日本後紀	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	続日本後紀
+EMP-054	仁明天皇	にんみょうてんのう	54	平安	833-850	-	続日本後紀	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	続日本後紀
+EMP-055	文徳天皇	もんとくてんのう	55	平安	850-858	-	日本文徳天皇実録	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本文徳天皇実録
+EMP-056	清和天皇	せいわてんのう	56	平安	858-876	-	日本三代実録	L0	A	清和源氏祖	verified	genealogical	2026-05-25T00:00:00	claude	日本三代実録
+EMP-057	陽成天皇	ようぜいてんのう	57	平安	876-884	-	日本三代実録	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本三代実録
+EMP-058	光孝天皇	こうこうてんのう	58	平安	884-887	-	日本三代実録	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本三代実録
+EMP-059	宇多天皇	うだてんのう	59	平安	887-897	-	日本三代実録	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本三代実録
+EMP-060	醍醐天皇	だいごてんのう	60	平安	897-930	-	日本紀略	L0	A	延喜の治・延喜式編纂	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-061	朱雀天皇	すざくてんのう	61	平安	930-946	-	日本紀略	L0	A	承平天慶の乱	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-062	村上天皇	むらかみてんのう	62	平安	946-967	-	日本紀略	L0	A	天暦の治	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-063	冷泉天皇	れいぜいてんのう	63	平安	967-969	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-064	円融天皇	えんゆうてんのう	64	平安	969-984	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-065	花山天皇	かざんてんのう	65	平安	984-986	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-066	一条天皇	いちじょうてんのう	66	平安	986-1011	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-067	三条天皇	さんじょうてんのう	67	平安	1011-1016	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-068	後一条天皇	ごいちじょうてんのう	68	平安	1016-1036	-	日本紀略	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	日本紀略
+EMP-069	後朱雀天皇	ごすざくてんのう	69	平安	1036-1045	-	扶桑略記	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	扶桑略記
+EMP-070	後冷泉天皇	ごれいぜいてんのう	70	平安	1045-1068	-	扶桑略記	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	扶桑略記
+EMP-071	後三条天皇	ごさんじょうてんのう	71	平安	1068-1073	-	扶桑略記	L0	A	延久の善政	verified	genealogical	2026-05-25T00:00:00	claude	扶桑略記
+EMP-072	白河天皇	しらかわてんのう	72	平安	1073-1087	-	扶桑略記	L0	A	院政開始	verified	genealogical	2026-05-25T00:00:00	claude	扶桑略記
+EMP-073	堀河天皇	ほりかわてんのう	73	平安	1087-1107	-	中右記	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	中右記
+EMP-074	鳥羽天皇	とばてんのう	74	平安	1107-1123	-	中右記	L0	A	院政	verified	genealogical	2026-05-25T00:00:00	claude	中右記
+EMP-075	崇徳天皇	すとくてんのう	75	平安	1123-1141	-	保元物語	L0	A	保元の乱で配流	verified	genealogical	2026-05-25T00:00:00	claude	保元物語
+EMP-076	近衛天皇	このえてんのう	76	平安	1141-1155	-	愚管抄	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	愚管抄
+EMP-077	後白河天皇	ごしらかわてんのう	77	平安	1155-1158	-	愚管抄	L0	A	保元の乱、長期院政	verified	genealogical	2026-05-25T00:00:00	claude	愚管抄・玉葉
+EMP-078	二条天皇	にじょうてんのう	78	平安	1158-1165	-	愚管抄	L0	A	平治の乱	verified	genealogical	2026-05-25T00:00:00	claude	愚管抄
+EMP-079	六条天皇	ろくじょうてんのう	79	平安	1165-1168	-	愚管抄	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	愚管抄
+EMP-080	高倉天皇	たかくらてんのう	80	平安	1168-1180	-	玉葉	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	玉葉
+EMP-081	安徳天皇	あんとくてんのう	81	平安	1180-1185	-	平家物語	L0	A	壇ノ浦入水	verified	genealogical	2026-05-25T00:00:00	claude	平家物語・吾妻鏡
+EMP-082	後鳥羽天皇	ごとばてんのう	82	鎌倉	1183-1198	-	吾妻鏡	L0	A	承久の乱で配流	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-083	土御門天皇	つちみかどてんのう	83	鎌倉	1198-1210	-	吾妻鏡	L0	A	承久の乱で配流	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-084	順徳天皇	じゅんとくてんのう	84	鎌倉	1210-1221	-	吾妻鏡	L0	A	承久の乱で配流	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-085	仲恭天皇	ちゅうきょうてんのう	85	鎌倉	1221	-	吾妻鏡	L0	A	承久の乱で廃位	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-086	後堀河天皇	ごほりかわてんのう	86	鎌倉	1221-1232	-	吾妻鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-087	四条天皇	しじょうてんのう	87	鎌倉	1232-1242	-	吾妻鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-088	後嵯峨天皇	ごさがてんのう	88	鎌倉	1242-1246	-	吾妻鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	吾妻鏡
+EMP-089	後深草天皇	ごふかくさてんのう	89	鎌倉	1246-1259	-	増鏡	L0	A	持明院統祖	verified	genealogical	2026-05-25T00:00:00	claude	増鏡
+EMP-090	亀山天皇	かめやまてんのう	90	鎌倉	1259-1274	-	増鏡	L0	A	大覚寺統祖	verified	genealogical	2026-05-25T00:00:00	claude	増鏡
+EMP-091	後宇多天皇	ごうだてんのう	91	鎌倉	1274-1287	-	増鏡	L0	A	元寇 (文永・弘安)	verified	genealogical	2026-05-25T00:00:00	claude	増鏡・元史
+EMP-092	伏見天皇	ふしみてんのう	92	鎌倉	1287-1298	-	増鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	増鏡
+EMP-093	後伏見天皇	ごふしみてんのう	93	鎌倉	1298-1301	-	増鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	増鏡
+EMP-094	後二条天皇	ごにじょうてんのう	94	鎌倉	1301-1308	-	増鏡	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	増鏡
+EMP-095	花園天皇	はなぞのてんのう	95	鎌倉	1308-1318	-	花園天皇宸記	L0	A	-	verified	genealogical	2026-05-25T00:00:00	claude	花園天皇宸記
+EMP-096	後醍醐天皇	ごだいごてんのう	96	鎌倉	1318-1339	-	太平記	L0	A	元弘の変・建武の新政・南朝開設	verified	genealogical	2026-05-25T00:00:00	claude	太平記
+EMP-097	後村上天皇	ごむらかみてんのう	97	南北朝	1339-1368	-	太平記	L0	A	南朝	verified	genealogical	2026-05-25T00:00:00	claude	太平記
+EMP-098	長慶天皇	ちょうけいてんのう	98	南北朝	1368-1383	-	太平記	L1	B	南朝、即位疑問説あり、1926 大正期確定	verified	genealogical	2026-05-25T00:00:00	claude	太平記・1926 皇統譜確定
+EMP-099	後亀山天皇	ごかめやまてんのう	99	南北朝	1383-1392	-	太平記	L0	A	南朝最後、南北朝合一	verified	genealogical	2026-05-25T00:00:00	claude	太平記
+EMP-100	後小松天皇	ごこまつてんのう	100	室町	1382-1412	-	看聞日記	L0	A	北朝6代・南北朝合一後の統一天皇	verified	genealogical	2026-05-25T00:00:00	claude	看聞日記・皇統譜
