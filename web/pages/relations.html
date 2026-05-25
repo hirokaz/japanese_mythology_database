@@ -63,6 +63,21 @@
       </table>
     </div>
     <p id="empty" class="empty" hidden>該当する関係が見つかりませんでした。</p>
+
+    <nav class="pagination" id="pagination" hidden aria-label="ページ移動">
+      <button type="button" id="pagePrev" class="page-btn" disabled>‹ 前</button>
+      <span id="pageInfo" class="page-info">1 / 1</span>
+      <button type="button" id="pageNext" class="page-btn" disabled>次 ›</button>
+      <label class="page-size-label">
+        表示件数:
+        <select id="pageSize">
+          <option value="50">50</option>
+          <option value="100" selected>100</option>
+          <option value="200">200</option>
+          <option value="500">500</option>
+        </select>
+      </label>
+    </nav>
   </div>
 </main>
 
