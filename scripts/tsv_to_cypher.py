@@ -53,6 +53,10 @@ MASTERS = [
     ('docs/civilization/03_ritual_epoch.tsv', 'RitualEpoch', 'epoch_id'),
     ('docs/civilization/04_continuity_break.tsv', 'ContinuityBreak', 'break_id'),
     ('docs/civilization/05_persistence_medium.tsv', 'PersistenceMedium', 'entry_id'),
+    # NOTE: 06_entity_version.tsv は version_id (V01-V06) が entity_id 横断で重複するため、
+    # MASTERS の単純 ETL では Neo4j で node 衝突を起こす。Phase 6+ で
+    # (:Entity)-[:HAS_VERSION {version_id, epoch, continuity}]->(:EntityVersion) のように
+    # 複合キー (entity_id+version_id) で再 ETL する設計に変更予定。
 ]
 
 # --- Relation ontology (DISC-010 採択、6 category) ---

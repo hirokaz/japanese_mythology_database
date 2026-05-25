@@ -194,4 +194,75 @@
 
   document.getElementById('mediumFilter').addEventListener('change', renderMediums);
   document.getElementById('strengthFilter').addEventListener('change', renderMediums);
+
+  // === Entity Version (Phase 2 part) ===
+  let versions = [];
+  fetch('../data/entity_version.tsv')
+    .then(r => r.text())
+    .then(text => {
+      const parsed = parseTsv(text);
+      versions = parsed.rows;
+      renderVersions();
+    })
+    .catch(e => {
+      document.getElementById('versionList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function continuityBadge(field, value) {
+    if (!value || value === '-') return '';
+    const cls = (value === 'maintained' || value === 'exact') ? 'medium-strong' :
+                (value.includes('broken') || value === 'terminated' || value === 'relocated') ? 'medium-terminated' :
+                'medium-medium';
+    return `<span class="badge-medium ${cls}" title="${escapeHtml(field)}">${escapeHtml(field.split('_')[0])}: ${escapeHtml(value)}</span>`;
+  }
+
+  function renderVersions() {
+    const ef = document.getElementById('entityFilter').value;
+    const epf = document.getElementById('epochFilterVer').value;
+    const filtered = versions.filter(v => {
+      if (ef && v.entity_id !== ef) return false;
+      if (epf && !(v.epoch || '').includes(epf)) return false;
+      return true;
+    });
+    document.getElementById('versionStats').textContent =
+      `${filtered.length} / ${versions.length} 件`;
+
+    const html = filtered.map(v => {
+      const continuities = [
+        ['physical_continuity', v.physical_continuity],
+        ['ritual_continuity', v.ritual_continuity],
+        ['institutional_continuity', v.institutional_continuity],
+        ['narrative_continuity', v.narrative_continuity],
+        ['location_continuity', v.location_continuity],
+      ].map(([f, val]) => continuityBadge(f, val)).join(' ');
+      const ruptureBadge = (v.rupture_score === 'high') ?
+        '<span class="badge-rewrite">rupture: high</span>' :
+        v.rupture_score === 'medium' ?
+        '<span class="badge-medium medium-medium">rupture: medium</span>' :
+        '';
+      const revivalBadge = v.revival_status === 'reconstructed' ?
+        '<span class="badge-medium medium-medium">revival: reconstructed</span>' :
+        v.revival_status === 'revived' ?
+        '<span class="badge-medium medium-strong">revival: revived</span>' :
+        '';
+      return `
+        <div class="timeline-item">
+          <h3>${escapeHtml(v.entity_id)} ${escapeHtml(v.version_id)} — ${escapeHtml(v.epoch)}</h3>
+          <div class="ti-meta">
+            <span class="ti-period">${escapeHtml(v.epoch_start)} → ${escapeHtml(v.epoch_end)}</span>
+            ${ruptureBadge} ${revivalBadge}
+          </div>
+          <div class="ti-meta">${continuities}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(v.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(v.source_reference || '?')} · inference: ${escapeHtml(v.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('versionList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('entityFilter').addEventListener('change', renderVersions);
+  document.getElementById('epochFilterVer').addEventListener('change', renderVersions);
 })();
