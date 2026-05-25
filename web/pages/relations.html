@@ -52,8 +52,23 @@
         <option value="L3">L3(伝承)</option>
         <option value="L4">L4(大胆仮説)</option>
       </select>
+      <select id="inferenceTypeFilter" title="DISC-005 推論性質">
+        <option value="">全 inference_type</option>
+        <option value="source_backed">source_backed (一次史料明示)</option>
+        <option value="inferential">inferential (妥当な推論)</option>
+        <option value="symbolic">symbolic (象徴・神話的)</option>
+        <option value="speculative">speculative (検証困難)</option>
+      </select>
+      <select id="personaFilter" title="DISC-001 v0.2 / DISC-010 Persona view">
+        <option value="">Persona view: 全表示</option>
+        <option value="A">A 研究者 (contradiction-rich)</option>
+        <option value="B">B 神職 (verified + lineage focus)</option>
+        <option value="C">C 教育者 (pedagogically safe)</option>
+        <option value="D">D 観光 (region + rank focus)</option>
+      </select>
       <span class="list-stats" id="listStats">—</span>
     </div>
+    <p id="personaHint" style="font-size: 0.85em; color: #6e5a3a; margin: 4px 0 12px;"></p>
 
     <div id="loading" class="loading">データを読み込んでいます</div>
     <div class="table-wrap" id="relTableWrap" hidden>
