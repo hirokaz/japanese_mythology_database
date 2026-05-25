@@ -33,6 +33,7 @@ MASTERS = {
     "event": ROOT / "docs" / "master" / "event_master.tsv",
     "region": ROOT / "docs" / "master" / "region_master.tsv",
     "festival": ROOT / "docs" / "master" / "festival_master.tsv",
+    "emperor": ROOT / "docs" / "master" / "emperor_master.tsv",
 }
 RELATIONS = ROOT / "docs" / "relations" / "relations.tsv"
 
@@ -107,6 +108,7 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
         "event": master_sets.get("event", set()),
         "region": master_sets.get("region", set()),
         "festival": master_sets.get("festival", set()),
+        "emperor": master_sets.get("emperor", set()),
     }
     dangling = 0
     dangling_examples: list[str] = []
@@ -164,6 +166,7 @@ def check_relations(master_sets: dict[str, set[str]]) -> dict[str, int]:
         "docs/master/festival_master.tsv",
         "docs/civilization/01_motif_db.tsv",
         "docs/civilization/02_mythologem_master.tsv",
+        "docs/master/emperor_master.tsv",
     ]
     overall = _Counter()
     for path in verified_targets:

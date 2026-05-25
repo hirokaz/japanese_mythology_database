@@ -48,6 +48,7 @@ MASTERS = [
     ('docs/master/festival_master.tsv', 'Festival',  'festival_id'),
     ('docs/civilization/01_motif_db.tsv', 'Motif',   'motif_id'),
     ('docs/civilization/02_mythologem_master.tsv', 'Mythologem', 'mythologem_id'),
+    ('docs/master/emperor_master.tsv', 'Emperor', 'emperor_id'),
 ]
 
 # --- Relation ontology (DISC-010 採択、6 category) ---
@@ -115,7 +116,7 @@ TYPE_TO_LABEL = {
     'period': 'Period', 'rank': 'Rank', 'event': 'Event', 'region': 'Region',
     'festival': 'Festival', 'motif': 'Motif', 'motif_abstract': 'Motif',
     'mythologem': 'Mythologem',  # DISC-007 Level 2
-    'emperor': 'Deity',  # 古事記/書紀の天皇は Deity master 側で管理
+    'emperor': 'Emperor',  # emperor_master.tsv で独立管理 (Phase 4)
     'country': 'Region',
 }
 
