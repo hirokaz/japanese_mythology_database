@@ -168,6 +168,31 @@
 - 「(地名)+(神格)+(神社/宮)」型の合成名は要・実在検証
 - 旧国名の網羅シリーズ (各旧国に同種神社を 1 件ずつ) は AI 生成プレースホルダーの典型署名なので**禁止**
 
+### 4.3 source / abstraction / inference / speculation 分離 discipline (DISC-005 採択)
+
+「ロマン化ではなく構造化」を維持するため、各エントリは以下 4 層のどこに属するかを明示する:
+
+```
+source       (一次史料に裏付けあり) ← 最上位、信頼度最高
+abstraction  (motif / mythologem 等の抽象化) ← 構造的解釈
+inference    (妥当な推論) ← 学術的推測
+speculation  (検証困難な仮説、L4-L5) ← 最下位、要警告
+```
+
+#### 表記方法
+- `hypothesis_layer` (L0-L5): 仮説強度
+- `confidence_level` (A-E): 史実性
+- `verified_status` (verified/under_review/unverified/known_fabrication): 実在性 (DISC-003 採択)
+- `inference_type` (source_backed/inferential/speculative/symbolic): 推論性質 (DISC-005 採択、Codex 提案)
+
+→ **4 軸独立**で各エントリを多面的に評価。AI が speculative を増殖しても、構造的に区別される。
+
+#### AI 編纂時の原則 (DISC-006 採択)
+- **「AI は仮説生成器、人間は検証者」**
+- AI が abstraction / inference / speculation を増やすこと自体は許容するが、`inference_type` で明示する
+- `source_backed` を捏造することは厳禁 (一次史料への遡及を必ず行う)
+- 詳細は `docs/civilization/12_terminology_glossary.md` 用語集を参照
+
 ---
 
 ## 5. ディレクトリ構成
