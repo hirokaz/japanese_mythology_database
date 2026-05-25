@@ -22,6 +22,7 @@ SOURCES = [
     ('docs/civilization/05_persistence_medium.tsv', 'persistence_medium.tsv'),
     ('docs/civilization/06_entity_version.tsv', 'entity_version.tsv'),
     ('docs/civilization/07_narrative_layer.tsv', 'narrative_layer.tsv'),
+    ('docs/civilization/08_boundary_structure.tsv', 'boundary_structure.tsv'),
 ]
 
 

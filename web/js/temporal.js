@@ -314,4 +314,55 @@
 
   document.getElementById('narrativeEntityFilter').addEventListener('change', renderNarratives);
   document.getElementById('overlayFilter').addEventListener('change', renderNarratives);
+
+  // === Sacred Boundary (DISC-013 Phase 1) ===
+  let boundaries = [];
+  fetch('../data/boundary_structure.tsv')
+    .then(r => r.text())
+    .then(text => {
+      const parsed = parseTsv(text);
+      boundaries = parsed.rows;
+      renderBoundaries();
+    })
+    .catch(e => {
+      document.getElementById('boundaryList').innerHTML = `<p style="color:#c44;">読み込み失敗: ${e.message}</p>`;
+    });
+
+  function renderBoundaries() {
+    const bt = document.getElementById('boundaryTypeFilter').value;
+    const et = document.getElementById('evidenceTypeFilter').value;
+    const filtered = boundaries.filter(b => {
+      if (bt && b.boundary_type !== bt) return false;
+      if (et && b.evidence_type !== et) return false;
+      return true;
+    });
+    document.getElementById('boundaryStats').textContent =
+      `${filtered.length} / ${boundaries.length} 件`;
+
+    const html = filtered.map(b => {
+      const evCls = b.evidence_type === 'direct' ? 'medium-strong' :
+                    b.evidence_type === 'interpretive' ? 'medium-medium' :
+                    'medium-medium';
+      return `
+        <div class="timeline-item">
+          <h3>${escapeHtml(b.canonical_name)} (${escapeHtml(b.boundary_id)})</h3>
+          <div class="ti-meta">
+            <code style="font-size: 0.82em;">${escapeHtml(b.entity_id)}</code>
+            <span class="ti-cycle">${escapeHtml(b.boundary_type)}</span>
+            <span class="ti-period">${escapeHtml(b.position_within)}</span>
+            <span class="badge-medium ${evCls}">evidence: ${escapeHtml(b.evidence_type)}</span>
+          </div>
+          <div class="ti-meta" style="margin-top: 4px;"><strong>symbolic:</strong> ${escapeHtml(b.symbolic_function)}</div>
+          <div class="ti-meta" style="color: #6e5a3a;">${escapeHtml(b.notes || '')}</div>
+          <div class="ti-meta" style="color: #8b7560; font-size: 0.82em;">
+            出典: ${escapeHtml(b.source_reference || '?')} · inference: ${escapeHtml(b.inference_type || '?')}
+          </div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('boundaryList').innerHTML = html || '<p>該当なし</p>';
+  }
+
+  document.getElementById('boundaryTypeFilter').addEventListener('change', renderBoundaries);
+  document.getElementById('evidenceTypeFilter').addEventListener('change', renderBoundaries);
 })();

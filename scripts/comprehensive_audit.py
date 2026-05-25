@@ -72,6 +72,7 @@ def check_id_format() -> dict:
         'docs/civilization/05_persistence_medium.tsv': ('entry_id', r'^PM-\d{3}$'),
         'docs/civilization/06_entity_version.tsv': ('version_id', r'^V\d{2}$'),
         'docs/civilization/07_narrative_layer.tsv': ('layer_id', r'^NL-\d{3}$'),
+        'docs/civilization/08_boundary_structure.tsv': ('boundary_id', r'^BND-\d{3}$'),
     }
     bad = {}
     for path_str, (field, pattern) in expected.items():

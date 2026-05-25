@@ -1,0 +1,31 @@
+boundary_id	entity_id	canonical_name	boundary_type	position_within	symbolic_function	evidence_type	source_reference	inference_type	notes
+BND-001	SHR-002	一の鳥居 (内宮宇治橋前)	torii	outer	俗→聖境界 (MTGM-001 boundary_traversal)	direct	神宮儀式帳|皇大神宮儀式帳	source_backed	伊勢内宮、宇治橋手前
+BND-002	SHR-002	二の鳥居 (内宮)	torii	inner	聖域内段階	direct	神宮儀式帳	source_backed	内宮神域内部の境界
+BND-003	SHR-002	宇治橋	bridge	threshold	俗→聖境界、川の越境	direct	皇大神宮儀式帳	source_backed	五十鈴川を渡る、20 年毎に式年遷宮で架替
+BND-004	SHR-002	五十鈴川御手洗	threshold	threshold	禊・浄化 (MTGM-006 death_rebirth)	direct	皇大神宮儀式帳	source_backed	参拝前の禊の場
+BND-005	SHR-002	心御柱	axial_pillar	axial	axis mundi (MTGM-014 pillar_axis_mundi)	direct	神宮儀式帳	source_backed	式年遷宮で更新、空間の中心軸
+BND-006	SHR-001	勢溜の正門鳥居	torii	outer	俗→聖境界	direct	出雲大社旧記	source_backed	出雲大社、参道起点
+BND-007	SHR-001	祓社	threshold	threshold	禊・浄化	direct	出雲大社縁起	source_backed	参拝前の祓
+BND-008	SHR-001	心御柱 (本殿内)	axial_pillar	axial	axis mundi、古代高層神殿の中軸	direct	出雲国造家文書|考古学	source_backed	IZM-119/125 出土柱遺構と関連
+BND-009	SHR-006	大鳥居 (上社本宮)	torii	outer	俗→聖境界	direct	諏訪大明神画詞	source_backed	諏訪上社本宮
+BND-010	SHR-006	御柱 (4 本)	axial_pillar	axial	axis mundi (MTGM-014)、7 年毎更新	direct	諏訪大明神画詞	source_backed	四宮各 4 本、計 16 本。御柱祭で建立
+BND-011	SHR-006	守屋山禁足境	perimeter	perimeter	禁足地 (MTGM-019 tabuized_visibility)	inferred	諏訪大社旧記|地誌	inferential	守屋山頂は神奈備、原則登拝制限
+BND-012	SHR-005	発心門王子鳥居	torii	outer	熊野古道入口	direct	熊野年代記	source_backed	熊野本宮大社、参道起点
+BND-013	SHR-005	大斎原 (旧社地)	threshold	threshold	旧聖域、1889 大水害後の遺構	direct	和歌山県史	source_backed	BRK-008、旧本宮地は現在巨大鳥居のみ
+BND-014	SHR-005	熊野古道	path	path	巡礼路 (MTGM-001 boundary_traversal)	direct	熊野御幸記	source_backed	世界遺産、複数ルート (中辺路/小辺路/大辺路)
+BND-015	SHR-010	大鳥居 (大神神社)	torii	outer	三輪山神域の境界	direct	大神神社縁起	source_backed	大神神社、本殿なし
+BND-016	SHR-010	三輪山禁足境	perimeter	perimeter	禁足地 (山自体が神体)	direct	大神神社縁起|延喜式	source_backed	全山禁足、登拝は近世以降の制度
+BND-017	SHR-010	狭井神社禊場	threshold	threshold	禊・浄化、薬水	direct	大神神社旧記	source_backed	狭井神社 (摂社)、登拝口
+BND-018	SHR-009	辺津宮鳥居	torii	outer	俗→聖境界	direct	宗像大社旧記	source_backed	宗像大社辺津宮、九州本土側
+BND-019	SHR-009	中津宮 (大島)	threshold	threshold	海上境界、海越え	direct	宗像大社旧記	source_backed	大島、海を渡って参拝
+BND-020	SHR-009	沖津宮 (沖ノ島)	perimeter	perimeter	禁足地 (女人禁制継承)	direct	沖津宮祭祀遺跡|考古学報告	source_backed	古代から女人禁制、現在も上陸制限
+BND-021	SHR-007	大鳥居 (鹿島神宮)	torii	outer	俗→聖境界	direct	鹿島神宮旧記	source_backed	常陸国一宮
+BND-022	SHR-007	要石	stone_marker	axial	axis mundi、地震鎮め	interpretive	鹿島神宮縁起	inferential	古代信仰、香取要石と対
+BND-023	SHR-008	要石	stone_marker	axial	axis mundi、地震鎮め	interpretive	香取神宮縁起	inferential	鹿島と対の信仰、地下で繋がる伝
+BND-024	SHR-016	呉橋 (宇佐神宮)	bridge	threshold	俗→聖境界	direct	宇佐神宮旧記	source_backed	寄藻川を渡る、勅使橋
+BND-025	SHR-016	弥勒寺旧地	perimeter	perimeter	神仏分離前の習合空間 (BRK-023)	direct	宇佐神宮旧記|太政官布告	source_backed	1868 廃絶、現在は遺構のみ
+BND-026	SHR-012	一の鳥居 (春日大社)	torii	outer	俗→聖境界	direct	春日大社縁起	source_backed	参道起点
+BND-027	SHR-012	興福寺南大門跡	threshold	threshold	神仏分離前の習合境界	direct	興福寺旧記|春日大社旧記	source_backed	習合期は興福寺と一体運営
+BND-028	SHR-015	太鼓橋 (反橋)	bridge	threshold	俗→聖境界、反橋形式	direct	住吉大社旧記	source_backed	住吉大社、典型的太鼓橋
+BND-029	SHR-013	一の鳥居 (上賀茂)	torii	outer	俗→聖境界	direct	賀茂縁起	source_backed	上賀茂神社参道起点
+BND-030	SHR-014	糺の森	perimeter	perimeter	原始境界、社叢	direct	賀茂縁起|地誌	source_backed	下鴨神社、世界遺産構成資産
