@@ -1,0 +1,98 @@
+# LICENSE-DATA: Structured Data
+
+The structured data in this repository is licensed under the
+**Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
+
+License text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Summary:      https://creativecommons.org/licenses/by-sa/4.0/
+
+---
+
+## Scope (本ライセンスの適用範囲)
+
+This license covers the **structured TSV / CSV / JSON data files** in:
+
+- `docs/master/*.tsv` — master entity files (shrine / deity / clan / text /
+  period / rank / event / region / festival)
+- `docs/relations/*.tsv` — relation files
+- `docs/civilization/*_master*.tsv` — motif / mythologem master files
+- `web/data/*.tsv` / `web/data/*.json` — generated data feeds for the web app
+
+The code in `web/`, `scripts/`, `.github/` is licensed under **MIT** (see
+`LICENSE`). The interpretation/analytical text under `docs/discussions/`,
+`docs/civilization/*.md`, `docs/audit/*.md` is under **CC BY-SA 4.0** (see
+`LICENSE-INTERPRETATION`).
+
+## Why CC BY-SA 4.0 (CC0 を採用しない理由)
+
+DISC-011 採択原則 (Codex Round 2 採用):
+
+This dataset is **not a public-domain raw data dump**. It contains
+**curated relational interpretation**:
+
+- relation selection (どの relation を採用するか)
+- ontology design (label / category 設計)
+- mythologem abstraction (Level 2 抽象化)
+- verification layer (verified_status / inference_type)
+
+Releasing under CC0 (public domain dedication) would cause:
+
+- **attribution loss**: editorial provenance disappears, making it impossible
+  to trace which relations were curated and by whom
+- **speculative-layer leakage**: `inference_type=symbolic` rows could be
+  re-published without their epistemic qualifications
+- **provenance erosion**: source_reference / verified_by trails get
+  detached from the data
+
+CC BY-SA 4.0 ensures:
+
+- **attribution required** when reusing data (Authority / source / curation
+  visibility preserved)
+- **share-alike** derivatives stay under compatible terms (downstream
+  reusers must preserve epistemic transparency)
+
+ODbL was considered but rejected — it is OpenStreetMap-scale appropriate
+but creates asymmetry with the code (MIT) and interpretation (CC BY-SA 4.0)
+layers.
+
+## Attribution Format (引用形式)
+
+When using this data, please attribute as follows:
+
+```
+日本神話・神道史 文明 OS データベース (Japanese Mythology / Shinto History
+Civilization OS Database). hirokaz/japanese_mythology_database. CC BY-SA 4.0.
+https://github.com/hirokaz/japanese_mythology_database
+```
+
+For academic citation with a stable identifier, a Zenodo DOI is planned
+(Phase 3 of DISC-011 roadmap).
+
+## Important Notice: Public ≠ Truth-certified (公開 = 真実認定ではない)
+
+**Codex Round 2 採用 最重要警告**:
+
+The visualization, badges, graphs, and ontology in this dataset can produce
+an **authority illusion** — making editorial interpretation appear to be
+"official position", "shrine-endorsed", or "academic consensus".
+
+**This dataset is editorial interpretation, not certified historical truth.**
+
+Each entry carries:
+
+- `hypothesis_layer` (L0-L5) — strength of the hypothesis
+- `confidence_level` (A-E) — historicity assessment
+- `verified_status` (verified / under_review / unverified /
+  known_fabrication) — existence verification (DISC-006 採択)
+- `inference_type` (source_backed / inferential / speculative / symbolic) —
+  inferential nature (DISC-005 採択)
+
+**Downstream reusers**: please preserve these epistemic fields when
+republishing. Stripping them creates false certainty.
+
+## Related
+
+- `docs/discussions/DISC-011_resolution.md` — public epistemology rationale
+- `docs/discussions/DISC-006_resolution.md` — verified_status as
+  epistemology layer
+- CLAUDE.md §4.9 — epistemic neutrality / public epistemology

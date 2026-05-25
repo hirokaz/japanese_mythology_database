@@ -1,0 +1,105 @@
+# LICENSE-INTERPRETATION: Discussion, Analysis, and Curated Interpretation
+
+The interpretation, discussion, and analytical documents in this repository
+are licensed under the
+**Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
+
+License text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Summary:      https://creativecommons.org/licenses/by-sa/4.0/
+
+---
+
+## Scope (本ライセンスの適用範囲)
+
+This license covers the **interpretation, discussion, and analytical
+markdown documents** in:
+
+- `docs/discussions/*.md` — Claude×Codex discussion records (DISC-001~)
+- `docs/civilization/*.md` — civilization layer interpretation
+  (terminology glossary, motif analysis, mythologem abstraction)
+- `docs/audit/*.md` — quality audits, deleted-fabrication records
+- `docs/project/*.md` — project governance and roadmap documents
+- `CLAUDE.md` — editor governance rules
+
+Code is under **MIT** (`LICENSE`). Structured data is under **CC BY-SA 4.0**
+(`LICENSE-DATA`).
+
+## Why a Separate License Layer (なぜ独立した license layer か)
+
+DISC-011 採択原則 (Codex Round 2):
+
+These documents contain **scholarly editorial work** — analysis, framing,
+discussion, and structural abstraction that is qualitatively different from
+either functional code or factual data:
+
+- multi-framework theoretical coexistence (DISC-007: structuralist /
+  archetypal / ritual-functional / political-legitimacy)
+- discussion provenance (who proposed what in Round 1/2/3)
+- editorial discipline (CLAUDE.md governance rules)
+- competing-interpretation overlays
+
+Separating this license layer makes it explicit that **derivative works
+remixing these interpretations must preserve attribution and share-alike**
+to prevent stripping of:
+
+- multi-framework caveats
+- contradiction overlays
+- editorial provenance
+- epistemic neutrality discipline
+
+## Important Notice: Editorial Interpretation, Not Authority (編纂解釈であり権威ではない)
+
+DISC-011 採択 — Codex Round 2 最重要警告:
+
+These documents are **editorial interpretation by the project's contributors
+(human and AI-assisted)**. They are:
+
+- ✅ scholarly analysis with explicit provenance
+- ✅ multi-framework, multi-perspective, contradiction-tolerant
+- ❌ NOT official shrine positions
+- ❌ NOT academic consensus statements
+- ❌ NOT government / religious authority pronouncements
+
+The project maintains **epistemic neutrality** — refusing to be co-opted by
+any political, religious, or scholarly faction (国家神道復活運動 /
+排外主義 / 神話 literalism / pseudo-history への警戒、DISC-011 採択)。
+
+## AI Contributor Disclosure (AI 寄稿者開示)
+
+Per DISC-011 採択原則, contributors must disclose AI involvement levels:
+
+- `human-written`: human-authored without AI assistance
+- `AI-assisted`: human-authored with AI suggestions
+- `AI-generated-reviewed`: AI-drafted, human-reviewed and edited
+- `AI-generated`: AI-drafted, minimal human review (highest risk)
+
+This disclosure is **part of the editorial provenance** and must be
+preserved in derivatives.
+
+See `CONTRIBUTING.md` for full contributor governance.
+
+## Attribution Format
+
+When citing these documents, please attribute as follows:
+
+```
+日本神話・神道史 文明 OS データベース — Discussion / Civilization /
+Audit documents. hirokaz/japanese_mythology_database. CC BY-SA 4.0.
+https://github.com/hirokaz/japanese_mythology_database
+```
+
+For DISC-NNN documents, please cite by their resolution path, e.g.:
+
+```
+DISC-006 resolution: verified_status as epistemology layer.
+hirokaz/japanese_mythology_database, 2026-05-25. CC BY-SA 4.0.
+https://github.com/hirokaz/japanese_mythology_database/blob/main/docs/discussions/DISC-006_resolution.md
+```
+
+## Related
+
+- `docs/discussions/DISC-011_resolution.md` — public epistemology rationale
+- `docs/discussions/DISC-005_resolution.md` — source / abstraction /
+  inference / speculation discipline
+- CLAUDE.md §4.9 — epistemic neutrality / public epistemology
+- `CONTRIBUTING.md` — AI contributor governance

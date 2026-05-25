@@ -205,6 +205,47 @@ pre {
 .site-footer a { color: #f0c674; }
 .footer-meta { margin-top: 12px; font-size: 0.85em; }
 
+/* ===== Epistemic Disclaimer (DISC-011 採択 — authority illusion 回避) ===== */
+.epistemic-disclaimer {
+  background: #fff8e1;
+  border: 1px solid #e6c264;
+  border-left: 4px solid #d4a017;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px auto;
+  max-width: 1200px;
+  font-size: 0.88em;
+  color: #5a4a1a;
+  line-height: 1.55;
+}
+.epistemic-disclaimer summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #6b4f12;
+  list-style: none;
+}
+.epistemic-disclaimer summary::before {
+  content: "ⓘ ";
+  color: #d4a017;
+  font-weight: bold;
+}
+.epistemic-disclaimer summary::-webkit-details-marker { display: none; }
+.epistemic-disclaimer[open] summary::before { content: "▼ "; }
+.epistemic-disclaimer .disclaimer-body {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #d4a017;
+}
+.epistemic-disclaimer .disclaimer-body p { margin: 6px 0; }
+.epistemic-disclaimer .disclaimer-body ul { margin: 6px 0 6px 24px; padding: 0; }
+.epistemic-disclaimer .disclaimer-body li { margin: 2px 0; }
+.epistemic-disclaimer .disclaimer-body a {
+  color: #8b5a00; text-decoration: underline;
+}
+.epistemic-disclaimer.compact {
+  font-size: 0.82em; padding: 8px 12px; margin: 8px auto;
+}
+
 /* ===== List Page (Shrines / Deities / Clans) ===== */
 .list-page { padding: 32px 0 64px; }
 .list-controls {
