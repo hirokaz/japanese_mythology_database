@@ -7,8 +7,14 @@ async function renderDetail() {
   const loading = document.getElementById('loading');
   const content = document.getElementById('content');
 
+  if (!loading || !content) {
+    console.error('renderDetail: #loading or #content element not found');
+    return;
+  }
+
   if (!id) {
     loading.textContent = 'ID が指定されていません。';
+    loading.hidden = false;
     return;
   }
 
@@ -21,6 +27,7 @@ async function renderDetail() {
     const record = data.find(r => r.master_id === id);
     if (!record) {
       loading.textContent = `${id} が見つかりません。`;
+      loading.hidden = false;
       return;
     }
 
@@ -75,8 +82,9 @@ async function renderDetail() {
     content.innerHTML = html;
     if (window.Era) Era.applyEraConversion(content);
   } catch (err) {
-    loading.textContent = '読み込みに失敗しました: ' + err.message;
-    console.error(err);
+    loading.hidden = false;
+    loading.textContent = '読み込みに失敗しました: ' + err.message + ' (DevTools console で詳細を確認してください)';
+    console.error('renderDetail error:', err);
   }
 }
 
