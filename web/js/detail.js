@@ -1,5 +1,36 @@
 // Generic detail page renderer for shrine / deity / clan
 // Requires: window.detailType ('shrine' | 'deity' | 'clan')
+//
+// DISC-013 issue #280 (REFAC) + #281 (DEBUG) 対応:
+// - 各 render 前後に console.log で section tracing
+// - safeRenderSection() wrapper で section failure isolation
+// - 1 section の失敗が page 全体を壊さない
+
+/**
+ * Section failure isolation wrapper.
+ * 渡された fn を try-catch で実行し、エラー時は fallback UI を返す。
+ * console に section 名とエラー詳細を出力。
+ */
+async function safeRenderSection(name, fn) {
+  try {
+    console.log(`[detail:${name}] start`);
+    const result = await fn();
+    console.log(`[detail:${name}] end`);
+    return result;
+  } catch (err) {
+    console.error(`[detail:${name}] FAILED:`, err);
+    if (err.stack) console.error(`[detail:${name}] stack:`, err.stack);
+    return `<div class="detail-section" style="border-left:4px solid #c44;background:#fff5f5;">
+      <h2 style="color:#c44;">⚠ ${name} セクションの読込失敗</h2>
+      <p style="color:#6e5a3a;font-size:0.9em;">このセクションは現在表示できません。他のセクションは表示されています。</p>
+      <details style="font-size:0.82em;color:#8b7560;">
+        <summary>技術的詳細 (開発者向け)</summary>
+        <pre style="background:#fff;padding:8px;border-radius:4px;overflow-x:auto;">${(err.message || err).toString().replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]))}</pre>
+      </details>
+    </div>`;
+  }
+}
+
 async function renderDetail() {
   const type = window.detailType;
   const params = new URLSearchParams(window.location.search);
@@ -7,33 +38,50 @@ async function renderDetail() {
   const loading = document.getElementById('loading');
   const content = document.getElementById('content');
 
+  console.log('[detail] start', { type, id });
+
   if (!loading || !content) {
-    console.error('renderDetail: #loading or #content element not found');
+    console.error('[detail] #loading or #content element not found');
     return;
   }
 
   if (!id) {
     loading.textContent = 'ID が指定されていません。';
     loading.hidden = false;
+    console.warn('[detail] no id parameter');
     return;
   }
 
   try {
+    console.log('[detail] loading data...');
     const [data, relations] = await Promise.all([
       DataLoader.load(type),
       DataLoader.load('relations'),
     ]);
+    console.log(`[detail] data loaded: ${data.length} ${type} rows, ${relations.length} relations`);
 
     const record = data.find(r => r.master_id === id);
     if (!record) {
       loading.textContent = `${id} が見つかりません。`;
       loading.hidden = false;
+      console.warn(`[detail] record not found: ${id}`);
       return;
+    }
+    if (!record.master_id) {
+      console.warn('[schema] record missing master_id:', record);
     }
 
     // Find relations involving this id
     const incoming = relations.filter(r => r.target_id === id);
     const outgoing = relations.filter(r => r.source_id === id);
+
+    // Malformed relation detection
+    const malformed = relations.filter(r =>
+      (r.source_id === id || r.target_id === id) && (!r.target_id || !r.source_id || !r.relation_type)
+    );
+    if (malformed.length) {
+      console.warn(`[detail] ${malformed.length} malformed relations involving ${id}:`, malformed.slice(0, 3));
+    }
 
     // Group relations by type
     const groupByType = (arr, dirField) => {
@@ -52,7 +100,7 @@ async function renderDetail() {
     loading.hidden = true;
     content.hidden = false;
 
-    // Header
+    // Header (header は基本的に常時表示、try/catch なし)
     let html = `
       <div class="detail-header">
         <h1>${escapeHtml(record.canonical_name || record.canonical_title || '')}</h1>
@@ -62,29 +110,34 @@ async function renderDetail() {
 
       <div class="detail-grid">
         <div>
-          ${renderBasic(record, type)}
-          ${type === 'deity' ? renderEmperorReign(record) : ''}
-          ${type === 'deity' ? await renderDeityExtended(record) : ''}
-          ${type === 'shrine' ? await renderEnshrinedDeities(record) : ''}
-          ${type === 'shrine' ? await renderShrineProfile(record, outgoing, incoming) : ''}
-          ${type === 'shrine' ? await renderShrineExtended(record) : ''}
-          ${type === 'shrine' ? renderMap(record) : ''}
-          ${type === 'clan' ? await renderClanProfile(record, outgoing, incoming) : ''}
-          ${type === 'clan' ? await renderClanExtended(record) : ''}
-          ${await renderRelations(outGrouped, 'out', record)}
-          ${await renderRelations(inGrouped, 'in', record)}
+          ${await safeRenderSection('basic', () => renderBasic(record, type))}
+          ${type === 'deity' ? await safeRenderSection('emperor_reign', () => renderEmperorReign(record)) : ''}
+          ${type === 'deity' ? await safeRenderSection('deity_extended', () => renderDeityExtended(record)) : ''}
+          ${type === 'shrine' ? await safeRenderSection('enshrined_deities', () => renderEnshrinedDeities(record)) : ''}
+          ${type === 'shrine' ? await safeRenderSection('shrine_profile', () => renderShrineProfile(record, outgoing, incoming)) : ''}
+          ${type === 'shrine' ? await safeRenderSection('shrine_extended', () => renderShrineExtended(record)) : ''}
+          ${type === 'shrine' ? await safeRenderSection('map', () => renderMap(record)) : ''}
+          ${type === 'clan' ? await safeRenderSection('clan_profile', () => renderClanProfile(record, outgoing, incoming)) : ''}
+          ${type === 'clan' ? await safeRenderSection('clan_extended', () => renderClanExtended(record)) : ''}
+          ${await safeRenderSection('relations_out', () => renderRelations(outGrouped, 'out', record))}
+          ${await safeRenderSection('relations_in', () => renderRelations(inGrouped, 'in', record))}
         </div>
         <aside>
-          ${renderSidebar(record, type)}
+          ${await safeRenderSection('sidebar', () => renderSidebar(record, type))}
         </aside>
       </div>
     `;
     content.innerHTML = html;
-    if (window.Era) Era.applyEraConversion(content);
+    if (window.Era) {
+      try { Era.applyEraConversion(content); }
+      catch (err) { console.error('[detail:era] failed:', err); }
+    }
+    console.log('[detail] complete');
   } catch (err) {
     loading.hidden = false;
     loading.textContent = '読み込みに失敗しました: ' + err.message + ' (DevTools console で詳細を確認してください)';
-    console.error('renderDetail error:', err);
+    console.error('[detail] FATAL error:', err);
+    if (err.stack) console.error('[detail] stack:', err.stack);
   }
 }
 
