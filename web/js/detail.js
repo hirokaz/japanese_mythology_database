@@ -868,6 +868,8 @@ async function renderShrineProfile(record, outRels, inRels) {
         }
         const url = DataLoader.detailUrl(r.source_id);
         const layer = f.hypothesis_layer ? `<span class="badge badge-${f.hypothesis_layer.toLowerCase()}">${escapeHtml(f.hypothesis_layer)}</span>` : '';
+        const itypeBadge = renderInferenceTypeBadge(f);
+        const l45Badge = renderL45WarnBadge(f);
         const cat = f.category && f.category !== '-' ? `<span class="badge badge-cat">${escapeHtml(f.category)}</span>` : '';
         const period = f.founded_period && f.founded_period !== '-' ? `<span class="festival-period">起源:${escapeHtml(f.founded_period)}</span>` : '';
         html += `<div class="festival-card">
