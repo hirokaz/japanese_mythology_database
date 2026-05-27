@@ -15245,3 +15245,12 @@ R-MTGM-048	MOTIF-042	motif	motif_belongs_to_mythologem	MTGM-016	mythologem	C	L2	
 R-MTGM-049	MOTIF-043	motif	motif_belongs_to_mythologem	MTGM-016	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer Phase 3	inference_type=symbolic 必須	symbolic
 R-MTGM-050	MOTIF-044	motif	motif_belongs_to_mythologem	MTGM-016	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer Phase 3	inference_type=symbolic 必須	symbolic
 R-MTGM-051	MOTIF-045	motif	motif_belongs_to_mythologem	MTGM-018	mythologem	C	L2	神話パターン抽象化	-	-	DISC-007 mythologem layer Phase 3	inference_type=symbolic 必須	symbolic
+RLN-020311	DEI-003	deity	parent_of	DEI-599	deity	A	L0	mythic	-	-	古事記神代|日本書紀神代第六段	誓約 (うけい) で素戔嗚の十拳剣から成った五男神の長子。天照大神の子と認定	source_backed
+RLN-020312	DEI-007	deity	parent_of	DEI-600	deity	A	L0	mythic	-	-	古事記神代|日本書紀神代第六段一書	高皇産霊神の娘。書紀一書では「萬幡豊秋津師比売命」の親神とする	source_backed
+RLN-020313	DEI-599	deity	married_to	DEI-600	deity	A	L0	mythic	-	-	古事記神代|日本書紀神代第六段	天孫降臨神話における夫婦。両者から邇邇芸尊が生まれる	source_backed
+RLN-020314	DEI-599	deity	parent_of	DEI-015	deity	A	L0	mythic	-	-	古事記神代|日本書紀神代第六段	天忍穂耳尊が天孫降臨を命じられたが、子の邇邇芸尊を代わりに地上に降臨させた	source_backed
+RLN-020315	DEI-600	deity	parent_of	DEI-015	deity	A	L0	mythic	-	-	古事記神代|日本書紀神代第六段	邇邇芸尊の母。高皇産霊神の娘	source_backed
+RLN-020316	DEI-599	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記神代上 (誓約段・天孫降臨段)	誓約と天孫降臨で言及	source_backed
+RLN-020317	DEI-599	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀神代上 第六段	誓約と天孫降臨段で言及	source_backed
+RLN-020318	DEI-600	deity	mentioned_in	TXT-Kojiki	text	A	L0	document	-	-	古事記神代上 (天孫降臨段)	邇邇芸の母として言及	source_backed
+RLN-020319	DEI-600	deity	mentioned_in	TXT-Nihonshoki	text	A	L0	document	-	-	日本書紀神代上 第六段一書	邇邇芸の母として言及	source_backed
