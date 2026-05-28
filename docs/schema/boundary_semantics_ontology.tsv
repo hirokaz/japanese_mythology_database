@@ -1,0 +1,11 @@
+boundary_role	category	description	example_feature	transition_type
+threshold	boundary	Primary transition marker between zones	torii / bridge	outside_inside
+center	center	Core sacred focus point	main sanctuary	centered_focus
+purification	purification	Purification-oriented transition point	misogi basin	impure_purified
+outer_boundary	boundary	Outer precinct edge	entrance gate	ordinary_precinct
+inner_boundary	boundary	Boundary before inner sacred area	inner torii	public_inner
+restricted_boundary	restricted	Boundary restricting movement	restricted area	public_restricted
+vertical_transition	vertical	Transition between elevation-based sacred zones	mountain slope	lower_higher
+water_transition	water	Transition involving sacred water	bridge / river crossing	land_water
+ritual_transition	ritual	Boundary crossed during formal ritual	procession route	ritual_state_change
+cyclical_boundary	cyclical	Boundary involved in circular ritual movement	circumambulation path	cyclical_transition
