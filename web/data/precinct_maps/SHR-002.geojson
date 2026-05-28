@@ -1,0 +1,147 @@
+{
+  "type": "FeatureCollection",
+  "name": "SHR-002 皇大神宮 precinct schematic map",
+  "metadata": {
+    "shrine_id": "SHR-002",
+    "canonical_name": "皇大神宮",
+    "alternative_name": "伊勢神宮 内宮",
+    "map_type": "schematic_precinct_topology",
+    "precision_note": "This is a public-level schematic precinct map, not survey-grade data.",
+    "default_center": [136.7256, 34.4549],
+    "default_zoom": 17
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7256, 34.4550]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-001",
+        "shrine_id": "SHR-002",
+        "feature_type": "main_sanctuary",
+        "canonical_name": "正宮",
+        "reading": "しょうぐう",
+        "description": "皇大神宮の中心となる社殿区域。天照大御神を祀る。",
+        "source_type": "manual",
+        "source_reference": "Public guide-level schematic placement based on shrine address and general visitor map knowledge; verify before production use.",
+        "confidence_level": "C",
+        "accessibility": "view_only",
+        "notes": "概略位置。公開参拝導線から理解できる範囲に限定。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7209, 34.4593]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-002",
+        "shrine_id": "SHR-002",
+        "feature_type": "bridge",
+        "canonical_name": "宇治橋",
+        "reading": "うじばし",
+        "description": "五十鈴川に架かる内宮参拝入口の橋。境内への主要な遷移点。",
+        "source_type": "manual",
+        "source_reference": "Publicly known precinct landmark; verify coordinates before production use.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "参拝導線上の重要な transition marker。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7223, 34.4580]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-003",
+        "shrine_id": "SHR-002",
+        "feature_type": "purification_basin",
+        "canonical_name": "五十鈴川御手洗場",
+        "reading": "いすずがわみたらし",
+        "description": "五十鈴川で手を清める場として知られる参拝導線上の清めの場所。",
+        "source_type": "manual",
+        "source_reference": "Publicly known visitor landmark; verify coordinates before production use.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "purification point として扱う。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7244, 34.4564]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-004",
+        "shrine_id": "SHR-002",
+        "feature_type": "ritual_site",
+        "canonical_name": "神楽殿周辺",
+        "reading": "かぐらでんしゅうへん",
+        "description": "御神楽・祈祷などに関わる公開参拝区域の主要施設周辺。",
+        "source_type": "manual",
+        "source_reference": "Public guide-level schematic placement; verify before production use.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "詳細な内部構造ではなく公開案内レベル。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [136.7209, 34.4593],
+          [136.7223, 34.4580],
+          [136.7244, 34.4564],
+          [136.7256, 34.4550]
+        ]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-005",
+        "shrine_id": "SHR-002",
+        "feature_type": "approach",
+        "canonical_name": "参拝導線概略",
+        "reading": "さんぱいどうせんがいりゃく",
+        "description": "宇治橋から正宮方面へ向かう参拝導線の概略。",
+        "source_type": "manual",
+        "source_reference": "Schematic route based on public visitor flow; not survey-grade.",
+        "confidence_level": "D",
+        "accessibility": "public",
+        "notes": "直線化した概略 route。実際の参道形状とは異なる可能性あり。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [136.7203, 34.4598],
+          [136.7272, 34.4590],
+          [136.7275, 34.4540],
+          [136.7235, 34.4525],
+          [136.7198, 34.4565],
+          [136.7203, 34.4598]
+        ]]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-002-006",
+        "shrine_id": "SHR-002",
+        "feature_type": "precinct_area",
+        "canonical_name": "内宮境内概略範囲",
+        "reading": "ないくうけいだいがいりゃくはんい",
+        "description": "皇大神宮の主要参拝区域を理解するための概略 polygon。",
+        "source_type": "manual",
+        "source_reference": "Schematic area for UI prototype; verify before production use.",
+        "confidence_level": "D",
+        "accessibility": "mixed",
+        "notes": "境内全域・正式境界ではない。表示検証用の概略範囲。"
+      }
+    }
+  ]
+}
