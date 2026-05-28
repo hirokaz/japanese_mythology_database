@@ -813,18 +813,6 @@ pre {
   font-size: 0.85em;
   color: #6a5a45;
 }
-.precinct-map {
-  width: 100%;
-  height: 420px;
-  border-radius: 6px;
-  border: 1px solid #d9c9a8;
-  background: #f4efe8;
-}
-.leaflet-popup-content .pop-desc {
-  margin: 4px 0;
-  font-size: 0.88em;
-  color: #4a3520;
-}
 
 .relation-list { list-style: none; padding: 0; margin: 0; }
 .relation-list li {
