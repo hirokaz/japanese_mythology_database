@@ -15317,3 +15317,22 @@ RLN-020379	DEI-629	deity	sibling_of	DEI-627	deity	A	L0	document	-	-	続日本紀
 RLN-020380	DEI-632	deity	sibling_of	DEI-581	deity	A	L0	document	-	-	続日本紀|日本後紀	平城・嵯峨 兄弟 (桓武の子)	source_backed
 RLN-020381	DEI-633	deity	sibling_of	DEI-581	deity	A	L0	document	-	-	続日本紀|日本後紀	淳和・嵯峨 兄弟 (桓武の子)	source_backed
 RLN-020382	DEI-638	deity	sibling_of	DEI-635	deity	A	L0	document	-	-	続日本紀|日本後紀	光孝・文徳 兄弟 (仁明の子)	source_backed
+RLN-020383	DEI-582	deity	parent_of	DEI-640	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	醍醐 → 朱雀 (皇子 寛明)	source_backed
+RLN-020384	DEI-582	deity	parent_of	DEI-641	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	醍醐 → 村上 (皇子 成明、朱雀の弟)	source_backed
+RLN-020385	DEI-641	deity	parent_of	DEI-642	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	村上 → 冷泉 (皇子 憲平)	source_backed
+RLN-020386	DEI-641	deity	parent_of	DEI-643	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	村上 → 円融 (皇子 守平、冷泉の弟)	source_backed
+RLN-020387	DEI-642	deity	parent_of	DEI-644	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	冷泉 → 花山 (皇子 師貞)	source_backed
+RLN-020388	DEI-642	deity	parent_of	DEI-646	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	冷泉 → 三条 (皇子 居貞、花山の弟)	source_backed
+RLN-020389	DEI-643	deity	parent_of	DEI-645	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	円融 → 一条 (皇子 懐仁)	source_backed
+RLN-020390	DEI-645	deity	parent_of	DEI-647	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	一条 → 後一条 (皇子 敦成、彰子所生)	source_backed
+RLN-020391	DEI-645	deity	parent_of	DEI-648	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	一条 → 後朱雀 (皇子 敦良、後一条の弟)	source_backed
+RLN-020392	DEI-648	deity	parent_of	DEI-649	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	後朱雀 → 後冷泉 (皇子 親仁)	source_backed
+RLN-020393	DEI-648	deity	parent_of	DEI-650	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	後朱雀 → 後三条 (皇子 尊仁、後冷泉の弟)	source_backed
+RLN-020394	DEI-650	deity	parent_of	DEI-651	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	後三条 → 白河 (皇子 貞仁)	source_backed
+RLN-020395	DEI-651	deity	parent_of	DEI-652	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	白河 → 堀河 (皇子 善仁)	source_backed
+RLN-020396	DEI-652	deity	parent_of	DEI-653	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	堀河 → 鳥羽 (皇子 宗仁)	source_backed
+RLN-020397	DEI-640	deity	sibling_of	DEI-641	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	朱雀・村上 兄弟 (醍醐の子)	source_backed
+RLN-020398	DEI-642	deity	sibling_of	DEI-643	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	冷泉・円融 兄弟 (村上の子)	source_backed
+RLN-020399	DEI-644	deity	sibling_of	DEI-646	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	花山・三条 兄弟 (冷泉の子)	source_backed
+RLN-020400	DEI-647	deity	sibling_of	DEI-648	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	後一条・後朱雀 兄弟 (一条の子)	source_backed
+RLN-020401	DEI-649	deity	sibling_of	DEI-650	deity	A	L0	document	-	-	日本紀略|本朝皇胤紹運録	後冷泉・後三条 兄弟 (後朱雀の子)	source_backed
