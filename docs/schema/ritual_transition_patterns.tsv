@@ -1,0 +1,7 @@
+pattern_id	pattern_name	sequence	description
+RTP-001	basic_shrine_approach	outer_world -> threshold -> approach -> sanctuary_center	Basic shrine approach topology.
+RTP-002	purification_sequence	outer_world -> threshold -> purification -> approach -> sanctuary_center	Approach including purification transition.
+RTP-003	mountain_ascent	outer_world -> ascent -> sacred_nature -> sanctuary_center	Mountain-oriented sacred ascent structure.
+RTP-004	water_crossing_transition	outer_world -> bridge -> purification -> inner_precinct	Transition involving sacred water crossing.
+RTP-005	procession_route	outer_world -> ritual_route -> inner_precinct -> ritual_site	Formal collective ritual movement.
+RTP-006	circumambulation	outer_precinct -> cyclical_boundary -> sanctuary_center	Circular ritual movement pattern.
