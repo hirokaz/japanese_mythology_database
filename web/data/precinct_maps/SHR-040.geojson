@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "name": "SHR-040 出雲大社 precinct schematic map",
+  "metadata": {
+    "shrine_id": "SHR-040",
+    "canonical_name": "出雲大社",
+    "map_type": "schematic_precinct_topology",
+    "precision_note": "Public-level schematic topology only.",
+    "default_center": [132.6851, 35.4021],
+    "default_zoom": 16
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [132.6851,35.4021]},
+      "properties": {
+        "feature_id": "PREC-SHR-040-001",
+        "shrine_id": "SHR-040",
+        "feature_type": "main_sanctuary",
+        "canonical_name": "御本殿周辺",
+        "reading": "ごほんでんしゅうへん",
+        "description": "出雲大社の中心祭祀区域。",
+        "source_type": "manual",
+        "source_reference": "Public shrine guide-level placement.",
+        "confidence_level": "C",
+        "accessibility": "view_only",
+        "notes": "概略位置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [132.6839,35.4030]},
+      "properties": {
+        "feature_id": "PREC-SHR-040-002",
+        "shrine_id": "SHR-040",
+        "feature_type": "torii",
+        "canonical_name": "勢溜大鳥居付近",
+        "reading": "せいだまりおおとりいいふきん",
+        "description": "主要参拝導線上の大鳥居。",
+        "source_type": "manual",
+        "source_reference": "Approximate public entrance placement.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "transition marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "LineString", "coordinates": [[132.6839,35.4030],[132.6845,35.4026],[132.6851,35.4021]]},
+      "properties": {
+        "feature_id": "PREC-SHR-040-003",
+        "shrine_id": "SHR-040",
+        "feature_type": "approach",
+        "canonical_name": "参道概略",
+        "reading": "さんどうがいりゃく",
+        "description": "勢溜から御本殿方向へ向かう概略参道。",
+        "source_type": "manual",
+        "source_reference": "Schematic visitor route.",
+        "confidence_level": "D",
+        "accessibility": "public",
+        "notes": "schematic only"
+      }
+    }
+  ]
+}
