@@ -108,6 +108,7 @@ async function renderDetail() {
           ${type === 'shrine' ? await safeRenderSection('shrine_profile', () => renderShrineProfile(record, outgoing, incoming)) : ''}
           ${type === 'shrine' ? await safeRenderSection('shrine_extended', () => renderShrineExtended(record)) : ''}
           ${type === 'shrine' ? await safeRenderSection('map', () => renderMap(record)) : ''}
+          ${type === 'shrine' ? await safeRenderSection('precinct_map', () => renderPrecinctMap(record)) : ''}
           ${type === 'clan' ? await safeRenderSection('clan_profile', () => renderClanProfile(record, outgoing, incoming)) : ''}
           ${type === 'clan' ? await safeRenderSection('clan_extended', () => renderClanExtended(record)) : ''}
           ${await safeRenderSection('relations_out', () => renderRelations(outGrouped, 'out', record))}
@@ -122,6 +123,11 @@ async function renderDetail() {
     if (window.Era) {
       try { Era.applyEraConversion(content); }
       catch (err) { console.error('[detail:era] failed:', err); }
+    }
+    // 境内マップ (Leaflet) は DOM 挿入後に初期化 (issue #301)
+    if (type === 'shrine' && typeof initPrecinctMap === 'function') {
+      try { initPrecinctMap(); }
+      catch (err) { console.error('[detail:precinct_map] init failed:', err); }
     }
     console.log('[detail] complete');
   } catch (err) {
