@@ -6894,7 +6894,6 @@ RLN-008421	DEI-575	deity	parent_of	DEI-576	deity	A	L0	document	-	-	古事記|日
 RLN-008422	DEI-576	deity	parent_of	DEI-526	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008423	DEI-576	deity	parent_of	DEI-577	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008424	DEI-526	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008425	DEI-577	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008426	DEI-627	deity	parent_of	DEI-579	deity	A	L0	document	-	-	古事記|日本書紀	文武 → 聖武 (皇子、藤原宮子所生)	source_backed
 RLN-008427	DEI-526	deity	parent_of	DEI-580	deity	B	L1	document	-	-	古事記|日本書紀	天智 → 光仁 (近祖参照、父 施基親王=志貴皇子 省略=天智の孫、天武系から天智系への王統移行)	inferential
 RLN-008428	DEI-580	deity	parent_of	DEI-505	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
