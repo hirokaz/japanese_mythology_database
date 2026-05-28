@@ -6881,8 +6881,8 @@ RLN-008408	DEI-565	deity	parent_of	DEI-182	deity	A	L0	document	-	-	古事記|日
 RLN-008409	DEI-183	deity	parent_of	DEI-182	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008410	DEI-182	deity	parent_of	DEI-566	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008411	DEI-566	deity	parent_of	DEI-567	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008412	DEI-567	deity	parent_of	DEI-568	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008413	DEI-568	deity	parent_of	DEI-569	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
+RLN-008412	DEI-617	deity	parent_of	DEI-568	deity	A	L0	document	-	-	古事記|日本書紀	允恭 → 雄略 (允恭の第五皇子、大泊瀬幼武)	source_backed
+RLN-008413	DEI-622	deity	parent_of	DEI-569	deity	B	L1	document	-	-	古事記|日本書紀	武烈 → 継体 (近祖参照、王統交代=継体は応神 5 世孫を称し越前より迎立)	inferential
 RLN-008414	DEI-569	deity	parent_of	DEI-570	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008415	DEI-570	deity	parent_of	DEI-571	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008416	DEI-570	deity	parent_of	DEI-572	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
@@ -15282,3 +15282,18 @@ RLN-020344	DEI-582	deity	parent_of	DEI-525	deity	B	L1	document	-	-	皇統譜	醍
 RLN-020345	DEI-582	deity	parent_of	DEI-523	deity	B	L1	document	-	-	皇統譜	醍醐天皇 → 後鳥羽天皇 (近祖参照、中間 21 代省略)	inferential
 RLN-020346	DEI-523	deity	parent_of	DEI-522	deity	B	L1	document	-	-	皇統譜	後鳥羽天皇 → 後醍醐天皇 (近祖参照、中間 13 代省略)	inferential
 RLN-020347	DEI-522	deity	parent_of	DEI-506	deity	B	L2	document	-	-	皇統譜	後醍醐天皇 → 孝明天皇 (近祖参照、中間 24 代省略、年代差大)	inferential
+RLN-020348	DEI-566	deity	parent_of	DEI-616	deity	A	L0	document	-	-	日本書紀|古事記	仁徳 → 反正 (第三皇子)	source_backed
+RLN-020349	DEI-566	deity	parent_of	DEI-617	deity	A	L0	document	-	-	日本書紀|古事記	仁徳 → 允恭 (第四皇子)	source_backed
+RLN-020350	DEI-617	deity	parent_of	DEI-618	deity	A	L0	document	-	-	日本書紀|古事記	允恭 → 安康 (第二皇子)	source_backed
+RLN-020351	DEI-568	deity	parent_of	DEI-619	deity	A	L0	document	-	-	日本書紀|古事記	雄略 → 清寧 (第三皇子)	source_backed
+RLN-020352	DEI-567	deity	parent_of	DEI-620	deity	B	L1	document	-	-	日本書紀|古事記	履中 → 顕宗 (近祖参照、父 市辺押磐皇子 省略=履中の孫)	inferential
+RLN-020353	DEI-567	deity	parent_of	DEI-621	deity	B	L1	document	-	-	日本書紀|古事記	履中 → 仁賢 (近祖参照、父 市辺押磐皇子 省略=履中の孫)	inferential
+RLN-020354	DEI-621	deity	parent_of	DEI-622	deity	A	L0	document	-	-	日本書紀|古事記	仁賢 → 武烈 (皇子)	source_backed
+RLN-020355	DEI-569	deity	parent_of	DEI-623	deity	A	L0	document	-	-	日本書紀|古事記	継体 → 安閑 (長子)	source_backed
+RLN-020356	DEI-569	deity	parent_of	DEI-624	deity	A	L0	document	-	-	日本書紀|古事記	継体 → 宣化 (皇子、安閑の弟)	source_backed
+RLN-020357	DEI-575	deity	parent_of	DEI-625	deity	B	L1	document	-	-	日本書紀|古事記	舒明朝後に即位 → 孝徳 (近祖参照、孝徳は皇極=斉明の同母弟、父 茅渟王 省略)	inferential
+RLN-020358	DEI-616	deity	sibling_of	DEI-567	deity	A	L0	document	-	-	日本書紀|古事記	反正・履中 兄弟 (仁徳皇子)	source_backed
+RLN-020359	DEI-617	deity	sibling_of	DEI-567	deity	A	L0	document	-	-	日本書紀|古事記	允恭・履中 兄弟 (仁徳皇子)	source_backed
+RLN-020360	DEI-620	deity	sibling_of	DEI-621	deity	A	L0	document	-	-	日本書紀|古事記	顕宗・仁賢 兄弟 (市辺押磐皇子の子)	source_backed
+RLN-020361	DEI-623	deity	sibling_of	DEI-624	deity	A	L0	document	-	-	日本書紀|古事記	安閑・宣化 兄弟 (継体皇子)	source_backed
+RLN-020362	DEI-625	deity	sibling_of	DEI-576	deity	A	L0	document	-	-	日本書紀|古事記	孝徳・皇極(斉明) 兄弟 (茅渟王の子)	source_backed
