@@ -4,9 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sacred Topology Atlas — 日本神話・神道史データベース</title>
-<meta name="description" content="名神大社・一宮を中心とする神社ネットワークの地理可視化 (DISC-008 Phase 1)。">
+<meta name="description" content="shrine_master 全神社を対象とした神社分布の地理可視化。社格フィルター (名神大社・式内社・一宮・二十二社・別表・官国幣) と座標カバレッジを表示 (DISC-008)。">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 <link rel="stylesheet" href="../css/main.css">
 <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 <style>
@@ -60,9 +62,10 @@
 </header>
 
 <main class="container" style="padding: 24px 0;">
-  <h1>Sacred Topology Atlas (Phase 1)</h1>
+  <h1>Sacred Topology Atlas</h1>
   <p class="section-lead">
-    名神大社・一宮を中心とする <strong>network hub 神社</strong> を地理可視化。DISC-008 採択 Phase 1 = 30 件 demonstration。
+    <code>shrine_master.tsv</code> の <strong>全神社</strong>を対象に、社格でフィルタしながら神社分布を地理可視化。
+    初期表示は <strong>名神大社</strong>。座標を持つ神社のみ地図に描画され、座標未登録件数も明示します (DISC-008)。
   </p>
 
   <!-- Narrative Intoxication 警告 (DISC-008 採択、Codex 最重要) -->
@@ -73,25 +76,31 @@
       <ul>
         <li>「<strong>線が引ける</strong>」「<strong>近くにある</strong>」「<strong>分布が似ている</strong>」だけで歴史的因果を断定しないでください</li>
         <li>地図は探索の手がかりであり、解釈の検証は <a href="../../docs/civilization/13_cypher_queries.md">graph query</a> + 一次史料への遡及で行ってください</li>
-        <li>Phase 1 は 28 件 (名神大社・一宮中心)、座標は <code>verified_status=verified</code> 神社のみ表示</li>
-        <li>本地図は <code>coordinates_accuracy</code> field 未実装段階 (Phase 2 で <code>exact / approximate / inferred / unknown</code> 表示予定)</li>
+        <li><strong>座標カバレッジの偏り注意</strong>: 現在 shrine_master の座標登録は出雲・伊勢・主要一宮等に偏在し、全神社の分布を代表しません。未登録社が地図に無いことは「存在しない」を意味しません</li>
+        <li><code>coordinates_accuracy</code> / <code>visualization_confidence</code> を popup に表示。座標精度の幻想を避けてください</li>
       </ul>
       <p>詳細: <a href="../../docs/discussions/DISC-008_resolution.md">DISC-008 sacred topology 解決報告</a></p>
     </div>
   </details>
 
   <div class="map-controls">
-    <label>
-      <input type="checkbox" id="filterMyojin" checked> 名神大社
-    </label>
-    <label>
-      <input type="checkbox" id="filterIchinomiya" checked> 一宮
-    </label>
-    <label>
-      <input type="checkbox" id="filterOther" checked> その他 verified
-    </label>
-    <span style="margin-left: auto; font-size: 0.88em; color: #6e5a3a;">
-      表示中: <strong id="visibleCount">…</strong> 件 / 全 <strong id="totalCount">…</strong> 件
+    <strong style="font-size:0.9em;">社格フィルター:</strong>
+    <label><input type="checkbox" id="filter_myojin" checked> 名神大社</label>
+    <label><input type="checkbox" id="filter_ichinomiya"> 一宮</label>
+    <label><input type="checkbox" id="filter_shikinai"> 式内社</label>
+    <label><input type="checkbox" id="filter_nijuni"> 二十二社</label>
+    <label><input type="checkbox" id="filter_beppyo"> 別表神社</label>
+    <label><input type="checkbox" id="filter_kankoku"> 官幣・国幣社</label>
+    <label><input type="checkbox" id="filter_other"> その他</label>
+    <button type="button" id="filterAll" class="gen-btn" style="width:auto;padding:0 10px;">全て表示</button>
+    <button type="button" id="filterNone" class="gen-btn" style="width:auto;padding:0 10px;">クリア</button>
+  </div>
+  <div class="map-controls" style="margin-top:-8px;">
+    <span style="font-size: 0.88em; color: #6e5a3a;">
+      表示中 <strong id="visibleCount">…</strong> 件 ／
+      座標あり <strong id="coordedCount">…</strong> 件 ／
+      座標未登録 <strong id="noCoordCount">…</strong> 件 ／
+      全神社 <strong id="totalCount">…</strong> 件
     </span>
   </div>
 
@@ -138,6 +147,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossorigin=""></script>
-<script src="../js/atlas.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="../js/atlas.js?v=20260528"></script>
 </body>
 </html>
