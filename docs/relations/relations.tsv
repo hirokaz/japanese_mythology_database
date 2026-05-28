@@ -6895,11 +6895,11 @@ RLN-008422	DEI-576	deity	parent_of	DEI-526	deity	A	L0	document	-	-	古事記|日
 RLN-008423	DEI-576	deity	parent_of	DEI-577	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008424	DEI-526	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008425	DEI-577	deity	parent_of	DEI-578	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008426	DEI-578	deity	parent_of	DEI-579	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008427	DEI-526	deity	parent_of	DEI-580	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
+RLN-008426	DEI-627	deity	parent_of	DEI-579	deity	A	L0	document	-	-	古事記|日本書紀	文武 → 聖武 (皇子、藤原宮子所生)	source_backed
+RLN-008427	DEI-526	deity	parent_of	DEI-580	deity	B	L1	document	-	-	古事記|日本書紀	天智 → 光仁 (近祖参照、父 施基親王=志貴皇子 省略=天智の孫、天武系から天智系への王統移行)	inferential
 RLN-008428	DEI-580	deity	parent_of	DEI-505	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
 RLN-008429	DEI-505	deity	parent_of	DEI-581	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
-RLN-008430	DEI-581	deity	parent_of	DEI-582	deity	A	L0	document	-	-	古事記|日本書紀	皇統 parent_of	source_backed
+RLN-008430	DEI-639	deity	parent_of	DEI-582	deity	A	L0	document	-	-	古事記|日本書紀	宇多 → 醍醐 (皇子 敦仁)	source_backed
 RLN-008431	DEI-565	deity	married_to	DEI-183	deity	A	L0	document	-	-	日本書紀	仲哀・神功皇后	source_backed
 RLN-008432	DEI-577	deity	married_to	DEI-578	deity	A	L0	document	-	-	日本書紀	天武・持統	source_backed
 RLN-008433	DEI-579	deity	married_to	DEI-552	deity	A	L0	document	-	-	日本書紀	聖武・光明皇后	source_backed
@@ -15297,3 +15297,23 @@ RLN-020359	DEI-617	deity	sibling_of	DEI-567	deity	A	L0	document	-	-	日本書紀
 RLN-020360	DEI-620	deity	sibling_of	DEI-621	deity	A	L0	document	-	-	日本書紀|古事記	顕宗・仁賢 兄弟 (市辺押磐皇子の子)	source_backed
 RLN-020361	DEI-623	deity	sibling_of	DEI-624	deity	A	L0	document	-	-	日本書紀|古事記	安閑・宣化 兄弟 (継体皇子)	source_backed
 RLN-020362	DEI-625	deity	sibling_of	DEI-576	deity	A	L0	document	-	-	日本書紀|古事記	孝徳・皇極(斉明) 兄弟 (茅渟王の子)	source_backed
+RLN-020363	DEI-526	deity	parent_of	DEI-626	deity	A	L0	document	-	-	続日本紀|日本後紀	天智 → 弘文 (大友皇子)	source_backed
+RLN-020364	DEI-578	deity	parent_of	DEI-627	deity	B	L1	document	-	-	続日本紀|日本後紀	持統 → 文武 (近祖参照、父 草壁皇子 省略=持統の孫、譲位継承)	inferential
+RLN-020365	DEI-526	deity	parent_of	DEI-628	deity	A	L0	document	-	-	続日本紀|日本後紀	天智 → 元明 (皇女 阿閇)	source_backed
+RLN-020366	DEI-628	deity	parent_of	DEI-629	deity	A	L0	document	-	-	続日本紀|日本後紀	元明 → 元正 (皇女 氷高)	source_backed
+RLN-020367	DEI-579	deity	parent_of	DEI-630	deity	A	L0	document	-	-	続日本紀|日本後紀	聖武 → 孝謙 (皇女 阿倍)	source_backed
+RLN-020368	DEI-577	deity	parent_of	DEI-631	deity	B	L1	document	-	-	続日本紀|日本後紀	天武 → 淳仁 (近祖参照、父 舎人親王 省略=天武の孫)	inferential
+RLN-020369	DEI-505	deity	parent_of	DEI-632	deity	A	L0	document	-	-	続日本紀|日本後紀	桓武 → 平城 (第一皇子 安殿)	source_backed
+RLN-020370	DEI-505	deity	parent_of	DEI-633	deity	A	L0	document	-	-	続日本紀|日本後紀	桓武 → 淳和 (皇子 大伴)	source_backed
+RLN-020371	DEI-581	deity	parent_of	DEI-634	deity	A	L0	document	-	-	続日本紀|日本後紀	嵯峨 → 仁明 (皇子 正良)	source_backed
+RLN-020372	DEI-634	deity	parent_of	DEI-635	deity	A	L0	document	-	-	続日本紀|日本後紀	仁明 → 文徳 (皇子 道康)	source_backed
+RLN-020373	DEI-635	deity	parent_of	DEI-636	deity	A	L0	document	-	-	続日本紀|日本後紀	文徳 → 清和 (皇子 惟仁)	source_backed
+RLN-020374	DEI-636	deity	parent_of	DEI-637	deity	A	L0	document	-	-	続日本紀|日本後紀	清和 → 陽成 (皇子 貞明)	source_backed
+RLN-020375	DEI-634	deity	parent_of	DEI-638	deity	A	L0	document	-	-	続日本紀|日本後紀	仁明 → 光孝 (皇子 時康、文徳の弟)	source_backed
+RLN-020376	DEI-638	deity	parent_of	DEI-639	deity	A	L0	document	-	-	続日本紀|日本後紀	光孝 → 宇多 (皇子 定省)	source_backed
+RLN-020377	DEI-626	deity	sibling_of	DEI-628	deity	A	L0	document	-	-	続日本紀|日本後紀	弘文・元明 兄妹 (天智の子)	source_backed
+RLN-020378	DEI-628	deity	sibling_of	DEI-578	deity	A	L0	document	-	-	続日本紀|日本後紀	元明・持統 姉妹 (天智の皇女)	source_backed
+RLN-020379	DEI-629	deity	sibling_of	DEI-627	deity	A	L0	document	-	-	続日本紀|日本後紀	元正・文武 姉弟 (草壁・元明の子)	source_backed
+RLN-020380	DEI-632	deity	sibling_of	DEI-581	deity	A	L0	document	-	-	続日本紀|日本後紀	平城・嵯峨 兄弟 (桓武の子)	source_backed
+RLN-020381	DEI-633	deity	sibling_of	DEI-581	deity	A	L0	document	-	-	続日本紀|日本後紀	淳和・嵯峨 兄弟 (桓武の子)	source_backed
+RLN-020382	DEI-638	deity	sibling_of	DEI-635	deity	A	L0	document	-	-	続日本紀|日本後紀	光孝・文徳 兄弟 (仁明の子)	source_backed
