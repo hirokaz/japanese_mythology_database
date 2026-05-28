@@ -1,0 +1,6 @@
+route_id	shrine_id	route_name	movement_type	start_feature_id	end_feature_id	sequence_order	public_access	confidence_level	description
+ROUTE-SHR-002-001	SHR-002	内宮参拝導線	purification	PREC-SHR-002-002	PREC-SHR-002-001	1	public	D	宇治橋から正宮方向へ向かう概略参拝導線。
+ROUTE-SHR-003-001	SHR-003	外宮参拝導線	access	PREC-SHR-003-002	PREC-SHR-003-001	1	public	D	入口から正宮方向へ向かう概略導線。
+ROUTE-SHR-007-001	SHR-007	鹿島神宮参道	access	PREC-SHR-007-002	PREC-SHR-007-001	1	public	D	大鳥居から本殿方向へ向かう概略参道。
+ROUTE-SHR-008-001	SHR-008	香取神宮参道	access	PREC-SHR-008-002	PREC-SHR-008-001	1	public	D	入口から本殿方向へ向かう概略参道。
+ROUTE-SHR-020-001	SHR-020	明治神宮南参道	access	PREC-SHR-020-002	PREC-SHR-020-001	1	public	D	南参道から本殿方向へ向かう概略導線。
