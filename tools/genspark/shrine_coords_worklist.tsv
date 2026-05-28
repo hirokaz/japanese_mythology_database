@@ -1,0 +1,778 @@
+master_id	canonical_name	prefecture	address	current_coordinates	current_accuracy	rank_ancient	rank_modern	status
+SHR-001	出雲大社	島根県	出雲市大社町杵築東195	35.4019,132.6855	approximate	名神大社|出雲国造神賀詞奏上社	官幣大社|別表神社	VERIFY(approximate)
+SHR-002	皇大神宮	三重県	伊勢市宇治館町1	34.4549,136.7256	approximate	名神大社|二十二社	官幣大社|神宮(本宗)	VERIFY(approximate)
+SHR-003	豊受大神宮	三重県	伊勢市豊川町279	34.4870,136.7042	approximate	名神大社	官幣大社|神宮	VERIFY(approximate)
+SHR-004	熊野大社	島根県	松江市八雲町熊野2451	35.3892,133.0500	approximate	名神大社|出雲国一宮	国幣大社|別表神社	VERIFY(approximate)
+SHR-005	熊野本宮大社	和歌山県	田辺市本宮町本宮1110	33.8403,135.7728	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-006	諏訪大社	長野県	諏訪市・茅野市・下諏訪町(四宮)	35.9985,138.1238	approximate	名神大社|信濃国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-007	鹿島神宮	茨城県	鹿嶋市宮中2306-1	35.9682,140.6315	approximate	名神大社|常陸国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-008	香取神宮	千葉県	香取市香取1697-1	35.8870,140.5279	approximate	名神大社|下総国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-009	宗像大社	福岡県	宗像市田島2331(辺津宮)	33.8328,130.5145	approximate	名神大社|筑前国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-010	大神神社	奈良県	桜井市三輪1422	34.5285,135.8531	approximate	名神大社|大和国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-011	石上神宮	奈良県	天理市布留町384	34.5979,135.8513	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-012	春日大社	奈良県	奈良市春日野町160	34.6817,135.8483	approximate	名神大社|二十二社	官幣大社|別表神社	VERIFY(approximate)
+SHR-013	賀茂別雷神社	京都府	京都市北区上賀茂本山339	35.0598,135.7530	approximate	名神大社|山城国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-014	賀茂御祖神社	京都府	京都市左京区下鴨泉川町59	35.0392,135.7727	approximate	名神大社|山城国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-015	住吉大社	大阪府	大阪市住吉区住吉2-9-89	34.6128,135.4938	approximate	名神大社|摂津国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-016	宇佐神宮	大分県	宇佐市南宇佐2859	33.5258,131.3756	approximate	名神大社|豊前国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-017	八坂神社	京都府	京都市東山区祇園町北側625	35.0036,135.7785	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-018	氷川神社	埼玉県	さいたま市大宮区高鼻町1-407	35.9173,139.6296	approximate	名神大社|武蔵国一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-019	神田明神	東京都	千代田区外神田2-16-2	35.7016,139.7681	approximate	-	別表神社	VERIFY(approximate)
+SHR-020	美保神社	島根県	松江市美保関町美保関608	35.5639,133.3208	approximate	名神大社	国幣中社	VERIFY(approximate)
+SHR-021	神魂神社	島根県	松江市大庭町563	35.4444,133.0972	approximate	-	別表神社	VERIFY(approximate)
+SHR-022	日御碕神社	島根県	出雲市大社町日御碕455	35.4344,132.6310	approximate	式内社	国幣小社	VERIFY(approximate)
+SHR-023	佐太神社	島根県	松江市鹿島町佐陀宮内73	35.5400,132.9925	approximate	式内社|出雲国二宮	国幣小社|別表神社	VERIFY(approximate)
+SHR-024	八重垣神社	島根県	松江市佐草町227	35.4458,133.0731	approximate	式内社	-	VERIFY(approximate)
+SHR-025	須佐神社	島根県	出雲市佐田町須佐730	35.2906,132.7283	approximate	式内社|出雲国一宮候補	国幣小社	VERIFY(approximate)
+SHR-026	須我神社	島根県	雲南市大東町須賀260	35.3836,133.0639	approximate	式内社	-	VERIFY(approximate)
+SHR-027	揖夜神社	島根県	松江市東出雲町揖屋2229	35.4569,133.1044	approximate	名神大社	-	VERIFY(approximate)
+SHR-028	万九千神社	島根県	出雲市斐川町併川258	35.3819,132.7406	approximate	式内社	-	VERIFY(approximate)
+SHR-032	枚岡神社	大阪府	大阪府東大阪市出雲井町	34.6606,135.6486	approximate	名神大社	河内一宮	VERIFY(approximate)
+SHR-033	大鳥大社	大阪府	大阪府堺市西区鳳北町	34.5413,135.4564	approximate	名神大社	和泉一宮	VERIFY(approximate)
+SHR-034	真清田神社	愛知県	愛知県一宮市真清田	35.3045,136.802	approximate	名神大社	尾張一宮	VERIFY(approximate)
+SHR-035	砥鹿神社	愛知県	愛知県豊川市一宮町		-	-	三河一宮	NEEDED
+SHR-036	小国神社	静岡県	静岡県周智郡森町一宮		-	-	遠江一宮	NEEDED
+SHR-038	浅間神社	山梨県	山梨県笛吹市		-	-	甲斐一宮	NEEDED
+SHR-039	三嶋大社	静岡県	静岡県三島市	35.1248,138.9189	approximate	名神大社	伊豆一宮	VERIFY(approximate)
+SHR-040	寒川神社	神奈川県	神奈川県高座郡寒川町		-	-	相模一宮	NEEDED
+SHR-042	安房神社	千葉県	千葉県館山市大神宮	34.9089,139.8333	approximate	名神大社	安房一宮	VERIFY(approximate)
+SHR-043	玉前神社	千葉県	千葉県長生郡一宮町		-	-	上総一宮	NEEDED
+SHR-046	建部大社	滋賀県	滋賀県大津市神領	35.006,135.9088	approximate	名神大社	近江一宮	VERIFY(approximate)
+SHR-047	南宮大社	岐阜県	岐阜県不破郡垂井町	35.3744,136.5294	approximate	名神大社	美濃一宮	VERIFY(approximate)
+SHR-048	水無神社	岐阜県	岐阜県高山市一之宮町		-	-	飛騨一宮	NEEDED
+SHR-050	貫前神社	群馬県	群馬県富岡市	36.2486,138.8631	approximate	名神大社	上野一宮	VERIFY(approximate)
+SHR-051	二荒山神社	栃木県	栃木県宇都宮市	36.5617,139.8847	approximate	名神大社	下野一宮	VERIFY(approximate)
+SHR-052	鹽竈神社	宮城県	宮城県塩竈市	38.3167,141.0192	approximate	名神大社	陸奥一宮	VERIFY(approximate)
+SHR-055	氣比神宮	福井県	福井県敦賀市	35.6556,136.07	approximate	名神大社	越前一宮	VERIFY(approximate)
+SHR-057	氣多大社	石川県	石川県羽咋市	36.9456,136.7783	approximate	名神大社	能登一宮	VERIFY(approximate)
+SHR-058	気多神社	富山県	富山県高岡市		-	-	越中一宮	NEEDED
+SHR-059	彌彦神社	新潟県	新潟県西蒲原郡	37.7067,138.8283	approximate	名神大社	越後一宮	VERIFY(approximate)
+SHR-060	度津神社	新潟県	新潟県佐渡市		-	-	佐渡一宮	NEEDED
+SHR-061	出雲大神宮	京都府	京都府亀岡市	35.0394,135.5719	approximate	名神大社	丹波一宮	VERIFY(approximate)
+SHR-062	籠神社	京都府	京都府宮津市	35.5772,135.1953	approximate	名神大社	丹後一宮	VERIFY(approximate)
+SHR-063	出石神社	兵庫県	兵庫県豊岡市	35.4733,134.8739	approximate	名神大社	但馬一宮	VERIFY(approximate)
+SHR-064	宇倍神社	鳥取県	鳥取県鳥取市	35.4886,134.2769	approximate	名神大社	因幡一宮	VERIFY(approximate)
+SHR-065	倭文神社	鳥取県	鳥取県東伯郡		-	-	伯耆一宮	NEEDED
+SHR-067	物部神社	島根県	島根県大田市		-	-	石見一宮	NEEDED
+SHR-068	水若酢神社	島根県	島根県隠岐郡	36.2906,133.3208	approximate	名神大社	隠岐一宮	VERIFY(approximate)
+SHR-069	伊和神社	兵庫県	兵庫県宍粟市	35.0419,134.5611	approximate	名神大社	播磨一宮	VERIFY(approximate)
+SHR-072	吉備津神社	岡山県	岡山県岡山市	34.6706,133.8497	approximate	名神大社	備中一宮	VERIFY(approximate)
+SHR-073	吉備津神社(備後)	広島県	広島県福山市		-	-	備後一宮	NEEDED
+SHR-074	厳島神社	広島県	広島県廿日市市	34.2959,132.3197	approximate	名神大社	安芸一宮	VERIFY(approximate)
+SHR-075	玉祖神社	山口県	山口県防府市		-	-	周防一宮	NEEDED
+SHR-076	住吉神社(長門)	山口県	山口県下関市	34.0289,130.9425	approximate	名神大社	長門一宮	VERIFY(approximate)
+SHR-077	日前神宮	和歌山県	和歌山県和歌山市	34.2392,135.1722	approximate	名神大社	紀伊一宮	VERIFY(approximate)
+SHR-078	國懸神宮	和歌山県	和歌山県和歌山市	34.2392,135.1722	approximate	名神大社	紀伊一宮	VERIFY(approximate)
+SHR-079	丹生都比売神社	和歌山県	和歌山県伊都郡	34.2972,135.4197	approximate	名神大社	紀伊一宮	VERIFY(approximate)
+SHR-080	伊弉諾神宮	兵庫県	兵庫県淡路市	34.4597,134.8556	approximate	名神大社	淡路一宮	VERIFY(approximate)
+SHR-081	大麻比古神社	徳島県	徳島県鳴門市	34.1664,134.5083	approximate	名神大社	阿波一宮	VERIFY(approximate)
+SHR-082	田村神社	香川県	香川県高松市	34.2792,134.0353	approximate	名神大社	讃岐一宮	VERIFY(approximate)
+SHR-083	大山祇神社	愛媛県	愛媛県今治市大三島	34.2467,133.0033	approximate	名神大社	伊予一宮	VERIFY(approximate)
+SHR-084	土佐神社	高知県	高知県高知市	33.5786,133.5697	approximate	名神大社	土佐一宮	VERIFY(approximate)
+SHR-085	住吉神社(筑前)	福岡県	福岡県福岡市	33.5869,130.4119	approximate	名神大社	筑前一宮	VERIFY(approximate)
+SHR-086	筥崎宮	福岡県	福岡県福岡市	33.6175,130.4258	approximate	名神大社	筑前一宮	VERIFY(approximate)
+SHR-087	高良大社	福岡県	福岡県久留米市	33.3119,130.5489	approximate	名神大社	筑後一宮	VERIFY(approximate)
+SHR-089	西寒多神社	大分県	大分県大分市		-	-	豊後一宮	NEEDED
+SHR-090	千栗八幡宮	佐賀県	佐賀県三養基郡		-	-	肥前一宮	NEEDED
+SHR-091	阿蘇神社	熊本県	熊本県阿蘇市	32.9519,131.1175	approximate	名神大社	肥後一宮	VERIFY(approximate)
+SHR-092	都農神社	宮崎県	宮崎県児湯郡		-	-	日向一宮	NEEDED
+SHR-093	鹿児島神宮	鹿児島県	鹿児島県霧島市	31.7444,130.7589	approximate	名神大社	大隅一宮	VERIFY(approximate)
+SHR-094	新田神社	鹿児島県	鹿児島県薩摩川内市		-	-	薩摩一宮	NEEDED
+SHR-095	海神神社	長崎県	長崎県対馬市	34.4644,129.3506	approximate	名神大社	対馬一宮	VERIFY(approximate)
+SHR-096	天手長男神社	長崎県	長崎県壱岐市	33.7517,129.6878	approximate	名神大社	壱岐一宮	VERIFY(approximate)
+SHR-098	鶴岡八幡宮	神奈川県	神奈川県鎌倉市		-	-	-	NEEDED
+SHR-101	筥崎八幡	福岡県	福岡県福岡市		-	-	-	NEEDED
+SHR-102	大分八幡宮	福岡県	福岡県飯塚市		-	-	-	NEEDED
+SHR-103	筑紫野八幡	福岡県	福岡県筑紫野市		-	-	-	NEEDED
+SHR-104	古要神社	大分県	大分県宇佐市		-	-	-	NEEDED
+SHR-105	薦神社	大分県	大分県中津市		-	-	-	NEEDED
+SHR-106	豊前八幡	不明	-		-	-	-	NEEDED
+SHR-107	石清水若宮	京都府	京都府八幡市		-	-	-	NEEDED
+SHR-108	八幡神社諸地	不明	全国		-	-	-	NEEDED
+SHR-109	窪津王子	大阪府	大阪市中央区		-	-	旧無格社	NEEDED
+SHR-110	坂口王子	大阪府	大阪市		-	-	旧無格社	NEEDED
+SHR-111	郡戸王子	大阪府	大阪市		-	-	旧無格社	NEEDED
+SHR-112	上野王子	大阪府	大阪市		-	-	旧無格社	NEEDED
+SHR-113	阿倍野王子	大阪府	大阪市阿倍野区		-	-	旧無格社	NEEDED
+SHR-114	津守王子	大阪府	大阪市		-	-	旧無格社	NEEDED
+SHR-115	境王子	大阪府	堺市		-	-	旧無格社	NEEDED
+SHR-116	大鳥居王子	大阪府	堺市		-	-	旧無格社	NEEDED
+SHR-117	篠田王子	大阪府	和泉市		-	-	旧無格社	NEEDED
+SHR-118	平松王子	大阪府	和泉市		-	-	旧無格社	NEEDED
+SHR-119	井ノ口王子	大阪府	和泉市		-	-	旧無格社	NEEDED
+SHR-120	池田王子	大阪府	岸和田市		-	-	旧無格社	NEEDED
+SHR-121	麻生川王子	大阪府	岸和田市		-	-	旧無格社	NEEDED
+SHR-122	近木王子	大阪府	貝塚市		-	-	旧無格社	NEEDED
+SHR-123	鞍持王子	大阪府	貝塚市		-	-	旧無格社	NEEDED
+SHR-124	鶴原王子	大阪府	泉佐野市		-	-	旧無格社	NEEDED
+SHR-125	佐野王子	大阪府	泉佐野市		-	-	旧無格社	NEEDED
+SHR-126	籾井王子	大阪府	泉南市		-	-	旧無格社	NEEDED
+SHR-127	厩戸王子	大阪府	泉南市		-	-	旧無格社	NEEDED
+SHR-128	信達王子	大阪府	泉南市		-	-	旧無格社	NEEDED
+SHR-129	山口王子(和泉)	大阪府	阪南市		-	-	旧無格社	NEEDED
+SHR-130	雄ノ山王子	大阪府	岬町		-	-	旧無格社	NEEDED
+SHR-131	山口王子(紀伊)	和歌山県	和歌山市		-	-	旧無格社	NEEDED
+SHR-132	川辺王子	和歌山県	和歌山市		-	-	旧無格社	NEEDED
+SHR-133	中山王子	和歌山県	和歌山市		-	-	旧無格社	NEEDED
+SHR-134	山崎王子	和歌山県	和歌山市		-	-	旧無格社	NEEDED
+SHR-135	松代王子	和歌山県	和歌山市		-	-	旧無格社	NEEDED
+SHR-136	菩提房王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-137	祓戸王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-138	藤白王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-139	橘本王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-140	所坂王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-141	一壷王子	和歌山県	海南市		-	-	旧無格社	NEEDED
+SHR-142	蕪坂王子	和歌山県	有田市		-	-	旧無格社	NEEDED
+SHR-143	山口王子(有田)	和歌山県	有田市		-	-	旧無格社	NEEDED
+SHR-144	糸我王子	和歌山県	有田市		-	-	旧無格社	NEEDED
+SHR-145	逆川王子	和歌山県	有田市		-	-	旧無格社	NEEDED
+SHR-146	久米崎王子	和歌山県	有田川町		-	-	旧無格社	NEEDED
+SHR-147	津兼王子	和歌山県	有田川町		-	-	旧無格社	NEEDED
+SHR-148	河瀬王子	和歌山県	有田川町		-	-	旧無格社	NEEDED
+SHR-149	馬留王子(有田)	和歌山県	有田川町		-	-	旧無格社	NEEDED
+SHR-150	沓掛王子	和歌山県	有田川町		-	-	旧無格社	NEEDED
+SHR-151	内ノ畑王子	和歌山県	湯浅町		-	-	旧無格社	NEEDED
+SHR-152	高田王子	和歌山県	湯浅町		-	-	旧無格社	NEEDED
+SHR-153	善童子王子	和歌山県	広川町		-	-	旧無格社	NEEDED
+SHR-154	愛徳山王子	和歌山県	広川町		-	-	旧無格社	NEEDED
+SHR-155	鹿ヶ瀬王子	和歌山県	広川町		-	-	旧無格社	NEEDED
+SHR-156	沓掛王子(日高)	和歌山県	日高町		-	-	旧無格社	NEEDED
+SHR-157	内原王子	和歌山県	日高町		-	-	旧無格社	NEEDED
+SHR-158	高家王子	和歌山県	日高町		-	-	旧無格社	NEEDED
+SHR-159	千里王子	和歌山県	みなべ町		-	-	旧無格社	NEEDED
+SHR-160	三鍋王子	和歌山県	みなべ町		-	-	旧無格社	NEEDED
+SHR-161	岩代王子	和歌山県	みなべ町		-	-	旧無格社	NEEDED
+SHR-162	切目王子	和歌山県	印南町		-	-	旧無格社	NEEDED
+SHR-163	切目中山王子	和歌山県	印南町		-	-	旧無格社	NEEDED
+SHR-164	岩内王子	和歌山県	田辺市		-	-	旧無格社	NEEDED
+SHR-165	塩屋王子	和歌山県	御坊市		-	-	旧無格社	NEEDED
+SHR-166	上野王子(田辺)	和歌山県	田辺市		-	-	旧無格社	NEEDED
+SHR-167	出立王子	和歌山県	田辺市		-	-	旧無格社	NEEDED
+SHR-168	滝尻王子	和歌山県	田辺市		-	-	旧無格社	NEEDED
+SHR-169	富岡八幡宮	東京都	江東区富岡		-	-	府社	NEEDED
+SHR-170	鳩森八幡神社	東京都	渋谷区千駄ヶ谷		-	-	村社	NEEDED
+SHR-171	大宮八幡宮	東京都	杉並区大宮		-	-	府社	NEEDED
+SHR-172	蒲田八幡神社	東京都	大田区蒲田		-	-	村社	NEEDED
+SHR-173	八幡八雲神社	東京都	八王子市元横山町		-	-	郷社	NEEDED
+SHR-174	由比若宮	神奈川県	鎌倉市材木座		-	-	-	NEEDED
+SHR-175	葛飾八幡宮	千葉県	市川市八幡		-	-	県社	NEEDED
+SHR-176	川越八幡宮	埼玉県	川越市南通町		-	-	村社	NEEDED
+SHR-177	上野国総社八幡	群馬県	高崎市総社町		-	-	郷社	NEEDED
+SHR-178	太田八幡宮	群馬県	太田市本町		-	-	郷社	NEEDED
+SHR-179	下野国一社八幡宮	栃木県	足利市八幡町		-	-	県社	NEEDED
+SHR-180	水戸八幡宮	茨城県	水戸市八幡町		-	-	県社	NEEDED
+SHR-181	三戸八幡宮	青森県	三戸郡三戸町		-	-	村社	NEEDED
+SHR-182	盛岡八幡宮	岩手県	盛岡市八幡町		-	-	県社	NEEDED
+SHR-183	大崎八幡宮	宮城県	仙台市青葉区八幡		-	-	県社	NEEDED
+SHR-184	飯田八幡神社	秋田県	秋田市飯田		-	-	村社	NEEDED
+SHR-185	成島八幡神社	山形県	米沢市広幡町		-	-	郷社	NEEDED
+SHR-186	中野八幡神社	福島県	郡山市中野		-	-	村社	NEEDED
+SHR-187	白山八幡神社	新潟県	新潟市中央区一番堀通町		-	-	県社	NEEDED
+SHR-188	入善八幡宮	富山県	下新川郡入善町		-	-	村社	NEEDED
+SHR-189	金沢八幡宮	石川県	金沢市本多町		-	-	村社	NEEDED
+SHR-190	敦賀八幡神社	福井県	敦賀市三島町		-	-	村社	NEEDED
+SHR-191	武田八幡宮	山梨県	韮崎市神山町		-	-	県社	NEEDED
+SHR-192	笛吹八幡神社	山梨県	笛吹市		-	-	村社	NEEDED
+SHR-194	真田八幡神社	長野県	上田市真田町		-	-	村社	NEEDED
+SHR-195	美濃八幡神社	岐阜県	郡上市八幡町		-	-	県社	NEEDED
+SHR-196	飛騨八幡宮	岐阜県	高山市八幡町		-	-	村社	NEEDED
+SHR-197	浜松八幡宮	静岡県	浜松市中区八幡町		-	-	県社	NEEDED
+SHR-198	知立八幡神社	愛知県	知立市八幡町		-	-	村社	NEEDED
+SHR-199	名古屋八幡宮	愛知県	名古屋市中区		-	-	村社	NEEDED
+SHR-202	近江八幡神社	滋賀県	近江八幡市宮内町		-	-	県社	NEEDED
+SHR-204	御香宮神社	京都府	京都市伏見区御香宮門前町		-	-	府社	NEEDED
+SHR-205	若宮八幡宮社	京都府	京都市東山区五条橋東		-	-	村社	NEEDED
+SHR-206	誉田八幡宮	大阪府	羽曳野市誉田		-	-	府社	NEEDED
+SHR-208	七宮神社	兵庫県	神戸市兵庫区七宮町		-	-	村社	NEEDED
+SHR-209	姫路八幡神社	兵庫県	姫路市		-	-	県社	NEEDED
+SHR-210	手向山八幡宮	奈良県	奈良市雑司町		-	-	県社	NEEDED
+SHR-213	山名八幡宮	鳥取県	八頭郡八頭町		-	-	県社	NEEDED
+SHR-214	隠岐八幡宮	島根県	隠岐郡隠岐の島町		-	-	郷社	NEEDED
+SHR-218	御袖八幡宮	広島県	尾道市		-	-	村社	NEEDED
+SHR-220	山口八幡宮	山口県	山口市		-	-	村社	NEEDED
+SHR-222	蜂須賀八幡神社	徳島県	徳島市		-	-	村社	NEEDED
+SHR-225	潮江八幡宮	高知県	高知市潮江		-	-	県社	NEEDED
+SHR-226	大宰府八幡宮	福岡県	太宰府市		-	-	県社	NEEDED
+SHR-229	久留米八幡宮	福岡県	久留米市		-	-	県社	NEEDED
+SHR-232	平戸八幡神社	長崎県	平戸市		-	-	県社	NEEDED
+SHR-233	長崎八幡神社	長崎県	長崎市		-	-	村社	NEEDED
+SHR-234	藤崎八旛宮	熊本県	熊本市中央区井川淵町		-	-	県社	NEEDED
+SHR-235	柞原八幡宮	大分県	大分市八幡		-	-	国幣小社	NEEDED
+SHR-238	函館八幡宮	北海道	函館市谷地頭町		-	-	県社	NEEDED
+SHR-239	大原野神社	京都府	京都市西京区大原野		-	二十二社	府社	NEEDED
+SHR-240	吉田神社	京都府	京都市左京区吉田神楽岡町		-	二十二社(下八社)	官幣中社	NEEDED
+SHR-241	田村神社(讃岐春日)	香川県	高松市一宮町	34.2792,134.0353	approximate	名神大社	県社	VERIFY(approximate)
+SHR-242	飛鳥坐神社	奈良県	高市郡明日香村飛鳥	34.4761,135.82	approximate	名神大社	県社	VERIFY(approximate)
+SHR-243	武蔵国総社春日神社	東京都	府中市宮町		-	-	村社	NEEDED
+SHR-244	鎌倉春日神社	神奈川県	鎌倉市		-	-	村社	NEEDED
+SHR-255	筑前春日神社	福岡県	春日市春日		-	-	県社	NEEDED
+SHR-267	武蔵児玉春日神社	埼玉県	本庄市児玉町		-	-	村社	NEEDED
+SHR-268	興福寺南円堂春日	奈良県	奈良市登大路町		-	-	-	NEEDED
+SHR-269	伏見稲荷大社	京都府	京都市伏見区深草藪之内町	34.9671,135.7727	approximate	名神大社|二十二社	官幣大社|別表神社	VERIFY(approximate)
+SHR-270	笠間稲荷神社	茨城県	笠間市笠間1	36.3461,140.2622	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-271	豊川稲荷	愛知県	豊川市豊川町		-	-	-	NEEDED
+SHR-272	祐徳稲荷神社	佐賀県	鹿島市古枝		-	-	県社	NEEDED
+SHR-273	最上稲荷	岡山県	岡山市北区高松稲荷		-	-	-	NEEDED
+SHR-274	竹駒神社	宮城県	岩沼市稲荷町		-	-	県社	NEEDED
+SHR-275	草戸稲荷神社	広島県	福山市草戸町		-	-	県社	NEEDED
+SHR-276	源九郎稲荷神社	奈良県	大和郡山市洞泉寺町		-	-	村社	NEEDED
+SHR-277	瓢箪山稲荷神社	大阪府	東大阪市瓢箪山町		-	-	村社	NEEDED
+SHR-278	玉造稲荷神社	大阪府	大阪市中央区玉造		-	-	府社	NEEDED
+SHR-279	白笹稲荷神社	神奈川県	秦野市今泉		-	-	村社	NEEDED
+SHR-280	装束稲荷神社	東京都	北区王子		-	-	村社	NEEDED
+SHR-281	王子稲荷神社	東京都	北区岸町		-	-	村社	NEEDED
+SHR-282	烏森稲荷神社	東京都	港区新橋		-	-	村社	NEEDED
+SHR-283	高山稲荷神社	青森県	つがる市		-	-	村社	NEEDED
+SHR-284	志和稲荷神社	岩手県	紫波郡紫波町		-	-	県社	NEEDED
+SHR-289	熱田稲荷	愛知県	名古屋市熱田区		-	-	-	NEEDED
+SHR-305	土佐稲荷神社(高知)	高知県	高知市		-	-	村社	NEEDED
+SHR-316	綱敷天満宮稲荷	兵庫県	神戸市		-	-	-	NEEDED
+SHR-319	北野天満宮	京都府	京都市上京区馬喰町	35.0314,135.735	approximate	二十二社(下八社)	官幣中社|別表神社	VERIFY(approximate)
+SHR-320	大宰府天満宮	福岡県	太宰府市宰府	33.5208,130.535	approximate	-	官幣小社|別表神社	VERIFY(approximate)
+SHR-321	防府天満宮	山口県	防府市松崎町	34.0517,131.5664	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-322	湯島天満宮	東京都	文京区湯島	35.7072,139.7681	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-323	亀戸天神社	東京都	江東区亀戸	35.6997,139.8228	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-324	谷保天満宮	東京都	国立市谷保		-	-	府社	NEEDED
+SHR-325	平河天満宮	東京都	千代田区平河町		-	-	村社	NEEDED
+SHR-326	錦天満宮	京都府	京都市中京区新京極		-	-	村社	NEEDED
+SHR-327	水火天満宮	京都府	京都市上京区		-	-	村社	NEEDED
+SHR-328	吉祥院天満宮	京都府	京都市南区吉祥院		-	-	府社	NEEDED
+SHR-329	文子天満宮	京都府	京都市下京区		-	-	村社	NEEDED
+SHR-330	綱敷天満宮(神戸)	兵庫県	神戸市須磨区		-	-	村社	NEEDED
+SHR-331	綱敷天満宮(博多)	福岡県	福岡市博多区		-	-	村社	NEEDED
+SHR-332	水鏡天満宮	福岡県	福岡市中央区天神		-	-	村社	NEEDED
+SHR-333	住吉神社内天満宮	大阪府	大阪市住吉区		-	-	-	NEEDED
+SHR-334	大阪天満宮	大阪府	大阪市北区天神橋	34.6961,135.5125	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-335	道明寺天満宮	大阪府	藤井寺市道明寺		-	-	府社	NEEDED
+SHR-337	北野天満宮(尼崎)	兵庫県	尼崎市北御園町		-	-	村社	NEEDED
+SHR-340	和歌浦天満宮	和歌山県	和歌山市和歌浦		-	-	県社	NEEDED
+SHR-348	善光寺天神	長野県	長野市		-	-	-	NEEDED
+SHR-361	鎌倉天満宮	神奈川県	鎌倉市二階堂		-	-	村社	NEEDED
+SHR-367	石上神宮天満	奈良県	天理市布留町		-	-	-	NEEDED
+SHR-369	諏訪大社上社本宮	長野県	諏訪市中洲宮山	35.9986,138.1192	approximate	名神大社|信濃一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-370	諏訪大社上社前宮	長野県	茅野市宮川	35.9931,138.1361	approximate	名神大社	官幣大社	VERIFY(approximate)
+SHR-371	諏訪大社下社春宮	長野県	諏訪郡下諏訪町	36.0792,138.0828	approximate	名神大社	官幣大社	VERIFY(approximate)
+SHR-372	諏訪大社下社秋宮	長野県	諏訪郡下諏訪町	36.0742,138.0908	approximate	名神大社	官幣大社	VERIFY(approximate)
+SHR-373	守矢神社	長野県	茅野市		-	-	村社	NEEDED
+SHR-374	八剱神社(諏訪)	長野県	諏訪市小和田		-	-	村社	NEEDED
+SHR-382	武田八幡諏訪相殿	山梨県	韮崎市		-	-	-	NEEDED
+SHR-383	諏訪神社(関東)	東京都	立川市柴崎町		-	-	村社	NEEDED
+SHR-384	武蔵越生諏訪神社	埼玉県	入間郡越生町		-	-	村社	NEEDED
+SHR-389	新潟諏訪神社	新潟県	新潟市		-	-	県社	NEEDED
+SHR-393	諏訪大社神宮寺諏訪	長野県	諏訪市		-	-	-	NEEDED
+SHR-416	諏訪神社(長崎)	長崎県	長崎市上西山町	32.7503,129.8789	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-419	白山比咩神社	石川県	白山市三宮町	36.4906,136.6131	approximate	名神大社|加賀一宮	国幣中社|別表神社	VERIFY(approximate)
+SHR-420	白山中宮	岐阜県	郡上市白鳥町		-	-	県社	NEEDED
+SHR-421	白山平泉寺	福井県	勝山市平泉寺町		-	-	別格官幣社	NEEDED
+SHR-422	白山中居神社	岐阜県	郡上市白鳥町		-	-	県社	NEEDED
+SHR-424	白山神社(東京)	東京都	文京区白山		-	-	府社	NEEDED
+SHR-447	越後白山神社	新潟県	長岡市		-	-	県社	NEEDED
+SHR-449	富士山本宮浅間大社	静岡県	富士宮市宮町1-1	35.2275,138.6097	approximate	名神大社|駿河一宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-450	北口本宮冨士浅間神社	山梨県	富士吉田市	35.4928,138.7931	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-452	富士山須走浅間神社	静岡県	駿東郡小山町		-	-	県社	NEEDED
+SHR-453	富士御室浅間神社	山梨県	南都留郡富士河口湖町		-	-	県社	NEEDED
+SHR-454	浅間神社(甲府)	山梨県	笛吹市一宮町	35.6586,138.6939	approximate	名神大社|甲斐一宮	県社	VERIFY(approximate)
+SHR-455	吉原浅間神社	静岡県	富士市吉原		-	-	県社	NEEDED
+SHR-459	駒込富士神社	東京都	文京区本駒込		-	-	村社	NEEDED
+SHR-460	江戸鉄砲洲富士浅間	東京都	中央区		-	-	-	NEEDED
+SHR-461	江古田浅間神社	東京都	練馬区		-	-	村社	NEEDED
+SHR-479	出羽神社(羽黒山)	山形県	鶴岡市羽黒町手向	38.705,139.9772	approximate	式内社|羽前一宮	国幣小社|別表神社	VERIFY(approximate)
+SHR-480	月山神社	山形県	東田川郡庄内町	38.5492,140.0267	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-481	湯殿山神社	山形県	鶴岡市田麦俣	38.5331,140.0044	approximate	-	国幣小社|別表神社	VERIFY(approximate)
+SHR-482	注連寺	山形県	鶴岡市		-	-	-	NEEDED
+SHR-483	大日坊	山形県	鶴岡市大網		-	-	-	NEEDED
+SHR-484	羽黒山三所	山形県	鶴岡市		-	-	-	NEEDED
+SHR-485	羽黒山五重塔	山形県	鶴岡市		-	-	国宝	NEEDED
+SHR-486	月山神社中之宮	山形県	東田川郡		-	-	-	NEEDED
+SHR-487	湯殿山中之宮	山形県	鶴岡市		-	-	-	NEEDED
+SHR-488	出羽三山神社飯豊	山形県	西置賜郡		-	-	-	NEEDED
+SHR-489	飯豊山神社	福島県	喜多方市		-	-	県社	NEEDED
+SHR-490	早池峰神社	岩手県	花巻市		-	-	県社	NEEDED
+SHR-491	姫神山神社	岩手県	盛岡市		-	-	村社	NEEDED
+SHR-492	岩手山神社	岩手県	岩手郡雫石町		-	-	県社	NEEDED
+SHR-493	鳥海山大物忌神社	山形県	飽海郡遊佐町	39.0917,139.9097	approximate	名神大社|出羽一宮	国幣中社	VERIFY(approximate)
+SHR-494	鳥海山中之宮	秋田県	由利本荘市		-	-	-	NEEDED
+SHR-495	八峰白瀑神社	秋田県	山本郡八峰町		-	-	村社	NEEDED
+SHR-496	田沢湖辰子姫神社	秋田県	仙北市		-	-	-	NEEDED
+SHR-497	男鹿真山神社	秋田県	男鹿市		-	-	県社	NEEDED
+SHR-498	男鹿本山神社	秋田県	男鹿市		-	-	村社	NEEDED
+SHR-499	羽黒山秋葉神社	山形県	鶴岡市		-	-	-	NEEDED
+SHR-500	出羽国分寺八幡	山形県	山形市		-	-	村社	NEEDED
+SHR-501	出羽神社境内羽黒月山湯殿三神社	山形県	鶴岡市		-	-	-	NEEDED
+SHR-502	吹浦口大物忌	山形県	飽海郡		-	-	-	NEEDED
+SHR-503	蕨岡口大物忌	山形県	飽海郡		-	-	-	NEEDED
+SHR-504	矢島口大物忌	秋田県	由利本荘市		-	-	-	NEEDED
+SHR-505	百宅口大物忌	秋田県	由利本荘市		-	-	-	NEEDED
+SHR-506	月山八合目神社	山形県	東田川郡		-	-	-	NEEDED
+SHR-507	羽黒八合目神社	山形県	鶴岡市		-	-	-	NEEDED
+SHR-508	湯殿山五合目神社	山形県	鶴岡市		-	-	-	NEEDED
+SHR-509	金峯山寺蔵王堂	奈良県	吉野郡吉野町		-	-	別格官幣社	NEEDED
+SHR-510	吉野水分神社	奈良県	吉野郡吉野町	34.3597,135.8742	approximate	名神大社	県社	VERIFY(approximate)
+SHR-511	吉野金峯神社	奈良県	吉野郡吉野町		-	-	県社	NEEDED
+SHR-512	大峰山寺	奈良県	吉野郡天川村		-	-	-	NEEDED
+SHR-513	天河大弁財天社	奈良県	吉野郡天川村坪内		-	-	県社	NEEDED
+SHR-514	十津川玉置神社	奈良県	吉野郡十津川村		-	-	県社	NEEDED
+SHR-515	勝尾寺	大阪府	箕面市		-	-	-	NEEDED
+SHR-516	雄山神社	富山県	中新川郡立山町	36.5719,137.3144	approximate	式内社|越中一宮	国幣小社|別表神社	VERIFY(approximate)
+SHR-517	戸隠神社奥社	長野県	長野市戸隠	36.7611,138.0803	approximate	式内社	国幣小社|別表神社	VERIFY(approximate)
+SHR-518	戸隠神社中社	長野県	長野市戸隠		-	-	国幣小社	NEEDED
+SHR-519	戸隠神社宝光社	長野県	長野市戸隠		-	-	国幣小社	NEEDED
+SHR-520	大山祇神社境外社	愛媛県	今治市大三島町		-	-	-	NEEDED
+SHR-521	阿夫利神社	神奈川県	伊勢原市大山	35.4319,139.2475	approximate	式内社	国幣小社|別表神社	VERIFY(approximate)
+SHR-522	大山祇神社(東京)	東京都	あきる野市		-	-	村社	NEEDED
+SHR-523	十二神社大山祇	群馬県	渋川市		-	-	村社	NEEDED
+SHR-524	日吉大社	滋賀県	大津市坂本	35.0703,135.8631	approximate	二十二社	官幣大社|別表神社	VERIFY(approximate)
+SHR-525	松尾大社	京都府	京都市西京区嵐山	35.0011,135.685	approximate	二十二社|名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-526	赤山禅院	京都府	京都市左京区修学院		-	-	-	NEEDED
+SHR-527	延暦寺横川中堂	滋賀県	大津市		-	-	国宝(別物)	NEEDED
+SHR-528	延暦寺日吉社	滋賀県	大津市		-	-	-	NEEDED
+SHR-529	愛宕神社(京)	京都府	京都市右京区嵯峨愛宕町	35.0633,135.6308	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-530	愛宕神社(東京)	東京都	港区愛宕		-	-	村社	NEEDED
+SHR-531	武蔵愛宕神社	埼玉県	深谷市		-	-	村社	NEEDED
+SHR-532	信州愛宕神社	長野県	上田市		-	-	村社	NEEDED
+SHR-533	秋葉山本宮秋葉神社	静岡県	浜松市天竜区春野町	34.9269,137.8589	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-534	秋葉神社(東京)	東京都	台東区松が谷		-	-	村社	NEEDED
+SHR-535	秋葉原秋葉神社	東京都	千代田区神田		-	-	-	NEEDED
+SHR-536	信州秋葉神社	長野県	佐久市		-	-	村社	NEEDED
+SHR-537	英彦山神宮	福岡県	田川郡添田町	33.48,130.9067	approximate	-	官幣中社|別表神社	VERIFY(approximate)
+SHR-538	国東六郷満山	大分県	国東市		-	-	-	NEEDED
+SHR-539	両子寺	大分県	国東市		-	-	-	NEEDED
+SHR-540	熊野座神社(英彦山)	福岡県	田川郡		-	-	-	NEEDED
+SHR-541	求菩提山	福岡県	豊前市		-	-	-	NEEDED
+SHR-542	阿蘇国造神社	熊本県	阿蘇市		-	式内社	県社	NEEDED
+SHR-543	阿蘇神社摂社	熊本県	阿蘇市		-	-	-	NEEDED
+SHR-544	霧島神宮	鹿児島県	霧島市霧島田口	31.8581,130.8717	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-545	霧島東神社	宮崎県	西諸県郡高原町		-	-	県社	NEEDED
+SHR-546	狭野神社	宮崎県	西諸県郡高原町		-	式内社	県社	NEEDED
+SHR-547	夷守神社	宮崎県	小林市		-	式内社	県社	NEEDED
+SHR-548	剣山本宮宝蔵石神社	徳島県	三好市東祖谷		-	-	-	NEEDED
+SHR-549	石鎚神社	愛媛県	西条市西田甲	33.8189,133.1314	approximate	式内社	県社|別表神社	VERIFY(approximate)
+SHR-550	石鎚神社中宮成就社	愛媛県	西条市小松町		-	-	-	NEEDED
+SHR-551	石鎚神社土小屋遥拝殿	愛媛県	上浮穴郡久万高原町		-	-	-	NEEDED
+SHR-552	湯殿山注連寺別当	山形県	鶴岡市		-	-	-	NEEDED
+SHR-553	羽黒山荒澤寺	山形県	鶴岡市羽黒町		-	-	-	NEEDED
+SHR-554	富士山経ヶ岳	山梨県	富士山		-	-	-	NEEDED
+SHR-556	立山雄山頂上社	富山県	中新川郡		-	-	-	NEEDED
+SHR-557	立山中宮祈願殿	富山県	中新川郡		-	-	-	NEEDED
+SHR-558	立山護命大権現	富山県	中新川郡		-	-	-	NEEDED
+SHR-559	三輪山禁足地	奈良県	桜井市		-	-	-	NEEDED
+SHR-560	石上山神宮寺	奈良県	天理市		-	-	-	NEEDED
+SHR-561	葛城山一言主神社	奈良県	御所市森脇	34.4506,135.7333	approximate	式内社|名神大社	県社	VERIFY(approximate)
+SHR-562	葛城金剛山転法輪寺	奈良県	御所市		-	-	-	NEEDED
+SHR-563	羊蹄山神社	北海道	虻田郡倶知安町		-	-	村社	NEEDED
+SHR-564	十和田神社	青森県	十和田市奥瀬		-	-	県社	NEEDED
+SHR-565	男鹿真山赤神社	秋田県	男鹿市		-	-	村社	NEEDED
+SHR-566	大神神社摂社三輪	奈良県	桜井市		-	-	-	NEEDED
+SHR-567	大山祇神社境内社	愛媛県	今治市		-	-	-	NEEDED
+SHR-568	妙法山阿弥陀寺	和歌山県	東牟婁郡那智勝浦町		-	-	-	NEEDED
+SHR-569	弥彦神社	新潟県	西蒲原郡弥彦村弥彦	37.7067,138.8283	approximate	名神大社	国幣中社|別表神社	VERIFY(approximate)
+SHR-570	気多大社	石川県	羽咋市寺家町	36.9456,136.7783	approximate	名神大社	国幣大社|別表神社	VERIFY(approximate)
+SHR-571	気比神宮	福井県	敦賀市曙町	35.6556,136.07	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-572	劔神社	福井県	丹生郡越前町織田	35.9628,136.135	approximate	名神大社	国幣小社	VERIFY(approximate)
+SHR-573	高瀬神社	富山県	南砺市高瀬	36.5469,136.9183	approximate	名神大社	国幣小社|別表神社	VERIFY(approximate)
+SHR-574	国懸神宮	和歌山県	和歌山市秋月	34.2392,135.1722	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-575	都都古別神社(馬場)	福島県	東白川郡棚倉町	37.0306,140.3792	approximate	名神大社	国幣中社	VERIFY(approximate)
+SHR-576	都都古別神社(八槻)	福島県	東白川郡棚倉町	36.98,140.42	approximate	名神大社	国幣中社	VERIFY(approximate)
+SHR-577	由良比女神社	島根県	隠岐郡西ノ島町	36.097,132.969	approximate	名神大社	国幣小社	VERIFY(approximate)
+SHR-578	中山神社	岡山県	津山市一宮	35.087,133.997	approximate	名神大社	国幣中社	VERIFY(approximate)
+SHR-579	吉備津彦神社	岡山県	岡山市北区一宮	34.6683,133.8569	approximate	-	国幣小社|別表神社	VERIFY(approximate)
+SHR-581	素盞嗚神社(備後)	広島県	福山市新市町	34.55,133.27	approximate	名神大社	県社	VERIFY(approximate)
+SHR-583	由加神社本宮	岡山県	倉敷市児島由加		-	-	県社	NEEDED
+SHR-584	徳佐八幡宮	山口県	山口市阿東徳佐		-	-	村社	NEEDED
+SHR-585	仲山金毘羅宮	香川県	丸亀市本島町		-	-	村社	NEEDED
+SHR-586	天石門別神社	岡山県	美作市	34.98,134.2	approximate	名神大社	県社	VERIFY(approximate)
+SHR-588	舞鶴大原神社	京都府	舞鶴市河辺由里		-	-	府社	NEEDED
+SHR-589	金鑚神社	埼玉県	児玉郡神川町	36.1561,139.0972	approximate	名神大社	官幣中社	VERIFY(approximate)
+SHR-590	小野神社(武蔵)	東京都	多摩市一ノ宮		-	式内社	県社	NEEDED
+SHR-591	川匂神社	神奈川県	中郡二宮町		-	式内社	村社	NEEDED
+SHR-592	豊積神社	静岡県	静岡市清水区		-	式内社	村社	NEEDED
+SHR-593	二宮神社(尾張)	愛知県	愛知郡東郷町		-	-	村社	NEEDED
+SHR-594	田縣神社	愛知県	小牧市田県町		-	-	村社	NEEDED
+SHR-595	石津神社	大阪府	堺市西区石津町		-	式内社	府社	NEEDED
+SHR-596	酒解神社	京都府	乙訓郡大山崎町	34.9028,135.6783	approximate	名神大社	府社	VERIFY(approximate)
+SHR-597	竹大与杼神社	京都府	京都市伏見区		-	式内社	村社	NEEDED
+SHR-598	浄見原神社	奈良県	吉野郡吉野町		-	式内社	村社	NEEDED
+SHR-599	大県神社	愛知県	犬山市		-	式内社	県社	NEEDED
+SHR-600	加佐美神社	岐阜県	各務原市		-	式内社	村社	NEEDED
+SHR-601	六所神社(伊豆)	静岡県	三島市		-	-	村社	NEEDED
+SHR-602	二宮神社(備中)	岡山県	倉敷市		-	-	村社	NEEDED
+SHR-603	二宮神社(豊前)	福岡県	京都郡苅田町		-	-	村社	NEEDED
+SHR-604	大國魂神社	東京都	府中市宮町	35.6692,139.4806	approximate	-	官幣小社|別表神社	VERIFY(approximate)
+SHR-605	上野国総社神社	群馬県	前橋市元総社町		-	-	県社	NEEDED
+SHR-606	下野国総社神社	栃木県	栃木市惣社町		-	-	村社	NEEDED
+SHR-607	常陸国総社宮	茨城県	石岡市総社		-	-	県社	NEEDED
+SHR-608	駿河国総社浅間神社	静岡県	静岡市葵区	34.9789,138.3744	approximate	-	国幣小社|別表神社	VERIFY(approximate)
+SHR-609	信濃国総社城	長野県	松本市		-	-	村社	NEEDED
+SHR-610	越後国総社	新潟県	上越市		-	-	村社	NEEDED
+SHR-611	加賀国総社	石川県	金沢市本多町		-	-	村社	NEEDED
+SHR-612	越中国総社	富山県	高岡市古城	36.7497,137.018	approximate	名神大社	県社	VERIFY(approximate)
+SHR-613	越前国総社	福井県	越前市京町		-	-	村社	NEEDED
+SHR-614	近江国総社	滋賀県	大津市		-	-	村社	NEEDED
+SHR-615	丹波国総社	京都府	亀岡市		-	-	村社	NEEDED
+SHR-616	但馬国総社	兵庫県	豊岡市日高町	35.45,134.76	approximate	名神大社	県社	VERIFY(approximate)
+SHR-617	因幡国総社	鳥取県	鳥取市		-	-	-	NEEDED
+SHR-618	美作国総社	岡山県	津山市		-	-	村社	NEEDED
+SHR-619	備中国総社宮	岡山県	総社市総社		-	-	県社	NEEDED
+SHR-620	備後国総社	広島県	府中市		-	-	村社	NEEDED
+SHR-621	安芸国総社	広島県	府中町		-	-	村社	NEEDED
+SHR-622	周防国総社	山口県	防府市		-	-	村社	NEEDED
+SHR-623	阿波国総社	徳島県	徳島市		-	-	村社	NEEDED
+SHR-624	讃岐国総社	香川県	坂出市		-	-	村社	NEEDED
+SHR-625	伊予国総社	愛媛県	今治市		-	-	村社	NEEDED
+SHR-626	土佐国総社	高知県	南国市		-	-	村社	NEEDED
+SHR-627	肥前国総社	佐賀県	佐賀市大和町		-	-	村社	NEEDED
+SHR-628	日向国総社	宮崎県	西都市		-	-	村社	NEEDED
+SHR-629	明治神宮	東京都	渋谷区代々木神園町	35.6764,139.6993	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-630	平安神宮	京都府	京都市左京区岡崎	35.0161,135.7822	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-631	橿原神宮	奈良県	橿原市久米町	34.4883,135.7872	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-632	北海道神宮	北海道	札幌市中央区宮ヶ丘	43.0539,141.3072	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-633	護国神社(東京)	東京都	千代田区九段北	35.6939,139.7436	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-634	湊川神社	兵庫県	神戸市中央区	34.6831,135.1781	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-635	阿部野神社	大阪府	大阪市阿倍野区	34.6356,135.5072	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-636	結城神社	三重県	津市藤方		-	-	別格官幣社	NEEDED
+SHR-637	名和神社	鳥取県	西伯郡大山町		-	-	別格官幣社	NEEDED
+SHR-638	菊池神社	熊本県	菊池市隈府	32.9803,130.8125	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-639	藤島神社	福井県	福井市毛矢		-	-	別格官幣社	NEEDED
+SHR-640	北畠神社	三重県	津市美杉町		-	-	別格官幣社	NEEDED
+SHR-641	井伊谷宮	静岡県	浜松市北区		-	-	官幣中社	NEEDED
+SHR-642	八代宮	熊本県	八代市		-	-	官幣中社	NEEDED
+SHR-643	吉野神宮	奈良県	吉野郡吉野町	34.37,135.8597	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-644	水無瀬神宮	大阪府	三島郡島本町	34.8853,135.6708	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-645	白峯神宮	京都府	京都市上京区		-	-	官幣大社	NEEDED
+SHR-646	赤間神宮	山口県	下関市阿弥陀寺町	33.9586,130.9447	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-647	近江神宮	滋賀県	大津市神宮町	35.0411,135.8519	approximate	-	官幣大社|別表神社	VERIFY(approximate)
+SHR-648	熱田神宮	愛知県	名古屋市熱田区	35.1281,136.9078	approximate	名神大社|尾張三宮	官幣大社|別表神社	VERIFY(approximate)
+SHR-649	石清水八幡宮	京都府	八幡市八幡	34.8794,135.6997	approximate	二十二社|名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-650	鎌倉宮	神奈川県	鎌倉市二階堂	35.3267,139.5594	approximate	-	官幣中社|別表神社	VERIFY(approximate)
+SHR-651	伊雑宮	三重県	志摩市磯部町	34.3597,136.83	approximate	名神大社	-	VERIFY(approximate)
+SHR-652	瀧原宮	三重県	度会郡大紀町	34.345,136.42	approximate	名神大社	-	VERIFY(approximate)
+SHR-653	月夜見宮	三重県	伊勢市	34.4903,136.7058	approximate	名神大社	-	VERIFY(approximate)
+SHR-654	月読宮	三重県	伊勢市中村町	34.4628,136.71	approximate	名神大社	-	VERIFY(approximate)
+SHR-655	倭姫宮	三重県	伊勢市楠部町		-	-	-	NEEDED
+SHR-656	護王神社	京都府	京都市上京区桜鶴円町	35.0258,135.7544	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-657	尾山神社	石川県	金沢市尾山町	36.5689,136.6531	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-658	豊国神社	京都府	京都市東山区	34.9919,135.7717	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-659	乃木神社	東京都	港区赤坂	35.6694,139.7264	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-660	東郷神社	東京都	渋谷区神宮前		-	-	府社	NEEDED
+SHR-661	豊國神社(大阪)	大阪府	大阪市中央区	34.6863,135.5269	approximate	-	府社|別表神社	VERIFY(approximate)
+SHR-662	豊國神社(名古屋)	愛知県	名古屋市中村区		-	-	府社	NEEDED
+SHR-663	護国神社(靖国別)	全国	都道府県別		-	-	別格官幣社相当	NEEDED
+SHR-664	北野天満宮(北海道別宮)	北海道	北見市		-	-	県社	NEEDED
+SHR-665	樺太神社	サハリン	豊原市(歴史)		-	-	官幣大社(廃)	NEEDED
+SHR-666	朝鮮神宮	ソウル(歴史)	南山(歴史)		-	-	官幣大社(廃)	NEEDED
+SHR-667	台湾神宮	台北(歴史)	圓山(歴史)		-	-	官幣大社(廃)	NEEDED
+SHR-668	関東神宮	旅順(歴史)	金州城外(歴史)		-	-	官幣大社(廃)	NEEDED
+SHR-669	出雲長浜神社	島根県	出雲市西園町		-	式内社	県社	NEEDED
+SHR-670	岩木山神社	青森県	弘前市百沢	40.6331,140.3047	approximate	-	国幣小社|別表神社	VERIFY(approximate)
+SHR-671	日光二荒山神社	栃木県	日光市山内	36.7587,139.5967	approximate	名神大社	国幣中社|別表神社	VERIFY(approximate)
+SHR-672	高鴨神社	奈良県	御所市鴨神	34.4017,135.7331	approximate	名神大社	県社|別表神社	VERIFY(approximate)
+SHR-673	龍田大社	奈良県	生駒郡三郷町立野南	34.5947,135.6681	approximate	名神大社	官幣大社|別表神社	VERIFY(approximate)
+SHR-674	門客人神社	埼玉県	さいたま市大宮区高鼻町		-	-	-	NEEDED
+SHR-675	大峯山金剛峯寺	奈良県	吉野郡天川村		-	-	-	NEEDED
+SHR-676	出雲大社神楽殿	島根県	出雲市大社町		-	-	-	NEEDED
+SHR-677	素鵞社	島根県	出雲市大社町		-	-	-	NEEDED
+SHR-678	北島国造館	島根県	出雲市大社町		-	-	-	NEEDED
+SHR-679	伊勢神宮内宮別宮(風日祈宮)	三重県	伊勢市宇治館町	34.4549,136.7256	approximate	名神大社	-	VERIFY(approximate)
+SHR-680	伊勢神宮外宮別宮(風宮)	三重県	伊勢市豊川町	34.4878,136.7044	approximate	名神大社	-	VERIFY(approximate)
+SHR-681	伊勢神宮外宮別宮(土宮)	三重県	伊勢市豊川町		-	-	-	NEEDED
+SHR-682	伊勢神宮外宮別宮(多賀宮)	三重県	伊勢市豊川町	34.4878,136.7044	approximate	名神大社	-	VERIFY(approximate)
+SHR-683	熊野速玉大社神倉神社	和歌山県	新宮市神倉		-	-	-	NEEDED
+SHR-684	諏訪大社摂社御射山社	長野県	茅野市		-	-	-	NEEDED
+SHR-685	春日大社若宮	奈良県	奈良市春日野町		-	-	-	NEEDED
+SHR-686	石清水八幡宮高良神社	京都府	八幡市八幡		-	-	-	NEEDED
+SHR-687	鶴岡八幡宮丸山稲荷社	神奈川県	鎌倉市雪ノ下		-	-	-	NEEDED
+SHR-688	住吉大社境内大海神社	大阪府	大阪市住吉区	34.6128,135.4942	approximate	名神大社	-	VERIFY(approximate)
+SHR-689	宗像大社中津宮	福岡県	宗像市大島	33.8983,130.4264	approximate	名神大社	-	VERIFY(approximate)
+SHR-690	宗像大社沖津宮	福岡県	宗像市沖ノ島	34.2436,130.1056	approximate	名神大社	-	VERIFY(approximate)
+SHR-694	諏訪八幡神社	徳島県	美馬市		-	-	村社	NEEDED
+SHR-698	浜松八幡(浜北)	静岡県	浜松市浜北区		-	-	村社	NEEDED
+SHR-699	近江八幡神社(野洲)	滋賀県	野洲市		-	-	村社	NEEDED
+SHR-705	沖縄波上宮	沖縄県	那覇市若狭	26.2231,127.6669	approximate	-	官幣小社|別表神社	VERIFY(approximate)
+SHR-712	末広神社	東京都	中央区日本橋人形町		-	-	村社	NEEDED
+SHR-713	関東稲荷大明神	茨城県	水戸市		-	-	-	NEEDED
+SHR-717	弘前八幡稲荷相殿	青森県	弘前市		-	-	-	NEEDED
+SHR-720	出雲稲荷神社(松江)	島根県	松江市		-	-	村社	NEEDED
+SHR-727	摂津天満宮(中央)	大阪府	大阪市中央区		-	-	村社	NEEDED
+SHR-733	木曽春日神社	長野県	木曽郡上松町		-	-	村社	NEEDED
+SHR-734	出雲春日神社(松江)	島根県	松江市		-	-	村社	NEEDED
+SHR-741	阿夫利神社下社	神奈川県	伊勢原市大山		-	-	国幣小社	NEEDED
+SHR-742	石鎚神社頂上社	愛媛県	西条市石鎚		-	-	-	NEEDED
+SHR-743	剣山頂上社	徳島県	三好市		-	-	-	NEEDED
+SHR-744	英彦山頂上社	福岡県	田川郡添田町		-	-	-	NEEDED
+SHR-745	妙見山日蓮宗鎮守	兵庫県	川西市		-	-	-	NEEDED
+SHR-746	木曽御嶽神社	長野県	木曽郡王滝村	35.8931,137.4803	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-747	八海山神社	新潟県	南魚沼市		-	-	県社	NEEDED
+SHR-748	羽黒山祈祷殿	山形県	鶴岡市		-	-	-	NEEDED
+SHR-749	月山中の宮葉山神社	山形県	東田川郡		-	-	-	NEEDED
+SHR-750	修験道箱根三所権現	神奈川県	足柄下郡箱根町	35.2042,139.0264	approximate	-	国幣小社|別表神社	VERIFY(approximate)
+SHR-751	府中六所宮(仙台)	宮城県	仙台市青葉区		-	-	村社	NEEDED
+SHR-752	国府宮(尾張)	愛知県	稲沢市国府宮		-	式内社	県社	NEEDED
+SHR-753	国府宮(下総)	千葉県	市川市国府台		-	-	村社	NEEDED
+SHR-754	武蔵野御嶽神社	東京都	青梅市御岳山	35.7858,139.1517	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-755	筑波山神社	茨城県	つくば市筑波	36.2253,140.1033	approximate	式内社	県社|別表神社	VERIFY(approximate)
+SHR-756	赤城神社	群馬県	前橋市三夜沢町		-	式内社	県社	NEEDED
+SHR-757	榛名神社	群馬県	高崎市榛名山町	36.4661,138.8581	approximate	式内社	県社|別表神社	VERIFY(approximate)
+SHR-758	妙義神社	群馬県	富岡市妙義町		-	-	県社	NEEDED
+SHR-759	鵜戸神宮	宮崎県	日南市宮浦	31.6478,131.4703	approximate	式内社	官幣大社|別表神社	VERIFY(approximate)
+SHR-760	青島神社	宮崎県	宮崎市青島	31.7997,131.4789	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-761	江田神社	宮崎県	宮崎市阿波岐原町		-	式内社	県社	NEEDED
+SHR-762	霧島東神社	宮崎県	西諸県郡高原町		-	-	県社	NEEDED
+SHR-763	住吉神社(博多)	福岡県	福岡市博多区住吉	33.5869,130.4119	approximate	名神大社	官幣小社|別表神社	VERIFY(approximate)
+SHR-764	水天宮(久留米)	福岡県	久留米市瀬下町	33.3072,130.5031	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-765	諏訪神社(信濃の里宮)	長野県	茅野市		-	-	-	NEEDED
+SHR-766	道祖神(各地)	全国	都道府県別		-	-	-	NEEDED
+SHR-767	田の神(東日本)	東北・関東	村落		-	-	-	NEEDED
+SHR-768	水神(各地)	全国	河川湖沼		-	-	-	NEEDED
+SHR-769	山の神(山祇系)	全国	山間部		-	-	-	NEEDED
+SHR-770	ナマハゲ(秋田)	秋田県	男鹿半島		-	-	-	NEEDED
+SHR-771	シーサー(琉球)	沖縄県	全島		-	-	-	NEEDED
+SHR-772	ニライカナイ信仰	沖縄県	全島		-	-	-	NEEDED
+SHR-773	コトヨウカ	全国	村落		-	-	-	NEEDED
+SHR-774	オシラサマ(東北)	東北	民家		-	-	-	NEEDED
+SHR-775	オカリヤ(瀬棚)	北海道	後志		-	-	-	NEEDED
+SHR-776	中臣神社	奈良県	天理市櫟本町		-	式内社	村社	NEEDED
+SHR-777	物部神社(磐余)	奈良県	桜井市		-	式内社	村社	NEEDED
+SHR-778	忌部神社	徳島県	吉野川市山川町	34.06,134.32	approximate	式内社|名神大社	国幣中社	VERIFY(approximate)
+SHR-779	大伴神社(大和)	奈良県	宇陀市		-	式内社	村社	NEEDED
+SHR-780	阿波神社(阿波忌部)	徳島県	鳴門市		-	式内社	村社	NEEDED
+SHR-781	蘇我神社	奈良県	橿原市		-	-	村社	NEEDED
+SHR-782	葛城坐火雷神社	奈良県	葛城市笛吹	34.51,135.73	approximate	式内社|名神大社	村社	VERIFY(approximate)
+SHR-783	一言主神社(常陸)	茨城県	常総市大塚戸町		-	-	村社	NEEDED
+SHR-784	國栖神社	奈良県	吉野郡吉野町		-	-	村社	NEEDED
+SHR-785	蝦夷神社(陸奥北)	岩手県	奥州市		-	-	-	NEEDED
+SHR-786	出雲国造祖神社	島根県	出雲市		-	-	-	NEEDED
+SHR-787	吉備津彦神社摂社	岡山県	岡山市北区一宮		-	-	-	NEEDED
+SHR-788	阿蘇国造祖神社	熊本県	阿蘇市一の宮町		-	-	-	NEEDED
+SHR-789	尾張国造祖神社	愛知県	稲沢市		-	-	-	NEEDED
+SHR-790	筑紫国造祖神社	福岡県	筑紫野市		-	-	-	NEEDED
+SHR-791	諏訪神党祖神社	長野県	諏訪市		-	-	-	NEEDED
+SHR-792	守屋神社	長野県	茅野市		-	-	-	NEEDED
+SHR-793	巫覡祖神社	全国	村落		-	-	-	NEEDED
+SHR-794	中山忌部神社	徳島県	美馬市		-	-	-	NEEDED
+SHR-795	熊鳥取神社	鳥取県	西伯郡		-	-	-	NEEDED
+SHR-796	志賀海神社	福岡県	福岡市東区志賀島	33.665,130.2811	approximate	名神大社	国幣小社|別表神社	VERIFY(approximate)
+SHR-797	住吉神社(壱岐)	長崎県	壱岐市芦辺町	33.77,129.72	approximate	名神大社	国幣小社	VERIFY(approximate)
+SHR-798	阿曇磯良神社	福岡県	福岡市		-	-	-	NEEDED
+SHR-799	大綿津見神社(隠岐)	島根県	隠岐郡		-	-	-	NEEDED
+SHR-800	白浜神社(伊豆)	静岡県	下田市白浜	34.68,138.97	approximate	名神大社	県社	VERIFY(approximate)
+SHR-801	玉前神社(海人系)	千葉県	長生郡一宮町		-	-	-	NEEDED
+SHR-802	田道間守神社	兵庫県	豊岡市		-	-	-	NEEDED
+SHR-803	塩釜神社諸地	全国	海岸部		-	-	-	NEEDED
+SHR-804	船魂神社	全国	港湾		-	-	-	NEEDED
+SHR-805	浜降神事系神社	全国	海岸部		-	-	-	NEEDED
+SHR-806	龍宮神社諸地	全国	海岸部		-	-	-	NEEDED
+SHR-807	対馬海神諸社	長崎県	対馬市		-	-	-	NEEDED
+SHR-808	壱岐海神諸社	長崎県	壱岐市		-	-	-	NEEDED
+SHR-809	能登海人神社	石川県	輪島市		-	-	-	NEEDED
+SHR-810	出雲海人神社	島根県	松江市		-	-	-	NEEDED
+SHR-811	函館八幡諸地	北海道	函館市		-	-	-	NEEDED
+SHR-812	樽前山神社	北海道	苫小牧市		-	-	県社	NEEDED
+SHR-813	旭川神社	北海道	旭川市		-	-	県社	NEEDED
+SHR-814	帯広神社	北海道	帯広市		-	-	県社	NEEDED
+SHR-815	釧路一之宮厳島神社	北海道	釧路市		-	-	県社	NEEDED
+SHR-816	根室金刀比羅神社	北海道	根室市		-	-	県社	NEEDED
+SHR-820	アイヌ・コタン信仰	北海道	全島		-	-	-	NEEDED
+SHR-821	普天満宮	沖縄県	宜野湾市普天間		-	-	-	NEEDED
+SHR-822	末吉宮	沖縄県	那覇市首里末吉町		-	-	-	NEEDED
+SHR-823	沖宮	沖縄県	那覇市奥武山		-	-	-	NEEDED
+SHR-824	識名宮	沖縄県	那覇市繁多川		-	-	-	NEEDED
+SHR-825	斎場御嶽	沖縄県	南城市知念		-	-	-	NEEDED
+SHR-826	大峰山上ヶ岳	奈良県	吉野郡天川村		-	-	-	NEEDED
+SHR-827	洞川弥山神社	奈良県	吉野郡天川村洞川		-	-	村社	NEEDED
+SHR-828	吉野七曲り神社	奈良県	吉野郡吉野町		-	-	-	NEEDED
+SHR-829	熊野那智大社別宮	和歌山県	東牟婁郡那智勝浦町		-	-	-	NEEDED
+SHR-830	熊野速玉大社別宮	和歌山県	新宮市		-	-	-	NEEDED
+SHR-831	熊野本宮大社別宮	和歌山県	田辺市本宮町		-	-	-	NEEDED
+SHR-832	英彦山中津宮	福岡県	田川郡添田町		-	-	-	NEEDED
+SHR-833	英彦山下津宮	福岡県	田川郡添田町		-	-	-	NEEDED
+SHR-834	戸隠九頭龍社	長野県	長野市戸隠		-	-	-	NEEDED
+SHR-835	彦山上宮(英彦山)	福岡県	田川郡添田町		-	-	-	NEEDED
+SHR-836	立山雄山頂上社(別)	富山県	中新川郡立山町		-	-	-	NEEDED
+SHR-837	立山別山社	富山県	中新川郡立山町		-	-	-	NEEDED
+SHR-838	白山別山社	石川県	白山市		-	-	-	NEEDED
+SHR-839	白山御前峰社	石川県	白山市		-	-	-	NEEDED
+SHR-840	白山大汝峰社	石川県	白山市		-	-	-	NEEDED
+SHR-841	湯殿山開祖弘海上人霊	山形県	鶴岡市		-	-	-	NEEDED
+SHR-842	月山中宮鳥海月山	山形県	東田川郡庄内町		-	-	-	NEEDED
+SHR-843	出羽湯殿山口別院	山形県	鶴岡市		-	-	-	NEEDED
+SHR-844	羽黒山本坊正善院	山形県	鶴岡市羽黒町		-	-	-	NEEDED
+SHR-845	加賀白山中宮	石川県	白山市		-	-	-	NEEDED
+SHR-846	吉野水分子守宮	奈良県	吉野郡吉野町		-	-	村社	NEEDED
+SHR-847	吉野金峯山鬼門閣	奈良県	吉野郡吉野町		-	-	-	NEEDED
+SHR-848	葛城修験道経塚	奈良県	御所市		-	-	-	NEEDED
+SHR-849	修験道笠懸山	三重県	熊野市		-	-	-	NEEDED
+SHR-850	修験道八経ヶ岳	奈良県	吉野郡上北山村		-	-	-	NEEDED
+SHR-851	修験道弥山堂	奈良県	吉野郡天川村		-	-	-	NEEDED
+SHR-852	修験道前鬼山	奈良県	吉野郡下北山村		-	-	-	NEEDED
+SHR-853	修験道後鬼山	奈良県	吉野郡上北山村		-	-	-	NEEDED
+SHR-854	修験道大日岳	岐阜県	高山市		-	-	-	NEEDED
+SHR-855	修験道荒島岳	福井県	大野市		-	-	-	NEEDED
+SHR-856	能勢妙見堂	兵庫県	川西市		-	-	-	NEEDED
+SHR-857	中山法華経寺鎮守	千葉県	市川市		-	-	-	NEEDED
+SHR-858	身延山久遠寺鎮守	山梨県	南巨摩郡身延町		-	-	-	NEEDED
+SHR-859	池上本門寺鎮守	東京都	大田区		-	-	-	NEEDED
+SHR-860	立正佼成会鎮守	東京都	杉並区		-	-	-	NEEDED
+SHR-861	浄土宗総本山知恩院鎮守	京都府	京都市東山区		-	-	-	NEEDED
+SHR-862	浄土真宗本願寺西本願寺鎮守	京都府	京都市下京区		-	-	-	NEEDED
+SHR-863	浄土真宗東本願寺鎮守	京都府	京都市下京区		-	-	-	NEEDED
+SHR-864	臨済宗建長寺鎮守	神奈川県	鎌倉市山ノ内		-	-	-	NEEDED
+SHR-865	臨済宗円覚寺鎮守	神奈川県	鎌倉市山ノ内		-	-	-	NEEDED
+SHR-866	曹洞宗永平寺鎮守	福井県	吉田郡永平寺町		-	-	-	NEEDED
+SHR-867	曹洞宗總持寺鎮守	神奈川県	横浜市鶴見区		-	-	-	NEEDED
+SHR-868	時宗総本山遊行寺鎮守	神奈川県	藤沢市		-	-	-	NEEDED
+SHR-869	法華宗本能寺鎮守	京都府	京都市中京区		-	-	-	NEEDED
+SHR-870	天台宗比叡山延暦寺総鎮守	滋賀県	大津市坂本		-	-	-	NEEDED
+SHR-871	真言宗高野山金剛峯寺総鎮守	和歌山県	伊都郡高野町		-	-	-	NEEDED
+SHR-872	真言宗東寺鎮守	京都府	京都市南区		-	-	-	NEEDED
+SHR-873	真言宗醍醐寺鎮守	京都府	京都市伏見区		-	-	-	NEEDED
+SHR-874	真言宗仁和寺鎮守	京都府	京都市右京区		-	-	-	NEEDED
+SHR-875	真言律宗西大寺鎮守	奈良県	奈良市		-	-	-	NEEDED
+SHR-876	出雲国分寺鎮守	島根県	松江市国分町		-	-	-	NEEDED
+SHR-877	石見国分寺鎮守	島根県	浜田市		-	-	-	NEEDED
+SHR-878	常陸国分寺鎮守	茨城県	石岡市		-	-	-	NEEDED
+SHR-879	下野国分寺鎮守	栃木県	下野市		-	-	-	NEEDED
+SHR-880	武蔵国分寺鎮守	東京都	国分寺市		-	-	-	NEEDED
+SHR-881	相模国分寺鎮守	神奈川県	海老名市		-	-	-	NEEDED
+SHR-882	駿河国分寺鎮守	静岡県	静岡市葵区		-	-	-	NEEDED
+SHR-883	尾張国分寺鎮守	愛知県	稲沢市		-	-	-	NEEDED
+SHR-884	摂津国分寺鎮守	大阪府	大阪市天王寺区		-	-	-	NEEDED
+SHR-885	和泉国分寺鎮守	大阪府	和泉市		-	-	-	NEEDED
+SHR-886	丹波国分寺鎮守	京都府	亀岡市		-	-	-	NEEDED
+SHR-887	但馬国分寺鎮守	兵庫県	豊岡市		-	-	-	NEEDED
+SHR-888	因幡国分寺鎮守	鳥取県	鳥取市		-	-	-	NEEDED
+SHR-889	伯耆国分寺鎮守	鳥取県	倉吉市		-	-	-	NEEDED
+SHR-890	美作国分寺鎮守	岡山県	津山市		-	-	-	NEEDED
+SHR-891	讃岐国分寺鎮守	香川県	高松市		-	-	-	NEEDED
+SHR-892	阿波国分寺鎮守	徳島県	徳島市		-	-	-	NEEDED
+SHR-893	土佐国分寺鎮守	高知県	南国市		-	-	-	NEEDED
+SHR-894	豊後国分寺鎮守	大分県	大分市		-	-	-	NEEDED
+SHR-895	日向国分寺鎮守	宮崎県	西都市		-	-	-	NEEDED
+SHR-896	大隅国分寺鎮守	鹿児島県	霧島市		-	-	-	NEEDED
+SHR-897	薩摩国分寺鎮守	鹿児島県	薩摩川内市		-	-	-	NEEDED
+SHR-898	壱岐国分寺鎮守	長崎県	壱岐市		-	-	-	NEEDED
+SHR-899	対馬国分寺鎮守	長崎県	対馬市		-	-	-	NEEDED
+SHR-900	甲斐国分寺鎮守	山梨県	笛吹市		-	-	-	NEEDED
+SHR-901	大山祇神社境内末社	愛媛県	今治市大三島町		-	-	-	NEEDED
+SHR-902	石清水八幡境内末社	京都府	八幡市八幡		-	-	-	NEEDED
+SHR-903	住吉大社境内末社	大阪府	大阪市住吉区		-	-	-	NEEDED
+SHR-904	伊勢神宮内宮所管社	三重県	伊勢市		-	-	-	NEEDED
+SHR-905	伊勢神宮外宮所管社	三重県	伊勢市		-	-	-	NEEDED
+SHR-906	生田神社境内末社	兵庫県	神戸市中央区		-	-	-	NEEDED
+SHR-907	廣田神社境内末社	兵庫県	西宮市大社町		-	-	-	NEEDED
+SHR-908	住吉神社(下関)境内末社	山口県	下関市		-	-	-	NEEDED
+SHR-909	八坂神社境内末社	京都府	京都市東山区		-	-	-	NEEDED
+SHR-910	吉田神社境内末社	京都府	京都市左京区		-	-	-	NEEDED
+SHR-911	貴船神社	京都府	京都市左京区鞍馬貴船町	35.1217,135.7625	approximate	名神大社	官幣中社|別表神社	VERIFY(approximate)
+SHR-912	鞍馬寺鎮守由岐神社	京都府	京都市左京区鞍馬本町		-	-	村社	NEEDED
+SHR-913	八幡神社(由岐神社系)	京都府	京都市左京区		-	-	-	NEEDED
+SHR-914	出石神社境内末社	兵庫県	豊岡市		-	-	-	NEEDED
+SHR-915	中山神社境内末社	岡山県	津山市一宮		-	-	-	NEEDED
+SHR-916	吉備津神社境内末社	岡山県	岡山市北区吉備津		-	-	-	NEEDED
+SHR-917	田村神社境内末社	香川県	高松市		-	-	-	NEEDED
+SHR-918	彌彦神社境内末社	新潟県	西蒲原郡弥彦村		-	-	-	NEEDED
+SHR-919	北野天満宮境内末社	京都府	京都市上京区		-	-	-	NEEDED
+SHR-920	伏見稲荷大社境内末社	京都府	京都市伏見区		-	-	-	NEEDED
+SHR-921	大宝神社	滋賀県	栗東市綣		-	式内社	県社	NEEDED
+SHR-922	近江白髭神社	滋賀県	高島市鵜川	35.2747,136.0469	approximate	式内社	県社|別表神社	VERIFY(approximate)
+SHR-923	筑波山神社摂社	茨城県	つくば市筑波		-	-	-	NEEDED
+SHR-924	枚岡神社境内末社	大阪府	東大阪市		-	-	-	NEEDED
+SHR-925	石上神宮境内末社	奈良県	天理市		-	-	-	NEEDED
+SHR-926	神武天皇陵	奈良県	橿原市大久保町		-	-	-	NEEDED
+SHR-927	綏靖天皇陵	奈良県	橿原市		-	-	-	NEEDED
+SHR-928	崇神天皇陵	奈良県	天理市柳本町		-	-	-	NEEDED
+SHR-929	垂仁天皇陵	奈良県	奈良市尼ヶ辻町		-	-	-	NEEDED
+SHR-930	景行天皇陵	奈良県	天理市渋谷町		-	-	-	NEEDED
+SHR-931	応神天皇陵	大阪府	羽曳野市誉田		-	-	-	NEEDED
+SHR-932	仁徳天皇陵	大阪府	堺市堺区大仙町		-	-	-	NEEDED
+SHR-933	天智天皇陵	京都府	京都市山科区		-	-	-	NEEDED
+SHR-934	天武天皇陵	奈良県	高市郡明日香村		-	-	-	NEEDED
+SHR-935	桓武天皇陵	京都府	京都市伏見区		-	-	-	NEEDED
+SHR-936	後醍醐天皇陵	奈良県	吉野郡吉野町		-	-	-	NEEDED
+SHR-937	後鳥羽天皇陵	島根県	隠岐郡海士町		-	-	-	NEEDED
+SHR-938	崇徳天皇陵	香川県	坂出市青海町		-	-	-	NEEDED
+SHR-939	安徳天皇陵	山口県	下関市阿弥陀寺町		-	-	-	NEEDED
+SHR-940	孝明天皇陵	京都府	京都市東山区		-	-	-	NEEDED
+SHR-941	竈門神社	福岡県	太宰府市内山		-	式内社	県社	NEEDED
+SHR-942	筥崎宮境内末社	福岡県	福岡市東区箱崎		-	-	-	NEEDED
+SHR-943	太宰府天満宮境内末社	福岡県	太宰府市		-	-	-	NEEDED
+SHR-944	太宰府観世音寺鎮守	福岡県	太宰府市観世音寺		-	-	-	NEEDED
+SHR-945	住吉神社(博多)境内末社	福岡県	福岡市博多区住吉		-	-	-	NEEDED
+SHR-946	筑紫神社	福岡県	筑紫野市原田		-	式内社	県社	NEEDED
+SHR-947	水城跡神社	福岡県	太宰府市水城		-	-	-	NEEDED
+SHR-948	大野城跡神社	福岡県	大野城市		-	-	-	NEEDED
+SHR-949	基肄城跡神社	佐賀県	三養基郡基山町		-	-	-	NEEDED
+SHR-950	金田城跡神社	長崎県	対馬市		-	-	-	NEEDED
+SHR-951	難波宮跡神社	大阪府	大阪市中央区		-	-	-	NEEDED
+SHR-952	飛鳥寺鎮守	奈良県	高市郡明日香村飛鳥		-	-	-	NEEDED
+SHR-953	法隆寺鎮守	奈良県	生駒郡斑鳩町		-	-	-	NEEDED
+SHR-954	四天王寺鎮守	大阪府	大阪市天王寺区		-	-	-	NEEDED
+SHR-955	唐招提寺鎮守	奈良県	奈良市五条町		-	-	-	NEEDED
+SHR-956	薬師寺鎮守	奈良県	奈良市西ノ京町		-	-	-	NEEDED
+SHR-957	興福寺鎮守	奈良県	奈良市登大路町		-	-	-	NEEDED
+SHR-958	元興寺鎮守	奈良県	奈良市芝新屋町		-	-	-	NEEDED
+SHR-959	大安寺鎮守	奈良県	奈良市大安寺町		-	-	-	NEEDED
+SHR-960	法華寺鎮守	奈良県	奈良市法華寺町		-	-	-	NEEDED
+SHR-961	鬼門封じ神社	全国	城下町東北方		-	-	-	NEEDED
+SHR-962	裏鬼門封じ神社	全国	城下町西南方		-	-	-	NEEDED
+SHR-963	方違神社諸地	全国	都市		-	-	-	NEEDED
+SHR-964	地鎮祭神諸地	全国	建築地		-	-	-	NEEDED
+SHR-965	大神宮社諸地	全国	村落		-	-	-	NEEDED
+SHR-966	熊野神社諸地(全国分祀)	全国	村落		-	-	-	NEEDED
+SHR-967	神明宮諸地	全国	村落		-	-	-	NEEDED
+SHR-968	十二社諸地	全国	村落		-	-	-	NEEDED
+SHR-969	貴船神社分祀	全国	水源地		-	-	-	NEEDED
+SHR-970	白山神社分祀	全国	山間部		-	-	-	NEEDED
+SHR-971	諏訪神社分祀	全国	村落		-	-	-	NEEDED
+SHR-973	稲荷神社諸地	全国	村落		-	-	-	NEEDED
+SHR-974	天満宮諸地	全国	村落		-	-	-	NEEDED
+SHR-975	住吉神社諸地	全国	海岸部		-	-	-	NEEDED
+SHR-976	祇園神社諸地	全国	村落		-	-	-	NEEDED
+SHR-977	七福神諸地	全国	近世以降		-	-	-	NEEDED
+SHR-978	えびす神諸地	全国	海岸・市場		-	-	-	NEEDED
+SHR-979	三内丸山遺跡祭祀地	青森県	青森市三内丸山		-	-	-	NEEDED
+SHR-980	加曽利貝塚祭祀地	千葉県	千葉市若葉区桜木		-	-	-	NEEDED
+SHR-981	大湯環状列石祭祀地	秋田県	鹿角市		-	-	-	NEEDED
+SHR-982	是川遺跡祭祀地	青森県	八戸市是川		-	-	-	NEEDED
+SHR-983	亀ヶ岡遺跡祭祀地	青森県	つがる市木造		-	-	-	NEEDED
+SHR-984	尖石遺跡祭祀地	長野県	茅野市豊平		-	-	-	NEEDED
+SHR-985	登呂遺跡祭祀地	静岡県	静岡市駿河区		-	-	-	NEEDED
+SHR-986	吉野ヶ里遺跡祭祀地	佐賀県	神埼郡吉野ヶ里町		-	-	-	NEEDED
+SHR-987	纒向遺跡祭祀地	奈良県	桜井市		-	-	-	NEEDED
+SHR-988	唐古鍵遺跡祭祀地	奈良県	磯城郡田原本町		-	-	-	NEEDED
+SHR-989	荒神谷遺跡祭祀地	島根県	出雲市斐川町		-	-	-	NEEDED
+SHR-990	加茂岩倉遺跡祭祀地	島根県	雲南市加茂町		-	-	-	NEEDED
+SHR-991	石舞台古墳	奈良県	高市郡明日香村		-	-	-	NEEDED
+SHR-992	高松塚古墳	奈良県	高市郡明日香村		-	-	-	NEEDED
+SHR-993	キトラ古墳	奈良県	高市郡明日香村		-	-	-	NEEDED
+SHR-994	吉備大臣社	岡山県	倉敷市		-	-	-	NEEDED
+SHR-995	空海誕生地善通寺鎮守	香川県	善通寺市		-	-	-	NEEDED
+SHR-996	最澄誕生地坂本	滋賀県	大津市坂本		-	-	-	NEEDED
+SHR-997	空海高野山奥之院	和歌山県	伊都郡高野町		-	-	-	NEEDED
+SHR-998	源頼朝墓神社	神奈川県	鎌倉市		-	-	-	NEEDED
+SHR-999	源義経神社	岩手県	西磐井郡平泉町		-	-	-	NEEDED
+SHR-1000	徳川家康神社	栃木県	日光市	36.7581,139.5986	approximate	-	国幣中社|別表神社	VERIFY(approximate)
+SHR-1001	徳川家康駿府東照宮	静岡県	静岡市葵区		-	-	別格官幣社	NEEDED
+SHR-1002	徳川家康久能山東照宮	静岡県	静岡市駿河区		-	-	別格官幣社	NEEDED
+SHR-1003	織田信長神社	京都府	京都市北区紫野		-	-	別格官幣社	NEEDED
+SHR-1004	武田信玄神社	山梨県	甲府市古府中町	35.6764,138.5783	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-1005	上杉謙信神社	山形県	米沢市丸の内	37.9072,140.1064	approximate	-	別格官幣社|別表神社	VERIFY(approximate)
+SHR-1006	伊達政宗神社	宮城県	仙台市青葉区		-	-	県社	NEEDED
+SHR-1007	毛利元就神社	山口県	山口市天花		-	-	別格官幣社	NEEDED
+SHR-1008	島津家神社	鹿児島県	鹿児島市		-	-	県社	NEEDED
+SHR-1009	和多都美神社	長崎県	対馬市豊玉町仁位		-	式内社	県社	NEEDED
+SHR-1010	穂高神社	長野県	安曇野市穂高	36.3403,137.8825	approximate	式内社|信濃三宮	県社|別表神社	VERIFY(approximate)
+SHR-1011	海神社	兵庫県	神戸市垂水区宮本町	34.63,135.05	approximate	式内社(名神大社)	官幣中社|別表神社	VERIFY(approximate)
+SHR-1012	大依羅神社	大阪府	大阪市住吉区庭井	34.6,135.5	approximate	式内社(名神大社)	府社	VERIFY(approximate)
+SHR-1013	西宮神社	兵庫県	西宮市社家町	34.7375,135.3389	approximate	-	県社|別表神社	VERIFY(approximate)
+SHR-1014	美保神社(恵比寿)	島根県	松江市美保関町	35.5644,133.3022	approximate	式内社	国幣中社|別表神社	VERIFY(approximate)
+SHR-1015	若狭彦神社	福井県	小浜市龍前	35.4639,135.7681	approximate	式内社|若狭一宮	国幣中社|別表神社	VERIFY(approximate)
+SHR-1016	青海神社	新潟県	加茂市加茂		-	式内社|越後二宮	県社	NEEDED
+SHR-1017	志賀海神社(摂社遥拝所)	福岡県	福岡市東区志賀島		-	-	-	NEEDED
+SHR-1018	敷津松之宮(大国主神社)	大阪府	大阪市浪速区		-	-	村社	NEEDED
+SHR-1019	粟嶋神社(淡島)	和歌山県	海南市加太		-	-	村社	NEEDED
+SHR-1020	船玉神社	和歌山県	和歌山市		-	式内社	村社	NEEDED
+SHR-1021	綿都美神社(豊前)	福岡県	北九州市		-	-	村社	NEEDED
+SHR-1022	海神社(知多)	愛知県	知多郡南知多町		-	-	村社	NEEDED
+SHR-1023	渥美神明社(阿曇系)	愛知県	田原市		-	-	村社	NEEDED
+SHR-1024	石津太神社(恵比寿)	大阪府	堺市西区浜寺石津町		-	-	村社	NEEDED
+SHR-1025	白鬚神社(近江・湖上鳥居)	滋賀県	高島市鵜川	35.2747,136.0469	approximate	式内社	県社|別表神社	VERIFY(approximate)
