@@ -1,0 +1,11 @@
+movement_type	category	description	example_feature	transition_semantics
+access	entry	General public approach movement	torii / entrance	outside_to_inside
+purification	purification	Purification-oriented movement before deeper approach	misogi / purification basin	impure_to_purified
+pilgrimage	pilgrimage	Long-distance sacred approach movement	pilgrimage route	ordinary_to_sacred
+procession	collective	Formal ritual procession movement	festival procession	collective_transition
+ritual	ritual	Movement associated with formal ritual action	kagura / ritual hall	participant_transition
+ascent	vertical	Movement toward elevated sacred zone	mountain shrine path	lower_to_higher
+descent	vertical	Movement away from sacred center	mountain descent	inner_to_outer
+circumambulation	cyclical	Circular ritual movement around sacred object	sacred tree / sanctuary	encircling_transition
+threshold_crossing	boundary	Explicit crossing of sacred boundary	bridge / torii	boundary_transition
+restricted_transition	restricted	Movement with restricted access	inner sanctuary path	public_to_restricted
