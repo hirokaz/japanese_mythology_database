@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "name": "SHR-003 豊受大神宮 precinct schematic map",
+  "metadata": {
+    "shrine_id": "SHR-003",
+    "canonical_name": "豊受大神宮",
+    "alternative_name": "伊勢神宮 外宮",
+    "map_type": "schematic_precinct_topology",
+    "precision_note": "This is a public-level schematic precinct map, not survey-grade data.",
+    "default_center": [136.7042, 34.4870],
+    "default_zoom": 17
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7043, 34.4869]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-003-001",
+        "shrine_id": "SHR-003",
+        "feature_type": "main_sanctuary",
+        "canonical_name": "正宮",
+        "reading": "しょうぐう",
+        "description": "豊受大神宮の中心社殿区域。豊受大御神を祀る。",
+        "source_type": "manual",
+        "source_reference": "Public guide-level schematic placement; verify before production use.",
+        "confidence_level": "C",
+        "accessibility": "view_only",
+        "notes": "概略位置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.7030, 34.4880]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-003-002",
+        "shrine_id": "SHR-003",
+        "feature_type": "torii",
+        "canonical_name": "第一鳥居付近",
+        "reading": "だいいちとりいいふきん",
+        "description": "外宮参拝入口側の transition marker。",
+        "source_type": "manual",
+        "source_reference": "Approximate public entrance placement.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "概略配置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [136.7030, 34.4880],
+          [136.7036, 34.4875],
+          [136.7043, 34.4869]
+        ]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-003-003",
+        "shrine_id": "SHR-003",
+        "feature_type": "approach",
+        "canonical_name": "参拝導線概略",
+        "reading": "さんぱいどうせんがいりゃく",
+        "description": "入口から正宮方面へ向かう概略参道。",
+        "source_type": "manual",
+        "source_reference": "Simplified public visitor flow.",
+        "confidence_level": "D",
+        "accessibility": "public",
+        "notes": "schematic path only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [136.7022, 34.4885],
+          [136.7058, 34.4883],
+          [136.7060, 34.4858],
+          [136.7030, 34.4855],
+          [136.7022, 34.4885]
+        ]]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-003-004",
+        "shrine_id": "SHR-003",
+        "feature_type": "precinct_area",
+        "canonical_name": "外宮境内概略範囲",
+        "reading": "げくうけいだいがいりゃくはんい",
+        "description": "豊受大神宮の主要参拝区域を理解するための概略 polygon。",
+        "source_type": "manual",
+        "source_reference": "Schematic area for prototype use.",
+        "confidence_level": "D",
+        "accessibility": "mixed",
+        "notes": "正式境界ではない。"
+      }
+    }
+  ]
+}
