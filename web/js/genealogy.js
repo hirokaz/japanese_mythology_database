@@ -315,12 +315,9 @@
         <text x="${p.x + NODE_W / 2}" y="${p.y + 44}" text-anchor="middle"
               font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
               font-size="9" fill="#8b7560">${escapeXml(shortReading)}</text>
-        ${reignText ? `<text x="${p.x + NODE_W / 2}" y="${p.y + 57}" text-anchor="middle"
+        ${reignText ? `<text x="${p.x + NODE_W / 2}" y="${p.y + 58}" text-anchor="middle"
               font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
               font-size="9" font-weight="600" fill="#5a4a35">${escapeXml(reignText.length > 18 ? reignText.slice(0, 18) + '…' : reignText)}</text>` : ''}
-        <text x="${p.x + NODE_W / 2}" y="${p.y + 67}" text-anchor="middle"
-              font-family="SFMono-Regular, Consolas, Menlo, monospace"
-              font-size="8" fill="#b09878">${escapeXml(id)}</text>
       </a>`;
     });
 
