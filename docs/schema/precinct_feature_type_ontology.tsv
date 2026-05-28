@@ -1,0 +1,18 @@
+feature_type	category	movement_related	boundary_related	description
+main_sanctuary	core	false	true	Central sacred area
+worship_hall	core	false	false	Primary worship facility
+torii	boundary	true	true	Transition marker between spaces
+approach	route	true	false	Public ritual movement route
+bridge	boundary	true	true	Crossing / threshold structure
+subsidiary_shrine	sub_shrine	false	false	Smaller shrine within precinct
+auxiliary_shrine	sub_shrine	false	false	Supporting shrine within precinct
+sacred_tree	natural	false	false	Sacred natural feature
+purification_basin	purification	true	true	Purification location before approach
+office	facility	false	false	Administrative facility
+garden	landscape	false	false	Sacred or symbolic garden area
+pond	landscape	false	false	Sacred water area
+restricted_area	boundary	false	true	Access-limited sacred area
+ritual_site	ritual	true	false	Specific ritual-use location
+entrance	boundary	true	true	Public entry point
+parking	facility	false	false	Visitor parking area
+precinct_area	area	false	false	Overall precinct polygon
