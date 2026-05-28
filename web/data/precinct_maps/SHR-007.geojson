@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "name": "SHR-007 鹿島神宮 precinct schematic map",
+  "metadata": {
+    "shrine_id": "SHR-007",
+    "canonical_name": "鹿島神宮",
+    "map_type": "schematic_precinct_topology",
+    "precision_note": "Public-level schematic topology only.",
+    "default_center": [140.6315, 35.9682],
+    "default_zoom": 16
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.6315, 35.9682]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-007-001",
+        "shrine_id": "SHR-007",
+        "feature_type": "main_sanctuary",
+        "canonical_name": "本殿周辺",
+        "reading": "ほんでんしゅうへん",
+        "description": "鹿島神宮の中心祭祀区域。",
+        "source_type": "manual",
+        "source_reference": "Public shrine guide-level placement.",
+        "confidence_level": "C",
+        "accessibility": "view_only",
+        "notes": "概略位置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.6298, 35.9691]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-007-002",
+        "shrine_id": "SHR-007",
+        "feature_type": "torii",
+        "canonical_name": "大鳥居付近",
+        "reading": "おおとりいいふきん",
+        "description": "主要参拝入口側の鳥居。",
+        "source_type": "manual",
+        "source_reference": "Approximate public entrance placement.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "transition marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [140.6298, 35.9691],
+          [140.6307, 35.9688],
+          [140.6315, 35.9682]
+        ]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-007-003",
+        "shrine_id": "SHR-007",
+        "feature_type": "approach",
+        "canonical_name": "参道概略",
+        "reading": "さんどうがいりゃく",
+        "description": "大鳥居から本殿方向へ向かう概略参道。",
+        "source_type": "manual",
+        "source_reference": "Schematic visitor route.",
+        "confidence_level": "D",
+        "accessibility": "public",
+        "notes": "schematic only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [140.6288, 35.9698],
+          [140.6332, 35.9695],
+          [140.6335, 35.9670],
+          [140.6295, 35.9667],
+          [140.6288, 35.9698]
+        ]]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-007-004",
+        "shrine_id": "SHR-007",
+        "feature_type": "precinct_area",
+        "canonical_name": "鹿島神宮境内概略範囲",
+        "reading": "かしまじんぐうけいだいがいりゃくはんい",
+        "description": "主要参拝区域を理解するための概略 polygon。",
+        "source_type": "manual",
+        "source_reference": "Prototype schematic area.",
+        "confidence_level": "D",
+        "accessibility": "mixed",
+        "notes": "正式境界ではない。"
+      }
+    }
+  ]
+}
