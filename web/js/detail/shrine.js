@@ -1,6 +1,124 @@
 // web/js/detail/shrine.js
 // 神社詳細 page 用 section renderer
-// Functions: renderShrineProfile, renderShrineExtended, renderEnshrinedDeities, renderMap
+// Functions: renderShrineProfile, renderShrineExtended, renderEnshrinedDeities, renderMap,
+//            renderPrecinctMap, initPrecinctMap (issue #301 境内マップ)
+
+// 境内マップ用に fetch した GeoJSON を init 時まで保持
+let _precinctGeojson = null;
+
+// feature_type → 表示色・ラベル (DISC-013 spatial ontology に対応)
+const PRECINCT_FEATURE_STYLE = {
+  main_sanctuary:    { color: '#c83232', label: '本殿・正宮' },
+  worship_hall:      { color: '#d4671a', label: '拝殿' },
+  torii:             { color: '#b5322a', label: '鳥居' },
+  bridge:            { color: '#8a5a2a', label: '橋' },
+  approach:          { color: '#8a5a2a', label: '参道・導線' },
+  subsidiary_shrine: { color: '#4a8c5a', label: '摂社' },
+  auxiliary_shrine:  { color: '#5aa06a', label: '末社' },
+  sacred_tree:       { color: '#2f6b3a', label: '御神木' },
+  purification_basin:{ color: '#3a7ca5', label: '手水・清め' },
+  ritual_site:       { color: '#9a5fb0', label: '祭祀施設' },
+  office:            { color: '#7a7a7a', label: '社務所' },
+  treasure_hall:     { color: '#8a6a3a', label: '宝物殿' },
+  museum:            { color: '#8a6a3a', label: '資料館' },
+  garden:            { color: '#5a9a6a', label: '神苑' },
+  pond:              { color: '#3a8caa', label: '池' },
+  precinct_area:     { color: '#a8884a', label: '境内区域' },
+  restricted_area:   { color: '#8b2a2a', label: '禁足地・立入制限' },
+  entrance:          { color: '#6a6a6a', label: '入口' },
+  parking:           { color: '#9a9a9a', label: '駐車場' },
+};
+const PRECINCT_ACCESS_LABEL = {
+  public: '一般参拝可', restricted: '立入制限', view_only: '参観のみ',
+  mixed: '区域により異なる', unknown: '不明',
+};
+
+function _precinctStyleFor(props) {
+  const s = PRECINCT_FEATURE_STYLE[props && props.feature_type];
+  return s || { color: '#6a8caf', label: (props && props.feature_type) || '施設' };
+}
+
+/**
+ * 境内マップ section。GeoJSON が存在する神社のみ container を返す。
+ * index.json には依存せず SHR-xxx.geojson を直接 fetch (404 = 非表示)。
+ */
+async function renderPrecinctMap(record) {
+  const id = record.master_id;
+  if (!id) return '';
+  _precinctGeojson = null;
+  try {
+    const res = await fetch(`../data/precinct_maps/${encodeURIComponent(id)}.geojson`);
+    if (!res.ok) return '';  // GeoJSON 無し → section 非表示
+    const data = await res.json();
+    if (!data || !Array.isArray(data.features) || data.features.length === 0) return '';
+    _precinctGeojson = data;
+  } catch (err) {
+    console.warn('[precinct_map] fetch/parse skipped:', err.message);
+    return '';
+  }
+
+  const meta = _precinctGeojson.metadata || {};
+  const official = meta.official_map_url;
+  return `
+    <div class="detail-section">
+      <h2>境内マップ (schematic)</h2>
+      <div id="precinctMapCanvas" class="precinct-map"></div>
+      <p class="map-note">
+        ※ 公開案内レベルの<strong>概略 (schematic)</strong> 境内図であり実測図ではありません。
+        各要素の <code>confidence_level</code> / <code>accessibility</code> は marker クリックで確認できます。
+        非公開祭祀空間・詳細内部構造は含みません。
+      </p>
+      ${official ? `<p class="map-meta"><a href="${escapeHtml(official)}" target="_blank" rel="noopener">公式境内図 ↗</a></p>` : ''}
+    </div>
+  `;
+}
+
+/** content.innerHTML 挿入後に core.js から呼ばれ、Leaflet で境内 GeoJSON を描画 */
+function initPrecinctMap() {
+  if (!_precinctGeojson) return;
+  const el = document.getElementById('precinctMapCanvas');
+  if (!el) return;
+  if (typeof L === 'undefined') { console.warn('[precinct_map] Leaflet 未読込'); return; }
+
+  const meta = _precinctGeojson.metadata || {};
+  const map = L.map(el, { scrollWheelZoom: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  const layer = L.geoJSON(_precinctGeojson, {
+    pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
+      radius: 7, color: '#2c1810', weight: 2,
+      fillColor: _precinctStyleFor(feature.properties).color, fillOpacity: 0.85,
+    }),
+    style: (feature) => {
+      const c = _precinctStyleFor(feature.properties).color;
+      const isPolygon = feature.geometry && feature.geometry.type.includes('Polygon');
+      return { color: c, weight: isPolygon ? 1.5 : 3, fillColor: c, fillOpacity: isPolygon ? 0.12 : 0, dashArray: isPolygon ? '4 4' : null };
+    },
+    onEachFeature: (feature, lyr) => {
+      const p = feature.properties || {};
+      const st = _precinctStyleFor(p);
+      const acc = PRECINCT_ACCESS_LABEL[p.accessibility] || p.accessibility || '';
+      lyr.bindPopup(`
+        <h3>${escapeHtml(p.canonical_name || st.label)}</h3>
+        <div class="pop-meta">${escapeHtml(p.reading || '')}${p.reading ? ' / ' : ''}${escapeHtml(st.label)}</div>
+        ${p.description ? `<div class="pop-desc">${escapeHtml(p.description)}</div>` : ''}
+        ${acc ? `<div class="pop-meta">accessibility: ${escapeHtml(acc)}</div>` : ''}
+        ${p.confidence_level ? `<div class="pop-meta">confidence: ${escapeHtml(p.confidence_level)}</div>` : ''}
+      `);
+    },
+  }).addTo(map);
+
+  try {
+    const b = layer.getBounds();
+    if (b && b.isValid()) map.fitBounds(b, { padding: [24, 24], maxZoom: 17 });
+    else if (Array.isArray(meta.default_center)) map.setView([meta.default_center[1], meta.default_center[0]], meta.default_zoom || 16);
+  } catch (e) {
+    if (Array.isArray(meta.default_center)) map.setView([meta.default_center[1], meta.default_center[0]], meta.default_zoom || 16);
+  }
+}
 
 async function renderShrineProfile(record, outRels, inRels) {
   const [shrines, clans, events, regions, texts, motifs, periods, ranks] = await Promise.all([
