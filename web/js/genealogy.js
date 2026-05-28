@@ -83,7 +83,9 @@
   function computeImperialSet(includeCosmogony) {
     const set = new Set();
     deities.forEach(d => {
-      if ((d.category || '').includes('皇統')) set.add(d.master_id);
+      const cat = d.category || '';
+      // 「皇統」を含むが「公卿」始まり (例: 和気清麻呂 = 公卿/皇統護持) は皇統本系ではない
+      if (cat.includes('皇統') && !cat.startsWith('公卿')) set.add(d.master_id);
     });
     ANCESTORS_B.forEach(id => set.add(id));
     if (includeCosmogony) {
@@ -97,7 +99,7 @@
 
     // parent_of (実子系譜) + succeeded_by (神代記の出現順) でツリー構築
     const parents = {};         // child -> parent
-    const edgeKind = {};        // child -> 'parent' | 'succession'
+    const edgeKind = {};        // child -> 'parent' | 'inferred' | 'succession'
     const children = {};
     const marriages = {};
 
@@ -106,12 +108,16 @@
       const src = r.source_id, tgt = r.target_id;
       if (!imperialIdSet.has(src) || !imperialIdSet.has(tgt)) return;
       if (r.relation_type === 'parent_of') {
+        // source_backed (直接の親子) を優先し、後の inferential (近祖参照) で上書きしない
+        if (parents[tgt] && edgeKind[tgt] === 'parent') return;
         parents[tgt] = src;
-        edgeKind[tgt] = 'parent';
+        // 「近祖参照」note を持つ relation のみ inferred (中間代省略) として可視化
+        // 欠史八代等の inference_type=inferential は通常の親子線で描画
+        const isNearAncestorSkip = (r.notes || '').includes('近祖参照');
+        edgeKind[tgt] = isNearAncestorSkip ? 'inferred' : 'parent';
         (children[src] = children[src] || []).push(tgt);
       } else if (r.relation_type === 'succeeded_by' && showCosmogony) {
-        // 出現順 (神代記の継起) — 親子関係ではないが世代計算には親と同等に扱う
-        if (!parents[tgt]) {  // parent_of が既にあればそちら優先
+        if (!parents[tgt]) {
           parents[tgt] = src;
           edgeKind[tgt] = 'succession';
           (children[src] = children[src] || []).push(tgt);
@@ -200,8 +206,11 @@
       const x2 = cp.x + NODE_W / 2, y2 = cp.y;
       const midY = (y1 + y2) / 2;
       if (edgeKind[child] === 'succession') {
-        // 神代記 出現順 — 灰色破線、矢印付き
+        // 神代記 出現順 — 灰色破線
         svgInner += `<path d="M${x1},${y1} V${midY} H${x2} V${y2}" fill="none" stroke="#a89878" stroke-width="1.3" stroke-dasharray="3 4"></path>`;
+      } else if (edgeKind[child] === 'inferred') {
+        // 近祖参照 (中間代省略) — 橙破線
+        svgInner += `<path d="M${x1},${y1} V${midY} H${x2} V${y2}" fill="none" stroke="#d68a3a" stroke-width="1.5" stroke-dasharray="6 4"></path>`;
       } else {
         svgInner += `<path d="M${x1},${y1} V${midY} H${x2} V${y2}" fill="none" stroke="#8b3a3a" stroke-width="1.5"></path>`;
       }
