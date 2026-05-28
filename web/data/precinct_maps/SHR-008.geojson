@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "name": "SHR-008 香取神宮 precinct schematic map",
+  "metadata": {
+    "shrine_id": "SHR-008",
+    "canonical_name": "香取神宮",
+    "map_type": "schematic_precinct_topology",
+    "precision_note": "Public-level schematic topology only.",
+    "default_center": [140.5287, 35.8949],
+    "default_zoom": 16
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5287, 35.8949]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-008-001",
+        "shrine_id": "SHR-008",
+        "feature_type": "main_sanctuary",
+        "canonical_name": "本殿周辺",
+        "reading": "ほんでんしゅうへん",
+        "description": "香取神宮の中心祭祀区域。",
+        "source_type": "manual",
+        "source_reference": "Public shrine guide-level placement.",
+        "confidence_level": "C",
+        "accessibility": "view_only",
+        "notes": "概略位置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.5273, 35.8958]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-008-002",
+        "shrine_id": "SHR-008",
+        "feature_type": "torii",
+        "canonical_name": "大鳥居付近",
+        "reading": "おおとりいいふきん",
+        "description": "主要参拝入口付近の鳥居。",
+        "source_type": "manual",
+        "source_reference": "Approximate public entrance placement.",
+        "confidence_level": "C",
+        "accessibility": "public",
+        "notes": "transition marker"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [140.5273, 35.8958],
+          [140.5280, 35.8953],
+          [140.5287, 35.8949]
+        ]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-008-003",
+        "shrine_id": "SHR-008",
+        "feature_type": "approach",
+        "canonical_name": "参道概略",
+        "reading": "さんどうがいりゃく",
+        "description": "入口から本殿方向へ向かう概略参道。",
+        "source_type": "manual",
+        "source_reference": "Schematic visitor route.",
+        "confidence_level": "D",
+        "accessibility": "public",
+        "notes": "schematic only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [140.5265, 35.8963],
+          [140.5300, 35.8960],
+          [140.5302, 35.8937],
+          [140.5270, 35.8935],
+          [140.5265, 35.8963]
+        ]]
+      },
+      "properties": {
+        "feature_id": "PREC-SHR-008-004",
+        "shrine_id": "SHR-008",
+        "feature_type": "precinct_area",
+        "canonical_name": "香取神宮境内概略範囲",
+        "reading": "かとりじんぐうけいだいがいりゃくはんい",
+        "description": "主要参拝区域を理解するための概略 polygon。",
+        "source_type": "manual",
+        "source_reference": "Prototype schematic area.",
+        "confidence_level": "D",
+        "accessibility": "mixed",
+        "notes": "正式境界ではない。"
+      }
+    }
+  ]
+}
