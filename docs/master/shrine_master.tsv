@@ -27,38 +27,38 @@ SHR-025	須佐神社	すさじんじゃ	須佐大宮	-	島根県	出雲市佐田
 SHR-026	須我神社	すがじんじゃ	-	日本初之宮	島根県	雲南市大東町須賀260	35.3836,133.0639	DEI-002	DEI-021	-	式内社	-	不明	ヤマタノオロチ退治後にスサノオが宮を建てた須賀の地	「八雲立つ出雲八重垣…」歌の発祥。日本初の和歌の地	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-25T00:00:00	textual
 SHR-027	揖夜神社	いやじんじゃ	伊布夜社	-	島根県	松江市東出雲町揖屋2229	35.4569,133.1044	DEI-006	DEI-005|DEI-001	-	名神大社	-	不明	イザナミを祀り、近隣の黄泉比良坂伝承地と一体	「揖夜=言屋(コトヤ)」語源説。冥界信仰の聖地	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-25T00:00:00	textual
 SHR-028	万九千神社	まんくせんじんじゃ	万九千社	神立社	島根県	出雲市斐川町併川258	35.3819,132.7406	DEI-002	DEI-001	-	式内社	-	不明	神在月の神々がここから帰る「神立」の社	祭神「櫛御気奴命」=スサノオ別名(社伝)。神在祭の終焉拠点	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-25T00:00:00	textual
-SHR-032	枚岡神社	ひらおかじんじゃ	-	-	大阪府	大阪府東大阪市出雲井町	-	DEI-107	-	-	名神大社	河内一宮	不明	-	河内国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-033	大鳥大社	おおとりたいしゃ	-	-	大阪府	大阪府堺市西区鳳北町	-	DEI-016	-	-	名神大社	和泉一宮	不明	-	和泉国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-034	真清田神社	ますみだじんじゃ	-	-	愛知県	愛知県一宮市真清田	-	DEI-340	-	CLN-037	名神大社	尾張一宮	不明	-	尾張国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-032	枚岡神社	ひらおかじんじゃ	-	-	大阪府	大阪府東大阪市出雲井町	34.6606,135.6486	DEI-107	-	-	名神大社	河内一宮	不明	-	河内国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-033	大鳥大社	おおとりたいしゃ	-	-	大阪府	大阪府堺市西区鳳北町	34.5413,135.4564	DEI-016	-	-	名神大社	和泉一宮	不明	-	和泉国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-034	真清田神社	ますみだじんじゃ	-	-	愛知県	愛知県一宮市真清田	35.3045,136.802	DEI-340	-	CLN-037	名神大社	尾張一宮	不明	-	尾張国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-035	砥鹿神社	とがじんじゃ	-	-	愛知県	愛知県豊川市一宮町	-	DEI-001	-	-	-	三河一宮	不明	-	三河国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
 SHR-036	小国神社	おぐにじんじゃ	-	-	静岡県	静岡県周智郡森町一宮	-	DEI-001	-	-	-	遠江一宮	不明	-	遠江国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
 SHR-038	浅間神社	あさまじんじゃ	-	-	山梨県	山梨県笛吹市	-	DEI-197	-	-	-	甲斐一宮	不明	-	甲斐国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
-SHR-039	三嶋大社	みしまたいしゃ	-	-	静岡県	静岡県三島市	-	DEI-287	-	CLN-168	名神大社	伊豆一宮	不明	-	伊豆国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-039	三嶋大社	みしまたいしゃ	-	-	静岡県	静岡県三島市	35.1248,138.9189	DEI-287	-	CLN-168	名神大社	伊豆一宮	不明	-	伊豆国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-040	寒川神社	さむかわじんじゃ	-	-	神奈川県	神奈川県高座郡寒川町	-	DEI-005|DEI-006	-	-	-	相模一宮	不明	-	相模国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 著名社保護リスト				
-SHR-042	安房神社	あわじんじゃ	-	-	千葉県	千葉県館山市大神宮	-	DEI-108	-	-	名神大社	安房一宮	不明	-	安房国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-042	安房神社	あわじんじゃ	-	-	千葉県	千葉県館山市大神宮	34.9089,139.8333	DEI-108	-	-	名神大社	安房一宮	不明	-	安房国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-043	玉前神社	たまさきじんじゃ	-	-	千葉県	千葉県長生郡一宮町	-	DEI-088	-	-	-	上総一宮	不明	-	上総国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
-SHR-046	建部大社	たけべたいしゃ	-	-	滋賀県	滋賀県大津市神領	-	DEI-016	-	-	名神大社	近江一宮	不明	-	近江国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-047	南宮大社	なんぐうたいしゃ	-	-	岐阜県	岐阜県不破郡垂井町	-	DEI-221	-	-	名神大社	美濃一宮	不明	-	美濃国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-046	建部大社	たけべたいしゃ	-	-	滋賀県	滋賀県大津市神領	35.006,135.9088	DEI-016	-	-	名神大社	近江一宮	不明	-	近江国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-047	南宮大社	なんぐうたいしゃ	-	-	岐阜県	岐阜県不破郡垂井町	35.3744,136.5294	DEI-221	-	-	名神大社	美濃一宮	不明	-	美濃国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-048	水無神社	みなしじんじゃ	-	-	岐阜県	岐阜県高山市一之宮町	-	-	-	-	-	飛騨一宮	不明	-	飛騨国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
-SHR-050	貫前神社	ぬきさきじんじゃ	-	-	群馬県	群馬県富岡市	-	DEI-012	-	-	名神大社	上野一宮	不明	-	上野国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-051	二荒山神社	ふたらさんじんじゃ	-	-	栃木県	栃木県宇都宮市	-	DEI-279	-	-	名神大社	下野一宮	不明	-	下野国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-052	鹽竈神社	しおがまじんじゃ	-	-	宮城県	宮城県塩竈市	-	DEI-276	DEI-005|DEI-006	-	名神大社	陸奥一宮	不明	-	陸奥国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-055	氣比神宮	けひじんぐう	-	-	福井県	福井県敦賀市	-	-	-	-	名神大社	越前一宮	不明	-	越前国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-057	氣多大社	けたたいしゃ	-	-	石川県	石川県羽咋市	-	-	-	-	名神大社	能登一宮	不明	-	能登国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-050	貫前神社	ぬきさきじんじゃ	-	-	群馬県	群馬県富岡市	36.2486,138.8631	DEI-012	-	-	名神大社	上野一宮	不明	-	上野国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-051	二荒山神社	ふたらさんじんじゃ	-	-	栃木県	栃木県宇都宮市	36.5617,139.8847	DEI-279	-	-	名神大社	下野一宮	不明	-	下野国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-052	鹽竈神社	しおがまじんじゃ	-	-	宮城県	宮城県塩竈市	38.3167,141.0192	DEI-276	DEI-005|DEI-006	-	名神大社	陸奥一宮	不明	-	陸奥国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-055	氣比神宮	けひじんぐう	-	-	福井県	福井県敦賀市	35.6556,136.07	-	-	-	名神大社	越前一宮	不明	-	越前国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-057	氣多大社	けたたいしゃ	-	-	石川県	石川県羽咋市	36.9456,136.7783	-	-	-	名神大社	能登一宮	不明	-	能登国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-058	気多神社	けたじんじゃ	-	-	富山県	富山県高岡市	-	DEI-001	-	-	-	越中一宮	不明	-	越中国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 著名社保護リスト				
-SHR-059	彌彦神社	やひこじんじゃ	-	-	新潟県	新潟県西蒲原郡	-	-	-	-	名神大社	越後一宮	不明	-	越後国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-059	彌彦神社	やひこじんじゃ	-	-	新潟県	新潟県西蒲原郡	37.7067,138.8283	-	-	-	名神大社	越後一宮	不明	-	越後国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-060	度津神社	わたつじんじゃ	-	-	新潟県	新潟県佐渡市	-	-	-	-	-	佐渡一宮	不明	-	佐渡国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
-SHR-061	出雲大神宮	いずもだいじんぐう	-	-	京都府	京都府亀岡市	-	DEI-001	-	-	名神大社	丹波一宮	不明	-	丹波国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-062	籠神社	このじんじゃ	-	-	京都府	京都府宮津市	-	DEI-172	-	CLN-036	名神大社	丹後一宮	不明	-	丹後国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-063	出石神社	いずしじんじゃ	-	-	兵庫県	兵庫県豊岡市	-	DEI-269	-	-	名神大社	但馬一宮	不明	-	但馬国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-064	宇倍神社	うべじんじゃ	-	-	鳥取県	鳥取県鳥取市	-	-	-	-	名神大社	因幡一宮	不明	-	因幡国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-061	出雲大神宮	いずもだいじんぐう	-	-	京都府	京都府亀岡市	35.0394,135.5719	DEI-001	-	-	名神大社	丹波一宮	不明	-	丹波国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-062	籠神社	このじんじゃ	-	-	京都府	京都府宮津市	35.5772,135.1953	DEI-172	-	CLN-036	名神大社	丹後一宮	不明	-	丹後国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-063	出石神社	いずしじんじゃ	-	-	兵庫県	兵庫県豊岡市	35.4733,134.8739	DEI-269	-	-	名神大社	但馬一宮	不明	-	但馬国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-064	宇倍神社	うべじんじゃ	-	-	鳥取県	鳥取県鳥取市	35.4886,134.2769	-	-	-	名神大社	因幡一宮	不明	-	因幡国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-065	倭文神社	しとりじんじゃ	-	-	鳥取県	鳥取県東伯郡	-	-	-	-	-	伯耆一宮	不明	-	伯耆国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
 SHR-067	物部神社	もののべじんじゃ	-	-	島根県	島根県大田市	-	DEI-341	-	CLN-022	-	石見一宮	不明	-	石見国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
 SHR-068	水若酢神社	みずわかすじんじゃ	-	-	島根県	島根県隠岐郡	-	-	-	-	名神大社	隠岐一宮	不明	-	隠岐国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-069	伊和神社	いわじんじゃ	-	-	兵庫県	兵庫県宍粟市	-	DEI-270	-	-	名神大社	播磨一宮	不明	-	播磨国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
-SHR-072	吉備津神社	きびつじんじゃ	-	-	岡山県	岡山県岡山市	-	DEI-474	-	-	名神大社	備中一宮	不明	-	備中国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-069	伊和神社	いわじんじゃ	-	-	兵庫県	兵庫県宍粟市	35.0419,134.5611	DEI-270	-	-	名神大社	播磨一宮	不明	-	播磨国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
+SHR-072	吉備津神社	きびつじんじゃ	-	-	岡山県	岡山県岡山市	34.6706,133.8497	DEI-474	-	-	名神大社	備中一宮	不明	-	備中国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-073	吉備津神社(備後)	きびつじんじゃ	-	-	広島県	広島県福山市	-	DEI-474	-	-	-	備後一宮	不明	-	備後国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 著名社保護リスト				
-SHR-074	厳島神社	いつくしまじんじゃ	-	-	広島県	広島県廿日市市	-	DEI-019	DEI-017|DEI-018	-	名神大社	安芸一宮	不明	-	安芸国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
+SHR-074	厳島神社	いつくしまじんじゃ	-	-	広島県	広島県廿日市市	34.2959,132.3197	DEI-019	DEI-017|DEI-018	-	名神大社	安芸一宮	不明	-	安芸国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持	approximate	manual	2026-05-28T00:00:00	textual
 SHR-075	玉祖神社	たまのおやじんじゃ	-	-	山口県	山口県防府市	-	DEI-113	-	-	-	周防一宮	不明	-	周防国一宮	under_review	existence	2026-05-25T00:00:00	claude	auto-init: 初期値				
 SHR-076	住吉神社(長門)	すみよしじんじゃ	-	-	山口県	山口県下関市	-	DEI-164|DEI-165|DEI-166	-	-	名神大社	長門一宮	不明	-	長門国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
 SHR-077	日前神宮	ひのくまじんぐう	-	-	和歌山県	和歌山県和歌山市	-	-	DEI-013	-	名神大社	紀伊一宮	不明	-	紀伊国一宮	verified	existence	2026-05-25T00:00:00	claude	auto-init: 古代社格保持				
