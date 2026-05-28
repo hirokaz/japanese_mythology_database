@@ -13,7 +13,11 @@
 | 摂社・末社・本社 | `parent_shrine_id`(将来追加検討、現行は `notes` で代替) |
 | 同名異社 | `address`/`coordinates`/`prefecture` で識別 |
 
-## 2. カラム定義(全 16 列・固定順)
+## 2. カラム定義(全 27 列・固定順)
+
+> 当初は 16 列で設計したが、その後 DISC-006(epistemology layer)で 17–21 列、
+> DISC-008(sacred topology)で 22–25 列、座標出典追跡のため 26–27 列を追加した。
+> 1–16 列が記述コア、17–27 列が認識論・座標 provenance 拡張ブロックである。
 
 | # | カラム | 必須 | 内容 |
 |---|---|---|---|
@@ -33,6 +37,20 @@
 | 14 | `founding_year_estimated` | △ | 創建推定年 |
 | 15 | `founding_legend` | △ | 創建伝承の要約 |
 | 16 | `notes` | △ | 論争点・備考 |
+| 17 | `verified_status` | △ | 実在性。`verified`/`under_review`/`unverified`/`known_fabrication`(DISC-003/006) |
+| 18 | `verification_dimension` | △ | 検証対象の意味(entity 別)。例: `existence`(DISC-006) |
+| 19 | `verified_at` | △ | 検証時刻(ISO 8601、例: `2026-05-28T00:00:00`) |
+| 20 | `verified_by` | △ | 検証者(`claude` / 人間 等) |
+| 21 | `verification_source` | △ | 検証の根拠・来歴メモ(knowledge provenance) |
+| 22 | `coordinates_accuracy` | △ | 座標精度。`exact`/`approximate`/`inferred`/`unknown`(DISC-008) |
+| 23 | `coordinates_source` | △ | 座標出典の区分。例: `wikipedia` / `manual` |
+| 24 | `coordinates_verified_at` | △ | 座標検証時刻(ISO 8601) |
+| 25 | `visualization_confidence` | △ | GIS 可視化の根拠強度。`archaeological`/`textual`/`inferred`/`speculative`(DISC-008)。座標精度ではなく entity 同定の確度を示す軸 |
+| 26 | `coordinates_source_url` | △ | 座標出典 URL(出所追跡用)。例: Wikipedia 記事 URL |
+| 27 | `coordinates_note` | △ | 座標が指す対象の補足。例: `内宮`/`外宮`/`辺津宮`(複数社殿のうちどの地点か) |
+
+> **精度規約**: `coordinates` は exact / approximate を問わず小数 **4 桁**(`%.4f`、約 11m)で統一する。
+> `coordinates_accuracy` は出典の確度区分であり、小数桁数とは独立。
 
 ## 3. 運用ルール
 
