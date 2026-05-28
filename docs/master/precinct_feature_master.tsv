@@ -1,0 +1,13 @@
+feature_id	shrine_id	feature_type	canonical_name	reading	geometry_type	lat	lng	description	source_type	source_reference	confidence_level	accessibility	movement_type	boundary_role	notes
+PREC-SHR-002-001	SHR-002	main_sanctuary	正宮	しょうぐう	Point	34.4550	136.7256	皇大神宮の中心となる社殿区域。天照大御神を祀る。	manual	Public guide-level schematic placement based on shrine address and general visitor map knowledge; verify before production use.	C	view_only	-	center	概略位置。公開参拝導線から理解できる範囲に限定。
+PREC-SHR-002-002	SHR-002	bridge	宇治橋	うじばし	Point	34.4593	136.7209	五十鈴川に架かる内宮参拝入口の橋。境内への主要な遷移点。	manual	Publicly known precinct landmark; verify coordinates before production use.	C	public	access	threshold	参拝導線上の重要な transition marker。
+PREC-SHR-002-003	SHR-002	purification_basin	五十鈴川御手洗場	いすずがわみたらし	Point	34.4580	136.7223	五十鈴川で手を清める場として知られる参拝導線上の清めの場所。	manual	Publicly known visitor landmark; verify coordinates before production use.	C	public	purification	purification	purification point として扱う。
+PREC-SHR-002-004	SHR-002	ritual_site	神楽殿周辺	かぐらでんしゅうへん	Point	34.4564	136.7244	御神楽・祈祷などに関わる公開参拝区域の主要施設周辺。	manual	Public guide-level schematic placement; verify before production use.	C	public	ritual	inner_precinct	詳細な内部構造ではなく公開案内レベル。
+PREC-SHR-003-001	SHR-003	main_sanctuary	正宮	しょうぐう	Point	34.4869	136.7043	豊受大神宮の中心社殿区域。豊受大御神を祀る。	manual	Public guide-level schematic placement; verify before production use.	C	view_only	-	center	概略位置。
+PREC-SHR-003-002	SHR-003	torii	第一鳥居付近	だいいちとりいいふきん	Point	34.4880	136.7030	外宮参拝入口側の transition marker。	manual	Approximate public entrance placement.	C	public	access	threshold	概略配置。
+PREC-SHR-007-001	SHR-007	main_sanctuary	本殿周辺	ほんでんしゅうへん	Point	35.9682	140.6315	鹿島神宮の中心祭祀区域。	manual	Public shrine guide-level placement.	C	view_only	-	center	概略位置。
+PREC-SHR-007-002	SHR-007	torii	大鳥居付近	おおとりいいふきん	Point	35.9691	140.6298	主要参拝入口側の鳥居。	manual	Approximate public entrance placement.	C	public	access	threshold	transition marker
+PREC-SHR-008-001	SHR-008	main_sanctuary	本殿周辺	ほんでんしゅうへん	Point	35.8949	140.5287	香取神宮の中心祭祀区域。	manual	Public shrine guide-level placement.	C	view_only	-	center	概略位置。
+PREC-SHR-008-002	SHR-008	torii	大鳥居付近	おおとりいいふきん	Point	35.8958	140.5273	主要参拝入口付近の鳥居。	manual	Approximate public entrance placement.	C	public	access	threshold	transition marker
+PREC-SHR-020-001	SHR-020	main_sanctuary	本殿周辺	ほんでんしゅうへん	Point	35.6764	139.6993	明治神宮の中心祭祀区域。	manual	Public shrine guide-level placement.	C	view_only	-	center	概略位置。
+PREC-SHR-020-002	SHR-020	torii	南参道大鳥居付近	みなみさんどうおおとりいいふきん	Point	35.6784	139.7002	主要参拝入口側の大鳥居。	manual	Approximate public entrance placement.	C	public	access	threshold	transition marker
