@@ -54,6 +54,16 @@
   let showCosmogony = false;  // C 層展開フラグ
   let deities, relations, deityIdx;
 
+  // 重要な傍系兄弟ノード — 直系皇祖ではないが系譜理解に不可欠
+  const SIBLING_NODES = [
+    'DEI-002',  // 須佐之男命 (天照の弟、三貴子)
+    'DEI-004',  // 月読命     (天照の弟、三貴子)
+  ];
+  // 同母兄弟グループ — 親が表示外でも兄弟ブラケットで連結
+  const SIBLING_GROUPS = [
+    { members: ['DEI-002', 'DEI-003', 'DEI-004'], label: '三貴子' },
+  ];
+
   try {
     [deities, relations] = await Promise.all([
       DataLoader.load('deity'),
@@ -96,6 +106,8 @@
 
   function renderGenealogy() {
     const imperialIdSet = computeImperialSet(showCosmogony);
+    // 傍系兄弟ノードはツリーにのみ追加 (aux section の computeImperialSet には含めない)
+    SIBLING_NODES.forEach(id => imperialIdSet.add(id));
 
     // parent_of (実子系譜) + succeeded_by (神代記の出現順) でツリー構築
     const parents = {};         // child -> parent
@@ -171,12 +183,14 @@
     });
 
     // 座標決定 — Y 軸の最小世代が必ず 0 から始まるようオフセット
+    // 上部に toggle ボタン + 兄弟ブラケット用の余白を常に確保
+    const TOP_RESERVE = 56;
     const minGen = generations[0] || 0;
     const positions = {};
     let maxX = 0, maxY = 0;
     generations.forEach(g => {
       const ids = byGen[g];
-      const y = (g - minGen) * GAP_Y + MARGIN + (showCosmogony ? 50 : 0); // C 層時は toggle ボタン用の余白
+      const y = (g - minGen) * GAP_Y + MARGIN + TOP_RESERVE;
       ids.forEach((id, i) => {
         const x = i * (NODE_W + GAP_X) + MARGIN;
         positions[id] = { x, y };
@@ -235,6 +249,21 @@
       });
     }
 
+    // 兄弟ブラケット — 親が表示外の同母兄弟群を上部の括線で連結 (例: 三貴子)
+    SIBLING_GROUPS.forEach(group => {
+      const mem = group.members.filter(id => positions[id] && !parents[id]);
+      if (mem.length < 2) return;  // 親が表示中 (C 層等) なら親子線で連結済みのためスキップ
+      mem.sort((a, b) => positions[a].x - positions[b].x);
+      const barY = positions[mem[0]].y - 13;
+      const leftCx = positions[mem[0]].x + NODE_W / 2;
+      const rightCx = positions[mem[mem.length - 1]].x + NODE_W / 2;
+      svgInner += `<path d="M${leftCx},${barY} H${rightCx}" fill="none" stroke="#7a8a9a" stroke-width="1.4"></path>`;
+      mem.forEach(id => {
+        const cx = positions[id].x + NODE_W / 2;
+        svgInner += `<path d="M${cx},${barY} V${positions[id].y}" fill="none" stroke="#7a8a9a" stroke-width="1.4"></path>`;
+      });
+    });
+
     // ノード描画
     Array.from(imperialIdSet).forEach(id => {
       const p = positions[id];
@@ -243,18 +272,20 @@
       const name = d ? d.canonical_name : id;
       const reading = d ? (d.canonical_reading || '') : '';
       const cat = d ? (d.category || '') : '';
+      const isSibling = SIBLING_NODES.includes(id);
       const isAncestorB = ANCESTORS_B.includes(id);
       const isAncestorC = ANCESTORS_C.includes(id);
       const isKesshi = cat.includes('欠史八代');
-      const isEmpress = !isAncestorB && !isAncestorC && !isKesshi && (d && d.gender === '女');
+      const isEmpress = !isSibling && !isAncestorB && !isAncestorC && !isKesshi && (d && d.gender === '女');
 
       let fillBg, strokeColor;
-      if (isAncestorC)         { fillBg = '#eef0ee'; strokeColor = '#6a7a6a'; }  // C 層: 灰緑
+      if (isSibling)           { fillBg = '#eef1f4'; strokeColor = '#7a8a9a'; }  // 傍系兄弟: 寒色
+      else if (isAncestorC)    { fillBg = '#eef0ee'; strokeColor = '#6a7a6a'; }  // C 層: 灰緑
       else if (isAncestorB)    { fillBg = '#f4efe8'; strokeColor = '#5a8a5a'; }  // B 層: 薄緑
       else if (isKesshi)       { fillBg = '#ffffff'; strokeColor = '#c9a878'; }
       else if (isEmpress)      { fillBg = '#fcf6e8'; strokeColor = '#8b3a3a'; }
       else                     { fillBg = '#ffffff'; strokeColor = '#4a3520'; }
-      const dashAttr = (isKesshi || isAncestorC) ? ' stroke-dasharray="4 3"' : '';
+      const dashAttr = (isKesshi || isAncestorC || isSibling) ? ' stroke-dasharray="4 3"' : '';
 
       const url = `deity.html?id=${encodeURIComponent(id)}`;
       const shortName = name.length > 9 ? name.slice(0, 9) + '…' : name;
@@ -264,8 +295,10 @@
       const daiText = reignInfo && reignInfo.dai ? `第${reignInfo.dai}代` : '';
       const reignText = reignInfo ? reignInfo.reign : '';
 
-      // C 層は「神代」ラベル、B 層 (神代部分) は「神代」ラベル
-      const layerText = isAncestorC ? '神代(宇宙生成)' : (isAncestorB && !daiText ? '神代' : '');
+      // C 層は「神代」ラベル、B 層 (神代部分) は「神代」ラベル、傍系兄弟は「三貴子」等
+      const layerText = isSibling ? '神代/傍系'
+        : isAncestorC ? '神代(宇宙生成)'
+        : (isAncestorB && !daiText ? '神代' : '');
 
       svgInner += `<a href="${url}" target="_self">
         <rect x="${p.x}" y="${p.y}" width="${NODE_W}" height="${NODE_H}" rx="6" ry="6"
@@ -299,7 +332,7 @@
         : '▲ 宇宙起源(造化三神)を展開';
       const btnFill = showCosmogony ? '#eef0ee' : '#fdf3e0';
       const btnStroke = showCosmogony ? '#6a7a6a' : '#d68a3a';
-      const btnY = amaPos.y - 36;
+      const btnY = amaPos.y - 46;
       const btnX = amaPos.x - 30;
       const btnW = NODE_W + 60;
       svgInner += `<g class="cosmogony-toggle" style="cursor:pointer;" data-toggle="cosmogony">
