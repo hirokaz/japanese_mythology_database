@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "generated_note": "Prototype precinct map index for shrine detail integration.",
+  "items": [
+    {
+      "shrine_id": "SHR-002",
+      "canonical_name": "皇大神宮",
+      "geojson_path": "web/data/precinct_maps/SHR-002.geojson",
+      "map_type": "schematic_precinct_topology",
+      "feature_count": 6
+    },
+    {
+      "shrine_id": "SHR-003",
+      "canonical_name": "豊受大神宮",
+      "geojson_path": "web/data/precinct_maps/SHR-003.geojson",
+      "map_type": "schematic_precinct_topology",
+      "feature_count": 4
+    },
+    {
+      "shrine_id": "SHR-007",
+      "canonical_name": "鹿島神宮",
+      "geojson_path": "web/data/precinct_maps/SHR-007.geojson",
+      "map_type": "schematic_precinct_topology",
+      "feature_count": 4
+    }
+  ]
+}
