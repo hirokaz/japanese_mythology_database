@@ -39,9 +39,6 @@ CLN-037	尾張連	おわりのむらじ	尾張氏	-	地方豪族(海人)	DEI-340
 CLN-038	卜部宿禰	うらべのすくね	卜部氏	-	祭祀氏族	DEI-159	-	伊豆|対馬|壱岐	-	古代	亀卜祭祀、神祇官奉仕	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-039	度会神主	わたらいのかんぬし	度会氏	-	祭祀氏族(伊勢)	DEI-126	SHR-003	伊勢	-	古代〜中世	伊勢外宮神主、神道五部書編纂、中世度会神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-040	荒木田神主	あらきだのかんぬし	荒木田氏	-	祭祀氏族(伊勢)	DEI-127	SHR-002	伊勢	-	古代〜中世	伊勢内宮神主	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-041	諏訪氏	すわうじ	諏訪大祝	-	祭祀氏族(地方)	DEI-010	SHR-039|SHR-040	信濃(諏訪)	-	古代〜中世	諏訪上社大祝、中世武門化	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-010 が verified
-CLN-042	守矢氏	もりやうじ	諏訪神長官	-	祭祀氏族(地方)	DEI-132	SHR-040	信濃(諏訪)	-	古代〜中世	諏訪在来祭祀継承、神長官、中世まで諏訪上社の一翼	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-043	金刺氏	かなさしうじ	-	-	祭祀氏族(地方)	DEI-010	SHR-018|SHR-042	信濃(諏訪)	-	古代	諏訪下社系の在地氏族	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-010 が verified
 CLN-044	大三輪氏	おおみわうじ	三輪氏	-	祭祀氏族	DEI-364	SHR-010	大和(三輪)	-	古代	大物主祭主・大田田根子後裔、大神神社継承	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-364 が verified
 CLN-045	賀茂氏(山城)	かもうじ	-	-	祭祀氏族	DEI-365	SHR-013|SHR-014	山城	-	古代	賀茂建角身命後裔の山城賀茂氏	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-365 が verified
 CLN-046	賀茂氏(葛城)	-	-	-	祭祀氏族	DEI-366	-	大和(葛城)	-	古代	葛城地方の在地賀茂氏	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-366 が verified
@@ -50,10 +47,7 @@ CLN-048	卜部氏(平野)	-	-	-	祭祀氏族	-	-	山城	-	平安	平野神社祠
 CLN-049	齊王(斎宮)	-	-	-	祭祀氏族(皇族)	-	伊勢神宮	伊勢	-	古代	伊勢神宮斎宮制度継承の皇女系統	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-050	大神氏	おおがうじ	大神朝臣	-	祭祀氏族	-	SHR-010|SHR-016	大和|豊前	-	古代	大三輪氏の別表記	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-051	辛島氏	からしまうじ	-	-	祭祀氏族	DEI-189	SHR-016	豊前	-	古代	宇佐八幡宮の社家、辛島氏	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-052	大江氏	おおえうじ	-	-	中央氏族	-	-	山城	-	平安	阿倍朝臣系の文人氏族、大江匡房・広元等	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-053	清原氏	きよはらうじ	-	-	皇別氏族	-	-	山城	-	平安	舎人親王後裔の清原氏	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-054	菅原氏	すがわらうじ	-	-	皇別氏族	-	SHR-072	山城	-	平安	土師氏の後裔・菅原道真の出身氏族	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-055	土師氏	はじうじ	土師宿禰	-	祭祀+技術	DEI-013	-	大和|河内	-	古墳	野見宿禰後裔、埴輪起源・葬送祭祀氏族	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-013 が verified
 CLN-056	和邇氏	わにうじ	-	-	中央氏族	-	-	大和	-	古墳	皇別氏族、和邇氏	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-114	那加津国造	なかつのくにのみやつこ	-	-	地方豪族	-	-	筑前(博多)	-	古墳	博多湾域支配	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-115	筑紫国造磐井	つくしのくにのみやつこいわい	-	-	地方豪族	-	-	筑紫	-	古墳	継体朝の磐井の乱(527)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
