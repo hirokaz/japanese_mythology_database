@@ -51,64 +51,64 @@ CLN-053	清原氏	きよはらうじ	-	-	皇別氏族	-	-	山城	-	平安	舎人
 CLN-056	和邇氏	わにうじ	-	-	中央氏族	-	-	大和	-	古墳	皇別氏族、和邇氏	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-114	那加津国造	なかつのくにのみやつこ	-	-	地方豪族	-	-	筑前(博多)	-	古墳	博多湾域支配	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-115	筑紫国造磐井	つくしのくにのみやつこいわい	-	-	地方豪族	-	-	筑紫	-	古墳	継体朝の磐井の乱(527)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-116	日下部氏	くさかべうじ	-	-	地方氏族	-	-	大和	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-117	大三輪氏分流	-	-	-	-	-	SHR-010	大和	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-118	賀茂朝臣	-	-	-	-	-	-	山城	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-116	日下部氏	くさかべうじ	-	-	地方氏族	-	-	大和	-	古墳	古墳時代以降の地方氏族・部の名で、各地に同名の日下部氏(日下部・草壁)が分布し、単一系統とは限らない点に注意を要する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-117	大三輪氏分流	-	-	-	-	-	SHR-010	大和	-	古墳	大三輪(大神)氏から分かれたとされる分流の総称で、特定の単一氏族を指す確実な呼称ではなく集合的分類にとどまる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-118	賀茂朝臣	-	-	-	-	-	-	山城	-	古代	山城の賀茂(鴨)氏が朝臣姓を称したもので、賀茂県主系の一族と関係づけて伝えられる氏族。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-119	物部尾輿	-	-	-	-	-	SHR-011	大和	-	飛鳥	物部本宗家	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-120	物部守屋	-	-	-	-	-	SHR-011	大和	-	飛鳥	物部本宗家、丁未の乱で滅亡	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-121	蘇我馬子	-	-	-	-	-	-	大和	-	飛鳥	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-122	蘇我蝦夷	-	-	-	-	-	-	大和	-	飛鳥	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-121	蘇我馬子	-	-	-	-	-	-	大和	-	飛鳥	蘇我馬子は飛鳥時代の蘇我氏の人物名であり、氏族そのものではない。氏族としては蘇我氏(CLN相当)を参照すべき項目。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-122	蘇我蝦夷	-	-	-	-	-	-	大和	-	飛鳥	蘇我蝦夷は飛鳥時代の蘇我氏の人物名であり、氏族そのものではない。氏族としては蘇我氏を参照すべき項目。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-123	蘇我入鹿	-	-	-	-	-	-	大和	-	飛鳥	乙巳の変で殺害	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-124	藤原北家	-	-	-	-	-	-	山城	-	平安	藤原最大派閥、摂関家	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-125	藤原南家	-	-	-	-	-	-	-	-	平安	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-126	藤原式家	-	-	-	-	-	-	-	-	平安	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-127	藤原京家	-	-	-	-	-	-	-	-	平安	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-125	藤原南家	-	-	-	-	-	-	-	-	平安	藤原不比等の子・武智麻呂を祖とする藤原氏四家の一、藤原南家を指す。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-126	藤原式家	-	-	-	-	-	-	-	-	平安	藤原不比等の子・宇合を祖とする藤原氏四家の一、藤原式家を指す。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-127	藤原京家	-	-	-	-	-	-	-	-	平安	藤原不比等の子・麻呂を祖とする藤原氏四家の一、藤原京家を指す。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-128	藤原摂関家	-	-	-	-	-	-	山城	-	平安〜中世	近衛・九条・鷹司・一条・二条等	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-129	武内宿禰	-	-	-	-	DEI-160	-	大和	-	古墳	5 帝に仕えた長寿伝、紀・葛城・蘇我等の祖	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-160 が verified
-CLN-130	日下部氏(神官)	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-130	日下部氏(神官)	-	-	-	-	-	-	-	-	古代	「日下部氏(神官)」として登録された項目で、神官を称する日下部系を指すとみられるが、対象となる具体的氏族・神社は明示されておらず、確実な事績は伝わらない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-131	玉作部	たまつくりべ	玉造部	-	技術氏族	-	SHR-010	出雲|諸地	-	古代	玉作(花仙山)、勾玉等	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-132	鍛冶部	かじべ	-	-	技術氏族	DEI-224	-	諸地	-	古代	鍛冶技術	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-133	倭文部	しずりべ	-	-	技術氏族	-	-	諸地	-	古代	織物技術	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-134	鳥取部	ととりべ	-	-	技術氏族	-	-	諸地	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-134	鳥取部	ととりべ	-	-	技術氏族	-	-	諸地	-	古代	鳥取部(ととりべ)は、白鳥など鳥の捕獲・飼育に関わったと伝える古代の部(技術・職掌集団)で、各地に分布したとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-135	忌部部	-	-	-	祭祀+技術	DEI-108	-	諸地	-	古代	祭祀道具製作	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-108 が verified
-CLN-136	玉造部	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-136	玉造部	-	-	-	-	-	-	-	-	古代	玉造部(たまつくりべ)は、勾玉・管玉など玉類の製作に従事したと伝える古代の部で、玉作部とも記される。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-137	山内氏	やまうちうじ	-	-	技術氏族(近世製鉄)	DEI-381	-	出雲(奥出雲)	-	近世	近世奥出雲たたら経営	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-138	絲原氏	いとはらうじ	-	-	技術氏族(近世製鉄)	DEI-382	-	出雲(奥出雲)	-	近世	近世奥出雲たたら経営	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-139	桜井氏	さくらいうじ	-	-	技術氏族(近世製鉄)	DEI-383	-	出雲(奥出雲)	-	近世	近世奥出雲たたら経営	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-140	鏡作部	かがみつくりべ	-	-	技術氏族	DEI-112	-	大和	-	古代	鏡作神社祭祀	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-112 が verified
 CLN-141	玉祖連	たまのおやのむらじ	-	-	技術氏族	DEI-113	-	大和	-	古代	玉造	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-113 が verified
-CLN-142	衣縫部	きぬぬいべ	-	-	技術氏族	-	-	諸地	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-142	衣縫部	きぬぬいべ	-	-	技術氏族	-	-	諸地	-	古代	衣縫部(きぬぬいべ)は、衣服の裁縫に従事したと伝える古代の部(技術集団)で、各地に分布したとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-143	呉服部	くれはとり	-	-	技術氏族(渡来)	-	-	諸地	-	古代	漢織・呉織の渡来	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-144	漢部	あやべ	-	-	技術氏族(渡来)	-	-	諸地	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-145	綾部	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-146	大狛連	おおこまのむらじ	-	-	渡来氏族	-	-	山城	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-144	漢部	あやべ	-	-	技術氏族(渡来)	-	-	諸地	-	古代	漢部(あやべ)は、東漢氏(倭漢氏)の統率下にあったと伝える渡来系の部で、各種手工業・技術に従事したとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-145	綾部	-	-	-	-	-	-	-	-	古代	綾部(あやべ)は、絹織(綾織)などに関わったとされる古代の部の名で、渡来系の漢部・織部と重なって語られることがあり、単一氏族の確実な実体は判然としない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-146	大狛連	おおこまのむらじ	-	-	渡来氏族	-	-	山城	-	古代	大狛連(おおこまのむらじ)は、高句麗(高麗)系を称する渡来系氏族で、山城に拠ったと伝えるが、確実に辿れる事績は乏しい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-147	秦氏	はたうじ	太秦|秦造	うずまさ	渡来氏族	DEI-260	SHR-035|SHR-034|広隆寺	山城	-	古代	山城(伏見・松尾・嵯峨野)、応神朝渡来、秦の始皇帝末裔伝(L4)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-148	秦氏(大蔵)	-	-	-	秦氏分流	-	-	山城	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-148	秦氏(大蔵)	-	-	-	秦氏分流	-	-	山城	-	古代	秦氏の一系統で大蔵(財政・出納)に関わったと称される分流。秦氏全体に比べ確実な事績は乏しく、後世の系譜上の区分とみられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-149	秦氏(松尾)	-	-	-	秦氏分流	-	SHR-034	山城	-	古代	松尾大社神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-150	秦氏(伏見)	-	-	-	秦氏分流	-	SHR-035	山城	-	古代	伏見稲荷神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-151	東漢	やまとのあや	東漢氏|倭漢	-	渡来氏族	DEI-263	-	大和	-	古代	阿知使主祖、武器製造	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-152	西文	かわちのふみ	西文氏	-	渡来氏族	DEI-265	-	河内	-	古代	王仁祖、文書管理	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-153	百済王氏	くだらのこにきしうじ	-	-	渡来氏族	DEI-267	-	河内	-	古代	百済滅亡(660)後の亡命王族	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-154	高麗氏	こまうじ	-	-	渡来氏族	DEI-268	高麗神社	武蔵(高麗郡)	-	古代	高麗滅亡(668)後の亡命	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-155	新羅氏	しらぎうじ	-	-	渡来氏族	-	-	諸地	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-156	難波吉士	なにわのきし	-	-	渡来氏族	-	-	摂津	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-157	桑原氏	-	-	-	渡来氏族	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-158	漢王朝末裔	-	-	-	渡来氏族	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-159	呉王朝末裔	-	-	-	渡来氏族	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-155	新羅氏	しらぎうじ	-	-	渡来氏族	-	-	諸地	-	古代	渡来系氏族の一分類で、新羅系の出自を称する氏族の総称的呼称。単一の確立した氏族というより新羅からの渡来集団を指す集合的・系譜的区分とみられ、確実な事績は伝わらない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-156	難波吉士	なにわのきし	-	-	渡来氏族	-	-	摂津	-	古代	難波(現大阪)を本拠とした渡来系の吉士(きし)を称する氏族。吉士は外交・通訳・航海に携わったとされる職掌的称号で、日本書紀に難波吉士の名がみえる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-157	桑原氏	-	-	-	渡来氏族	-	-	-	-	古代	桑原を名乗る渡来系を称する氏族。複数系統(漢系・地名由来等)が想定され、確実に同定できる単一の事績は伝わらない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-158	漢王朝末裔	-	-	-	渡来氏族	-	-	-	-	古代	漢王朝の末裔を称する渡来系氏族の系譜上の区分。東漢氏・西文氏など漢系渡来氏族が漢皇帝の後裔と称した伝承に基づくもので、史実としての血統は確認できず系譜伝承として扱うべきである。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-159	呉王朝末裔	-	-	-	渡来氏族	-	-	-	-	古代	呉(中国江南)王朝の末裔を称する渡来系氏族の系譜上の区分。呉の太伯後裔説などの伝承に連なるが、史実としての血統は確認できず系譜伝承として扱うべきである。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-160	弓月君	ゆづきのきみ	-	-	渡来氏族	DEI-260	-	山城	-	古代	秦氏祖の伝	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-161	阿知使主	-	-	-	渡来	DEI-264	-	大和	-	古代	-	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-264 が verified
+CLN-161	阿知使主	-	-	-	渡来	DEI-264	-	大和	-	古代	阿知使主を祖と称する渡来系氏族。阿知使主は東漢氏(倭漢氏)の祖と伝えられる人物で、日本書紀応神紀に渡来の記事がある。氏族名というより祖とされる人物名を冠した区分である。	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-264 が verified
 CLN-162	王仁	-	-	和邇吉師	-	渡来	DEI-266	-	河内	-	古代 / -	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-163	漢氏(東漢)分流	-	-	-	渡来分流	-	-	大和	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-164	馬飼部	うまかいべ	-	-	技術氏族(渡来系含)	-	-	諸地	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-163	漢氏(東漢)分流	-	-	-	渡来分流	-	-	大和	-	古代	東漢氏(倭漢氏)から分かれたと称する渡来系の分流。東漢氏は坂上氏・文氏など多くの支族に分かれたが、本項は特定支族を同定できない系譜上の分流区分とみられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-164	馬飼部	うまかいべ	-	-	技術氏族(渡来系含)	-	-	諸地	-	古代	馬の飼養・調教に従事した品部(しなべ)である馬飼部。渡来系技術集団を含むとされ、特定の単一氏族ではなく職掌に基づく部民集団である。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-165	太占部	-	-	-	祭祀	-	-	-	-	古代	太占占い	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-166	卜部(対馬)	-	-	-	祭祀	-	-	対馬	-	古代	卜占伝来地	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-167	卜部(壱岐)	-	-	-	祭祀	-	-	壱岐	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-168	伊豆三嶋氏	-	-	-	地方氏族	-	三嶋大社	伊豆	-	古代〜中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-169	日向諸氏族	-	-	-	地方氏族	-	-	日向	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-167	卜部(壱岐)	-	-	-	祭祀	-	-	壱岐	-	古代	卜部のうち壱岐(壱岐国)を本拠とする系統。亀卜による占いを職掌とした祭祀氏族で、対馬・伊豆と並ぶ卜部の有力な出身地の一つとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-168	伊豆三嶋氏	-	-	-	地方氏族	-	三嶋大社	伊豆	-	古代〜中世	伊豆の三嶋大社の祭祀に関わったと称される地方氏族。三嶋大社の社家・神職に連なる系統を指すとみられるが、古代における氏族としての実態は不明な点が多い。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-169	日向諸氏族	-	-	-	地方氏族	-	-	日向	-	古代	日向(現宮崎県)を本拠とする諸氏族の集合的呼称。単一氏族ではなく、天孫降臨・日向神話に関わる地域の氏族群を総称した分類とみられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-170	南九州隼人(集合)	-	-	-	地方在地	DEI-242	-	薩摩|大隅	-	古代	隼人塚・隼人舞、海幸末裔	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-242 が verified
-CLN-171	阿多隼人	あたはやと	-	-	-	-	-	薩摩	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-172	大隅隼人	おおすみはやと	-	-	-	-	-	大隅	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-173	肥人	くまびと	-	-	-	-	-	肥後	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-171	阿多隼人	あたはやと	-	-	-	-	-	薩摩	-	古代	薩摩の阿多地方(現鹿児島県西部)を本拠とした隼人の一集団。隼人は南九州の在地集団で、阿多隼人は朝廷との関係や隼人の反乱・服属の記事に名がみえる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-172	大隅隼人	おおすみはやと	-	-	-	-	-	大隅	-	古代	大隅(現鹿児島県東部)を本拠とした隼人の一集団。阿多隼人と並ぶ南九州の隼人勢力で、隼人の服属・反乱や大隅国設置に関わる記事に名がみえる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-173	肥人	くまびと	-	-	-	-	-	肥後	-	古代	肥(肥前・肥後、現熊本周辺等)に住んだ在地の人々を指す呼称。特定氏族というより南九州・肥国地域の集団を指す古代の他称的・集合的区分とみられ、確実な事績は伝わらない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-174	熊襲	くまそ	-	-	南九州在地	-	-	南九州	-	古代	ヤマトタケル征討対象	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-175	蝦夷	えみし	-	-	東北在地	-	-	陸奥|出羽	-	古代	田村麻呂征討対象	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-176	阿弖流為	あてるい	-	-	-	-	-	陸奥	-	古代	蝦夷英雄、坂上田村麻呂と対峙	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
@@ -116,125 +116,125 @@ CLN-177	毛人	もうじん	-	-	東国先住	-	-	東国	-	古墳	古代史料の
 CLN-178	土蜘蛛	つちぐも	-	-	先住民蔑称	-	-	諸地	-	古代	諸風土記の蔑称	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: notes に系譜資料参照
 CLN-179	安日彦	あびひこ	-	-	東北流民	-	-	陸奥	-	-	物部分流とも、L4 仮説	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-180	長髄彦	ながすねひこ	-	-	大和先住	-	-	大和	-	神武東征	神武に敗れる先住豪族	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-181	大山積氏	-	-	-	-	DEI-064	SHR-032	伊予|諸地	-	古代	-	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-064 が verified
+CLN-181	大山積氏	-	-	-	-	DEI-064	SHR-032	伊予|諸地	-	古代	祖神を大山津見神(大山積神)とする氏族として記載されるが、独立した「大山積氏」という氏族の実態は史料上明確でなく、大山祇神を奉斎する伊予の越智氏(三島氏)系の祭祀集団を指すと解する説がある。	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-064 が verified
 CLN-182	大祝氏(大山祇)	-	-	-	祭祀	-	SHR-032	伊予	-	古代	大山祇神社神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-183	諏訪大祝(別)	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-184	守屋宿禰	-	-	-	-	DEI-373	-	信濃	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-185	阿蘇祝	あそはふり	-	-	祭祀	-	SHR-059	肥後	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-183	諏訪大祝(別)	-	-	-	-	-	-	-	-	-	諏訪大社上社の神官家「大祝(おおほうり)」のうち、本宗とは別系統・別称を指す注記的項目とみられ、独立した氏族実体は史料上特定しがたい。諏訪大祝については別途諏訪氏の項を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-184	守屋宿禰	-	-	-	-	DEI-373	-	信濃	-	古代	諏訪大社上社の神長官をつとめた守矢氏に連なる存在を指すとみられる。「守屋宿禰」という姓表記の確証は乏しく、後世の表記とも伝えられる。守矢氏は中世まで上社の神事を主宰したと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-185	阿蘇祝	あそはふり	-	-	祭祀	-	SHR-059	肥後	-	古代	肥後国の阿蘇神社の神職をつとめた阿蘇氏(阿蘇大宮司家)に関わる項目とみられ、「阿蘇祝(あそはふり)」は同社の祝(神職)を指す呼称と解される。阿蘇氏は健磐龍命の後裔を称する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-186	香春社家	-	-	-	祭祀(香春)	-	香春神社	豊前	-	古代	香春神社神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-187	高良社家	-	-	-	祭祀	DEI-186	高良大社	筑後	-	古代	高良大社神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-188	氷川氏	-	-	-	祭祀	DEI-296	氷川神社	武蔵	-	古代〜中世	武蔵氷川神社神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-189	日光二荒山社家	-	-	-	祭祀	DEI-279	-	下野	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-190	赤城社家	-	-	-	祭祀	DEI-280	-	上野	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-191	信濃国造	-	-	-	地方豪族	-	-	信濃	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-192	諏訪国造	-	-	-	-	-	-	信濃(諏訪)	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-193	諏訪上下大祝(集合)	-	-	-	-	-	-	諏訪	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-194	阿閉氏	-	-	-	皇別	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-195	高市氏	-	-	-	大和	-	-	大和	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-196	日下部氏(地方分流)	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-197	大宅氏	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-198	山城賀茂氏	-	-	-	祭祀	-	SHR-013|SHR-014	山城	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-189	日光二荒山社家	-	-	-	祭祀	DEI-279	-	下野	-	中世	下野国の日光二荒山神社の祭祀に関わる社家を指すとみられる集合的項目。特定の単一氏族としての系譜・実態は史料上明確でなく、中世日光山の山岳信仰・修験と結びつく神職集団を指すと解される。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-190	赤城社家	-	-	-	祭祀	DEI-280	-	上野	-	中世	上野国の赤城神社の祭祀に関わる社家を指すとみられる集合的項目。赤城大神(赤城山の神)を奉斎する神職を指すと解されるが、特定の単一氏族としての系譜・実態は史料上明確でない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-191	信濃国造	-	-	-	地方豪族	-	-	信濃	-	古墳	信濃国を支配したと伝える国造(くにのみやつこ)。『先代旧事本紀』「国造本紀」に科野国造の記載がみえ、神八井耳命の後裔を称すると伝えられるが、初期系譜には伝承的要素が多い。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-192	諏訪国造	-	-	-	-	-	-	信濃(諏訪)	-	古墳	信濃国諏訪地域に比定される国造とされるが、「諏訪国造」の独立した存在は史料上明確でなく、科野国造(信濃国造)との関係や諏訪大社の神官家(諏訪氏)との関わりで論じられることが多い。諸説あり慎重を要する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-193	諏訪上下大祝(集合)	-	-	-	-	-	-	諏訪	-	-	諏訪大社の上社・下社それぞれの大祝(神官家)を一括して指す集合的・便宜的項目であり、単一の氏族実体ではない。上社大祝は諏訪氏、下社大祝は金刺氏に連なると伝えられる。個別は各氏族の項を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-194	阿閉氏	-	-	-	皇別	-	-	-	-	古代	阿閉臣(あへのおみ)に関わる氏族とみられる。『日本書紀』『古事記』などに阿倍氏(阿閉)系の名がみえ、孝元天皇の皇子大彦命の後裔を称する皇別系氏族と伝えられるが、阿倍氏との異同には諸説がある。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-195	高市氏	-	-	-	大和	-	-	大和	-	古代	大和国高市郡を本拠としたと伝える氏族で、高市県主(たけちのあがたぬし)・高市連などの名がみえる。古代大和の在地氏族とされるが、固有の系譜・事績の確証は乏しい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-196	日下部氏(地方分流)	-	-	-	-	-	-	-	-	-	古代の伴造(とものみやつこ)系氏族とされる日下部(草壁)氏の地方分流を指すとみられる集合的項目。日下部の名は各地にみえ、屯倉や部民に関わると解されるが、特定地方分流の独立した系譜・実態は史料上明確でない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-197	大宅氏	-	-	-	-	-	-	-	-	古代	大和国添上郡大宅郷(現在の奈良市東部)に関わると伝える古代氏族で、大宅臣・大宅朝臣などの名がみえる。孝昭天皇の後裔を称する皇別系とも伝えられるが、固有の系譜・事績の確証は乏しい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-198	山城賀茂氏	-	-	-	祭祀	-	SHR-013|SHR-014	山城	-	古代	山城国の賀茂別雷神社(上賀茂神社)・賀茂御祖神社(下鴨神社)の祭祀を世襲したと伝える賀茂県主(かものあがたぬし)系の氏族。大和の三輪・賀茂氏とは別系統とされ、賀茂建角身命の後裔を称すると伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-199	山城秦氏	-	-	-	-	-	-	-	-	-	CLN-147 / merged_into:CLN-147	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-200	大江山(青鬼)氏伝	-	-	-	伝承	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-201	平田氏	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-202	清原氏(分流)	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-203	高階氏	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-204	紀朝臣(分流)	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-205	武内宿禰系氏族(集合)	-	-	-	-	DEI-160	-	-	-	古墳〜古代	-	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-160 が verified
+CLN-200	大江山(青鬼)氏伝	-	-	-	伝承	-	-	-	-	-	丹波・丹後国境の大江山に伝わる鬼(酒呑童子や青鬼など)に関する伝承上の項目であり、実在の氏族ではない。大江山の鬼退治伝説は『大江山絵詞』など中世以降の説話・絵巻に展開したと伝えられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-201	平田氏	-	-	-	-	-	-	-	-	-	「平田氏」を称する家は中世・近世を通じて各地に複数存在し、出自系統も一様でない。本項に祖神・関連神社等の手がかりがなく、特定の単一古代氏族としての実体は史料上比定しがたい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-202	清原氏(分流)	-	-	-	-	-	-	-	-	-	清原氏の一分流とされる項目。清原氏には天武天皇皇子舎人親王の後裔を称する皇別系(夏野・滝雄ら)や、出羽の俘囚長として勢力をもったと伝える出羽清原氏などがあり、「分流」が具体的にいずれを指すかは本項からは特定しがたい。学問の家としての清原氏は別項(CLN-216)を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-203	高階氏	-	-	-	-	-	-	-	-	-	奈良末〜平安期に成立した皇別氏族で、高階真人(たかしなのまひと)を称する。天武天皇の皇子高市皇子—長屋王の系統を引き、長屋王の子らの後裔が高階真人姓を賜って臣籍に下ったと伝える。摂関期に外戚として一時繁栄したとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-204	紀朝臣(分流)	-	-	-	-	-	-	-	-	-	紀朝臣(きのあそみ)の一分流とされる項目。紀氏は紀伊国を本拠とし、武内宿禰の後裔を称する有力氏族で、天武朝の八色の姓で朝臣を賜ったと伝える。本項の「分流」が具体的にいずれの支族を指すかは特定しがたい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-205	武内宿禰系氏族(集合)	-	-	-	-	DEI-160	-	-	-	古墳〜古代	武内宿禰の後裔を称する諸氏族(蘇我・葛城・巨勢・平群・紀・波多など)を一括して指す集合的・便宜的項目であり、単一の氏族実体ではない。各氏族は個別の項を参照。	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-160 が verified
 CLN-206	伴氏	-	-	-	-	-	-	-	-	古代	大伴改姓	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-207	佐伯氏	-	-	-	大伴分流	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-208	若桜部	-	-	-	物部分流	DEI-349	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-209	穂積朝臣	-	-	-	物部分流	DEI-347	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-210	采女氏	-	-	-	物部分流	DEI-348	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-211	矢田部	やたべ	-	-	物部分流	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-213	阿閉臣事代	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-214	犬上氏	いぬかみうじ	-	-	-	-	-	近江	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-207	佐伯氏	-	-	-	大伴分流	-	-	-	-	古代	大伴氏と同祖を称する古代の有力氏族で、佐伯連(のち佐伯宿禰)を称する。天忍日命(あめのおしひのみこと)の後裔を称し、神武東征で活躍したと伝える道臣命の系譜に連なるとされる。宮廷の軍事・警衛に関わったと伝えられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-208	若桜部	-	-	-	物部分流	DEI-349	-	-	-	古代	物部氏系とされる伴造系の集団・氏族で、稚桜部(若桜部・わかさくらべ)に関わるとみられる。「桜」に由来する名と伝えるが、固有の系譜・事績を確定する史料は乏しく、部民に関わる集団とする説がある。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-209	穂積朝臣	-	-	-	物部分流	DEI-347	-	-	-	古代	物部氏と同祖を称する古代氏族で、穂積臣(のち穂積朝臣)を称する。物部氏の祖とされる饒速日命(にぎはやひのみこと)の後裔を称し、大和の在地に関わると伝えられる。天武朝で朝臣姓を賜ったと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-210	采女氏	-	-	-	物部分流	DEI-348	-	-	-	古代	物部氏と同祖を称する古代氏族で、采女臣(うねめのおみ)を称する。物部氏の祖とされる饒速日命の後裔を称すると伝える。後宮に女官(采女)を貢進する氏族の名に由来するともいわれるが、固有の系譜・事績の確証は乏しい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-211	矢田部	やたべ	-	-	物部分流	-	-	-	-	古代	物部氏系とされる伴造系の集団・氏族で、矢田部(やたべ)に関わるとみられる。矢の製作・管理など武具に関わる部民を率いたと解する説があるが、固有の系譜・事績を確定する史料は乏しい。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-213	阿閉臣事代	-	-	-	-	-	-	-	-	古代	「阿閉臣事代(あへのおみことしろ)」は『日本書紀』顕宗紀などにみえる人物名であり、氏族名ではない。阿閉臣(阿倍氏系とされる)に属する個人と解され、任那派遣や神託の伝承に関わって語られる。氏族としては阿閉臣・阿倍氏の項を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-214	犬上氏	いぬかみうじ	-	-	-	-	-	近江	-	古代	近江国犬上郡を本拠としたと伝える古代氏族で、犬上君(いぬかみのきみ)を称する。日本武尊(倭建命)の後裔を称する所伝が伝えられる。遣隋使・遣唐使として派遣されたと伝える犬上御田鍬(いぬかみのみたすき)を出したことで知られる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-215	和気氏	わけうじ	-	-	-	-	-	備前	-	平安	和気清麻呂(宇佐託宣)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-216	清原氏(学者)	-	-	-	-	-	-	山城	-	平安	学問氏族	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-217	大中臣氏	-	-	-	中臣分流	DEI-359	-	伊勢	-	中世	伊勢神宮神官	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-218	下川辺氏	-	-	-	-	-	-	-	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-219	安閑朝氏族(集合)	-	-	-	-	-	-	-	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-220	継体朝氏族(集合)	-	-	-	-	-	-	-	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-218	下川辺氏	-	-	-	-	-	-	-	-	-	下河辺氏(しもこうべし)に関わるとみられる項目。下総国下河辺荘を本拠とし、藤原秀郷の流れをくむと称する中世の武士の一族と伝えられるが、「下川辺」という表記の確証や本項の指す系統には注意を要する。古代氏族ではなく中世武家とみられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-219	安閑朝氏族(集合)	-	-	-	-	-	-	-	-	古墳	継体・安閑朝期(古墳時代後期)に活動したと想定される諸氏族を、その時代を基準にまとめた集合的・便宜的項目であり、単一の氏族実体ではない。個別の氏族については各項を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-220	継体朝氏族(集合)	-	-	-	-	-	-	-	-	古墳	継体朝期(古墳時代後期、6世紀前半と推定される)に活動したと想定される諸氏族を、その時代を基準にまとめた集合的・便宜的項目であり、単一の氏族実体ではない。継体天皇の出自(越前・近江との関わりなど)をめぐっては諸説がある。個別の氏族については各項を参照。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-221	皇別氏族(集合)	-	-	-	-	-	-	-	-	-	新撰姓氏録の皇別カテゴリ	verified	genealogical	2026-05-25T00:00:00	claude	auto-init: 系譜資料記載
 CLN-222	神別氏族(集合)	-	-	-	-	-	-	-	-	-	新撰姓氏録の神別カテゴリ	verified	genealogical	2026-05-25T00:00:00	claude	auto-init: 系譜資料記載
 CLN-223	諸蕃氏族(集合)	-	-	-	-	-	-	-	-	-	新撰姓氏録の諸蕃(渡来)カテゴリ	verified	genealogical	2026-05-25T00:00:00	claude	auto-init: 系譜資料記載
 CLN-224	未定氏族(集合)	-	-	-	-	-	-	-	-	-	新撰姓氏録未定カテゴリ	verified	genealogical	2026-05-25T00:00:00	claude	auto-init: 系譜資料記載
-CLN-225	日代宮氏族	-	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-226	穴穂部	あなほべ	-	-	-	-	-	-	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-225	日代宮氏族	-	-	-	-	-	-	-	-	古代	「日代宮」は景行天皇の宮号(纒向日代宮)に由来する呼称であり、独立した氏族名としての確証はない。氏族として実体を特定できないため詳細は付さない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-226	穴穂部	あなほべ	-	-	-	-	-	-	-	古代	穴穂部は皇子・皇女の養育や名代に関わる部民(名代部)とされ、用明天皇皇女・穴穂部間人皇女や穴穂部皇子の名にあらわれる集団的呼称である。独立した有力氏族というより名代の部とみられる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-227	伊勢国造	-	-	-	地方豪族	DEI-124	伊勢神宮	伊勢	-	古墳〜古代	大若子命系	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-228	近江国造	-	-	-	-	-	-	近江	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-229	山城国造	-	-	-	-	-	-	山城	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-230	凡河内国造	おおしこうちのくにのみやつこ	-	-	-	-	-	摂津|河内	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-228	近江国造	-	-	-	-	-	-	近江	-	古墳	近江国造は『先代旧事本紀』国造本紀に記載される近江(滋賀県)の在地首長層を指す国造の一つと伝える。具体的な系譜・人物については史料が乏しく不明な点が多い。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-229	山城国造	-	-	-	-	-	-	山城	-	古墳	山城国造は『先代旧事本紀』国造本紀に記載される山城(京都府南部)の国造と伝える。賀茂・鴨県主など在地祭祀氏族との関係が論じられるが、確実な系譜は不明な点が多い。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-230	凡河内国造	おおしこうちのくにのみやつこ	-	-	-	-	-	摂津|河内	-	古墳	凡河内国造(おおしこうちのくにのみやつこ)は摂津・河内一帯を治めたと伝える国造で、『古事記』は天津彦根命を凡川内国造らの祖と記す。『先代旧事本紀』国造本紀にもその設置伝承がみえる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-231	古代天皇家(集合)	-	-	-	皇統	-	-	-	-	-	皇統 emperor master と連携	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-232	藤原北家近衛	-	-	-	藤原分流	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-233	藤原北家九条	-	-	-	藤原分流	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-234	藤原北家鷹司	-	-	-	藤原分流	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-235	藤原北家一条	-	-	-	藤原分流	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-236	藤原北家二条	-	-	-	藤原分流	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-232	藤原北家近衛	-	-	-	藤原分流	-	-	山城	-	中世	近衛家は藤原北家・摂関家嫡流の一つで、藤原忠通の子・基実を祖とする五摂家筆頭の公家。鎌倉期以降、摂政・関白を多く輩出した。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-233	藤原北家九条	-	-	-	藤原分流	-	-	山城	-	中世	九条家は藤原北家・摂関家の一つで、藤原忠通の子・兼実を祖とする五摂家の一。鎌倉期に近衛家と並ぶ摂関家として確立した。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-234	藤原北家鷹司	-	-	-	藤原分流	-	-	山城	-	中世	鷹司家は藤原北家・近衛家から分かれた摂関家で、近衛家実の子・兼平を祖とする五摂家の一。家名は京都鷹司の邸第に由来する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-235	藤原北家一条	-	-	-	藤原分流	-	-	山城	-	中世	一条家は藤原北家・九条家から分かれた摂関家で、九条道家の子・実経を祖とする五摂家の一。家名は京都一条の邸第に由来する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-236	藤原北家二条	-	-	-	藤原分流	-	-	山城	-	中世	二条家は藤原北家・九条家から分かれた摂関家で、九条道家の子・良実を祖とする五摂家の一。家名は京都二条の邸第に由来する。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-237	平氏	へいし	桓武平氏	-	皇別	-	-	伊勢|相模|常陸	-	平安〜中世	桓武平氏伊勢平氏(平清盛)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-238	源氏	げんじ	清和源氏	-	皇別	-	-	山城|河内|甲斐	-	平安〜中世	清和源氏(源頼朝)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-239	源氏(嵯峨)	-	-	嵯峨源氏	-	皇別	-	-	-	-	平安 / -	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-240	源氏(村上)	-	-	村上源氏	-	皇別	-	-	-	-	平安 / -	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-241	平氏(伊勢)	-	-	-	-	-	-	伊勢	-	平安〜中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-241	平氏(伊勢)	-	-	-	-	-	-	伊勢	-	平安〜中世	伊勢平氏は桓武天皇に出る桓武平氏の一流で、平維衡が伊勢に基盤を築いたことに始まると伝える。平正盛・忠盛・清盛らを出し、平安末に院政期の武家として台頭した。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-242	平氏(関東)	-	-	-	-	-	-	常陸|相模	-	平安〜中世	平将門等	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-243	藤原秀郷	-	-	俵藤太	-	武家	-	-	下野	-	平安 / 将門の乱平定	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-244	平将門	-	-	-	-	-	SHR-019	常陸|下総	-	平安	承平天慶の乱	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-245	藤原純友	-	-	-	-	-	-	伊予	-	平安	承平天慶の乱	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-246	藤原氏家学	-	-	-	-	-	-	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-247	日蓮宗鎌倉	-	-	-	-	-	-	-	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-248	真言宗高野山	-	-	-	-	DEI-213	-	紀伊	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-249	天台宗比叡山	-	-	-	-	-	SHR-014	近江	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-246	藤原氏家学	-	-	-	-	-	-	山城	-	中世	「藤原氏家学」は氏族名ではなく、藤原氏(とくに摂関家・諸流)に伝えられた有職故実・学問・家業を指す概念的呼称である。特定の氏族実体を伴わないため詳細は付さない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-247	日蓮宗鎌倉	-	-	-	-	-	-	-	-	中世	「日蓮宗鎌倉」は氏族ではなく、鎌倉時代に日蓮が開いた仏教宗派(日蓮宗・法華宗)を指す。宗教教団であり氏族ではないため詳細は付さない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-248	真言宗高野山	-	-	-	-	DEI-213	-	紀伊	-	中世	「真言宗高野山」は氏族ではなく、空海(弘法大師)が高野山金剛峯寺を中心に開いた真言宗の教団・寺院を指す。宗教組織であり氏族ではないため詳細は付さない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-249	天台宗比叡山	-	-	-	-	-	SHR-014	近江	-	中世	「天台宗比叡山」は氏族ではなく、最澄が比叡山延暦寺を本拠に開いた天台宗の教団・寺院を指す。宗教組織であり氏族ではないため詳細は付さない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-250	修験者集団	-	-	-	-	-	-	全国	-	古代〜中世	山伏(修験道)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-251	本山派修験	-	-	-	修験	-	-	全国	-	中世	聖護院、天台系	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-252	当山派修験	-	-	-	修験	-	-	全国	-	中世	三宝院、真言系	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-253	羽黒派修験	-	-	-	修験	-	出羽三山	出羽	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-254	英彦山派修験	-	-	-	修験	-	-	豊前	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-253	羽黒派修験	-	-	-	修験	-	出羽三山	出羽	-	中世	出羽三山(羽黒山・月山・湯殿山)を拠点とした修験道の一派で、羽黒派と称される。天台宗系の本山派の影響下にありつつ独自の組織を発達させたと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-254	英彦山派修験	-	-	-	修験	-	-	豊前	-	中世	英彦山(福岡・大分県境)を拠点とした修験道の一派で、英彦山派と称される。九州を中心に勢力を持ったと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-255	諏訪神社神職集合	-	-	-	-	-	諏訪大社	信濃	-	古代〜中世	諏訪氏(大祝)+守矢氏(神長官)+金刺氏(下社)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-256	出雲国造系神職	-	-	-	-	-	-	出雲	-	古代	CLN-001 関連	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-257	伊勢神宮祢宜・権祢宜集合	-	-	-	-	-	伊勢神宮	伊勢	-	古代〜中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-257	伊勢神宮祢宜・権祢宜集合	-	-	-	-	-	伊勢神宮	伊勢	-	古代〜中世	伊勢神宮に奉仕した祢宜・権祢宜などの神職を一括した集合的呼称であり、単一の氏族ではない。荒木田氏(内宮)・度会氏(外宮)など複数の社家から構成された。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-258	諸国一宮神職	-	-	-	-	-	-	全国	-	古代〜中世	全国 68 国一宮神職(集合)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-259	式内社神官集合	-	-	-	-	-	-	全国	-	古代	延喜式 2861 社の神官(集合)	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: notes に系譜資料参照
 CLN-260	琉球聞得大君家	-	-	-	琉球祭祀	-	-	琉球	-	琉球王朝	王女の聞得大君職	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-261	琉球ノロ家	-	-	-	琉球祭祀	-	-	琉球	-	琉球王朝	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-262	琉球祝女(ユタ)	-	-	-	琉球民間	-	-	琉球	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-261	琉球ノロ家	-	-	-	琉球祭祀	-	-	琉球	-	琉球王朝	琉球の地域祭祀を司った女性祭司(ノロ、祝女)の家系を指す集合的呼称であり、単一氏族ではない。琉球各地に世襲的に存在したと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-262	琉球祝女(ユタ)	-	-	-	琉球民間	-	-	琉球	-	-	琉球の民間霊媒者ユタを指すが、ユタは祝女(ノロ)とは別系統の民間巫者であり、世襲氏族ではない。入力の「祝女(ユタ)」という併記は両者の混同を含む。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-263	琉球王家(尚氏)	-	-	-	琉球王朝	-	首里城	琉球	-	1429-1879	琉球第二尚氏王統	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-264	琉球第一尚氏	-	-	-	-	-	-	琉球	-	1406-1469	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-264	琉球第一尚氏	-	-	-	-	-	-	琉球	-	1406-1469	琉球王国の最初の尚氏王統(第一尚氏)を指す。1406年に尚巴志の父尚思紹が中山王となり三山を統一、1469年のクーデターで滅んだと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-265	琉球三山	-	-	-	-	-	-	琉球	-	14C	北山・中山・南山	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-266	近世藩主集合	-	-	-	-	-	-	諸国	-	江戸	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-266	近世藩主集合	-	-	-	-	-	-	諸国	-	江戸	近世(江戸時代)の諸藩主を一括した集合的呼称であり、単一氏族ではない。多数の大名家を含む総称である。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-267	徳川氏	とくがわうじ	-	-	武家	-	-	-	-	江戸	江戸幕府将軍家	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-268	豊臣氏	-	-	-	武家	-	-	-	-	安土桃山	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-269	織田氏	-	-	-	武家	-	-	尾張	-	安土桃山	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-270	近世神職家(集合)	-	-	-	-	-	-	-	-	江戸	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-268	豊臣氏	-	-	-	武家	-	-	-	-	安土桃山	豊臣秀吉が天正13年(1585年)頃に下賜された氏(姓)で、武家政権を率いた。秀吉個人の出自は諸説あり、もとは木下・羽柴を称したと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-269	織田氏	-	-	-	武家	-	-	尾張	-	安土桃山	織田信長を出した武家。越前織田荘を本拠とし、尾張守護斯波氏の守護代家から戦国大名へ成長したと伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-270	近世神職家(集合)	-	-	-	-	-	-	-	-	江戸	近世(江戸時代)の神職家を一括した集合的呼称であり、単一氏族ではない。各地の社家を総称したもの。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-271	平田篤胤門下	-	-	-	-	DEI-388	-	-	-	江戸	復古神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-272	本居宣長門下	-	-	-	-	DEI-389	-	-	-	江戸	国学	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-389 が verified
 CLN-273	賀茂真淵門下	-	-	-	-	-	-	-	-	江戸	国学	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-274	山崎闇斎門下	-	-	-	-	-	-	-	-	江戸	垂加神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-275	吉田兼俱	よしだかねとも	-	-	中世神道	-	-	山城	-	中世	吉田神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-276	吉田神道家	-	-	-	-	-	吉田神社	山城	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-276	吉田神道家	-	-	-	-	-	吉田神社	山城	-	中世	卜部氏(吉田家)を出自とする神道家で、吉田神道(唯一神道)を唱えた家。室町期の卜部兼倶に始まると伝える。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-277	度会家行	-	-	-	-	DEI-126	-	伊勢	-	中世	度会神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-278	度会行忠	-	-	-	-	DEI-126	-	伊勢	-	中世	度会神道	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-279	卜部兼俱	-	-	-	-	-	-	-	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-280	藤波(伊勢)	-	-	-	-	-	伊勢神宮	伊勢	-	中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-281	出雲千家家(現代)	-	-	-	-	DEI-371	SHR-001	出雲	-	近代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-282	出雲北島家(現代)	-	-	-	-	DEI-372	SHR-001	出雲	-	近代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-283	近代神官集合	-	-	-	-	-	-	全国	-	近代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-284	国学者集団(集合)	-	-	-	-	-	-	全国	-	江戸	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-285	近代神道学者集団	-	-	-	-	-	-	全国	-	近代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-286	民俗学者集団	-	-	-	-	-	-	全国	-	近代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-279	卜部兼俱	-	-	-	-	-	-	-	-	中世	室町後期の神道家・卜部兼倶(吉田兼倶)個人を指すものであり、氏族ではない。吉田神道(唯一神道)を大成したと伝える人物名である。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-280	藤波(伊勢)	-	-	-	-	-	伊勢神宮	伊勢	-	中世	藤波家は伊勢神宮(内宮)祭主を世襲したと伝える公家(社家)で、大中臣氏(中臣・藤原氏系)の流れを汲むとされる。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-281	出雲千家家(現代)	-	-	-	-	DEI-371	SHR-001	出雲	-	近代	出雲大社の宮司家の一つ、千家家(出雲国造家の一系統)の近現代における呼称。出雲国造を世襲したと伝える家系を指す。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-282	出雲北島家(現代)	-	-	-	-	DEI-372	SHR-001	出雲	-	近代	出雲大社の宮司家の一つ、北島家(出雲国造家の一系統)の近現代における呼称。出雲国造を世襲したと伝える家系を指す。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-283	近代神官集合	-	-	-	-	-	-	全国	-	近代	近代の神官・神職を便宜的にまとめた集合分類であり、単一の氏族ではない。特定の祖神や系譜を共有する実在の同族集団ではなく、明治期以降の神職身分の総称的カテゴリとして整理されたもの。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-284	国学者集団(集合)	-	-	-	-	-	-	全国	-	江戸	江戸期の国学者を便宜的にまとめた集合分類であり、単一の氏族ではない。荷田春満・賀茂真淵・本居宣長・平田篤胤らに代表される学統の総称で、血縁的同族集団ではない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-285	近代神道学者集団	-	-	-	-	-	-	全国	-	近代	近代の神道学者を便宜的にまとめた集合分類であり、単一の氏族ではない。明治以降の神道研究者・神道学者の総称的カテゴリで、特定の祖神や系譜を共有する氏族ではない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-286	民俗学者集団	-	-	-	-	-	-	全国	-	近代	近代以降の民俗学者を便宜的にまとめた集合分類であり、単一の氏族ではない。柳田國男・折口信夫らに代表される研究者群の総称で、血縁的同族集団ではない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-287	太安万侶	-	-	-	-	DEI-385	-	大和	-	古代	古事記編者	verified	genealogical	2026-05-25T00:00:00	claude	auto-init: 系譜資料記載
 CLN-288	舎人親王	-	-	-	-	DEI-386	-	大和	-	古代	書紀編纂	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-386 が verified
 CLN-289	藤原不比等	-	-	-	-	-	-	山城	-	古代	藤原氏祖	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-290	藤原仲麻呂	-	-	-	-	-	-	山城	-	古代	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-290	藤原仲麻呂	-	-	-	-	-	-	山城	-	古代	藤原南家の藤原武智麻呂の子とされる奈良時代の政治家・藤原仲麻呂個人を指し、氏族そのものではない。文献上明確な実在人物だが、本項目は氏族エントリとして立項された点に注意。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-291	藤原道長	-	-	-	-	-	-	山城	-	平安	摂関政治極盛	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-292	藤原頼通	-	-	-	-	-	-	山城	-	平安	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-292	藤原頼通	-	-	-	-	-	-	山城	-	平安	藤原北家の藤原道長の子とされる平安中期の公卿・藤原頼通個人を指し、氏族そのものではない。文献上明確な実在人物だが、本項目は氏族エントリとして立項された点に注意。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-293	藤原氏(全)	-	-	-	-	DEI-360	-	山城	-	-	藤原氏全集合	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-294	物部祭祀継承者	-	-	-	-	DEI-339	SHR-011	大和	-	-	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-294	物部祭祀継承者	-	-	-	-	DEI-339	SHR-011	大和	-	-	物部氏の祭祀的伝統を継承する立場を指して便宜的に立項されたカテゴリであり、「物部祭祀継承者」という名の独立した氏族が史料上確認されるわけではない。石上神宮との関わりが想定される整理上の項目。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-295	伊勢斎宮歴代(集合)	-	-	-	皇別	-	伊勢神宮	伊勢	-	古代〜中世	歴代斎王(豊鋤入姫→倭姫→…)	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-296	賀茂斎院歴代(集合)	-	-	-	皇別	-	賀茂上下	山城	-	平安	歴代斎院	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-297	近世修験者宿坊	-	-	-	-	-	-	-	-	江戸	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-298	山伏全国分布(集合)	-	-	-	-	-	-	全国	-	古代〜中世	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-299	近代神社本庁	-	-	-	-	-	-	全国	-	戦後	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
-CLN-300	全 68 国造(集合)	-	-	-	-	-	-	全国	-	古墳	-	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-297	近世修験者宿坊	-	-	-	-	-	-	-	-	江戸	近世(江戸期)の修験者が営んだ宿坊を指す category であり、単一の氏族ではない。各地の霊山周辺で参詣者を受け入れた宿坊運営者の総称的整理であって、特定の祖神・系譜を共有する同族集団ではない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-298	山伏全国分布(集合)	-	-	-	-	-	-	全国	-	古代〜中世	全国に分布した山伏(修験者)を便宜的にまとめた集合分類であり、単一の氏族ではない。各地の霊山を拠点とした修験の徒の総称で、血縁的同族集団としての確実な事績は本項目としては伝わらない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-299	近代神社本庁	-	-	-	-	-	-	全国	-	戦後	戦後の1946(昭和21)年に設立された宗教法人・神社本庁を指し、氏族ではなく組織である。本項目は氏族エントリとして立項されているが、実体は近代の神社包括宗教法人であり、祖神や系譜を共有する同族集団ではない。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
+CLN-300	全 68 国造(集合)	-	-	-	-	-	-	全国	-	古墳	古墳時代に各地に置かれたとされる国造(くにのみやつこ)全体を便宜的にまとめた集合分類であり、単一の氏族ではない。「全68国造」という括りも整理上の総称で、個々の国造はそれぞれ別系統の氏族とされ、確実な総数や一覧には史料間で異同がある。	under_review	genealogical	2026-05-25T00:00:00	claude	auto-init: 初期値
 CLN-301	津守氏	つもりうじ	津守連|津守宿禰	つもりのむらじ	祭祀氏族(海人)	DEI-591	SHR-015	REGION-摂津国	-	古代〜中世	住吉大社の社家。住吉三神奉斎。遣唐使に随行、難波津の海上行政を担う。振魂命系(L2)	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-591 が verified
 CLN-302	海犬養	あまのいぬかい	海犬養連	あまのいぬかいのむらじ	技術氏族(海人)	DEI-168	-	-	-	古代	海産物貢納・宮廷警護を兼ねた海人系伴造。万葉歌人海犬養岡麻呂を出す(L1)	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-168 が verified
 CLN-303	安曇野安曇族	あづみのあづみぞく	信濃安曇	しなのあづみ	祭祀氏族(海人/内陸展開)	DEI-583	穂高神社	REGION-信濃国	-	古代〜中世	北部九州阿曇連の内陸移配集団。穂高見命奉斎、御船祭を伝承。海人の内陸展開の象徴(L3)	verified	genealogical	2026-05-25T00:00:00	claude	auto-expand Phase 3: 祖神 DEI-583 が verified
