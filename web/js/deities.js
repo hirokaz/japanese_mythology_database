@@ -19,6 +19,8 @@
 
   try {
     deities = await DataLoader.load('deity');
+    // 統合済み (merged_into 設定済み) の重複エントリはリストから除外
+    deities = deities.filter(d => !d.merged_into || d.merged_into === '-');
 
     // Populate category options (top 30 most common)
     const cats = {};
