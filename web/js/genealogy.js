@@ -54,6 +54,25 @@
   let showCosmogony = false;  // C 層展開フラグ
   let deities, relations, deityIdx;
 
+  // C 層サブタイプ分類 (DISC-009 Phase 1)
+  // 造化三神 / 別天津神 / 神世七代独神 / 神世七代対偶神 を視覚区別するためのメタデータ
+  const COSMOGONY_SUBTYPE = {
+    'DEI-304': 'sozo',         'DEI-007': 'sozo',         'DEI-008': 'sozo',         // 造化三神
+    'DEI-604': 'kotoamatsu',   'DEI-605': 'kotoamatsu',                              // 別天津神 (残り2柱)
+    'DEI-606': 'kamiyo_solo',  'DEI-607': 'kamiyo_solo',                             // 神世七代 独神
+    'DEI-608': 'kamiyo_pair',  'DEI-609': 'kamiyo_pair',                             // 神世七代 対偶神 第3
+    'DEI-610': 'kamiyo_pair',  'DEI-611': 'kamiyo_pair',                             //  〃 第4
+    'DEI-612': 'kamiyo_pair',  'DEI-613': 'kamiyo_pair',                             //  〃 第5
+    'DEI-614': 'kamiyo_pair',  'DEI-615': 'kamiyo_pair',                             //  〃 第6
+    'DEI-005': 'kamiyo_pair',  'DEI-006': 'kamiyo_pair',                             //  〃 第7 (伊邪那岐/伊邪那美)
+  };
+  const COSMOGONY_LABEL = {
+    sozo:         '造化三神',
+    kotoamatsu:   '別天津神',
+    kamiyo_solo:  '神世七代・独神',
+    kamiyo_pair:  '神世七代・対偶神',
+  };
+
   // 重要な傍系兄弟ノード — 直系皇祖ではないが系譜理解に不可欠
   const SIBLING_NODES = [
     'DEI-002',  // 須佐之男命 (天照の弟、三貴子)
@@ -296,8 +315,9 @@
       const reignText = reignInfo ? reignInfo.reign : '';
 
       // C 層は「神代」ラベル、B 層 (神代部分) は「神代」ラベル、傍系兄弟は「三貴子」等
+      // C 層は subtype 別ラベル (造化三神 / 別天津神 / 神世七代・独神 / 神世七代・対偶神)
       const layerText = isSibling ? '神代/傍系'
-        : isAncestorC ? '神代(宇宙生成)'
+        : isAncestorC ? (COSMOGONY_LABEL[COSMOGONY_SUBTYPE[id]] || '神代(宇宙生成)')
         : (isAncestorB && !daiText ? '神代' : '');
 
       svgInner += `<a href="${url}" target="_self">
