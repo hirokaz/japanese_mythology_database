@@ -54,6 +54,25 @@
   let showCosmogony = false;  // C 層展開フラグ
   let deities, relations, deityIdx;
 
+  // C 層サブタイプ分類 (DISC-009 Phase 1)
+  // 造化三神 / 別天津神 / 神世七代独神 / 神世七代対偶神 を視覚区別するためのメタデータ
+  const COSMOGONY_SUBTYPE = {
+    'DEI-304': 'sozo',         'DEI-007': 'sozo',         'DEI-008': 'sozo',         // 造化三神
+    'DEI-604': 'kotoamatsu',   'DEI-605': 'kotoamatsu',                              // 別天津神 (残り2柱)
+    'DEI-606': 'kamiyo_solo',  'DEI-607': 'kamiyo_solo',                             // 神世七代 独神
+    'DEI-608': 'kamiyo_pair',  'DEI-609': 'kamiyo_pair',                             // 神世七代 対偶神 第3
+    'DEI-610': 'kamiyo_pair',  'DEI-611': 'kamiyo_pair',                             //  〃 第4
+    'DEI-612': 'kamiyo_pair',  'DEI-613': 'kamiyo_pair',                             //  〃 第5
+    'DEI-614': 'kamiyo_pair',  'DEI-615': 'kamiyo_pair',                             //  〃 第6
+    'DEI-005': 'kamiyo_pair',  'DEI-006': 'kamiyo_pair',                             //  〃 第7 (伊邪那岐/伊邪那美)
+  };
+  const COSMOGONY_LABEL = {
+    sozo:         '造化三神',
+    kotoamatsu:   '別天津神',
+    kamiyo_solo:  '神世七代・独神',
+    kamiyo_pair:  '神世七代・対偶神',
+  };
+
   // 重要な傍系兄弟ノード — 直系皇祖ではないが系譜理解に不可欠
   const SIBLING_NODES = [
     'DEI-002',  // 須佐之男命 (天照の弟、三貴子)
@@ -230,7 +249,9 @@
       }
     }
 
-    // 婚姻線
+    // 婚姻線 + 神世七代対偶神の「対偶」連結 (DISC-009 Phase 2)
+    // 対偶神ペア (神世七代 3-7代) は婚姻ではなく宇宙生成上の「対偶」関係として
+    // 中性灰の細実線で描画し、「対偶」label を付ける (婚姻=金破線 / 親子=赤実線と区別)
     const drawnMarriages = new Set();
     for (const a in marriages) {
       marriages[a].forEach(b => {
@@ -244,7 +265,20 @@
         const x1 = Math.min(pa.x, pb.x) + NODE_W;
         const x2 = Math.max(pa.x, pb.x);
         if (x1 < x2) {
-          svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+          const isKamiyoPair = COSMOGONY_SUBTYPE[a] === 'kamiyo_pair'
+                            && COSMOGONY_SUBTYPE[b] === 'kamiyo_pair';
+          if (isKamiyoPair) {
+            // 対偶: 中性灰・細実線・矢印なし。中点に「対偶」chip
+            const mx = (x1 + x2) / 2;
+            svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#7a7a7a" stroke-width="1.2"></path>`;
+            svgInner += `<rect x="${mx - 16}" y="${y - 8}" width="32" height="14" rx="3" ry="3" fill="#fdf7ef" stroke="#7a7a7a" stroke-width="0.8"></rect>`;
+            svgInner += `<text x="${mx}" y="${y + 2}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="9" fill="#5a5a5a">対偶</text>`;
+          } else {
+            // 婚姻: 既存の金破線
+            svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+          }
         }
       });
     }
@@ -296,8 +330,9 @@
       const reignText = reignInfo ? reignInfo.reign : '';
 
       // C 層は「神代」ラベル、B 層 (神代部分) は「神代」ラベル、傍系兄弟は「三貴子」等
+      // C 層は subtype 別ラベル (造化三神 / 別天津神 / 神世七代・独神 / 神世七代・対偶神)
       const layerText = isSibling ? '神代/傍系'
-        : isAncestorC ? '神代(宇宙生成)'
+        : isAncestorC ? (COSMOGONY_LABEL[COSMOGONY_SUBTYPE[id]] || '神代(宇宙生成)')
         : (isAncestorB && !daiText ? '神代' : '');
 
       svgInner += `<a href="${url}" target="_self">
