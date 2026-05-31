@@ -249,7 +249,9 @@
       }
     }
 
-    // 婚姻線
+    // 婚姻線 + 神世七代対偶神の「対偶」連結 (DISC-009 Phase 2)
+    // 対偶神ペア (神世七代 3-7代) は婚姻ではなく宇宙生成上の「対偶」関係として
+    // 中性灰の細実線で描画し、「対偶」label を付ける (婚姻=金破線 / 親子=赤実線と区別)
     const drawnMarriages = new Set();
     for (const a in marriages) {
       marriages[a].forEach(b => {
@@ -263,7 +265,20 @@
         const x1 = Math.min(pa.x, pb.x) + NODE_W;
         const x2 = Math.max(pa.x, pb.x);
         if (x1 < x2) {
-          svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+          const isKamiyoPair = COSMOGONY_SUBTYPE[a] === 'kamiyo_pair'
+                            && COSMOGONY_SUBTYPE[b] === 'kamiyo_pair';
+          if (isKamiyoPair) {
+            // 対偶: 中性灰・細実線・矢印なし。中点に「対偶」chip
+            const mx = (x1 + x2) / 2;
+            svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#7a7a7a" stroke-width="1.2"></path>`;
+            svgInner += `<rect x="${mx - 16}" y="${y - 8}" width="32" height="14" rx="3" ry="3" fill="#fdf7ef" stroke="#7a7a7a" stroke-width="0.8"></rect>`;
+            svgInner += `<text x="${mx}" y="${y + 2}" text-anchor="middle"
+              font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
+              font-size="9" fill="#5a5a5a">対偶</text>`;
+          } else {
+            // 婚姻: 既存の金破線
+            svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+          }
         }
       });
     }

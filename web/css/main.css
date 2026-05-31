@@ -530,6 +530,7 @@ pre {
 .legend-sibling::before { background: #7a8a9a; }
 .legend-inferred::before { background: transparent; border-top: 2px dashed #d68a3a; height: 0; }
 .legend-succession::before { background: transparent; border-top: 2px dashed #a89878; height: 0; }
+.legend-pair::before { background: transparent; border-top: 1.5px solid #7a7a7a; height: 0; }
 .cosmogony-toggle:hover rect { filter: brightness(0.97); }
 .cosmogony-toggle text { pointer-events: none; user-select: none; }
 
