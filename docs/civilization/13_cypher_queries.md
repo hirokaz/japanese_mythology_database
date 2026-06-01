@@ -292,11 +292,13 @@ RETURN s.canonical_name AS 神社, s.address AS 住所
 ORDER BY s.canonical_name;
 ```
 
-### D-5: 別表神社 (近代社格、観光しやすい)
+### D-5: 近代社格上位社 (官幣社・国幣社・別格官幣社)
 
 ```cypher
 MATCH (s:Shrine {prefecture: $pref})
-WHERE s.shrine_rank_modern CONTAINS '別表'
+WHERE (s.shrine_rank_modern CONTAINS '官幣'
+       OR s.shrine_rank_modern CONTAINS '国幣'
+       OR s.shrine_rank_modern CONTAINS '別格官幣社')
   AND s.verified_status = 'verified'
 RETURN s.canonical_name, s.address, s.main_deity_ids
 ORDER BY s.canonical_name;
