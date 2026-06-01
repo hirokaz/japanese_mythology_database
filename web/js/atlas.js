@@ -15,7 +15,6 @@
     { key: 'ichinomiya',label: '一宮',       color: '#d4a017', test: (a) => a.includes('一宮') },
     { key: 'shikinai',  label: '式内社',     color: '#4a8c5a', test: (a) => a.includes('式内社') },
     { key: 'nijuni',    label: '二十二社',   color: '#9a5fb0', test: (a) => a.includes('二十二社') },
-    { key: 'beppyo',    label: '別表神社',   color: '#c87f32', test: (a, m) => m.includes('別表神社') },
     { key: 'kankoku',   label: '官幣・国幣社', color: '#3a7ca5', test: (a, m) => m.includes('官幣') || m.includes('国幣') },
   ];
   const OTHER = { key: 'other', label: 'その他', color: '#8a8a8a' };

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sacred Topology Atlas — 日本神話・神道史データベース</title>
-<meta name="description" content="shrine_master 全神社を対象とした神社分布の地理可視化。社格フィルター (名神大社・式内社・一宮・二十二社・別表・官国幣) と座標カバレッジを表示 (DISC-008)。">
+<meta name="description" content="shrine_master 全神社を対象とした神社分布の地理可視化。社格フィルター (名神大社・式内社・一宮・二十二社・官国幣) と座標カバレッジを表示 (DISC-008)。">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
@@ -89,7 +89,6 @@
     <label><input type="checkbox" id="filter_ichinomiya"> 一宮</label>
     <label><input type="checkbox" id="filter_shikinai"> 式内社</label>
     <label><input type="checkbox" id="filter_nijuni"> 二十二社</label>
-    <label><input type="checkbox" id="filter_beppyo"> 別表神社</label>
     <label><input type="checkbox" id="filter_kankoku"> 官幣・国幣社</label>
     <label><input type="checkbox" id="filter_other"> その他</label>
     <button type="button" id="filterAll" class="gen-btn" style="width:auto;padding:0 10px;">全て表示</button>
@@ -122,7 +121,7 @@
 
     <h2 class="section-title">後続 Phase</h2>
     <ul>
-      <li><strong>Phase 2 (本セッション一部実装)</strong>: ✅ <code>coordinates_accuracy</code> / <code>coordinates_source</code> / <code>visualization_confidence</code> field 追加。一宮+式内大社+二十二社+別表神社 (250 件) の座標補完は後続 (要・神社庁公開データ等の検証)</li>
+      <li><strong>Phase 2 (本セッション一部実装)</strong>: ✅ <code>coordinates_accuracy</code> / <code>coordinates_source</code> / <code>visualization_confidence</code> field 追加。一宮+式内大社+二十二社+官国幣社 (250 件) の座標補完は後続 (要・神社庁公開データ等の検証)</li>
       <li><strong>Phase 3</strong>: 全 verified shrine 表示 + sacred topology GeoJSON layer (海上守護網・山岳信仰連環・河川流域祭祀・断層 alignment・巡礼路)</li>
       <li><strong>Phase 4</strong>: evolving ritual topology (時間軸スライダー、勧請・分祀・遷宮・神階授与・一宮化 event)</li>
     </ul>
