@@ -67,7 +67,7 @@
     });
 
     // Populate rank filter (常用社格)
-    const rankPatterns = ['名神大社', '式内社', '一宮', '二宮', '官幣大社', '官幣中社', '官幣小社', '国幣大社', '国幣中社', '国幣小社', '別格官幣社', '別表神社', '府社', '県社', '郷社', '村社', '二十二社'];
+    const rankPatterns = ['名神大社', '式内社', '一宮', '二宮', '官幣大社', '官幣中社', '官幣小社', '国幣大社', '国幣中社', '国幣小社', '別格官幣社', '府社', '県社', '郷社', '村社', '二十二社'];
     rankPatterns.forEach(rk => {
       const opt = document.createElement('option');
       opt.value = rk;
