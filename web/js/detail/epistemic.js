@@ -37,5 +37,3 @@ function renderL45WarnBadge(r) {
   if (r.hypothesis_layer !== 'L4' && r.hypothesis_layer !== 'L5') return '';
   return ` <span class="badge-l4-5-warn" title="L4-L5 仮説: 大胆仮説または検証困難な思想的記載。引用時は両論並記必須 (CLAUDE.md §4.1)">⚠ L4-L5</span>`;
 }
-
-/** deity の詳細解説・一次資料・典拠リンク(deity_extended.tsv から) */

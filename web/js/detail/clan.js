@@ -3,18 +3,20 @@
 // Functions: renderClanProfile, renderClanExtended
 
 async function renderClanProfile(record, outRels, inRels) {
-  const [deities, shrines, clans, events, regions] = await Promise.all([
+  const [deities, shrines, clans, events, regions, emperorRows] = await Promise.all([
     DataLoader.load('deity'),
     DataLoader.load('shrine'),
     DataLoader.load('clan'),
     DataLoader.load('event'),
     DataLoader.load('region'),
+    DataLoader.load('emperor'),
   ]);
   const di = {}; deities.forEach(d => { di[d.master_id] = d; });
   const si = {}; shrines.forEach(s => { si[s.master_id] = s; });
   const ci = {}; clans.forEach(c => { ci[c.master_id] = c; });
   const ei = {}; events.forEach(e => { ei[e.event_id] = e; });
   const ri = {}; regions.forEach(r => { ri[r.region_id] = r; });
+  const mi = {}; emperorRows.forEach(m => { mi[m.emperor_id] = m; });
 
   let html = '';
 
@@ -127,10 +129,12 @@ async function renderClanProfile(record, outRels, inRels) {
   if (emperors.length) {
     html += `<div class="detail-section"><h2>関連天皇・皇族 (${emperors.length})</h2><ul class="relation-list">`;
     emperors.forEach(id => {
-      const d = di[id];
+      // served 関係の target は EMP- (emperor_master)、married_into 由来は DEI- (deity_master)
+      const rec = id.startsWith('EMP-') ? mi[id] : di[id];
       const url = DataLoader.detailUrl(id);
-      const name = d ? d.canonical_name : id;
-      html += `<li>${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''} <code style="font-size:0.78em;">${escapeHtml(id)}</code></li>`;
+      const name = rec ? rec.canonical_name : id;
+      const dai = rec && rec.dai ? ` <span class="badge badge-rank">第${escapeHtml(rec.dai)}代</span>` : '';
+      html += `<li>${url !== '#' ? `<a href="${url}">` : ''}${escapeHtml(name)}${url !== '#' ? `</a>` : ''}${dai} <code style="font-size:0.78em;">${escapeHtml(id)}</code></li>`;
     });
     html += `</ul></div>`;
   }
@@ -350,23 +354,7 @@ async function renderClanExtended(record) {
       `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
     html += `</div>`;
   }
-  if (entry.external_links && entry.external_links !== '-') {
-    html += `<div class="external-links"><strong>外部リンク・原文:</strong><ul class="external-link-list">`;
-    entry.external_links.split(' / ').forEach(item => {
-      const trimmed = item.trim();
-      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
-      if (m) {
-        const url = m[1];
-        const label = trimmed.replace(url, '').trim() || url;
-        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
-      } else {
-        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
-      }
-    });
-    html += `</ul></div>`;
-  }
+  html += renderExternalLinks(entry.external_links, '外部リンク・原文');
   html += `</div>`;
   return html;
 }
-
-/** 皇統 deity に在位・代数情報を表示(emperor_reign.js が読まれていればのみ) */

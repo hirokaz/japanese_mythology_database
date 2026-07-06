@@ -13,24 +13,23 @@
     requestAnimationFrame(tick);
   }
 
-  try {
-    const [shrine, deity, clan, motif, relations] = await Promise.all([
-      DataLoader.load('shrine'),
-      DataLoader.load('deity'),
-      DataLoader.load('clan'),
-      DataLoader.load('motif'),
-      DataLoader.load('relations'),
-    ]);
-    animateNumber(document.getElementById('statShrine'), shrine.length);
-    animateNumber(document.getElementById('statDeity'), deity.length);
-    animateNumber(document.getElementById('statClan'), clan.length);
-    animateNumber(document.getElementById('statMotif'), motif.length);
-    animateNumber(document.getElementById('statRelation'), relations.length);
-  } catch (err) {
-    console.error('stat load failed', err);
-    ['statShrine', 'statDeity', 'statClan', 'statMotif', 'statRelation'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el) el.textContent = '—';
-    });
-  }
+  // 1 ファイルの取得失敗が他のカウンタまで巻き込まないよう、stat ごとに独立して描画する
+  const STATS = [
+    ['statShrine', 'shrine'],
+    ['statDeity', 'deity'],
+    ['statClan', 'clan'],
+    ['statMotif', 'motif'],
+    ['statRelation', 'relations'],
+  ];
+  await Promise.all(STATS.map(async ([elId, source]) => {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    try {
+      const rows = await DataLoader.load(source);
+      animateNumber(el, rows.length);
+    } catch (err) {
+      console.error(`stat load failed: ${source}`, err);
+      el.textContent = '—';
+    }
+  }));
 })();

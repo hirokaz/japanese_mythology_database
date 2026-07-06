@@ -18,27 +18,12 @@ async function renderDeityExtended(record) {
       `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
     html += `</div>`;
   }
-  if (entry.external_links && entry.external_links !== '-') {
-    html += `<div class="external-links"><strong>外部リンク・原文:</strong><ul class="external-link-list">`;
-    entry.external_links.split(' / ').forEach(item => {
-      const trimmed = item.trim();
-      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
-      if (m) {
-        const url = m[1];
-        const label = trimmed.replace(url, '').trim() || url;
-        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
-      } else {
-        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
-      }
-    });
-    html += `</ul></div>`;
-  }
+  html += renderExternalLinks(entry.external_links, '外部リンク・原文');
   html += `</div>`;
   return html;
 }
 
-/** 神社の詳細解説・由緒・祭事・典拠(shrine_extended.tsv から) */
-
+/** 皇統 deity の在位・代数情報(emperor_reign.js が読まれていればのみ) */
 function renderEmperorReign(record) {
   if (!window.EmperorReign) return '';
   const info = window.EmperorReign[record.master_id];
@@ -52,5 +37,3 @@ function renderEmperorReign(record) {
     </dl>
   </div>`;
 }
-
-/** 氏族の詳細プロファイル(clan 用):来歴・系譜・神社・地域・天皇・歴史・祭事・氏族関係 */

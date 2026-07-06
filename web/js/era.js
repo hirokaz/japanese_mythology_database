@@ -79,22 +79,23 @@
 
   // 長い元号名から先にマッチさせる(天平勝宝が天平より優先)
   const eras = Object.keys(TABLE).sort((a, b) => b.length - a.length);
-  // 既に「(西暦)」「(西暦)」が後続する場合はスキップ
-  const PATTERN = new RegExp(`(${eras.join('|')})(元|\\d+)年(?!\\s*[\\(\\(])`, 'g');
+  // 既に「(西暦)」「(西暦)」が後続する場合はスキップ (半角・全角括弧の両方)。
+  // 年数は全角数字も直接マッチさせ、変換は注記部分のみで行う
+  // (テキスト全体を半角正規化して返すと、元号と無関係な全角数字まで書き換わるため)
+  const PATTERN = new RegExp(`(${eras.join('|')})(元|[0-9０-９]+)年(?!\\s*[\\(（])`, 'g');
 
   function toHalfWidth(s) {
     // 全角数字 ０-９ のみ半角に変換(半角はそのまま)
     return s.replace(/[０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
   }
 
-  /** "霊亀2年から…" → "霊亀2年(716)から…" を返す。 */
+  /** "霊亀2年から…" → "霊亀2年(716)から…" を返す。マッチ箇所以外は変更しない。 */
   function addWesternYears(text) {
     if (!text || typeof text !== 'string') return text;
-    const normalized = toHalfWidth(text);
-    return normalized.replace(PATTERN, (match, era, num) => {
+    return text.replace(PATTERN, (match, era, num) => {
       const start = TABLE[era];
       if (start == null) return match;
-      const n = num === '元' ? 1 : parseInt(num, 10);
+      const n = num === '元' ? 1 : parseInt(toHalfWidth(num), 10);
       if (isNaN(n)) return match;
       return `${era}${num}年(${start + n - 1})`;
     });

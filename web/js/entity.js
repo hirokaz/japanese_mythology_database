@@ -122,6 +122,23 @@
         ['notes', '備考'],
       ],
     },
+    emperor: {
+      idKey: 'emperor_id',
+      nameKey: 'canonical_name',
+      readingKey: 'canonical_reading',
+      typeLabel: '天皇',
+      fields: [
+        ['canonical_name', '名称'],
+        ['canonical_reading', '読み'],
+        ['dai', '代数'],
+        ['era_short', '時代'],
+        ['reign_period', '在位'],
+        ['related_deity_id', '対応神格 ID'],
+        ['hypothesis_layer', '仮説層'],
+        ['source_reference', '出典'],
+        ['notes', '備考'],
+      ],
+    },
     festival: {
       idKey: 'festival_id',
       nameKey: 'canonical_name',
@@ -257,6 +274,7 @@
       let valueHtml;
       if (k === 'related_deities' || k === 'related_shrines' || k === 'related_clans' ||
           k === 'related_deity_ids' || k === 'related_motif_ids' ||
+          k === 'related_deity_id' ||
           k === 'host_shrine_id' || k === 'secondary_shrine_ids') {
         valueHtml = v.split('|').map(x => {
           const t = x.trim();
@@ -335,6 +353,8 @@
       rank: 'master/rank_master.tsv',
       event: 'master/event_master.tsv',
       region: 'master/region_master.tsv',
+      festival: 'master/festival_master.tsv',
+      emperor: 'master/emperor_master.tsv',
     };
     const filePath = masterFiles[type] || '';
     return `<div class="detail-section">

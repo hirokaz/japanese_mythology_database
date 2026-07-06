@@ -1,7 +1,6 @@
 // Relation explorer page
 (async function () {
   const tableBody = document.querySelector('#relTable tbody');
-  const table = document.getElementById('relTable');
   const tableWrap = document.getElementById('relTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
@@ -54,7 +53,7 @@
 
   const params = new URLSearchParams(window.location.search);
   if (params.get('from')) idInput.value = params.get('from');
-  if (params.get('type')) typeFilter.value = params.get('type');
+  // ?type= は <option> 生成後でないと select に反映されないため後段で設定
 
   let relations = [];
   let nameMap = {};
@@ -111,6 +110,9 @@
       (typeIndex[r.relation_type] = typeIndex[r.relation_type] || []).push(r);
     });
 
+    // ディープリンク (?type=) を option 生成後に反映
+    if (params.get('type')) typeFilter.value = params.get('type');
+
     listIntro.textContent = `全 ${relations.length.toLocaleString()} 件のリレーションから探索。ID・関係タイプ・確実性層で絞り込めます。`;
     loading.hidden = true;
     if (tableWrap) tableWrap.hidden = false;
@@ -122,7 +124,8 @@
 
   function render(resetPage) {
     if (resetPage !== false) currentPage = 0;
-    const id = (idInput.value || '').trim();
+    // マスター ID は全て大文字 ASCII のため、小文字入力 (shr-016 等) も許容する
+    const id = (idInput.value || '').trim().toUpperCase();
     const t = typeFilter.value;
     const l = layerFilter.value;
     const itype = inferenceTypeFilter ? inferenceTypeFilter.value : '';

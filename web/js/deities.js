@@ -1,7 +1,6 @@
 // Deity list page
 (async function () {
   const tableBody = document.querySelector('#deityTable tbody');
-  const table = document.getElementById('deityTable');
   const tableWrap = document.getElementById('deityTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
@@ -13,7 +12,6 @@
 
   const params = new URLSearchParams(window.location.search);
   if (params.get('q')) searchInput.value = params.get('q');
-  if (params.get('cat')) categoryFilter.value = params.get('cat');
 
   let deities = [];
 
@@ -22,10 +20,10 @@
     // 統合済み (merged_into 設定済み) の重複エントリはリストから除外
     deities = deities.filter(d => !d.merged_into || d.merged_into === '-');
 
-    // Populate category options (top 30 most common)
+    // Populate category options (top 30 most common)。'-' はプレースホルダなので除外
     const cats = {};
     deities.forEach(d => {
-      const c = (d.category || '').split('/').map(s => s.trim()).filter(Boolean);
+      const c = (d.category || '').split('/').map(s => s.trim()).filter(x => x && x !== '-');
       c.forEach(x => { cats[x] = (cats[x] || 0) + 1; });
     });
     Object.entries(cats)
@@ -37,6 +35,9 @@
         opt.textContent = `${cat} (${n})`;
         categoryFilter.appendChild(opt);
       });
+
+    // ディープリンク (?cat=) を option 生成後に反映
+    if (params.get('cat')) categoryFilter.value = params.get('cat');
 
     listIntro.textContent = `全 ${deities.length.toLocaleString()} 神格を収録(神代の神々から近代神格化された天皇・武将まで)。`;
     loading.hidden = true;
@@ -84,7 +85,7 @@
           <a href="deity.html?id=${encodeURIComponent(d.master_id)}">${escapeHtml(d.canonical_name)}</a>
           <div style="color:#8b7560; font-size:0.85em;">${escapeHtml(d.canonical_reading || '')}</div>
         </td>
-        <td data-label="カテゴリ">${escapeHtml(d.category || '')} ${d.gender ? `<span style="color:#8b7560; font-size:0.85em;">(${escapeHtml(d.gender)})</span>` : ''}</td>
+        <td data-label="カテゴリ">${escapeHtml(d.category && d.category !== '-' ? d.category : '')} ${d.gender && d.gender !== '-' ? `<span style="color:#8b7560; font-size:0.85em;">(${escapeHtml(d.gender)})</span>` : ''}</td>
         <td class="col-meta" data-label="主要文献">${escapeHtml(d.main_text_appearance || '')}</td>
         <td class="col-meta" data-label="備考" style="max-width:380px;">${escapeHtml((d.notes || '').slice(0, 80))}${(d.notes || '').length > 80 ? '…' : ''}</td>
       </tr>

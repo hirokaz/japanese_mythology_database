@@ -131,7 +131,6 @@
     // parent_of (実子系譜) + succeeded_by (神代記の出現順) でツリー構築
     const parents = {};         // child -> parent
     const edgeKind = {};        // child -> 'parent' | 'inferred' | 'succession'
-    const children = {};
     const marriages = {};
 
     relations.forEach(r => {
@@ -146,12 +145,10 @@
         // 欠史八代等の inference_type=inferential は通常の親子線で描画
         const isNearAncestorSkip = (r.notes || '').includes('近祖参照');
         edgeKind[tgt] = isNearAncestorSkip ? 'inferred' : 'parent';
-        (children[src] = children[src] || []).push(tgt);
       } else if (r.relation_type === 'succeeded_by' && showCosmogony) {
         if (!parents[tgt]) {
           parents[tgt] = src;
           edgeKind[tgt] = 'succession';
-          (children[src] = children[src] || []).push(tgt);
         }
       } else if (r.relation_type === 'married_to') {
         (marriages[src] = marriages[src] || new Set()).add(tgt);
@@ -222,13 +219,6 @@
     const svgH = maxY + MARGIN;
 
     let svgInner = '';
-    svgInner += `
-      <defs>
-        <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="5" markerHeight="5" orient="auto">
-          <path d="M0,0 L0,8 L7,4 z" fill="#8b3a3a"></path>
-        </marker>
-      </defs>
-    `;
 
     // 親子線 / 出現順線 (L 字)
     for (const child in parents) {
@@ -252,6 +242,8 @@
     // 婚姻線 + 神世七代対偶神の「対偶」連結 (DISC-009 Phase 2)
     // 対偶神ペア (神世七代 3-7代) は婚姻ではなく宇宙生成上の「対偶」関係として
     // 中性灰の細実線で描画し、「対偶」label を付ける (婚姻=金破線 / 親子=赤実線と区別)
+    // 「対偶」chip はノード矩形に隠れないよう後段レイヤ (chipLayer) に貯めて最後に描く
+    let chipLayer = '';
     const drawnMarriages = new Set();
     for (const a in marriages) {
       marriages[a].forEach(b => {
@@ -260,7 +252,15 @@
         drawnMarriages.add(key);
         const pa = positions[a], pb = positions[b];
         if (!pa || !pb) return;
-        if (Math.abs(pa.y - pb.y) > 5) return;
+        if (Math.abs(pa.y - pb.y) > 5) {
+          // 世代を跨ぐ婚姻 (例: 天武-持統 の叔姪婚) — 金破線のカギ線で連結
+          const [left, right] = pa.x <= pb.x ? [pa, pb] : [pb, pa];
+          const ax = left.x + NODE_W, ay = left.y + NODE_H / 2;
+          const bx = right.x, by = right.y + NODE_H / 2;
+          const midX = (ax + bx) / 2;
+          svgInner += `<path d="M${ax},${ay} H${midX} V${by} H${bx}" fill="none" stroke="#c9a878" stroke-width="1.5" stroke-dasharray="4 3"></path>`;
+          return;
+        }
         const y = pa.y + NODE_H / 2;
         const x1 = Math.min(pa.x, pb.x) + NODE_W;
         const x2 = Math.max(pa.x, pb.x);
@@ -271,8 +271,8 @@
             // 対偶: 中性灰・細実線・矢印なし。中点に「対偶」chip
             const mx = (x1 + x2) / 2;
             svgInner += `<path d="M${x1},${y} H${x2}" fill="none" stroke="#7a7a7a" stroke-width="1.2"></path>`;
-            svgInner += `<rect x="${mx - 16}" y="${y - 8}" width="32" height="14" rx="3" ry="3" fill="#fdf7ef" stroke="#7a7a7a" stroke-width="0.8"></rect>`;
-            svgInner += `<text x="${mx}" y="${y + 2}" text-anchor="middle"
+            chipLayer += `<rect x="${mx - 13}" y="${y - 8}" width="26" height="14" rx="3" ry="3" fill="#fdf7ef" stroke="#7a7a7a" stroke-width="0.8"></rect>`;
+            chipLayer += `<text x="${mx}" y="${y + 2}" text-anchor="middle"
               font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif"
               font-size="9" fill="#5a5a5a">対偶</text>`;
           } else {
@@ -356,6 +356,9 @@
       </a>`;
     });
 
+    // 対偶 chip をノードの上に重ねる
+    svgInner += chipLayer;
+
     // 天照大神ノードの上に「▲ 宇宙起源を展開 / ▼ 折りたたむ」トグルボタンを描く
     const amaPos = positions['DEI-003'];
     if (amaPos) {
@@ -364,10 +367,12 @@
         : '▲ 宇宙起源(造化三神)を展開';
       const btnFill = showCosmogony ? '#eef0ee' : '#fdf3e0';
       const btnStroke = showCosmogony ? '#6a7a6a' : '#d68a3a';
-      const btnY = amaPos.y - 46;
+      // 前世代ノード下端 (GAP_Y - NODE_H = 40px の隙間) に収まる高さに置く
+      const btnY = amaPos.y - 40;
       const btnX = amaPos.x - 30;
       const btnW = NODE_W + 60;
-      svgInner += `<g class="cosmogony-toggle" style="cursor:pointer;" data-toggle="cosmogony">
+      svgInner += `<g class="cosmogony-toggle" style="cursor:pointer;" data-toggle="cosmogony"
+        tabindex="0" role="button" aria-expanded="${showCosmogony}" aria-label="${escapeXml(btnLabel)}">
         <rect x="${btnX}" y="${btnY}" width="${btnW}" height="26" rx="13" ry="13"
               fill="${btnFill}" stroke="${btnStroke}" stroke-width="1.5"></rect>
         <text x="${btnX + btnW / 2}" y="${btnY + 17}" text-anchor="middle"
@@ -381,16 +386,23 @@
     svg.setAttribute('height', svgH);
     svg.innerHTML = svgInner;
 
-    // toggle ボタンのクリックハンドラ — SVG 要素なので個別 attach
+    // toggle ボタンのクリック/キーボードハンドラ — SVG 要素なので個別 attach
     const toggleEl = svg.querySelector('[data-toggle="cosmogony"]');
     if (toggleEl) {
-      toggleEl.addEventListener('click', (ev) => {
+      const doToggle = (ev) => {
         ev.preventDefault();
         ev.stopPropagation();
         showCosmogony = !showCosmogony;
         renderGenealogy();
         // ズーム維持
         setZoom(zoom);
+        // 再描画後の toggle にフォーカスを戻す (キーボード操作の連続性)
+        const next = svg.querySelector('[data-toggle="cosmogony"]');
+        if (next && typeof next.focus === 'function') next.focus();
+      };
+      toggleEl.addEventListener('click', doToggle);
+      toggleEl.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter' || ev.key === ' ') doToggle(ev);
       });
     }
 

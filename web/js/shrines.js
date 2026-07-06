@@ -1,7 +1,6 @@
 // Shrine list page
 (async function () {
   const tableBody = document.querySelector('#shrineTable tbody');
-  const table = document.getElementById('shrineTable');
   const tableWrap = document.getElementById('shrineTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');
@@ -11,10 +10,9 @@
   const listStats = document.getElementById('listStats');
   const listIntro = document.getElementById('listIntro');
 
-  // Read query params
+  // Read query params (pref は <option> 生成後でないと select に反映されないため後段で設定)
   const params = new URLSearchParams(window.location.search);
   if (params.get('q')) searchInput.value = params.get('q');
-  if (params.get('pref')) prefFilter.value = params.get('pref');
 
   let shrines = [];
   let deityIndex = {};
@@ -74,6 +72,10 @@
       opt.textContent = rk;
       rankFilter.appendChild(opt);
     });
+
+    // ディープリンク (?pref= / ?rank=) を option 生成後に反映
+    if (params.get('pref')) prefFilter.value = params.get('pref');
+    if (params.get('rank')) rankFilter.value = params.get('rank');
 
     listIntro.textContent = `全 ${shrines.length.toLocaleString()} 件の神社・寺院・祭祀地を収録。検索やフィルタで絞り込めます。`;
     loading.hidden = true;

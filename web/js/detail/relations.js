@@ -2,7 +2,7 @@
 // relation section renderer (shrine/deity/clan 共通)
 // Functions: renderRelations
 
-async function renderRelations(grouped, direction, record) {
+async function renderRelations(grouped, direction) {
   const keys = Object.keys(grouped);
   if (keys.length === 0) return '';
 
@@ -15,6 +15,7 @@ async function renderRelations(grouped, direction, record) {
     primary_deity_of: 1, secondary_deity_of: 2, enshrined_at: 3,
     parent_of: 4, married_to: 5, sibling_of: 6, ancestor_of: 7,
     descended_from: 8, syncretized_with: 9,
+    associated_with: 30,
     mentioned_in: 50, located_in: 60, located_in_period: 61,
     located_in_country: 62, has_rank: 63, located_near: 70,
   };

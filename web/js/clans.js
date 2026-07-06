@@ -1,7 +1,6 @@
 // Clan list page
 (async function () {
   const tableBody = document.querySelector('#clanTable tbody');
-  const table = document.getElementById('clanTable');
   const tableWrap = document.getElementById('clanTableWrap');
   const loading = document.getElementById('loading');
   const empty = document.getElementById('empty');

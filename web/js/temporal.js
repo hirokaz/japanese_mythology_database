@@ -30,13 +30,22 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
+  // 404 時に fetch が HTML エラーページを resolve してしまい、
+  // parseTsv がゴミ行を描画する事故を防ぐ (r.ok を必ず検査)
+  function fetchTsv(path) {
+    return fetch(path)
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status} (${path})`);
+        return r.text();
+      })
+      .then(text => parseTsv(text).rows);
+  }
+
   // === Ritual Epoch ===
   let epochs = [];
-  fetch('../data/ritual_epoch.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      epochs = parsed.rows;
+  fetchTsv('../data/ritual_epoch.tsv')
+    .then(rows => {
+      epochs = rows;
       renderEpochs();
     })
     .catch(e => {
@@ -48,11 +57,12 @@
     const scopeFilter = document.getElementById('scopeFilter').value;
     const filtered = epochs.filter(e => {
       if (cycleFilter === '-') {
-        // continuous / conditional (non-numeric or empty cycle)
-        const n = parseInt(e.cycle_length, 10);
-        return isNaN(n);
+        // continuous / conditional (non-numeric or empty cycle)。
+        // early return せず scope フィルタとも AND で組み合わせる
+        if (!isNaN(parseInt(e.cycle_length, 10))) return false;
+      } else if (cycleFilter && String(e.cycle_length) !== cycleFilter) {
+        return false;
       }
-      if (cycleFilter && String(e.cycle_length) !== cycleFilter) return false;
       if (scopeFilter && e.sync_scope !== scopeFilter) return false;
       return true;
     });
@@ -92,11 +102,9 @@
 
   // === Continuity Break ===
   let breaks = [];
-  fetch('../data/continuity_break.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      breaks = parsed.rows;
+  fetchTsv('../data/continuity_break.tsv')
+    .then(rows => {
+      breaks = rows;
       renderBreaks();
     })
     .catch(e => {
@@ -145,11 +153,9 @@
 
   // === Persistence Medium ===
   let mediums = [];
-  fetch('../data/persistence_medium.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      mediums = parsed.rows;
+  fetchTsv('../data/persistence_medium.tsv')
+    .then(rows => {
+      mediums = rows;
       renderMediums();
     })
     .catch(e => {
@@ -197,11 +203,9 @@
 
   // === Entity Version (Phase 2 part) ===
   let versions = [];
-  fetch('../data/entity_version.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      versions = parsed.rows;
+  fetchTsv('../data/entity_version.tsv')
+    .then(rows => {
+      versions = rows;
       renderVersions();
     })
     .catch(e => {
@@ -268,11 +272,9 @@
 
   // === Narrative Layer (Phase 3) ===
   let narratives = [];
-  fetch('../data/narrative_layer.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      narratives = parsed.rows;
+  fetchTsv('../data/narrative_layer.tsv')
+    .then(rows => {
+      narratives = rows;
       renderNarratives();
     })
     .catch(e => {
@@ -317,11 +319,9 @@
 
   // === Sacred Boundary (DISC-013 Phase 1) ===
   let boundaries = [];
-  fetch('../data/boundary_structure.tsv')
-    .then(r => r.text())
-    .then(text => {
-      const parsed = parseTsv(text);
-      boundaries = parsed.rows;
+  fetchTsv('../data/boundary_structure.tsv')
+    .then(rows => {
+      boundaries = rows;
       renderBoundaries();
     })
     .catch(e => {
@@ -368,10 +368,9 @@
 
   // === Sacred Landscape (DISC-013 Phase 2) ===
   let landscapes = [];
-  fetch('../data/sacred_landscape.tsv')
-    .then(r => r.text())
-    .then(text => {
-      landscapes = parseTsv(text).rows;
+  fetchTsv('../data/sacred_landscape.tsv')
+    .then(rows => {
+      landscapes = rows;
       renderLandscapes();
     })
     .catch(e => {
@@ -420,10 +419,9 @@
 
   // === Ritual Space (DISC-013 Phase 3) ===
   let spaces = [];
-  fetch('../data/ritual_space.tsv')
-    .then(r => r.text())
-    .then(text => {
-      spaces = parseTsv(text).rows;
+  fetchTsv('../data/ritual_space.tsv')
+    .then(rows => {
+      spaces = rows;
       renderSpaces();
     })
     .catch(e => {
@@ -470,10 +468,9 @@
 
   // === Spatial Interpretation (DISC-013 Phase 4, DISC-012 連動) ===
   let spatials = [];
-  fetch('../data/spatial_interpretation.tsv')
-    .then(r => r.text())
-    .then(text => {
-      spatials = parseTsv(text).rows;
+  fetchTsv('../data/spatial_interpretation.tsv')
+    .then(rows => {
+      spatials = rows;
       renderSpatials();
     })
     .catch(e => {
