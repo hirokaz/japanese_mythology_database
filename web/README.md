@@ -32,7 +32,7 @@ web/
 │   ├── shrines.js          # 神社一覧
 │   ├── deities.js          # 神格一覧
 │   ├── clans.js            # 氏族一覧
-│   ├── detail.js           # 詳細ページ共通
+│   ├── detail/             # 詳細ページ (utils/epistemic/relations/shrine/deity/clan/core)
 │   └── relations.js        # 関係探索
 ├── images/                 # ロゴ・アイコン(SVG)
 └── pages/

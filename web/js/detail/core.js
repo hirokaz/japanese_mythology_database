@@ -75,7 +75,7 @@ async function renderDetail() {
     }
 
     // Group relations by type
-    const groupByType = (arr, dirField) => {
+    const groupByType = (arr) => {
       const m = {};
       arr.forEach(r => {
         const key = r.relation_type || '(unknown)';
@@ -84,8 +84,8 @@ async function renderDetail() {
       });
       return m;
     };
-    const outGrouped = groupByType(outgoing, 'target_id');
-    const inGrouped = groupByType(incoming, 'source_id');
+    const outGrouped = groupByType(outgoing);
+    const inGrouped = groupByType(incoming);
 
     document.title = `${record.canonical_name || record.canonical_title || id} | 神話 OS`;
     loading.hidden = true;
@@ -110,8 +110,8 @@ async function renderDetail() {
           ${type === 'shrine' ? await safeRenderSection('map', () => renderMap(record)) : ''}
           ${type === 'clan' ? await safeRenderSection('clan_profile', () => renderClanProfile(record, outgoing, incoming)) : ''}
           ${type === 'clan' ? await safeRenderSection('clan_extended', () => renderClanExtended(record)) : ''}
-          ${await safeRenderSection('relations_out', () => renderRelations(outGrouped, 'out', record))}
-          ${await safeRenderSection('relations_in', () => renderRelations(inGrouped, 'in', record))}
+          ${await safeRenderSection('relations_out', () => renderRelations(outGrouped, 'out'))}
+          ${await safeRenderSection('relations_in', () => renderRelations(inGrouped, 'in'))}
         </div>
         <aside>
           ${await safeRenderSection('sidebar', () => renderSidebar(record, type))}
@@ -135,8 +135,6 @@ async function renderDetail() {
 function getTypeLabel(t) {
   return { shrine: '神社', deity: '神格', clan: '氏族' }[t] || t;
 }
-
-/** DISC-006 verified_status バッジ。Phase 1 = warning のみ表示。 */
 
 function renderBasic(record, type) {
   const fields = {

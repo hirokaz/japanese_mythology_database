@@ -118,7 +118,9 @@ async function renderShrineProfile(record, outRels, inRels) {
   }
 
   // ===== 5. 関連神話・モチーフ =====
-  const motifRels = inRels.filter(r => r.source_type === 'motif_abstract' && r.relation_type === 'associated_with');
+  // associated_with に加え localized_via_shrine (モチーフの当社への土着化) も含める
+  const motifRels = inRels.filter(r => r.source_type === 'motif_abstract' &&
+    ['associated_with', 'localized_via_shrine'].includes(r.relation_type));
   if (motifRels.length) {
     html += `<div class="detail-section"><h2>関連神話・モチーフ (${motifRels.length})</h2><ul class="relation-list">`;
     motifRels.slice(0, 30).forEach(r => {
@@ -280,8 +282,7 @@ async function renderShrineProfile(record, outRels, inRels) {
   return html;
 }
 
-/** 主祭神 / 配祀神 セクション(shrine 用) */
-
+/** 神社の詳細解説・由緒・祭事・典拠(shrine_extended.tsv から) */
 async function renderShrineExtended(record) {
   let extended = [];
   try { extended = await DataLoader.load('shrine_extended'); } catch (e) { return ''; }
@@ -304,27 +305,12 @@ async function renderShrineExtended(record) {
       `<span class="source-pill">${escapeHtml(s.trim())}</span>`).join(' ');
     html += `</div>`;
   }
-  if (entry.external_links && entry.external_links !== '-') {
-    html += `<div class="external-links"><strong>外部リンク・公式:</strong><ul class="external-link-list">`;
-    entry.external_links.split(' / ').forEach(item => {
-      const trimmed = item.trim();
-      const m = trimmed.match(/(https?:\/\/[^\s]+)/);
-      if (m) {
-        const url = m[1];
-        const label = trimmed.replace(url, '').trim() || url;
-        html += `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="ext-arrow">↗</span></a></li>`;
-      } else {
-        html += `<li class="ext-note">${escapeHtml(trimmed)}</li>`;
-      }
-    });
-    html += `</ul></div>`;
-  }
+  html += renderExternalLinks(entry.external_links, '外部リンク・公式');
   html += `</div>`;
   return html;
 }
 
-/** 氏族の詳細解説・歴史・主要子孫・典拠(clan_extended.tsv から) */
-
+/** 主祭神 / 配祀神 セクション(shrine 用) */
 async function renderEnshrinedDeities(record) {
   const main = (record.main_deity_ids || '').split('|').map(s => s.trim()).filter(s => s && s !== '-');
   const sec = (record.secondary_deity_ids || '').split('|').map(s => s.trim()).filter(s => s && s !== '-');
@@ -370,7 +356,6 @@ async function renderEnshrinedDeities(record) {
 }
 
 /** Google Map 埋め込みセクション(shrine 用) */
-
 function renderMap(record) {
   const coords = (record.coordinates || '').trim();
   const validCoords = /^-?\d+(\.\d+)?,-?\d+(\.\d+)?$/.test(coords);

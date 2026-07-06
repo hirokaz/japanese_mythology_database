@@ -22,6 +22,7 @@
     padding: 10px 14px; cursor: pointer; background: #faf4e8;
     border: 1px solid #d9c9a8; border-bottom: none; border-radius: 6px 6px 0 0;
     font-size: 0.92em; color: #5a4a35;
+    font-family: inherit; /* <button> の UA デフォルトを打ち消す */
     white-space: nowrap;
     flex: 0 0 auto;
   }
@@ -155,15 +156,15 @@
   </details>
 
   <div class="temporal-tabs">
-    <div class="temporal-tab active" data-tab="epoch">Ritual Epoch (40)</div>
-    <div class="temporal-tab" data-tab="break">Continuity Break (42)</div>
-    <div class="temporal-tab" data-tab="medium">Persistence Medium (65)</div>
-    <div class="temporal-tab" data-tab="version">Entity Version (60)</div>
-    <div class="temporal-tab" data-tab="narrative">Narrative Layer (48)</div>
-    <div class="temporal-tab" data-tab="boundary">Sacred Boundary (30)</div>
-    <div class="temporal-tab" data-tab="landscape">Sacred Landscape (20)</div>
-    <div class="temporal-tab" data-tab="space">Ritual Space (15)</div>
-    <div class="temporal-tab" data-tab="spatial">Spatial Interp (30)</div>
+    <button type="button" class="temporal-tab active" data-tab="epoch">Ritual Epoch (40)</button>
+    <button type="button" class="temporal-tab" data-tab="break">Continuity Break (42)</button>
+    <button type="button" class="temporal-tab" data-tab="medium">Persistence Medium (65)</button>
+    <button type="button" class="temporal-tab" data-tab="version">Entity Version (60)</button>
+    <button type="button" class="temporal-tab" data-tab="narrative">Narrative Layer (48)</button>
+    <button type="button" class="temporal-tab" data-tab="boundary">Sacred Boundary (30)</button>
+    <button type="button" class="temporal-tab" data-tab="landscape">Sacred Landscape (20)</button>
+    <button type="button" class="temporal-tab" data-tab="space">Ritual Space (15)</button>
+    <button type="button" class="temporal-tab" data-tab="spatial">Spatial Interp (30)</button>
   </div>
 
   <!-- Ritual Epoch -->
@@ -247,7 +248,7 @@
   <!-- Entity Version (Phase 2 part) -->
   <section class="temporal-section" id="section-version">
     <h2 class="section-title">Entity Version (5 軸 continuity)</h2>
-    <p class="section-lead">主要 5 hub shrine × 6 epoch = 30 件。<strong>物理 / 儀礼 / 制度 / 物語 / 位置</strong> の 5 軸 continuity を独立評価 (単一スコア化禁忌、DISC-012 採択原則 3)。</p>
+    <p class="section-lead">主要 10 hub shrine × 6 epoch = 60 件。<strong>物理 / 儀礼 / 制度 / 物語 / 位置</strong> の 5 軸 continuity を独立評価 (単一スコア化禁忌、DISC-012 採択原則 3)。</p>
     <div class="filter-row">
       <label>entity:
         <select id="entityFilter">
@@ -256,6 +257,11 @@
           <option value="SHR-001">出雲大社 (SHR-001)</option>
           <option value="SHR-006">諏訪大社 (SHR-006)</option>
           <option value="SHR-005">熊野本宮大社 (SHR-005)</option>
+          <option value="SHR-011">石上神宮 (SHR-011)</option>
+          <option value="SHR-012">春日大社 (SHR-012)</option>
+          <option value="SHR-013">賀茂別雷神社 (SHR-013)</option>
+          <option value="SHR-014">賀茂御祖神社 (SHR-014)</option>
+          <option value="SHR-015">住吉大社 (SHR-015)</option>
           <option value="SHR-016">宇佐神宮 (SHR-016)</option>
         </select>
       </label>
@@ -279,15 +285,18 @@
   <!-- Narrative Layer -->
   <section class="temporal-section" id="section-narrative">
     <h2 class="section-title">Narrative Layer (神話・物語の積層)</h2>
-    <p class="section-lead">5 entity × 6 epoch = 30 件。神話・縁起・解釈の <strong>multi-layered overlays</strong> (DISC-007 + DISC-012 整合)。神仏習合/廃仏毀釈/国家神道による上書きと積層を区別。</p>
+    <p class="section-lead">8 entity × 6 epoch = 48 件。神話・縁起・解釈の <strong>multi-layered overlays</strong> (DISC-007 + DISC-012 整合)。神仏習合/廃仏毀釈/国家神道による上書きと積層を区別。</p>
     <div class="filter-row">
       <label>entity:
         <select id="narrativeEntityFilter">
           <option value="">全て</option>
           <option value="SHR-009">宗像大社 (SHR-009)</option>
+          <option value="SHR-012">春日大社 (SHR-012)</option>
+          <option value="SHR-015">住吉大社 (SHR-015)</option>
           <option value="SHR-016">宇佐神宮/八幡神 (SHR-016)</option>
           <option value="MOTIF-001">国譲り神話 (MOTIF-001)</option>
           <option value="MOTIF-002">天孫降臨 (MOTIF-002)</option>
+          <option value="MOTIF-009">八幡神顕現 (MOTIF-009)</option>
           <option value="MOTIF-026">ヤマタノオロチ (MOTIF-026)</option>
         </select>
       </label>
@@ -436,13 +445,13 @@
       <small>DISC-012 採択 第 8 軸 (時間)。continuity illusion 警告: 反復と断絶を同時可視化する原則。</small>
     </p>
     <p class="footer-meta">
-      <a href="../../">GitHub リポジトリ</a> ·
+      <a href="https://github.com/hirokaz/japanese_mythology_database" target="_blank" rel="noopener">GitHub リポジトリ</a> ·
       <a href="about.html">本基盤について</a> ·
       <a href="../../LICENSE-DATA">Data: CC BY-SA 4.0</a>
     </p>
   </div>
 </footer>
 
-<script src="../js/temporal.js"></script>
+<script src="../js/temporal.js?v=20260706"></script>
 </body>
 </html>
